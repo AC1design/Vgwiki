@@ -194,7 +194,7 @@ const Idris = () => (
                         color="red"
                         title="Headless Idris"
                         text="Special Edition"
-                        image={require('./../images/Skins/Idris_headless.png')} />
+                        image={require('./../images/Skins/Idris_Headless.png')} />
         </div>
     </div>
   </div >

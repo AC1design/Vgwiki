@@ -182,12 +182,12 @@ const Petal = () => (
                 color="#FF9000"
                 title="Space Bug Petal"
                 text="Legendary"
-                image={require('./../images/Skins/Petal_Spacebug_L.png')} />
+                        image={require('./../images/Skins/Petal_SpaceBug_L.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Tea Party Petal"
                 text="Legendary"
-                image={require('./../images/Skins/Petal_Teaparty.png')} />
+                image={require('./../images/Skins/Petal_TeaParty.png')} />
             <Skinbox
                 color="red"
                 title="Pumpkin Spice Petal"

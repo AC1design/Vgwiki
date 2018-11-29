@@ -147,7 +147,7 @@ const Saw = () => (
                 text="SAW’s basic attack pierces its target to hit all enemies along its path."
                 text2="• Bonus Range 0.5"
                 text3="• Damage 90% (+2.5%)"
-                image={require('./../images/Talents/Saw_Rare.png')}
+                        image={require('./../images/Talents/SAW_Rare.png')}
             />
             <Talentbox
                 title="Speedy Spin Up"
@@ -155,7 +155,7 @@ const Saw = () => (
                 color="#7A02EA"
                 text="Spin Up (Perk) no longer slows SAW."
                 text2="• Speed Boost Per Stack 0.012 (+0.017)"
-                image={require('./../images/Talents/Saw_Epic.png')}
+                        image={require('./../images/Talents/SAW_Epic.png')}
             />
             <Talentbox
                 title="Road Rage"
@@ -164,7 +164,7 @@ const Saw = () => (
                 text="SAW gains Spin Up (Perk) stacks after attacking an enemy with Roadie Run (A). Basic attacks reduce the cooldown of Roadie Run (A) by 50%."
                 text2="• Damage 100%"
                 text3="• Stacks 6"
-                image={require('./../images/Talents/Saw_Legendary.png')}
+                        image={require('./../images/Talents/SAW_Legendary.png')}
             />
         </div>
     </div>
