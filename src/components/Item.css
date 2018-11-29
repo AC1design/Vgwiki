@@ -1,25 +1,18 @@
 .Itembox {
-    width: 200px;
     position: relative;
 	overflow: hidden;
 	border-radius: 20px;
 	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     background-color: #2B2B2D;
+    padding-bottom:10px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     cursor: pointer;
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 2px;
+    padding: 20px;
     box-sizing: border-box;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    
+    min-height: 100%;
+   outline: none;
 }
 
 .Itembox:hover {
@@ -69,9 +62,9 @@
 }
 .Cost p {
     margin-top: -1px;
-    margin-left:70px;
+    margin-left:50px;
     background: rgba(255, 255, 255, 0.185);
-    width:40px;
+    width:50px;
     border-radius: 20px;
     justify-content: center;
     padding:5px;
@@ -107,6 +100,95 @@
     width:100%;
     background: transparent;
     padding: 20px 0px -10px;
+}
+
+/*Modal*/
+
+.Imginfo{
+    display:flex;
+    flex-direction: row;
+    text-align:left;
+      justify-content: left;
+      padding-left:20px;
+      padding-top:10px;
+      padding-bottom:10px;
+}
+
+.Modal img{
+    width: 60px;
+    height: 60px;
+    text-align:center;
+    margin-top: 15px;
+}
+
+.Info{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.Info h1{
+    color: rgb(255, 255, 255);
+	font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Info h2{
+    font-weight: 800;
+	font-size: 12px;
+    margin-top: -5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Info h3{
+    color: rgb(119, 119, 119);
+	font-weight: 800;
+    font-size: 12px;
+    margin-top: -5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Modal p{
+     position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.divider{
+    height: 3px;
+  background: rgba(240, 243, 245, 0.1);;
+  border-radius: 30px;
+  margin: 16px;
+}
+
+.Modal h4{
+    color: rgba(255,255,255, 0.8);
+	font-weight: 350;
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    white-space: pre-line;
+    text-align:left;
+    margin-left:20px;
+}
+
+.ItemsRequiredTitle{
+    color: rgba(255,255,255, 0.8);
+	font-weight: 800;
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    text-align:left;
+    margin-left:20px;
+}
+
+.ItemsRequired{
+    text-align: left;
+    margin-left:20px;
+    display:grid;
+    grid-template-columns: repeat(3, 80px);
+}
+
+.ItemsRequired img{
+    width:60px;
+    height: 60px;
 }
 
 ::-webkit-scrollbar { display: none; }

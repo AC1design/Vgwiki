@@ -10,7 +10,7 @@ const IndexPage = () => (
         <h1>VAINGLORYWIKI</h1>
         <p>UPDATE 3.8</p>
       </div>
-      <svg width="100%" height="155" viewBox="0 0 100% 200" fill="none">
+      <svg width="100%" height="145" viewBox="0 0 100% 200" fill="none">
   <path fill="#1f1f21">
   <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="10s"
     values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;
@@ -267,6 +267,15 @@ const IndexPage = () => (
         tier="TIER 3"
         color="#A0D46B"
         cost="2100"
+        description="+40 Shield
++40 Armor
++200 Max Health
+
+Activate: Reflex Block (45s cooldown). 
+Tip: Greatly reduces damage from enemy abilities."
+item1={require("./../images/Items/reflex-block.png")}
+          item2={require("./../images/Items/warmail.png")}
+          item3={require("./../images/placeholder.png")}
         > 
         </Itemsbox>
         <Itemsbox
@@ -916,7 +925,7 @@ const IndexPage = () => (
         </Itemsbox>
         <Itemsbox
           itemimg={require('./../images/Items/tornado-trigger.png')}
-          itemname="Tension Bow"
+          itemname="Tornado Trigger"
           class="WEAPON"
           tier="TIER 3"
           color="#ED5565"

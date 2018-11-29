@@ -136,3 +136,116 @@ a {
     font-size: 45px;
   }
 }
+
+/*modal queries*/
+
+.Modal {
+    max-width:940px;
+    width:95%;
+    height:auto;
+    margin:0 auto;
+        outline:none;
+    display:table;
+    margin-top: 30px;
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 50%;
+    border-radius: 20px;
+    transform:translateY(-50%);
+    background-color: rgb(43, 43, 45);
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    outline: none;
+    text-align: center;
+    overflow-y: auto;
+    }
+ 
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(41, 41, 41, 0.801);
+    backdrop-filter: blur(20px);
+    
+  }
+
+
+  .Modal button {
+      width: 100px;
+      height: 30px;
+      background: none;
+      border-radius: 20px;
+      border: 2px solid white;
+      color: white;
+      font-weight: 600;
+      cursor: pointer; 
+      outline: none;
+      margin: 20px;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+  }
+
+  .Modal button:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+  }
+
+  .ReactModal__Body--open, .ReactModal__Html--open {
+    overflow: hidden;
+}
+  
+  .player {
+   border-radius: 20px 20px 0px 0px;
+   outline: none;
+   background-color: #2B2B2D;
+  }
+
+  .ReactModal__Content {
+    opacity: 0;
+  }
+  
+  .ReactModal__Content--after-open {
+    opacity: 1;
+    transition: opacity 150ms;
+  }
+  
+  .ReactModal__Content--before-close {
+    opacity: 0;
+  }
+
+  
+
+@media (max-width:1024px) {
+    .Modal{
+        width: 85%;
+    height: auto;
+    }
+}
+
+  @media (max-width:560px) {
+  .Modal {
+    width: 95%;
+    height: auto;
+    margin:0 auto;
+    margin-top: 30px;
+    display:table;
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 50%;
+    border-radius: 20px;
+    transform:translateY(-50%);
+    background-color: rgb(43, 43, 45);
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    outline: none;
+    }
+}
