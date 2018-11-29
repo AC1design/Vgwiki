@@ -11,9 +11,9 @@ const Taka = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Taka_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Taka_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Taka_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Taka_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Taka_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Taka_Mobile.jpg")}
         heroname="TAKA"
         role='JUNGLE, ASSASSIN'
         description="Stealthy assassin who can heal while invisible."
@@ -82,8 +82,8 @@ const Taka = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Takablurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Taka.png")}>
+   bgmodel={require("./../images/BG/Takablurred.jpg")}
+   model={require("./../images/models/Taka.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -143,7 +143,7 @@ const Taka = () => (
                 color="#6393F9"
                 text="Kaiten (A) has 5 increased range."
                 text2="• Damage 125% (+4%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Taka_Rare.png')}
+                image={require('./../images/Talents/Taka_Rare.png')}
             />
             <Talentbox
                 title="Protective Decoy"
@@ -152,7 +152,7 @@ const Taka = () => (
                 text="Kaku (B) grants Taka invulnerability for 0.8s."
                 text2="• Cooldown 70% (-2.5%)"
                 text3="• Heal 110% (+4%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Taka_Epic.png')}
+                image={require('./../images/Talents/Taka_Epic.png')}
             />
             <Talentbox
                 title="Triple X-Retsu"
@@ -160,7 +160,7 @@ const Taka = () => (
                 color="#FF9000"
                 text="X-Retsu (Ult) automatically chains to 3 targets."
                 text2="• Damage 80%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Taka_Legendary.png')}
+                image={require('./../images/Talents/Taka_Legendary.png')}
             />
         </div>
     </div>
@@ -175,37 +175,37 @@ const Taka = () => (
                 color="#6393F9"
                 title="Little Fox Taka"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Taka_Little_Fox.png')} />
+                image={require('./../images/Skins/Taka_Little_Fox.png')} />
                 <Skinbox
                 color="#7A02EA"
                 title="Shiro Kage Taka"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Taka_Shiro_Kage.png')} />
+                image={require('./../images/Skins/Taka_Shiro_Kage.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="White Ghost Taka"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Taka_White_Ghost.png')} />
+                image={require('./../images/Skins/Taka_White_Ghost.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="School Days Taka"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Taka_School_Days.png')} />
+                image={require('./../images/Skins/Taka_School_Days.png')} />
                 <Skinbox
                 color="#7A02EA"
                 title="Fury Taka"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Taka_Fury.png')} />
+                image={require('./../images/Skins/Taka_Fury.png')} />
                 <Skinbox
                 color="red"
                 title="Night Shadow Taka"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Taka_Night_Shadow_SE.png')} />
+                image={require('./../images/Skins/Taka_Night_Shadow_SE.png')} />
                 <Skinbox
                 color="#FADA5E"
                 title="Night Shadow Taka"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Taka_Night_Shadow_LE.png')} />
+                image={require('./../images/Skins/Taka_Night_Shadow_LE.png')} />
             </div>
     </div>
   </div >

@@ -11,9 +11,9 @@ const Lance = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lance_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lance_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lance_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Lance_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Lance_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Lance_Mobile.jpg")}
         heroname="LANCE"
         role='JUNGLE, WARRIOR'
         description="The king of duels with massive lifesteal and self-healing."
@@ -82,8 +82,8 @@ const Lance = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lanceblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Lance.png")}>
+   bgmodel={require("./../images/BG/Lanceblurred.jpg")}
+   model={require("./../images/models/Lance.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -144,7 +144,7 @@ const Lance = () => (
                 text2="• Max Health to Barrier 15% (+2.5%)"
                 text3="• Barrier Duration 2s"
                 text4="• Cooldown 125%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lance_Rare.png')}
+                image={require('./../images/Talents/Lance_Rare.png')}
             />
             <Talentbox
                 title="Rollout"
@@ -153,7 +153,7 @@ const Lance = () => (
                 text="Combat Roll (Ult) has 2 longer range and damages enemies along its path."
                 text2="• Basic Attack to Roll Dmg 120% (+4%)"
                 text3="• Cooldown 80% (-2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lance_Epic.png')}
+                image={require('./../images/Talents/Lance_Epic.png')}
             />
             <Talentbox
                 title="Striker"
@@ -163,7 +163,7 @@ const Lance = () => (
                 text2="• Impale Damage 110%"
                 text3="• Impale Reduction 30%"
                 text4="• Combat Roll Reduction 20%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lance_Legendary.png')}
+                image={require('./../images/Talents/Lance_Legendary.png')}
             />
         </div>
     </div>
@@ -178,27 +178,27 @@ const Lance = () => (
                     color="#7A02EA"
                     title="Gladiator Lance"
                     text="Epic"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lance_Gladiator_E.png')} />
+                    image={require('./../images/Skins/Lance_Gladiator_E.png')} />
             <Skinbox
                     color="#7A02EA"
                     title="Netherknight Lance"
                     text="Epic"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lance_Netherknight_E.png')} />
+                    image={require('./../images/Skins/Lance_Netherknight_E.png')} />
             <Skinbox
                     color="#FF9000"
                     title="Pinnacle Lance"
                     text="Legendary"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lance_Netherknight_Legendary.png')} />
+                    image={require('./../images/Skins/Lance_Netherknight_Legendary.png')} />
             <Skinbox
                     color="#FF9000"
                     title="Corsair Cold Krul"
                     text="Legendary"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Samurai.png')} />
+                    image={require('./../images/Skins/Krul_Samurai.png')} />
             <Skinbox
                     color="#7A02EA"
                     title="Golden Netherknight Lance"
                     text="Epic"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lance_Golden_LE.png')} />
+                    image={require('./../images/Skins/Lance_Golden_LE.png')} />
         </div>
     </div>
   </div >

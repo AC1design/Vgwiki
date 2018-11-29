@@ -12,9 +12,9 @@ const Rona = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Rona_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Rona_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Rona_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Rona_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Rona_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Rona_Mobile.jpg")}
         heroname="RONA"
         role='JUNGLE, WARRIOR'
         description="Durable berserker who excels in the thick of fights."
@@ -83,8 +83,8 @@ const Rona = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ronablurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Rona.png")}>
+   bgmodel={require("./../images/BG/Ronablurred.jpg")}
+   model={require("./../images/models/Rona.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -153,7 +153,7 @@ const Rona = () => (
                 text="Increases maximum Bloodrage. Rona passively gains weapon power."
                 text2="• Bonus Alt Energy 60 (+10)"
                 text3="• Passive Weapon Power +5% (+1.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Rona_Rare.png')}
+                image={require('./../images/Talents/Rona_Rare.png')}
             />
             <Talentbox
                 title="Heroic Brawler"
@@ -162,7 +162,7 @@ const Rona = () => (
                 text="Basic attacks reduce the cooldown of Into the Fray (A) by 10%. Rona passively gains attack speed."
                 text2="• Passive Attack Speed +25% (+5%)"
                 text3="• Damage 50% (+7.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Rona_Epic.png')}
+                image={require('./../images/Talents/Rona_Epic.png')}
             />
             <Talentbox
                 title="Fast Whirlwind"
@@ -171,7 +171,7 @@ const Rona = () => (
                 text="Red Mist (Ult) grants Rona 1.2s bonus move speed."
                 text2="• Damage 100%"
                 text3="• Cooldown 125%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Rona_Legendary.png')}
+                image={require('./../images/Talents/Rona_Legendary.png')}
             />
         </div>
     </div>
@@ -186,32 +186,32 @@ const Rona = () => (
                 color="#6393F9"
                 title="Fury Rona"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Rona_Fury.png')} />
+                image={require('./../images/Skins/Rona_Fury.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Peacekeeper Rona"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Rona_Peacekeeper.png')} />
+                image={require('./../images/Skins/Rona_Peacekeeper.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Churnguard Rona"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Rona_Churnguard.png')} />
+                image={require('./../images/Skins/Rona_Churnguard.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Red Rona"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Rona_Red.png')} />
+                image={require('./../images/Skins/Rona_Red.png')} />
             <Skinbox
                 color="red"
                 title="Killer Bunny Rona"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Rona_Killer_Bunny_SE.png')} />
+                image={require('./../images/Skins/Rona_Killer_Bunny_SE.png')} />
             <Skinbox
                 color="#FADA5E"
                 title="Killer Bunny Rona"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Rona_Killer_Bunny_LE.png')} />
+                image={require('./../images/Skins/Rona_Killer_Bunny_LE.png')} />
         </div>
     </div>
   </div >

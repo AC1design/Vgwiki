@@ -12,9 +12,9 @@ const Tony = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Tony_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Tony_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Tony_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Tony_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Tony_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Tony_Mobile.jpg")}
         heroname="TONY"
         role='JUNGLE, WARRIOR'
         description="Dwarven brawler who taunts and pummels enemies."
@@ -83,8 +83,8 @@ const Tony = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Tonyblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Tony.png")}>
+   bgmodel={require("./../images/BG/Tonyblurred.jpg")}
+   model={require("./../images/models/Tony.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -139,7 +139,7 @@ const Tony = () => (
                 text="Tony gains bonus attack speed and increased health barrier from Come At Me (Perk)."
                 text2="• Attack Speed 10% (+2.5%)"
                 text3="• Barrier 20% (+5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Tony_Rare.png')}
+                image={require('./../images/Talents/Tony_Rare.png')}
             />
             <Talentbox
                 title="Haymakers"
@@ -147,7 +147,7 @@ const Tony = () => (
                 color="#7A02EA"
                 text="Tony’s Jawbreaker (A) now deals damage in an area around the target."
                 text2="• Bonus Damage 30% (+2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Tony_Epic.png')}
+                image={require('./../images/Talents/Tony_Epic.png')}
             />
             <Talentbox
                 title="Doesn’t Even Hurt"
@@ -155,7 +155,7 @@ const Tony = () => (
                 color="#FF9000"
                 text="Tony takes no damage from taunted targets."
                 text2="• Barrier Duration 1s"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Tony_Legendary.png')}
+                image={require('./../images/Talents/Tony_Legendary.png')}
             />
         </div>
     </div>
@@ -170,7 +170,7 @@ const Tony = () => (
                 color="#6393F9"
                 title="Steam Knight Tony"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Tony_SteamKnight.png')} />
+                image={require('./../images/Skins/Tony_SteamKnight.png')} />
         </div>
     </div>
   </div >

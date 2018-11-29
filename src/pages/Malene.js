@@ -11,9 +11,9 @@ import Layout from '../components/layout';
 const Malene = () => (
     <Layout>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Malene_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Malene_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Malene_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Malene_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Malene_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Malene_Mobile.jpg")}
         heroname="MALENE"
         role='LANE, MAGE'
         description="Form swapping spellcaster who has the tools for any situation."
@@ -82,8 +82,8 @@ const Malene = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Maleneblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Malene.png")}>
+   bgmodel={require("./../images/BG/Maleneblurred.jpg")}
+   model={require("./../images/models/Malene.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -153,7 +153,7 @@ const Malene = () => (
                 text="Wicked Escapade (Shadow B) will also deal damage where Malene appears."
                 text2="• Damage 103% (+3%)"
                 text3="• Cooldown 90% (-1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Malene_Rare.png')}
+                image={require('./../images/Talents/Malene_Rare.png')}
             />
             <Talentbox
                 title="Shadow Terror"
@@ -162,7 +162,7 @@ const Malene = () => (
                 text="Shadow Tendrils (Shadow A) will also fear enemies."
                 text2="• Damage 101% (+1%)"
                 text3="• Duration 0.6s (+0.1s)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Malene_Epic.png')}
+                image={require('./../images/Talents/Malene_Epic.png')}
             />
             <Talentbox
                 title="Royal Favors"
@@ -171,7 +171,7 @@ const Malene = () => (
                 text="Royal Amnesty (Light B) will also apply to nearby allies and deal damage around shielded targets upon expiration."
                 text2="• Barrier 120%"
                 text3="• Damage 200"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Malene_Legendary.png')}
+                image={require('./../images/Talents/Malene_Legendary.png')}
             />
         </div>
     </div>
@@ -186,7 +186,7 @@ const Malene = () => (
                 color="Red"
                 title="Trick or Treat Malene"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Malene_Trick_or_Treat.png')} />
+                image={require('./../images/Skins/Malene_Trick_or_Treat.png')} />
         </div>
     </div>
   </Layout>

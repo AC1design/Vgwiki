@@ -12,9 +12,9 @@ const Grace = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Grace_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Grace_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Grace_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Grace_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Grace_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Grace_Mobile.jpg")}
         heroname="GRACE"
         role='JUNGLE, PROTECTOR'
         description="A powerful paladin with a massive heal."
@@ -83,8 +83,8 @@ const Grace = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Graceblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Grace.png")}>
+   bgmodel={require("./../images/BG/Graceblurred.jpg")}
+   model={require("./../images/models/Grace.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -149,7 +149,7 @@ const Grace = () => (
                 text="Retribution (Perk) deal bonus crystal damage. Grace passively gains crystal power."
                 text2="• Damage +100% (+4%)"
                 text3="• Passive Crystal Power +15% (+2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Grace_Rare.png')}
+                image={require('./../images/Talents/Grace_Rare.png')}
             />
             <Talentbox
                 title="Double Benediction"
@@ -158,7 +158,7 @@ const Grace = () => (
                 text="Benediction (A) has 1 additional charge."
                 text2="• Damage Reduction 50% (+3%)"
                 text3="• Cooldown 80% (-3.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Grace_Epic.png')}
+                image={require('./../images/Talents/Grace_Epic.png')}
             />
             <Talentbox
                 title="United Front"
@@ -167,7 +167,7 @@ const Grace = () => (
                 text="Divine Intervention (Ult) also heals Grace."
                 text2="• Heal 75% (+15%)"
                 text3="• Cooldown 80% (-7.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Grace_Legendary.png')}
+                image={require('./../images/Talents/Grace_Legendary.png')}
             />
         </div>
     </div>
@@ -182,12 +182,12 @@ const Grace = () => (
                 color="#7A02EA"
                 title="Valkyrie Grace"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Grace_Valkyrie.png')} />
+                image={require('./../images/Skins/Grace_Valkyrie.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Tea Party Grace"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Grace_Tea_Party.png')} />
+                image={require('./../images/Skins/Grace_Tea_Party.png')} />
         </div>
     </div>
   </div >

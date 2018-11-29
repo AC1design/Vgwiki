@@ -13,9 +13,9 @@ const Adagio = () => (
 <div style={{ height: "100%" }}>
 <meta name="theme-color" content="#1f1f21"/>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Adagio_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Adagio_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Adagio_Mobile.jpg")}
+                bgdesktop={require("./../images/BG/Adagio_Desktop.jpg")}
+                bgtablet={require("./../images/BG/Adagio_Tablet.jpg")}
+                bgmobile={require("./../images/BG/Adagio_Mobile.jpg")}
         heroname="ADAGIO"
         role='JUNGLER, PROTECTOR'
         description="Team healer and damage enhancer with a large area stun."
@@ -84,8 +84,8 @@ const Adagio = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Adagioblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Adagio.png")}>
+   bgmodel={require("./../images/BG/Adagioblurred.jpg")}
+   model={require("./../images/models/Adagio.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -149,7 +149,7 @@ const Adagio = () => (
                 text="Gift of Fire (A) grants fortified health equal to a portion of its burst heal. Shorter cooldown."
                 text2="• Heal to Fort Health 80% (+10%)%"
                 text3="• Cooldown 90% (-1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Adagio_Rare.png')}
+                image={require('./../images/Talents/Adagio_Rare.png')}
             />
             <Talentbox
                 title="Avenging Wrath"
@@ -158,7 +158,7 @@ const Adagio = () => (
                 text="Core Collapse (B) creates four black-hole collapses. Longer cooldown and lower damage."
                 text2="• Dmg to Burning Targets 165% (+2.5%)"
                 text3="• Charge Time 95% (-4%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Adagio_Epic.png')}
+                image={require('./../images/Talents/Adagio_Epic.png')}
             />
             <Talentbox
                 title="Healing Verse"
@@ -168,7 +168,7 @@ const Adagio = () => (
                 text2="• Damage 60% (+10%)"
                 text3="• Cooldown 55% (-7.5%)"
                 text4="• Max Health to Heal 65% (+15%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Adagio_Legendary.png')}
+                image={require('./../images/Talents/Adagio_Legendary.png')}
             />
         </div>
     </div>
@@ -183,27 +183,27 @@ const Adagio = () => (
                 color="#6393F9"
                 title="Spiderwing Adagio"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Adagio_Dark_Parade_I_R.png')} />
+                image={require('./../images/Skins/Adagio_Dark_Parade_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Dark Parade Adagio"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Adagio_Dark_Parade_II_E.png')} />
+                image={require('./../images/Skins/Adagio_Dark_Parade_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Crimson Song Adagio"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Adagio_Dark_Parade_III_L.png')} />
+                image={require('./../images/Skins/Adagio_Dark_Parade_III_L.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Seraphim Adagio"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Adagio_Seraphim_E.png')} />
+                image={require('./../images/Skins/Adagio_Seraphim_E.png')} />
             <Skinbox
                 color="#6393F9"
                 title="Ra'dagio"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Adagio_Ra_Rare.png')} />
+                image={require('./../images/Skins/Adagio_Ra_Rare.png')} />
         </div>
     </div>
   </div >

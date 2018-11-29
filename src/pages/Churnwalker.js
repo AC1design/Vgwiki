@@ -12,9 +12,9 @@ const Churnwalker = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Churnwalker_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Churnwalker_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Churnwalker_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Churnwalker_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Churnwalker_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Churnwalker_Mobile.jpg")}
         heroname="CHURNWALKER"
         role='JUNGLE, WARRIOR'
         description="A disruptor who throws multiple skillshot hooks, chaining victims to him."
@@ -83,8 +83,8 @@ const Churnwalker = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Churnwalkerblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Churnwalker.png")}>
+   bgmodel={require("./../images/BG/Churnwalkerblurred.jpg")}
+   model={require("./../images/models/Churnwalker.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -141,7 +141,7 @@ const Churnwalker = () => (
                 text="Futility of Life (Perk) has significantly increased healing but decreased damage share."
                 text2="• Heal 210% (+10%)"
                 text3="• Damage 50% (+1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Churnwalker_Rare.png')}
+                image={require('./../images/Talents/Churnwalker_Rare.png')}
             />
             <Talentbox
                 title="Cloud of Torment"
@@ -152,7 +152,7 @@ const Churnwalker = () => (
                 text3="• Damage / Sec 50 (+40)"
                 text4="• Radius 4"
                 text5="• Cooldown 3s (-0.2s)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Churnwalker_Epic.png')}
+                image={require('./../images/Talents/Churnwalker_Epic.png')}
             />
             <Talentbox
                 title="Grappling Hook"
@@ -161,7 +161,7 @@ const Churnwalker = () => (
                 text="Churnwalker’s Hook & Chain (A) gains a grappling hook. This ability has dramatically increased range and can grapple to targets, pulling Churnwalker to the hooked location."
                 text2="• Bleed Damage 60%"
                 text3="• Cooldown 190%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Churnwalker_Legendary.png')}
+                image={require('./../images/Talents/Churnwalker_Legendary.png')}
             />
         </div>
     </div>
@@ -176,7 +176,7 @@ const Churnwalker = () => (
                 color="#FF9000"
                 title="Clownwalker"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Churnwalker_Clownwalker.png')} />
+                image={require('./../images/Skins/Churnwalker_Clownwalker.png')} />
         </div>
     </div>
   </div >

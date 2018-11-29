@@ -11,9 +11,9 @@ import Layout from '../components/layout'
 const Anka = () => (
     <Layout>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Anka_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Anka_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Anka_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Anka_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Anka_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Anka_Mobile.jpg")}
         heroname="ANKA"
         role='LANE, ASSASSIN'
         description="An elusive and bursty assassin who strikes with a flurry of blades."
@@ -82,8 +82,8 @@ const Anka = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ankablurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Anka.png")}>
+   bgmodel={require("./../images/BG/Ankablurred.jpg")}
+   model={require("./../images/models/Anka.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -93,14 +93,14 @@ const Anka = () => (
     <div className="SkillboxGroupScroll">
         <div className="SkillboxGroup">
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Anka-P.mp4')}
+                video={require('./../images/SkillVideos/Anka-P.mp4')}
                 title="GYTHIAN PROMISE"
                 subtitle="HEROIC PERK"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/Blade_sized_icons_Perk.jpg'
                 text="After a short cooldown, Anka’s next basic attack on an enemy hero becomes Execute Strike, dealing bonus crystal damage equal to 13-25% (level 1-12) of the target’s missing health. Additionally, Anka fully refreshes Execute Strike and Shimmer Blade upon getting a hero kill or assist."
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Anka-A.mp4')}
+                video={require('./../images/SkillVideos/Anka-A.mp4')}
                 title="SHIMMER BLADE"
                 subtitle="A ABILITY"
                 text="Anka throws a dagger in the target direction, dealing damage to the first enemy hit. When the dagger hits an enemy, Anka can reactivate the ability within 2.2s to blink next to the victim.
@@ -108,7 +108,7 @@ const Anka = () => (
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/Blade_sized_icons_A1.png'
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Anka-B.mp4')}
+                video={require('./../images/SkillVideos/Anka-B.mp4')}
                 title="DANCE OF BLADES"
                 subtitle="B ABILITY"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/Blade_sized_icons_B.jpg'
@@ -116,7 +116,7 @@ const Anka = () => (
                 Each additional knife after the first deals damage equal to 50% of the initial damage."
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Anka-C.mp4')}
+                video={require('./../images/SkillVideos/Anka-C.mp4')}
                 title="MIRAGE"
                 subtitle="ULTIMATE"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/Blade_sized_icons_C.jpg'
@@ -141,7 +141,7 @@ const Anka = () => (
                 text2="• Damage 100% (+5%)"
                 text3="• Bonus Move Speed 1.5 (+0.1)"
                 text4="• Bonus Move Speed Duration 3s"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Anka_Rare.png')}
+                image={require('./../images/Talents/Anka_Rare.png')}
             />
             <Talentbox
                 title="Gythian Tempest"
@@ -149,7 +149,7 @@ const Anka = () => (
                 color="#7A02EA"
                 text="Gythian Promise (Perk) refreshes all abilities on hero kill/assist. Anka passively gains crystal power."
                 text2="• Passive Crystal Power +2%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Anka_Epic.png')}
+                image={require('./../images/Talents/Anka_Epic.png')}
             />
             <Talentbox
                 title="Crimson Blade"
@@ -159,7 +159,7 @@ const Anka = () => (
                 text2="• Range 50"
                 text3="• Cooldown 60%"
                 text4="• Damage 110% (+20%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Anka_Legendary.png')}
+                image={require('./../images/Talents/Anka_Legendary.png')}
             />
         </div>
     </div>
@@ -174,7 +174,7 @@ const Anka = () => (
                 color="#6393F9"
                 title="Frostborn Anka"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Anka_Frostborn.png')} />
+                image={require('./../images/Skins/Anka_Frostborn.png')} />
         </div>
     </div>
   </Layout>

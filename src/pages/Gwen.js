@@ -12,9 +12,9 @@ const Gwen = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Gwen_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Gwen_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Gwen_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Gwen_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Gwen_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Gwen_Mobile.jpg")}
         heroname="GWEN"
         role='LANE, PROTECTOR'
         description="Gunslinger with powerful burst damage and ability to shake off disables."
@@ -83,8 +83,8 @@ const Gwen = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Gwenblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Gwen.png")}>
+   bgmodel={require("./../images/BG/Gwenblurred.jpg")}
+   model={require("./../images/models/Gwen.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -145,7 +145,7 @@ const Gwen = () => (
                 text="Buckshot Bonanza (A) is reset whenever Gwen uses Skedaddle (B)."
                 text2="• Damage 90% (+2.5%)"
                 text3="• Energy Cost 50%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Gwen_Rare.png')}
+                image={require('./../images/Talents/Gwen_Rare.png')}
             />
             <Talentbox
                 title="Skedaddling"
@@ -155,7 +155,7 @@ const Gwen = () => (
                 text2="• Bonus Duration 1s (+0.2s)"
                 text3="• Cooldown 60% (-2.5%)"
                 text4="• assive Weapon Power 10% (+1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Gwen_Epic.png')}
+                image={require('./../images/Talents/Gwen_Epic.png')}
             />
             <Talentbox
                 title="Three of a Kind"
@@ -164,7 +164,7 @@ const Gwen = () => (
                 text="Aces High (Ult) fires three cards in a cone."
                 text2="• Damage 60%"
                 text3="• Cooldown 60%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Gwen_Legendary.png')}
+                image={require('./../images/Talents/Gwen_Legendary.png')}
             />
         </div>
     </div>
@@ -179,12 +179,12 @@ const Gwen = () => (
                 color="#6393F9"
                 title="Gangster Gwen"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Gwen_Gangster_R.png')} />
+                image={require('./../images/Skins/Gwen_Gangster_R.png')} />
             <Skinbox
                 color="red"
                 title="Red Lanter Gwen"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Gwen_Red_Lantern.png')} />
+                image={require('./../images/Skins/Gwen_Red_Lantern.png')} />
         </div>
     </div>
   </div >

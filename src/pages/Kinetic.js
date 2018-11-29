@@ -11,9 +11,9 @@ const Kinetic = () => (
     <div style={{ height: "100%" }}>
     <Layout>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kinetic_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kinetic_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kinetic_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Kinetic_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Kinetic_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Kinetic_Mobile.jpg")}
         heroname="KESTREL"
         role='LANER, SNIPER'
         description="Nimble duelist weilding a powerful pulse cannon"
@@ -82,8 +82,8 @@ const Kinetic = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kineticblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Kinetic.png")}>
+   bgmodel={require("./../images/BG/Kineticblurred.jpg")}
+   model={require("./../images/models/Kinetic.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -93,7 +93,7 @@ const Kinetic = () => (
     <div className="SkillboxGroupScroll">
         <div className="SkillboxGroup">
         <Skillbox
-            video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Kinetic-P.mp4')}
+            video={require('./../images/SkillVideos/Kinetic-P.mp4')}
                 title="TRACER SHOTS"
                 subtitle="HEROIC PERK"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/perk_kinetic_tracer_shots.jpg'
@@ -102,14 +102,14 @@ const Kinetic = () => (
                 • Tracer Damage: 4-15 (Level 1-12) (+10% weapon power)"
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Kinetic-A.mp4')}
+                video={require('./../images/SkillVideos/Kinetic-A.mp4')}
                 title="PLASMA DRIVER"
                 subtitle="A ABILITY"
                 text="Kinetic unleashes a burst of energy, damaging the first enemy struck."
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/A_icon_kinetic_plasma_driver.jpg'
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Kinetic-B.mp4')}
+                video={require('./../images/SkillVideos/Kinetic-B.mp4')}
                 title="OVERWHELM"
                 subtitle="B ABILITY"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/B_icon_kinetic_inertial_dash.jpg'
@@ -120,7 +120,7 @@ const Kinetic = () => (
                 • Refreshes Plasma Driver's cooldown"
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Kinetic-C.mp4')}
+                video={require('./../images/SkillVideos/Kinetic-C.mp4')}
                 title="IRON MANDATE"
                 subtitle="ULTIMATE"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/C_icon_kinetic_charged_pulse.jpg'
@@ -144,7 +144,7 @@ const Kinetic = () => (
                 text="Tracer Shots (Perk) deals increased damage. Kinetic passively gains attack speed."
                 text2="• Attack Speed 30% (+2%)"
                 text3="• Damage 104% (+4%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kinetic_Rare.png')}
+                image={require('./../images/Talents/Kinetic_Rare.png')}
             />
             <Talentbox
                 title="Plasma Overdrive"
@@ -153,7 +153,7 @@ const Kinetic = () => (
                 text="Plasma Driver (A) fires two additional bursts."
                 text2="•  Damage 60% (+5%)"
                 text3="• Range -2"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kinetic_Epic.png')}
+                image={require('./../images/Talents/Kinetic_Epic.png')}
             />
             <Talentbox
                 title="Max Kinetic"
@@ -162,7 +162,7 @@ const Kinetic = () => (
                 text="Damaging enemies with Plasma Driver (A) reduces Inertial Dash’s (B) cooldown."
                 text2="• Damage 30%"
                 text3="• Cooldown 150%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kinetic_Legendary.png')}
+                image={require('./../images/Talents/Kinetic_Legendary.png')}
             />
         </div>
     </div>
@@ -177,7 +177,7 @@ const Kinetic = () => (
                 color="#6393F9"
                 title="Enforcer Kinetic"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Kinetic_Enforcer.png')} />
+                image={require('./../images/Skins/Kinetic_Enforcer.png')} />
         </div>
     </div>
   </Layout>

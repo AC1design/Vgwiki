@@ -12,9 +12,9 @@ const Samuel = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Samuel_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Samuel_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Samuel_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Samuel_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Samuel_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Samuel_Mobile.jpg")}
         heroname="SAMUEL"
         role='LANE, MAGE'
         description="Dark zone-control mage who can put enemies to sleep."
@@ -83,8 +83,8 @@ const Samuel = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Samuelblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Samuel.png")}>
+   bgmodel={require("./../images/BG/Samuelblurred.jpg")}
+   model={require("./../images/models/Samuel.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -147,7 +147,7 @@ const Samuel = () => (
                 text="Corrupted Genius (Perk) occurs more frequently."
                 text2="• Heal 150% (+10%)"
                 text3="• Charge Time 2s"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Samuel_Rare.png')}
+                image={require('./../images/Talents/Samuel_Rare.png')}
             />
             <Talentbox
                 title="Unwaking Nightmare"
@@ -156,7 +156,7 @@ const Samuel = () => (
                 text="Enemies put to sleep by Oblivion (Ult) will not wake up when taking damage."
                 text2="• Cooldown 70% (-2.5%)"
                 text3="• Sleep Duration 2s (+0.1s)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Samuel_Epic.png')}
+                image={require('./../images/Talents/Samuel_Epic.png')}
             />
             <Talentbox
                 title="Viscous Darkness"
@@ -167,7 +167,7 @@ const Samuel = () => (
                 text3="• Damage 150%"
                 text4="• Duration 6s"
                 text5="• Slow Strength 50%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Samuel_Legendary.png')}
+                image={require('./../images/Talents/Samuel_Legendary.png')}
             />
         </div>
     </div>
@@ -182,12 +182,12 @@ const Samuel = () => (
                 color="#6393F9"
                 title="Apprentice Samuel"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Samuel_Apprentice.png')} />
+                image={require('./../images/Skins/Samuel_Apprentice.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Evolution Samuel"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Samuel_Evolution.png')} />
+                image={require('./../images/Skins/Samuel_Evolution.png')} />
         </div>
     </div>
   </div >

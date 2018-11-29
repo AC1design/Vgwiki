@@ -2,7 +2,7 @@ import React from 'react'
 import '../components/Skillbox.css'
 import Modal from 'react-modal';
 import { Player, ControlBar } from 'video-react'
-import '/Users/angelocantone/Documents/vgprowiki/node_modules/video-react/dist/video-react.css'
+import 'video-react/dist/video-react.css'
 
 class Skillbox extends React.Component {
     constructor(props) {

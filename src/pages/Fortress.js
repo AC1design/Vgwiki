@@ -12,9 +12,9 @@ const Fortress = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Fortress_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Fortress_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Fortress_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Fortress_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Fortress_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Fortress_Mobile.jpg")}
         heroname="FORTRESS"
         role='JUNGLE, PROTECTOR'
         description="Agressive pack leader who swarms the enemy with great speed."
@@ -83,8 +83,8 @@ const Fortress = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Fortressblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Fortress.png")}>
+   bgmodel={require("./../images/BG/Fortressblurred.jpg")}
+   model={require("./../images/models/Fortress.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -150,7 +150,7 @@ const Fortress = () => (
                 text2="• Bonus Range 1.6 (+0.1)"
                 text3="• Passive Weapon Power +0.5% (+0.5%)"
                 text4="• Passive Attack Speed +0.5% (+0.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Fortress_Rare.png')}
+                image={require('./../images/Talents/Fortress_Rare.png')}
             />
             <Talentbox
                 title="Critical Wounds"
@@ -159,7 +159,7 @@ const Fortress = () => (
                 text="Fortress gains +15% critical chance for each active wolf summoned by Attack of the Pack (Ult). Fortress passively gains critical strike damage."
                 text2="• Passive Crit Dmg +25% (+2.5%)"
                 text3="• Cooldown 125% (-5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Fortress_Epic.png')}
+                image={require('./../images/Talents/Fortress_Epic.png')}
             />
             <Talentbox
                 title="Flank Attack"
@@ -168,7 +168,7 @@ const Fortress = () => (
                 text="Truth of the Tooth (A) and Law of the Claw (B) spawn a wolf to attack Fortress’ target, up to a maximum of 3 wolves."
                 text2="• Bleed Damage 60%"
                 text3="• Cooldown 190%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Fortress_Legendary.png')}
+                image={require('./../images/Talents/Fortress_Legendary.png')}
             />
         </div>
     </div>
@@ -183,37 +183,37 @@ const Fortress = () => (
                 color="#6393F9"
                 title="Firehound Fortress"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Fortress_Netherworld_I_R.png')} />
+                image={require('./../images/Skins/Fortress_Netherworld_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Netherworld Fortress"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Fortress_Netherworld_II_E.png')} />
+                image={require('./../images/Skins/Fortress_Netherworld_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Cerberus Fortress"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Fortress_Netherworld_III_L.png')} />
+                image={require('./../images/Skins/Fortress_Netherworld_III_L.png')} />
             <Skinbox
                 color="#6393F9"
                 title="Dire Fortress"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Fortress_Dire_Rare.png')} />
+                image={require('./../images/Skins/Fortress_Dire_Rare.png')} />
             <Skinbox
                 color="#FADA5E"
                 title="Gift Wrapped Fortress"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Fortress_Gift-wrapped_LE.png')} />
+                image={require('./../images/Skins/Fortress_Gift-wrapped_LE.png')} />
             <Skinbox
                 color="red"
                 title="Gift Wrapped Fortress"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Fortress_Gift-wrapped_SE.png')} />
+                image={require('./../images/Skins/Fortress_Gift-wrapped_SE.png')} />
             <Skinbox
                 color="red"
                 title="Summer Party Fortress"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Fortress_Summer_Party.png')} />
+                image={require('./../images/Skins/Fortress_Summer_Party.png')} />
         </div>
     </div>
   </div >

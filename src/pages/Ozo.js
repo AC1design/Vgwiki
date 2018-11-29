@@ -11,9 +11,9 @@ const Ozo = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ozo_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ozo_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ozo_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Ozo_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Ozo_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Ozo_Mobile.jpg")}
         heroname="OZO"
         role='JUNGLE, ASSASSIN'
         description="Acrobatic monkey with immense self-healing."
@@ -82,8 +82,8 @@ const Ozo = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ozoblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Ozo.png")}>
+   bgmodel={require("./../images/BG/Ozoblurred.jpg")}
+   model={require("./../images/models/Ozo.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -147,7 +147,7 @@ const Ozo = () => (
                 text="Acrobounce (B) is reset upon the third bounce."
                 text2="• Damage 65% (+2%)"
                 text3="• Fortified Health 155% (+7.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ozo_Rare.png')}
+                image={require('./../images/Talents/Ozo_Rare.png')}
             />
             <Talentbox
                 title="Ring Leader"
@@ -155,7 +155,7 @@ const Ozo = () => (
                 color="#7A02EA"
                 text="Three-Ring Circus (A) heals nearby allies."
                 text2="• Heal 110% (+7.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ozo_Epic.png')}
+                image={require('./../images/Talents/Ozo_Epic.png')}
             />
             <Talentbox
                 title="Bangaranarang!"
@@ -164,7 +164,7 @@ const Ozo = () => (
                 text="Bangarang (ult) has 1 additional charge."
                 text2="• Damage 90% (+15%)"
                 text3="• Cooldown 70% (-7.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ozo_Legendary.png')}
+                image={require('./../images/Talents/Ozo_Legendary.png')}
             />
         </div>
     </div>
@@ -179,12 +179,12 @@ const Ozo = () => (
                     color="#6393F9"
                     title="Wuxia Ozo"
                     text="Rare"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ozo_Wuxia_R.png')} />
+                    image={require('./../images/Skins/Ozo_Wuxia_R.png')} />
             <Skinbox
                     color="#7A02EA"
                     title="Winged Ozo"
                     text="Epic"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Winged_Ozo.png')} />
+                    image={require('./../images/Skins/Winged_Ozo.png')} />
         </div>
     </div>
   </div >

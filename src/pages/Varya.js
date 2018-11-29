@@ -12,9 +12,9 @@ const Varya = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Varya_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Varya_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Varya_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Varya_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Varya_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Varya_Mobile.jpg")}
         heroname="VARYA"
         role='LANE, MAGE'
         description="Shocking valkyrie who chains massive damage across enemy teams."
@@ -83,8 +83,8 @@ const Varya = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kestrelblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Varya.png")}>
+   bgmodel={require("./../images/BG/Kestrelblurred.jpg")}
+   model={require("./../images/models/Varya.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -147,7 +147,7 @@ const Varya = () => (
                 text2="• Bonus Range 0.8 (+0.3)"
                 text3="• Damage 101% (+1%)"
                 text4="• Stun Duration 0.12s (+0.02s)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Varya_Rare.png')}
+                image={require('./../images/Talents/Varya_Rare.png')}
             />
             <Talentbox
                 title="Static Barrier"
@@ -155,7 +155,7 @@ const Varya = () => (
                 color="#7A02EA"
                 text="Tony’s Jawbreaker (A) now deals damage in an area around the target."
                 text2="• Barrier 130% (+15%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Varya_Epic.png')}
+                image={require('./../images/Talents/Varya_Epic.png')}
             />
             <Talentbox
                 title="Thunderstorm"
@@ -163,7 +163,7 @@ const Varya = () => (
                 color="#FF9000"
                 text="Tony takes no damage from taunted targets."
                 text2="• Damage 130% (+20%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Varya_Legendary.png')}
+                image={require('./../images/Talents/Varya_Legendary.png')}
             />
         </div>
     </div>
@@ -178,7 +178,7 @@ const Varya = () => (
                 color="#6393F9"
                 title="Winter War Varya"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Varya_WinterWar.png')} />
+                image={require('./../images/Skins/Varya_WinterWar.png')} />
         </div>
     </div>
   </div>

@@ -11,9 +11,9 @@ const Yates = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Yates_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Yates_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Yates_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Yates_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Yates_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Yates_Mobile.jpg")}
         heroname="YATES"
         role='JUNGLE, PROTECTOR'
         description="Battelfield commander who grabs enemies and has a global presence."
@@ -82,8 +82,8 @@ const Yates = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Yatesblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Yates.png")}>
+   bgmodel={require("./../images/BG/Yatesblurred.jpg")}
+   model={require("./../images/models/Yates.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -93,7 +93,7 @@ const Yates = () => (
     <div className="SkillboxGroupScroll">
         <div className="SkillboxGroup">
             <Skillbox
-            video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Yates-A.mp4')}
+            video={require('./../images/SkillVideos/Yates-A.mp4')}
                 title="DEVASTATION FLAIL"
                 subtitle="HEROIC PERK"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/08/Passive_256-150x150.png'
@@ -102,14 +102,14 @@ const Yates = () => (
                 Third Hit: Bonus damage and gain a large movespeed boost."
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Yates-A.mp4')}
+                video={require('./../images/SkillVideos/Yates-A.mp4')}
                 title="WOLF’S MAW"
                 subtitle="A ABILITY"
                 text="Yates extends his flail forward, pulling in the first enemy hit."
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/08/A_256-150x150.png'
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Yates-B.mp4')}
+                video={require('./../images/SkillVideos/Yates-B.mp4')}
                 title="OVERWHELM"
                 subtitle="B ABILITY"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/08/B_256-150x150.png'
@@ -140,7 +140,7 @@ const Yates = () => (
                 text2="• Cooldown 110% (-2%)"
                 text3="• Damage 75% (+5%)"
                 text4="• Bonus Range 2.5 (+0.4)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Yates_Rare.png')}
+                image={require('./../images/Talents/Yates_Rare.png')}
             />
             <Talentbox
                 title="Whiplash"
@@ -149,7 +149,7 @@ const Yates = () => (
                 text="Devastation Flail (Perk) third hit deals greatly increased damage."
                 text2="• Damage 120%"
                 text3="• Passive Attack Speed +0%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Yates_Epic.png')}
+                image={require('./../images/Talents/Yates_Epic.png')}
             />
             <Talentbox
                 title="Rapid Response"
@@ -159,7 +159,7 @@ const Yates = () => (
                 text2="• Cooldown 60%"
                 text3="• Damage 120%"
                 text4="• Barrier 140%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Yates_Legendary.png')}
+                image={require('./../images/Talents/Yates_Legendary.png')}
             />
         </div>
     </div>
@@ -175,8 +175,8 @@ const Yates = () => (
                 title="Crimson Wolf Yates"
                 text="Rare"
                 price="1200"
-                priceicon={require('/Users/angelocantone/Documents/vgprowiki/src/images/ICE.png')}
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Yates_CrimsonWolf.png')} />
+                priceicon={require('./../images/ICE.png')}
+                image={require('./../images/Skins/Yates_CrimsonWolf.png')} />
         </div>
     </div>
   </div >

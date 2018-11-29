@@ -12,9 +12,9 @@ const Blackfeather = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Blackfeather_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Blackfeather_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Blackfeather_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Blackfeather_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Blackfeather_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Blackfeather_Mobile.jpg")}
         heroname="BLACKFEATHER"
         role='LANE, ASSASSIN'
         description="Evasive fighter who excels at chasing and cleaning up fragile enemies."
@@ -83,8 +83,8 @@ const Blackfeather = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Blackfeatherblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Blackfeather.png")}>
+   bgmodel={require("./../images/BG/Blackfeatherblurred.jpg")}
+   model={require("./../images/models/Blackfeather.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -96,7 +96,7 @@ const Blackfeather = () => (
             <Skillbox
                 title="HEARTTHROB"
                 subtitle="HEROIC PERK"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/heartthrob.png')}
+                image={require('./../images/heartthrob.png')}
                 text="Blackfeather's attacks and abilities apply Heartthrob stacks to enemies. Any time stacks are added or refreshed, Blackfeather deals bonus crystal damage for each stack already on the target.
 
                 • Bonus damage: 5-10 (level 1-12) (+15% of crystal power).
@@ -153,7 +153,7 @@ const Blackfeather = () => (
                 text="Heartthrob (Perk) lasts 4s longer on targets. Blackfeather passively gains weapon power and attack speed."
                 text2="• Passive Attack Speed +20% (+2%)"
                 text3="• Passive Weapon Power +5% (+1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Blackfeather_Rare.png')}
+                image={require('./../images/Talents/Blackfeather_Rare.png')}
             />
             <Talentbox
                 title="Point Guard"
@@ -161,7 +161,7 @@ const Blackfeather = () => (
                 color="#7A02EA"
                 text="Landing On Point (B) on an enemy hero grants a stronger barrier to nearby allies for 2s."
                 text2="• Barrier 150% (+10%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Blackfeather_Epic.png')}
+                image={require('./../images/Talents/Blackfeather_Epic.png')}
             />
             <Talentbox
                 title="Elusiveness"
@@ -171,7 +171,7 @@ const Blackfeather = () => (
                 text2="• Damage 100%"
                 text3="• Focus Cost 5%"
                 text4="• Charge Time 50%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Blackfeather_Legendary.png')}
+                image={require('./../images/Talents/Blackfeather_Legendary.png')}
             />
         </div>
     </div>
@@ -186,22 +186,22 @@ const Blackfeather = () => (
                 color="#6393F9"
                 title="Dynasties Blackfeather"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Blackfeather_Dynasties_R.png')} />
+                image={require('./../images/Skins/Blackfeather_Dynasties_R.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Champion Blackfeather"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Blackfeather_Champion_L.png')} />
+                image={require('./../images/Skins/Blackfeather_Champion_L.png')} />
             <Skinbox
                 color="red"
                 title="Love Bites Blackfeather"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Blackfeather_Love_Bites_SE.png')} />
+                image={require('./../images/Skins/Blackfeather_Love_Bites_SE.png')} />
             <Skinbox
                 color="red"
                 title="Summer Party Blackfeather"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Blackfeather_Summer_Party.png')} />
+                image={require('./../images/Skins/Blackfeather_Summer_Party.png')} />
         </div>
     </div>
   </div >

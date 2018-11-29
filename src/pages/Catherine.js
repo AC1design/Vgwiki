@@ -12,9 +12,9 @@ const Catherine = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Catherine_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Catherine_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Catherine_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Catherine_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Catherine_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Catherine_Mobile.jpg")}
         heroname="CATHERINE"
         role='JUNGLE, PROTECTOR'
         description="Disruptive tank with lots of stuns and a powerful silence."
@@ -83,8 +83,8 @@ const Catherine = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Catherineblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Catherine.png")}>
+   bgmodel={require("./../images/BG/Catherineblurred.jpg")}
+   model={require("./../images/models/Catherine.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -144,7 +144,7 @@ const Catherine = () => (
                 text2="• Duration 30s"
                 text3="• Weapon Power/Stack +1% (+1%)"
                 text4="• Crystal Power/Stack +1% (+1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Catherine_Rare.png')}
+                image={require('./../images/Talents/Catherine_Rare.png')}
             />
             <Talentbox
                 title="Quick Pursuit"
@@ -153,7 +153,7 @@ const Catherine = () => (
                 text="While Stormguard (B) is active, Catherine’s basic attacks will reduce the cooldown of Merciless Pursuit (A) and Blast Tremor (Ult)."
                 text2="• Merciless Pursuit Reduction 10% (+1.5%)"
                 text3="• Blast Tremor Reduction 5% (+1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Catherine_Epic.png')}
+                image={require('./../images/Talents/Catherine_Epic.png')}
             />
             <Talentbox
                 title="Shockwave"
@@ -162,7 +162,7 @@ const Catherine = () => (
                 text="Blast Tremor (Ult) knock back enemies but no longer silences."
                 text2="• Cooldown 70% (-7.5%)"
                 text3="• Damage 115% (+15%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Catherine_Legendary.png')}
+                image={require('./../images/Talents/Catherine_Legendary.png')}
             />
         </div>
     </div>
@@ -177,52 +177,52 @@ const Catherine = () => (
                 color="#6393F9"
                 title="Queen's Knight Catherine"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Paragon_I_R.png')} />
+                image={require('./../images/Skins/Catherine_Paragon_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Paragon Catherine"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Paragon_II_E.png')} />
+                image={require('./../images/Skins/Catherine_Paragon_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Serpent Mask Catherine"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Paragon_III_L.png')} />
+                image={require('./../images/Skins/Catherine_Paragon_III_L.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Gladiator Catherine"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Gladiator_E.png')} />
+                image={require('./../images/Skins/Catherine_Gladiator_E.png')} />
             <Skinbox
                 color="#FADA5E"
                 title="Winter War Catherine"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Winter_War_LE.png')} />
+                image={require('./../images/Skins/Catherine_Winter_War_LE.png')} />
             <Skinbox
                 color="red"
                 title="Winter War Catherine"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Winter_War_SE.png')} />
+                image={require('./../images/Skins/Catherine_Winter_War_SE.png')} />
             <Skinbox
                 color="red"
                 title="Championship Catherine"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Championship.png')} />
+                image={require('./../images/Skins/Catherine_Championship.png')} />
             <Skinbox
                 color="red"
                 title="Summer Party Catherine"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Summer_Red.png')} />
+                image={require('./../images/Skins/Catherine_Summer_Red.png')} />
             <Skinbox
                 color="red"
                 title="Surf's Up Catherine"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Summer_Blue.png')} />
+                image={require('./../images/Skins/Catherine_Summer_Blue.png')} />
             <Skinbox
                 color="red"
                 title="Beeach Patrol Catherine"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Catherine_Summer_Black_Orange.png')} />
+                image={require('./../images/Skins/Catherine_Summer_Black_Orange.png')} />
         </div>
     </div>
   </div >

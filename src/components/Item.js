@@ -1,6 +1,6 @@
 import React from 'react'
 import H2 from './TalentH2Color'
-import '/Users/angelocantone/Documents/vgprowiki/src/components/Item.css'
+import './../components//Item.css'
 
 const Itemsbox = props => (
 	<div className="Itembox">

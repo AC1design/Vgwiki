@@ -12,9 +12,9 @@ const Ringo = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ringo_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ringo_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ringo_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Ringo_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Ringo_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Ringo_Mobile.jpg")}
         heroname="RINGO"
         role='LANE, SNIPER'
         description="Fast-moving, fast-shooting gunslinger with an epic fireball."
@@ -83,8 +83,8 @@ const Ringo = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ringoblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Ringo.png")}>
+   bgmodel={require("./../images/BG/Ringoblurred.jpg")}
+   model={require("./../images/models/Ringo.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -139,7 +139,7 @@ const Ringo = () => (
                 text="Achilles Shot (A) has 4 bonus range."
                 text2="• Damage 115% (+3%)"
                 text3="• Cooldown 135% (-2%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ringo_Rare.png')}
+                image={require('./../images/Talents/Ringo_Rare.png')}
             />
             <Talentbox
                 title="Bullet Split"
@@ -148,7 +148,7 @@ const Ringo = () => (
                 text="Twirling Silver (B) causes Ringo’s basic attacks to fire a secondary shot at a nearby target."
                 text2="• Damage 87.5% (+2.5%)"
                 text3="• Cooldown 90% (-3%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ringo_Epic.png')}
+                image={require('./../images/Talents/Ringo_Epic.png')}
             />
             <Talentbox
                 title="Spiked Brew"
@@ -157,7 +157,7 @@ const Ringo = () => (
                 text="Hellfire Brew (Ult) bounces to a nearby enemy hero upon impact."
                 text2="• Damage 70%"
                 text3="• Cooldown 70%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ringo_Legendary.png')}
+                image={require('./../images/Talents/Ringo_Legendary.png')}
             />
         </div>
     </div>
@@ -172,27 +172,27 @@ const Ringo = () => (
                 color="#6393F9"
                 title="Shogun Nomad Ringo"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ringo_Shogun_Nomad.png')} />
+                image={require('./../images/Skins/Ringo_Shogun_Nomad.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Shogun Wrath Ringo"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ringo_Shogun_Wrath.png')} />
+                image={require('./../images/Skins/Ringo_Shogun_Wrath.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Shogun Master Ringo"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ringo_Shogun_Master.png')} />
+                image={require('./../images/Skins/Ringo_Shogun_Master.png')} />
             <Skinbox
                 color="#6393F9"
                 title="Vaquero Ringo"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ringo_Vaquero.png')} />
+                image={require('./../images/Skins/Ringo_Vaquero.png')} />
             <Skinbox
                 color="red"
                 title="Bakuto Ringo"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ringo_Bakuto.png')} />
+                image={require('./../images/Skins/Ringo_Bakuto.png')} />
             </div>
     </div>
   </div >

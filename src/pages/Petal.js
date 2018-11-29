@@ -12,9 +12,9 @@ const Petal = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Petal_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Petal_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Petal_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Petal_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Petal_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Petal_Mobile.jpg")}
         heroname="PETAL"
         role='JUNGLE, SNIPER'
         description="Commands 3 pets who tear apart enemies and block incoming skillshots."
@@ -83,8 +83,8 @@ const Petal = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Petalblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Petal.png")}>
+   bgmodel={require("./../images/BG/Petalblurred.jpg")}
+   model={require("./../images/models/Petal.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -141,7 +141,7 @@ const Petal = () => (
                 color="#6393F9"
                 text="Trampoline (B) has a 1s cooldown but will cost more energy if used while empowerment is still active."
                 text2="• Energy Cost 185% (-5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Petal_Rare.png')}
+                image={require('./../images/Talents/Petal_Rare.png')}
             />
             <Talentbox
                 title="Kaboom Seeds"
@@ -149,7 +149,7 @@ const Petal = () => (
                 color="#7A02EA"
                 text="Brambleboom Seeds (A) explode for massive damage but no longer knock back enemies."
                 text2="• Damage 180% (+10%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Petal_Epic.png')}
+                image={require('./../images/Talents/Petal_Epic.png')}
             />
             <Talentbox
                 title="Explosive Force"
@@ -157,7 +157,7 @@ const Petal = () => (
                 color="#FF9000"
                 text="Spontaneous Combustion (Ult) knocks back enemies caught within its explosion."
                 text2="• Damage 90% (+7.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Petal_Legendary.png')}
+                image={require('./../images/Talents/Petal_Legendary.png')}
             />
         </div>
     </div>
@@ -172,32 +172,32 @@ const Petal = () => (
                 color="#6393F9"
                 title="Bee Petal"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Petal_Bee_R.png')} />
+                image={require('./../images/Skins/Petal_Bee_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Beetle Petal"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Petal_Beetle_E.png')} />
+                image={require('./../images/Skins/Petal_Beetle_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Space Bug Petal"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Petal_Spacebug_L.png')} />
+                image={require('./../images/Skins/Petal_Spacebug_L.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Tea Party Petal"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Petal_Teaparty.png')} />
+                image={require('./../images/Skins/Petal_Teaparty.png')} />
             <Skinbox
                 color="red"
                 title="Pumpkin Spice Petal"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Petal_Pumpkin_Spice_SE.png')} />
+                image={require('./../images/Skins/Petal_Pumpkin_Spice_SE.png')} />
             <Skinbox
                 color="#FADA5E"
                 title="Pumpkin Spice Petal"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Petal_Pumpkin_Spice_LE.png')} />
+                image={require('./../images/Skins/Petal_Pumpkin_Spice_LE.png')} />
         </div>
     </div>
   </div >

@@ -28,7 +28,7 @@ handleScroll = (event) => {
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
           <a href="/">
-          <img src={require("/Users/angelocantone/Documents/vgprowiki/src/images/LOGOWHITE.png")} />
+            <img src={require("./../images/LOGOWHITE.png")} />
           </a>
         </div>
       </div>

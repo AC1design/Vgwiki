@@ -11,9 +11,9 @@ const Lorelai = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lorelai_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lorelai_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lorelai_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Lorelai_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Lorelai_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Lorelai_Mobile.jpg")}
         heroname="LORELAI"
         role='JUNGLE, PROTECTOR'
         description="Backline support, excelling at zone control and team utility."
@@ -82,8 +82,8 @@ const Lorelai = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lorelaiblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Lorelai.png")}>
+   bgmodel={require("./../images/BG/Lorelaiblurred.jpg")}
+   model={require("./../images/models/Lorelai.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -154,7 +154,7 @@ const Lorelai = () => (
                 text="Splashdown (B) has 1 additional charge."
                 text2="• Charge Time 88% (-2%)"
                 text3="• Energy Cost 25%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lorelai_Rare.png')}
+                image={require('./../images/Talents/Lorelai_Rare.png')}
             />
             <Talentbox
                 title="Clam Up"
@@ -162,7 +162,7 @@ const Lorelai = () => (
                 color="#7A02EA"
                 text="Fish Food (A) stuns for a longer duration."
                 text2="• Bonus Stun Duration 0.45s (+0.2%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lorelai_Epic.png')}
+                image={require('./../images/Talents/Lorelai_Epic.png')}
             />
             <Talentbox
                 title="Wonder Wall"
@@ -171,7 +171,7 @@ const Lorelai = () => (
                 text="Waterwall (Ult) grants invulnerability instead of barrier."
                 text2="• Duration 2.5s (+1s)"
                 text3="• Cooldown 60%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lorelai_Legendary.png')}
+                image={require('./../images/Talents/Lorelai_Legendary.png')}
             />
         </div>
     </div>

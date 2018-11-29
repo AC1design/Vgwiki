@@ -1,11 +1,11 @@
 @font-face{
   font-family: Antonio;
-  src: url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.svg#Antonio-Regular.svg') format('svg'); /* Legacy iOS */
+  src: url('./../images/Antonio-Regular.eot'); /* IE9 Compat Modes */
+  src: url('./../images/Antonio-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./../images/Antonio-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./../images/Antonio-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./../images/Antonio-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./../images/Antonio-Regular.svg#Antonio-Regular.svg') format('svg'); /* Legacy iOS */
 }
 /*ANIMATIONS*/
 @keyframes HeroAnimation {

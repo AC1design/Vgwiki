@@ -12,9 +12,9 @@ const Glaive = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Glaive_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Glaive_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Glaive_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Glaive_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Glaive_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Glaive_Mobile.jpg")}
         heroname="GLAIVE"
         role='JUNGLE, WARRIOR'
         description="Brutal axe warrior who can knock enemies out of position."
@@ -83,8 +83,8 @@ const Glaive = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Glaiveblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Glaive.png")}>
+   bgmodel={require("./../images/BG/Glaiveblurred.jpg")}
+   model={require("./../images/models/Glaive.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -143,7 +143,7 @@ const Glaive = () => (
                 text="Using Afterburn (A) to punt a target will deal a portion of Afterburn’s damage and stun all enemies along its path."
                 text2="• Damage 70% (+2%)"
                 text3="• Cooldown 95% (-1.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Glaive_Rare.png')}
+                image={require('./../images/Talents/Glaive_Rare.png')}
             />
             <Talentbox
                 title="Stunning Bloodsong"
@@ -153,7 +153,7 @@ const Glaive = () => (
                 text2="• Cooldown 80% (-5%)"
                 text3="• Stun Duration 0.75s"
                 text4="• Damage 40% (+5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Glaive_Epic.png')}
+                image={require('./../images/Talents/Glaive_Epic.png')}
             />
             <Talentbox
                 title="Twisted Pursuit"
@@ -162,7 +162,7 @@ const Glaive = () => (
                 text="Twisted Stroke (B) has 5 increased range and causes Glaive to dash to his target."
                 text2="• Bleed Damage 60%"
                 text3="• Cooldown 190%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Glaive_Legendary.png')}
+                image={require('./../images/Talents/Glaive_Legendary.png')}
             />
         </div>
     </div>
@@ -177,32 +177,32 @@ const Glaive = () => (
                 color="#6393F9"
                 title="Prehistoric Glaive"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Glaive_Prehistoric_I_R.png')} />
+                image={require('./../images/Skins/Glaive_Prehistoric_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Trophy Hunter Glaive"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Glaive_Prehistoric_II_E.png')} />
+                image={require('./../images/Skins/Glaive_Prehistoric_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Ice Age Glaive"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Glaive_Prehistoric_III_L.png')} />
+                image={require('./../images/Skins/Glaive_Prehistoric_III_L.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Sorrowblade Glaive"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Glaive_Sorrowblade_E.png')} />
+                image={require('./../images/Skins/Glaive_Sorrowblade_E.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="King Glaive"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Glaive_King_Epic.png')} />
+                image={require('./../images/Skins/Glaive_King_Epic.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="Rainbow Glaive"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Glaive_Rainbow.png')} />
+                image={require('./../images/Skins/Glaive_Rainbow.png')} />
         </div>
     </div>
   </div >

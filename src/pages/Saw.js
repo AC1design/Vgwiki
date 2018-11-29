@@ -12,9 +12,9 @@ const Saw = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/SAW_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/SAW_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/SAW_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/SAW_Desktop.jpg")}
+        bgtablet={require("./../images/BG/SAW_Tablet.jpg")}
+        bgmobile={require("./../images/BG/SAW_Mobile.jpg")}
         heroname="SAW"
         role='LANE, SNIPER'
         description="Heavy machine gunner who sacrifices move speed for damage."
@@ -83,8 +83,8 @@ const Saw = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Sawblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Saw.png")}>
+   bgmodel={require("./../images/BG/Sawblurred.jpg")}
+   model={require("./../images/models/Saw.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -147,7 +147,7 @@ const Saw = () => (
                 text="SAW’s basic attack pierces its target to hit all enemies along its path."
                 text2="• Bonus Range 0.5"
                 text3="• Damage 90% (+2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Saw_Rare.png')}
+                image={require('./../images/Talents/Saw_Rare.png')}
             />
             <Talentbox
                 title="Speedy Spin Up"
@@ -155,7 +155,7 @@ const Saw = () => (
                 color="#7A02EA"
                 text="Spin Up (Perk) no longer slows SAW."
                 text2="• Speed Boost Per Stack 0.012 (+0.017)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Saw_Epic.png')}
+                image={require('./../images/Talents/Saw_Epic.png')}
             />
             <Talentbox
                 title="Road Rage"
@@ -164,7 +164,7 @@ const Saw = () => (
                 text="SAW gains Spin Up (Perk) stacks after attacking an enemy with Roadie Run (A). Basic attacks reduce the cooldown of Roadie Run (A) by 50%."
                 text2="• Damage 100%"
                 text3="• Stacks 6"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Saw_Legendary.png')}
+                image={require('./../images/Talents/Saw_Legendary.png')}
             />
         </div>
     </div>
@@ -179,27 +179,27 @@ const Saw = () => (
                 color="#6393F9"
                 title="SAWborg 2.0"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/SAW_SAWborg_2.0.png')} />
+                image={require('./../images/Skins/SAW_SAWborg_2.0.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="SAWborg 3.0"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/SAW_SAWborg_3.0.png')} />
+                image={require('./../images/Skins/SAW_SAWborg_3.0.png')} />
             <Skinbox
                 color="#FF9000"
                 title="SAWborg X"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/SAW_SAWborg_X.png')} />
+                image={require('./../images/Skins/SAW_SAWborg_X.png')} />
             <Skinbox
                 color="#6393F9"
                 title="Elite Force SAW"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/SAW_Elite_Force.png')} />
+                image={require('./../images/Skins/SAW_Elite_Force.png')} />
             <Skinbox
                 color="red"
                 title="Summer Party SAW"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/SAW_Summer_Party_SE.png')} />
+                image={require('./../images/Skins/SAW_Summer_Party_SE.png')} />
         </div>
     </div>
   </div >

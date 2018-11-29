@@ -11,9 +11,9 @@ const Skye = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Skye_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Skye_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Skye_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Skye_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Skye_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Skye_Mobile.jpg")}
         heroname="SKYE"
         role='LANE, SNIPER'
         description="Versatile, elusive mech pilot who can flank enemies from any angle."
@@ -82,8 +82,8 @@ const Skye = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Skyeblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Skye.png")}>
+   bgmodel={require("./../images/BG/Skyeblurred.jpg")}
+   model={require("./../images/models/Skye.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -156,7 +156,7 @@ const Skye = () => (
                 text2="• Bonus Move Speed 1.5 (+0.1)"
                 text3="• Bonus Move Speed Duration 3s"
                 text4="• Passive Crystal Power +5% (+1.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Skaarf_Rare.png')}
+                image={require('./../images/Talents/Skaarf_Rare.png')}
             />
             <Talentbox
                 title="Raining Death"
@@ -165,7 +165,7 @@ const Skye = () => (
                 text="Death from Above (Ult) has 1 additional charge."
                 text2="• Damage 115% (+15%)"
                 text3="• Cooldown 70% (-2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Skaarf_Epic.png')}
+                image={require('./../images/Talents/Skaarf_Epic.png')}
             />
             <Talentbox
                 title="Piercing Barrage"
@@ -173,7 +173,7 @@ const Skye = () => (
                 color="#FF9000"
                 text="Forward Barrage (A) pierces through enemies, damaging all in a line and has 2 bonus range."
                 text2="• Damage 100% (+10%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Skaarf_Legendary.png')}
+                image={require('./../images/Talents/Skaarf_Legendary.png')}
             />
         </div>
     </div>
@@ -188,22 +188,22 @@ const Skye = () => (
                 color="#6393F9"
                 title="Air Combat Skye"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skye_Air_Combat.png')} />
+                image={require('./../images/Skins/Skye_Air_Combat.png')} />
                 <Skinbox
                 color="#7A02EA"
                 title="Stealth Fighter Skye"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skye_Stealth_Fighter.png')} />
+                image={require('./../images/Skins/Skye_Stealth_Fighter.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="Supersonic Skye"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skye_Supersonic.png')} />
+                image={require('./../images/Skins/Skye_Supersonic.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="Ride or Die Skye"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skye_Ride_or_Die.png')} />
+                image={require('./../images/Skins/Skye_Ride_or_Die.png')} />
         </div>
     </div>
   </div >

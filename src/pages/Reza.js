@@ -12,9 +12,9 @@ const Reza = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Reza_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Reza_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Reza_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Reza_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Reza_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Reza_Mobile.jpg")}
         heroname="REZA"
         role='JUNGLE, MAGE'
         description="A fast, devastating fire mage with a demon netherform."
@@ -83,8 +83,8 @@ const Reza = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Rezablurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Reza.png")}>
+   bgmodel={require("./../images/BG/Rezablurred.jpg")}
+   model={require("./../images/models/Reza.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -144,7 +144,7 @@ const Reza = () => (
                 color="#6393F9"
                 text="Troublemaker (B) grants Reza a barrier for a short duration."
                 text2="• Barrier 7.5% (+1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Reza_Rare.png')}
+                image={require('./../images/Talents/Reza_Rare.png')}
             />
             <Talentbox
                 title="Firemaker"
@@ -152,7 +152,7 @@ const Reza = () => (
                 color="#7A02EA"
                 text="Troublemaker (B) applies Firestarter (Perk) to enemy heroes he passes through."
                 text2="• Damage 100%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Reza_Epic.png')}
+                image={require('./../images/Talents/Reza_Epic.png')}
             />
             <Talentbox
                 title="Nether Rage"
@@ -161,7 +161,7 @@ const Reza = () => (
                 text="Netherform Detonator (Ult) grants Reza bonus attack speed and lasts longer."
                 text2="• Passive Attack Speed +15%"
                 text3="• Bonus Duration 2s"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Reza_Legendary.png')}
+                image={require('./../images/Talents/Reza_Legendary.png')}
             />
         </div>
     </div>
@@ -176,12 +176,12 @@ const Reza = () => (
                 color="#FF9000"
                 title="Netherknight Reza"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Reza_Netherknight.png')} />
+                image={require('./../images/Skins/Reza_Netherknight.png')} />
             <Skinbox
                 color="red"
                 title="Red Lantern Reza"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Reza_Red_Lantern.png')} />
+                image={require('./../images/Skins/Reza_Red_Lantern.png')} />
             </div>
     </div>
   </div >

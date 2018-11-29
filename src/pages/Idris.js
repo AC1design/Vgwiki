@@ -12,9 +12,9 @@ const Idris = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Idris_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Idris_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Idris_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Idris_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Idris_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Idris_Mobile.jpg")}
         heroname="IDRIS"
         role='JUNGLE, ASSASSIN'
         description="Nimble assassin who unlocks melee or ranged fighting styles."
@@ -83,8 +83,8 @@ const Idris = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Idrisblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Idris.png")}>
+   bgmodel={require("./../images/BG/Idrisblurred.jpg")}
+   model={require("./../images/models/Idris.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -146,7 +146,7 @@ const Idris = () => (
                 text="All Divergent Paths (Perk) bonuses are unlocked. Idris passively gains weapon and crystal power."
                 text2="• Passive Weapon Power 40% (+1.5%)"
                 text3="• Passive Crystal Power 40% (+1.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Idris_Rare.png')}
+                image={require('./../images/Talents/Idris_Rare.png')}
             />
             <Talentbox
                 title="Cha-Cha-Chakram"
@@ -155,7 +155,7 @@ const Idris = () => (
                 text="Chakram (B) throws thress projectiles in a cone."
                 text2="• Damage 60% (+5%)"
                 text3="• Cooldown 110% (-2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Idris_Epic.png')}
+                image={require('./../images/Talents/Idris_Epic.png')}
             />
             <Talentbox
                 title="Shimmer Heal"
@@ -164,7 +164,7 @@ const Idris = () => (
                 text="Shimmer Strike (Ult) heals Idris and target ally for a percentage of their maximum health."
                 text2="• Max Health Heal 40%"
                 text3="• Cooldown 60%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Idris_Legendary.png')}
+                image={require('./../images/Talents/Idris_Legendary.png')}
             />
         </div>
     </div>
@@ -179,22 +179,22 @@ const Idris = () => (
                 color="#6393F9"
                 title="Elite Force Idris"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Idris_Elite_Force_R.png')} />
+                image={require('./../images/Skins/Idris_Elite_Force_R.png')} />
                 <Skinbox
                 color="#7A02EA"
                 title="Horus Idris"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Idris_Horus_Epic.png')} />
+                image={require('./../images/Skins/Idris_Horus_Epic.png')} />
             <Skinbox
                 color="red"
                 title="Idris Origins"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Idris_Origins.png')} />
+                image={require('./../images/Skins/Idris_Origins.png')} />
                     <Skinbox
                         color="red"
                         title="Headless Idris"
                         text="Special Edition"
-                        image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Idris_headless.png')} />
+                        image={require('./../images/Skins/Idris_headless.png')} />
         </div>
     </div>
   </div >

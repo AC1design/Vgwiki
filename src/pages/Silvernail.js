@@ -12,9 +12,9 @@ const Silvernail = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-                bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Silvernail_Desktop.jpg")}
-                bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Silvernail_Tablet.jpg")}
-                bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Silvernail_Mobile.jpg")}
+                bgdesktop={require("./../images/BG/Silvernail_Desktop.jpg")}
+                bgtablet={require("./../images/BG/Silvernail_Tablet.jpg")}
+                bgmobile={require("./../images/BG/Silvernail_Mobile.jpg")}
                 heroname="SILVERNAIL"
                 role='LANE, SNIPER'
                 description="Grizzled hunter with a powerful crossbow and tripwires."
@@ -83,8 +83,8 @@ const Silvernail = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Silvernailblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Silvernail.png")}>
+   bgmodel={require("./../images/BG/Silvernailblurred.jpg")}
+   model={require("./../images/models/Silvernail.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -142,7 +142,7 @@ const Silvernail = () => (
                 text2="• Cooldown 80% (-2%)"
                 text3="• Damage 50% (+7.5%)"
                 text4="• Bonus Range 1 (+0.2)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Silvernail_Rare.png')}
+                image={require('./../images/Talents/Silvernail_Rare.png')}
             />
             <Talentbox
                 title="Caustic Bounty"
@@ -151,7 +151,7 @@ const Silvernail = () => (
                 text="Caustic Blessing (B) throws two additional flasks."
                 text2="• Cooldown 90%"
                 text3="• Damage 60%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Silvernail_Epic.png')}
+                image={require('./../images/Talents/Silvernail_Epic.png')}
             />
             <Talentbox
                 title="Tri-Wire"
@@ -160,7 +160,7 @@ const Silvernail = () => (
                 text="Stake (A) forms a tripwire triangle around target location.."
                 text2="• Damage 100%"
                 text3="• Duration 40%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Silvernail_Legendary.png')}
+                image={require('./../images/Talents/Silvernail_Legendary.png')}
             />
         </div>
     </div>
@@ -175,7 +175,7 @@ const Silvernail = () => (
                 color="#6393F9"
                 title="Tribal Silvernail"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Silvernail_Tribal.png')} />
+                image={require('./../images/Skins/Silvernail_Tribal.png')} />
         </div>
     </div>
   </div >

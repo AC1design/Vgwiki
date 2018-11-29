@@ -11,9 +11,9 @@ const Kensei = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kensei_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kensei_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kensei_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Kensei_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Kensei_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Kensei_Mobile.jpg")}
         heroname="KENSEI"
         role='JUNGLE, WARRIOR'
         description="Swift swordmaster who can easily manuever through the battlefield."
@@ -82,8 +82,8 @@ const Kensei = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kenseiblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Kensei.png")}>
+   bgmodel={require("./../images/BG/Kenseiblurred.jpg")}
+   model={require("./../images/models/Kensei.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -93,10 +93,10 @@ const Kensei = () => (
     <div className="SkillboxGroupScroll">
         <div className="SkillboxGroup">
             <Skillbox
-            video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Kensei-P.mp4')}
+            video={require('./../images/SkillVideos/Kensei-P.mp4')}
                 title="IMMOVABLE MIND"
                 subtitle="HEROIC PERK"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Kensei - Perk.png')}
+                image={require('./../images/Kensei - Perk.png')}
                 text="After striking enemy heroes or jungle monsters 3 times, Kensei's next basic attack deals 20% bonus damage and grants a burst of barrier.
 
                 • Bonus Barrier: 30-140 (level 1-12)
@@ -106,7 +106,7 @@ const Kensei = () => (
                 • Attack Damage: 40% of weapon power + (target max health * 0.018% of bonus weapon power)"
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Kensei-A.mp4')}
+                video={require('./../images/SkillVideos/Kensei-A.mp4')}
                 title="LOTUS STRIKE"
                 subtitle="A ABILITY"
                 text="Kensei rushes forward, swinging his blade and dealing basic attack damage in an arc in front of him.
@@ -114,7 +114,7 @@ const Kensei = () => (
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/05/A.png'
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Kensei-B.mp4')}
+                video={require('./../images/SkillVideos/Kensei-B.mp4')}
                 title="KENSHO"
                 subtitle="B ABILITY"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/05/B.png'
@@ -125,7 +125,7 @@ const Kensei = () => (
                 • Stance is canceled automatically upon movement, attacking, or using any ability."
             />
             <Skillbox
-                video={require('/Users/angelocantone/Documents/vgprowiki/src/images/SkillVideos/Kensei-C.mp4')}
+                video={require('./../images/SkillVideos/Kensei-C.mp4')}
                 title="PATH OF THE RONIN"
                 subtitle="ULTIMATE"
                 image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/05/C.png'
@@ -147,7 +147,7 @@ const Kensei = () => (
                 text="Hitting an enemy hero or jungle monster grants max stats of Immovable Mind (Perk)"
                 text2="• Attack Speed +20% (+5%)"
                 text3="• Barrier 40% (+2%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kensei_Rare.png')}
+                image={require('./../images/Talents/Kensei_Rare.png')}
             />
             <Talentbox
                 title="Enlightened Kensho"
@@ -157,7 +157,7 @@ const Kensei = () => (
                 text2="• Passive Weapon Power 10% (+1%)"
                 text3="• Cooldown 60% (-2.5%)"
                 text5="• Duration 1.1s (+0.1s)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kensei_Epic.png')}
+                image={require('./../images/Talents/Kensei_Epic.png')}
             />
             <Talentbox
                 title="Endless Path"
@@ -166,7 +166,7 @@ const Kensei = () => (
                 text=" Landing Path of the Ronin (Ult) resets its cooldown"
                 text2="• Damage 120% (+25%)"
                 text3="• Cooldown 50%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kensei_Legendary.png')}
+                image={require('./../images/Talents/Kensei_Legendary.png')}
             />
         </div>
     </div>
@@ -181,7 +181,7 @@ const Kensei = () => (
                 color="#6393F9"
                 title="Tizen Boss Kensei"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Kensei_TaizenBoss.png')} />
+                image={require('./../images/Skins/Kensei_TaizenBoss.png')} />
         </div>
     </div>
   </div >

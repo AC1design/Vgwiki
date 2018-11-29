@@ -12,9 +12,9 @@ const Celeste = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Celeste_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Celeste_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Celeste_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Celeste_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Celeste_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Celeste_Mobile.jpg")}
         heroname="CELESTE"
         role='LANER, MAGE'
         description="Back-line mage with heavy area damage and a stun."
@@ -83,8 +83,8 @@ const Celeste = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Celesteblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Celeste.png")}>
+   bgmodel={require("./../images/BG/Celesteblurred.jpg")}
+   model={require("./../images/models/Celeste.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -137,7 +137,7 @@ const Celeste = () => (
                 text="Heliogensis (A) stars linger on the field 4s longer and continuously damage nearby enemies. Lower impact damage."
                 text2="• Impact Damage 30% (+1%)%"
                 text3="• Damage/Sec 70% (+2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Celeste_Rare.png')}
+                image={require('./../images/Talents/Celeste_Rare.png')}
             />
             <Talentbox
                 title="CORE LEAF CLOVER"
@@ -146,7 +146,7 @@ const Celeste = () => (
                 text="Core Collapse (B) creates four black-hole collapses. Longer cooldown and lower damage."
                 text2="• Damage 25% (+2.5%)"
                 text3="• Cooldown 125% (-4%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Celeste_Epic.png')}
+                image={require('./../images/Talents/Celeste_Epic.png')}
             />
             <Talentbox
                 title="GALAXY COLLAPSE"
@@ -155,7 +155,7 @@ const Celeste = () => (
                 text="Heliogenesis (A) supernovas cause other stars to supernova. Lower damage."
                 text2="• Impact Damage 70% (+5%)"
                 text3="• Supernova Damage 100% (+10%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Celeste_Legendary.png')}
+                image={require('./../images/Talents/Celeste_Legendary.png')}
             />
         </div>
     </div>
@@ -170,37 +170,37 @@ const Celeste = () => (
                 color="#6393F9"
                 title="Rebellion Celeste"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Celeste_Star_Queen_I_R.png')} />
+                image={require('./../images/Skins/Celeste_Star_Queen_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Rising Star Celeste"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Celeste_Star_Queen_II_E.png')} />
+                image={require('./../images/Skins/Celeste_Star_Queen_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Star Queen Celeste"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Celeste_Star_Queen_III_L.png')} />
+                image={require('./../images/Skins/Celeste_Star_Queen_III_L.png')} />
             <Skinbox
                 color="#6393F9"
                 title="Butterfly Celeste"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Celeste_Butterfly_R.png')} />
+                image={require('./../images/Skins/Celeste_Butterfly_R.png')} />
             <Skinbox
                 color="red"
                 title="Baewitched Celeste"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Celeste_Baewitched_SE.png')} />
+                image={require('./../images/Skins/Celeste_Baewitched_SE.png')} />
             <Skinbox
                 color="red"
                 title="Moon Princess Celeste"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Celeste_Moon_Princess_SE.png')} />
+                image={require('./../images/Skins/Celeste_Moon_Princess_SE.png')} />
             <Skinbox
                 color="#FADA5E"
                 title="Baewitched Celeste"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Celeste_Baewitched_LE.png')} />
+                image={require('./../images/Skins/Celeste_Baewitched_LE.png')} />
         </div>
     </div>
   </div >

@@ -11,9 +11,9 @@ const Alpha = () => (
     <Layout>
 <meta name="theme-color" content="#1f1f21"/>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Alpha_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Alpha_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Alpha_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Alpha_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Alpha_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Alpha_Mobile.jpg")}
         heroname="ALPHA"
         role='JUNGLER, WARRIOR'
         description="Killing machine who can resurrect herself."
@@ -82,8 +82,8 @@ const Alpha = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Alphablurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Alpha.png")}>
+   bgmodel={require("./../images/BG/Alphablurred.jpg")}
+   model={require("./../images/models/Alpha.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -151,7 +151,7 @@ const Alpha = () => (
                 text="Beneficial Core Overload (B) stacks boost attack speed. Alpha passively gains weapon power."
                 text2="• Attack Speed/Stack +15%"
                 text3="• Passive Weapon Power +5% (+1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Alpha_Rare.png')}
+                image={require('./../images/Talents/Alpha_Rare.png')}
             />
             <Talentbox
                 title="Prime Time"
@@ -161,7 +161,7 @@ const Alpha = () => (
                 text2="• Health Fort/Stack 15% (+2.5%)"
                 text3="• Duration 3s"
                 text4="• Cooldown 100% (-3%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Alpha_Epic.png')}
+                image={require('./../images/Talents/Alpha_Epic.png')}
             />
             <Talentbox
                 title="Acceleration"
@@ -171,7 +171,7 @@ const Alpha = () => (
                 text2="• Cooldown 80%"
                 text3="• Bonus Move Speed 2"
                 text4="• Barrier 125%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Alpha_Legendary.png')}
+                image={require('./../images/Talents/Alpha_Legendary.png')}
             />
         </div>
     </div>
@@ -186,22 +186,22 @@ const Alpha = () => (
                 color="#6393F9"
                 title="Broken Doll Alpha"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Alpha_Broken_Doll_I_R.png')} />
+                image={require('./../images/Skins/Alpha_Broken_Doll_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Toy Box Alpha"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Alpha_Broken_Doll_II_E.png')} />
+                image={require('./../images/Skins/Alpha_Broken_Doll_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Clockwork Heart Alpha"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Alpha_Broken_Doll_Legendary.png')} />
+                image={require('./../images/Skins/Alpha_Broken_Doll_Legendary.png')} />
             <Skinbox
                 color="#6393F9"
                 title="Heartless Alpha"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Alpha_Heartless_Rare.png')} />
+                image={require('./../images/Skins/Alpha_Heartless_Rare.png')} />
         </div>
     </div>
   </Layout>

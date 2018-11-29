@@ -11,9 +11,9 @@ const Koshka = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Koshka_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Koshka_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Koshka_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Koshka_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Koshka_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Koshka_Mobile.jpg")}
         heroname="KOSHKA"
         role='JUNGLE, ASSASSIN'
         description="Hit-and-run assassin who can pin down enemies with a long stun."
@@ -82,8 +82,8 @@ const Koshka = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Koshkablurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Koshka.png")}>
+   bgmodel={require("./../images/BG/Koshkablurred.jpg")}
+   model={require("./../images/models/Koshka.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -144,7 +144,7 @@ const Koshka = () => (
                 text3="• Pouncy Fun Reduction 10% (+1%)"
                 text4="• Twirly Death Reduction 15% (+1%)"
                 text5="• Yummy Catnip Frenzy Reduction 5% (+0.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Koshka_Rare.png')}
+                image={require('./../images/Talents/Koshka_Rare.png')}
             />
             <Talentbox
                 title="Twirly Life"
@@ -154,7 +154,7 @@ const Koshka = () => (
                 text2="• Max Health to Barrier 13% (+3%)"
                 text3="• Damage 65% (+3%)"
                 text4="• Barrier Duration 2s"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Koshka_Epic.png')}
+                image={require('./../images/Talents/Koshka_Epic.png')}
             />
             <Talentbox
                 title="Slashy Play Time!"
@@ -163,7 +163,7 @@ const Koshka = () => (
                 text="Yummy Catnip Frenzy (Ult) activates quicker and stuns nearby enemies."
                 text2="• Damage 35%"
                 text3="• Cooldown 55%%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Koshka_Legendary.png')}
+                image={require('./../images/Talents/Koshka_Legendary.png')}
             />
         </div>
     </div>
@@ -178,32 +178,32 @@ const Koshka = () => (
                 color="#6393F9"
                 title="Kandy Claw Koshka"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Koshka_Kandi_Twirl_I_R.png')} />
+                image={require('./../images/Skins/Koshka_Kandi_Twirl_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Kandy Rave Koshka"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Koshka_Kandi_Twirl_II_E.png')} />
+                image={require('./../images/Skins/Koshka_Kandi_Twirl_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Kandy Twirl Koshka"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Koshka_Kandi_Twirl_III_L.png')} />
+                image={require('./../images/Skins/Koshka_Kandi_Twirl_III_L.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Shool Days Koshka"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Koshka_School_Days.png')} />
+                image={require('./../images/Skins/Koshka_School_Days.png')} />
             <Skinbox
                 color="red"
                 title="Red Lantern Koshka"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Koshka_Red_Lantern_SE.png')} />
+                image={require('./../images/Skins/Koshka_Red_Lantern_SE.png')} />
             <Skinbox
                 color="#FADA5E"
                 title="Red Lantern Koshka"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Koshka_Red_Lantern_LE.png')} />
+                image={require('./../images/Skins/Koshka_Red_Lantern_LE.png')} />
            </div>
     </div>
   </div >

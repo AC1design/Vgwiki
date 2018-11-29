@@ -11,9 +11,9 @@ const Kestrel = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kestrel_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kestrel_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kestrel_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Kestrel_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Kestrel_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Kestrel_Mobile.jpg")}
         heroname="KESTREL"
         role='LANER, SNIPER'
         description="Stealthy archer with devastating skillshots and traps."
@@ -82,8 +82,8 @@ const Kestrel = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Kestrelblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Kestrel.png")}>
+   bgmodel={require("./../images/BG/Kestrelblurred.jpg")}
+   model={require("./../images/models/Kestrel.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -149,7 +149,7 @@ const Kestrel = () => (
                 text2="• Duration 30s"
                 text3="• Damage 77.5% (+2.5%)"
                 text4="• Range 8"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kestrel_Rare.png')}
+                image={require('./../images/Talents/Kestrel_Rare.png')}
             />
             <Talentbox
                 title="Active Reload"
@@ -159,7 +159,7 @@ const Kestrel = () => (
                 text2="• Cooldown 100% (-2%)"
                 text3="• Damage 80% (+7%)"
                 text4="• Energy Cost 50%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kestrel_Epic.png')}
+                image={require('./../images/Talents/Kestrel_Epic.png')}
             />
             <Talentbox
                 title="Piercing Shot"
@@ -168,7 +168,7 @@ const Kestrel = () => (
                 text="One Shot One Kill (Ult) pierces through its target, damaging all enemies along its path."
                 text2="• Damage 120%"
                 text3="• Cooldown 60%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Kestrel_Legendary.png')}
+                image={require('./../images/Talents/Kestrel_Legendary.png')}
             />
         </div>
     </div>
@@ -183,32 +183,32 @@ const Kestrel = () => (
                 color="#6393F9"
                 title="Sylvan Kestrel"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Kestrel_Sylvan_R.png')} />
+                image={require('./../images/Skins/Kestrel_Sylvan_R.png')} />
             <Skinbox
                 color="#6393F9"
                 title="Winter War Kestrel"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Kestrel_Winter_War_R.png')} />
+                image={require('./../images/Skins/Kestrel_Winter_War_R.png')} />
              <Skinbox
                 color="#6393F9"
                 title="Kyudo Kestrel"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Kestrel_Kyudo_Rare.png')} />
+                image={require('./../images/Skins/Kestrel_Kyudo_Rare.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Spider Queen Kestrel"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Kestrel_Spider_Queen.png')} />           
+                image={require('./../images/Skins/Kestrel_Spider_Queen.png')} />           
             <Skinbox
                 color="red"
                 title="Summer Party Kestrel"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Kestrel_Summer_Party_SE.png')} />
+                image={require('./../images/Skins/Kestrel_Summer_Party_SE.png')} />
             <Skinbox
                 color="#FADA5E"
                 title="Contender Kestrel"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Kestrel_Contender.png')} />
+                image={require('./../images/Skins/Kestrel_Contender.png')} />
         </div>
     </div>
   </div >

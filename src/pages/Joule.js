@@ -11,9 +11,9 @@ const Joule = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Joule_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Joule_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Joule_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Joule_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Joule_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Joule_Mobile.jpg")}
         heroname="JOULE"
         role='JUNGLE, WARRIOR'
         description="Heavily armored mech rider with a powerful energy beam."
@@ -82,8 +82,8 @@ const Joule = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Jouleblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Joule.png")}>
+   bgmodel={require("./../images/BG/Jouleblurred.jpg")}
+   model={require("./../images/models/Joule.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -144,7 +144,7 @@ const Joule = () => (
                 text3="• Passive Shield +20% (+2.5%)"
                 text4="• Cooldown 90% (-2%)"
                 text5="• Energy Cost 50%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Joule_Rare.png')}
+                image={require('./../images/Talents/Joule_Rare.png')}
             />
             <Talentbox
                 title="Backup Button"
@@ -153,7 +153,7 @@ const Joule = () => (
                 text="Big Red Button (Ult) has 1 additional charge."
                 text2="• Cooldown 80% (-2.5%)"
                 text3="• Damage 75% (+5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Joule_Epic.png')}
+                image={require('./../images/Talents/Joule_Epic.png')}
             />
             <Talentbox
                 title="Thundering Steps"
@@ -163,7 +163,7 @@ const Joule = () => (
                 text2="• Bonus Move Speed 1.5"
                 text3="• Bonus Move Speed Duration 2s"
                 text4="• Passive Weapon Power +7.5%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Joule_Legendary.png')}
+                image={require('./../images/Talents/Joule_Legendary.png')}
             />
         </div>
     </div>
@@ -178,22 +178,22 @@ const Joule = () => (
                 color="#6393F9"
                 title="Killa-Joule 9000"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Joule_Killa-Joule_9000_I_R.png')} />
+                image={require('./../images/Skins/Joule_Killa-Joule_9000_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Mega-Joule 9000"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Joule_Killa-Joule_9000_II_E.png')} />
+                image={require('./../images/Skins/Joule_Killa-Joule_9000_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="School Days Joule"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Joule_Killa-Joule_9000_III_L.png')} />
+                image={require('./../images/Skins/Joule_Killa-Joule_9000_III_L.png')} />
             <Skinbox
                 color="red"
                 title="Snow Monster Joule"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Joule_Snow_Monster_SE.png')} />
+                image={require('./../images/Skins/Joule_Snow_Monster_SE.png')} />
         </div>
     </div>
   </div >

@@ -12,9 +12,9 @@ const Vox = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Vox_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Vox_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Vox_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Vox_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Vox_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Vox_Mobile.jpg")}
         heroname="VOX"
         role='JUNGLE, WARRIOR'
         description="Durable berserker who excels in the thick of fights."
@@ -83,8 +83,8 @@ const Vox = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Voxblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Vox.png")}>
+   bgmodel={require("./../images/BG/Voxblurred.jpg")}
+   model={require("./../images/models/Vox.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -148,7 +148,7 @@ const Vox = () => (
                 text="Sonic Zoom (A) has 3 increased dash range. Vox passively gains attack speed."
                 text2="• Passive Attack Speed +25% (+1%)"
                 text3="• Cooldown 125% (-2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Vox_Rare.png')}
+                image={require('./../images/Talents/Vox_Rare.png')}
             />
             <Talentbox
                 title="Sound Barrier"
@@ -157,7 +157,7 @@ const Vox = () => (
                 text="Vox’s basic attacks periodically grant him a health barrier."
                 text2="• Max Health to Barrier 10% (+3%)"
                 text3="• Barrier Duration 4s"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Vox_Epic.png')}
+                image={require('./../images/Talents/Vox_Epic.png')}
             />
             <Talentbox
                 title="Echo Chamber"
@@ -165,7 +165,7 @@ const Vox = () => (
                 color="#FF9000"
                 text="Julia’s Song (Perk) Resonance bolts have an additional bounce."
                 text2="• Damage 60% (+10%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Vox_Legendary.png')}
+                image={require('./../images/Talents/Vox_Legendary.png')}
             />
         </div>
     </div>
@@ -180,27 +180,27 @@ const Vox = () => (
                 color="#6393F9"
                 title="Sky Captain Vox"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Vox_SkyCaptain.png')} />
+                image={require('./../images/Skins/Vox_SkyCaptain.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Cloud Raider Vox"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Vox_CloudRaider.png')} />
+                image={require('./../images/Skins/Vox_CloudRaider.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Evolution Vox"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Vox_Evolution.png')} />
+                image={require('./../images/Skins/Vox_Evolution.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Red Rona"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Vox_SchoolDays.png')} />
+                image={require('./../images/Skins/Vox_SchoolDays.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="Vox On Ice"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Vox_OnIce.png')} />     
+                image={require('./../images/Skins/Vox_OnIce.png')} />     
         </div>
     </div>
   </div>

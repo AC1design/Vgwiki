@@ -12,9 +12,9 @@ const Baron = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Baron_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Baron_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Baron_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Baron_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Baron_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Baron_Mobile.jpg")}
         heroname="BARON"
         role='LANE, SNIPER'
         description="Rocket soldier who can nuke anywhere on the map."
@@ -83,8 +83,8 @@ const Baron = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Baronblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Baron.png")}>
+   bgmodel={require("./../images/BG/Baronblurred.jpg")}
+   model={require("./../images/models/Baron.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -151,7 +151,7 @@ const Baron = () => (
                 text="Jump Jets (B) has no startup delay and fires three rockets on Baron’s next basic attack."
                 text2="• Cooldown 110% (-2%)"
                 text3="• Triple Shot Damage 70% (+2%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Baron_Rare.png')}
+                image={require('./../images/Talents/Baron_Rare.png')}
             />
             <Talentbox
                 title="Endless Mortars"
@@ -160,7 +160,7 @@ const Baron = () => (
                 text="Porcupine Mortar (A) has 6 additional charges and travels faster."
                 text2="• Damage 50% (+7.5%)"
                 text3="• Energy Cost 20%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Baron_Epic.png')}
+                image={require('./../images/Talents/Baron_Epic.png')}
             />
             <Talentbox
                 title="Trion Cannon"
@@ -170,7 +170,7 @@ const Baron = () => (
                 text2="• Charge Time 60%"
                 text3="• Damage 80%"
                 text4="• Passive Bonus Attack Range 0.5"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Baron_Legendary.png')}
+                image={require('./../images/Talents/Baron_Legendary.png')}
             />
         </div>
     </div>
@@ -185,12 +185,12 @@ const Baron = () => (
                 color="#6393F9"
                 title="Elite Force Baron"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Baron_Elite_Force_R.png')} />
+                image={require('./../images/Skins/Baron_Elite_Force_R.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="Fly or Die Baron"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Baron_Fly_or_Die_Legendary.png')} />
+                image={require('./../images/Skins/Baron_Fly_or_Die_Legendary.png')} />
         </div>
     </div>
   </div >

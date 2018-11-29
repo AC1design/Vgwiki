@@ -11,9 +11,9 @@ const Lyra = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lyra_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lyra_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lyra_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Lyra_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Lyra_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Lyra_Mobile.jpg")}
         heroname="LYRA"
         role='JUNGLE, PROTECTOR'
         description="Healer and zone mage who can create teleportation portals."
@@ -82,8 +82,8 @@ const Lyra = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Lyrablurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Lyra.png")}>
+   bgmodel={require("./../images/BG/Lyrablurred.jpg")}
+   model={require("./../images/models/Lyra.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -150,7 +150,7 @@ const Lyra = () => (
                 color="#6393F9"
                 text=" Principle Arcanum (Perk) shoots an additional projectile but no longer slows."
                 text2="• Damage 65% (+3%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lyra_Rare.png')}
+                image={require('./../images/Talents/Lyra_Rare.png')}
             />
             <Talentbox
                 title="Mobile Bulwark"
@@ -159,7 +159,7 @@ const Lyra = () => (
                 text="Bright Bulwark (B) moves with Lyra and lasts longer. Lyra passively gains crystal power."
                 text2="• Bonus Duration 1.4s (+0.4s)"
                 text3="• Passive Crystal Power +7.5% (+2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lyra_Epic.png')}
+                image={require('./../images/Talents/Lyra_Epic.png')}
             />
             <Talentbox
                 title="Gythian Ward"
@@ -167,7 +167,7 @@ const Lyra = () => (
                 color="#FF9000"
                 text="Bright Bulwark (B) grants a barrier for 2s and removes all negative effects on nearby allies."
                 text2="• Max Health to Barrier 10%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Lyra_Legendary.png')}
+                image={require('./../images/Talents/Lyra_Legendary.png')}
             />
         </div>
     </div>
@@ -182,28 +182,28 @@ const Lyra = () => (
                 color="#6393F9"
                 title="School Days Lyra"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lyra_School_Days_R.png')} />
+                image={require('./../images/Skins/Lyra_School_Days_R.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Dear Diary Lyra"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lyra_Dear_Diary_L.png')} />
+                image={require('./../images/Skins/Lyra_Dear_Diary_L.png')} />
             <Skinbox
                 color="red"
                 title="Moon Empress.
                 Lyra"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lyra_Empress.png')} />
+                image={require('./../images/Skins/Lyra_Empress.png')} />
             <Skinbox
                 color="red"
                 title="Moon Goddess Lyra"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lyra_Goddess.png')} />
+                image={require('./../images/Skins/Lyra_Goddess.png')} />
             <Skinbox
                 color="red"
                 title="Moon Queen Lyra"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Lyra_Queen.png')} />
+                image={require('./../images/Skins/Lyra_Queen.png')} />
             
         </div>
     </div>

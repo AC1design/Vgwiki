@@ -11,9 +11,9 @@ const Phinn = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Phinn_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Phinn_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Phinn_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Phinn_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Phinn_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Phinn_Mobile.jpg")}
         heroname="PHINN"
         role='JUNGLE, PROTECTOR'
         description="Extremely tanky and can pull in enemies from across the screen."
@@ -82,8 +82,8 @@ const Phinn = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Phinnblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Phinn.png")}>
+   bgmodel={require("./../images/BG/Phinnblurred.jpg")}
+   model={require("./../images/models/Phinn.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -135,7 +135,7 @@ const Phinn = () => (
                 text="Polite Company (B) resets the cooldown of Quibble (A). The energy costs of both abilities are reduced by 50%."
                 text2="• Damage 70% (+3%)"
                 text3="• Energy Cost 50%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Phinn_Rare.png')}
+                image={require('./../images/Talents/Phinn_Rare.png')}
             />
             <Talentbox
                 title="Phaster"
@@ -144,7 +144,7 @@ const Phinn = () => (
                 text="Polite Company (B) grants bonus move speed to Phinn and his allies."
                 text2="• Fortified Health 100% (+1%)"
                 text3="• Bonus Move Speed 1.3 (+0.2)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Phinn_Epic.png')}
+                image={require('./../images/Talents/Phinn_Epic.png')}
             />
             <Talentbox
                 title="Raid Boss"
@@ -153,7 +153,7 @@ const Phinn = () => (
                 text="Phinn rapidly regenerates health."
                 text2="• Damage 45% (+7.5%)"
                 text3="• Health Regen / Sec 7% (+2%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Phinn_Legendary.png')}
+                image={require('./../images/Talents/Phinn_Legendary.png')}
             />
         </div>
     </div>
@@ -168,22 +168,22 @@ const Phinn = () => (
                 color="#6393F9"
                 title="Bonecruncher Phinn"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Phinn_Bonecruncher.png')} />
+                image={require('./../images/Skins/Phinn_Bonecruncher.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Bonegnasher Phinn"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Phinn_Bonegnasher.png')} />
+                image={require('./../images/Skins/Phinn_Bonegnasher.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Churn Tyrant Phinn"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Phinn_Churn_Tyrant.png')} />
+                image={require('./../images/Skins/Phinn_Churn_Tyrant.png')} />
             <Skinbox
                 color="red"
                 title="Summer Party Phinn"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Phinn_Summer_Party.png')} />
+                image={require('./../images/Skins/Phinn_Summer_Party.png')} />
             </div>
     </div>
   </div >

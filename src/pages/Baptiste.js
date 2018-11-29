@@ -11,9 +11,9 @@ import Models from '../components/Model'
 const Baptiste = () => (
     <Layout>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Baptiste_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Baptiste_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Baptiste_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Baptiste_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Baptiste_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Baptiste_Mobile.jpg")}
         heroname="BAPTISTE"
         role='JUNGLE, MAGE'
         description="Mid-range mage who inflicts fear on foes."
@@ -82,8 +82,8 @@ const Baptiste = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Baptisteblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Baptiste.png")}>
+   bgmodel={require("./../images/BG/Baptisteblurred.jpg")}
+   model={require("./../images/models/Baptiste.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -140,7 +140,7 @@ const Baptiste = () => (
                 text="Bad Mojo (A) has 2 bonus range."
                 text2="• Cooldown 80% (-1.5%)"
                 text3="• Dmaage 90% (+2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Baptiste_Rare.png')}
+                image={require('./../images/Talents/Baptiste_Rare.png')}
             />
             <Talentbox
                 title="The Reaper"
@@ -149,7 +149,7 @@ const Baptiste = () => (
                 text="Reap (Perk) continues to collect souls when empowered."
                 text2="• Passive Attack Speed +30% (+3%)"
                 text3="• Heal 45% (+4%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Baptiste_Epic.png')}
+                image={require('./../images/Talents/Baptiste_Epic.png')}
             />
             <Talentbox
                 title="Army of Souls"
@@ -159,7 +159,7 @@ const Baptiste = () => (
                 text2="• Cooldown 70%"
                 text3="• Range 15%"
                 text4="• Damage 120%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Baptiste_Legendary.png')}
+                image={require('./../images/Talents/Baptiste_Legendary.png')}
             />
         </div>
     </div>
@@ -174,12 +174,12 @@ const Baptiste = () => (
                 color="#7A02EA"
                 title="Scarecrow Baptiste"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Baptist_Scarecrow.png')} />
+                image={require('./../images/Skins/Baptist_Scarecrow.png')} />
                 <Skinbox
                 color="#7A02EA"
                 title="Anubis Baptiste"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Baptiste_Anubis_Epic.png')} />
+                image={require('./../images/Skins/Baptiste_Anubis_Epic.png')} />
         </div>
     </div>
   </Layout>

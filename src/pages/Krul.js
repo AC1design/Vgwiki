@@ -11,9 +11,9 @@ const Krul = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Krul_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Krul_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Krul_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Krul_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Krul_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Krul_Mobile.jpg")}
         heroname="KRUL"
         role='JUNGLE, WARRIOR'
         description="The king of duels with massive lifesteal and self-healing."
@@ -82,8 +82,8 @@ const Krul = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Krulblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Krul.png")}>
+   bgmodel={require("./../images/BG/Krulblurred.jpg")}
+   model={require("./../images/models/Krul.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -146,7 +146,7 @@ const Krul = () => (
                 color="#6393F9"
                 text="Dead Man’s Rush (A) has 0.5 increased range and stronger barrier."
                 text2="• Barrier 115% (+8.8%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Krul_Rare.png')}
+                image={require('./../images/Talents/Krul_Rare.png')}
             />
             <Talentbox
                 title="Healing Smite"
@@ -155,7 +155,7 @@ const Krul = () => (
                 text="Spectral Smite (B) heals nearby allies. Krul passively gains crystal power."
                 text2="• Heal 130% (+7.5%)"
                 text3="• Crystal Power +10% (+2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Krul_Epic.png')}
+                image={require('./../images/Talents/Krul_Epic.png')}
             />
             <Talentbox
                 title="Cursed Blade"
@@ -164,7 +164,7 @@ const Krul = () => (
                 text="From Hell’s Heart (Ult) applies max Spectral Smite (B) Weakness stacks to the victim."
                 text2="• Damage 40%"
                 text3="• Cooldown 70%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Krul_Legendary.png')}
+                image={require('./../images/Talents/Krul_Legendary.png')}
             />
         </div>
     </div>
@@ -179,47 +179,47 @@ const Krul = () => (
                     color="#6393F9"
                     title="Trasher Krul"
                     text="Rare"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Death_Metal_I_R.png')} />
+                    image={require('./../images/Skins/Krul_Death_Metal_I_R.png')} />
             <Skinbox
                     color="#7A02EA"
                     title="Death Metal Krul"
                     text="Epic"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Death_Metal_II_E.png')} />
+                    image={require('./../images/Skins/Krul_Death_Metal_II_E.png')} />
             <Skinbox
                     color="#FF9000"
                     title="Ice Cold Krul"
                     text="Legendary"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Death_Metal_III_L.png')} />
+                    image={require('./../images/Skins/Krul_Death_Metal_III_L.png')} />
             <Skinbox
                     color="#FF9000"
                     title="Corsair Cold Krul"
                     text="Legendary"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Samurai.png')} />
+                    image={require('./../images/Skins/Krul_Samurai.png')} />
             <Skinbox
                     color="#7A02EA"
                     title="Death Metal Krul"
                     text="Epic"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Death_Metal_II_E.png')} />
+                    image={require('./../images/Skins/Krul_Death_Metal_II_E.png')} />
             <Skinbox
                     color="#FF9000"
                     title="Cyber Krul"
                     text="Legendary"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Cyber.png')} />
+                    image={require('./../images/Skins/Krul_Cyber.png')} />
             <Skinbox
                         color="#FF9000"
                     title="Cyber Krul Prime"
                         text="Legendary"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Cyber_Prime.png')} />
+                    image={require('./../images/Skins/Krul_Cyber_Prime.png')} />
             <Skinbox
                     color="#FF9000"
                     title="Cyber Krul Prototype"
                     text="Legendary"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Cyber_Prototype.png')} />
+                    image={require('./../images/Skins/Krul_Cyber_Prototype.png')} />
             <Skinbox
                     color="red"
                     title="Summer Party Krul"
                     text="Special Edition"
-                    image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Krul_Summer_Party_SE.png')} />
+                    image={require('./../images/Skins/Krul_Summer_Party_SE.png')} />
             
         </div>
     </div>

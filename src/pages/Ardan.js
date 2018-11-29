@@ -11,9 +11,9 @@ import Layout from '../components/layout'
 const Ardan = () => (
     <Layout>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ardan_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ardan_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ardan_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Ardan_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Ardan_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Ardan_Mobile.jpg")}
         heroname="ARDAN"
         role='JUNGLE, PROTECTOR'
         description="Protects allies with barriers and traps enemies inside a large cage."
@@ -82,8 +82,8 @@ const Ardan = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Ardanblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Ardan.png")}>
+   bgmodel={require("./../images/BG/Ardanblurred.jpg")}
+   model={require("./../images/models/Ardan.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -149,7 +149,7 @@ const Ardan = () => (
                 text2="• Barrier 120% (+5%)"
                 text3="• Damage 20% (+1%)"
                 text4="• Cooldown 95% (-1%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ardan_Rare.png')}
+                image={require('./../images/Talents/Ardan_Rare.png')}
             />
             <Talentbox
                 title="Heavy Hitter"
@@ -158,7 +158,7 @@ const Ardan = () => (
                 text="Blood for Blood (B) deals much more damage but has 3.5 shorter range."
                 text2="• Damage 140% (+15%)"
                 text3="• Cooldown 150% (-3%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ardan_Epic.png')}
+                image={require('./../images/Talents/Ardan_Epic.png')}
             />
             <Talentbox
                 title="Knockout Punch"
@@ -167,7 +167,7 @@ const Ardan = () => (
                 text="Blood for Blood (B) also knocks back the target 10 meters."
                 text2="• Damage 110% (+20%)"
                 text3="• Cooldown 100% (+10%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Ardan_Legendary.png')}
+                image={require('./../images/Talents/Ardan_Legendary.png')}
             />
         </div>
     </div>
@@ -182,32 +182,32 @@ const Ardan = () => (
                 color="#6393F9"
                 title="Storm Lord Ardan"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ardan_Stormlord_I_R.png')} />
+                image={require('./../images/Skins/Ardan_Stormlord_I_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Storm Vigil Ardan"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ardan_Stormlord_II_E.png')} />
+                image={require('./../images/Skins/Ardan_Stormlord_II_E.png')} />
             <Skinbox
                 color="#FF9000"
                 title="Redemption Ardan"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ardan_Stormlord_III_L.png')} />
+                image={require('./../images/Skins/Ardan_Stormlord_III_L.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Gladiator Ardan"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ardan_Gladiator_E.png')} />
+                image={require('./../images/Skins/Ardan_Gladiator_E.png')} />
                 <Skinbox
                 color="#7A02EA"
                 title="Cagefighter Ardan"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ardan_Cagefighter_Epic.png')} />
+                image={require('./../images/Skins/Ardan_Cagefighter_Epic.png')} />
             <Skinbox
                 color="#FADA5E"
                 title="Contender Ardan"
                 text="Limited Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Ardan_Contender.png')} />
+                image={require('./../images/Skins/Ardan_Contender.png')} />
         
         </div>
     </div>

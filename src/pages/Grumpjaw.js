@@ -12,9 +12,9 @@ const Grumpjaw = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Grumpjaw_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Grumpjaw_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Grumpjaw_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Grumpjaw_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Grumpjaw_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Grumpjaw_Mobile.jpg")}
         heroname="GRUMPJAW"
         role='JUNGLE, WARRIOR'
         description="A hungry beast who can swallow a hero whole."
@@ -83,8 +83,8 @@ const Grumpjaw = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Grumpjawblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Grumpjaw.png")}>
+   bgmodel={require("./../images/BG/Grumpjawblurred.jpg")}
+   model={require("./../images/models/Grumpjaw.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -137,7 +137,7 @@ const Grumpjaw = () => (
                 color="#6393F9"
                 text="Grumpy (A) deals a portion of its damage to all enemies along its path."
                 text2="• Swipe to Trample Dmg 90% (+2.5%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Grumpjaw_Rare.png')}
+                image={require('./../images/Talents/Grumpjaw_Rare.png')}
             />
             <Talentbox
                 title="Reconstitution"
@@ -146,7 +146,7 @@ const Grumpjaw = () => (
                 text="Hangry (B) grants Grumpjaw life steal."
                 text2="• Cooldown 95% (-2.5%)"
                 text3="• Bonus Lifesteal +25% (+4%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Grumpjaw_Epic.png')}
+                image={require('./../images/Talents/Grumpjaw_Epic.png')}
             />
             <Talentbox
                 title="Big Appetite"
@@ -155,7 +155,7 @@ const Grumpjaw = () => (
                 text="Stuffed (Ult) keeps enemies inside for much longer and eats all heros in Grumpjaw’s path."
                 text2="• Cooldown 50%"
                 text3="• Bonus Duration 1s"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Grumpjaw_Legendary.png')}
+                image={require('./../images/Talents/Grumpjaw_Legendary.png')}
             />
         </div>
     </div>
@@ -170,12 +170,12 @@ const Grumpjaw = () => (
                 color="#6393F9"
                 title="Lapdog Grumpjaw"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Grumpjaw_Lapdog_R.png')} />
+                image={require('./../images/Skins/Grumpjaw_Lapdog_R.png')} />
             <Skinbox
                 color="#7A02EA"
                 title="Carnivore Grumpjaw"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Grumpjaw_Carnivore.png')} />
+                image={require('./../images/Skins/Grumpjaw_Carnivore.png')} />
         </div>
     </div>
   </div >

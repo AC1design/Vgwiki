@@ -31,227 +31,227 @@ const IndexPage = () => (
                 <Card
                 title="Inara"
                 text="JUNGLE, ASSASSIN"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Inara_Card.png')}
+                image={require('./../images/Cards/Inara_Card.png')}
                 link="/Inara/" />
                 <Card
                 title="Adagio"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Adagio_Card.jpg')}
+                image={require('./../images/Cards/Adagio_Card.jpg')}
                 link="/Adagio/" />
                 <Card
                 title="Alpha"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Alpha_Card.jpg')}
+                image={require('./../images/Cards/Alpha_Card.jpg')}
                 link="/Alpha/" />
                 <Card
                 title="Anka"
                 text="LANE, ASSASSIN"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Anka_Card.jpg')}
+                image={require('./../images/Cards/Anka_Card.jpg')}
                 link="/Anka/" />
                 <Card
                 title="Ardan"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Ardan_Card.jpg')}
+                image={require('./../images/Cards/Ardan_Card.jpg')}
                 link="/Ardan/" />
                 <Card
                 title="Baptiste"
                 text="JUNGLE, MAGE"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Baptiste_Card.jpg')}
+                image={require('./../images/Cards/Baptiste_Card.jpg')}
                 link="/Baptiste/" />
                 <Card
                 title="Baron"
                 text="LANE, SNIPER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Baron_Card.jpg')}
+                image={require('./../images/Cards/Baron_Card.jpg')}
                 link="/Baron/"/>
                 <Card
                 title="Blackfeather"
                 text="LANE, ASSASSIN"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Blackfeather_Card.jpg')}
+                image={require('./../images/Cards/Blackfeather_Card.jpg')}
                 link="/Blackfeather/" />
                 <Card
                 title="Catherine"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Catherine_Card.jpg')}
+                image={require('./../images/Cards/Catherine_Card.jpg')}
                 link="/Catherine/" />
                 <Card
                 title="Celeste"
                 text="LANE, MAGE"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Celeste_Card.jpg')}
+                image={require('./../images/Cards/Celeste_Card.jpg')}
                 link="/Celeste/" />
                 <Card
                 title="Churnwalker"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Churnwalker_Card.jpg')}
+                image={require('./../images/Cards/Churnwalker_Card.jpg')}
                 link="/Churnwalker/" />
                 <Card
                 title="Flicker"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Flicker_Card.jpg')}
+                image={require('./../images/Cards/Flicker_Card.jpg')}
                 link="/Flicker/" />
                 <Card
                 title="Fortress"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Fortress_Card.jpg')}
+                image={require('./../images/Cards/Fortress_Card.jpg')}
                 link="/Fortress/" />
                 <Card
                 title="Glaive"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Glaive_Card.jpg')}
+                image={require('./../images/Cards/Glaive_Card.jpg')}
                 link="/Glaive/" />
                 <Card
                 title="Grace"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Grace_Card.jpg')}
+                image={require('./../images/Cards/Grace_Card.jpg')}
                 link="/Grace/" />
                 <Card
                 title="Grumpjaw"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Grumpjaw_Card.jpg')}
+                image={require('./../images/Cards/Grumpjaw_Card.jpg')}
                 link="/Grumpjaw/" />
                 <Card
                 title="Gwen"
                 text="LANE, SNPIER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Gwen_Card.jpg')}
+                image={require('./../images/Cards/Gwen_Card.jpg')}
                 link="/Gwen/" />
                 <Card
                 title="Idris"
                 text="JUNGLE, MAGE"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Idris_Card.jpg')}
+                image={require('./../images/Cards/Idris_Card.jpg')}
                 link="/Idris/" />
                 <Card
                 title="Joule"
                 text="LANE, SNIPER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Joule_Card.jpg')}
+                image={require('./../images/Cards/Joule_Card.jpg')}
                 link="/Joule/" />
                 <Card
                 title="Kensei"
                 text="LANE, ASSASSIN"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Kensei_Card.jpg')}
+                image={require('./../images/Cards/Kensei_Card.jpg')}
                 link="/Kensei/" />
                 <Card
                 title="Kestrel"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Kestrel_Card.jpg')}
+                image={require('./../images/Cards/Kestrel_Card.jpg')}
                 link="/Kestrel/" />
                 <Card
                 title="Kinetic"
                 text="LANE, MAGE"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Kinetic_Card.jpg')}
+                image={require('./../images/Cards/Kinetic_Card.jpg')}
                 link="/Kinetic/" />
                 <Card
                 title="Koshka"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Koshka_Card.jpg')}
+                image={require('./../images/Cards/Koshka_Card.jpg')}
                 link="/Koshka/" />
                 <Card
                 title="Krul"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Krul_Card.jpg')}
+                image={require('./../images/Cards/Krul_Card.jpg')}
                 link="/Krul/" />
                 <Card
                 title="Lance"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Lance_Card.jpg')}
+                image={require('./../images/Cards/Lance_Card.jpg')}
                 link="/Lance/" />
                 <Card
                 title="Lorelai"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Lorelai_Card.jpg')}
+                image={require('./../images/Cards/Lorelai_Card.jpg')}
                 link="/Lorelai/" />
                 <Card
                 title="Lyra"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Lyra_Card.jpg')}
+                image={require('./../images/Cards/Lyra_Card.jpg')}
                 link="/Lyra/" />
                 <Card
                 title="Malene"
                 text="LANE, MAGE"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Malene_Card.jpg')}
+                image={require('./../images/Cards/Malene_Card.jpg')}
                 link="/Malene/" />
                 <Card
                 title="Ozo"
                 text="JUNGLE, ASSASSIN"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Ozo_Card.jpg')}
+                image={require('./../images/Cards/Ozo_Card.jpg')}
                 link="/Ozo/" />
                 <Card
                 title="Petal"
                 text="JUNGLE, SNIPER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Petal_Card.jpg')}
+                image={require('./../images/Cards/Petal_Card.jpg')}
                 link="/Petal/" />
                 <Card
                 title="Phinn"
                 text="JUNGLE, PROTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Phinn_Card.jpg')}
+                image={require('./../images/Cards/Phinn_Card.jpg')}
                 link="/Phinn/" />
                 <Card
                 title="Reim"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Reim_Card.jpg')}
+                image={require('./../images/Cards/Reim_Card.jpg')}
                 link="/Reim/" />
                 <Card
                 title="Reza"
                 text="JUNGLE, ASSASSIN"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Reza_Card.jpg')}
+                image={require('./../images/Cards/Reza_Card.jpg')}
                 link="/Reza/" />
                 <Card
                 title="Ringo"
                 text="LANE, SNIPER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Ringo_Card.jpg')}
+                image={require('./../images/Cards/Ringo_Card.jpg')}
                 link="/Ringo/" />
                 <Card
                 title="Rona"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Rona_Card.jpg')}
+                image={require('./../images/Cards/Rona_Card.jpg')}
                 link="/Rona/" />
                 <Card
                 title="Samuel"
                 text="LANE, MAGE"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Samuel_Card.jpg')}
+                image={require('./../images/Cards/Samuel_Card.jpg')}
                 link="/Samuel/" />
                 <Card
                 title="SAW"
                 text="LANE, SNIPER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Saw_Card.jpg')}
+                image={require('./../images/Cards/Saw_Card.jpg')}
                 link="/SAW/" />
                 <Card
                 title="Silvernail"
                 text="LANE, SNIPER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Silvernail_Card.jpg')}
+                image={require('./../images/Cards/Silvernail_Card.jpg')}
                 link="/Silvernail/" />
                 <Card
                 title="Skaarf"
                 text="LANE, MAGE"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Skaarf_Card.jpg')}
+                image={require('./../images/Cards/Skaarf_Card.jpg')}
                 link="/Skaarf/" />
                 <Card
                 title="Skye"
                 text="LANE, SNIPER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Skye_Card.jpg')}
+                image={require('./../images/Cards/Skye_Card.jpg')}
                 link="/Skye/" />
                 <Card
                 title="Taka"
                 text="JUNGLE, ASSASSIN"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Taka_Card.jpg')}
+                image={require('./../images/Cards/Taka_Card.jpg')}
                 link="/Taka/" />
                 <Card
                 title="Tony"
                 text="JUNGLE, WARRIOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Tony_Card.jpg')}
+                image={require('./../images/Cards/Tony_Card.jpg')}
                 link="/Tony/"/>
                 <Card
                 title="Varya"
                 text="LANE, MAGE"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Varya_Card.jpg')}
+                image={require('./../images/Cards/Varya_Card.jpg')}
                 link="/Varya/" />
                 <Card
                 title="Vox"
                 text="LANE, SNIPER"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Vox_Card.jpg')}
+                image={require('./../images/Cards/Vox_Card.jpg')}
                 link="/Vox/" />
                 <Card
                 title="Yates"
                 text="JUNGLE, PRTOTECTOR"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Yates_Card.jpg')}
+                image={require('./../images/Cards/Yates_Card.jpg')}
                 link="/Yates/" />
         </div>
     </div>
@@ -261,7 +261,7 @@ const IndexPage = () => (
     <div className="ItemboxGroupScroll">
         <div className="ItemboxGroup">
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/aegis.png')}
+        itemimg={require('./../images/Items/aegis.png')}
         itemname="Aegis"
         class="DEFENSE"
         tier="TIER 3"
@@ -270,7 +270,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/aftershock.png')}
+        itemimg={require('./../images/Items/aftershock.png')}
         itemname="Aftershock"
         class="CRYSTAL"
           tier="TIER 3"
@@ -279,7 +279,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/alternating-current.png')}
+        itemimg={require('./../images/Items/alternating-current.png')}
         itemname="Alternating Current"
         class="CRYSTAL"
           tier="TIER 3"
@@ -288,7 +288,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/atlas-pauldron.png')}
+        itemimg={require('./../images/Items/atlas-pauldron.png')}
         itemname="Atlas Pauldron"
         class="DEFENSE"
           tier="TIER 3"
@@ -297,7 +297,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/barbed-needle.png')}
+        itemimg={require('./../images/Items/barbed-needle.png')}
         itemname="Barbed Needle"
         class="WEAPON"
           tier="TIER 2"
@@ -306,7 +306,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/blazing-salvo.png')}
+        itemimg={require('./../images/Items/blazing-salvo.png')}
         itemname="Blazing Salvo"
         class="WEAPON"
           tier="TIER 2"
@@ -315,7 +315,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/bonesaw.png')}
+        itemimg={require('./../images/Items/bonesaw.png')}
         itemname="Bonesaw"
         class="WEAPON"
           tier="TIER 3"
@@ -324,7 +324,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/book-of-eulogies.png')}
+        itemimg={require('./../images/Items/book-of-eulogies.png')}
         itemname="Book of Eulogies"
         class="WEAPON"
           tier="TIER 1"
@@ -333,7 +333,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/breaking-point.png')}
+        itemimg={require('./../images/Items/breaking-point.png')}
         itemname="Breaking Point"
         class="WEAPON"
           tier="TIER 3"
@@ -342,7 +342,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/broken-myth.png')}
+        itemimg={require('./../images/Items/broken-myth.png')}
         itemname="Broken Myth"
         class="CRYSTAL"
           tier="TIER 3"
@@ -351,7 +351,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/capacitor-plate.png')}
+        itemimg={require('./../images/Items/capacitor-plate.png')}
         itemname="Capacitor Plate"
         class="DEFENSE"
           tier="TIER 3"
@@ -360,7 +360,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/chronograph.png')}
+        itemimg={require('./../images/Items/chronograph.png')}
         itemname="Chronograph"
         class="CRYSTAL"
           tier="TIER 2"
@@ -369,7 +369,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/clockwork.png')}
+        itemimg={require('./../images/Items/clockwork.png')}
         itemname="Clockwork"
         class="CRYSTAL"
           tier="TIER 3"
@@ -378,7 +378,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/coat-of-plates.png')}
+        itemimg={require('./../images/Items/coat-of-plates.png')}
         itemname="Coat of Plates"
         class="DEFENSE"
           tier="TIER 3"
@@ -387,7 +387,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/contraption.png')}
+        itemimg={require('./../images/Items/contraption.png')}
         itemname="Contraption"
         class="UTILITY"
           tier="TIER 3"
@@ -396,7 +396,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/crucible.png')}
+        itemimg={require('./../images/Items/crucible.png')}
         itemname="Crucible"
         class="DEFENSE"
           tier="TIER 3"
@@ -405,7 +405,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/crystal-bit.png')}
+        itemimg={require('./../images/Items/crystal-bit.png')}
         itemname="Crystal Bit"
         class="CRYSTAL"
           tier="TIER 1"
@@ -414,7 +414,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/crystal-infusion.png')}
+        itemimg={require('./../images/Items/crystal-infusion.png')}
         itemname="Crystal Infusion"
         class="UTILITY"
           tier="TIER 1"
@@ -423,7 +423,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/dragons-eye.png')}
+        itemimg={require('./../images/Items/dragons-eye.png')}
         itemname="Dragon's Eye"
         class="CRYSTAL"
           tier="TIER 3"
@@ -432,7 +432,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/dragonblood-contract.png')}
+        itemimg={require('./../images/Items/dragonblood-contract.png')}
         itemname="Dragonblood Contract"
         class="UTILITY"
           tier="TIER 1"
@@ -441,7 +441,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/dragonheart.png')}
+        itemimg={require('./../images/Items/dragonheart.png')}
         itemname="Dragonheart"
         class="DEFENSE"
           tier="TIER 2"
@@ -450,7 +450,7 @@ const IndexPage = () => (
         > 
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/eclipse-prism.png')}
+          itemimg={require('./../images/Items/eclipse-prism.png')}
           itemname="Eclipse Prism"
           class="CRYSTAL"
           tier="TIER 2"
@@ -459,7 +459,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/energy-battery.png')}
+          itemimg={require('./../images/Items/energy-battery.png')}
           itemname="Energy Battery"
           class="CRYSTAL"
           tier="TIER 1"
@@ -468,7 +468,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/eve-of-harvest.png')}
+          itemimg={require('./../images/Items/eve-of-harvest.png')}
           itemname="Eve of Harvest"
           class="CRYSTAL"
           tier="TIER 3"
@@ -477,7 +477,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/flare.png')}
+          itemimg={require('./../images/Items/flare.png')}
           itemname="Flare"
           class="UTILITY"
           tier="TIER 1"
@@ -486,7 +486,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/flare-gun.png')}
+          itemimg={require('./../images/Items/flare-gun.png')}
           itemname="Flare Gun"
           class="UTILITY"
           tier="TIER 2"
@@ -495,7 +495,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/flare-gun.png')}
+          itemimg={require('./../images/Items/flare-gun.png')}
           itemname="Flare Loader"
           class="UTILITY"
           tier="TIER 1"
@@ -505,7 +505,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/fountain-of-renewal.png')}
+          itemimg={require('./../images/Items/fountain-of-renewal.png')}
           itemname="Fountain of Renewal"
           class="DEFENSE"
           tier="TIER 3"
@@ -514,7 +514,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/frostburn.png')}
+          itemimg={require('./../images/Items/frostburn.png')}
           itemname="Frostburn"
           class="CRYSTAL"
           tier="TIER 3"
@@ -523,7 +523,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/halcyon-chargers.png')}
+          itemimg={require('./../images/Items/halcyon-chargers.png')}
           itemname="Halcyon Chargers"
           class="UTILITY"
           tier="TIER 3"
@@ -532,7 +532,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/healing-flask.png')}
+          itemimg={require('./../images/Items/healing-flask.png')}
           itemname="Healing Flask"
           class="CONSUMABLE"
           tier="TIER 1"
@@ -541,7 +541,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/heavy-prism.png')}
+          itemimg={require('./../images/Items/heavy-prism.png')}
           itemname="Heavy Prism"
           class="UTILITY"
           tier="TIER 2"
@@ -550,7 +550,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/heavy-steel.png')}
+          itemimg={require('./../images/Items/heavy-steel.png')}
           itemname="Heavy Steel"
           class="WEAPON"
           tier="TIER 2"
@@ -559,7 +559,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/hourglass.png')}
+          itemimg={require('./../images/Items/hourglass.png')}
           itemname="Hourglass"
           class="CRYSTAL"
           tier="TIER 1"
@@ -568,7 +568,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/ironguard-contract.png')}
+          itemimg={require('./../images/Items/ironguard-contract.png')}
           itemname="Ironguard Contract"
           class="CONSUMABLE"
           tier="TIER 1"
@@ -577,7 +577,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/journey-boots.png')}
+          itemimg={require('./../images/Items/journey-boots.png')}
           itemname="Journey Boots"
           class="UTILITY"
           tier="TIER 2"
@@ -586,7 +586,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/kinetic-shield.png')}
+          itemimg={require('./../images/Items/kinetic-shield.png')}
           itemname="Kinetic Shield"
           class="DEFENSE"
           tier="TIER 2"
@@ -595,7 +595,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/level-juice.png')}
+          itemimg={require('./../images/Items/level-juice.png')}
           itemname="Level juice"
           class="CONSUMABLE"
           tier="TIER 1"
@@ -605,7 +605,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/lifespring.png')}
+          itemimg={require('./../images/Items/lifespring.png')}
           itemname="Ligespring"
           class="DEFENSE"
           tier="TIER 2"
@@ -614,7 +614,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/light-armor.png')}
+          itemimg={require('./../images/Items/light-armor.png')}
           itemname="Light Armor"
           class="DEFENSE"
           tier="TIER 1"
@@ -623,7 +623,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/light-shield.png')}
+          itemimg={require('./../images/Items/light-shield.png')}
           itemname="Light Shield"
           class="DEFENSE"
           tier="TIER 1"
@@ -632,7 +632,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/lucky-strike.png')}
+          itemimg={require('./../images/Items/lucky-strike.png')}
           itemname="Lucky Strike"
           class="WEAPON"
           tier="TIER 2"
@@ -641,7 +641,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/metal-jacket.png')}
+          itemimg={require('./../images/Items/metal-jacket.png')}
           itemname="Metal Jacket"
           class="DEFENSE"
           tier="TIER 3"
@@ -650,7 +650,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/minion-candy.png')}
+          itemimg={require('./../images/Items/minion-candy.png')}
           itemname="Minion Candy"
           class="CONSUMABLE"
           tier="TIER 1"
@@ -659,7 +659,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/minions-foot.png')}
+          itemimg={require('./../images/Items/minions-foot.png')}
           itemname="Minion's Foot"
           class="WEAPON"
           tier="TIER 1"
@@ -668,7 +668,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/nullwave-gauntlet.png')}
+          itemimg={require('./../images/Items/nullwave-gauntlet.png')}
           itemname="Nullwave Gauntlet"
           class="UTILITY"
           tier="TIER 3"
@@ -677,7 +677,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/oakheart.png')}
+          itemimg={require('./../images/Items/oakheart.png')}
           itemname="Oakheart"
           class="DEFENSE"
           tier="TIER 1"
@@ -686,7 +686,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/piercing-shard.png')}
+          itemimg={require('./../images/Items/piercing-shard.png')}
           itemname="Piercing Shard"
           class="CRYSTAL"
           tier="TIER 2"
@@ -695,7 +695,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/piercing-spear.png')}
+          itemimg={require('./../images/Items/piercing-spear.png')}
           itemname="Piercing Spear"
           class="WEAPON"
           tier="TIER 2"
@@ -704,7 +704,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/poisoned-shiv.png')}
+          itemimg={require('./../images/Items/poisoned-shiv.png')}
           itemname="Poisoned Shiv"
           class="WEAPON"
           tier="TIER 3"
@@ -713,7 +713,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/protector-contract.png')}
+          itemimg={require('./../images/Items/protector-contract.png')}
           itemname="Protector Contract"
           class="CONSUMABLE"
           tier="TIER 1"
@@ -722,7 +722,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/pulseweave.png')}
+          itemimg={require('./../images/Items/pulseweave.png')}
           itemname="Pulseweave"
           class="DEFENSE"
           tier="TIER 3"
@@ -731,7 +731,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/reflex-block.png')}
+          itemimg={require('./../images/Items/reflex-block.png')}
           itemname="Reflex Block"
           class="DEFENSE"
           tier="TIER 2"
@@ -740,7 +740,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/rooks-decree.png')}
+          itemimg={require('./../images/Items/rooks-decree.png')}
           itemname="Rook's Decree"
           class="DEFENSE"
           tier="TIER 3"
@@ -749,7 +749,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/scout-cam.png')}
+          itemimg={require('./../images/Items/scout-cam.png')}
           itemname="Scout Cam"
           class="CONSUMABLE"
           tier="TIER 1"
@@ -758,7 +758,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/scout-trap.png')}
+          itemimg={require('./../images/Items/scout-trap.png')}
           itemname="Scout Trap"
           class="CONSUMABLE"
           tier="TIER 1"
@@ -767,7 +767,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/scoutpak.png')}
+          itemimg={require('./../images/Items/scoutpak.png')}
           itemname="ScoutPak"
           class="UTILITY"
           tier="TIER 2"
@@ -777,7 +777,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/scouttuff.png')}
+          itemimg={require('./../images/Items/scouttuff.png')}
           itemname="ScoutTuff"
           class="UTILITY"
           tier="TIER 2"
@@ -787,7 +787,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/serpent-mask.png')}
+          itemimg={require('./../images/Items/serpent-mask.png')}
           itemname="Serpent Mask"
           class="WEAPON"
           tier="TIER 3"
@@ -796,7 +796,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/shatterglass.png')}
+          itemimg={require('./../images/Items/shatterglass.png')}
           itemname="Shatterglass"
           class="CRYSTAL"
           tier="TIER 3"
@@ -805,7 +805,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/shiversteel.png')}
+          itemimg={require('./../images/Items/shiversteel.png')}
           itemname="Shiversteel"
           class="UTILITY"
           tier="TIER 3"
@@ -814,7 +814,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/six-sins.png')}
+          itemimg={require('./../images/Items/six-sins.png')}
           itemname="Six Sins"
           class="WEAPON"
           tier="TIER 2"
@@ -823,7 +823,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/slumbering-husk.png')}
+          itemimg={require('./../images/Items/slumbering-husk.png')}
           itemname="Slumbering Husk"
           class="DEFENSE"
           tier="TIER 3"
@@ -832,7 +832,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/sorrowblade.png')}
+          itemimg={require('./../images/Items/sorrowblade.png')}
           itemname="Sorrowblade"
           class="WEAPON"
           tier="TIER 3"
@@ -841,7 +841,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/spellfire.png')}
+          itemimg={require('./../images/Items/spellfire.png')}
           itemname="Spellfire"
           class="CRYSTAL"
           tier="TIER 3"
@@ -850,7 +850,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/spellsword.png')}
+          itemimg={require('./../images/Items/spellsword.png')}
           itemname="Spellsword"
           class="WEAPON"
           tier="TIER 3"
@@ -859,7 +859,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/sprint-boots.png')}
+          itemimg={require('./../images/Items/sprint-boots.png')}
           itemname="Sprint Boots"
           class="UTILITY"
           tier="TIER 1"
@@ -868,7 +868,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/stormcrown.png')}
+          itemimg={require('./../images/Items/stormcrown.png')}
           itemname="Stormcrown"
           class="UTILITY"
           tier="TIER 3"
@@ -877,7 +877,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/superscout-2000.png')}
+          itemimg={require('./../images/Items/superscout-2000.png')}
           itemname="SuperScout2000"
           class="UTILITY"
           tier="TIER 3"
@@ -887,7 +887,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/swift-shooter.png')}
+          itemimg={require('./../images/Items/swift-shooter.png')}
           itemname="Swift Shooter"
           class="WEAPON"
           tier="TIER 1"
@@ -896,7 +896,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/teleport-boots.png')}
+          itemimg={require('./../images/Items/teleport-boots.png')}
           itemname="Teleport Boots"
           class="UTILITY"
           tier="TIER 3"
@@ -906,7 +906,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/tension-bow.png')}
+          itemimg={require('./../images/Items/tension-bow.png')}
           itemname="Tension Bow"
           class="WEAPON"
           tier="TIER 3"
@@ -915,7 +915,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/tornado-trigger.png')}
+          itemimg={require('./../images/Items/tornado-trigger.png')}
           itemname="Tension Bow"
           class="WEAPON"
           tier="TIER 3"
@@ -924,7 +924,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/void-battery.png')}
+          itemimg={require('./../images/Items/void-battery.png')}
           itemname="Void Battery"
           class="CRYSTAL"
           tier="TIER 3"
@@ -933,7 +933,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/war-treads.png')}
+          itemimg={require('./../images/Items/war-treads.png')}
           itemname="War Treads"
           class="UTILITY"
           tier="TIER 3"
@@ -942,7 +942,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/warmail.png')}
+          itemimg={require('./../images/Items/warmail.png')}
           itemname="Warmail"
           class="DEFENSE"
           tier="TIER 3"
@@ -951,7 +951,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/weapon-blade.png')}
+          itemimg={require('./../images/Items/weapon-blade.png')}
           itemname="Weapon Blade"
           class="WEAPON"
           tier="TIER 1"
@@ -960,7 +960,7 @@ const IndexPage = () => (
         >
         </Itemsbox>
         <Itemsbox
-          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/weapon-infusion.png')}
+          itemimg={require('./../images/Items/weapon-infusion.png')}
           itemname="Weapon Infusion"
           class="CONSUMABLE"
           tier="TIER 1"

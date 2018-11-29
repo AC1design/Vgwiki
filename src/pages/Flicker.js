@@ -12,9 +12,9 @@ const Flicker = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Flicker_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Flicker_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Flicker_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Flicker_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Flicker_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Flicker_Mobile.jpg")}
         heroname="FLICKER"
         role='JUNGLE, PROTECTOR'
         description="Trickster who can make the entire team invisible."
@@ -83,8 +83,8 @@ const Flicker = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Flickerblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Flicker.png")}>
+   bgmodel={require("./../images/BG/Flickerblurred.jpg")}
+   model={require("./../images/models/Flicker.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -140,7 +140,7 @@ const Flicker = () => (
                 text="Binding Light (A) has 1 additional charge."
                 text2="• Damage 90% (+2.5%)"
                 text3="• Cooldown 90% (-2%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Flicker_Rare.png')}
+                image={require('./../images/Talents/Flicker_Rare.png')}
             />
             <Talentbox
                 title="Binding Dust"
@@ -150,7 +150,7 @@ const Flicker = () => (
                 text2="• Damage 80% (+5%)"
                 text3="• Bonus Move Speed 1.5 (+0.15)"
                 text4="• Root Duration 1.2s"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Flicker_Epic.png')}
+                image={require('./../images/Talents/Flicker_Epic.png')}
             />
             <Talentbox
                 title="Fairy Healing"
@@ -159,7 +159,7 @@ const Flicker = () => (
                 text="Flicker’s stealth also greatly increases health regeneration. Flicker passively gains crystal power."
                 text2="• Max Health to Heal 7.5%"
                 text3="• Passive Crystal Power +15%"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Flicker_Legendary.png')}
+                image={require('./../images/Talents/Flicker_Legendary.png')}
             />
         </div>
     </div>
@@ -174,17 +174,17 @@ const Flicker = () => (
                 color="#7A02EA"
                 title="Red Lantern Flicker"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Flicker_Red_Lantern_E.png')} />
+                image={require('./../images/Skins/Flicker_Red_Lantern_E.png')} />
                 <Skinbox
                 color="#7A02EA"
                 title="Dr Franken Flicker"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Flicker_DrFrankenFlicker_Epic.png')} />
+                image={require('./../images/Skins/Flicker_DrFrankenFlicker_Epic.png')} />
                 <Skinbox
                 color="Red"
                 title="Black Cat Flicker"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Flicker_Blackcat.png')} />
+                image={require('./../images/Skins/Flicker_Blackcat.png')} />
         </div>
     </div>
   </div >

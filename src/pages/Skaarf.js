@@ -12,9 +12,9 @@ const Skaarf = () => (
     <Layout>
 <div style={{ height: "100%" }}>
     <Heroes
-        bgdesktop={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Skaarf_Desktop.jpg")}
-        bgtablet={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Skaarf_Tablet.jpg")}
-        bgmobile={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Skaarf_Mobile.jpg")}
+        bgdesktop={require("./../images/BG/Skaarf_Desktop.jpg")}
+        bgtablet={require("./../images/BG/Skaarf_Tablet.jpg")}
+        bgmobile={require("./../images/BG/Skaarf_Mobile.jpg")}
         heroname="SKAARF"
         role='LANE, MAGE'
         description="Spits long-range fireballs and incinerates entire teams."
@@ -83,8 +83,8 @@ const Skaarf = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("/Users/angelocantone/Documents/vgprowiki/src/images/BG/Skaarfblurred.jpg")}
-   model={require("/Users/angelocantone/Documents/vgprowiki/src/images/models/Skaarf.png")}>
+   bgmodel={require("./../images/BG/Skaarfblurred.jpg")}
+   model={require("./../images/models/Skaarf.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -154,7 +154,7 @@ const Skaarf = () => (
                 color="#6393F9"
                 text="Spitfire (A) shoots three fireballs in a cone."
                 text2="• Damage 60% (+2%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Skaarf_Rare.png')}
+                image={require('./../images/Talents/Skaarf_Rare.png')}
             />
             <Talentbox
                 title="Flash Fire"
@@ -163,7 +163,7 @@ const Skaarf = () => (
                 text="Dragon Breath (Ult) has a quicker start but shorter duration."
                 text2="• Cooldown 60% (-3%)"
                 text3="• Damage 110% (+10%)"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Skaarf_Epic.png')}
+                image={require('./../images/Talents/Skaarf_Epic.png')}
             />
             <Talentbox
                 title="Flaming Sludge"
@@ -173,7 +173,7 @@ const Skaarf = () => (
                 text2="• Spitfire Damage 30% (+5%)"
                 text3="• Burning Goop Damage 60% (+10%)"
                 text4="• Range 9"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Talents/Skaarf_Legendary.png')}
+                image={require('./../images/Talents/Skaarf_Legendary.png')}
             />
         </div>
     </div>
@@ -188,57 +188,57 @@ const Skaarf = () => (
                 color="#6393F9"
                 title="Water Dragon Skaarf"
                 text="Rare"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Water_Dragon.png')} />
+                image={require('./../images/Skins/Skaarf_Water_Dragon.png')} />
                 <Skinbox
                 color="#7A02EA"
                 title="Cloud Dragon Skaarf"
                 text="Epic"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Cloud_Dragon.png')} />
+                image={require('./../images/Skins/Skaarf_Cloud_Dragon.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="Ice Dragon Skaarf"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Ice_Dragon.png')} />
+                image={require('./../images/Skins/Skaarf_Ice_Dragon.png')} />
                 <Skinbox
                 color="#FF9000"
                 title="Rainbow Skaarf"
                 text="Legendary"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Rainbow_White.png')} />
+                image={require('./../images/Skins/Skaarf_Rainbow_White.png')} />
                 <Skinbox
                 color="red"
                 title="Rainbow Tabby Skaarf"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Rainbow_Tabby.png')} />
+                image={require('./../images/Skins/Skaarf_Rainbow_Tabby.png')} />
                 <Skinbox
                 color="red"
                 title="Rainbow Bengal Skaarf"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Rainbow_Bengal.png')} />
+                image={require('./../images/Skins/Skaarf_Rainbow_Bengal.png')} />
                 <Skinbox
                 color="red"
                 title="Green Sparkler Skaarf"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Sparkler_Green_SE.png')} />
+                image={require('./../images/Skins/Skaarf_Sparkler_Green_SE.png')} />
                 <Skinbox
                 color="red"
                 title="Purple Sparkler Skaarf"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Sparkler_Purple_SE.png')} />
+                image={require('./../images/Skins/Skaarf_Sparkler_Purple_SE.png')} />
                 <Skinbox
                 color="red"
                 title="Blue Sparkler Skaarf"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Sparkler_Blue_SE.png')} />
+                image={require('./../images/Skins/Skaarf_Sparkler_Blue_SE.png')} />
                 <Skinbox
                 color="red"
                 title="Red Sparkler Skaarf"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Sparkler_Red_SE.png')} />
+                image={require('./../images/Skins/Skaarf_Sparkler_Red_SE.png')} />
                 <Skinbox
                 color="red"
                 title="Gold Sparkler Skaarf"
                 text="Special Edition"
-                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Skins/Skaarf_Sparkler_Gold_SE.png')} />
+                image={require('./../images/Skins/Skaarf_Sparkler_Gold_SE.png')} />
         </div>
     </div>
   </div >

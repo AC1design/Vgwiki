@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Modal from 'react-modal-video'
-import '/Users/angelocantone/Documents/vgprowiki/node_modules/react-modal-video/css/modal-video.min.css'
+import 'react-modal-video/css/modal-video.min.css'
 
 const Hero = styled.div`
     display: flex;
