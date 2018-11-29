@@ -13,7 +13,7 @@ const Skye = () => (
     <Heroes
         bgdesktop={require("./../images/BG/Skye_Desktop.jpg")}
         bgtablet={require("./../images/BG/Skye_Tablet.jpg")}
-        bgmobile={require("./../images/BG/Skye_Mobile.jpg")}
+                bgmobile={require("./../images/BG/Skye_Mobile.jpg")}
         heroname="SKYE"
         role='LANE, SNIPER'
         description="Versatile, elusive mech pilot who can flank enemies from any angle."

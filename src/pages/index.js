@@ -136,7 +136,7 @@ const IndexPage = () => (
                 <Card
                 title="Kinetic"
                 text="LANE, MAGE"
-                image={require('./../images/Cards/Kinetic_Card.jpg')}
+          image={require('./../images/Cards/Kinetic_Card.jpg')}
                 link="/Kinetic/" />
                 <Card
                 title="Koshka"
