@@ -1,0 +1,37 @@
+.Header{
+    position:fixed;
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+    transition: 0.8s cubic-bezier(0.02, 0.8, 0.2, 1);
+}
+
+.HeaderScrolled{
+    background: #1f1f21f1;
+    backdrop-filter: blur(8px);
+}
+
+.HeaderGroup {
+    display: flex;
+    -webkit-font-smoothing: antialiased;
+  /* flex-wrap: wrap; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.Header a{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+  }
+
+  .Header img{
+      height:25px;
+      align-self: center;
+      margin-left: -25px;
+  }

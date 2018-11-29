@@ -1,0 +1,61 @@
+.Talentbox {
+    width: 300px;
+	border-radius: 20px;
+	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    background-color: #2B2B2D;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Talentbox img {
+    height: 120px;
+    width: 120px;
+    margin-left: -10px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    margin-bottom: 10px;
+    
+}
+
+.Talentbox h1 {
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	margin: 0;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+}
+
+.Talentbox h2 {
+	font-weight: 600;
+	font-size: 16px;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+.Talentbox p {
+	color: rgba(255,255,255, 0.8);
+	font-weight: 350;
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.TalentboxGroup {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-column-gap: 20px;
+    justify-content: left;
+    justify-items: stretch;
+    overflow: visible;
+}
+
+.TalentboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+    padding: 20px 0px -10px;
+}
+
+::-webkit-scrollbar { display: none; }

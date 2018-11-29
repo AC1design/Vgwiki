@@ -1,0 +1,41 @@
+{
+  "name": "VAINGLORYWIKI",
+  "description": "VAINGLORYWIKI",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@material-ui/core": "^3.6.0",
+    "babel-plugin-styled-components": "^1.9.2",
+    "gatsby": "^2.0.59",
+    "gatsby-plugin-manifest": "^2.0.11",
+    "gatsby-plugin-offline": "^2.0.18",
+    "gatsby-plugin-react-helmet": "^3.0.3",
+    "gatsby-plugin-styled-components": "^3.0.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
+    "react-modal": "^3.6.1",
+    "react-modal-video": "^1.2.1",
+    "react-player": "^1.7.0",
+    "react-responsive-embed": "^2.1.0",
+    "styled-components": "^4.1.2",
+    "video-react": "^0.13.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}

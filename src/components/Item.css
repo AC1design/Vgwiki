@@ -1,0 +1,112 @@
+.Itembox {
+    width: 200px;
+    position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    background-color: #2B2B2D;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+.Itembox:hover {
+	transform: scale(1.1, 1.1);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.233);
+}
+
+.Itembox img {
+    height: 50px;
+    width: 50px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    margin-bottom: 5px;
+    
+}
+
+.Itembox h1 {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+    margin-top: -5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Itembox h2 {
+	font-weight: 800;
+	font-size: 12px;
+    margin-top: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.Itembox h3 {
+    color: rgb(119, 119, 119);
+	font-weight: 800;
+    font-size: 12px;
+    margin-top: -5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Tag h4{
+    margin-top:-10px;
+    border-radius: 20px;
+    justify-content: left;
+	color: rgb(255, 174, 52);
+	font-weight: 700;
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+.Cost p {
+    margin-top: -1px;
+    margin-left:70px;
+    background: rgba(255, 255, 255, 0.185);
+    width:40px;
+    border-radius: 20px;
+    justify-content: center;
+    padding:5px;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ImageCost{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.Cost{
+    position:relative;
+}
+
+.ItemboxGroup {
+    margin: 20px 16px 40px;
+    display: grid;
+    grid-template-columns: repeat(80, 195px);
+    grid-column-gap: 20px;
+    justify-content: left;
+    justify-items: stretch;
+    overflow: visible;
+}
+
+.ItemboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+    padding: 20px 0px -10px;
+}
+
+::-webkit-scrollbar { display: none; }

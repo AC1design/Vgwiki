@@ -1,0 +1,976 @@
+import React from 'react'
+
+import Layout from '../components/layout'
+import Card from '../components/Card'
+import Itemsbox from '../components/Item';
+const IndexPage = () => (
+  <Layout>
+    <div className="Hero">
+      <div className="HeroGroup">
+        <h1>VAINGLORYWIKI</h1>
+        <p>UPDATE 3.8</p>
+      </div>
+      <svg width="100%" height="155" viewBox="0 0 100% 200" fill="none">
+  <path fill="#1f1f21">
+  <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="10s"
+    values="M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;
+
+    M0 86.3149C316 86.315 444 159.155 884 51.1554C1324 -56.8446 1320.29 34.1214 1538 70.4063C1814 116.407 2156 188.408 2560 86.315V232.317L0 232.316V86.3149Z;
+
+    M0 53.6584C158 11.0001 213 0 363 0C513 0 855.555 115.001 1154 115.001C1440 115.001 1626 -38.0004 2560 53.6585V199.66L0 199.66V53.6584Z;
+ 
+    M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;" />
+  </path>
+</svg>
+    </div>
+    <div className="Title">
+        <h1>Select an Hero</h1>
+    </div>
+    <div className="CardboxGroupScroll">
+        <div className="CardboxGroup">
+                <Card
+                title="Inara"
+                text="JUNGLE, ASSASSIN"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Inara_Card.png')}
+                link="/Inara/" />
+                <Card
+                title="Adagio"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Adagio_Card.jpg')}
+                link="/Adagio/" />
+                <Card
+                title="Alpha"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Alpha_Card.jpg')}
+                link="/Alpha/" />
+                <Card
+                title="Anka"
+                text="LANE, ASSASSIN"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Anka_Card.jpg')}
+                link="/Anka/" />
+                <Card
+                title="Ardan"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Ardan_Card.jpg')}
+                link="/Ardan/" />
+                <Card
+                title="Baptiste"
+                text="JUNGLE, MAGE"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Baptiste_Card.jpg')}
+                link="/Baptiste/" />
+                <Card
+                title="Baron"
+                text="LANE, SNIPER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Baron_Card.jpg')}
+                link="/Baron/"/>
+                <Card
+                title="Blackfeather"
+                text="LANE, ASSASSIN"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Blackfeather_Card.jpg')}
+                link="/Blackfeather/" />
+                <Card
+                title="Catherine"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Catherine_Card.jpg')}
+                link="/Catherine/" />
+                <Card
+                title="Celeste"
+                text="LANE, MAGE"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Celeste_Card.jpg')}
+                link="/Celeste/" />
+                <Card
+                title="Churnwalker"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Churnwalker_Card.jpg')}
+                link="/Churnwalker/" />
+                <Card
+                title="Flicker"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Flicker_Card.jpg')}
+                link="/Flicker/" />
+                <Card
+                title="Fortress"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Fortress_Card.jpg')}
+                link="/Fortress/" />
+                <Card
+                title="Glaive"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Glaive_Card.jpg')}
+                link="/Glaive/" />
+                <Card
+                title="Grace"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Grace_Card.jpg')}
+                link="/Grace/" />
+                <Card
+                title="Grumpjaw"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Grumpjaw_Card.jpg')}
+                link="/Grumpjaw/" />
+                <Card
+                title="Gwen"
+                text="LANE, SNPIER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Gwen_Card.jpg')}
+                link="/Gwen/" />
+                <Card
+                title="Idris"
+                text="JUNGLE, MAGE"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Idris_Card.jpg')}
+                link="/Idris/" />
+                <Card
+                title="Joule"
+                text="LANE, SNIPER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Joule_Card.jpg')}
+                link="/Joule/" />
+                <Card
+                title="Kensei"
+                text="LANE, ASSASSIN"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Kensei_Card.jpg')}
+                link="/Kensei/" />
+                <Card
+                title="Kestrel"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Kestrel_Card.jpg')}
+                link="/Kestrel/" />
+                <Card
+                title="Kinetic"
+                text="LANE, MAGE"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Kinetic_Card.jpg')}
+                link="/Kinetic/" />
+                <Card
+                title="Koshka"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Koshka_Card.jpg')}
+                link="/Koshka/" />
+                <Card
+                title="Krul"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Krul_Card.jpg')}
+                link="/Krul/" />
+                <Card
+                title="Lance"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Lance_Card.jpg')}
+                link="/Lance/" />
+                <Card
+                title="Lorelai"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Lorelai_Card.jpg')}
+                link="/Lorelai/" />
+                <Card
+                title="Lyra"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Lyra_Card.jpg')}
+                link="/Lyra/" />
+                <Card
+                title="Malene"
+                text="LANE, MAGE"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Malene_Card.jpg')}
+                link="/Malene/" />
+                <Card
+                title="Ozo"
+                text="JUNGLE, ASSASSIN"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Ozo_Card.jpg')}
+                link="/Ozo/" />
+                <Card
+                title="Petal"
+                text="JUNGLE, SNIPER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Petal_Card.jpg')}
+                link="/Petal/" />
+                <Card
+                title="Phinn"
+                text="JUNGLE, PROTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Phinn_Card.jpg')}
+                link="/Phinn/" />
+                <Card
+                title="Reim"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Reim_Card.jpg')}
+                link="/Reim/" />
+                <Card
+                title="Reza"
+                text="JUNGLE, ASSASSIN"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Reza_Card.jpg')}
+                link="/Reza/" />
+                <Card
+                title="Ringo"
+                text="LANE, SNIPER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Ringo_Card.jpg')}
+                link="/Ringo/" />
+                <Card
+                title="Rona"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Rona_Card.jpg')}
+                link="/Rona/" />
+                <Card
+                title="Samuel"
+                text="LANE, MAGE"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Samuel_Card.jpg')}
+                link="/Samuel/" />
+                <Card
+                title="SAW"
+                text="LANE, SNIPER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Saw_Card.jpg')}
+                link="/SAW/" />
+                <Card
+                title="Silvernail"
+                text="LANE, SNIPER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Silvernail_Card.jpg')}
+                link="/Silvernail/" />
+                <Card
+                title="Skaarf"
+                text="LANE, MAGE"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Skaarf_Card.jpg')}
+                link="/Skaarf/" />
+                <Card
+                title="Skye"
+                text="LANE, SNIPER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Skye_Card.jpg')}
+                link="/Skye/" />
+                <Card
+                title="Taka"
+                text="JUNGLE, ASSASSIN"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Taka_Card.jpg')}
+                link="/Taka/" />
+                <Card
+                title="Tony"
+                text="JUNGLE, WARRIOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Tony_Card.jpg')}
+                link="/Tony/"/>
+                <Card
+                title="Varya"
+                text="LANE, MAGE"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Varya_Card.jpg')}
+                link="/Varya/" />
+                <Card
+                title="Vox"
+                text="LANE, SNIPER"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Vox_Card.jpg')}
+                link="/Vox/" />
+                <Card
+                title="Yates"
+                text="JUNGLE, PRTOTECTOR"
+                image={require('/Users/angelocantone/Documents/vgprowiki/src/images/Cards/Yates_Card.jpg')}
+                link="/Yates/" />
+        </div>
+    </div>
+    <div className="Title">
+        <h1>Select an Item</h1>
+    </div>
+    <div className="ItemboxGroupScroll">
+        <div className="ItemboxGroup">
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/aegis.png')}
+        itemname="Aegis"
+        class="DEFENSE"
+        tier="TIER 3"
+        color="#A0D46B"
+        cost="2100"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/aftershock.png')}
+        itemname="Aftershock"
+        class="CRYSTAL"
+          tier="TIER 3"
+        color="#4a90e2"
+        cost="2600"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/alternating-current.png')}
+        itemname="Alternating Current"
+        class="CRYSTAL"
+          tier="TIER 3"
+        color="#4a90e2"
+        cost="2800"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/atlas-pauldron.png')}
+        itemname="Atlas Pauldron"
+        class="DEFENSE"
+          tier="TIER 3"
+        color="#A0D46B"
+        cost="1900"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/barbed-needle.png')}
+        itemname="Barbed Needle"
+        class="WEAPON"
+          tier="TIER 2"
+        color="#ED5565"
+        cost="800"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/blazing-salvo.png')}
+        itemname="Blazing Salvo"
+        class="WEAPON"
+          tier="TIER 2"
+        color="#ED5565"
+        cost="700"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/bonesaw.png')}
+        itemname="Bonesaw"
+        class="WEAPON"
+          tier="TIER 3"
+        color="#ED5565"
+        cost="2700"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/book-of-eulogies.png')}
+        itemname="Book of Eulogies"
+        class="WEAPON"
+          tier="TIER 1"
+        color="#ED5565"
+        cost="300"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/breaking-point.png')}
+        itemname="Breaking Point"
+        class="WEAPON"
+          tier="TIER 3"
+        color="#ED5565"
+        cost="2700"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/broken-myth.png')}
+        itemname="Broken Myth"
+        class="CRYSTAL"
+          tier="TIER 3"
+        color="#4a90e2"
+        cost="2700"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/capacitor-plate.png')}
+        itemname="Capacitor Plate"
+        class="DEFENSE"
+          tier="TIER 3"
+        color="#A0D46B"
+        cost="2400"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/chronograph.png')}
+        itemname="Chronograph"
+        class="CRYSTAL"
+          tier="TIER 2"
+        color="#4a90e2"
+        cost="800"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/clockwork.png')}
+        itemname="Clockwork"
+        class="CRYSTAL"
+          tier="TIER 3"
+        color="#4a90e2"
+        cost="2400"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/coat-of-plates.png')}
+        itemname="Coat of Plates"
+        class="DEFENSE"
+          tier="TIER 3"
+        color="#A0D46B"
+        cost="800"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/contraption.png')}
+        itemname="Contraption"
+        class="UTILITY"
+          tier="TIER 3"
+        color="#AC92EC"
+        cost="2100"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/crucible.png')}
+        itemname="Crucible"
+        class="DEFENSE"
+          tier="TIER 3"
+          color="#A0D46B"
+        cost="2100"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/crystal-bit.png')}
+        itemname="Crystal Bit"
+        class="CRYSTAL"
+          tier="TIER 1"
+        color="#4a90e2"
+        cost="300"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/crystal-infusion.png')}
+        itemname="Crystal Infusion"
+        class="UTILITY"
+          tier="TIER 1"
+          color="#AC92EC"
+        cost="500"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/dragons-eye.png')}
+        itemname="Dragon's Eye"
+        class="CRYSTAL"
+          tier="TIER 3"
+        color="#4a90e2"
+        cost="3000"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/dragonblood-contract.png')}
+        itemname="Dragonblood Contract"
+        class="UTILITY"
+          tier="TIER 1"
+          color="#AC92EC"
+        cost="250"
+        > 
+        </Itemsbox>
+        <Itemsbox
+        itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/dragonheart.png')}
+        itemname="Dragonheart"
+        class="DEFENSE"
+          tier="TIER 2"
+          color="#A0D46B"
+        cost="650"
+        > 
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/eclipse-prism.png')}
+          itemname="Eclipse Prism"
+          class="CRYSTAL"
+          tier="TIER 2"
+          color="#4a90e2"
+          cost="650"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/energy-battery.png')}
+          itemname="Energy Battery"
+          class="CRYSTAL"
+          tier="TIER 1"
+          color="#4a90e2"
+          cost="300"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/eve-of-harvest.png')}
+          itemname="Eve of Harvest"
+          class="CRYSTAL"
+          tier="TIER 3"
+          color="#4a90e2"
+          cost="2600"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/flare.png')}
+          itemname="Flare"
+          class="UTILITY"
+          tier="TIER 1"
+          color="#AC92EC"
+          cost="25"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/flare-gun.png')}
+          itemname="Flare Gun"
+          class="UTILITY"
+          tier="TIER 2"
+          color="#AC92EC"
+          cost="600"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/flare-gun.png')}
+          itemname="Flare Loader"
+          class="UTILITY"
+          tier="TIER 1"
+          color="#AC92EC"
+          cost="300"
+          tag="5V5"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/fountain-of-renewal.png')}
+          itemname="Fountain of Renewal"
+          class="DEFENSE"
+          tier="TIER 3"
+          color="#A0D46B"
+          cost="2500"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/frostburn.png')}
+          itemname="Frostburn"
+          class="CRYSTAL"
+          tier="TIER 3"
+          color="#4a90e2"
+          cost="2700"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/halcyon-chargers.png')}
+          itemname="Halcyon Chargers"
+          class="UTILITY"
+          tier="TIER 3"
+          color="#AC92EC"
+          cost="1500"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/healing-flask.png')}
+          itemname="Healing Flask"
+          class="CONSUMABLE"
+          tier="TIER 1"
+          color="#CCD1D9"
+          cost="Eqp"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/heavy-prism.png')}
+          itemname="Heavy Prism"
+          class="UTILITY"
+          tier="TIER 2"
+          color="#AC92EC"
+          cost="1050"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/heavy-steel.png')}
+          itemname="Heavy Steel"
+          class="WEAPON"
+          tier="TIER 2"
+          color="#ED5565"
+          cost="1150"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/hourglass.png')}
+          itemname="Hourglass"
+          class="CRYSTAL"
+          tier="TIER 1"
+          color="#4a90e2"
+          cost="250"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/ironguard-contract.png')}
+          itemname="Ironguard Contract"
+          class="CONSUMABLE"
+          tier="TIER 1"
+          color="#CCD1D9"
+          cost="250"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/journey-boots.png')}
+          itemname="Journey Boots"
+          class="UTILITY"
+          tier="TIER 2"
+          color="#AC92EC"
+          cost="1500"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/kinetic-shield.png')}
+          itemname="Kinetic Shield"
+          class="DEFENSE"
+          tier="TIER 2"
+          color="#A0D46B"
+          cost="800"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/level-juice.png')}
+          itemname="Level juice"
+          class="CONSUMABLE"
+          tier="TIER 1"
+          color="#CCD1D9"
+          cost="0"
+          tag="PRACTICE"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/lifespring.png')}
+          itemname="Ligespring"
+          class="DEFENSE"
+          tier="TIER 2"
+          color="#A0D46B"
+          cost="800"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/light-armor.png')}
+          itemname="Light Armor"
+          class="DEFENSE"
+          tier="TIER 1"
+          color="#A0D46B"
+          cost="300"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/light-shield.png')}
+          itemname="Light Shield"
+          class="DEFENSE"
+          tier="TIER 1"
+          color="#A0D46B"
+          cost="300"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/lucky-strike.png')}
+          itemname="Lucky Strike"
+          class="WEAPON"
+          tier="TIER 2"
+          color="#ED5565"
+          cost="900"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/metal-jacket.png')}
+          itemname="Metal Jacket"
+          class="DEFENSE"
+          tier="TIER 3"
+          color="#A0D46B"
+          cost="2400"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/minion-candy.png')}
+          itemname="Minion Candy"
+          class="CONSUMABLE"
+          tier="TIER 1"
+          color="#CCD1D9"
+          cost="75"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/minions-foot.png')}
+          itemname="Minion's Foot"
+          class="WEAPON"
+          tier="TIER 1"
+          color="#ED5565"
+          cost="300"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/nullwave-gauntlet.png')}
+          itemname="Nullwave Gauntlet"
+          class="UTILITY"
+          tier="TIER 3"
+          color="#AC92EC"
+          cost="2200"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/oakheart.png')}
+          itemname="Oakheart"
+          class="DEFENSE"
+          tier="TIER 1"
+          color="#A0D46B"
+          cost="300"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/piercing-shard.png')}
+          itemname="Piercing Shard"
+          class="CRYSTAL"
+          tier="TIER 2"
+          color="#4a90e2"
+          cost="900"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/piercing-spear.png')}
+          itemname="Piercing Spear"
+          class="WEAPON"
+          tier="TIER 2"
+          color="#ED5565"
+          cost="900"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/poisoned-shiv.png')}
+          itemname="Poisoned Shiv"
+          class="WEAPON"
+          tier="TIER 3"
+          color="#ED5565"
+          cost="900"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/protector-contract.png')}
+          itemname="Protector Contract"
+          class="CONSUMABLE"
+          tier="TIER 1"
+          color="#CCD1D9"
+          cost="250"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/pulseweave.png')}
+          itemname="Pulseweave"
+          class="DEFENSE"
+          tier="TIER 3"
+          color="#A0D46B"
+          cost="2700"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/reflex-block.png')}
+          itemname="Reflex Block"
+          class="DEFENSE"
+          tier="TIER 2"
+          color="#A0D46B"
+          cost="700"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/rooks-decree.png')}
+          itemname="Rook's Decree"
+          class="DEFENSE"
+          tier="TIER 3"
+          color="#A0D46B"
+          cost="2400"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/scout-cam.png')}
+          itemname="Scout Cam"
+          class="CONSUMABLE"
+          tier="TIER 1"
+          color="#CCD1D9"
+          cost="Eqp"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/scout-trap.png')}
+          itemname="Scout Trap"
+          class="CONSUMABLE"
+          tier="TIER 1"
+          color="#CCD1D9"
+          cost="50"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/scoutpak.png')}
+          itemname="ScoutPak"
+          class="UTILITY"
+          tier="TIER 2"
+          color="#AC92EC"
+          cost="500"
+          tag="5V5"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/scouttuff.png')}
+          itemname="ScoutTuff"
+          class="UTILITY"
+          tier="TIER 2"
+          color="#AC92EC"
+          cost="500"
+          tag="5V5"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/serpent-mask.png')}
+          itemname="Serpent Mask"
+          class="WEAPON"
+          tier="TIER 3"
+          color="#ED5565"
+          cost="2800"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/shatterglass.png')}
+          itemname="Shatterglass"
+          class="CRYSTAL"
+          tier="TIER 3"
+          color="#4a90e2"
+          cost="3000"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/shiversteel.png')}
+          itemname="Shiversteel"
+          class="UTILITY"
+          tier="TIER 3"
+          color="#AC92EC"
+          cost="1950"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/six-sins.png')}
+          itemname="Six Sins"
+          class="WEAPON"
+          tier="TIER 2"
+          color="#ED5565"
+          cost="650"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/slumbering-husk.png')}
+          itemname="Slumbering Husk"
+          class="DEFENSE"
+          tier="TIER 3"
+          color="#A0D46B"
+          cost="2600"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/sorrowblade.png')}
+          itemname="Sorrowblade"
+          class="WEAPON"
+          tier="TIER 3"
+          color="#ED5565"
+          cost="3100"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/spellfire.png')}
+          itemname="Spellfire"
+          class="CRYSTAL"
+          tier="TIER 3"
+          color="#4a90e2"
+          cost="2900"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/spellsword.png')}
+          itemname="Spellsword"
+          class="WEAPON"
+          tier="TIER 3"
+          color="#ED5565"
+          cost="2800"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/sprint-boots.png')}
+          itemname="Sprint Boots"
+          class="UTILITY"
+          tier="TIER 1"
+          color="#AC92EC"
+          cost="300"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/stormcrown.png')}
+          itemname="Stormcrown"
+          class="UTILITY"
+          tier="TIER 3"
+          color="#AC92EC"
+          cost="2000"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/superscout-2000.png')}
+          itemname="SuperScout2000"
+          class="UTILITY"
+          tier="TIER 3"
+          color="#AC92EC"
+          cost="2000"
+          tag="5V5"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/swift-shooter.png')}
+          itemname="Swift Shooter"
+          class="WEAPON"
+          tier="TIER 1"
+          color="#ED5565"
+          cost="300"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/teleport-boots.png')}
+          itemname="Teleport Boots"
+          class="UTILITY"
+          tier="TIER 3"
+          color="#AC92EC"
+          cost="2000"
+          tag="5V5"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/tension-bow.png')}
+          itemname="Tension Bow"
+          class="WEAPON"
+          tier="TIER 3"
+          color="#ED5565"
+          cost="2700"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/tornado-trigger.png')}
+          itemname="Tension Bow"
+          class="WEAPON"
+          tier="TIER 3"
+          color="#ED5565"
+          cost="2800"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/void-battery.png')}
+          itemname="Void Battery"
+          class="CRYSTAL"
+          tier="TIER 3"
+          color="#4a90e2"
+          cost="700"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/war-treads.png')}
+          itemname="War Treads"
+          class="UTILITY"
+          tier="TIER 3"
+          color="#AC92EC"
+          cost="2000"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/warmail.png')}
+          itemname="Warmail"
+          class="DEFENSE"
+          tier="TIER 3"
+          color="#A0D46B"
+          cost="2600"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/weapon-blade.png')}
+          itemname="Weapon Blade"
+          class="WEAPON"
+          tier="TIER 1"
+          color="#ED5565"
+          cost="300"
+        >
+        </Itemsbox>
+        <Itemsbox
+          itemimg={require('/Users/angelocantone/Documents/vgprowiki/src/images/Items/weapon-infusion.png')}
+          itemname="Weapon Infusion"
+          class="CONSUMABLE"
+          tier="TIER 1"
+          color="#CCD1D9"
+          cost="500"
+        >
+        </Itemsbox>
+        </div>
+        </div>
+  </Layout>
+)
+
+export default IndexPage

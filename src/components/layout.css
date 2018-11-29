@@ -1,0 +1,138 @@
+@font-face{
+  font-family: Antonio;
+  src: url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/Users/angelocantone/Documents/vgprowiki/src/images/Antonio-Regular.svg#Antonio-Regular.svg') format('svg'); /* Legacy iOS */
+}
+/*ANIMATIONS*/
+@keyframes HeroAnimation {
+  0% {
+	  opacity: 0;
+	  transform: translateY(20px)
+  }
+  100% {
+	  opacity: 1;
+	  transform: translateY(0px)
+  }
+}
+
+@keyframes ModelAnimation {
+  0% {
+      opacity: 0;
+      transform: scale(1.2)
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1)
+  }
+}
+
+html{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  font-size: 18px;
+  background-color:#1f1f21;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+ 
+#___gatsby {
+  height: 100%;
+  margin:0;
+}
+
+#___gatsby > div {
+  height: 100%;
+  margin:0;
+}
+
+a {
+ color: white;
+ text-decoration: none;
+ font-weight: 600; 
+}
+
+/*                  DESKTOP                    */
+  .Hero {
+    display:flex;
+    background-size: cover;
+    background: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%); 
+    width: 100%;
+    height: 60vh;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+    position: relative;
+  }
+
+  .HeroGroup{
+    max-width: 500px;
+    display: flex;
+    -webkit-font-smoothing: antialiased;
+  /* flex-wrap: wrap; */
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+
+  .HeroGroup h1{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.808);
+    line-height: 1.2;
+    animation-delay: 0.1s;
+    animation: HeroAnimation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+   -webkit-font-smoothing: antialiased;
+   
+  }
+  
+  .HeroGroup p{
+    margin-top: -20px;
+    font-weight:600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.808);
+    animation-delay: 0.1s;
+    animation: HeroAnimation 3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+  .Title {
+    margin-left: 16px;
+    font-family: "Antonio";
+    font-size: 10px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    justify-content: left;
+    overflow: hidden;
+  }
+
+.line {
+  height: 3px;
+  background: rgba(240, 243, 245, 0.1);;
+  border-radius: 30px;
+  margin-right: 16px;
+}
+
+@media(max-width:480px) {
+  .Hero h1{
+    font-size: 45px;
+  }
+}
