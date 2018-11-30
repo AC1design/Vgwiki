@@ -158,6 +158,7 @@ a {
     outline: none;
     text-align: center;
     overflow-y: auto;
+    
     }
  
 
@@ -199,7 +200,7 @@ a {
     box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
   }
 
-  .ReactModal__Body--open, .ReactModal__Html--open {
+  .ReactModal__Body--open{
     overflow: hidden;
 }
   
@@ -211,18 +212,23 @@ a {
 
   .ReactModal__Content {
     opacity: 0;
+    
+    
   }
   
   .ReactModal__Content--after-open {
     opacity: 1;
     transition: opacity 150ms;
+    
   }
   
   .ReactModal__Content--before-close {
     opacity: 0;
   }
-
-
+.Text{
+  height: 290px;
+  overflow-y: auto;
+}
 @media (max-width:1024px) {
     .Modal{
         width: 85%;
@@ -233,7 +239,8 @@ a {
   @media (max-width:560px) {
   .Modal {
     width: 95%;
-    height: auto;
+    height:auto;
+    overflow: scroll;
     margin:0 auto;
     margin-top: 30px;
     display:table;
@@ -247,4 +254,8 @@ a {
     box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     outline: none;
     }
+    .Text{
+  height: 295px;
+  overflow-y: auto;
+}
 }

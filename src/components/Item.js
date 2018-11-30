@@ -37,19 +37,22 @@ class Itemsbox extends React.Component {
 						</div>
 					</div>
 					<div className="divider"></div>
+					<div className="Text">
 					<h4 >{this.props.description}</h4>
 					<h5>{this.props.tip}</h5>
 					<h1 className="buildfromto">{this.props.builtfrom}</h1>
 					<div className="ItemsRequired">
-						<img src={this.props.item1} />
-						<img src={this.props.item2} />
-						<img src={this.props.item3} />
+						{this.props.item1 && <img src={this.props.item1} />}
+						{this.props.item2 && <img src={this.props.item2} />}
+						{this.props.item3 && <img src={this.props.item3} />}
 					</div>
 					<h1 className="buildfromto">{this.props.buildsto}</h1>
 					<div className="ItemsRequired">
-						<img src={this.props.item4} />
-						<img src={this.props.item5} />
-						<img src={this.props.item6} />
+						{this.props.item4 && <img src={this.props.item4}/> }
+		                {this.props.item5 && <img src={this.props.item5} /> }
+						{this.props.item6 && < img src={this.props.item6} /> }
+						{this.props.item7 && < img src={this.props.item7} />}
+					</div>
 					</div>
 					<button onClick={this.handleCloseModal}>CLOSE</button>
 				</Modal>

@@ -295,13 +295,11 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/eclipse-prism.png")}
           item2={require("./../images/Items/chronograph.png")}
-          item3={require("./../images/placeholder.png")}
           > 
         </Itemsbox>
         <Itemsbox
         itemimg={require('./../images/Items/alternating-current.png')}
-        itemname="Alternating 
-        Current"
+        itemname="Alternating Current"
         class="CRYSTAL"
           tier="TIER 3"
         color="#4a90e2"
@@ -311,10 +309,8 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
                      Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
-          item1={require("./../images/Items/eclipse-prism.png")}
-          item2={require("./../images/Items/chronograph.png")}
-          item3={require("./../images/placeholder.png")}
-        > 
+          item1={require("./../images/Items/heavy-prism.png")}
+          item2={require("./../images/Items/blazing-salvo.png")} >
         </Itemsbox>
         <Itemsbox
         itemimg={require('./../images/Items/atlas-pauldron.png')}
@@ -323,7 +319,12 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           tier="TIER 3"
         color="#A0D46B"
         cost="1900"
-
+        description="+65 Armor 
+Activate: Maim nearby enemies, lowering their attack speed by 65% of their total for 4s in a 4-meter range. (45s cooldown)
+"
+          tip="Tip: Counters enemies with high attack speed, but you must get close to the enemies to affect them."
+          builtfrom="BUILT FROM"
+          item1={require("./../images/Items/coat-of-plates.png")}
         > 
         </Itemsbox>
         <Itemsbox
@@ -333,6 +334,15 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           tier="TIER 2"
         color="#ED5565"
         cost="800"
+        description="+10 Weapon Power 
++10% Weapon Lifesteal 
+Passive: Restores 20 health whenever you kill a minion or monster (40 if using a melee default attack)."
+          tip="Tip: Helps you stay healthy while last-hitting in lane."
+          builtfrom="BUILT FROM"
+          item1={require("./../images/Items/book-of-eulogies.png")}
+          buildsto="BUILDS INTO"
+          item4={require("./../images/Items/serpent-mask.png")}
+          item5={require("./../images/Items/poisoned-shiv.png")}
         > 
         </Itemsbox>
         <Itemsbox
@@ -342,7 +352,18 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           tier="TIER 2"
         color="#ED5565"
         cost="700"
-        > 
+        description="+10 Weapon Power 
++10% Weapon Lifesteal 
+Passive: Restores 20 health whenever you kill a minion or monster (40 if using a melee default attack)."
+          tip="Tip: Helps you stay healthy while last-hitting in lane."
+          builtfrom="BUILT FROM"
+          item1={require("./../images/Items/swift-shooter.png")}
+          buildsto="BUILDS INTO"
+          item4={require("./../images/Items/bonesaw.png")}
+          item5={require("./../images/Items/breaking-point.png")}
+          item6={require("./../images/Items/poisoned-shiv.png")}
+          item7={require("./../images/Items/tornado-trigger.png")}
+          > 
         </Itemsbox>
         <Itemsbox
         itemimg={require('./../images/Items/bonesaw.png')}
