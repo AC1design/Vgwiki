@@ -29,20 +29,27 @@ class Itemsbox extends React.Component {
 						<p>{this.props.cost}</p>
 					</div>
 					<div className="Imginfo">
-					<img src={this.props.itemimg} />
+						<img src={this.props.itemimg} />
 						<div className="Info">
-					<h1>{this.props.itemname}</h1>
-					<H2 color={this.props.color}> {this.props.class} </H2>
-					<h3>{this.props.tier}</h3>
+							<h1>{this.props.itemname}</h1>
+							<H2 color={this.props.color}> {this.props.class} </H2>
+							<h3>{this.props.tier}</h3>
 						</div>
 					</div>
 					<div className="divider"></div>
-					<h4>{this.props.description}</h4>
-					<h1 className="ItemsRequiredTitle">ITEMS REQUIRED</h1>
+					<h4 >{this.props.description}</h4>
+					<h5>{this.props.tip}</h5>
+					<h1 className="buildfromto">{this.props.builtfrom}</h1>
 					<div className="ItemsRequired">
-					<img src={this.props.item1}/>
+						<img src={this.props.item1} />
 						<img src={this.props.item2} />
 						<img src={this.props.item3} />
+					</div>
+					<h1 className="buildfromto">{this.props.buildsto}</h1>
+					<div className="ItemsRequired">
+						<img src={this.props.item4} />
+						<img src={this.props.item5} />
+						<img src={this.props.item6} />
 					</div>
 					<button onClick={this.handleCloseModal}>CLOSE</button>
 				</Modal>

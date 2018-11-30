@@ -271,11 +271,13 @@ const IndexPage = () => (
 +40 Armor
 +200 Max Health
 
-Activate: Reflex Block (45s cooldown). 
-Tip: Greatly reduces damage from enemy abilities."
+Activate: Reflex Block (45s cooldown)." 
+tip="Tip: Greatly reduces damage from enemy abilities."
+          builtfrom="BUILT FROM"
 item1={require("./../images/Items/reflex-block.png")}
           item2={require("./../images/Items/warmail.png")}
           item3={require("./../images/placeholder.png")}
+          
         > 
         </Itemsbox>
         <Itemsbox
@@ -285,15 +287,33 @@ item1={require("./../images/Items/reflex-block.png")}
           tier="TIER 3"
         color="#4a90e2"
         cost="2600"
-        > 
+        description="+25% Cooldown Speed 
++1.0 Energy Recharge 
++30 Crystal Power
+Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 400 damage vs non-heroes. 1s cooldown."
+          tip="Tip: Very effective against enemies with high health."
+          builtfrom="BUILT FROM"
+          item1={require("./../images/Items/eclipse-prism.png")}
+          item2={require("./../images/Items/chronograph.png")}
+          item3={require("./../images/placeholder.png")}
+          > 
         </Itemsbox>
         <Itemsbox
         itemimg={require('./../images/Items/alternating-current.png')}
-        itemname="Alternating Current"
+        itemname="Alternating 
+        Current"
         class="CRYSTAL"
           tier="TIER 3"
         color="#4a90e2"
         cost="2800"
+        description="+50 Crystal Power 
+                     +30% Attack Speed 
+                     Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
+          tip="Tip: Very effective against enemies with high health."
+          builtfrom="BUILT FROM"
+          item1={require("./../images/Items/eclipse-prism.png")}
+          item2={require("./../images/Items/chronograph.png")}
+          item3={require("./../images/placeholder.png")}
         > 
         </Itemsbox>
         <Itemsbox
@@ -303,6 +323,7 @@ item1={require("./../images/Items/reflex-block.png")}
           tier="TIER 3"
         color="#A0D46B"
         cost="1900"
+
         > 
         </Itemsbox>
         <Itemsbox
@@ -605,7 +626,7 @@ item1={require("./../images/Items/reflex-block.png")}
         </Itemsbox>
         <Itemsbox
           itemimg={require('./../images/Items/level-juice.png')}
-          itemname="Level juice"
+          itemname="Level Juice"
           class="CONSUMABLE"
           tier="TIER 1"
           color="#CCD1D9"

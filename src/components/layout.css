@@ -89,7 +89,7 @@ a {
   }
 
   .HeroGroup h1{
-    font-size: 40px;
+    font-size: 50px;
     color: rgba(255, 255, 255, 0.808);
     line-height: 1.2;
     animation-delay: 0.1s;
@@ -133,7 +133,7 @@ a {
 
 @media(max-width:480px) {
   .Hero h1{
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 
@@ -222,7 +222,6 @@ a {
     opacity: 0;
   }
 
-  
 
 @media (max-width:1024px) {
     .Modal{

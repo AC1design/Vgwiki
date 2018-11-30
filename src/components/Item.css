@@ -128,8 +128,9 @@
 
 .Info h1{
     color: rgb(255, 255, 255);
-	font-size: 20px;
+	font-size: 18px;
     -webkit-font-smoothing: antialiased;
+    width:165px;
 }
 
 .Info h2{
@@ -168,9 +169,22 @@
     white-space: pre-line;
     text-align:left;
     margin-left:20px;
+    margin-right:20px;
 }
 
-.ItemsRequiredTitle{
+.Modal h5{
+    color:#4adad2;
+	font-weight: 700;
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    white-space: pre-line;
+    text-align:left;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:-5px;
+}
+
+  .buildfromto{
     color: rgba(255,255,255, 0.8);
 	font-weight: 800;
 	font-size: 14px;
@@ -183,12 +197,8 @@
     text-align: left;
     margin-left:20px;
     display:grid;
-    grid-template-columns: repeat(3, 80px);
+    grid-template-columns: repeat(3, 70px)
 }
 
-.ItemsRequired img{
-    width:60px;
-    height: 60px;
-}
 
 ::-webkit-scrollbar { display: none; }
