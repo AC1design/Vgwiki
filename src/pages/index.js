@@ -276,8 +276,6 @@ tip="Tip: Greatly reduces damage from enemy abilities."
           builtfrom="BUILT FROM"
 item1={require("./../images/Items/reflex-block.png")}
           item2={require("./../images/Items/warmail.png")}
-          item3={require("./../images/placeholder.png")}
-          
         > 
         </Itemsbox>
         <Itemsbox
