@@ -225,10 +225,7 @@ a {
   .ReactModal__Content--before-close {
     opacity: 0;
   }
-.Text{
-  height: 290px;
-  overflow-y: auto;
-}
+
 @media (max-width:1024px) {
     .Modal{
         width: 85%;
