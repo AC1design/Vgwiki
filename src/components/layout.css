@@ -114,10 +114,22 @@ a {
   left: 0;
 }
 
-  .Title {
+  .Title h1{
     margin-left: 16px;
     font-family: "Antonio";
-    font-size: 10px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    justify-content: left;
+    overflow: hidden;
+  }
+
+   .Selectan h1 {
+     text-align: center;
+     margin-top:50px;
+     margin-bottom:50px;
+    font-family: "Antonio";
+    font-size: 30px;
     line-height: 1.2;
     color: rgb(255, 255, 255);
     justify-content: left;
@@ -129,6 +141,37 @@ a {
   background: rgba(240, 243, 245, 0.1);;
   border-radius: 30px;
   margin-right: 16px;
+  margin-left: 16px;
+}
+
+@media (max-width: 1366px) {
+    .Selectan h1 {
+     text-align: left;
+     margin-top:20px;
+     margin-bottom:20px;
+    margin-left: 25px;
+    font-family: "Antonio";
+    font-size: 18px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    justify-content: left;
+    overflow: hidden;
+  }
+  }
+  
+  @media (max-width: 720px) {
+     .Selectan h1 {
+     text-align: left;
+     margin-top:20px;
+     margin-bottom:20px;
+    margin-left: 25px;
+    font-family: "Antonio";
+    font-size: 18px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    justify-content: left;
+    overflow: hidden;
+  }
 }
 
 @media(max-width:480px) {

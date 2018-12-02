@@ -68,7 +68,7 @@ const Silvernail = () => (
             />
             <Statbox
                 title="ATTACK RANGE"
-                value="6.4"
+                value="6.2"
                 color="#e19efb"
             />
             <Statbox

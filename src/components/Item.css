@@ -8,10 +8,12 @@
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     cursor: pointer;
     padding: 20px;
+    padding-bottom: 5px;
     box-sizing: border-box;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    min-height: 100%;
+    min-height: 200px;
+    max-width: 195px;
    outline: none;
 }
 
@@ -57,7 +59,8 @@
     justify-content: left;
 	color: rgb(255, 174, 52);
 	font-weight: 700;
-	font-size: 14px;
+    font-size: 14px;
+    margin-bottom:-5px;
     -webkit-font-smoothing: antialiased;
 }
 .Cost p {
@@ -85,21 +88,18 @@
 }
 
 .ItemboxGroup {
-    margin: 20px 16px 40px;
     display: grid;
-    grid-template-columns: repeat(80, 195px);
+    grid-template-columns: repeat(5, 230px);
     grid-column-gap: 20px;
-    justify-content: left;
-    justify-items: stretch;
-    overflow: visible;
+    grid-row-gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    
 }
 
 .ItemboxGroupScroll{
     overflow-x: scroll;
     overflow-y: visible;
-    width:100%;
-    background: transparent;
-    padding: 20px 0px -10px;
 }
 
 /*Modal*/
@@ -115,8 +115,8 @@
 }
 
 .Modal img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     text-align:center;
     margin-top: 15px;
 }
@@ -197,8 +197,47 @@
     text-align: left;
     margin-left:20px;
     display:grid;
-    grid-template-columns: repeat(4, 70px)
+    grid-template-columns: repeat(5, 55px)
 }
 
+  @media (max-width: 1366px) {
+    .ItemboxGroup {
+    margin: 20px 16px 40px;
+    display: grid;
+    grid-template-columns: repeat(81, 195px);
+    grid-column-gap: 20px;
+    justify-content: left;
+    justify-items: stretch;
+    overflow: visible;
+}
+
+.ItemboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+    padding: 20px 0px -10px;
+}
+  }
+  
+  @media (max-width: 720px) {
+    .ItemboxGroup {
+    margin: 20px 16px 40px;
+    display: grid;
+    grid-template-columns: repeat(82, 195px);
+    grid-column-gap: 20px;
+    justify-content: left;
+    justify-items: stretch;
+    overflow: visible;
+}
+
+.ItemboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+    padding: 20px 0px -10px;
+}
+}
 
 ::-webkit-scrollbar { display: none; }
