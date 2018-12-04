@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Vainglory Wiki' },
             { name: 'keywords', content: 'vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg' },
-            { name: 'og:image', content:'./..//images/SEOVGWIKI.png'}
+            { name: 'og:image', content:'./../images/SEOVGWIKI.png'}
           ]}
         >
           <html lang="en" />
