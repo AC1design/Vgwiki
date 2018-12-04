@@ -28,7 +28,7 @@
     border-radius: 20px;
     box-sizing: border-box;
     width:auto;
-    margin: 60px 20px 40px;
+    margin: 40px 20px 40px;
     display: grid;
     grid-template-columns: repeat(10, auto);
     grid-column-gap: 60px;

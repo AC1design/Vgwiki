@@ -4,8 +4,7 @@ import Layout from '../components/layout'
 import Card from '../components/Card'
 import Itemsbox from '../components/Item';
 import Tabsind from '../components/Tab';
-import MediaQuery from 'react-responsive'; 
-
+import MediaQuery from 'react-responsive';
 const IndexPage = () => (
   <Layout>
     <div className="Hero">
