@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Vainglory Wiki' },
             { name: 'keywords', content: 'vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg' },
-            { property: 'og:image', content:'https://upload.wikimedia.org/wikipedia/commons/f/ff/Vainglory_-_Saw_shooting_at_Kraken_at_the_Vain_crystal.jpg'}
+            { property: 'og:image', content:'https://imgur.com/a/NV9Vqk4'}
           ]}
         >
           <html lang="en" />
