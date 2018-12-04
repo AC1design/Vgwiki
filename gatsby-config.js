@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Vainglorywiki',
+    title: 'VGWIKI',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

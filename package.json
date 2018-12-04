@@ -2,7 +2,7 @@
   "name": "VGWIKI",
   "description": "Vainglory Wiki",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Angelo Cantone",
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.2.1",
