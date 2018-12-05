@@ -97,7 +97,7 @@ const Glaive = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-A-Afterburn.mp4'}
                 title="HUNT THE WEAK"
                 subtitle="HEROIC PERK"
-                        image={require("./../images/Ability/Glaive-P.jpg")}
+                        image={require("./../images/Ability/Glaive-P.png")}
                 text="Glaive's critical strikes cleave in a cone in front of him.
                 • Cleave deals half damage to minions."
             />

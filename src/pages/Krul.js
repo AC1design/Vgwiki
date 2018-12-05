@@ -96,7 +96,7 @@ const Krul = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-P-Shadows-Empower-Me.mp4'}
                 title="SHADOWS EMPOWER ME"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Krul-P.jpg')}
+                        image={require('./../images/Ability/Krul-P.png')}
                 text="Krul is empowered by the shadows after standing still in brush for 1s. While empowered, Krul briefly gains 2.2 move speed and his basic attacks will slow the target by 40% for 2.5s. Empowered state lasts 1.8 seconds."
             />
             <Skillbox

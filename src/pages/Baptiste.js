@@ -95,7 +95,7 @@ const Baptiste = () => (
             <Skillbox
                 title="REAP"
                 subtitle="HEROIC PERK"
-                    image={require('./../images/Ability/Baptiste-P.jpg')}
+                    image={require('./../images/Ability/Baptiste-P.png')}
                 text="Baptiste steals soul fragments through combat and is healed for each soul fragment acquired.
                 • Upon reaching 4 soul fragments, Baptiste is empowered for 4 seconds and deals increased damage but generates no additional soul fragments.
                 • Basic attacks generate one soul fragment

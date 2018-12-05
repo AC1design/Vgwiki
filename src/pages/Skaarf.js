@@ -97,7 +97,7 @@ const Skaarf = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Skaarf-P-Fan-the-Flames.mp4"
                                     title="FAN THE FLAMES"
                                     subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Skaarf-P.jpg')}
+                        image={require('./../images/Ability/Skaarf-P.png')}
                                     text="Skaarf's abilities burn targets and his basic attacks deal bonus crystal damage to burning targets.
                 
                   Burn: 8 damage per second for 4s.

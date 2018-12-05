@@ -98,7 +98,7 @@ const Adagio = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-P-Arcane-Renewal.mp4'}
                 title="ARCANE RENEWAL"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Adagio-P.jpg')}
+                        image={require('./../images/Ability/Adagio-P.png')}
                 text="Whenever enemies burning with Arcane Fire take damage from any source, Adagio regenerates 25% of that damage as energy."
             />
             <Skillbox

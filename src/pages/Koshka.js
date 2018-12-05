@@ -96,7 +96,7 @@ const Koshka = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Koshka-P-Bloodrush.mp4'}
                 title="BLOODRUSH"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Koshka-P.jpg')}
+                        image={require('./../images/Ability/Koshka-P.png')}
                 text="Koshka gains 2 move speed for 4s whenever she deals damage with her abilities."
             />
             <Skillbox

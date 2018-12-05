@@ -97,7 +97,7 @@ const Ringo = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Ringo-P-Double-Down.mp4"
                 title="DOUBLE DOWN"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Ringo-P.jpg')}
+                        image={require('./../images/Ability/Ringo-P.png')}
                 text="Ringo's next basic attack after killing anything will be a critical strike."
                 />
             <Skillbox

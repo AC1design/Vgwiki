@@ -97,7 +97,7 @@ const Catherine = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-P-Captain-of-the-Guard.mp4'}
                 title="CAPTAIN OF THE GUARD"
                 subtitle="HEROIC PERK"
-                        image={require("./../images/Ability/Catherine-P.jpg")}
+                        image={require("./../images/Ability/Catherine-P.png")}
                 text="Catherine gains 1 armor and shield every time she stuns or silences or silences an enemy hero with her abilities.                "
             />
             <Skillbox

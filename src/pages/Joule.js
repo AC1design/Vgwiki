@@ -96,7 +96,7 @@ const Joule = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-Perk-Heavy-Plating.mp4'}
                 title="HEAVY PLATING"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Joule-P.jpg')}
+                        image={require('./../images/Ability/Joule-P.png')}
                 text="Joule has bonus aromr & shield against damage that hits her on the front and sides, but not her back.
                 • Bonus defense: 15-90 (level 1-12)"
             />

@@ -96,7 +96,7 @@ const Blackfeather = () => (
             <Skillbox
                 title="HEARTTHROB"
                 subtitle="HEROIC PERK"
-                        image={require("./../images/Ability/Blackfeather-P.jpg")}
+                        image={require("./../images/Ability/Blackfeather-P.png")}
                 text="Blackfeather's attacks and abilities apply Heartthrob stacks to enemies. Any time stacks are added or refreshed, Blackfeather deals bonus crystal damage for each stack already on the target.
 
                 • Bonus damage: 5-10 (level 1-12) (+15% of crystal power).

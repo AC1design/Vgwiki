@@ -95,7 +95,7 @@ const Malene = () => (
             <Skillbox
                 title="MASKED BALL"
                 subtitle="HEROIC PERK"
-                    image={require('./../images/Ability/Malene-P.jpg')}
+                    image={require('./../images/Ability/Malene-P.png')}
                 text="Malene's ultimate is available at level 1 and allows her to switch between Light Form and Shadow Form. Additionally, Malene's basic attacks deal crystal damage.
 
                 • Basic attack crystal damage: 60-126 (level 1-12) (+60% crystal power).

@@ -96,7 +96,7 @@ const Kensei = () => (
             video={require('./../images/SkillVideos/Kensei-P.mp4')}
                 title="IMMOVABLE MIND"
                 subtitle="HEROIC PERK"
-                image={require('./../images/Ability/Kensei-P.jpg')}
+                        image={require('./../images/Ability/Kensei-P.png')}
                 text="After striking enemy heroes or jungle monsters 3 times, Kensei's next basic attack deals 20% bonus damage and grants a burst of barrier.
 
                 • Bonus Barrier: 30-140 (level 1-12)

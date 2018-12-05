@@ -97,7 +97,7 @@ const Saw = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/SAW-P-Spin-Up.mp4"
                 title="SPIN UP"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Saw-P.jpg')}
+                        image={require('./../images/Ability/Saw-P.png')}
                 text="Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed.
                 
                  • Each basic attack grants SAW +15% attack speed.

@@ -96,7 +96,7 @@ const Ardan = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-P-Julias-Gift.mp4"
                 title="JULIA'S GIFT"
                 subtitle="HEROIC PERK"
-                    image={require('./../images/Ability/Ardan-P.jpg')}
+                    image={require('./../images/Ability/Ardan-P.png')}
                 text="Ardan benefits from purchasing health items.
                 Whenever Ardan takes damage, he heals for 0.8% of his missing health, but no more than 75% of the damage taken.
                 Instead of energy, Ardan uses a yellow meter called Vengeance. Vengeance builds over time and can also be gained with basic attacks, crtical strikes and abilities.

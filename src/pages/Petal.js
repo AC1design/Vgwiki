@@ -97,7 +97,7 @@ const Petal = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Petal-P-Bramblethorn-Munions.mp4'}
                 title="MUNIONS"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Petal-P.jpg')}
+                        image={require('./../images/Ability/Petal-P.png')}
                 text="A few moments after Petal plants a Bramblebloom Seed, it will automatically sprout into a Munion pet, which will fight alongside Petal up to a maximum of 3 Munions."
             />
             <Skillbox

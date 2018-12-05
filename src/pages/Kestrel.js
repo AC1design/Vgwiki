@@ -95,7 +95,7 @@ const Kestrel = () => (
             <Skillbox
                 title="ADRENALINE"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Kestrel-P.jpg')}
+                        image={require('./../images/Ability/Kestrel-P.png')}
                 text="Whenever Kestrel lands a basic attack, she reduces the energy cost of her abilities by 10%. This stacks up to 5 times and wears off after 8s."
             />
             <Skillbox
