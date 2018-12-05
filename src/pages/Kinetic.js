@@ -96,7 +96,7 @@ const Kinetic = () => (
             video={require('./../images/SkillVideos/Kinetic-P.mp4')}
                 title="TRACER SHOTS"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/perk_kinetic_tracer_shots.jpg'
+                        image={require('./../images/Ability/Kinetic-P.png')}
                 text="Landing Plasma Driver grants Kinetic a stack of Tracer Shots up to 4 stacks.
                 Tracer Shots: Kinetic fires a tracer at her target.
                 • Tracer Damage: 4-15 (Level 1-12) (+10% weapon power)"
@@ -106,13 +106,13 @@ const Kinetic = () => (
                 title="PLASMA DRIVER"
                 subtitle="A ABILITY"
                 text="Kinetic unleashes a burst of energy, damaging the first enemy struck."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/A_icon_kinetic_plasma_driver.jpg'
+                        image={require('./../images/Ability/Kinetic-A.png')}
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Kinetic-B.mp4')}
                 title="OVERWHELM"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/B_icon_kinetic_inertial_dash.jpg'
+                        image={require('./../images/Ability/Kinetic-B.png')}
                 text="Kinetic dashes and temporarily becomes Charged for 5s.
                 Charged: Kinetic's next Plasma Driver deals more damage, has increased range, and slows her target.
                 
@@ -123,7 +123,7 @@ const Kinetic = () => (
                 video={require('./../images/SkillVideos/Kinetic-C.mp4')}
                 title="IRON MANDATE"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/06/C_icon_kinetic_charged_pulse.jpg'
+                        image={require('./../images/Ability/Kinetic-C.png')}
                 text="Kinetic charges up a powerful blast and fires it at her target.
                 • Consumes all stacks of Tracer Shots to deal 25% bonus damage per stack
                 • Can be blocked by enemy heroes, structures, and jungle bosses."

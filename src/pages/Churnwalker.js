@@ -96,7 +96,7 @@ const Churnwalker = () => (
             <Skillbox
                 title="FUTILITY OF LIFE"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/churnwalker_talents_perk.jpg"
+                        image={require("./../images/Ability/Churnwalker-P.jpg")}
                 text="• Whenever chained victims take damage from any source, Churnwalker regenerates 20% of that damage as health.
                 • Whenever any chained victim takes damage, 30% of that damage is conferred on all other chained victims."
             />
@@ -109,19 +109,19 @@ const Churnwalker = () => (
                 • If a chained victim can get far enough away, the chain will break.
                 • Landing a hook will reset this ability's cooldown. (Chained victims cannot be hit by a hook.)
                 • Overdrive: Increases the max range of the hook and the chain's damage over time."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/ChurnWalker_ability_a.jpg"
+                        image={require("./../images/Ability/Churnwalker-A.jpg")}
             />
             <Skillbox
                 title="TORMENT"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/ChurnWalker_ability_b.jpg"
+                        image={require("./../images/Ability/Churnwalker-B.jpg")}
                 text="Torment yanks all chained victims toward Churnwalker a fixed distance, damaging them.
                 • Overdrive: Yanks victims closer to Churnwalker."
             />
             <Skillbox
                 title="TRESPASS"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/ChurnWalker_ability_c-e1507585501815.jpg"
+                        image={require("./../images/Ability/Churnwalker-C.jpg")}
                 text="Churnwalker channels churn power for a short time, then travels to the target location, stunning all chained victims and breaking all chains.
                 • Churnwalker requires a chained target to cast this ability."
             />

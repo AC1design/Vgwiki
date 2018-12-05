@@ -96,7 +96,7 @@ const Joule = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-Perk-Heavy-Plating.mp4'}
                 title="HEAVY PLATING"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/JouleHeroicPerk1.png"
+                        image={require('./../images/Ability/Joule-P.jpg')}
                 text="Joule has bonus aromr & shield against damage that hits her on the front and sides, but not her back.
                 • Bonus defense: 15-90 (level 1-12)"
             />
@@ -105,13 +105,13 @@ const Joule = () => (
                 title="ROCKET LEAP"
                 subtitle="A ABILITY"
                 text="Joule leaps to a target location. Enemies caught underneath Joule take full damage and are stunned, while enemies near the impact are knocked away and take 33% damage."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/JouleA.jpg"
+                        image={require('./../images/Ability/Joule-A.jpg')}
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-B-Thunder-Strike.mp4'}
                 title="THUNDER STRIKE"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/JouleB.jpg"
+                        image={require('./../images/Ability/Joule-B.jpg')}
                 text="Joule's mech fires an energy bolt directly in front of her. If this strikes an enemy, the next Thunder Strike will have bonus armor & shield pierce.
                 • Overdrive: At max rank, weapon damage can critically strike.
                 • Cooldown speed improves with attack speed.
@@ -121,7 +121,7 @@ const Joule = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-C-Big-Red-Button.mp4'}
                 title="BLAST TREMOR"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/JouleC.jpg"
+                        image={require('./../images/Ability/Joule-C.jpg')}
                 text="Joule fires a massive beam of energy for 1.5s.
                 • The force of this beam pushes Joule backwards during channeling.
                 • Deals 50% less damage to structures."

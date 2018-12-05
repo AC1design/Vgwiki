@@ -98,7 +98,7 @@ const Adagio = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-P-Arcane-Renewal.mp4'}
                 title="ARCANE RENEWAL"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Adagio-P-arcane-renewal.png'
+                        image={require('./../images/Ability/Adagio-P.jpg')}
                 text="Whenever enemies burning with Arcane Fire take damage from any source, Adagio regenerates 25% of that damage as energy."
             />
             <Skillbox
@@ -112,14 +112,14 @@ const Adagio = () => (
                 • Burst Heal is increased by 9% of Adagio's bonus health.
                 • When cast on self, slows nearby enemies by 70% for 0.7s.
                 • Resets basic-attack cooldown on activation."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Adagio-A-gift-of-fire.png'
+                        image={require('./../images/Ability/Adagio-A.jpg')}
                 boxShadow="10px 20px 30px white"
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-B-Agent-of-Wrath.mp4'}
                 title="AGENT OF WRATH"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Adagio-B-agent-of-wrath.png'
+                        image={require('./../images/Ability/Adagio-B.jpg')}
                 text="Temporarily boosts an allied hero's next several basic attacks for 6s.
                 • Deals bonus damage to enemies afflicted by Arcane Fire.
                 • Bonus damage is increased if Adagio casts this spell on himself.
@@ -129,7 +129,7 @@ const Adagio = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-C-Verse-of-Judgement.mp4'}
                 title="VERSE OF JUDGEMENT"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Adagio-C-verse-of-judgement.png'
+                        image={require('./../images/Ability/Adagio-C.jpg')}
                 text="Adagio channels for 2s then deals heavy damage to all enemies in a wide ring around him. Enemies burning with Arcane Fire are also stunned.
                 Adagio temporarily gains fortified health while channeling."
             />

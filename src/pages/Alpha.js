@@ -95,7 +95,7 @@ const Alpha = () => (
             <Skillbox
                 title="INFINITE REBOOT"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/04/Alpha-Icon_Perk.jpg'
+                    image={require('./../images/Ability/Alpha-P.jpg')}
                 text="Instead of dying, Alpha initiates 3.5s reboot sequence. If her reboot health is not destroyed before time runs out, she will return to life.
                 When alive, Alpha's special energy bar shows the time until Infinite Reboot is available. When rebooting, the bar counts down to when she will revive.
     
@@ -108,13 +108,13 @@ const Alpha = () => (
                 title="PRIME DIRECTIVE"
                 subtitle="A ABILITY"
                 text="Alpha scans for enemies along a path. If she scans an enemy, that enemy is slowed and Alpha instantly dashes behind them, dealing damage to the target and all enemies within 4.5 meters (50% damage to minions). This also removes the negative effects of Core Overload (without removing the positive effects), dealing increased damage based on the number of stacks removed."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/04/Alpha-Icon_A.jpg'
+                    image={require('./../images/Ability/Alpha-A.jpg')}
                 boxShadow="10px 20px 30px white"
             />
             <Skillbox
                 title="CORE CHARGE"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/04/Alpha-Icon_B.jpg'
+                    image={require('./../images/Ability/Alpha-B.jpg')}
                 text="Alpha lunges forward, and basic attacks her target. This ability costs 2% of her current health and applies Core Overload to herself, which will increase her damage output.
 
                 Core Overload (status effect): Each stack increases health cost of Core Charge by 2%, but also increases the damage. Also causes basic attacks to heal her. This healing is reduced against lane minions. Lasts 8.0s, stacking up to 3 times. Basic attacks refresh the duration.
@@ -125,7 +125,7 @@ const Alpha = () => (
             <Skillbox
                 title="TERMINATION PROTOCOL"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/04/Alpha-Icon_C.jpg'
+                    image={require('./../images/Ability/Alpha-C.jpg')}
                 text="Alpha starts her self-destruct sequence, exploding after 3s and then ressurrecting herself with Infinite Reboot.
 
                 • At the start of the ability, she gains a burst of move speed that decays rapidly.

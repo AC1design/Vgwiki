@@ -97,7 +97,7 @@ const Glaive = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-A-Afterburn.mp4'}
                 title="HUNT THE WEAK"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Glaive-P-hunt-the-weak.png"
+                        image={require("./../images/Ability/Glaive-P.jpg")}
                 text="Glaive's critical strikes cleave in a cone in front of him.
                 • Cleave deals half damage to minions."
             />
@@ -106,13 +106,13 @@ const Glaive = () => (
                 title="AFTERBURN"
                 subtitle="A ABILITY"
                 text="Glaive rockets in the target direction, damaging all enemies along the way. His next basic attack is replaced by a frightening blast that knocks his target back 5.5 meters and briefly stuns them."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Glaive-A-afterburn.png"
+                        image={require("./../images/Ability/Glaive-A.jpg")}
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-B-Twisted-Stroke.mp4'}
                 title="TWISTED STROKE"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Glaive-B-twisted-stroke.png"
+                        image={require("./../images/Ability/Glaive-B.jpg")}
                 text="Instantly executes a critical strike.
                 • This ability deals weapon damage, but it can deal bonus crystal damage if you have any crystal power.
                 • Triggers basic-attack effects.
@@ -122,7 +122,7 @@ const Glaive = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-C-Bloodsong.mp4'}
                 title="BLOODSONG"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Glaive-C-bloodsong.png"
+                        image={require("./../images/Ability/Glaive-C.jpg")}
                 text="Swing Glaive's axe in a 5.4-meter circle, dealing massive area damage that increases with the number of Bloodsong stacks used. This removes all stacks.
                 • Passive: Glaive generates Bloodsong stacks from basic attacking or from receiving basic attacks (max 20 stacks).
                 • Each stack grants Glaive bonus lifesteal."

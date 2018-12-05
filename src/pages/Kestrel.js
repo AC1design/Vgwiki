@@ -95,7 +95,7 @@ const Kestrel = () => (
             <Skillbox
                 title="ADRENALINE"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/12/Adrenaline.png"
+                        image={require('./../images/Ability/Kestrel-P.png')}
                 text="Whenever Kestrel lands a basic attack, she reduces the energy cost of her abilities by 10%. This stacks up to 5 times and wears off after 8s."
             />
             <Skillbox
@@ -107,12 +107,12 @@ const Kestrel = () => (
                 • Reload time is decreased based on attack speed.
                 • Primary impact triggers basic-attack effects.
                 • Deals 50% less damage to minions."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/12/Kestral_-A_02.jpg"
+                        image={require('./../images/Ability/Kestrel-A.png')}
             />
             <Skillbox
                 title="ACTIVE CAMO"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/12/Kestral_-B.jpg"
+                        image={require('./../images/Ability/Kestrel-B.png')}
                 text="Kestrel instantly stealths and gains bonus move speed. She leaves behind an invisible mist trap that explodes when she damages an eney hero inside it, damaging and stunning them for 0.8s.
 
                 • Kestrel cannot activate this ability if she took damage from a hero in the last 2.5s (-1% weapon power).
@@ -125,7 +125,7 @@ const Kestrel = () => (
             <Skillbox
                 title="ONE SHOT, ONE KILL"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/12/Kestral_C.jpg"
+                        image={require('./../images/Ability/Kestrel-C.png')}
                 text="Kestrel charges up and fires a single powerful arrow across the fold, impacting on the first enemy hero, large creature or structure in its path.
 
                 • When this hits a target, it reveals it and grants Kestrel full Adrenaline stacks.

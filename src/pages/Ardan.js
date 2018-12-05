@@ -96,7 +96,7 @@ const Ardan = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-P-Julias-Gift.mp4"
                 title="JULIA'S GIFT"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Ardan_P_JuliasGift.png'
+                    image={require('./../images/Ability/Ardan-P.jpg')}
                 text="Ardan benefits from purchasing health items.
                 Whenever Ardan takes damage, he heals for 0.8% of his missing health, but no more than 75% of the damage taken.
                 Instead of energy, Ardan uses a yellow meter called Vengeance. Vengeance builds over time and can also be gained with basic attacks, crtical strikes and abilities.
@@ -111,13 +111,13 @@ const Ardan = () => (
                 • Using this ability on himself results in only half the barrier, speed boost and Vengeance gain.
                 • Barrier scales up with 30% of Ardan's bonus health.
                 • Any time this ally takes damage, Ardan gains Vengeance."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/ArdanAVanguard.png'
+                    image={require('./../images/Ability/Ardan-A.jpg')}
             />
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-B-Blood-for-Blood.mp4"
                 title="BLOOD FOR BLOOD"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/ArdanBBloodforBlood.png'
+                    image={require('./../images/Ability/Ardan-B.jpg')}
                 text="Ardan rushes forward and punches his target.
                 • Overdrive: At max rank, Blood for Blood deals additional 40% damage.
                 • Blood for Blood can only be activated when Ardan has 100% Vengeance and will consume all of it.
@@ -127,7 +127,7 @@ const Ardan = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/C-Ardan-Gauntlet-Large.mp4"
                 title="GAUNTLET"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/ArdanCGauntlet.png'
+                    image={require('./../images/Ability/Ardan-C.jpg')}
                 text="Ardan leaps to the target location and projects a perimeter around him. Enemy heroes who touch or cross the perimeter are stunned and take crystal damage.
                 • If Ardan leaves the perimeter, it is immediately destroyed.
                 • Ardan instantly gains full Vengeance upon using this ability."

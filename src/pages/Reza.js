@@ -96,7 +96,7 @@ const Reza = () => (
             <Skillbox
                 title="FIRESTARTER"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/Reza_Perk.png'
+                        image={require('./../images/Ability/Reza-P.png')}
                 text="Scorcher and Netherform Detonator apply Firestarter to enemy targets.
                 • Reza's basic attacks consume Firestarter, dealing crystal damage.
                 • Crystal Damage: 20-175 (level 1-12) (+110% crystal power)"
@@ -108,12 +108,12 @@ const Reza = () => (
                 
                 • Scorcher applies Firestarter on impact.
                 • Deals 50% less damage to minions."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/Reza_A.png'
+                        image={require('./../images/Ability/Reza-A.png')}
                 />
             <Skillbox
                 title="TROUBLEMAKER"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/Reza_B.png'
+                        image={require('./../images/Ability/Reza-B.png')}
                 text="Reza dashes to the target location, dealing crystal damage to enemies he passes through.
                 
                  • Reza's next basic attack deals bonus crystal damage.
@@ -122,7 +122,7 @@ const Reza = () => (
             <Skillbox
                 title="NETHERFORM DETONATOR"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/Reza_C.png'
+                        image={require('./../images/Ability/Reza-C.png')}
                 text="Reza vanishes removing from himself any negative movement-impairing effects, then reappears at the target location in empowered demon form.
                 
                  • Upon reappearing, he unleashes a blazing explosion, damaging enemies and consuming Firestarter within the target radius.

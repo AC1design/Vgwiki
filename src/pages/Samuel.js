@@ -96,7 +96,7 @@ const Samuel = () => (
             <Skillbox
                 title="CORRUPTED GENIUS"
                                     subtitle="HEROIC PERK"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/08/corrupted-genius.png'
+                                    image={require('./../images/Ability/Samuel-P.png')}
                                     text="Every 6s, Samuels next basic attack fires a bolt of dark power that deals bonus crystal damage and draws health & energy back to Samuel.
                 
                  • Crystal Damage: 50-60 (level 1-12)
@@ -107,7 +107,7 @@ const Samuel = () => (
             <Skillbox
                 title="MALICE & VERDICT"
                                     subtitle="A ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/08/malice-verdict.png'
+                image={require('./../images/Ability/Samuel-A.png')}
                                     text="Samuel fires two bolts from his wands at a target location, impacting the first enemy hit. Samuel can move between the shots.
                 
                   If Samuel is standing inside the energy field from Drifting Dark, these bolts move faster, travel farther and deal additional area damage. In addition, the cooldown is significantly reduced.
@@ -117,7 +117,7 @@ const Samuel = () => (
             <Skillbox
             title="DRIFTING DARK"
                                 subtitle="B ABILITY"
-                                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/08/drifting-dark.png'
+                                image={require('./../images/Ability/Samuel-B.png')}
                                 text="Samuel creates a large field of darkness that slowly drifts forward, damaging enemies who stand inside it. If Samuel also stands inside, Malice & Verdict is greatly empowered and he heals for a small amount for each affected target.
             
               • The field will disappear if Samuel moves more than 16 meters away from it.
@@ -126,7 +126,7 @@ const Samuel = () => (
             <Skillbox
               title="OBLIVION"
               subtitle="ULTIMATE"
-              image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/08/oblivion.png'
+              image={require('./../images/Ability/Samuel-C.png')}
               text="After a short delay, Samuel summons a phantasm at the target location, which puts nearby enemies to sleep. Enemies inflicted are unable to move or act.
              
              • Dealing direct damage to a sleeping enemy with an attack or ability will wake them up."

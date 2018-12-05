@@ -97,7 +97,7 @@ const Fortress = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/08/P-Fortress-Packmates-Large.mp4'}
                 title="PACKMATES"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/08/FortressPpackmates.png"
+                        image={require("./../images/Ability/Fortress-P.jpg")}
                 text="When Fortress is near an allied hero, he will move faster after 1s. He will maintain this move-speed bonus so long as he's alongside any allied hero. "
             />
             <Skillbox
@@ -107,13 +107,13 @@ const Fortress = () => (
                 text="Fortress marks the target enemy as prey and his next basic attack becomes a short-range lunge.
 
                 • Fortress and his allies move faster toward prey and have lifesteal when attacking them."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/08/FortressAtruth-of-the-tooth.png"
+                        image={require("./../images/Ability/Fortress-A.jpg")}
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/08/B-Fortress-Truth-of-the-Tooth-Large.mp4'}
                 title="LAW OF THE CLAW"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/08/FortressBlaw-of-the-claw.png"
+                        image={require("./../images/Ability/Fortress-B.jpg")}
                 text="Fortress claws his target, causing it to bleed for several seconds.
 
                 • Attacks from Fortress and his allies increase bleeding by one stack.
@@ -125,7 +125,7 @@ const Fortress = () => (
                 video={'https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/themes/vainglory/images/icon-play-round.png'}
                 title="ATTACK OF THE PACK"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/08/FortressCattack-of-the-pack.png"
+                        image={require("./../images/Ability/Fortress-C.jpg")}
                 text="Fortress summons a pack of wolves. Each pack wolf seeks out a different enemy hero.
 
                 • It takes three separate attacks to kill a pack wolf.

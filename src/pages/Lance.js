@@ -95,7 +95,7 @@ const Lance = () => (
             <Skillbox
                 title="PARTISAN'S TECHNIQUE"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/06/lance_partisans-technique_perk.png"
+                        image={require('./../images/Ability/Lance-P.png')}
                 text="Lance's basic attacks damage every target along their path. However, his attacks are slow to land and attack speed is less effective on him.
                 Instead of energy, Lance uses stamina to activate his abilities. Purchasing items with energy and energy regeneration increases his stamina and stamina regeneration.
                 • Max Stamina: 100 + 30% Max Energy
@@ -109,12 +109,12 @@ const Lance = () => (
                 • If this attack hits at least one enemy, Lance will immediately recover from the ability.
                 • If this attack misses, Lance takes 0.7 seconds to recover.
                 • Deals 50% less damage to minions."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/06/lance_impale_A.png"
+                        image={require('./../images/Ability/Lance-A.png')}
             />
             <Skillbox
                 title="GYTHIAN WALL"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/06/lance_gythian-wall_B.png"
+                        image={require('./../images/Ability/Lance-B.png')}
                 text="Lance smashes enemies back with his shield, dealing weapon damage and also stunning them if they collide with a wall or structure (max 1.4s). Afterward, he holds his shield steadfast, greatly reducing incoming damage from the target direction by up to 90%.
 
                 • Overdrive: At max rank, Lance ignores all negative effects (from any direction) while this ability is active.
@@ -124,7 +124,7 @@ const Lance = () => (
             <Skillbox
                 title="COMBAT ROLL "
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/06/lance_combat-roll_C.png"
+                        image={require('./../images/Ability/Lance-C.png')}
                 text="Lance rolls in the target direction. His next basic attack within 2s will strike quickly, dealing bonus crystal damage."
             />
         </div>

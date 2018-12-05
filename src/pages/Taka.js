@@ -96,7 +96,7 @@ const Taka = () => (
                 video="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/themes/vainglory/images/icon-play-round.png"
                                     title="HOUSE KAMUHA"
                                     subtitle="HEROIC PERK"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Taka-P-house-kamuha.png'
+                        image={require('./../images/Ability/Taka-P.png')}
                                     text="Taka gains Mortal Strike every 4s.
                 
                   • Mortal Strike: Taka's next basic attack deals 30-63 (level 1-12) (+35% weapon power) bonus damage and briefly gains bonus movement speed.
@@ -112,12 +112,12 @@ const Taka = () => (
                                     title="KAITEN"
                                     subtitle="A ABILITY"
                                     text="Taka flips over his target, cutting it with his switchblade. Taka is invulnerable to damage & debuffs while in mid-air."
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Taka-A-kaiten.png'/>
+                        image={require('./../images/Ability/Taka-A.png')}/>
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-B-Kaku.mp4"
                                     title="KAKU"
                                     subtitle="B ABILITY"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Taka-B-kaku.png'
+                        image={require('./../images/Ability/Taka-B.png')}
                                     text="Taka throws a smoke bomb at his feet and becomes invisible. While stealthed, Taka moves faster and heals himself.
                 
                   • Invisibility ends early if he strikes a target or takes direct damage.
@@ -126,7 +126,7 @@ const Taka = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-C-X-Retsu.mp4"
                                     title="X-RETSU"
                                     subtitle="ULTIMATE"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Taka-C-x-retsu.png'
+                        image={require('./../images/Ability/Taka-C.png')}
                                     text="Taka bursts through his target for massive damage and gains Ki Stacks. The target suffers a mortal wound (reduced healing) and takes damage per second for the next 3s. The wound's duration is refreshed whenever Taka Mortal Strikes this target."/>
         </div>
     </div>

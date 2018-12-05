@@ -96,7 +96,7 @@ const Gwen = () => (
             <Skillbox
                 title="BOOMSTICK"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/0_perk_boomstick.png"
+                        image={require("./../images/Ability/Gwen-P.jpg")}
                 text="After not attacking for 1.4s, Gwen's next basic attack is a Boomstick shot that deals bonus damage.
                 • Bonus damage: 20-110 (+40% of bonus weapon power)
                 • Additional attack speed increase the frequency of Boomstick shots.
@@ -109,12 +109,12 @@ const Gwen = () => (
 
                 • Deals 50% less damage to minions.
                 • Maximum slow amount: 65%"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/1_A_buckshot-bonanza.png"
+                        image={require("./../images/Ability/Gwen-A.jpg")}
             />
             <Skillbox
                 title="SKEDADDLE"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/2_B_skedaddle.png"
+                        image={require("./../images/Ability/Gwen-B.jpg")}
                 text="Gwen gains a burst of move speed while instantly removing from herself any negative movement-impairing effects.
 
                 • Blocks further effects for 0.5s.
@@ -123,7 +123,7 @@ const Gwen = () => (
             <Skillbox
                 title="ACES HIGH"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/3_C_aces-high.png"
+                        image={require("./../images/Ability/Gwen-C.jpg")}
                 text="Gwen flings a card in the target direction, stunning and dealing weapon damage the first hero it hits.
 
                 • The card damages everything it passes through.

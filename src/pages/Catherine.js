@@ -97,7 +97,7 @@ const Catherine = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-P-Captain-of-the-Guard.mp4'}
                 title="CAPTAIN OF THE GUARD"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Catherine-P-captain-of-the-guard.png"
+                        image={require("./../images/Ability/Catherine-P.jpg")}
                 text="Catherine gains 1 armor and shield every time she stuns or silences or silences an enemy hero with her abilities.                "
             />
             <Skillbox
@@ -107,13 +107,13 @@ const Catherine = () => (
                 text="Catherine gains a burst of move speed. Her next basic attack is replaced by a powerful stun attack.
 
                 • Resets basic-attack cooldown on activation."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Catherine-A-merciless-pursuit.png"
+                        image={require("./../images/Ability/Catherine-A.jpg")}
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-C-Blast-Tremor.mp4'}
                 title="STORMGUARD"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Catherine-B-stormguard.png"
+                        image={require("./../images/Ability/Catherine-B.jpg")}
                 text="Activates a protective bubble that reflects damage back to nearby enemies - especially when it comes in large bursts.
                 • Reflects any damage above 7.5% of base maximum health.
                 • Reflect damage is spread out to up 3 nearby enemies.
@@ -124,7 +124,7 @@ const Catherine = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-B-Stormguard.mp4'}
                 title="BLAST TREMOR"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Catherine-C-blast-tremor.png"
+                        image={require("./../images/Ability/Catherine-C.jpg")}
                 text="Catherine slams the ground, damaging and silencing enemies in a large cone in front of her."
             />
         </div>

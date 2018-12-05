@@ -95,7 +95,7 @@ const Baptiste = () => (
             <Skillbox
                 title="REAP"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/05/Baptiste_perk.png'
+                    image={require('./../images/Ability/Baptiste-P.jpg')}
                 text="Baptiste steals soul fragments through combat and is healed for each soul fragment acquired.
                 • Upon reaching 4 soul fragments, Baptiste is empowered for 4 seconds and deals increased damage but generates no additional soul fragments.
                 • Basic attacks generate one soul fragment
@@ -109,18 +109,18 @@ const Baptiste = () => (
                 text="Baptiste pulls a vial of liquid from his vest and throws it. The vial explodes upon reaching its target or when colliding with an enemy.
                 • Enemies near the explosion take damage and the first enemy hit is slowed.
                 • Deals 50% less damage to minions."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/05/Baptiste_A.png'
+                    image={require('./../images/Ability/Baptiste-A.jpg')}
             />
             <Skillbox
                 title="ORDAINED"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/05/Baptiste_B.png'
+                    image={require('./../images/Ability/Baptiste-B.jpg')}
                 text="Baptiste ordains a target enemy, damaging them and creating an ethereal prison around them. If the ordained target leaves the area, they are stunned and take additional damage."
             />
             <Skillbox
                 title="FEARSOME SHADE"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/05/Baptiste_C.png'
+                    image={require('./../images/Ability/Baptiste-C.jpg')}
                 text="Baptiste summons waves of shade that terrorize enemies caught in their path. Enemies struck by the shade run from the source in fear and take damage each second.
                 • Deals 50% less damage to minions."
             />

@@ -95,7 +95,7 @@ const Lorelai = () => (
             <Skillbox
                 title="THAT'S SWELL"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/Perk_thats_swell-150x150.jpg"
+                        image={require('./../images/Ability/Lorelai-P.png')}
                 text="Lorelai's abilities leave pools of water on the ground. While on a pool, Lorelai becomes empowered. Using an ability while empowered consumes the pool she’s on and affects the ability used. Additionally, Lorelai's basic attacks are torrents of water that deals crystal damage.
                 • Pools persist for 8s.
                 • Basic attack crystal damage: 55-110 (level 1-12) (+70% crystal power).
@@ -114,12 +114,12 @@ const Lorelai = () => (
                 • A pool filled with small piranhas persists afterwards, dealing damage over time to enemy units inside.
                 • The stun duration scales with 0.03% of Lorelai's bonus health.
                 • Deals 50% damage to minions, structures, summons, and Mythic Creatures."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/A_icon_Fish_Food.jpg"
+                        image={require('./../images/Ability/Lorelai-A.png')}
             />
             <Skillbox
                 title="SPLASHDOWN"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/B_Icon_Splashdown.jpg"
+                        image={require('./../images/Ability/Lorelai-B.png')}
                 text="Lorelai throws a sphere of water at target location.
 
                 • After 0.8s, the water forms a pool.
@@ -130,7 +130,7 @@ const Lorelai = () => (
             <Skillbox
                 title="WATERWALL"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/10/C_Icon_Waterfall.jpg"
+                        image={require('./../images/Ability/Lorelai-C.png')}
                 text="Lorelai forms a protective veil of water around the target allied hero.
 
                 • Cleanses the target of any movement-impairing effects.

@@ -96,7 +96,7 @@ const Grumpjaw = () => (
             <Skillbox
                 title="LIVING ARMOR"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/02/Perk.jpg"
+                        image={require("./../images/Ability/Grumpjaw-P.jpg")}
                 text="Each stack of Living Armor reduces incoming damage by 7%.
                 • Grumpjaw gains a stack every 3s and every time he basic attacks.
                 • While under attack, he loses a stack every 1s.
@@ -107,18 +107,18 @@ const Grumpjaw = () => (
                 subtitle="A ABILITY"
                 text="Grumpjaw charges forward and slashes the area in front of him, damaging and slowing enemies he hits. He also hits things at his ending location.
                 • Deals bonus damage for each stack of Living Armor Grumpjaw has."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/02/A.jpg"
+                        image={require("./../images/Ability/Grumpjaw-.jpg")}
             />
             <Skillbox
                 title="HANGRY"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/02/B.jpg"
+                        image={require("./../images/Ability/Grumpjaw-.jpg")}
                 text="Grumpjaw leaps toward his target and attacks it. Afterward, he gains bonus weapon damage and attack speed for several seconds."
             />
             <Skillbox
                 title="STUFFED"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/02/C.jpg"
+                        image={require("./../images/Ability/Grumpjaw-.jpg")}
                 text="Grumpjaw lunges forward, devouring the first enemy hero in his path. While inside Grumpjaw's belly, enemies cannot move, act or see. After 3s, Grumpjaw will spit the enemy out in front of him.
                 • Reactivate this ability to spit the enemy out early."
             />

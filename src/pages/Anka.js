@@ -96,7 +96,7 @@ const Anka = () => (
                 video={require('./../images/SkillVideos/Anka-P.mp4')}
                 title="GYTHIAN PROMISE"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/Blade_sized_icons_Perk.jpg'
+                    image={require('./../images/Ability/Anka-P.jpg')}
                 text="After a short cooldown, Anka’s next basic attack on an enemy hero becomes Execute Strike, dealing bonus crystal damage equal to 13-25% (level 1-12) of the target’s missing health. Additionally, Anka fully refreshes Execute Strike and Shimmer Blade upon getting a hero kill or assist."
             />
             <Skillbox
@@ -105,13 +105,13 @@ const Anka = () => (
                 subtitle="A ABILITY"
                 text="Anka throws a dagger in the target direction, dealing damage to the first enemy hit. When the dagger hits an enemy, Anka can reactivate the ability within 2.2s to blink next to the victim.
                 Anka gains a burst of decaying movement speed upon blinking."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/Blade_sized_icons_A1.png'
+                    image={require('./../images/Ability/Anka-A.jpg')}
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Anka-B.mp4')}
                 title="DANCE OF BLADES"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/Blade_sized_icons_B.jpg'
+                    image={require('./../images/Ability/Anka-P.jpg')}
                 text="Anka throws five knives in a cone, dealing damage to all enemies the knives pass through.
                 Each additional knife after the first deals damage equal to 50% of the initial damage."
             />
@@ -119,7 +119,7 @@ const Anka = () => (
                 video={require('./../images/SkillVideos/Anka-C.mp4')}
                 title="MIRAGE"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/07/Blade_sized_icons_C.jpg'
+                    image={require('./../images/Ability/Anka-C.jpg')}
                 text="Anka dashes in the target direction and splits off three clones to deceive enemies, dealing damage to enemies they pass through. Her clones dash back to her after 2s, dealing damage to enemies they pass through.
                 • Anka is invulnerable and unable to be targeted during her dash.
                 • Additional pass through deal damage equal to 50% of the initial damage."

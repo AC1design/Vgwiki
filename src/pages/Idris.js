@@ -96,7 +96,7 @@ const Idris = () => (
             <Skillbox
                 title="DIVERGENT PATHS"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/11/Idris_Perk.png"
+                        image={require("./../images/Ability/Idris-P.jpg")}
                 text="Idris unlocks unique combat styles upon attaining 120 weapon or crystal power:
                 • Melee (Weapon): Idris’s Shroudstep becomes an instantaneous blink. His basic attacks also restore 10 stamina and reduce the cooldowns of his Shroudstep and Shimmer Strike abilities by 1s.
                 • Ranged (Crystal): Idris gains a 3.8-meter ranged attack with a 75% crystal ratio (with bonus crystal damage of 19-85) but only 50% weapon ratio.
@@ -110,12 +110,12 @@ const Idris = () => (
                 text="Idris dashes in the target direction, dealing amplified damage to the next target he attacks within 4s.
                 • If Idris has not taken damage within the last 4.5s, Shroudstep grants a 3.5s barrier.
                 • The availability of the barrier is displayed beneath his stamina meter."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/11/Idris_A.png"
+                        image={require("./../images/Ability/Idris-A.jpg")}
             />
             <Skillbox
                 title="CHAKRAM"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/11/Idris_B.png"
+                        image={require("./../images/Ability/Idris-B.jpg")}
                 text="Idris throws a chakram that returns to him, damaging enemies each time it passes over them.
                 • Hitting enemy heroes, miners, or Mythic Creatures recovers 15 stamina.
                 • Idris can use his Shroudstep and Shimmer Strike abilities to temporarily keep his chakrams in the air longer.
@@ -124,7 +124,7 @@ const Idris = () => (
             <Skillbox
                 title="SHIMMER STRIKE"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/11/Idris_C.png"
+                        image={require("./../images/Ability/Idris-C.jpg")}
                 text="Idris disappears into the target hero becomes invulnerable, untargetable and cleanses movement-impairing effects from himself. While attached, tap to make Idris leap out in desired direction, striking all surrounding enemies with weapon damage as he jumps off.
                 • If no direction is chosen, Idris will jump toward his original position.
                 • Can latch onto enemies for 1.2s or allies for 2.8s.

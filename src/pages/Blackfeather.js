@@ -96,7 +96,7 @@ const Blackfeather = () => (
             <Skillbox
                 title="HEARTTHROB"
                 subtitle="HEROIC PERK"
-                image={require('./../images/heartthrob.png')}
+                        image={require("./../images/Ability/Blackfeather-P.jpg")}
                 text="Blackfeather's attacks and abilities apply Heartthrob stacks to enemies. Any time stacks are added or refreshed, Blackfeather deals bonus crystal damage for each stack already on the target.
 
                 • Bonus damage: 5-10 (level 1-12) (+15% of crystal power).
@@ -114,12 +114,12 @@ const Blackfeather = () => (
                 • Overdrive: At max rank, the cooldown for Feint of Heart is reset if the target is killed within 0.5s.
                 • Execute damage is capped against non-heroes.
                 • This ability triggers basic-attack effects."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/10/Blackfeather_C.jpg'
+                        image={require("./../images/Ability/Blackfeather-A.jpg")}
             />
             <Skillbox
                 title="ON POINT"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/10/Blackfeather_B.jpg'
+                        image={require("./../images/Ability/Blackfeather-B.jpg")}
                 text="Blackfeather pierces all enemies in a line, damaging them.
 
                 • Overdrive: At max rank, On Point gains increased range.
@@ -130,7 +130,7 @@ const Blackfeather = () => (
             <Skillbox
                 title="ROSE OFFENSIVE"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/10/Blackfeather_A.jpg'
+                        image={require("./../images/Ability/Blackfeather-C.jpg")}
                 text="Blackfeather dashes and slashes all enemies along his path.
 
                 • During the dash, Blackfeather is immune to negative effects and has fortified health.

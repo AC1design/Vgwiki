@@ -97,7 +97,7 @@ const Inara = () => (
                 video={require('./../images/SkillVideos/Inara-H.mp4')}
                 title="SACRED GROVE"
                 subtitle="HEROIC PERK"
-                image={require('./../images/Skills/Inara-H.png')}
+                    image={require('./../images/Ability/Inara-H.png')}
                 text="Inara summons wisps around nearby treants, gaining vision and allowing her to leap to them. Killing a treant grants Inara a movement speed boost for 30s."
                     header1="Ability A"
                     value="20"
@@ -107,27 +107,27 @@ const Inara = () => (
                 title="DANCE OF LEAVES"
                 subtitle="A ABILITY"
                 text="Inara spins with her blades, dealing damage to and slowing nearby enemies. Deals 50% less damage to minions."
-                image={require('./../images/Skills/Inara-A.jpg')}
+                    image={require('./../images/Ability/Inara-A.jpg')}
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Inara-B.mp4')}
                 title="DANCE OF BLADES"
                 subtitle="B ABILITY"
-                image={require('./../images/Skills/Inara-B.jpg')}
+                    image={require('./../images/Ability/Inara-B.jpg')}
                 text="Inara leaps backwards and kicks away enemies, dealing damage to and summoning a wisp on affected enemies. She may leap to marked enemies she has kicked for the next 3s. Enemies knocked into a wall are stunned. Deals 50% less damage to minions."
             />
             <Skillbox
-                video={require('./../images/SkillVideos/Inara-C.mp4')}
+                video={require('./../images/SkillVideos/Inara-C1.mp4')}
                 title="MIRAGE"
                 subtitle="ULTIMATE"
-                image={require('./../images/Skills/Inara-C1.jpg')}
+                    image={require('./../images/Ability/Inara-C1.jpg')}
                 text="Inara rallies nearby allies, granting them movement speed."
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Inara-C.mp4')}
                 title="MIRAGE"
                 subtitle="ULTIMATE (REACTIVATE)"
-                image={require('./../images/Skills/Inara-C2.jpg')}
+                    image={require('./../images/Ability/Inara-C2.jpg')}
                 text=" Reactivate Mirage (Ult) to dash in target direction, dealing damage to enemies."
             />
         </div>

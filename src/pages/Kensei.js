@@ -96,7 +96,7 @@ const Kensei = () => (
             video={require('./../images/SkillVideos/Kensei-P.mp4')}
                 title="IMMOVABLE MIND"
                 subtitle="HEROIC PERK"
-                image={require('./../images/Kensei - Perk.png')}
+                image={require('./../images/Ability/Kensei-P.png')}
                 text="After striking enemy heroes or jungle monsters 3 times, Kensei's next basic attack deals 20% bonus damage and grants a burst of barrier.
 
                 • Bonus Barrier: 30-140 (level 1-12)
@@ -111,13 +111,13 @@ const Kensei = () => (
                 subtitle="A ABILITY"
                 text="Kensei rushes forward, swinging his blade and dealing basic attack damage in an arc in front of him.
                 • This ability can be reactivated two additional times within 5s."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/05/A.png'
+                        image={require('./../images/Ability/Kensei-A.png')}
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Kensei-B.mp4')}
                 title="KENSHO"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/05/B.png'
+                        image={require('./../images/Ability/Kensei-B.png')}
                 text="Kensei strikes his target and leaps backward, entering Kensho Stance and generating fortified health for the duration.
                 Kensho Stance: The next Lotus Strike or Path of the Ronin gain a powerful bonus effect when activated within 2.5s of canceling this stance.
                 • Lotus Strike travels farther and slows enemies hit
@@ -128,7 +128,7 @@ const Kensei = () => (
                 video={require('./../images/SkillVideos/Kensei-C.mp4')}
                 title="PATH OF THE RONIN"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/05/C.png'
+                        image={require('./../images/Ability/Kensei-C.png')}
                 text="Kensei readies himself before quickly rushing forward, dealing basic attack plus bonus damage to all enemies in his wake."
             />
         </div>

@@ -97,7 +97,7 @@ const Rona = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/08/P-Rona-Berserkers-Fury-Large.mp4"
                                     title="BERSERKERS' FURY"
                                     subtitle="HEROIC PERK"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/08/RonaPberserkers-fury.png'
+                        image={require('./../images/Ability/Rona-P.png')}
                                     text="Rona attacks faster than most heroes, but she deals 85% damage with each attack.
                 
                   • Rona's abilities use Bloodrage instead of energy, a unique resource that is generated from basic attacks, abilities, and taking damage from enemies.
@@ -113,13 +113,13 @@ const Rona = () => (
                 
                   • Rona is additionally granted fortified health for each enemy hero struck by the rupture.
                   • Deals 50% less damage to minions."
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/08/RonaAinto-the-fray.png'
+                        image={require('./../images/Ability/Rona-A.png')}
             />
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/08/B-Rona-Foesplitter-Large.mp4"
                                     title="FOESPLITTER"
                                     subtitle="B ABILITY"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/08/RonaBfoesplitter.png'
+                        image={require('./../images/Ability/Rona-B.png')}
                                     text="A two-part axe attack that can catch up to - then brutalize - an unsuspecting target.
                 
                   First activation: Rona lunges at her target, landing an empowered basic attack and granting her increased move speed and Bloodrage.
@@ -130,7 +130,7 @@ const Rona = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/08/C-Rona-Red-Mist-Large.mp4"
                                     title="RED MIST"
                                     subtitle="ULTIMATE"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/08/RonaCred-mist.png'
+                        image={require('./../images/Ability/Rona-C.png')}
                                     text="Rona drains her Bloodrage and spins in a whirlwind, dealing weapon damage to nearby enemies. While spinning, Rona moves slower and gains fortified health each second.
                 
                   • Can be cancelled at any time by reactivating it or using another ability.

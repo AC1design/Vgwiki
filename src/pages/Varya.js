@@ -96,7 +96,7 @@ const Varya = () => (
             <Skillbox
             title="CHAIN LIGHTNING"
             subtitle="HEROIC PERK"
-            image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/12/Perk_varya_chain_lightning.jpg'
+                        image={require('./../images/Ability/Varya-P.png')}
             text="Varya's attacks deal 70-147 (level 1-12) (+40% Crystal Power) crystal damage. If Varya holds her ground after attacking, she will consume 170 energy to striker her target again and Chain Lightning up to 3 additional targets.
             • Chain Lightning: Deals 30-69 (level 1-12) (+35% Crystal Power) damage to each target."/>
             <Skillbox
@@ -107,12 +107,12 @@ const Varya = () => (
          • When cast during or after Arc Recursion, the spear is thrown more quickly.
          • Number or additional targets hit is equal to her Chain Lighting attack.
          • The initial spear does not impact on lane minions."
-                            image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/12/A_icon_varya_lightning_bolt.jpg'
+                        image={require('./../images/Ability/Varya-A.png')}
             />
             <Skillbox
                 title="ARC RECURSION"
                                     subtitle="B ABILITY"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/12/B_icon_varya_Charge_dash.jpg'
+                        image={require('./../images/Ability/Varya-B.png')}
                                     text="After gathering power for 0.9s, Varya’s next two move commands will instantly dash in the chosen direction, striking the 3 nearest enemies at the end of each dash. For each enemy struck, Varya recovers 5% of her energy and gains a barrier equal to 3% of her health (bonuses doubled on heroes).
                 
                  • Overdrive: Varya moves further with each dash.
@@ -123,7 +123,7 @@ const Varya = () => (
             <Skillbox
                 title="ANVIL'S HAMMER"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/12/C_icon_varya_Lightning_storm.jpg'
+                        image={require('./../images/Ability/Varya-C.png')}
                 text="After channeling for 2.4s, Varya unleashes the fury of the storm, calling a series of lightning strikes on every enemy hero, regardless of distance. Passively, each rank of the ultimate permanently increases her attack speed and the number enemies her Chain Lightning and Stormforged Spear will hit.
                 
                  • Lightning strikes target the ground beneath enemy heroes, giving them an opportunity to move out of the way.

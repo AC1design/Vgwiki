@@ -96,7 +96,7 @@ const Baron = () => (
             <Skillbox
                 title="ROCKET LAUNCHER"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/0_perk_rocket-launcher.png'
+                        image={require('./../images/Ability/Baron-P.jpg')}
                 text="Baron’s basic attacks deal 130% weapon damage to the target and surrounding enemies.
                 • Explosions deal 65% damage to surrounding enemies.
                 • Explosions deal 50% less damage to minions."
@@ -111,12 +111,12 @@ const Baron = () => (
                 • The range of this ability increases with crystal power up to a cap of 11 meters with 200 crystal power.
                 • Baron can fire this while using Jump Jets.
                 • Deals 50% less damage to minions."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/1_A_porcupine-mortar.png'
+                        image={require('./../images/Ability/Baron-A.jpg')}
             />
             <Skillbox
                 title="JUMP JETS"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/2_B_jump-jets.png'
+                        image={require('./../images/Ability/Baron-B.jpg')}
                 text="After a brief delay, Baron jets to the location then gains bonus move speed for 2.1s. His next basic attack is a double shot.
                 Overdrive: At max rank, Baron ignores all debuffs while leaping.
                 • Baron takes longer to power up the farther away he is from his destination. However, this delay is reduced by weapon and crystal power up to a maximum of 200 total.
@@ -125,7 +125,7 @@ const Baron = () => (
             <Skillbox
                 title="ION CANNON"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/3_C_ion-cannon.png'
+                        image={require('./../images/Ability/Baron-C.jpg')}
                 text="Baron targets a location anywhere on the map for an orbital strike., obliterating the area after a 3s delay.
 
                 • Deals 50% less damage to minions.

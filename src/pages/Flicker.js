@@ -96,7 +96,7 @@ const Flicker = () => (
             <Skillbox
                 title="WILLOW WHISPER"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/Flicker_Heroic_Perk_Sqaure-e1477518268370.jpg"
+                        image={require("./../images/Ability/Flicker-P.jpg")}
                 text="Flicker gains stealth and a move speed bonus when in brush for 2s. Flicker can then leave the brush and remain stealthed for 3s.
 
                 • Flicker has true sight while stealthed
@@ -106,18 +106,18 @@ const Flicker = () => (
                 title="BINDING LIGHT"
                 subtitle="A ABILITY"
                 text="Flicker commands his fairies to swarm a target location for 2s, dealing damage to enemies within it. When the effect expires, fairy light roots any enemy heroes still within the area."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/Flicker_A-e1477517521100.jpg"
+                        image={require("./../images/Ability/Flicker-A.jpg")}
             />
             <Skillbox
                 title="FAIRY DUST"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/Flicker_B-e1477517555978.jpg"
+                        image={require("./../images/Ability/Flicker-B.jpg")}
                 text="Flicker swirls fairy dust around him for 3s, slowing and dealing damage to anyone inside the dusted area. After 3s, the dust ignites, dealing a burst of damage."
             />
             <Skillbox
                 title="MOONCLOAK"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2016/10/Flicker_C-e1477517587284.jpg"
+                        image={require("./../images/Ability/Flicker-C.jpg")}
                 text="After 1s, Flicker and his allies temporarily gain stealth and a move speed-bonus.
 
                 • The stealth will break when a hero uses an ability, attacks or takes damage.

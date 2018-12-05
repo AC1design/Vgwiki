@@ -96,7 +96,7 @@ const Grace = () => (
             <Skillbox
                 title="RETRIBUTION"
                 subtitle="HEROIC PERK"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/07/Grace_Perk.png"
+                        image={require("./../images/Ability/Grace-P.jpg")}
                 text="Grace chains her normal basic attack into a ground slam, dealing bonus weapon damage and slowing enemies in a wide area. If any enemies are hit by the ground slam, her ability cooldowns are reduced by 1.2s.
 
                 All effects in Grace's heroic perk and abilities are capped at 200 crystal power excluding damage and healing.
@@ -115,12 +115,12 @@ const Grace = () => (
                 
                 • Passive: Upon learning this ability, Grace permanently reduces all damage she receives by 8% (+5% of crystal power).
                 • Overdrive: This ability is refreshed upon casting Divine Intervention."
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/07/Grace_A.png"
+                        image={require("./../images/Ability/Grace-A.jpg")}
             />
             <Skillbox
                 title="HOLY NOVA"
                 subtitle="B ABILITY"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/07/Grace_B.png"
+                        image={require("./../images/Ability/Grace-B.jpg")}
                 text="After a short delay, Grace knocks enemies into the air, disabling them for 1s.
 
                 • Overdrive: Grace gains immunity to negative effects when casting this ability.
@@ -130,7 +130,7 @@ const Grace = () => (
             <Skillbox
                 title="DIVINE INTERVENTION"
                 subtitle="ULTIMATE"
-                image="https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2017/07/Grace_C.png"
+                        image={require("./../images/Ability/Grace-C.jpg")}
                 text="Grace instantly surrounds herself and her target with a full holy shield and begins channeling for 1.8s after which Grace’s target receives a massive heal."
             />
         </div>

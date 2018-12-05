@@ -96,7 +96,7 @@ const Tony = () => (
             <Skillbox
             title="COME AT ME"
                                 subtitle="HEROIC PERK"
-                                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2019/10/Tony_PERK.jpg'
+                        image={require('./../images/Ability/Tony-P.png')}
                                 text="When Tony receives damage, he gains 60-302 (level 1-12) (+20% of his bonus health) health barrier for 2s. This cannot occur again within 12s-6.5s (level 1-12)."
             />
             <Skillbox
@@ -105,12 +105,12 @@ const Tony = () => (
                                     text="Tony’s next three basic attacks are empowered. These attacks launch Tony toward his target, dealing bonus damage. The third attack is a two-handed strike that will stun his target.
                 
                  • Tony also gains a decaying move speed bonus when activating this ability."
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2019/10/Tony_E.jpg'
+                        image={require('./../images/Ability/Tony-A.png')}
             />
             <Skillbox
                 title="TRASH TALK"
                                     subtitle="B ABILITY"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2019/10/Tony_B.jpg'
+                        image={require('./../images/Ability/Tony-B.png')}
                                     text="Tony hurls insults in the target direction. All enemies hit receive damage and heroes are forced to attack Tony for 0.8s.
                 
                  • This also resets the cooldown of Come At Me, allowing it to trigger again.
@@ -120,7 +120,7 @@ const Tony = () => (
             <Skillbox
                 title="BADA BOOM"
                                     subtitle="ULTIMATE"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2019/10/Tony_C.jpg'
+                        image={require('./../images/Ability/Tony-C.png')}
                                     text="Tony winds up, then dashes to target location, releasing a massive uppercut. This colossal punch deals damage and knocks away all enemies caught in the area."
             />
         </div>

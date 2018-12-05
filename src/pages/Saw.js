@@ -97,7 +97,7 @@ const Saw = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/SAW-P-Spin-Up.mp4"
                 title="SPIN UP"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Saw-P-spin-up.png'
+                        image={require('./../images/Ability/Saw-P.png')}
                 text="Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed.
                 
                  • Each basic attack grants SAW +15% attack speed.
@@ -113,13 +113,13 @@ const Saw = () => (
                 
                  • Activating this ability clears all stacks of Spin Up.
                  • Crystal will boost the speed, up to a maximum of +3.2."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Saw-A-roadie-run.png'
+                        image={require('./../images/Ability/Saw-A.png')}
             />
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/SAW-C-Mad-Cannon.mp4"
                 title="SUPPRESSING FIRE"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Saw-B-suppressing-fire.png'
+                        image={require('./../images/Ability/Saw-B.png')}
                 text="SAW fires a hurricane of bullets in a set direction for 2 seconds, damaging and slowing enemies in its path.
                 Finishing this ability grants all stacks of Spin Up and resets the cooldown of Roadie Run. Deal reduced damage to turrets if out of range."
             />
@@ -127,7 +127,7 @@ const Saw = () => (
               video="https://www.vainglorygame.com/wp-content/uploads/2015/05/SAW-A-Roadie-Run.mp4"
               title="MAD CANNON"
               subtitle="ULTIMATE"
-              image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Saw-C-mad-cannon.png'
+                        image={require('./../images/Ability/Saw-C.png')}
               text="SAW loads explosive shells into his gun which deal additional damage based on the target's missing health. The shells also deal splash damage based on the amount of crystal power SAW has.
              • This explosive ammo fires 36% slower and grants 2 stacks of Spin Up."
             />

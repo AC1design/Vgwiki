@@ -97,7 +97,7 @@ const Vox = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-P-Julias-Song.mp4"
                                     title="JULIA'S SONG"
                                     subtitle="HEROIC PERK"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Vox-P-julias-song.png'
+                        image={require('./../images/Ability/Vox-P.png')}
                                     text="Vox's abilities mark enemies with Resonance. When basic attacking marked enemies, Resonance Bolts will bounce outwards to two nearby enemies dealing bonus crystal damage while refreshing and spreading the Resonance mark.
                 
                  • Resonance Crystal damage: 20 (+100% of crystal power)
@@ -110,13 +110,13 @@ const Vox = () => (
                                     title="SONIC ZOOM"
                                     subtitle="A ABILITY"
                                     text="Vox dashes in the targeted direction, throwing two basic attacks to the nearest enemy marked by Resonance (prioritizing heroes)."
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Vox-A-sonic-zoom.png'
+                        image={require('./../images/Ability/Vox-A.png')}
             />
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-B-Pulse.mp4"
                                     title="PULSE"
                                     subtitle="B ABILITY"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Vox-B-pulse.png'
+                        image={require('./../images/Ability/Vox-B.png')}
                                     text="Vox emits a sonic pulse that echoes off nearby enemies and applies Resonance. The pulse applies a slow that is significantly stronger near its center.
                 
                  • Each upgrade to Pulse increases the damage of Vox's bouncing Resonance bolts.
@@ -126,7 +126,7 @@ const Vox = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-C-Wait-for-It....mp4"
                                     title="WAIT FOR IT..."
                                     subtitle="ULTIMATE"
-                                    image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2015/05/Vox-C-wait-for-it.png'
+                        image={require('./../images/Ability/Vox-C.png')}
                                     text="Vox fires an ultrasonic wave that applies Resonance to enemies in its path. Shortly after, a wide shockwave explodes along the same path, dealing crystal damage and silencing enemies.
                 
                  • Striking enemy heroes with the shockwave will also cause Resonance Bolts to bounce outward to other enemies."

@@ -96,7 +96,7 @@ const Yates = () => (
             video={require('./../images/SkillVideos/Yates-A.mp4')}
                 title="DEVASTATION FLAIL"
                 subtitle="HEROIC PERK"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/08/Passive_256-150x150.png'
+                        image={require('./../images/Ability/Reim-B.png')}
                 text="Yates can combo up to three basic attacks within a short time of each other for increasingly powerful effects.
                 Second Hit: Bonus damage and gain a small movespeed boost.
                 Third Hit: Bonus damage and gain a large movespeed boost."
@@ -106,19 +106,19 @@ const Yates = () => (
                 title="WOLF’S MAW"
                 subtitle="A ABILITY"
                 text="Yates extends his flail forward, pulling in the first enemy hit."
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/08/A_256-150x150.png'
+                        image={require('./../images/Ability/Reim-B.png')}
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Yates-B.mp4')}
                 title="OVERWHELM"
                 subtitle="B ABILITY"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/08/B_256-150x150.png'
+                        image={require('./../images/Ability/Reim-B.png')}
                 text="Yates gathers energy for 1.5s before releasing a shockwave around himself, stunning affected enemies."
             />
             <Skillbox
                 title="IRON MANDATE"
                 subtitle="ULTIMATE"
-                image='https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/08/C_256-150x150.png'
+                        image={require('./../images/Ability/Reim-B.png')}
                 text="Yates leaps to the chosen location, dealing damage and slowing enemies while granting allies a barrier.
                 Overwhelm will not disperse until Yates lands.
                 Note: This is a global ability which means it can be casted anywhere in the map"
