@@ -175,7 +175,6 @@ const Yates = () => (
                 title="Crimson Wolf Yates"
                 text="Rare"
                 price="1200"
-                priceicon={require('./../images/ICE.png')}
                 image={require('./../images/Skins/Yates_CrimsonWolf.png')} />
         </div>
     </div>
