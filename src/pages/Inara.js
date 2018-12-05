@@ -94,10 +94,10 @@ const Inara = () => (
     <div className="SkillboxGroupScroll">
         <div className="SkillboxGroup">
             <Skillbox
-                video={require('./../images/SkillVideos/Inara-P.mp4')}
+                video={require('./../images/SkillVideos/Inara-H.mp4')}
                 title="SACRED GROVE"
                 subtitle="HEROIC PERK"
-                    image={require('./../images/Ability/Inara-H.jpg')}
+                    image={require('./../images/Ability/Inara-P.jpg')}
                 text="Inara summons wisps around nearby treants, gaining vision and allowing her to leap to them. Killing a treant grants Inara a movement speed boost for 30s."
                     header1="Ability A"
                     value="20"
