@@ -96,7 +96,7 @@ const Koshka = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Koshka-P-Bloodrush.mp4'}
                 title="BLOODRUSH"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Koshka-P.png')}
+                        image={require('./../images/Ability/Koshka-P.jpg')}
                 text="Koshka gains 2 move speed for 4s whenever she deals damage with her abilities."
             />
             <Skillbox
@@ -106,13 +106,13 @@ const Koshka = () => (
                 text="Koshka pounces to the target enemy and deals damage.
 
                 • This hability resets her basic-attack cooldown upon activation."
-                        image={require('./../images/Ability/Koshka-A.png')}
+                        image={require('./../images/Ability/Koshka-A.jpg')}
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Koshka-B-Twirly-Death.mp4'}
                 title="TWIRLY DEATH"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Koshka-B.png')}
+                        image={require('./../images/Ability/Koshka-B.jpg')}
                 text="Koshka twirls, damaging all enemies around her.
                 • Her next 2 basic attacks within 10s deal bonus crystal damage and have reduced cooldown.
                 • Koshka gains barrier per enemy hero hit for 1s.
@@ -122,7 +122,7 @@ const Koshka = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Koshka-C-Yummy-Catnip-Frenzy.mp4'}
                 title="YUMMY CATNIP FRENZY"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Koshka-C.png')}
+                        image={require('./../images/Ability/Koshka-C.jpg')}
                 text="Koshka leaps at her target, then launches into a flurry of slashes, stunning the target for the entire 2.2s duration.
                 • Koshka will stop slashing if the stun is blocked (by Reflex Block, for example)"
             />

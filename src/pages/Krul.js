@@ -96,7 +96,7 @@ const Krul = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-P-Shadows-Empower-Me.mp4'}
                 title="SHADOWS EMPOWER ME"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Krul-P.png')}
+                        image={require('./../images/Ability/Krul-P.jpg')}
                 text="Krul is empowered by the shadows after standing still in brush for 1s. While empowered, Krul briefly gains 2.2 move speed and his basic attacks will slow the target by 40% for 2.5s. Empowered state lasts 1.8 seconds."
             />
             <Skillbox
@@ -108,13 +108,13 @@ const Krul = () => (
                 Activating Dead Man's Rush grants Krul a temporary health barrier.
                 
                 • This ability triggers basic-attack effects."
-                        image={require('./../images/Ability/Krul-A.png')}
+                        image={require('./../images/Ability/Krul-A.jpg')}
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-B-Spectral-Smite.mp4'}
                 title="SPECTRAL SMITE"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Krul-B.png')}
+                        image={require('./../images/Ability/Krul-B.jpg')}
                 text="Krul detonates the Weakness stacks built up on a single target, regaining health based on the number of stacks consumed.
                 Passive: Basic attacks and abilities apply Weakness on the enemy (up to 8 stacks). Each stack reduces the target's damage by 6.2% and increases Krul's lifesteal against the victim."
             />
@@ -122,7 +122,7 @@ const Krul = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-C-From-Hells-Heart.mp4'}
                 title="FROM HELL'S HEART "
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Krul-C.png')}
+                        image={require('./../images/Ability/Krul-C.jpg')}
                 text="Krul pulls Hellrazor from his chest and hurls it in the targeted direction. The sword will boomerang back to Krul. If the sword hits an enemy hero, it deals damage and stuns, then slows the target.
 
                 Damage and stun duration scales with the distance the sword traveled before hitting the target:

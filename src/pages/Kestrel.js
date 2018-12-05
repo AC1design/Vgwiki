@@ -95,7 +95,7 @@ const Kestrel = () => (
             <Skillbox
                 title="ADRENALINE"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Kestrel-P.png')}
+                        image={require('./../images/Ability/Kestrel-P.jpg')}
                 text="Whenever Kestrel lands a basic attack, she reduces the energy cost of her abilities by 10%. This stacks up to 5 times and wears off after 8s."
             />
             <Skillbox
@@ -107,12 +107,12 @@ const Kestrel = () => (
                 • Reload time is decreased based on attack speed.
                 • Primary impact triggers basic-attack effects.
                 • Deals 50% less damage to minions."
-                        image={require('./../images/Ability/Kestrel-A.png')}
+                        image={require('./../images/Ability/Kestrel-A.jpg')}
             />
             <Skillbox
                 title="ACTIVE CAMO"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Kestrel-B.png')}
+                        image={require('./../images/Ability/Kestrel-B.jpg')}
                 text="Kestrel instantly stealths and gains bonus move speed. She leaves behind an invisible mist trap that explodes when she damages an eney hero inside it, damaging and stunning them for 0.8s.
 
                 • Kestrel cannot activate this ability if she took damage from a hero in the last 2.5s (-1% weapon power).
@@ -125,7 +125,7 @@ const Kestrel = () => (
             <Skillbox
                 title="ONE SHOT, ONE KILL"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Kestrel-C.png')}
+                        image={require('./../images/Ability/Kestrel-C.jpg')}
                 text="Kestrel charges up and fires a single powerful arrow across the fold, impacting on the first enemy hero, large creature or structure in its path.
 
                 • When this hits a target, it reveals it and grants Kestrel full Adrenaline stacks.

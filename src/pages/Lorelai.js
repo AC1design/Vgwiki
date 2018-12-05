@@ -95,7 +95,7 @@ const Lorelai = () => (
             <Skillbox
                 title="THAT'S SWELL"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Lorelai-P.png')}
+                        image={require('./../images/Ability/Lorelai-P.jpg')}
                 text="Lorelai's abilities leave pools of water on the ground. While on a pool, Lorelai becomes empowered. Using an ability while empowered consumes the pool she’s on and affects the ability used. Additionally, Lorelai's basic attacks are torrents of water that deals crystal damage.
                 • Pools persist for 8s.
                 • Basic attack crystal damage: 55-110 (level 1-12) (+70% crystal power).
@@ -114,12 +114,12 @@ const Lorelai = () => (
                 • A pool filled with small piranhas persists afterwards, dealing damage over time to enemy units inside.
                 • The stun duration scales with 0.03% of Lorelai's bonus health.
                 • Deals 50% damage to minions, structures, summons, and Mythic Creatures."
-                        image={require('./../images/Ability/Lorelai-A.png')}
+                        image={require('./../images/Ability/Lorelai-A.jpg')}
             />
             <Skillbox
                 title="SPLASHDOWN"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Lorelai-B.png')}
+                        image={require('./../images/Ability/Lorelai-B.jpg')}
                 text="Lorelai throws a sphere of water at target location.
 
                 • After 0.8s, the water forms a pool.
@@ -130,7 +130,7 @@ const Lorelai = () => (
             <Skillbox
                 title="WATERWALL"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Lorelai-C.png')}
+                        image={require('./../images/Ability/Lorelai-C.jpg')}
                 text="Lorelai forms a protective veil of water around the target allied hero.
 
                 • Cleanses the target of any movement-impairing effects.

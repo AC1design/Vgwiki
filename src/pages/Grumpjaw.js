@@ -107,18 +107,18 @@ const Grumpjaw = () => (
                 subtitle="A ABILITY"
                 text="Grumpjaw charges forward and slashes the area in front of him, damaging and slowing enemies he hits. He also hits things at his ending location.
                 • Deals bonus damage for each stack of Living Armor Grumpjaw has."
-                        image={require("./../images/Ability/Grumpjaw-.jpg")}
+                        image={require("./../images/Ability/Grumpjaw-A.jpg")}
             />
             <Skillbox
                 title="HANGRY"
                 subtitle="B ABILITY"
-                        image={require("./../images/Ability/Grumpjaw-.jpg")}
+                        image={require("./../images/Ability/Grumpjaw-B.jpg")}
                 text="Grumpjaw leaps toward his target and attacks it. Afterward, he gains bonus weapon damage and attack speed for several seconds."
             />
             <Skillbox
                 title="STUFFED"
                 subtitle="ULTIMATE"
-                        image={require("./../images/Ability/Grumpjaw-.jpg")}
+                        image={require("./../images/Ability/Grumpjaw-C.jpg")}
                 text="Grumpjaw lunges forward, devouring the first enemy hero in his path. While inside Grumpjaw's belly, enemies cannot move, act or see. After 3s, Grumpjaw will spit the enemy out in front of him.
                 • Reactivate this ability to spit the enemy out early."
             />

@@ -96,7 +96,7 @@ const Kinetic = () => (
             video={require('./../images/SkillVideos/Kinetic-P.mp4')}
                 title="TRACER SHOTS"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Kinetic-P.png')}
+                        image={require('./../images/Ability/Kinetic-P.jpg')}
                 text="Landing Plasma Driver grants Kinetic a stack of Tracer Shots up to 4 stacks.
                 Tracer Shots: Kinetic fires a tracer at her target.
                 • Tracer Damage: 4-15 (Level 1-12) (+10% weapon power)"
@@ -106,13 +106,13 @@ const Kinetic = () => (
                 title="PLASMA DRIVER"
                 subtitle="A ABILITY"
                 text="Kinetic unleashes a burst of energy, damaging the first enemy struck."
-                        image={require('./../images/Ability/Kinetic-A.png')}
+                        image={require('./../images/Ability/Kinetic-A.jpg')}
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Kinetic-B.mp4')}
                 title="OVERWHELM"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Kinetic-B.png')}
+                        image={require('./../images/Ability/Kinetic-B.jpg')}
                 text="Kinetic dashes and temporarily becomes Charged for 5s.
                 Charged: Kinetic's next Plasma Driver deals more damage, has increased range, and slows her target.
                 
@@ -123,7 +123,7 @@ const Kinetic = () => (
                 video={require('./../images/SkillVideos/Kinetic-C.mp4')}
                 title="IRON MANDATE"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Kinetic-C.png')}
+                        image={require('./../images/Ability/Kinetic-C.jpg')}
                 text="Kinetic charges up a powerful blast and fires it at her target.
                 • Consumes all stacks of Tracer Shots to deal 25% bonus damage per stack
                 • Can be blocked by enemy heroes, structures, and jungle bosses."

@@ -95,7 +95,7 @@ const Lyra = () => (
             <Skillbox
                 title="PRINCIPLE ARCANUM"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Lyra-P.png')}
+                        image={require('./../images/Ability/Lyra-P.jpg')}
                 text="Lyra’s attacks are arcane missiles that deal crystal damage. if she holds her ground after releasing an attack, she automatically follows up with a heavy attack that also slows the target.
 
                 • Each channeled missile consumes 15-20 (level 1-12) energy, but Lyra can continue using these even if she runs out of energy.
@@ -106,7 +106,7 @@ const Lyra = () => (
             <Skillbox
                 title="IMPERIAL SIGIL"
                 subtitle="A ABILITY"
-                        image={require('./../images/Ability/Lyra-A.png')}
+                        image={require('./../images/Ability/Lyra-A.jpg')}
                 text="Lyra creates a sigil that heals nearby allied heroes and damages nearby enemy heroes. Reactivate this ability to detonate the sigil, dealing heavy damage to enemies while providing a move speed boost to allies inside and immediately consuming the remaining duration to heal at 30% effectiveness.
 
                 • The healing per second is increase by 9% of Lyra's bonus health.
@@ -117,7 +117,7 @@ const Lyra = () => (
             <Skillbox
                 title="BRIGHT BULWARK"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Lyra-B.png')}
+                        image={require('./../images/Ability/Lyra-B.jpg')}
                 text="Lyra creates a walled zone around her, damaging and applying a slow to surrounding enemies.
 
                 • Enemies inside the zone are slowed.
@@ -127,7 +127,7 @@ const Lyra = () => (
             <Skillbox
                 title="ARCANE PASSAGE"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Lyra-C.png')}
+                        image={require('./../images/Ability/Lyra-C.jpg')}
                 text="Lyra teleports to the target location, creating portals at both ends that allow anyone to teleport across.
 
                 • Portals last for 8.5s.
