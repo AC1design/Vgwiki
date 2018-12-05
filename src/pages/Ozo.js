@@ -95,7 +95,7 @@ const Ozo = () => (
             <Skillbox
                 title="CARNIE LUCK"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Ozo-P.png')}
+                        image={require('./../images/Ability/Ozo-P.jpg')}
                 text="Ozo receives 10-25% additional healing, barrier and fortified health from all sources.
 
                 • This does not affect health regeneration."
@@ -109,12 +109,12 @@ const Ozo = () => (
                 • Final hit: Spins and damages all nearby enemies.
                 • Each hit deals weapon damage, can crit, and triggers basic-attack effects on the primary targer.
                 • Ozo heals for each enemy damaged by any of these hits (30% against non-heroes)."
-                        image={require('./../images/Ability/Ozo-A.png')}
+                        image={require('./../images/Ability/Ozo-A.jpg')}
             />
             <Skillbox
                 title="ACROBOUNCE"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Ozo-B.png')}
+                        image={require('./../images/Ability/Ozo-B.jpg')}
                 text="Ozo jumps onto a target, damaging and slowing it if it is an enemy. While airborne, quickly tap another target to bounce to it. Three hops maximum.
 
                 • Each time Ozo starts a jump, he is granted fortified health.
@@ -125,7 +125,7 @@ const Ozo = () => (
             <Skillbox
                 title="BANGARANG"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Ozo-C.png')}
+                        image={require('./../images/Ability/Ozo-C.jpg')}
                 text="Ozo charges up, then rolls toward a targeted enemy hero. Upon arrival, Ozo damages, stuns for 0.8s, and flips the target over him.
 
                 • While tumbling, Ozo will damage and knock aside other enemies along his path.

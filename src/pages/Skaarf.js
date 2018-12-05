@@ -97,7 +97,7 @@ const Skaarf = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Skaarf-P-Fan-the-Flames.mp4"
                                     title="FAN THE FLAMES"
                                     subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Skaarf-P.png')}
+                        image={require('./../images/Ability/Skaarf-P.jpg')}
                                     text="Skaarf's abilities burn targets and his basic attacks deal bonus crystal damage to burning targets.
                 
                   Burn: 8 damage per second for 4s.
@@ -114,14 +114,14 @@ const Skaarf = () => (
               • The fireball damages and passes through smaller minions.
               • Each time it passes through a unit, its damate is reduced to 85% of before.
               • Deals 50% less damage damage to minions."
-                        image={require('./../images/Ability/Skaarf-A.png')}
+                        image={require('./../images/Ability/Skaarf-A.jpg')}
             
             />
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Skaarf-B-Goop.mp4"
                                     title="GOOP"
                                     subtitle="B ABILITY"
-                        image={require('./../images/Ability/Skaarf-B.png')}
+                        image={require('./../images/Ability/Skaarf-B.jpg')}
                                     text="Skaarf hurls a goop onto the target location. Enemies walking through the sticky substance are slowed. Any of Skaarf's flames will ignite the puddle, dealing burst damage and burning enemies over time.
                 
                  • A flaming puddle does not slow enemies as much as a goop puddle.
@@ -131,7 +131,7 @@ const Skaarf = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Skaarf-C-Dragons-Breath.mp4"
                                     title="DRAGON BREATH"
                                     subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Skaarf-C.png')}
+                        image={require('./../images/Ability/Skaarf-C.jpg')}
                                     text="Skaarf inhales for 1.5s, then exhales a huge flames for 3s. Skaarf may move freely while spewing fire.
                 
                   • Skaarf gains a quick burst of move speed when exhaling.

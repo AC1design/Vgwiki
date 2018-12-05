@@ -95,7 +95,7 @@ const Malene = () => (
             <Skillbox
                 title="MASKED BALL"
                 subtitle="HEROIC PERK"
-                    image={require('./../images/Ability/Malene-P.png')}
+                    image={require('./../images/Ability/Malene-P.jpg')}
                 text="Malene's ultimate is available at level 1 and allows her to switch between Light Form and Shadow Form. Additionally, Malene's basic attacks deal crystal damage.
 
                 • Basic attack crystal damage: 60-126 (level 1-12) (+60% crystal power).
@@ -105,7 +105,7 @@ const Malene = () => (
                 title="LIGHT RIBBONS"
                 subtitle="A ABILITY (LIGHT FORM)"
                 text="Malene sends ribbons of light in the target direction, damaging and immobilizing the first enemy hit."
-                    image={require('./../images/Ability/Malene-A1.png')}
+                    image={require('./../images/Ability/Malene-A1.jpg')}
             />
             <Skillbox
                 title="SHADOW TENDRILS"
@@ -113,24 +113,24 @@ const Malene = () => (
                 text="Shadow Form - Shadow Tendrils: Malene unleashes three shadow tendrils in the target direction, dealing crystal damage to all enemies along their path.
                 • Each tendril deals its own instance of damage.
                 • Deals 50% less damage to minions."
-                    image={require('./../images/Ability/Malene-A2.png')}
+                    image={require('./../images/Ability/Malene-A2.jpg')}
             />
             <Skillbox
                 title="ROYAL AMNESTY"
                 subtitle="B ABILITY (LIGHT FORM)"
-                    image={require('./../images/Ability/Malene-B1.png')}
+                    image={require('./../images/Ability/Malene-B1.jpg')}
                 text="Malene instantly imbues herself with light, granting herself a barrier and a burst of movement speed for 3s."
             />
             <Skillbox
                 title="WICKED ESCAPADE"
                 subtitle="B ABILITY (SHADOW FORM)"
-                    image={require('./../images/Ability/Malene-B2.png')}
+                    image={require('./../images/Ability/Malene-B2.jpg')}
                 text="Malene instantly becomes a trail of shadows for 1.5s, becoming invulnerable and slowing enemies she passes through. When this effect ends, enemies near her original location receive a burst of damage."
             />
             <Skillbox
                 title="ENCHANTED TRANSFORMATION"
                 subtitle="ULTIMATE"
-                    image={require('./../images/Ability/Malene-C.png')}
+                    image={require('./../images/Ability/Malene-C.jpg')}
                 text="Malene switches between Light Form and Shadow Form, swapping abilities and gaining an empowerment on her next basic attack based on which form she switches into.
 
                 • Shadow Empowerment: Deal bonus damage.

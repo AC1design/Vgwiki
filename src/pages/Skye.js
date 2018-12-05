@@ -96,7 +96,7 @@ const Skye = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/09/P-Skye-Target-Lock-Large.mp4"
                                     title="TARGET LOCK"
                                     subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Skye-P.png')}
+                        image={require('./../images/Ability/Skye-P.jpg')}
                                     text="Skye's basic attacks apply Target Lock to the last target.
                 
                 • Basic attacks and Forward Barrage on that locked target grant her up to +2 move speed for 1.2s, but this boost is much weaker while moving backward.
@@ -111,13 +111,13 @@ const Skye = () => (
              • Reactivate this ability to stop firing.
              • Deals bonus damage to locked target.
              • Deals 50% less damage to structures and bosses."
-                        image={require('./../images/Ability/Skye-A.png')}            
+                        image={require('./../images/Ability/Skye-A.jpg')}            
             />
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/09/B-Skye-Suri-Strike-Large.mp4"
                                     title="SURI STRIKE"
                                     subtitle="B ABILITY"
-                        image={require('./../images/Ability/Skye-B.png')}
+                        image={require('./../images/Ability/Skye-B.jpg')}
                                     text="Skye dashes to a chosen location around her locked target while firing a volley of missiles along a line between her and her target.
                 
                  • Multiple missles can hit the same target, but subsequent hits deal 20% damage.
@@ -130,7 +130,7 @@ const Skye = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/09/C-Skye-Death-From-Above-Large.mp4"
                                     title="DEATH FROM ABOVE"
                                     subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Skye-C.png')}
+                        image={require('./../images/Ability/Skye-C.jpg')}
                                     text="Skye fires a salvo of missiles at a chosen location around her locked target. After a 1.3s delay, the missiles rain down on that location, stunning enemies for 0.5s. Enemies still in the area afterward are slowed and take crystal damage.
                 
                  • Aiming directly on your locked target rains down the missiles in a cluster.

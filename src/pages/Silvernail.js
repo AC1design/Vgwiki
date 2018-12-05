@@ -96,14 +96,14 @@ const Silvernail = () => (
             <Skillbox
                 itle="DOUBLE SHOT"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Silvernail-P.png')}
+                        image={require('./../images/Ability/Silvernail-P.jpg')}
                 text="Silvernail loads an extra bolt every 4s-3s (level 1-12) which can be expended to chain a follow-up basic attack, dealing 60% damage.
                 • Attack speed reduces load time."
             />
             <Skillbox
                 title="STAKE"
                 subtitle="A ABILITY"
-                        image={require('./../images/Ability/Silvernail-A.png')}
+                        image={require('./../images/Ability/Silvernail-A.jpg')}
                 text="Silvernail plants an inactive Stake into the ground. Tripwires form between nearby inactive Stakes, activating the Stakes.  
                   Tripwire: Enemies crossing through will be briefly slowed, silenced, and take damage.
                   • Silvernail can maintain up to 3 inactive Stakes at a time.
@@ -112,7 +112,7 @@ const Silvernail = () => (
             <Skillbox
             title="CAUSTIC BLESSING"
             subtitle="B ABILITY"
-                        image={require('./../images/Ability/Silvernail-B.png')}
+                        image={require('./../images/Ability/Silvernail-B.jpg')}
             text="Silvernail lobs a flask which damages, burns, and reveals enemies caught in the blast for 4s.
              • Refreshes Double Shot upon casting.
              • Deals 50% damage to minions."
@@ -120,7 +120,7 @@ const Silvernail = () => (
             <Skillbox
              title="REBUKE"
              subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Silvernail-C.png')}
+                        image={require('./../images/Ability/Silvernail-C.jpg')}
              text="Passive: Double Shot damage increased.
              Activate: Silvernail fires a piercing bolt, dealing damage to and dragging enemies along with it.
              • Enemies who collide with a Tripwire, wall, or structure are stunned and take bonus damage."

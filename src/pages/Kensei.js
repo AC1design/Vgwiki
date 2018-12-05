@@ -111,7 +111,7 @@ const Kensei = () => (
                 subtitle="A ABILITY"
                 text="Kensei rushes forward, swinging his blade and dealing basic attack damage in an arc in front of him.
                 • This ability can be reactivated two additional times within 5s."
-                        image={require('./../images/Ability/Kensei-A.jpg')}
+                        image={require('./../images/Ability/Kensei -A.jpg')}
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Kensei-B.mp4')}

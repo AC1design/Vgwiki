@@ -97,7 +97,7 @@ const Reim = () => (
             <Skillbox
                 title="FROSTGUARD"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Reim-P.png')}
+                        image={require('./../images/Ability/Reim-P.jpg')}
                 text="When Reim damages opponents with his basic attack or Winter Spire, he is granted fortified health up to a cap of 25% of Reim's maximum health.
                 • All damage dealt by Reim will chill opponents. This effect is reduced against non-heroes.
                 • Reim's basic attacks deal 15-54 (level 1-12) (+80% crystal power) crystal damage over 2s and grant 20% of the damage dealt with this effect as fortified health.
@@ -112,19 +112,19 @@ const Reim = () => (
                 • 20% of the damage dealt with this ability is gained as fortified health.
                 • Fortified health gained is reduced against non-heroes.
                 • Deals 50% less damage to minions."
-                        image={require('./../images/Ability/Reim-A.png')}
+                        image={require('./../images/Ability/Reim-A.jpg')}
                               />
             <Skillbox
                 title="CHILL WINDS"
                                   subtitle="B ABILITY"
-                        image={require('./../images/Ability/Reim-B.png')}
+                        image={require('./../images/Ability/Reim-B.jpg')}
                                   text="Reim deals a burst of crystal damage to all surrounding enemies, rooting enemies who are chilled. A rooted enemy cannot move or dash, but the enemy can still attack.
                 
                                   • Deals 50% less damage to minions."/>
             <Skillbox
                 title="VALKYRIE"
                                   subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Reim-C.png')}
+                        image={require('./../images/Ability/Reim-C.jpg')}
                                   text="Reim summons an ancient Valkyrie, devastating enemies in the area and applying a heavy decaying slow.
                 
                                   • Enemies near center are also stunned and take greater damage."/>

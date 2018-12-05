@@ -97,7 +97,7 @@ const Petal = () => (
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Petal-P-Bramblethorn-Munions.mp4'}
                 title="MUNIONS"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Petal-P.png')}
+                        image={require('./../images/Ability/Petal-P.jpg')}
                 text="A few moments after Petal plants a Bramblebloom Seed, it will automatically sprout into a Munion pet, which will fight alongside Petal up to a maximum of 3 Munions."
             />
             <Skillbox
@@ -108,19 +108,19 @@ const Petal = () => (
 
                 • If an enemy hero steps on a seed, the seed will explode and knock the enemy back.
                 • Petal's seeds have a small vision radius."
-                        image={require('./../images/Ability/Petal-A.png')}
+                        image={require('./../images/Ability/Petal-A.jpg')}
             />
             <Skillbox
                 title="TRAMPOLINE!"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Petal-B.png')}
+                        image={require('./../images/Ability/Petal-B.jpg')}
                 text="Petal leaps in the target direction, leaving a Bramblebloom Seed behind at her original location. Using this ability will increase Petal's basic-attack range and amplify her weapon and crystal power for 5s."
             />
             <Skillbox
                 video={'https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/04/Petal_Ultimate.gif'}
                 title="BLAST TREMOR"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Petal-C.png')}
+                        image={require('./../images/Ability/Petal-C.jpg')}
                 text="Petal sends the nearest munion dashing towards the targeted location, exploding after 1.2 seconds. The explosion slows and deals splash damage to nearby enemies while healing nearby allies.
 
                 • Detonated pets become Bramblebloom Seeds.

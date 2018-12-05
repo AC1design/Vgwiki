@@ -94,7 +94,7 @@ const Inara = () => (
     <div className="SkillboxGroupScroll">
         <div className="SkillboxGroup">
             <Skillbox
-                video={require('./../images/SkillVideos/Inara-H.mp4')}
+                video={require('./../images/SkillVideos/Inara-P.mp4')}
                 title="SACRED GROVE"
                 subtitle="HEROIC PERK"
                     image={require('./../images/Ability/Inara-H.jpg')}

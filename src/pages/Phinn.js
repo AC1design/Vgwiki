@@ -95,7 +95,7 @@ const Phinn = () => (
             <Skillbox
                 title="UNSTOPPABLE"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Phinn-p.png')}
+                        image={require('./../images/Ability/Phinn-p.jpg')}
                 text="Phinn cannot be stopped or stunned. All movement-impairing effects are instead reduced to moderate slows, and stuns are converted to silences.
                 • He even shrugs off attempts on his life, passively gaining 18% additional armor, shield, and max health.
                 Water Denizen: Phinn gains the 5V5 river movement bonus in both directions."
@@ -106,18 +106,18 @@ const Phinn = () => (
                 text="Phinn slams his anchor down on the targeted location, heavily slowing enemies for 0.9s.
                 • Overdrive: At max rank, the slow becomes a stun!
                 • Deals 50% less damage to minions."
-                        image={require('./../images/Ability/Phinn-A.png')}
+                        image={require('./../images/Ability/Phinn-A.jpg')}
                               />
             <Skillbox
                 title="POLITE COMPANY"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Phinn-b.png')}
+                        image={require('./../images/Ability/Phinn-b.jpg')}
                 text="Phinn stomps the earth, damaging all enemies in a wide area and nudging them toward him. The effect reverberates around allies, temporarily granting them fortified health.
                 • Fortified health increases by 4% of Phinn's bonus health and 15% of Phinn's bonus armor/shield."/>
             <Skillbox
                 title="FORCED ACCORD"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Phinn-C.png')}
+                        image={require('./../images/Ability/Phinn-C.jpg')}
                 text="Phinn throws his anchor in a direction. After the anchor reaches its destination, Phinn yanks it back, damaging all enemies in its path and pulling them back to him."/>
         </div>
     </div>

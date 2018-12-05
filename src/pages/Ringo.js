@@ -97,7 +97,7 @@ const Ringo = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Ringo-P-Double-Down.mp4"
                 title="DOUBLE DOWN"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Ringo-P.png')}
+                        image={require('./../images/Ability/Ringo-P.jpg')}
                 text="Ringo's next basic attack after killing anything will be a critical strike."
                 />
             <Skillbox
@@ -105,13 +105,13 @@ const Ringo = () => (
                 title="ACHILLES SHOT"
                 subtitle="A ABILITY"
                 text="Ringo fires a trick shot at his target's heel (or whatever lower extremity exists), slowing the target and dealing damage."
-                        image={require('./../images/Ability/Ringo-A.png')}
+                        image={require('./../images/Ability/Ringo-A.jpg')}
                 />
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Ringo-B-Twirling-Silver.mp4"
                 title="TWIRLING SILVER"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Ringo-B.png')}
+                        image={require('./../images/Ability/Ringo-B.jpg')}
                 text="Ringo slings bullets at his target in a mad flurry, dramatically increasing his attack speed and move speed for a duration.
                 
                 • Activating this ability resets Ringo's basic-attack cooldown."/>
@@ -119,7 +119,7 @@ const Ringo = () => (
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Ringo-C-Hellfire-Brew.mp4"
                 title="HELLFIRE BREW"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Ringo-C.png')}
+                        image={require('./../images/Ability/Ringo-C.jpg')}
                 text="Ringo takes a long swig from his gourd, then spits out a scorching fireball at his target. The explosion deals splash damage on impact and sets the target on fire, burning it & nearby enemies for 7s.
                 
                 • The fire pierces all shield on impact."/>
