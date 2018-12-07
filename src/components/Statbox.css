@@ -8,15 +8,15 @@
 
 
 .Statbox h2 {
-    font-size: 14px;
-    font-weight: 900;
+    font-size: 12px;
+    font-weight: 800;
     margin: 0;
     -webkit-font-smoothing: antialiased;
 }
 
 .Statbox h3 {
     color: rgba(255,255,255, 0.8);
-	font-weight: 900;
+	font-weight: 650;
 	font-size: 18px;
     margin: 0;
     margin-bottom: 5px;
@@ -28,7 +28,7 @@
     border-radius: 20px;
     box-sizing: border-box;
     width:auto;
-    margin: 40px 20px 40px;
+    margin: 20px 20px 40px;
     display: grid;
     grid-template-columns: repeat(10, auto);
     grid-column-gap: 60px;

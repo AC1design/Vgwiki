@@ -34,10 +34,10 @@ const IndexPage = () => (
         <div className="CardboxGroup">
         
 <Card
-                title=""
-                text=""
+                title="Magnus"
+                text="?, MAGE"
                 image={require('./../images/Cards/Magnus_Card.jpg')}
-                link="/Inara/" />
+                link="/Magnus/" />
                 <Card
                 title="Adagio"
                 text="JUNGLE, PROTECTOR"
@@ -115,32 +115,32 @@ const IndexPage = () => (
                 link="/Grumpjaw/" />
                 <Card
                 title="Gwen"
-                text="LANE, SNPIER"
+                text="LANE, SNIPER"
                 image={require('./../images/Cards/Gwen_Card.jpg')}
                 link="/Gwen/" />
                 <Card
                 title="Idris"
-                text="JUNGLE, MAGE"
+                text="JUNGLE, ASSASSIN"
                 image={require('./../images/Cards/Idris_Card.jpg')}
                 link="/Idris/" />
         <Card
           title="Inara"
-          text="JUNGLE, ASSASSIN"
+          text="JUNGLE, WARRIOR"
           image={require('./../images/Cards/Inara_Card.png')}
           link="/Inara/" />
                 <Card
                 title="Joule"
-                text="LANE, SNIPER"
+                text="LANE, WARRIOR"
                 image={require('./../images/Cards/Joule_Card.jpg')}
                 link="/Joule/" />
                 <Card
                 title="Kensei"
-                text="LANE, ASSASSIN"
+                text="LANE, JUNGLE, ASSASSIN"
                 image={require('./../images/Cards/Kensei_Card.jpg')}
                 link="/Kensei/" />
                 <Card
                 title="Kestrel"
-                text="JUNGLE, PROTECTOR"
+                text="JUNGLE, SNIPER"
                 image={require('./../images/Cards/Kestrel_Card.jpg')}
                 link="/Kestrel/" />
                 <Card
@@ -195,7 +195,7 @@ const IndexPage = () => (
                 link="/Phinn/" />
                 <Card
                 title="Reim"
-                text="JUNGLE, WARRIOR"
+                text="JUNGLE, MAGE"
                 image={require('./../images/Cards/Reim_Card.jpg')}
                 link="/Reim/" />
                 <Card
@@ -260,7 +260,7 @@ const IndexPage = () => (
                 link="/Vox/" />
                 <Card
                 title="Yates"
-                text="JUNGLE, PRTOTECTOR"
+                text="JUNGLE, PROTECTOR"
                 image={require('./../images/Cards/Yates_Card.jpg')}
                 link="/Yates/" />
         </div>

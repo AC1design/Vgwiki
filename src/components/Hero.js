@@ -85,7 +85,7 @@ font-family: "Antonio";
 `
 const Roles = styled.h2`
 font-family: sans-serif;
-font-weight: 150;
+font-weight: 350;
     font-size: 35px;
     letter-spacing: normal;
     margin: 0;
