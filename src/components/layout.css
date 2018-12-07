@@ -146,6 +146,11 @@ a {
   margin-left: 16px;
 }
 
+.footer{
+  text-align: center;
+  justify-content: center;
+}
+
 @media (max-width: 1366px) {
     .Selectan h1 {
      text-align: left;

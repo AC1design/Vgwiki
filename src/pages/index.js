@@ -5,8 +5,11 @@ import Card from '../components/Card'
 import Itemsbox from '../components/Item';
 import Tabsind from '../components/Tab';
 import MediaQuery from 'react-responsive';
+import StickyFooter from 'react-sticky-footer';
+
 const IndexPage = () => (
   <Layout>
+    <meta name="theme-color" content="#1f1f21" />
     <div className="Hero">
       <div className="HeroGroup">
         <h1>VAINGLORYWIKI</h1>
@@ -1543,6 +1546,29 @@ Activate: Sprint for 2s (90s cooldown).
         </div>
         </div>
 </MediaQuery>
+    <StickyFooter
+    className="footer"
+      bottomThreshold={50}
+      normalStyles={{
+        backgroundColor: "#2B2B2D",
+        padding: "1rem",
+        fontSize:"12px",
+        color:"white",
+        textAlign:"center",
+        marginTop:"50px"
+      }}
+      stickyStyles={{
+        backgroundColor: "#2B2B2D",
+        padding: "1rem",
+        fontSize: "12px",
+        color: "white",
+        textAlign: "center",
+        marginTop: "50px"
+      }}
+      
+    >
+      © 2018 Copyright: <a href="https://twitter.com/AngeloCant1">AngeloC</a>
+</StickyFooter>
   </Layout>
 )
 
