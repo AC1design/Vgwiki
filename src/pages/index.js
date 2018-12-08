@@ -562,9 +562,9 @@ Activate: Trigger Reflex Block for you and nearby teammates. (75s cooldown)"
         <Itemsbox
         itemimg={require('./../images/Items/crystal-infusion.png')}
         itemname="Crystal Infusion"
-        class="UTILITY"
-          tier="TIER 1"
-          color="#AC92EC"
+            class="CONSUMABLE"
+            tier="TIER 1"
+            color="#CCD1D9"
         cost="500"
           description="Consume: Temporarily gain 30-60 crystal power, 7.5-15% cooldown reduction, and 10-20 armor & shield based on your level. Lasts 150s. Can only have one infusion active at a time."
           tip="Tip: Gain a powerful temporary advantage in your abilities."
@@ -588,9 +588,9 @@ Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lo
         <Itemsbox
         itemimg={require('./../images/Items/dragonblood-contract.png')}
         itemname="Dragonblood Contract"
-        class="UTILITY"
-          tier="TIER 1"
-          color="#AC92EC"
+            class="CONSUMABLE"
+            tier="TIER 1"
+            color="#CCD1D9"
         cost="250"
           description="Activate: After a brief delay, nearby enemy heroes are marked for 3 seconds. The next basic attack from an ally consumes the mark, slowing by 30% for 2s and dealing 100 bonus crystal damage. 10s cooldown. 2 max charges. 25s per charge."
           tip="Tip: Use this to aggressively secure kills in the early game."
@@ -665,9 +665,9 @@ Passive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes
         <Itemsbox
           itemimg={require('./../images/Items/flare.png')}
           itemname="Flare"
-          class="UTILITY"
-          tier="TIER 1"
-          color="#AC92EC"
+            class="CONSUMABLE"
+            tier="TIER 1"
+            color="#CCD1D9"
           cost="25"
           description="Consume: Reveal an area for 5s. Can see over walls, into brush, and stealthed units. Scout Traps within this area are permanently revealed."
           tip="Tip: Use this to avoid being ambushed, especially in the late game."
