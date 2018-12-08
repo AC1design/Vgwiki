@@ -16,7 +16,7 @@ const Inara = () => (
             bgtablet={require("./../images/BG/Magnus_Tablet.jpg")}
             bgmobile={require("./../images/BG/Magnus_Mobile.jpg")}
             heroname="MAGNUS"
-            role='?, MAGE'
+            role='LANE, MAGE'
             description=""
             spotlight="rvo9GzYoJkk">
         </Heroes>

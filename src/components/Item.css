@@ -35,6 +35,7 @@
 	font-size: 20px;
     margin-top: -5px;
     -webkit-font-smoothing: antialiased;
+        width: 156px;
 }
 
 .Itembox h2 {
@@ -204,7 +205,7 @@
     .ItemboxGroup {
     margin: 20px 16px 40px;
     display: grid;
-    grid-template-columns: repeat(81, 195px);
+    grid-template-columns: repeat(82, 195px);
     grid-column-gap: 20px;
     justify-content: left;
     justify-items: stretch;

@@ -6,7 +6,6 @@ import Itemsbox from '../components/Item';
 import Tabsind from '../components/Tab';
 import MediaQuery from 'react-responsive';
 import StickyFooter from 'react-sticky-footer';
-
 const IndexPage = () => (
   <Layout>
     <meta name="theme-color" content="#1f1f21" />
