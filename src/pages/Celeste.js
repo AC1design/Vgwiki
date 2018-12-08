@@ -201,6 +201,11 @@ const Celeste = () => (
                 title="Baewitched Celeste"
                 text="Limited Edition"
                 image={require('./../images/Skins/Celeste_Baewitched_LE.png')} />
+                    <Skinbox
+                        color="red"
+                        title="Snow Queen Celeste"
+                        text="Special Edition?"
+                        image={require('./../images/Skins/Celeste_Snow_Queen.png')} />
         </div>
     </div>
   </div >

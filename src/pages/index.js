@@ -38,7 +38,7 @@ const IndexPage = () => (
         
 <Card
                 title="Magnus"
-                text="?, MAGE"
+                text="LANE, MAGE"
                 image={require('./../images/Cards/Magnus_Card.jpg')}
                 link="/Magnus/" />
                 <Card
@@ -274,12 +274,27 @@ const IndexPage = () => (
     <div className="ItemboxGroupScroll">
         <div className="ItemboxGroup">
         <Itemsbox
+            itemimg={require('./../images/Items/celestial-shroud.png')}
+            itemname="Celestial Shroud"
+        class="DEFENSE"
+          tier="TIER 3"
+        color="#A0D46B"
+        cost="2200"
+        tag="NEW"
+        description="+95 Shield 
+Passive: Grants immunity to abilities and debuffs. Disabled for 35s shortly after negating ability damage"
+          tip="Tip: Buy this against heavy crystal damage or hard-engage heroes"
+          builtfrom="BUILT FROM"
+          item1={require("./../images/Items/kinetic-shield.png")}
+        > 
+        </Itemsbox>
+        <Itemsbox
         itemimg={require('./../images/Items/aegis.png')}
         itemname="Aegis"
         class="DEFENSE"
         tier="TIER 3"
         color="#A0D46B"
-        cost="2100"
+        cost="2200"
         description="+40 Shield
 +40 Armor
 +200 Max Health
@@ -502,7 +517,7 @@ Passive: Upon damaging an enemy hero with an ability, refresh all ability cooldo
         class="DEFENSE"
           tier="TIER 3"
         color="#A0D46B"
-        cost="800"
+        cost="750"
         description="+60 Armor"
           tip="Tip: Armor reduces damage from basic attacks."
           builtfrom="BUILT FROM"
@@ -708,7 +723,7 @@ Activate: Fire a flare. 5s cooldown. 2 charges max. 20s per charge."
           class="DEFENSE"
           tier="TIER 3"
           color="#A0D46B"
-          cost="2500"
+          cost="2400"
           description="+400 Max Health 
 +60 Shield 
 +20 Armor 
@@ -1452,7 +1467,7 @@ Activate: Sprint for 2s (90s cooldown).
         </Itemsbox>
         <Itemsbox
           itemimg={require('./../images/Items/tyrants-monocle.png')}
-          itemname="Travel Boots"
+            itemname="Tyrant's Monocle"
           class="WEAPON"
           tier="TIER 3"
           color="#ED5565"
