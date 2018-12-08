@@ -205,7 +205,7 @@ const Celeste = () => (
                         color="red"
                         title="Snow Queen Celeste"
                         text="Special Edition?"
-                        image={require('./../images/Skins/Celeste_Snow_Queen.png')} />
+                        image={require('./../images/Skins/Celeste_Snow_Queen.jpg')} />
         </div>
     </div>
   </div >
