@@ -595,10 +595,10 @@ item1={require("./../images/Items/reflex-block.png")}
           tier="TIER 3"
         color="#4a90e2"
         cost="2600"
-        description="+25% Cooldown Speed 
+        description="+15% Cooldown Speed (Max +35%) 
 +1.0 Energy Recharge 
 +30 Crystal Power
-Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 400 damage vs non-heroes. 1s cooldown."
+        Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 300 damage vs structures and non-heroes. 1s cooldown."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/eclipse-prism.png")}
@@ -612,8 +612,8 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           tier="TIER 3"
         color="#4a90e2"
         cost="2800"
-        description="+50 Crystal Power 
-                     +30% Attack Speed 
+        description="+45 Crystal Power  
+                     +40% Attack Speed  
                      Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
@@ -644,7 +644,7 @@ Activate: Maim nearby enemies, lowering their attack speed by 65% of their total
         cost="800"
         description="+10 Weapon Power 
 +10% Weapon Lifesteal 
-Passive: Restores 20 health whenever you kill a minion or monster (40 if using a melee default attack)."
+Passive: Restores 10 health whenever you kill a minion or monster (25 if using a melee default attack)."
           tip="Tip: Helps you stay healthy while last-hitting in lane."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/book-of-eulogies.png")}
@@ -660,10 +660,7 @@ Passive: Restores 20 health whenever you kill a minion or monster (40 if using a
           tier="TIER 2"
         color="#ED5565"
         cost="700"
-        description="+10 Weapon Power 
-+10% Weapon Lifesteal 
-Passive: Restores 20 health whenever you kill a minion or monster (40 if using a melee default attack)."
-          tip="Tip: Helps you stay healthy while last-hitting in lane."
+        description="+20% Attack Speed"
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/swift-shooter.png")}
           buildsto="BUILDS INTO"
@@ -682,7 +679,7 @@ Passive: Restores 20 health whenever you kill a minion or monster (40 if using a
         cost="2700"
          description="+40 Weapon Power 
 +20% Attack Speed 
-+20% Armor Pierce 
++25% Armor Pierce 
 On Hit: Your basic attacks shred 10% of the target’s armor for 3s. Max 4 stacks."
           tip="Tip: Effective against turrets and enemies with high armor. Best if you or your team are already dealing lots of weapon damage."
           builtfrom="BUILT FROM"
@@ -729,7 +726,7 @@ Passive: Gain 5 Weapon Power for every 100 weapon damage done to enemy heroes; +
         color="#4a90e2"
         cost="2700"
         description="+35% Shield Pierce 
-+60 Crystal Power"
++50 Crystal Power"
           tip="Tip: Helps for punching through enemies with high shield."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
@@ -763,7 +760,7 @@ Passive: Your heals and barriers also grant other allied heroes bonus movement s
           tier="TIER 2"
         color="#4a90e2"
         cost="800"
-        description="+15% Cooldown Reduction 
+        description="+15% Cooldown Reduction (Max 35%) 
 +0.75 Energy Recharge
 "
           tip="Tip: Cooldown speed increases the speed at which your abilities come off the timer."
@@ -782,7 +779,7 @@ Passive: Your heals and barriers also grant other allied heroes bonus movement s
         color="#4a90e2"
         cost="2400"
         description="+30 Crystal Power 
-+35% Cooldown Speed 
++20% Cooldown Speed (Max 35%) 
 +400 Max Energy 
 +5 Energy Recharge 
 Passive: Upon damaging an enemy hero with an ability, refresh all ability cooldowns by 10% (maximum 3s). This can only occur once every 3s.
@@ -952,7 +949,7 @@ Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lo
 +60 Crystal Power 
 +300 Max Energy 
 +4 Energy Recharge 
-Passive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +15% lifesteal, recharges over 40s."
+Passive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +25% lifesteal, recharges over 40s."
           tip="Tip: Crystal lifesteal heals you for a % of crystal damage dealt."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
@@ -1851,10 +1848,10 @@ Activate: Sprint for 2s (90s cooldown).
           tier="TIER 3"
         color="#4a90e2"
         cost="2600"
-        description="+25% Cooldown Speed 
+        description="+15% Cooldown Speed (Max +35%) 
 +1.0 Energy Recharge 
 +30 Crystal Power
-Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 400 damage vs non-heroes. 1s cooldown."
+Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 400 damage vs structure and non-heroes. 1s cooldown."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/eclipse-prism.png")}
@@ -1868,9 +1865,9 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           tier="TIER 3"
         color="#4a90e2"
         cost="2800"
-        description="+50 Crystal Power 
-                     +30% Attack Speed 
-                     Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
+        description="+45 Crystal Power  
+                      +40% Attack Speed  
+                      Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
@@ -1884,7 +1881,7 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
         color="#4a90e2"
         cost="2700"
         description="+35% Shield Pierce 
-+60 Crystal Power"
++50 Crystal Power"
           tip="Tip: Helps for punching through enemies with high shield."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
@@ -1899,7 +1896,7 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           tier="TIER 2"
         color="#4a90e2"
         cost="800"
-        description="+15% Cooldown Reduction 
+        description="+15% Cooldown Reduction (Max 35%) 
 +0.75 Energy Recharge
 "
           tip="Tip: Cooldown speed increases the speed at which your abilities come off the timer."
@@ -1918,7 +1915,7 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
         color="#4a90e2"
         cost="2400"
         description="+30 Crystal Power 
-+35% Cooldown Speed 
++20% Cooldown Speed (Max 35%) 
 +400 Max Energy 
 +5 Energy Recharge 
 Passive: Upon damaging an enemy hero with an ability, refresh all ability cooldowns by 10% (maximum 3s). This can only occur once every 3s.
@@ -2002,7 +1999,7 @@ Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lo
 +60 Crystal Power 
 +300 Max Energy 
 +4 Energy Recharge 
-Passive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +15% lifesteal, recharges over 40s."
+Passive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +25% lifesteal, recharges over 40s."
           tip="Tip: Crystal lifesteal heals you for a % of crystal damage dealt."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
@@ -2131,7 +2128,7 @@ Passive: Abilities dealing crystal damage to enemies (excluding lane minions) de
         cost="800"
         description="+10 Weapon Power 
 +10% Weapon Lifesteal 
-Passive: Restores 20 health whenever you kill a minion or monster (40 if using a melee default attack)."
+Passive: Restores 10 health whenever you kill a minion or monster (25 if using a melee default attack)."
           tip="Tip: Helps you stay healthy while last-hitting in lane."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/book-of-eulogies.png")}
@@ -2147,10 +2144,7 @@ Passive: Restores 20 health whenever you kill a minion or monster (40 if using a
           tier="TIER 2"
         color="#ED5565"
         cost="700"
-        description="+10 Weapon Power 
-+10% Weapon Lifesteal 
-Passive: Restores 20 health whenever you kill a minion or monster (40 if using a melee default attack)."
-          tip="Tip: Helps you stay healthy while last-hitting in lane."
+                description="+20% Attack Speed"
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/swift-shooter.png")}
           buildsto="BUILDS INTO"
@@ -2169,7 +2163,7 @@ Passive: Restores 20 health whenever you kill a minion or monster (40 if using a
         cost="2700"
          description="+40 Weapon Power 
 +20% Attack Speed 
-+20% Armor Pierce 
++25% Armor Pierce 
 On Hit: Your basic attacks shred 10% of the target’s armor for 3s. Max 4 stacks."
           tip="Tip: Effective against turrets and enemies with high armor. Best if you or your team are already dealing lots of weapon damage."
           builtfrom="BUILT FROM"

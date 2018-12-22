@@ -48,7 +48,7 @@ const Varya = () => (
             />
             <Statbox
                 title="WEAPON DAMAGE"
-                value="10 - 10"
+                value="-"
                 color="#f48596"
             />
             <Statbox
@@ -97,8 +97,8 @@ const Varya = () => (
             title="CHAIN LIGHTNING"
             subtitle="HEROIC PERK"
                         image={require('./../images/Ability/Varya-P.jpg')}
-            text="Varya's attacks deal 70-147 (level 1-12) (+40% Crystal Power) crystal damage. If Varya holds her ground after attacking, she will consume 170 energy to striker her target again and Chain Lightning up to 3 additional targets.
-            • Chain Lightning: Deals 30-69 (level 1-12) (+35% Crystal Power) damage to each target."/>
+            text="Varya's attacks deal 70-114 (level 1-12) (+25% Crystal Power) crystal damage. If Varya holds her ground after attacking, she will consume 170 energy to striker her target again and Chain Lightning up to 3 additional targets.
+            • Chain Lightning: Deals 37-125 (level 1-12) (+50% Crystal Power) damage to each target."/>
             <Skillbox
             title="STORMFORGED SPEAR"
                             subtitle="A ABILITY"

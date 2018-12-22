@@ -16,7 +16,6 @@
   .Subcategory {
   margin: 0 auto;
   margin-bottom: 50px;
-  width: 1300px;
   text-align: center;
   justify-content: center;
   border-radius: 5px;}
@@ -76,4 +75,27 @@
 
 .react-tabs__tab-panel--selected {
   display: block;
+}
+
+@media (max-width:1366px) {
+  
+  .Subcategory {
+    touch-action: pan-x;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:16px;
+    text-align: left;
+    justify-content: left;
+    padding:0;
+    margin-bottom: 20px;
+  }
+
+  .react-tabs__tab--selected {
+  font-size: 18px;
+}
+  
+  .react-tabs__tab {
+  font-size: 16px;
+}
+
 }

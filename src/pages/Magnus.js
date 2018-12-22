@@ -8,7 +8,7 @@ import Models from '../components/Model';
 import Layout from '../components/layout';
 
 
-const Inara = () => (
+const Magnus = () => (
     <Layout>
         <meta name="theme-color" content="#1f1f21" />
         <Heroes
@@ -17,8 +17,8 @@ const Inara = () => (
             bgmobile={require("./../images/BG/Magnus_Mobile.jpg")}
             heroname="MAGNUS"
             role='LANE, MAGE'
-            description=""
-            spotlight="rvo9GzYoJkk">
+            description="A powerful arcanist decimating enemies from afar"
+            spotlight="g9W8C8hPA2w">
         </Heroes>
         <div className="Title">
             <h1>STATS (LEVEL 1-12)</h1>
@@ -28,7 +28,7 @@ const Inara = () => (
             <div className="StatboxGroup">
                 <Statbox
                     title="HEALTH"
-                    value="805 - 2312"
+                    value="648 - 2065"
                     color="#4eec8b"
                 />
                 <Statbox
@@ -38,7 +38,7 @@ const Inara = () => (
                 />
                 <Statbox
                     title="ENERGY"
-                    value="201 - 388"
+                    value="380 - 732"
                     color="#5bbcff"
                 />
                 <Statbox
@@ -48,32 +48,32 @@ const Inara = () => (
                 />
                 <Statbox
                     title="WEAPON DAMAGE"
-                    value="78 - 150"
+                    value="80 - 158"
                     color="#f48596"
                 />
                 <Statbox
                     title="ATTACK SPEED"
-                    value="100% - 136.3%"
+                    value="100% - 125%"
                     color="#f48596"
                 />
                 <Statbox
                     title="ARMOR"
-                    value="30 - 85"
+                    value="25 - 75"
                     color="#f6ee71"
                 />
                 <Statbox
                     title="SHIELD"
-                    value="20 - 55"
+                    value="25 - 55"
                     color="#f6ee71"
                 />
                 <Statbox
                     title="ATTACK RANGE"
-                    value="2.4"
+                    value="6"
                     color="#e19efb"
                 />
                 <Statbox
                     title="MOVE SPEED"
-                    value="3.5"
+                    value="3.4"
                     color="#e19efb"
                 />
             </div>
@@ -84,7 +84,7 @@ const Inara = () => (
         </div>
         <Models
             bgmodel={require("./../images/BG/Magnusblurred.jpg")}
-            model={require("./../images/models/Inara.png")}>
+            model={require("./../images/models/Magnus.png")}>
         </Models>
         <div className="Title">
             <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -94,41 +94,37 @@ const Inara = () => (
         <div className="SkillboxGroupScroll">
             <div className="SkillboxGroup">
                 <Skillbox
-                    video={require('./../images/SkillVideos/Inara-H.mp4')}
-                    title="SACRED GROVE"
+                    video=""
+                    title="ARCANE RITE"
                     subtitle="HEROIC PERK"
-                    image={require('./../images/Ability/Inara-P.png')}
-                    text="Inara summons wisps around nearby treants, gaining vision and allowing her to leap to them. Killing a treant grants Inara a movement speed boost for 30s."
-                    header1="Ability A"
-                    value="20"
+                    image={require('./../images/Ability/Magnus-P.jpg')}
+                    text="Whenever an enemy is hit by any of Magnus’ abilities, they are afflicted with an Arcane Mark for 4 seconds. Magnus’ abilities have bonus effects when hitting enemies afflicted with Arcane Mark. 
+Additionally, Magnus can basic attack an afflicted target, consuming the Arcane Mark and exploding it for 50-180 (level 1-12) (+100% crystal power) bonus crystal power."
                 />
                 <Skillbox
-                    video={require('./../images/SkillVideos/Inara-A.mp4')}
-                    title="DANCE OF LEAVES"
+                    video=""
+                    title="MYSTIC MISSLE"
                     subtitle="A ABILITY"
-                    text="Inara spins with her blades, dealing damage to and slowing nearby enemies. Deals 50% less damage to minions."
-                    image={require('./../images/Ability/Inara-A.jpg')}
+                    text="Magnus fires a magic missile in the target direction, dealing crystal damage to the first target hit.
+• Hitting enemies with Arcane Mark scatters the missile to all other nearby targets."
+                    image={require('./../images/Ability/Magnus-A.jpg')}
                 />
                 <Skillbox
-                    video={require('./../images/SkillVideos/Inara-B.mp4')}
-                    title="DANCE OF BLADES"
+                    video=""
+                    title="CHRONO DRIVER"
                     subtitle="B ABILITY"
-                    image={require('./../images/Ability/Inara-B.jpg')}
-                    text="Inara leaps backwards and kicks away enemies, dealing damage to and summoning a wisp on affected enemies. She may leap to marked enemies she has kicked for the next 3s. Enemies knocked into a wall are stunned. Deals 50% less damage to minions."
+                    image={require('./../images/Ability/Magnus-B.jpg')}
+                    text="Magnus sends a disc of time magic in the target direction that returns to him, dealing crystal damage to all targets it passes through.
+• Hitting enemies with Arcane Mark briefly stuns them."
                 />
                 <Skillbox
-                    video={require('./../images/SkillVideos/Inara-C1.mp4')}
-                    title="MIRAGE"
+                    video=""
+                    title="SERAPHIC FLARE"
                     subtitle="ULTIMATE"
-                    image={require('./../images/Ability/Inara-C1.jpg')}
-                    text="Inara rallies nearby allies, granting them movement speed."
-                />
-                <Skillbox
-                    video={require('./../images/SkillVideos/Inara-C.mp4')}
-                    title="MIRAGE"
-                    subtitle="ULTIMATE (REACTIVATE)"
-                    image={require('./../images/Ability/Inara-C2.jpg')}
-                    text=" Reactivate Mirage (Ult) to dash in target direction, dealing damage to enemies."
+                    image={require('./../images/Ability/Magnus-C.jpg')}
+                    text="Magnus gathers arcane energy in the target direction for 1 second, dealing massive damage to all targets in the area afterwards.
+• Deals 50% bonus damage to targets with Arcane Mark.
+• If an enemy hero dies within 0.3 seconds of getting hit by this ability, then they will explode in Arcane Magic, launching Mystic Missile to all nearby targets."
                 />
             </div>
         </div>
@@ -140,31 +136,28 @@ const Inara = () => (
         <div className="TalentboxGroupScroll">
             <div className="TalentboxGroup">
                 <Talentbox
-                    title="DANCE OF MENDING"
+                    title="MYSTIC SEER"
                     subtitle="RARE"
                     color="#6393F9"
-                    text="Dance of Leaves (A) also heals Inara and her allies."
-                    text2="• Heal 120 (+15)"
-                    text3="• Damage 76% (+3%)"
-                    text4="• Bonus Move Speed Duration 3s"
-                    image={require('./../images/Talents/Inara_Rare.png')}
+                    text="Arcane Mark lasts longer and reveals marked targets."
+                    text2="• Bonus Duration 0.4s (+0.4)"
+                    image={require('./../images/Talents/Magnus_Rare.png')}
                 />
                 <Talentbox
-                    title="BANISHING MIGHT"
+                    title="ARCANE ALCHEMIST"
                     subtitle="EPIC"
                     color="#7A02EA"
                     text="Banishing Kick (B) knocks targets further."
-                    text2="• Bonus Range 2 (+0.5)"
-                    text3="• Cooldown 90% (-3%)"
-                    image={require('./../images/Talents/Inara_Epic.png')}
+                    text2="• Passive Attack Speed 7.5% (+7.5%)"
+                    image={require('./../images/Talents/Magnus_Epic.png')}
                 />
                 <Talentbox
-                    title="Sacred Warrior"
+                    title="INFINITE ARCANA"
                     subtitle="LEGENDARY"
                     color="#FF9000"
-                    text="Shimmer Blade (A) has greatly increased range, lower cooldown and increased damage."
-                    text2="• Duratio 0.8s"
-                    image={require('./../images/Talents/Inara_Legendary.png')}
+                    text="Hitting an enemy hero with an ability reduces all ability cooldowns"
+                    text2="• Cooldown -6% (-6%)"
+                    image={require('./../images/Talents/Magnus_Legendary.png')}
                 />
             </div>
         </div>
@@ -177,13 +170,13 @@ const Inara = () => (
             <div className="SkinboxGroup">
                 <Skinbox
                     color="#6393F9"
-                    title="Nightblade Inara"
+                    title="Masquerade Magnus"
                     text="Rare"
-                    image={require('./../images/Skins/Inara_Nightblade.png')} />
+                    image={require('./../images/Skins/Magnus_Masquerade.jpg')} />
             </div>
         </div>
     </Layout>
 )
 
 
-export default Inara
+export default Magnus

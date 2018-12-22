@@ -47,7 +47,7 @@ const Malene = () => (
                 />
                 <Statbox
                 title="WEAPON DAMAGE"
-                value="10 - 10"
+                value="-"
                 color="#f48596"
                 />
                 <Statbox
@@ -98,7 +98,7 @@ const Malene = () => (
                     image={require('./../images/Ability/Malene-P.png')}
                 text="Malene's ultimate is available at level 1 and allows her to switch between Light Form and Shadow Form. Additionally, Malene's basic attacks deal crystal damage.
 
-                • Basic attack crystal damage: 60-126 (level 1-12) (+60% crystal power).
+                • Basic attack crystal damage: 70-126 (level 1-12) (+60% Crystal Power)(+100% Weapon Power).
                 • For 6s after switching forms, Malene's next basic attack is empowered."
             />
             <Skillbox

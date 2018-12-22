@@ -47,7 +47,7 @@ const Lyra = () => (
             />
             <Statbox
                 title="WEAPON DAMAGE"
-                value="10 - 10"
+                value="-"
                 color="#f48596"
             />
             <Statbox
@@ -98,8 +98,8 @@ const Lyra = () => (
                         image={require('./../images/Ability/Lyra-P.jpg')}
                 text="Lyra’s attacks are arcane missiles that deal crystal damage. if she holds her ground after releasing an attack, she automatically follows up with a heavy attack that also slows the target.
 
-                • Each channeled missile consumes 15-20 (level 1-12) energy, but Lyra can continue using these even if she runs out of energy.
-                • Light attack damage: 50-85 (level 1-12) (+60% Crystal Power)
+                • Each channeled missile consumes 15-20 (level 1-12) energy points, but Lyra can continue using these even if she runs out of energy.
+                • Light attack damage: 60-85 (level 1-12) (+60% Crystal Power)(+100% Weapon Power)
                 • Heavy attack damage: 60-170 (level 1-12) (+80% Crystal Power)
                 • Heavy attack slow: 35% (+0.02% of bonus max health)"
             />

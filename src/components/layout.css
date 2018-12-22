@@ -139,11 +139,7 @@ a {
   }
 
 .line {
-  height: 3px;
-  background: rgba(240, 243, 245, 0);;
-  border-radius: 30px;
-  margin-right: 16px;
-  margin-left: 16px;
+  
 }
 
 .footer{
@@ -163,6 +159,10 @@ a {
     color: rgb(255, 255, 255);
     justify-content: left;
     overflow: hidden;
+  }
+
+  .Selectan{
+    display:flex;
   }
   }
   

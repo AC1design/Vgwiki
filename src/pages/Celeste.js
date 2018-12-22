@@ -48,7 +48,7 @@ const Celeste = () => (
                 />
                 <Statbox
                 title="WEAPON DAMAGE"
-                value="10"
+                value="-"
                 color="#f48596"
                 />
                 <Statbox
@@ -98,13 +98,13 @@ const Celeste = () => (
                 title="JULIA'S LIGHT"
                 subtitle="HEROIC PERK"
                         image={require("./../images/Ability/Celeste-P.jpg")}
-                text="Celeste's basic attacks have a spell component, dealing 65-115 (level 1-12) crystal damage with a 50% crystal ratio. Celeste's basic attacks also reveal enemy heroes for 1.5 seconds - even after the target leaves vision range."
+                text="Celeste's basic attacks have a spell component, dealing 75-115 (level 1-12) (+75% Crystal Power)(+100% Weapon Power). Celeste's basic attacks also reveal enemy heroes for 1.5 seconds - even after the target leaves vision range."
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-A-Heliogenesis.mp4'}
                 title="HELIOGENESIS"
                 subtitle="A ABILITY"
-                text="Celeste forms a small star at a target location, dealing crystal damage to nearby enemies. The star will briefly linger on the field. If Celeste uses this ability on an existing star, the star will go supernova, dealing more crystal damage in a larger area. Deals reduced damage to minions."
+                text="Celeste forms a small star at a target location, dealing crystal damage to nearby enemies. The star will briefly linger on the field. If Celeste uses this ability on an existing star, the star will go supernova, dealing more crystal damage in a larger area. Deals reduced damage (-50%) to minions."
                         image={require("./../images/Ability/Celeste-A.jpg")}
             />
             <Skillbox
@@ -119,7 +119,7 @@ const Celeste = () => (
                 title="SOLAR STORM"
                 subtitle="ULTIMATE"
                         image={require("./../images/Ability/Celeste-C.jpg")}
-                text="Celeste launches a storm of stars that travel across the world. Stars collide with the first enemy they hit, dealing crystal damage in an area. The number of stars increases each time Solar Storm is upgraded. Deals 50% damage to non-heroes and does not damage structures."
+                text="Celeste launches a storm of stars that travel across the world. Stars collide with the first enemy they hit, dealing crystal damage in an area. The number of stars increases each time Solar Storm is upgraded. Deals reduced damage to non-heroes and does not damage structures."
             />
         </div>
     </div>
@@ -204,7 +204,7 @@ const Celeste = () => (
                     <Skinbox
                         color="red"
                         title="Snow Queen Celeste"
-                        text="Special Edition?"
+                        text="Special Edition"
                         image={require('./../images/Skins/Celeste_Snow_Queen.jpg')} />
         </div>
     </div>

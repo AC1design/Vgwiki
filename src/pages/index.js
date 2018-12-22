@@ -1,11 +1,13 @@
 import React from 'react'
-
 import Layout from '../components/layout'
 import Card from '../components/Card'
 import Itemsbox from '../components/Item';
 import Tabsind from '../components/Tab';
 import MediaQuery from 'react-responsive';
 import StickyFooter from 'react-sticky-footer';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+
+
 const IndexPage = () => (
   <Layout>
     <meta name="theme-color" content="#1f1f21" />
@@ -32,241 +34,508 @@ const IndexPage = () => (
 <div className="Selectan">
         <h1>Select an Hero</h1>
     </div>
-    <div className="CardboxGroupScroll">
-        <div className="CardboxGroup">
-        
-<Card
-                title="Magnus"
-                text="LANE, MAGE"
-                image={require('./../images/Cards/Magnus_Card.jpg')}
-                link="/Magnus/" />
+      <Tabs>
+        <TabList className="Subcategory">
+          <Tab>All</Tab>
+          <Tab>Assassin</Tab>
+          <Tab>Mage</Tab>
+          <Tab>Protector </Tab>
+          <Tab>Sniper</Tab>
+          <Tab>Warrior</Tab>
+        </TabList>
+        <TabPanel className="AllHeroes">
+          <div className="CardboxGroupScroll">
+          <div className="CardboxGroup">
+            <Card
+              title="Magnus"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Magnus_Card.jpg')}
+              link="/Magnus/" />
+            <Card
+              title="Adagio"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Adagio_Card.jpg')}
+              link="/Adagio/" />
+            <Card
+              title="Alpha"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Alpha_Card.jpg')}
+              link="/Alpha/" />
+            <Card
+              title="Anka"
+              text="LANE, ASSASSIN"
+              image={require('./../images/Cards/Anka_Card.jpg')}
+              link="/Anka/" />
+            <Card
+              title="Ardan"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Ardan_Card.jpg')}
+              link="/Ardan/" />
+            <Card
+              title="Baptiste"
+              text="JUNGLE, MAGE"
+              image={require('./../images/Cards/Baptiste_Card.jpg')}
+              link="/Baptiste/" />
+            <Card
+              title="Baron"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Baron_Card.jpg')}
+              link="/Baron/" />
+            <Card
+              title="Blackfeather"
+              text="LANE, ASSASSIN"
+              image={require('./../images/Cards/Blackfeather_Card.jpg')}
+              link="/Blackfeather/" />
+            <Card
+              title="Catherine"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Catherine_Card.jpg')}
+              link="/Catherine/" />
+            <Card
+              title="Celeste"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Celeste_Card.jpg')}
+              link="/Celeste/" />
+            <Card
+              title="Churnwalker"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Churnwalker_Card.jpg')}
+              link="/Churnwalker/" />
+            <Card
+              title="Flicker"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Flicker_Card.jpg')}
+              link="/Flicker/" />
+            <Card
+              title="Fortress"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Fortress_Card.jpg')}
+              link="/Fortress/" />
+            <Card
+              title="Glaive"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Glaive_Card.jpg')}
+              link="/Glaive/" />
+            <Card
+              title="Grace"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Grace_Card.jpg')}
+              link="/Grace/" />
+            <Card
+              title="Grumpjaw"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Grumpjaw_Card.jpg')}
+              link="/Grumpjaw/" />
+            <Card
+              title="Gwen"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Gwen_Card.jpg')}
+              link="/Gwen/" />
+            <Card
+              title="Idris"
+              text="JUNGLE, ASSASSIN"
+              image={require('./../images/Cards/Idris_Card.jpg')}
+              link="/Idris/" />
+            <Card
+              title="Inara"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Inara_Card.png')}
+              link="/Inara/" />
+            <Card
+              title="Joule"
+              text="LANE, WARRIOR"
+              image={require('./../images/Cards/Joule_Card.jpg')}
+              link="/Joule/" />
+            <Card
+              title="Kensei"
+              text="LANE, JUNGLE, ASSASSIN"
+              image={require('./../images/Cards/Kensei_Card.jpg')}
+              link="/Kensei/" />
+            <Card
+              title="Kestrel"
+              text="JUNGLE, SNIPER"
+              image={require('./../images/Cards/Kestrel_Card.jpg')}
+              link="/Kestrel/" />
+            <Card
+              title="Kinetic"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Kinetic_Card.jpg')}
+              link="/Kinetic/" />
+            <Card
+              title="Koshka"
+              text="JUNGLE, ASSASSIN"
+              image={require('./../images/Cards/Koshka_Card.jpg')}
+              link="/Koshka/" />
+            <Card
+              title="Krul"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Krul_Card.jpg')}
+              link="/Krul/" />
+            <Card
+              title="Lance"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Lance_Card.jpg')}
+              link="/Lance/" />
+            <Card
+              title="Lorelai"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Lorelai_Card.jpg')}
+              link="/Lorelai/" />
+            <Card
+              title="Lyra"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Lyra_Card.jpg')}
+              link="/Lyra/" />
+            <Card
+              title="Malene"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Malene_Card.jpg')}
+              link="/Malene/" />
+            <Card
+              title="Ozo"
+              text="JUNGLE, ASSASSIN"
+              image={require('./../images/Cards/Ozo_Card.jpg')}
+              link="/Ozo/" />
+            <Card
+              title="Petal"
+              text="JUNGLE, SNIPER"
+              image={require('./../images/Cards/Petal_Card.jpg')}
+              link="/Petal/" />
+            <Card
+              title="Phinn"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Phinn_Card.jpg')}
+              link="/Phinn/" />
+            <Card
+              title="Reim"
+              text="JUNGLE, MAGE"
+              image={require('./../images/Cards/Reim_Card.jpg')}
+              link="/Reim/" />
+            <Card
+              title="Reza"
+              text="JUNGLE, ASSASSIN"
+              image={require('./../images/Cards/Reza_Card.jpg')}
+              link="/Reza/" />
+            <Card
+              title="Ringo"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Ringo_Card.jpg')}
+              link="/Ringo/" />
+            <Card
+              title="Rona"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Rona_Card.jpg')}
+              link="/Rona/" />
+            <Card
+              title="Samuel"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Samuel_Card.jpg')}
+              link="/Samuel/" />
+            <Card
+              title="SAW"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Saw_Card.jpg')}
+              link="/SAW/" />
+            <Card
+              title="Silvernail"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Silvernail_Card.jpg')}
+              link="/Silvernail/" />
+            <Card
+              title="Skaarf"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Skaarf_Card.jpg')}
+              link="/Skaarf/" />
+            <Card
+              title="Skye"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Skye_Card.jpg')}
+              link="/Skye/" />
+            <Card
+              title="Taka"
+              text="JUNGLE, ASSASSIN"
+              image={require('./../images/Cards/Taka_Card.jpg')}
+              link="/Taka/" />
+            <Card
+              title="Tony"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Tony_Card.jpg')}
+              link="/Tony/" />
+            <Card
+              title="Varya"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Varya_Card.jpg')}
+              link="/Varya/" />
+            <Card
+              title="Vox"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Vox_Card.jpg')}
+              link="/Vox/" />
+            <Card
+              title="Yates"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Yates_Card.jpg')}
+              link="/Yates/" />
+          </div>
+          </div>
+        </TabPanel>
+        <TabPanel className="Assassins">
+          <div className="CardboxGroupScroll">
+          <div className="CardboxGroup">
                 <Card
-                title="Adagio"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Adagio_Card.jpg')}
-                link="/Adagio/" />
+                  title="Anka"
+                  text="LANE, ASSASSIN"
+                  image={require('./../images/Cards/Anka_Card.jpg')}
+                  link="/Anka/" />
                 <Card
-                title="Alpha"
-                text="JUNGLE, WARRIOR"
-                image={require('./../images/Cards/Alpha_Card.jpg')}
-                link="/Alpha/" />
+                  title="Blackfeather"
+                  text="LANE, ASSASSIN"
+                  image={require('./../images/Cards/Blackfeather_Card.jpg')}
+                  link="/Blackfeather/" />
                 <Card
-                title="Anka"
-                text="LANE, ASSASSIN"
-                image={require('./../images/Cards/Anka_Card.jpg')}
-                link="/Anka/" />
+                  title="Idris"
+                  text="JUNGLE, MAGE"
+                  image={require('./../images/Cards/Idris_Card.jpg')}
+                  link="/Idris/" />
                 <Card
-                title="Ardan"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Ardan_Card.jpg')}
-                link="/Ardan/" />
+                  title="Kensei"
+                  text="LANE, JUNGLE, ASSASSIN"
+                  image={require('./../images/Cards/Kensei_Card.jpg')}
+                  link="/Kensei/" />
+                <Card title="Koshka"
+                  text="LANE, JUNGLE, ASSASSIN"
+                  image={require('./../images/Cards/Koshka_Card.jpg')}
+                  link="/Koshka/" />/>
+ <Card
+                  title="Reza"
+                  text="JUNGLE, ASSASSIN"
+                  image={require('./../images/Cards/Reza_Card.jpg')}
+                  link="/Reza/" />
                 <Card
-                title="Baptiste"
-                text="JUNGLE, MAGE"
-                image={require('./../images/Cards/Baptiste_Card.jpg')}
-                link="/Baptiste/" />
-                <Card
-                title="Baron"
-                text="LANE, SNIPER"
-                image={require('./../images/Cards/Baron_Card.jpg')}
-                link="/Baron/"/>
-                <Card
-                title="Blackfeather"
-                text="LANE, ASSASSIN"
-                image={require('./../images/Cards/Blackfeather_Card.jpg')}
-                link="/Blackfeather/" />
-                <Card
-                title="Catherine"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Catherine_Card.jpg')}
-                link="/Catherine/" />
-                <Card
-                title="Celeste"
-                text="LANE, MAGE"
-                image={require('./../images/Cards/Celeste_Card.jpg')}
-                link="/Celeste/" />
-                <Card
-                title="Churnwalker"
-                text="JUNGLE, WARRIOR"
-                image={require('./../images/Cards/Churnwalker_Card.jpg')}
-                link="/Churnwalker/" />
-                <Card
-                title="Flicker"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Flicker_Card.jpg')}
-                link="/Flicker/" />
-                <Card
-                title="Fortress"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Fortress_Card.jpg')}
-                link="/Fortress/" />
-                <Card
-                title="Glaive"
-                text="JUNGLE, WARRIOR"
-                image={require('./../images/Cards/Glaive_Card.jpg')}
-                link="/Glaive/" />
-                <Card
-                title="Grace"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Grace_Card.jpg')}
-                link="/Grace/" />
-                <Card
-                title="Grumpjaw"
-                text="JUNGLE, WARRIOR"
-                image={require('./../images/Cards/Grumpjaw_Card.jpg')}
-                link="/Grumpjaw/" />
-                <Card
-                title="Gwen"
-                text="LANE, SNIPER"
-                image={require('./../images/Cards/Gwen_Card.jpg')}
-                link="/Gwen/" />
-                <Card
-                title="Idris"
-                text="JUNGLE, ASSASSIN"
-                image={require('./../images/Cards/Idris_Card.jpg')}
-                link="/Idris/" />
-        <Card
-          title="Inara"
-          text="JUNGLE, WARRIOR"
-          image={require('./../images/Cards/Inara_Card.png')}
-          link="/Inara/" />
-                <Card
-                title="Joule"
-                text="LANE, WARRIOR"
-                image={require('./../images/Cards/Joule_Card.jpg')}
-                link="/Joule/" />
-                <Card
-                title="Kensei"
-                text="LANE, JUNGLE, ASSASSIN"
-                image={require('./../images/Cards/Kensei_Card.jpg')}
-                link="/Kensei/" />
-                <Card
-                title="Kestrel"
-                text="JUNGLE, SNIPER"
-                image={require('./../images/Cards/Kestrel_Card.jpg')}
-                link="/Kestrel/" />
-                <Card
-                title="Kinetic"
-                text="LANE, MAGE"
-          image={require('./../images/Cards/Kinetic_Card.jpg')}
-                link="/Kinetic/" />
-                <Card
-                title="Koshka"
-                text="JUNGLE, WARRIOR"
-                image={require('./../images/Cards/Koshka_Card.jpg')}
-                link="/Koshka/" />
-                <Card
-                title="Krul"
-                text="JUNGLE, WARRIOR"
-                image={require('./../images/Cards/Krul_Card.jpg')}
-                link="/Krul/" />
-                <Card
-                title="Lance"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Lance_Card.jpg')}
-                link="/Lance/" />
-                <Card
-                title="Lorelai"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Lorelai_Card.jpg')}
-                link="/Lorelai/" />
-                <Card
-                title="Lyra"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Lyra_Card.jpg')}
-                link="/Lyra/" />
-                <Card
-                title="Malene"
-                text="LANE, MAGE"
-                image={require('./../images/Cards/Malene_Card.jpg')}
-                link="/Malene/" />
-                <Card
-                title="Ozo"
-                text="JUNGLE, ASSASSIN"
-                image={require('./../images/Cards/Ozo_Card.jpg')}
-                link="/Ozo/" />
-                <Card
-                title="Petal"
-                text="JUNGLE, SNIPER"
-                image={require('./../images/Cards/Petal_Card.jpg')}
-                link="/Petal/" />
-                <Card
-                title="Phinn"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Phinn_Card.jpg')}
-                link="/Phinn/" />
-                <Card
-                title="Reim"
-                text="JUNGLE, MAGE"
-                image={require('./../images/Cards/Reim_Card.jpg')}
-                link="/Reim/" />
-                <Card
-                title="Reza"
-                text="JUNGLE, ASSASSIN"
-                image={require('./../images/Cards/Reza_Card.jpg')}
-                link="/Reza/" />
-                <Card
-                title="Ringo"
-                text="LANE, SNIPER"
-                image={require('./../images/Cards/Ringo_Card.jpg')}
-                link="/Ringo/" />
-                <Card
-                title="Rona"
-                text="JUNGLE, WARRIOR"
-                image={require('./../images/Cards/Rona_Card.jpg')}
-                link="/Rona/" />
-                <Card
-                title="Samuel"
-                text="LANE, MAGE"
-                image={require('./../images/Cards/Samuel_Card.jpg')}
-                link="/Samuel/" />
-                <Card
-                title="SAW"
-                text="LANE, SNIPER"
-                image={require('./../images/Cards/Saw_Card.jpg')}
-                link="/SAW/" />
-                <Card
-                title="Silvernail"
-                text="LANE, SNIPER"
-                image={require('./../images/Cards/Silvernail_Card.jpg')}
-                link="/Silvernail/" />
-                <Card
-                title="Skaarf"
-                text="LANE, MAGE"
-                image={require('./../images/Cards/Skaarf_Card.jpg')}
-                link="/Skaarf/" />
-                <Card
-                title="Skye"
-                text="LANE, SNIPER"
-                image={require('./../images/Cards/Skye_Card.jpg')}
-                link="/Skye/" />
-                <Card
-                title="Taka"
-                text="JUNGLE, ASSASSIN"
-                image={require('./../images/Cards/Taka_Card.jpg')}
-                link="/Taka/" />
-                <Card
-                title="Tony"
-                text="JUNGLE, WARRIOR"
-                image={require('./../images/Cards/Tony_Card.jpg')}
-                link="/Tony/"/>
-                <Card
-                title="Varya"
-                text="LANE, MAGE"
-                image={require('./../images/Cards/Varya_Card.jpg')}
-                link="/Varya/" />
-                <Card
-                title="Vox"
-                text="LANE, SNIPER"
-                image={require('./../images/Cards/Vox_Card.jpg')}
-                link="/Vox/" />
-                <Card
-                title="Yates"
-                text="JUNGLE, PROTECTOR"
-                image={require('./../images/Cards/Yates_Card.jpg')}
-                link="/Yates/" />
-        </div>
-    </div>
+                  title="Taka"
+                  text="JUNGLE, ASSASSIN"
+                  image={require('./../images/Cards/Taka_Card.jpg')}
+                  link="/Taka/" />
+              </div>
+          </div>
+        </TabPanel>
+       <TabPanel className="Mages">
+          <div className="CardboxGroupScroll">
+          <div className="CardboxGroup">
+            <Card
+              title="Magnus"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Magnus_Card.jpg')}
+              link="/Magnus/" />
+            <Card
+              title="Baptiste"
+              text="JUNGLE, MAGE"
+              image={require('./../images/Cards/Baptiste_Card.jpg')}
+              link="/Baptiste/" />
+            <Card
+              title="Celeste"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Celeste_Card.jpg')}
+              link="/Celeste/" />
+            <Card
+              title="Kinetic"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Kinetic_Card.jpg')}
+              link="/Kinetic/" />
+            <Card
+              title="Malene"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Malene_Card.jpg')}
+              link="/Malene/" />
+            <Card
+              title="Reim"
+              text="JUNGLE, MAGE"
+              image={require('./../images/Cards/Reim_Card.jpg')}
+              link="/Reim/" />
+
+            <Card
+              title="Samuel"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Samuel_Card.jpg')}
+              link="/Samuel/" />
+            <Card
+              title="Varya"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Varya_Card.jpg')}
+              link="/Varya/" />
+            <Card
+              title="Skaarf"
+              text="LANE, MAGE"
+              image={require('./../images/Cards/Skaarf_Card.jpg')}
+              link="/Skaarf/" />
+          </div>
+          </div>
+        </TabPanel>
+        <TabPanel className="Protectors">
+          <div className="CardboxGroupScroll">
+          <div className="CardboxGroup">
+            <Card
+              title="Adagio"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Adagio_Card.jpg')}
+              link="/Adagio/" />
+            <Card
+              title="Ardan"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Ardan_Card.jpg')}
+              link="/Ardan/" />
+            <Card
+              title="Catherine"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Catherine_Card.jpg')}
+              link="/Catherine/" />
+            <Card
+              title="Flicker"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Flicker_Card.jpg')}
+              link="/Flicker/" />
+            <Card
+              title="Fortress"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Fortress_Card.jpg')}
+              link="/Fortress/" />
+            <Card
+              title="Grace"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Grace_Card.jpg')}
+              link="/Grace/" />
+
+            <Card
+              title="Lance"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Lance_Card.jpg')}
+              link="/Lance/" />
+            <Card
+              title="Lorelai"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Lorelai_Card.jpg')}
+              link="/Lorelai/" />
+            <Card
+              title="Lyra"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Lyra_Card.jpg')}
+              link="/Lyra/" />
+            <Card
+              title="Phinn"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Phinn_Card.jpg')}
+              link="/Phinn/" />
+            <Card
+              title="Yates"
+              text="JUNGLE, PROTECTOR"
+              image={require('./../images/Cards/Yates_Card.jpg')}
+              link="/Yates/" />
+          </div>
+          </div>
+        </TabPanel>
+        <TabPanel className="Snipers">
+          <div className="CardboxGroupScroll">
+          <div className="CardboxGroup">
+            <Card
+              title="Baron"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Baron_Card.jpg')}
+              link="/Baron/" />
+            <Card
+              title="Gwen"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Gwen_Card.jpg')}
+              link="/Gwen/" />
+            <Card
+              title="Kestrel"
+              text="JUNGLE, SNIPER"
+              image={require('./../images/Cards/Kestrel_Card.jpg')}
+              link="/Kestrel/" />
+            <Card
+              title="Petal"
+              text="JUNGLE, SNIPER"
+              image={require('./../images/Cards/Petal_Card.jpg')}
+              link="/Petal/" />
+            <Card
+              title="Ringo"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Ringo_Card.jpg')}
+              link="/Ringo/" />
+            <Card
+              title="SAW"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Saw_Card.jpg')}
+              link="/SAW/" />
+            <Card
+              title="Silvernail"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Silvernail_Card.jpg')}
+              link="/Silvernail/" />
+            <Card
+              title="Skye"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Skye_Card.jpg')}
+              link="/Skye/" />
+            <Card
+              title="Vox"
+              text="LANE, SNIPER"
+              image={require('./../images/Cards/Vox_Card.jpg')}
+              link="/Vox/" />
+          </div>
+          </div>
+        </TabPanel>
+        <TabPanel className="Warriors">
+          <div className="CardboxGroupScroll">
+          <div className="CardboxGroup">
+            <Card
+              title="Alpha"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Alpha_Card.jpg')}
+              link="/Alpha/" />
+            <Card
+              title="Churnwalker"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Churnwalker_Card.jpg')}
+              link="/Churnwalker/" />
+            <Card
+              title="Glaive"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Glaive_Card.jpg')}
+              link="/Glaive/" />
+            <Card
+              title="Grumpjaw"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Grumpjaw_Card.jpg')}
+              link="/Grumpjaw/" />
+            <Card
+              title="Inara"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Inara_Card.png')}
+              link="/Inara/" />
+            <Card
+              title="Joule"
+              text="LANE, WARRIOR"
+              image={require('./../images/Cards/Joule_Card.jpg')}
+              link="/Joule/" />
+            <Card
+              title="Krul"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Krul_Card.jpg')}
+              link="/Krul/" />
+            <Card
+              title="Rona"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Rona_Card.jpg')}
+              link="/Rona/" />
+            <Card
+              title="Tony"
+              text="JUNGLE, WARRIOR"
+              image={require('./../images/Cards/Tony_Card.jpg')}
+              link="/Tony/" />
+          </div>
+      </div>
+        </TabPanel>
+        </Tabs>
     <div className="Selectan">
         <h1>Select an Item</h1>
     </div>
@@ -312,10 +581,10 @@ item1={require("./../images/Items/reflex-block.png")}
           tier="TIER 3"
         color="#4a90e2"
         cost="2600"
-        description="+25% Cooldown Speed 
+        description="+15% Cooldown Speed (Max +35%) 
 +1.0 Energy Recharge 
 +30 Crystal Power
-Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 400 damage vs non-heroes. 1s cooldown."
+Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 400 damage vs structure and non-heroes. 1s cooldown."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/eclipse-prism.png")}
@@ -329,8 +598,8 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           tier="TIER 3"
         color="#4a90e2"
         cost="2800"
-        description="+50 Crystal Power 
-                     +30% Attack Speed 
+        description="+45 Crystal Power 
+                     +40% Attack Speed 
                      Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
@@ -361,7 +630,7 @@ Activate: Maim nearby enemies, lowering their attack speed by 65% of their total
         cost="800"
         description="+10 Weapon Power 
 +10% Weapon Lifesteal 
-Passive: Restores 20 health whenever you kill a minion or monster (40 if using a melee default attack)."
+Passive: Restores 10 health whenever you kill a minion or monster (25 if using a melee default attack)."
           tip="Tip: Helps you stay healthy while last-hitting in lane."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/book-of-eulogies.png")}
@@ -377,10 +646,7 @@ Passive: Restores 20 health whenever you kill a minion or monster (40 if using a
           tier="TIER 2"
         color="#ED5565"
         cost="700"
-        description="+10 Weapon Power 
-+10% Weapon Lifesteal 
-Passive: Restores 20 health whenever you kill a minion or monster (40 if using a melee default attack)."
-          tip="Tip: Helps you stay healthy while last-hitting in lane."
+            description="+20% Attack Speed"
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/swift-shooter.png")}
           buildsto="BUILDS INTO"
@@ -399,7 +665,7 @@ Passive: Restores 20 health whenever you kill a minion or monster (40 if using a
         cost="2700"
          description="+40 Weapon Power 
 +20% Attack Speed 
-+20% Armor Pierce 
++25% Armor Pierce 
 On Hit: Your basic attacks shred 10% of the target’s armor for 3s. Max 4 stacks."
           tip="Tip: Effective against turrets and enemies with high armor. Best if you or your team are already dealing lots of weapon damage."
           builtfrom="BUILT FROM"
@@ -446,7 +712,7 @@ Passive: Gain 5 Weapon Power for every 100 weapon damage done to enemy heroes; +
         color="#4a90e2"
         cost="2700"
         description="+35% Shield Pierce 
-+60 Crystal Power"
++50 Crystal Power"
           tip="Tip: Helps for punching through enemies with high shield."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
@@ -480,7 +746,7 @@ Passive: Your heals and barriers also grant other allied heroes bonus movement s
           tier="TIER 2"
         color="#4a90e2"
         cost="800"
-        description="+15% Cooldown Reduction 
+        description="+15% Cooldown Reduction (Max 35%) 
 +0.75 Energy Recharge
 "
           tip="Tip: Cooldown speed increases the speed at which your abilities come off the timer."
@@ -499,7 +765,7 @@ Passive: Your heals and barriers also grant other allied heroes bonus movement s
         color="#4a90e2"
         cost="2400"
         description="+30 Crystal Power 
-+35% Cooldown Speed 
++20% Cooldown Speed (Max 35%) 
 +400 Max Energy 
 +5 Energy Recharge 
 Passive: Upon damaging an enemy hero with an ability, refresh all ability cooldowns by 10% (maximum 3s). This can only occur once every 3s.
@@ -669,7 +935,7 @@ Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lo
 +60 Crystal Power 
 +300 Max Energy 
 +4 Energy Recharge 
-Passive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +15% lifesteal, recharges over 40s."
+Passive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +25% lifesteal, recharges over 40s."
           tip="Tip: Crystal lifesteal heals you for a % of crystal damage dealt."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
