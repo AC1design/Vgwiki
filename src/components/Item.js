@@ -26,7 +26,7 @@ class Itemsbox extends React.Component {
 			<div>
 				<Modal isOpen={this.state.showModal} className="Modal" overlayClassName="Overlay" onRequestClose={this.handleCloseModal} shouldCloseOnOverlayClick={true}>
 					<div className="Cost">
-						<p>{this.props.cost}</p>
+						{this.props.cost && <p>{this.props.cost}</p>}
 					</div>
 					<div className="Imginfo">
 						<img src={this.props.itemimg} />
@@ -52,7 +52,8 @@ class Itemsbox extends React.Component {
 		                {this.props.item5 && <img src={this.props.item5} /> }
 						{this.props.item6 && < img src={this.props.item6} /> }
 						{this.props.item7 && < img src={this.props.item7} />}
-							{this.props.item8 && < img src={this.props.item8} />}
+						{this.props.item8 && < img src={this.props.item8} />}
+							{this.props.item9 && < img src={this.props.item8} />}
 					</div>
 					</div>
 					<button onClick={this.handleCloseModal}>CLOSE</button>

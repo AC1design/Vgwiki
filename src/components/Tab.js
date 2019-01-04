@@ -11,6 +11,9 @@ const Tabsind = () => (
         <TabList>
             <Tab>HEROES</Tab>
             <Tab>ITEMS</Tab>
+        <Tab>HATS</Tab>
+        <Tab>SOCIAL PINGS</Tab>
+        <Tab>EMOJI CHARMS</Tab>
         </TabList>
         <TabPanel>
             <div className="Selectan">
@@ -612,9 +615,9 @@ item1={require("./../images/Items/reflex-block.png")}
           tier="TIER 3"
         color="#4a90e2"
         cost="2800"
-        description="+45 Crystal Power  
-                     +40% Attack Speed  
-                     Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
+        description="+45 Crystal Power 
++40% Attack Speed 
+Passive: Every other basic attack deals 50% of your crystal power as bonus damage."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
@@ -729,7 +732,7 @@ Passive: Gain 5 Weapon Power for every 100 weapon damage done to enemy heroes; +
 +50 Crystal Power"
           tip="Tip: Helps for punching through enemies with high shield."
           builtfrom="BUILT FROM"
-          item1={require("./../images/Items/heavy-prism.png")}
+                item1={require("./../images/Items/eclipse-prism.png")}
           item2={require("./../images/Items/piercing-shard.png")}
         > 
         </Itemsbox>
@@ -922,6 +925,9 @@ Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lo
           item4={require("./../images/Items/aftershock.png")}
           item5={require("./../images/Items/frostburn.png")}
           item6={require("./../images/Items/shatterglass.png")}
+                item7={require("./../images/Items/spellfire.png")}
+                item8={require("./../images/Items/dragons-eye.png")}
+                item9={require("./../images/Items/broken-myth.png")}
         >
         </Itemsbox>
         <Itemsbox
@@ -945,7 +951,7 @@ Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lo
           tier="TIER 3"
           color="#4a90e2"
           cost="2600"
-          description="+10% Crystal Lifesteal 
+          description="+15% Crystal Lifesteal 
 +60 Crystal Power 
 +300 Max Energy 
 +4 Energy Recharge 
@@ -1851,7 +1857,7 @@ Activate: Sprint for 2s (90s cooldown).
         description="+15% Cooldown Speed (Max +35%) 
 +1.0 Energy Recharge 
 +30 Crystal Power
-Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 400 damage vs structure and non-heroes. 1s cooldown."
+Passive: After using an ability, your next basic attack deals 10% of target's max health as damage with +25% lifesteal. Max 300 damage vs structure and non-heroes. 1s cooldown."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/eclipse-prism.png")}
@@ -1865,9 +1871,9 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
           tier="TIER 3"
         color="#4a90e2"
         cost="2800"
-        description="+45 Crystal Power  
-                      +40% Attack Speed  
-                      Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
+        description="+45 Crystal Power 
++40% Attack Speed 
+Passive: Every other basic attack deals 50% of your crystal power as bonus damage."
           tip="Tip: Very effective against enemies with high health."
           builtfrom="BUILT FROM"
           item1={require("./../images/Items/heavy-prism.png")}
@@ -1884,7 +1890,7 @@ Passive: After using an ability, your next basic attack deals 10% of target's ma
 +50 Crystal Power"
           tip="Tip: Helps for punching through enemies with high shield."
           builtfrom="BUILT FROM"
-          item1={require("./../images/Items/heavy-prism.png")}
+                item1={require("./../images/Items/eclipse-prism.png")}
           item2={require("./../images/Items/piercing-shard.png")}
         > 
         </Itemsbox>
@@ -1972,6 +1978,9 @@ Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lo
           item4={require("./../images/Items/aftershock.png")}
           item5={require("./../images/Items/frostburn.png")}
           item6={require("./../images/Items/shatterglass.png")}
+                item7={require("./../images/Items/spellfire.png")}
+                item8={require("./../images/Items/dragons-eye.png")}
+                item9={require("./../images/Items/broken-myth.png")}
         >
         </Itemsbox>
         <Itemsbox
@@ -1995,7 +2004,7 @@ Passive: Gain 10 Crystal Power each second you damage enemy heroes. After 5s, lo
           tier="TIER 3"
           color="#4a90e2"
           cost="2600"
-          description="+10% Crystal Lifesteal 
+          description="+15% Crystal Lifesteal 
 +60 Crystal Power 
 +300 Max Energy 
 +4 Energy Recharge 
@@ -3145,7 +3154,13 @@ Activate: Sprint for 2s (90s cooldown).
             </TabPanel>
             </Tabs>
         </TabPanel>
+        <TabPanel>
+      <Tabs>
+      
+      </Tabs>
+    </TabPanel>
     </Tabs>
+    
     </MediaQuery>
 );
 export default Tabsind
