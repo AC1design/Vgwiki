@@ -69,8 +69,7 @@ const StyledTab = withStyles(theme => ({
 
 function TabContainer(props) {
     return (
-        <Typography component="div" style={{ padding: 0, color: '',
-   fontSize: '', fontWeight: "", fontFamily: "", lineHeight:''}}>
+        <Typography component="div" style={{ padding: 0, lineHeight: 1.2,}}>
             {props.children}
         </Typography>
     );
