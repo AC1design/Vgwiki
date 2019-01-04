@@ -137,14 +137,17 @@ a {
     justify-content: left;
     overflow: hidden;
   }
-.MuiList {
-    padding-top: 0px;
-    padding-bottom: 0px;
+.menu-hack {
+    margin: -8px 0 -8px 0; /* the real magic */
+    padding: 0 !important; /* removes left and right padding */
+    cursor: initial !important;
+    background: #2B2B2D
 }
 .footer{
   text-align: center;
   justify-content: center;
 }
+
 
 @media (max-width: 1366px) {
     .Selectan h1 {

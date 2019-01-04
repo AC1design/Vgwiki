@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
-import Card from '../components/Card'
+import Card from './Card'
 import { withStyles } from '@material-ui/core/styles';
 import styled from 'styled-components'
 
@@ -25,6 +25,7 @@ const StyledButton = withStyles({
         marginLeft:'16px',
         marginRight: '16px',
         right:0,
+        display:"inline-block",
     },
     label: {
         textTransform: 'capitalize',
@@ -32,24 +33,44 @@ const StyledButton = withStyles({
 })(Button);
 
 const VerticalTabs = withStyles(theme => ({
+    root:{
+        outline: 'none',
+    },
     flexContainer: {
-        flexDirection: 'column'
+        flexDirection: 'column',
+        background: '#2B2B2D',
     },
     indicator: {
         display: 'none',
     }
 }))(Tabs)
 
-const MyTab = withStyles(theme => ({
+
+const StyledTab = withStyles(theme => ({
     selected: {
-        color: 'rgb(0, 183, 255)',
+        fontWeight:'800',
         borderBottom: '2px solid rgb(0, 183, 255)'
-    }
+    },
+    disabled: {
+        color:'red',
+    },
+    textColorInherit: {
+        color: 'white',
+        opacity: 0.7,
+        '&$selected': {
+            opacity: 1
+        },
+        '&$disabled': {
+            opacity: 0.2,
+            
+        }
+    },
 }))(Tab);
 
 function TabContainer(props) {
     return (
-        <Typography component="div" style={{ padding: 0 }}>
+        <Typography component="div" style={{ padding: 0, color: '',
+   fontSize: '', fontWeight: "", fontFamily: "", lineHeight:''}}>
             {props.children}
         </Typography>
     );
@@ -60,7 +81,7 @@ TabContainer.propTypes = {
 };
 
 
-class MobileTab extends React.Component {
+class MobileHeroesTab extends React.Component {
     state = {
         anchorEl: null,
         value: 0,
@@ -88,37 +109,38 @@ class MobileTab extends React.Component {
             <div>
                 <Selectan>
                 <div className="Selectan">
-                    <h1>Select an Hero</h1>
+                        <h1>Select an Hero</h1>
                 </div>
                 <StyledButton
                     aria-owns={open ? 'fade-menu' : undefined}
                     aria-haspopup="true"
                     onClick={this.handleClick}
-                    style={{ color: "white", fontWeight: "900" }}
+                        style={{ color: "white", fontWeight: "900", marginTop: '10px'}}
             >
                 FILTER
                 </StyledButton>
                 </Selectan>
+                
                 <div style={{
-                    display: 'flex',
+                    display: 'flex', background:'black',
                 }}>
-                <Menu
+                    <Menu 
                     id="fade-menu"
                     anchorEl={anchorEl}
                     open={open}
                     onClose={this.handleClose}
                     TransitionComponent={Fade}
-                    style={{ outline: 'none', }}>
-                        <VerticalTabs value={value} onChange={this.handleChange} style={{ outline: 'none'}} >
-                            <MyTab label="All" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>All</MenuItem></MyTab>
-                            <MyTab label="Assassins" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Assassins</MenuItem></MyTab>
-                            <MyTab label="Mage" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Mage</MenuItem></MyTab>
-                            <MyTab label="Protector" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Protector</MenuItem></MyTab>
-                            <MyTab label="Sniper" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Protector</MenuItem></MyTab>
-                            <MyTab label="Warriors" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Protector</MenuItem></MyTab>
+                        style={{ outline: 'none', }}>
+                        <VerticalTabs value={value} onChange={this.handleChange} className="menu-hack">
+                            <StyledTab label="All" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>All</MenuItem></StyledTab>
+                            <StyledTab label="Assassins" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Assassins</MenuItem></StyledTab>
+                            <StyledTab label="Mage" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Mage</MenuItem></StyledTab>
+                            <StyledTab label="Protector" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Protector</MenuItem></StyledTab>
+                            <StyledTab label="Sniper" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Protector</MenuItem></StyledTab>
+                            <StyledTab label="Warriors" onClick={this.handleClose}><MenuItem onClick={this.handleClose}>Protector</MenuItem></StyledTab>
                         </VerticalTabs>
-                </Menu>
-                </div>
+                    </Menu>
+                    </div>
                 {value === 0 && <TabContainer >
                     <div className="CardboxGroupScroll">
                         <div className="CardboxGroup">
@@ -617,4 +639,4 @@ class MobileTab extends React.Component {
     }
 }
 
-export default MobileTab
+export default MobileHeroesTab
