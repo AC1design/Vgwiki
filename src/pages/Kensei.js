@@ -182,6 +182,11 @@ const Kensei = () => (
                 title="Tizen Boss Kensei"
                 text="Rare"
                 image={require('./../images/Skins/Kensei_TaizenBoss.png')} />
+                    <Skinbox
+                        color="red"
+                        title="Contender Kensei"
+                        text="Limited Edition"
+                        image={require('./../images/Skins/Kensei_Contender.png')} />
         </div>
     </div>
   </div >

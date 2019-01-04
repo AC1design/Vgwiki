@@ -185,6 +185,21 @@ const Gwen = () => (
                 title="Red Lanter Gwen"
                 text="Special Edition"
                 image={require('./../images/Skins/Gwen_Red_Lantern.png')} />
+                    <Skinbox
+                        color="#7A02EA"
+                        title="Snow Bunny Gwen "
+                        text="Epic"
+                        image={require('./../images/Skins/Gwen_Snow_Bunny.png')} />
+                    <Skinbox
+                        color="red"
+                        title="Festive Gwen "
+                        text="Special Edition"
+                        image={require('./../images/Skins/Gwen_Festive.png')} />
+                    <Skinbox
+                        color="red"
+                        title="Black Diamond Gwen"
+                        text="Special Edition"
+                        image={require('./../images/Skins/Gwen_Black_Diamond.png')} />
         </div>
     </div>
   </div >
