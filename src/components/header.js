@@ -8,15 +8,21 @@ import List from '@material-ui/core/List';
 import SvgComponent from './SvgList';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import { ListItemIcon, Divider } from '@material-ui/core';
 
 const styles = {
   list: {
     width: 300,
-    color:'white'
+    color:'white',
+
   },
   fullList: {
     width: 'auto',
+    background: '#1f1f21'
   },
+  paper: {
+    
+  }
 };
 
 const StyledButton = withStyles({
@@ -38,6 +44,27 @@ borderRadius: '4px',
     textTransform: 'capitalize',
   },
 })(Button);
+
+const StyledList = withStyles({
+  root: {
+    fontSize:'12px',
+    padding:'0px'
+  },
+})(List);
+
+const StyledSwipeableDrawer = withStyles({
+  paper: {
+    background: '#2B2B2D',
+    width:'170px'
+  },
+})(SwipeableDrawer);
+
+const StyledDivider = withStyles({
+  inset: {
+    margin: '16px',
+    backgroundColor:' rgb(0, 183, 255)'
+  },
+})(Divider);
 
 
 class Header extends React.Component {
@@ -77,14 +104,21 @@ handleScroll = (event) => {
   render() {
     const { classes } = this.props;
     const sideList = (
-      <div style={{ background: '#1f1f21', color: 'white', }} className='classes.list'>
-        <List>
-          {['Magnus', 'Adagio', 'Ardan', 'Alfa'].map((text, index) => (
+      <div style={{ background: '#2B2B2D', color: 'white', }} className='classes.list'>
+      <h1 style={{fontSize:'14px', marginLeft:'16px', marginTop:'20px'}}>Heroes</h1>
+        <StyledDivider variant="inset" />
+        <StyledList>
+          {['Magnus', 'Adagio', 'Alpha', 'Anka', 'Ardan', 'Baptiste', 'Baron', 'Blackfeather',
+          'Catherine', 'Celeste', 'Churnwalker', 'Flicker', 'Fortress', 'Glaive', 'Grace', 'Grumpjaw',
+            'Gwen', 'Idris', 'Inara', 'Joule', 'Kensei', 'Kestrel', 'Kinetic', 'Koshka',
+            'Krul', 'Lance', 'Lorelai', 'Lyra', 'Magnus', 'Malene', 'Ozo', 'Petal',
+            'Phinn', 'Reim', 'Reza', 'Ring', 'Rona', 'Samuel', 'Saw', 'Silvernail',
+            'Skaarf', 'Skye', 'Taka', 'Tony', 'Varya', 'Vox', 'Yates',].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemText primary={text} />
+              <a href={text}>{text}</a>
             </ListItem>
           ))}
-        </List>
+        </StyledList>
       </div>
     );
     
@@ -95,25 +129,23 @@ handleScroll = (event) => {
           <a href="/">
             <img src={require("./../images/LOGOWHITE.png")} />
           </a>
-          <StyledButton className="herobut" onClick={this.toggleDrawer('right', true)}><SvgComponent></SvgComponent></StyledButton>
+          <StyledButton onClick={this.toggleDrawer('right', true)}><SvgComponent></SvgComponent></StyledButton>
         </div>
-        <SwipeableDrawer
+        <StyledSwipeableDrawer
           anchor="right"
           open={this.state.right}
           onClose={this.toggleDrawer('right', false)}
           onOpen={this.toggleDrawer('right', true)}
-          
         >
           <div
             tabIndex={0}
             role="button"
             onClick={this.toggleDrawer('right', false)}
             onKeyDown={this.toggleDrawer('right', false)}
-            style={{ background: '#1f1f21', color:'white' }}
-          >
+            >
             {sideList}
           </div>
-        </SwipeableDrawer>
+        </StyledSwipeableDrawer>
       </div>
     )
   }
