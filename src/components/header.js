@@ -9,6 +9,7 @@ import SvgComponent from './SvgList';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { ListItemIcon, Divider } from '@material-ui/core';
+import { Link } from "react-dom";
 
 const styles = {
   list: {
@@ -114,9 +115,8 @@ handleScroll = (event) => {
             'Krul', 'Lance', 'Lorelai', 'Lyra', 'Magnus', 'Malene', 'Ozo', 'Petal',
             'Phinn', 'Reim', 'Reza', 'Ring', 'Rona', 'Samuel', 'Saw', 'Silvernail',
             'Skaarf', 'Skye', 'Taka', 'Tony', 'Varya', 'Vox', 'Yates',].map((text, index) => (
-            <ListItem button key={text}>
-              <a href={text}>{text}</a>
-            </ListItem>
+              <a href={`/${text}`}><ListItem button>{text}
+            </ListItem></a>
           ))}
         </StyledList>
       </div>
