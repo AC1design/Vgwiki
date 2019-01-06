@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
+import SvgComponent from './SvgList';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
@@ -19,6 +19,25 @@ const styles = {
   },
 };
 
+const StyledButton = withStyles({
+  root: {
+    position:'absolute',
+    right:'25px',
+    color: 'white',
+    padding: '0px',
+    fontSize: '12px',
+  minWidth: '0px',
+boxSizing: 'border-box',
+minHeight: '0px',
+transition: 'background-color 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms, box - shadow 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms',
+fontWeight: 800,
+fontFamily: '"Roboto", "Helvetica", "Arial", sans - serif',
+borderRadius: '4px',
+  },
+  label: {
+    textTransform: 'capitalize',
+  },
+})(Button);
 
 
 class Header extends React.Component {
@@ -76,7 +95,7 @@ handleScroll = (event) => {
           <a href="/">
             <img src={require("./../images/LOGOWHITE.png")} />
           </a>
-          <Button onClick={this.toggleDrawer('right', true)}>H</Button>
+          <StyledButton className="herobut" onClick={this.toggleDrawer('right', true)}><SvgComponent></SvgComponent></StyledButton>
         </div>
         <SwipeableDrawer
           anchor="right"

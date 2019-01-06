@@ -3,7 +3,10 @@ import '../components/Skillbox.css'
 import Modal from 'react-modal';
 import { Player, ControlBar } from 'video-react'
 import 'video-react/dist/video-react.css'
-import Table from 'react-bootstrap/lib/Table';
+import { Table} from 'react-bootstrap';
+import PropTypes from 'prop-types';
+
+
 
 class Skillbox extends React.Component {
     constructor(props) {
@@ -31,7 +34,7 @@ class Skillbox extends React.Component {
                         <ControlBar disableCompletely={true} />
                         <source src={this.props.video} />
                     </Player>}
-                    <Table className="Tableclass">
+                <Table striped bordered hover className='Tableclass'>
                         <thead >
                             <tr>
                                 <th></th>
@@ -44,7 +47,7 @@ class Skillbox extends React.Component {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className='striped'>
+                            <tr>
                                 {this.props.stats1 && <td>{this.props.stats1}</td>}
                                 {this.props.row11 && <th>{this.props.row11}</th>}
                                 {this.props.row12 && <th>{this.props.row12}</th>}
@@ -62,7 +65,7 @@ class Skillbox extends React.Component {
                                 {this.props.row25 && <th>{this.props.row25}</th>}
                                 {this.props.row26 && <th>{this.props.row26}</th>}
                             </tr>
-                            <tr className='striped'>
+                            <tr>
                                 {this.props.stats3 && <td>{this.props.stats3}</td>}
                                 {this.props.row31 && <th>{this.props.row31}</th>}
                                 {this.props.row32 && <th>{this.props.row32}</th>}
@@ -80,7 +83,7 @@ class Skillbox extends React.Component {
                                 {this.props.row45 && <th>{this.props.row45}</th>}
                                 {this.props.row46 && <th>{this.props.row46}</th>}
                             </tr>
-                            <tr className='striped'>
+                            <tr>
                                 {this.props.stats5 && <td>{this.props.stats5}</td>}
                                 {this.props.row51 && <th>{this.props.row51}</th>}
                                 {this.props.row52 && <th>{this.props.row52}</th>}
@@ -103,5 +106,9 @@ class Skillbox extends React.Component {
         );
     }
 }
+
+Table.propTypes = {
+    striped: PropTypes.bool,
+};
 
 export default Skillbox;
