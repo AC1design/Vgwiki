@@ -7,7 +7,7 @@ import MediaQuery from 'react-responsive';
 import StickyFooter from 'react-sticky-footer';
 import MobileHeroesTab from '../components/MobileHeroesTabs';
 import MobileItemsTab from '../components/MobileItemsTabs';
-
+import AdSense from 'react-adsense';
 
 const IndexPage = () => (
   <Layout>
@@ -30,8 +30,15 @@ const IndexPage = () => (
   </path>
 </svg>
     </div>
+    <AdSense.Google
+        client='ca-pub-9376266750696675'
+        style={{ display: 'block' }}
+        layout='in-article'
+        format='fluid'
+      />
     <Tabsind></Tabsind>
 <MediaQuery query="(max-width: 1366px)">
+      
       <MobileHeroesTab></MobileHeroesTab>
       <MobileItemsTab></MobileItemsTab> 
 </MediaQuery>
@@ -58,6 +65,7 @@ const IndexPage = () => (
     >
       © 2018 Copyright: <a href="https://twitter.com/AngeloCant1">AngeloC</a>
 </StickyFooter>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </Layout>
 )
 

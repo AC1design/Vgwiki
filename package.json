@@ -17,6 +17,7 @@
     "gatsby-plugin-styled-components": "^3.0.4",
     "hoist-non-react-statics": "^3.2.1",
     "react": "^16.7.0",
+    "react-adsense": "0.0.6",
     "react-bootstrap": "^1.0.0-beta.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
