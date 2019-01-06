@@ -27,6 +27,7 @@ const Layout = ({ children }) => (
             { property: 'og:image', content:'https://i.imgur.com/qBMkj19.png'}
           ]}
         >
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />

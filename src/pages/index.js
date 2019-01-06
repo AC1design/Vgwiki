@@ -7,7 +7,7 @@ import MediaQuery from 'react-responsive';
 import StickyFooter from 'react-sticky-footer';
 import MobileHeroesTab from '../components/MobileHeroesTabs';
 import MobileItemsTab from '../components/MobileItemsTabs';
-import AdSense from 'react-adsense';
+import AdComponent from '../components/ad';
 
 const IndexPage = () => (
   <Layout>
@@ -30,12 +30,7 @@ const IndexPage = () => (
   </path>
 </svg>
     </div>
-    <AdSense.Google
-        client='ca-pub-9376266750696675'
-        style={{ display: 'block' }}
-        layout='in-article'
-        format='fluid'
-      />
+    <AdComponent></AdComponent>
     <Tabsind></Tabsind>
 <MediaQuery query="(max-width: 1366px)">
       
