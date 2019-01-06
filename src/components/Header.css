@@ -12,14 +12,12 @@
 }
 
 .HeaderGroup {
+    margin: auto;
+  width: 50%;
     display: flex;
+    flex-direction: row;
     -webkit-font-smoothing: antialiased;
-  /* flex-wrap: wrap; */
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-
+    flex-wrap: wrap;
 }
 
 .Header a{

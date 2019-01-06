@@ -99,7 +99,7 @@ const Magnus = () => (
                     subtitle="HEROIC PERK"
                     image={require('./../images/Ability/Magnus-P.jpg')}
                     text="Whenever an enemy is hit by any of Magnus’ abilities, they are afflicted with an Arcane Mark for 4 seconds. Magnus’ abilities have bonus effects when hitting enemies afflicted with Arcane Mark. 
-Additionally, Magnus can basic attack an afflicted target, consuming the Arcane Mark and exploding it for 50-180 (level 1-12) (+100% crystal power) bonus crystal power."
+Additionally, Magnus can basic attack an afflicted target, consuming the Arcane Mark and exploding it for 50-180 (level 1-12) (+100% crystal power) bonus crystal power."  
                 />
                 <Skillbox
                     video=""
@@ -108,6 +108,47 @@ Additionally, Magnus can basic attack an afflicted target, consuming the Arcane 
                     text="Magnus fires a magic missile in the target direction, dealing crystal damage to the first target hit.
 • Hitting enemies with Arcane Mark scatters the missile to all other nearby targets."
                     image={require('./../images/Ability/Magnus-A.jpg')}
+                    stats1='Cooldown'
+                    row11='6s'
+                    row12='6s'
+                    row13='6s'
+                    row14='6s'
+                    row15='4s'
+                    row16=' '
+                    stats2='Energy Cost'
+                    row21='30'
+                    row22='35'
+                    row23='40'
+                    row24='45'
+                    row25='50'
+                    row26=' '
+                    stats3='Damage'
+                    row31='80'
+                    row32='140'
+                    row33='200'
+                    row34='260'
+                    row35='320'
+                    row36='100%'
+                    stats4='Damage (Split Missiles)'
+                    row41='60'
+                    row42='105'
+                    row43='150'
+                    row44='195'
+                    row45='240'
+                    row46='75%'
+                    stats5='Range'
+                    row51='10'
+                    row52='10'
+                    row53='10'
+                    row54='10'
+                    row55='12'
+                    row56=' '
+                    lvl1='LVL 1'
+                    lvl2='LVL 2'
+                    lvl3='LVL 3'
+                    lvl4='LVL 4'
+                    lvl5='LVL 5'
+                    lvl6='CP %'
                 />
                 <Skillbox
                     video=""
@@ -116,6 +157,40 @@ Additionally, Magnus can basic attack an afflicted target, consuming the Arcane 
                     image={require('./../images/Ability/Magnus-B.jpg')}
                     text="Magnus sends a disc of time magic in the target direction that returns to him, dealing crystal damage to all targets it passes through.
 • Hitting enemies with Arcane Mark briefly stuns them."
+stats1='Cooldown'
+                    row11='14s'
+                    row12='13s'
+                    row13='12s'
+                    row14='11s'
+                    row15='10s'
+                    row16=' '
+                    stats2='Energy Cost'
+                    row21='60'
+                    row22='70'
+                    row23='80'
+                    row24='90'
+                    row25='100'
+                    row26=' '
+                    stats3='Damage'
+                    row31='40'
+                    row32='70'
+                    row33='100'
+                    row34='130'
+                    row35='160'
+                    row36='40%'
+                    stats4='Stun Duration'
+                    row41='0.4s'
+                    row42='0.5s'
+                    row43='0.6s'
+                    row44='0.7s'
+                    row45='0.9s'
+                    row46=' '
+                    lvl1='LVL 1'
+                    lvl2='LVL 2'
+                    lvl3='LVL 3'
+                    lvl4='LVL 4'
+                    lvl5='LVL 5'
+                    lvl6='CP %'
                 />
                 <Skillbox
                     video=""
@@ -125,6 +200,25 @@ Additionally, Magnus can basic attack an afflicted target, consuming the Arcane 
                     text="Magnus gathers arcane energy in the target direction for 1 second, dealing massive damage to all targets in the area afterwards.
 • Deals 50% bonus damage to targets with Arcane Mark.
 • If an enemy hero dies within 0.3 seconds of getting hit by this ability, then they will explode in Arcane Magic, launching Mystic Missile to all nearby targets."
+                    stats1='Cooldown'
+                    row11='80s'
+                    row12='70s'
+                    row13='60s'
+                    row14=' '
+                    stats2='Energy Cost'
+                    row21='100'
+                    row22='125'
+                    row23='150'
+                    row24=' '
+                    stats3='Damage'
+                    row31='250'
+                    row32='375'
+                    row33='500'
+                    row34='120%'
+                    lvl1='LVL 1'
+                    lvl2='LVL 2'
+                    lvl3='LVL 3'
+                    lvl6='CP %'
                 />
             </div>
         </div>
