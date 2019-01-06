@@ -115,7 +115,7 @@ handleScroll = (event) => {
             'Krul', 'Lance', 'Lorelai', 'Lyra', 'Magnus', 'Malene', 'Ozo', 'Petal',
             'Phinn', 'Reim', 'Reza', 'Ring', 'Rona', 'Samuel', 'Saw', 'Silvernail',
             'Skaarf', 'Skye', 'Taka', 'Tony', 'Varya', 'Vox', 'Yates',].map((text, index) => (
-              <a href={`/${text}`}><ListItem button>A
+              <a href={`/${text}`}><ListItem button>{text}
             </ListItem></a>
           ))}
         </StyledList>
