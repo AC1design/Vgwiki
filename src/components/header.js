@@ -10,6 +10,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { ListItemIcon, Divider } from '@material-ui/core';
 import { Link } from "react-dom";
+import SimpleDialogDemo from './VgDialog';
 
 const styles = {
   list: {
@@ -126,6 +127,7 @@ handleScroll = (event) => {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
+          <SimpleDialogDemo></SimpleDialogDemo>
           <a href="/">
             <img src={require("./../images/LOGOWHITE.png")} />
           </a>
