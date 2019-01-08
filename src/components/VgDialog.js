@@ -109,7 +109,7 @@ class SimpleDialogDemo extends React.Component {
         return (
             <div>
                 <StyledButton onClick={this.handleClickOpen}>
-                    <SvgSite style={{ marginTop: '-12px', marginLeft: '-10px'}}></SvgSite>
+                    <SvgSite style={{ marginTop: '-12px', marginLeft: '-19px'}}></SvgSite>
         </StyledButton>
                 <SimpleDialogWrapped
                     selectedValue={this.state.selectedValue}
