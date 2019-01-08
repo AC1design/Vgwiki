@@ -47,11 +47,11 @@ class SimpleDialog extends React.Component {
                 <div>
                     <List>
                         <a href='https://www.vgpro.gg/'><ListItem >
-                            <img style={{height:'30px'}} src={require("./../images/pro.png")} />
+                            <img style={{height:'30px'}} src={require("./../images/Pro.png")} />
                             <ListItem button>VGPRO</ListItem>
                             </ListItem></a>
                         <a href='https://www.prime.vgpro.gg/'><ListItem  >
-                            <img style={{ height: '30px' }} src={require("./../images/prime.png")} />
+                            <img style={{ height: '30px' }} src={require("./../images/Prime.png")} />
                             <ListItem>VGPRIME</ListItem>
                         </ListItem>
                         </a>
