@@ -62,7 +62,7 @@ const StyledSwipeableDrawer = withStyles({
 })(SwipeableDrawer);
 
 const StyledDivider = withStyles({
-  inset: {
+  middle: {
     margin: '16px',
     backgroundColor:' rgb(0, 183, 255)'
   },
@@ -108,7 +108,7 @@ handleScroll = (event) => {
     const sideList = (
       <div style={{ background: '#2B2B2D', color: 'white', }} className='classes.list'>
       <h1 style={{fontSize:'14px', marginLeft:'16px', marginTop:'20px'}}>Heroes</h1>
-        <StyledDivider variant="inset" />
+        <StyledDivider variant="middle" />
         <StyledList>
           {['Magnus', 'Adagio', 'Alpha', 'Anka', 'Ardan', 'Baptiste', 'Baron', 'Blackfeather',
           'Catherine', 'Celeste', 'Churnwalker', 'Flicker', 'Fortress', 'Glaive', 'Grace', 'Grumpjaw',

@@ -5,6 +5,7 @@ import { Player, ControlBar } from 'video-react'
 import 'video-react/dist/video-react.css'
 import { Table} from 'react-bootstrap';
 import PropTypes from 'prop-types';
+import H2 from './TalentH2Color'
 
 
 
@@ -43,7 +44,7 @@ class Skillbox extends React.Component {
                                 {this.props.lvl3 && <th>{this.props.lvl3}</th>}
                                 {this.props.lvl4 && <th>{this.props.lvl4}</th>}
                                 {this.props.lvl5 && <th>{this.props.lvl5}</th>}
-                                {this.props.lvl6 && <th>{this.props.lvl6}</th>}
+                            {this.props.lvl6 && <th><H2 color={this.props.color} style={{fontSize:'12px'}}> {this.props.lvl6} </H2></th>}
                             </tr>
                         </thead>
                         <tbody>
@@ -54,7 +55,7 @@ class Skillbox extends React.Component {
                                 {this.props.row13 && <th>{this.props.row13}</th>}
                                 {this.props.row14 && <th>{this.props.row14}</th>}
                                 {this.props.row15 && <th>{this.props.row15}</th>}
-                                {this.props.row16 && <th>{this.props.row16}</th>}
+                            {this.props.row16 && <th><H2 color={this.props.color} style={{ fontSize: '12px' }}> {this.props.row16} </H2></th>}
                             </tr>
                             <tr>
                                 {this.props.stats2 && <td>{this.props.stats2}</td>}
@@ -63,16 +64,16 @@ class Skillbox extends React.Component {
                                 {this.props.row23 && <th>{this.props.row23}</th>}
                                 {this.props.row24 && <th>{this.props.row24}</th>}
                                 {this.props.row25 && <th>{this.props.row25}</th>}
-                                {this.props.row26 && <th>{this.props.row26}</th>}
+                            {this.props.row26 && <th><H2 color={this.props.color} style={{ fontSize: '12px' }}> {this.props.row26} </H2></th>}
                             </tr>
                             <tr>
                                 {this.props.stats3 && <td>{this.props.stats3}</td>}
                                 {this.props.row31 && <th>{this.props.row31}</th>}
                                 {this.props.row32 && <th>{this.props.row32}</th>}
                                 {this.props.row33 && <th>{this.props.row33}</th>}
-                                {this.props.row34 && <th>{this.props.row34}</th>}
+                            {this.props.row34 && <th><H2 color={this.props.color} style={{ fontSize: '12px' }}> {this.props.row34} </H2></th>}
                                 {this.props.row35 && <th>{this.props.row35}</th>}
-                                {this.props.row36 && <th>{this.props.row36}</th>}
+                            {this.props.row36 && <th><H2 color={this.props.color} style={{ fontSize: '12px' }}> {this.props.row36} </H2></th>}
                             </tr>
                             <tr>
                                 {this.props.stats4 && <td>{this.props.stats4}</td>}
@@ -81,7 +82,7 @@ class Skillbox extends React.Component {
                                 {this.props.row43 && <th>{this.props.row43}</th>}
                                 {this.props.row44 && <th>{this.props.row44}</th>}
                                 {this.props.row45 && <th>{this.props.row45}</th>}
-                                {this.props.row46 && <th>{this.props.row46}</th>}
+                            {this.props.row46 && <th><H2 color={this.props.color} style={{ fontSize: '12px' }}> {this.props.row46} </H2></th>}
                             </tr>
                             <tr>
                                 {this.props.stats5 && <td>{this.props.stats5}</td>}
@@ -90,7 +91,7 @@ class Skillbox extends React.Component {
                                 {this.props.row53 && <th>{this.props.row53}</th>}
                                 {this.props.row54 && <th>{this.props.row54}</th>}
                                 {this.props.row55 && <th>{this.props.row55}</th>}
-                                {this.props.row56 && <th>{this.props.row56}</th>}
+                            {this.props.row56 && <th><H2 color={this.props.color} style={{ fontSize: '12px' }}> {this.props.row56} </H2></th>}
                             </tr>
                         </tbody>
                     </Table>

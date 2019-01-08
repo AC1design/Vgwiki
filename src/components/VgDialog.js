@@ -7,14 +7,26 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Dialog from '@material-ui/core/Dialog';
-
+import { Divider } from '@material-ui/core';
+import SvgSite from './SvgSites';
 
 const StyledDialog = withStyles(theme => ({
     paper: {
         background: '#2B2B2D',
-        
     },
 }))(Dialog)
+
+
+const styles = {
+};
+
+const StyledDivider = withStyles({
+    middle: {
+        marginLeft: '16px',
+        marginRight: '16px',
+        backgroundColor: ' rgb(0, 183, 255)'
+    },
+})(Divider);
 
 class SimpleDialog extends React.Component {
     handleClose = () => {
@@ -30,15 +42,19 @@ class SimpleDialog extends React.Component {
 
         return (
             <StyledDialog onClose={this.handleClose} aria-labelledby="simple-dialog-title" {...other}>
-                <DialogTitle id="simple-dialog-title">Set backup account</DialogTitle>
+                <DialogTitle id="simple-dialog-title"><h1 style={{ fontSize: '20px', color: 'white', marginBottom: '0px', marginTop: '0px', }}>Other Sites</h1></DialogTitle>
+                <StyledDivider variant="middle"/>
                 <div>
                     <List>
-                            <ListItem button onClick={() => this.handleListItemClick()} >
-                            <a href='https://www.vgpro.gg/'><ListItemText style={{ color: 'white'}}>VGPRO</ListItemText></a>
-                            </ListItem>
-                        <ListItem button onClick={() => this.handleListItemClick()} >
-                            <a href='https://www.prime.vgpro.gg/'><ListItemText>VGPRIME</ListItemText></a>
+                        <a href='https://www.vgpro.gg/'><ListItem >
+                            <img style={{height:'30px'}} src={require("./../images/pro.png")} />
+                            <ListItem button>VGPRO</ListItem>
+                            </ListItem></a>
+                        <a href='https://www.prime.vgpro.gg/'><ListItem  >
+                            <img style={{ height: '30px' }} src={require("./../images/prime.png")} />
+                            <ListItem>VGPRIME</ListItem>
                         </ListItem>
+                        </a>
                     </List>
                 </div>
             </StyledDialog>
@@ -52,17 +68,23 @@ SimpleDialog.propTypes = {
     selectedValue: PropTypes.string,
 };
 
-const SimpleDialogWrapped = withStyles(SimpleDialog);
+const SimpleDialogWrapped = withStyles(styles)(SimpleDialog);
 
 const StyledButton = withStyles({
     root: {
         position: 'absolute',
-        left: '10px',
-        marginTop:'-12px',
-        padding:'0px',
-        minHeight:'20px',
-        minWidth:'20px'
-    },
+        left: '25px',
+        color: 'white',
+        padding: '0px',
+        fontSize: '12px',
+        minWidth: '0px',
+        boxSizing: 'border-box',
+        minHeight: '0px',
+        transition: 'background-color 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms, box - shadow 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms',
+        fontWeight: 800,
+        fontFamily: '"Roboto", "Helvetica", "Arial", sans - serif',
+        borderRadius: '4px',
+},
     label: {
         textTransform: 'capitalize',
     },
@@ -86,8 +108,8 @@ class SimpleDialogDemo extends React.Component {
     render() {
         return (
             <div>
-                <StyledButton variant="outlined" style={{ color: "white", fontWeight: '800', border:'2px solid white'}} onClick={this.handleClickOpen}>
-                    S
+                <StyledButton onClick={this.handleClickOpen}>
+                    <SvgSite style={{ marginTop: '-12px', marginLeft: '-10px'}}></SvgSite>
         </StyledButton>
                 <SimpleDialogWrapped
                     selectedValue={this.state.selectedValue}

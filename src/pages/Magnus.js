@@ -148,7 +148,8 @@ Additionally, Magnus can basic attack an afflicted target, consuming the Arcane 
                     lvl3='LVL 3'
                     lvl4='LVL 4'
                     lvl5='LVL 5'
-                    lvl6='CP %'
+                    lvl6='CP%'
+                    color='#38eeff'
                 />
                 <Skillbox
                     video=""
@@ -191,6 +192,7 @@ stats1='Cooldown'
                     lvl4='LVL 4'
                     lvl5='LVL 5'
                     lvl6='CP %'
+                    color='#38eeff'
                 />
                 <Skillbox
                     video=""
@@ -219,6 +221,7 @@ stats1='Cooldown'
                     lvl2='LVL 2'
                     lvl3='LVL 3'
                     lvl6='CP %'
+                    color='#38eeff'
                 />
             </div>
         </div>
