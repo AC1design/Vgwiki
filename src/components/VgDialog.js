@@ -46,7 +46,7 @@ class SimpleDialog extends React.Component {
                 <StyledDivider variant="middle"/>
                 <div>
                     <List>
-                        <a href='https://www.vgpro.gg/'><ListItem >
+                        <a href='https://www.vgpro.gg/' target="_blank"><ListItem >
                             <img style={{height:'30px'}} src={require("./../images/Pro.png")} />
                             <ListItem button>VGPRO</ListItem>
                             </ListItem></a>
