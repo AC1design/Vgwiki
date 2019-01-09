@@ -5,20 +5,24 @@
 .react-tabs__tab-list {
   margin: 0 auto;
   padding: 0px;
-  background: #2B2B2D;
+  background: none;
   margin-bottom: 50px;
-  width: 1300px;
+  width: 700px;
   text-align: center;
   justify-content: center;
-  border-radius: 5px;
-  margin-top:30px;}
+  border-radius: 50px;
+  margin-top:30px;
+
+  background:  rgb(43, 43, 45);
+}
 
   .Subcategory {
   margin: 0 auto;
   margin-bottom: 50px;
   text-align: center;
   justify-content: center;
-  border-radius: 5px;}
+  border-radius: 5px;
+}
 
 .react-tabs__tab {
   display: inline-block;
@@ -35,11 +39,12 @@
   padding:20px;
 }
 
+
+
 .react-tabs__tab--selected {
   font-size: 18px;
-  border-bottom: 3px solid rgb(0, 183, 255);
   color: rgb(255, 255, 255);
-  border-radius: 5px 5px 0 0;
+  border-radius: 50px;
   outline:none;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }

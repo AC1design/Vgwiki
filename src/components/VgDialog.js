@@ -13,6 +13,7 @@ import SvgSite from './SvgSites';
 const StyledDialog = withStyles(theme => ({
     paper: {
         background: '#2B2B2D',
+        borderRadius:'10px'
     },
 }))(Dialog)
 

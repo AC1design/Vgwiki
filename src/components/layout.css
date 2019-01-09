@@ -184,6 +184,17 @@ a {
   }
 }
 
+.Listitem{
+  display: flex;
+  flex-direction: column;
+}
+.Listitem img{
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 @media(max-width:480px) {
   .Hero h1{
     font-size: 30px;

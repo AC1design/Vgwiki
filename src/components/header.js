@@ -12,20 +12,6 @@ import { ListItemIcon, Divider } from '@material-ui/core';
 import { Link } from "react-dom";
 import SimpleDialogDemo from './VgDialog';
 
-const styles = {
-  list: {
-    width: 300,
-    color:'white',
-
-  },
-  fullList: {
-    width: 'auto',
-    background: '#1f1f21'
-  },
-  paper: {
-    
-  }
-};
 
 const StyledButton = withStyles({
   root: {
@@ -57,7 +43,7 @@ const StyledList = withStyles({
 const StyledSwipeableDrawer = withStyles({
   paper: {
     background: '#2B2B2D',
-    width:'170px'
+    width:'180px'
   },
 })(SwipeableDrawer);
 
@@ -105,9 +91,10 @@ handleScroll = (event) => {
 
   render() {
     const { classes } = this.props;
+    
     const sideList = (
       <div style={{ background: '#2B2B2D', color: 'white', }} className='classes.list'>
-      <h1 style={{fontSize:'14px', marginLeft:'16px', marginTop:'20px'}}>Heroes</h1>
+        <h1 style={{ fontSize: '14px', marginLeft: '16px', marginTop: '20px',}}>Heroes</h1>
         <StyledDivider variant="middle" />
         <StyledList>
           {['Magnus', 'Adagio', 'Alpha', 'Anka', 'Ardan', 'Baptiste', 'Baron', 'Blackfeather',
@@ -115,9 +102,15 @@ handleScroll = (event) => {
             'Gwen', 'Idris', 'Inara', 'Joule', 'Kensei', 'Kestrel', 'Kinetic', 'Koshka',
             'Krul', 'Lance', 'Lorelai', 'Lyra', 'Magnus', 'Malene', 'Ozo', 'Petal',
             'Phinn', 'Reim', 'Reza', 'Ring', 'Rona', 'Samuel', 'Saw', 'Silvernail',
-            'Skaarf', 'Skye', 'Taka', 'Tony', 'Varya', 'Vox', 'Yates',].map((text, index) => (
-              <a href={`/${text}`}><ListItem button>{text}
-            </ListItem></a>
+            'Skaarf', 'Skye', 'Taka', 'Tony', 'Varya', 'Vox', 'Yates',].map((text,index) => (
+              <div style={{textTransform:'capitalize'}} className='Listitem'>
+                <a style={{ textTransform: 'capitalize' }} href={`/${text}`}>
+                
+                  <ListItem button style={{ textTransform: 'capitalize', padding: '10px'}}>
+              <img src={'https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/' + `${text.toLowerCase()}` + '.png'}></img>
+              {text}</ListItem>
+            </a>
+            </div>
           ))}
         </StyledList>
       </div>
