@@ -36,6 +36,7 @@
   }
 
   .Header img{
+      margin-left: -22px;
       height:20px;
       vertical-align: middle;
   }
