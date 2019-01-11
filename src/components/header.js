@@ -46,32 +46,24 @@ const StyledListItem = withStyles({
   root: {
     textTransform: 'capitalize',
     padding: '10px',
-    overflow:'visible'
   },
   button:{
     '&:hover': {
-      overflow:'visible',
-      textDecoration: 'none',
-      backgroundColor: '#08aeea',
-      transform: 'scale(1.15)',
-    zIndex:'1',
-      transition: 'background-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
-      boxShadow:'0px 4px 18px 0px rgba(0, 0, 0, 0.88)'}
-  }
+  }}
 })(ListItem);
 
 const StyledSwipeableDrawer = withStyles({
   paper: {
     background: '#2B2B2D',
     width:'180px',
-    overflowY:'unset',
   },
 })(SwipeableDrawer);
 
 const StyledDivider = withStyles({
   middle: {
     margin: '16px',
-    backgroundColor:' rgb(0, 183, 255)'
+    backgroundColor:' rgb(0, 183, 255)',
+    height:'2'
   },
 })(Divider);
 
@@ -122,7 +114,7 @@ handleScroll = (event) => {
           'Catherine', 'Celeste', 'Churnwalker', 'Flicker', 'Fortress', 'Glaive', 'Grace', 'Grumpjaw',
             'Gwen', 'Idris', 'Inara', 'Joule', 'Kensei', 'Kestrel', 'Kinetic', 'Koshka',
             'Krul', 'Lance', 'Lorelai', 'Lyra', 'Magnus', 'Malene', 'Ozo', 'Petal',
-            'Phinn', 'Reim', 'Reza', 'Ring', 'Rona', 'Samuel', 'Saw', 'Silvernail',
+            'Phinn', 'Reim', 'Reza', 'Ringo', 'Rona', 'Samuel', 'Saw', 'Silvernail',
             'Skaarf', 'Skye', 'Taka', 'Tony', 'Varya', 'Vox', 'Yates',].map((text,index) => (
               <div  className='Listitem'>
                 <a  href={`/${text}`}>
