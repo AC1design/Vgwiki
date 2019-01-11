@@ -12,8 +12,9 @@ const IndexPage = () => (
     <meta name="theme-color" content="#1f1f21" />
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>VAINGLORYWIKI</h1>
-        <p>UPDATE 3.8</p>
+        <h1>VGWIKI</h1>
+        <h2>A Vainglory Wiki</h2>
+        <p>UPDATE 3.9</p>
       </div>
       <svg width="100%" height="145" viewBox="0 0 100% 200" fill="none">
   <path fill="#1f1f21">

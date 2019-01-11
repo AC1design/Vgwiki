@@ -15,6 +15,7 @@ import SimpleDialogDemo from './VgDialog';
 
 const StyledButton = withStyles({
   root: {
+    overflow: 'visible',
     position:'absolute',
     right:'25px',
     color: 'white',
@@ -35,15 +36,35 @@ borderRadius: '4px',
 
 const StyledList = withStyles({
   root: {
+    overflow:'visible',
     fontSize:'12px',
     padding:'0px'
   },
 })(List);
 
+const StyledListItem = withStyles({
+  root: {
+    textTransform: 'capitalize',
+    padding: '10px',
+    overflow:'visible'
+  },
+  button:{
+    '&:hover': {
+      overflow:'visible',
+      textDecoration: 'none',
+      backgroundColor: '#08aeea',
+      transform: 'scale(1.15)',
+    zIndex:'1',
+      transition: 'background-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
+      boxShadow:'0px 4px 18px 0px rgba(0, 0, 0, 0.88)'}
+  }
+})(ListItem);
+
 const StyledSwipeableDrawer = withStyles({
   paper: {
     background: '#2B2B2D',
-    width:'180px'
+    width:'180px',
+    overflowY:'unset',
   },
 })(SwipeableDrawer);
 
@@ -103,12 +124,12 @@ handleScroll = (event) => {
             'Krul', 'Lance', 'Lorelai', 'Lyra', 'Magnus', 'Malene', 'Ozo', 'Petal',
             'Phinn', 'Reim', 'Reza', 'Ring', 'Rona', 'Samuel', 'Saw', 'Silvernail',
             'Skaarf', 'Skye', 'Taka', 'Tony', 'Varya', 'Vox', 'Yates',].map((text,index) => (
-              <div style={{textTransform:'capitalize'}} className='Listitem'>
-                <a style={{ textTransform: 'capitalize' }} href={`/${text}`}>
+              <div  className='Listitem'>
+                <a  href={`/${text}`}>
                 
-                  <ListItem button style={{ textTransform: 'capitalize', padding: '10px'}}>
-              <img src={'https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/' + `${text.toLowerCase()}` + '.png'}></img>
-              {text}</ListItem>
+                  <StyledListItem button >
+                    <img style={{ overflow: 'visible' }} src={'https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/' + `${text.toLowerCase()}` + '.png'}></img>
+                    {text}</StyledListItem>
             </a>
             </div>
           ))}
