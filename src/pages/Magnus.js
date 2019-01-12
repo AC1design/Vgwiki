@@ -63,7 +63,7 @@ const Magnus = () => (
                 />
                 <Statbox
                     title="SHIELD"
-                    value="25 - 55"
+                    value="20 - 55"
                     color="#f6ee71"
                 />
                 <Statbox
@@ -148,7 +148,7 @@ Additionally, Magnus can basic attack an afflicted target, consuming the Arcane 
                     lvl3='LVL 3'
                     lvl4='LVL 4'
                     lvl5='LVL 5'
-                    lvl6='CP%'
+                    cp='CR%'
                     color='#38eeff'
                 />
                 <Skillbox
@@ -191,7 +191,7 @@ stats1='Cooldown'
                     lvl3='LVL 3'
                     lvl4='LVL 4'
                     lvl5='LVL 5'
-                    lvl6='CP %'
+                    cp='CR%'
                     color='#38eeff'
                 />
                 <Skillbox
@@ -216,11 +216,11 @@ stats1='Cooldown'
                     row31='250'
                     row32='375'
                     row33='500'
-                    row34='120%'
+                    row36='120%'
                     lvl1='LVL 1'
                     lvl2='LVL 2'
                     lvl3='LVL 3'
-                    lvl6='CP %'
+                    cp='CR%'
                     color='#38eeff'
                 />
             </div>

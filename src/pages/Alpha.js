@@ -97,12 +97,10 @@ const Alpha = () => (
                 subtitle="HEROIC PERK"
                     image={require('./../images/Ability/Alpha-P.jpg')}
                 text="Instead of dying, Alpha initiates 3.5s reboot sequence. If her reboot health is not destroyed before time runs out, she will return to life.
-                When alive, Alpha's special energy bar shows the time until Infinite Reboot is available. When rebooting, the bar counts down to when she will revive.
-    
-                • Reboot health: 600-2600 (level 1-12) (+65% of Bonus Max Energy)
-                • Reboot Duration: 3.5s
-                • Alpha revives with her Prime Directive & Core Charge ability cooldowns refreshed.
-                "
+                When alive, Alpha's special energy bar shows the time until Infinite Reboot is available. When rebooting, the bar counts down to when she will revive. 
+• Reboot health: 600-2600 (level 1-12) (+65% of Bonus Max Energy) 
+• Reboot Duration: 3.5s 
+• Alpha revives with her Prime Directive & Core Charge ability cooldowns refreshed."
             />
             <Skillbox
                 title="PRIME DIRECTIVE"
@@ -110,30 +108,148 @@ const Alpha = () => (
                 text="Alpha scans for enemies along a path. If she scans an enemy, that enemy is slowed and Alpha instantly dashes behind them, dealing damage to the target and all enemies within 4.5 meters (50% damage to minions). This also removes the negative effects of Core Overload (without removing the positive effects), dealing increased damage based on the number of stacks removed."
                     image={require('./../images/Ability/Alpha-A.jpg')}
                 boxShadow="10px 20px 30px white"
+                    stats1='Cooldown'
+                    row11='11'
+                    row12='10'
+                    row13='9'
+                    row14='8'
+                    row15='7'
+                    row16=' '
+                    row17=' '
+                    stats2='Damage'
+                    row21='80'
+                    row22='100'
+                    row23='120'
+                    row24='140'
+                    row25='160'
+                    row26='180% '
+                    row27='60%'
+                    stats3='Damage/Stack'
+                    row31='40'
+                    row32='60'
+                    row33='80'
+                    row34='100'
+                    row35='120'
+                    row36='30%'
+                    row37='40%'
+                    stats4='Range'
+                    row41='20'
+                    row42='20'
+                    row43='40'
+                    row44='50'
+                    row45='70'
+                    row46='20%'
+                    row47=' '
+                    stats5='Slow'
+                    row51='40%'
+                    row52='50%'
+                    row53='60%'
+                    row54='70%'
+                    row55='80%'
+                    row56=' '
+                    row57=' '
+                    stats6='Slow Duration'
+                    row61='1.5'
+                    row62='1.5'
+                    row63='1.5'
+                    row64='1.5'
+                    row65='1.5'
+                    row66=' '
+                    row67=' '
+                    lvl1='LVL 1'
+                    lvl2='LVL 2'
+                    lvl3='LVL 3'
+                    lvl4='LVL 4'
+                    lvl5='LVL 5'
+                    cp='CR%'
+                    wp='WP%'
+                    color='#38eeff'
+                    color2='red'
             />
             <Skillbox
                 title="CORE CHARGE"
                 subtitle="B ABILITY"
                     image={require('./../images/Ability/Alpha-B.jpg')}
-                text="Alpha lunges forward, and basic attacks her target. This ability costs 2% of her current health and applies Core Overload to herself, which will increase her damage output.
-
-                Core Overload (status effect): Each stack increases health cost of Core Charge by 2%, but also increases the damage. Also causes basic attacks to heal her. This healing is reduced against lane minions. Lasts 8.0s, stacking up to 3 times. Basic attacks refresh the duration.
-                
-                • Attack has a small AOE, hitting nearby targets for crystal damage.
-                • Basic attacks reduce the cooldown of this ability."
+                text="Alpha lunges forward, and basic attacks her target. This ability costs 2% of her current health and applies Core Overload to herself, which will increase her damage output. 
+Core Overload (status effect): Each stack increases health cost of Core Charge by 2%, but also increases the damage. Also causes basic attacks to heal her. This healing is reduced against lane minions. Lasts 8.0s, stacking up to 3 times. Basic attacks refresh the duration. 
+• Attack has a small AOE, hitting nearby targets for crystal damage. 
+• Basic attacks reduce the cooldown of this ability."
+                    stats1='Cooldown'
+                    row11='6'
+                    row12='5.5'
+                    row13='5'
+                    row14='4.5'
+                    row15='4'
+                    row16=' '
+                    row17=' '
+                    stats2='Damage'
+                    row21='20'
+                    row22='35'
+                    row23='50'
+                    row24='65'
+                    row25='80'
+                    row26='100% '
+                    row27='110%'
+                    stats3='Cooldown Reduction'
+                    row31='1'
+                    row32='1'
+                    row33='1'
+                    row34='1'
+                    row35='1.2'
+                    row36=' '
+                    row37=' '
+                    stats4='Heal/Stack'
+                    row41='7'
+                    row42='8'
+                    row43='9'
+                    row44='10'
+                    row45='12'
+                    row46=' '
+                    row47='3%'
+                    stats5='Bonus Damage/stack'
+                    row51='11%'
+                    row52='11%'
+                    row53='11%'
+                    row54='11%'
+                    row55='15%'
+                    row56=' '
+                    row57=' '
+                    lvl1='LVL 1'
+                    lvl2='LVL 2'
+                    lvl3='LVL 3'
+                    lvl4='LVL 4'
+                    lvl5='LVL 5'
+                    cp='CR%'
+                    wp='WP%'
+                    color='#38eeff'
+                    color2='red'
             />
             <Skillbox
                 title="TERMINATION PROTOCOL"
                 subtitle="ULTIMATE"
                     image={require('./../images/Ability/Alpha-C.jpg')}
-                text="Alpha starts her self-destruct sequence, exploding after 3s and then ressurrecting herself with Infinite Reboot.
-
-                • At the start of the ability, she gains a burst of move speed that decays rapidly.
-                • She also gains a large health barrier. If enemies break this barrier, she explodes early.
-                • This ability can only be activated while Infinite Reboot is available.
-                • Upgrading this ability reduces the cooldown of Infinite Reboot.
-                • Barrier: 400-1000 (level 1-12)
-                • Explosion radions: 4.5 meters"
+                text="Alpha starts her self-destruct sequence, exploding after 3s and then ressurrecting herself with Infinite Reboot. 
+• At the start of the ability, she gains a burst of move speed that decays rapidly. 
+• She also gains a large health barrier. If enemies break this barrier, she explodes early. 
+• This ability can only be activated while Infinite Reboot is available. 
+• Upgrading this ability reduces the cooldown of Infinite Reboot. 
+• Barrier: 400-1000 (level 1-12) 
+• Explosion radions: 4.5 meters"
+                    lvl1='LVL 1'
+                    lvl2='LVL 2'
+                    lvl3='LVL 3'
+                    cp='CR%'
+                    color='#38eeff'
+                    stats1='Cooldown'
+                    row11='85'
+                    row12='75'
+                    row13='65'
+                    row16=' '
+                    stats2='Damage'
+                    row21='529'
+                    row22='933'
+                    row23='1337'
+                    row26='250%'
             />
         </div>
     </div>

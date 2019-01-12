@@ -55,6 +55,7 @@
 	font-weight: 350;
 	font-size: 14px;
     -webkit-font-smoothing: antialiased;
+    white-space: pre-line;
 }
 
 .SkillboxGroup {
@@ -78,7 +79,7 @@
 }
 .Tableclass {
     margin: 0 auto;
-     width: 90%;
+     width: 80%;
      margin-top: 30px;
      border:0px;
 }
@@ -90,16 +91,14 @@
 .Tableclass th{
     font-size: 12px;
     color: white;
-    border:0px;
     font-weight: 500;
+    height: 25px;
 }
 
 .Tableclass td{
     font-size: 12px;
     color: white;
     text-align: left;
-    width: 80px;
-    border:0px;
 }
 .striped{
     background: rgba(128, 128, 128, 0.171);

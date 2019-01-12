@@ -106,24 +106,127 @@ const Adagio = () => (
                 title="GIFT OF FIRE"
                 subtitle="A ABILITY"
                 text="Heals a target ally, then splashes Arcane Fire onto nearby enemies. If Adagio heals himself, he'll also apply a heavy slow to nearby enemies.
-                Arcane Fire (status effect): Burns the target every second and causes Adagio's other abilities to deal more damage.
-                
-                • Burst heals the target instantly, followed by a gradual heal over the next few seconds.
-                • Burst Heal is increased by 9% of Adagio's bonus health.
-                • When cast on self, slows nearby enemies by 70% for 0.7s.
-                • Resets basic-attack cooldown on activation."
+                Arcane Fire (status effect): Burns the target every second and causes Adagio's other abilities to deal more damage. 
+• Burst heals the target instantly, followed by a gradual heal over the next few seconds. 
+• Burst Heal is increased by 9% of Adagio's bonus health. 
+• When cast on self, slows nearby enemies by 70% for 0.7s. 
+• Resets basic-attack cooldown on activation."
                         image={require('./../images/Ability/Adagio-A.jpg')}
-                boxShadow="10px 20px 30px white"
+                        stats1='Cooldown'
+                        row11='10'
+                        row12='9.5'
+                        row13='9'
+                        row14='8.5'
+                        row15='8'
+                        row16=' '
+                        stats2='Energy Cost'
+                        row21='120'
+                        row22='135'
+                        row23='150'
+                        row24='165'
+                        row25='180'
+                        row26=' '
+                        stats3='Fire Duration'
+                        row31='5'
+                        row32='5.5'
+                        row33='6'
+                        row34='6.5'
+                        row35='7'
+                        row36=' '
+                        stats4='Fire Damage/s'
+                        row41='10'
+                        row42='20'
+                        row43='30'
+                        row44='40'
+                        row45='60'
+                        row46='25%'
+                        stats5='Heal Duration'
+                        row51='3'
+                        row52='3'
+                        row53='3'
+                        row54='3'
+                        row55='3'
+                        row56=' '
+                        stats6='Burst Heal'
+                        row61='40'
+                        row62='60'
+                        row63='80'
+                        row64='100'
+                        row65='140'
+                        row66='30%'
+                        stats7='Heal/s'
+                        row71='15'
+                        row72='20'
+                        row73='25'
+                        row74='30'
+                        row75='35'
+                        row76='10% '
+                        lvl1='LVL 1'
+                        lvl2='LVL 2'
+                        lvl3='LVL 3'
+                        lvl4='LVL 4'
+                        lvl5='LVL 5'
+                        cp='CP%'
+                        color='#38eeff'
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-B-Agent-of-Wrath.mp4'}
                 title="AGENT OF WRATH"
                 subtitle="B ABILITY"
                         image={require('./../images/Ability/Adagio-B.jpg')}
-                text="Temporarily boosts an allied hero's next several basic attacks for 6s.
-                • Deals bonus damage to enemies afflicted by Arcane Fire.
-                • Bonus damage is increased if Adagio casts this spell on himself.
-                • Resets basic-attack cooldown on activation."
+                text="Temporarily boosts an allied hero's next several basic attacks for 6s. 
+• Deals bonus damage to enemies afflicted by Arcane Fire. 
+• Bonus damage is increased if Adagio casts this spell on himself. 
+• Resets basic-attack cooldown on activation."
+                        stats1='Cooldown'
+                        row11='10'
+                        row12='10'
+                        row13='10'
+                        row14='10'
+                        row15='10'
+                        row16=' '
+                        stats2='Energy Cost'
+                        row21='105'
+                        row22='130'
+                        row23='155'
+                        row24='180'
+                        row25='205'
+                        row26=' '
+                        stats3='Number of Attacks'
+                        row31='5'
+                        row32='5'
+                        row33='5'
+                        row34='5'
+                        row35='7'
+                        row36=' '
+                        stats4='Damage'
+                        row41='30'
+                        row42='50'
+                        row43='70'
+                        row44='90'
+                        row45='130'
+                        row46='40%'
+                        stats5='Arcane Fire Bonus'
+                        row51='5'
+                        row52='15'
+                        row53='25'
+                        row54='35'
+                        row55='55'
+                        row56='40%'
+                        stats6='Self-cast Bonus'
+                        row61='5'
+                        row62='10'
+                        row63='15'
+                        row64='20'
+                        row65='30'
+                        row66='20%'
+                        lvl1='LVL 1'
+                        lvl2='LVL 2'
+                        lvl3='LVL 3'
+                        lvl4='LVL 4'
+                        lvl5='LVL 5'
+                        cp='CP%'
+                        color='#38eeff'
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-C-Verse-of-Judgement.mp4'}
@@ -132,6 +235,46 @@ const Adagio = () => (
                         image={require('./../images/Ability/Adagio-C.jpg')}
                 text="Adagio channels for 2s then deals heavy damage to all enemies in a wide ring around him. Enemies burning with Arcane Fire are also stunned.
                 Adagio temporarily gains fortified health while channeling."
+                        stats1='Cooldown'
+                        row11='100'
+                        row12='80'
+                        row13='60'
+                        row16=' '
+                        stats2='Energy Cost'
+                        row21='140'
+                        row22='190'
+                        row23='240'
+                        row26=' '
+                        stats3='Range'
+                        row31='9'
+                        row32='9'
+                        row33='9'
+                        row36=' '
+                        stats4='Damage'
+                        row41='800'
+                        row42='1100'
+                        row43='1400'
+                        row46='100%'
+                        stats5='Fortified Health'
+                        row51='600'
+                        row52='800'
+                        row53='1000'
+                        row56=' '
+                        stats6='Stun Duration'
+                        row61='9'
+                        row62='9'
+                        row63='9'
+                        row66=' '
+                        stats7='Channel Time'
+                        row71='2'
+                        row72='2'
+                        row73='2'
+                        row76=' '
+                        lvl1='LVL 1'
+                        lvl2='LVL 2'
+                        lvl3='LVL 3'
+                        cp='CP%'
+                        color='#38eeff'
             />
         </div>
     </div>
