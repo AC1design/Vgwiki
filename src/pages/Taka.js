@@ -206,6 +206,11 @@ const Taka = () => (
                 title="Night Shadow Taka"
                 text="Limited Edition"
                 image={require('./../images/Skins/Taka_Night_Shadow_LE.png')} />
+                    <Skinbox
+                        color="red"
+                        title="Wu Xing Flame Taka"
+                        text="Special Edition"
+                        image={require('./../images/Skins/Taka_Wu_Xing_Flame.png')} />
             </div>
     </div>
   </div >

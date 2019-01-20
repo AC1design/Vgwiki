@@ -30,10 +30,10 @@ const Tabsind = () => (
             <TabPanel className="AllHeroes">
             <div className="CardboxGroup">
                 <Card
-              title="Magnus"
-              text="LANE, MAGE"
-              image={require('./../images/Cards/Magnus_Card.jpg')}
-              link="/Magnus/"  />
+                  title="Ylva"
+                  text="JUNGLE, ASSASSIN"
+                  image={require('./../images/Cards/Ylva_Card.png')}
+                  link="/Ylva/" />
                 <Card
                     title="Adagio"
                     text="JUNGLE, PROTECTOR"
@@ -170,6 +170,11 @@ const Tabsind = () => (
                     image={require('./../images/Cards/Lyra_Card.jpg')}
                     link="/Lyra/" />
                 <Card
+                  title="Magnus"
+                  text="LANE, MAGE"
+                  image={require('./../images/Cards/Magnus_Card.jpg')}
+                  link="/Magnus/" />
+                <Card
                     title="Malene"
                     text="LANE, MAGE"
                     image={require('./../images/Cards/Malene_Card.jpg')}
@@ -263,6 +268,11 @@ const Tabsind = () => (
             </TabPanel>
             <TabPanel className="Assassins">
               <div className="CardboxGroup">
+                <Card
+                  title="Ylva"
+                  text="JUNGLE, ASSASSIN"
+                  image={require('./../images/Cards/Ylva_Card.png')}
+                  link="/Ylva/" />
           <Card
                 title="Anka"
                 text="LANE, ASSASSIN"
@@ -336,11 +346,6 @@ const Tabsind = () => (
             <TabPanel className="Mages">
               <div className="CardboxGroup">
                 <Card
-                  title="Magnus"
-                  text="LANE, MAGE"
-                  image={require('./../images/Cards/Magnus_Card.jpg')}
-                  link="/Magnus/" />
-                <Card
                   title="Baptiste"
                   text="JUNGLE, MAGE"
                   image={require('./../images/Cards/Baptiste_Card.jpg')}
@@ -356,6 +361,11 @@ const Tabsind = () => (
                   image={require('./../images/Cards/Kinetic_Card.jpg')}
                   link="/Kinetic/" />
                 <Card
+                  title="Magnus"
+                  text="LANE, MAGE"
+                  image={require('./../images/Cards/Magnus_Card.jpg')}
+                  link="/Magnus/" />
+                <Card
                   title="Malene"
                   text="LANE, MAGE"
                   image={require('./../images/Cards/Malene_Card.jpg')}
@@ -365,7 +375,6 @@ const Tabsind = () => (
                   text="JUNGLE, MAGE"
                   image={require('./../images/Cards/Reim_Card.jpg')}
                   link="/Reim/" />
-
                 <Card
                   title="Samuel"
                   text="LANE, MAGE"

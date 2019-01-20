@@ -194,6 +194,16 @@ const Joule = () => (
                 title="Snow Monster Joule"
                 text="Special Edition"
                 image={require('./../images/Skins/Joule_Snow_Monster_SE.png')} />
+                    <Skinbox
+                        color="red"
+                        title="Panda Joule"
+                        text="Special Edition"
+                        image={require('./../images/Skins/Joule_Panda.png')} />
+                    <Skinbox
+                        color="red"
+                        title="Teddy Bear Joule"
+                        text="Special Edition"
+                        image={require('./../images/Skins/Joule_Teddy_Bear.png')} />
         </div>
     </div>
   </div >

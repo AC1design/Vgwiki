@@ -119,6 +119,16 @@ class Skillbox extends React.Component {
                             {this.props.row76 && <th><H2 color={this.props.color} style={{ fontSize: '12px' }}> {this.props.row76} </H2></th>}
                             {this.props.row77 && <th><H2 color={this.props.color2} style={{ fontSize: '12px' }}> {this.props.row77} </H2></th>}
                         </tr>
+                        <tr>
+                            {this.props.stats8 && <td>{this.props.stats8}</td>}
+                            {this.props.row81 && <th>{this.props.row81}</th>}
+                            {this.props.row82 && <th>{this.props.row82}</th>}
+                            {this.props.row83 && <th>{this.props.row83}</th>}
+                            {this.props.row84 && <th>{this.props.row84}</th>}
+                            {this.props.row85 && <th>{this.props.row85}</th>}
+                            {this.props.row86 && <th><H2 color={this.props.color} style={{ fontSize: '12px' }}> {this.props.row86} </H2></th>}
+                            {this.props.row87 && <th><H2 color={this.props.color2} style={{ fontSize: '12px' }}> {this.props.row87} </H2></th>}
+                        </tr>
                         </tbody>
                     </Table>
                     <button onClick={this.handleCloseModal}>CLOSE</button>

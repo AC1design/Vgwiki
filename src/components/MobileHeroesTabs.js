@@ -144,10 +144,10 @@ class MobileHeroesTab extends React.Component {
                     <div className="CardboxGroupScroll">
                         <div className="CardboxGroup">
                             <Card
-                                title="Magnus"
-                                text="LANE, MAGE"
-                                image={require('./../images/Cards/Magnus_Card.jpg')}
-                                link="/Magnus/" />
+                                title="Ylva"
+                                text="JUNGLE, ASSASSIN"
+                                image={require('./../images/Cards/Ylva_Card.png')}
+                                link="/Ylva/" />
                             <Card
                                 title="Adagio"
                                 text="JUNGLE, PROTECTOR"
@@ -284,6 +284,11 @@ class MobileHeroesTab extends React.Component {
                                 image={require('./../images/Cards/Lyra_Card.jpg')}
                                 link="/Lyra/" />
                             <Card
+                                title="Magnus"
+                                text="LANE, MAGE"
+                                image={require('./../images/Cards/Magnus_Card.jpg')}
+                                link="/Magnus/" />
+                            <Card
                                 title="Malene"
                                 text="LANE, MAGE"
                                 image={require('./../images/Cards/Malene_Card.jpg')}
@@ -379,6 +384,11 @@ class MobileHeroesTab extends React.Component {
                 {value === 1 && <TabContainer>
                     <div className="CardboxGroupScroll">
                         <div className="CardboxGroup">
+                            <Card
+                                title="Ylva"
+                                text="JUNGLE, ASSASSIN"
+                                image={require('./../images/Cards/Ylva_Card.png')}
+                                link="/Ylva/" />
                             <Card
                                 title="Anka"
                                 text="LANE, ASSASSIN"
