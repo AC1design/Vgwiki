@@ -12,9 +12,8 @@ const IndexPage = () => (
     <meta name="theme-color" content="#1f1f21" />
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>VGWIKI</h1>
-        <h2>A Vainglory Wiki</h2>
-        <p>UPDATE 3.9</p>
+        <h1>VAINGLORY WIKI</h1>
+        <p>UPDATE 3.10</p>
       </div>
       <svg width="100%" height="145" viewBox="0 0 100% 200" fill="none">
   <path fill="#1f1f21">
@@ -32,7 +31,6 @@ const IndexPage = () => (
     <AdComponent></AdComponent>
     <Tabsind></Tabsind>
 <MediaQuery query="(max-width: 1366px)">
-      
       <MobileHeroesTab></MobileHeroesTab>
       <MobileItemsTab></MobileItemsTab> 
 </MediaQuery>
