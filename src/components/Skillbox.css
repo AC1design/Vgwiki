@@ -107,5 +107,13 @@
     background: rgba(128, 128, 128, 0.171);
 }
 
+@media (min-width: 1367px) {
+    .SkillboxGroup {
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    margin-left: -70px;
+}
+}
+
 ::-webkit-scrollbar { display: none; }
 

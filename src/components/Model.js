@@ -11,7 +11,7 @@ background: linear-gradient(-180deg, #1F1F21 0%, rgba(31,31,33,0.00) 50%, #1F1F2
 `
 const Model = styled.img`
 vertical-align: middle;
-height:40vh;
+height: 45vh;
     margin-top: 30px;
     @media (max-width:480px) {
       vertical-align: middle;

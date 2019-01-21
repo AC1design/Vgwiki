@@ -37,12 +37,24 @@
     box-align: center;
 }
 
-@media (max-width:1740px) {
-    .StatboxGroup {grid-template-columns: repeat(5, auto);}
+
+@media (min-width:1367px) {
+    .StatboxGroup {
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width:1366px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 205px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    box-align: center;
+}
 }
 
-@media (max-width:1024px) {
-    
+@media (max-width:1740px) {
+    .StatboxGroup {grid-template-columns: repeat(5, auto);}
 }
 
 @media (max-width:640px) {

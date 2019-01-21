@@ -332,15 +332,6 @@ const Adagio = () => (
             />
         </div>
     </div>
-    <div className="Title">
-        <h1>SKINS</h1>
-        <div className="line">
-        </div>
-    </div>
-    <div className="SkinboxGroupScroll">
-        <div className="SkinboxGroup">
-        </div>
-    </div>
   </div >
   </Layout>
     )

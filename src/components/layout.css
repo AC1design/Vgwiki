@@ -166,6 +166,13 @@ a {
   justify-content: center;
 }
 
+@media (min-width: 1367px) {
+  .Title{
+    width: 1366px;
+margin: 0 auto;
+  }
+}
+
 @media (max-width: 1366px) {
     .Selectan h1 {
      text-align: left;
