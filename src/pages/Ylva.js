@@ -303,31 +303,33 @@ const Adagio = () => (
     <div className="TalentboxGroupScroll">
         <div className="TalentboxGroup">
             <Talentbox
-                title="GIFT OF LIFE"
+                        title="SWIFT SHOT"
                 subtitle="RARE"
                 color="#6393F9"
-                text="Gift of Fire (A) grants fortified health equal to a portion of its burst heal. Shorter cooldown."
-                text2="• Heal to Fort Health 80% (+10%)%"
+                        text="Charge Shot (A) reaches full charge faster."
+                        text2="• Charge Time (+10%)%"
                 text3="• Cooldown 90% (-1%)"
+                text4="• Damage"
                 image={require('./../images/Talents/Adagio_Rare.png')}
             />
             <Talentbox
                 title="Avenging Wrath"
                 subtitle="EPIC"
                 color="#7A02EA"
-                text="Core Collapse (B) creates four black-hole collapses. Longer cooldown and lower damage."
-                text2="• Dmg to Burning Targets 165% (+2.5%)"
-                text3="• Charge Time 95% (-4%)"
+                        text="Ylva may place up to 3 Blinding Mines (Ult)."
+                text2="• Trap Limit"
+                text3="• Cooldown"
+                        text4="• Damage"
+                        text5="• Bonus Range"
                 image={require('./../images/Talents/Adagio_Epic.png')}
             />
             <Talentbox
                 title="Healing Verse"
                 subtitle="LEGENDARY"
                 color="#FF9000"
-                text="Verse of Judgement (Ult) heals all of Adagio's allies within its radius. Shorter cooldown but lower damage."
-                text2="• Damage 60% (+10%)"
-                text3="• Cooldown 55% (-7.5%)"
-                text4="• Max Health to Heal 65% (+15%)"
+                        text="Ylva places a Blinding Mine (Ult) at her feet after using Crimson Fang (B). "
+                text2="• Cooldown "
+                text3="• Damage"
                 image={require('./../images/Talents/Adagio_Legendary.png')}
             />
         </div>

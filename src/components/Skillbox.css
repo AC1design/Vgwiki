@@ -112,6 +112,7 @@
     grid-template-columns: repeat(4, 300px);
     justify-content: center;
     margin-left: -70px;
+    grid-auto-rows: 1fr;
 }
 }
 
