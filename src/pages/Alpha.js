@@ -6,6 +6,7 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model'
 import Layout from '../components/layout'
+import Page from 'react-page-loading'
 
 const Alpha = () => (
     <Layout>

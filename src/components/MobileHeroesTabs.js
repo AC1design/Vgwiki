@@ -10,6 +10,8 @@ import Typography from '@material-ui/core/Typography';
 import Card from './Card'
 import { withStyles } from '@material-ui/core/styles';
 import styled from 'styled-components'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 const Selectan= styled.div`
 display:flex;
@@ -140,6 +142,7 @@ class MobileHeroesTab extends React.Component {
                         </VerticalTabs>
                     </Menu>
                     </div>
+                <ScrollAnimation animateIn="fadeInRight" animateOnce>
                 {value === 0 && <TabContainer >
                     <div className="CardboxGroupScroll">
                         <div className="CardboxGroup">
@@ -642,7 +645,7 @@ class MobileHeroesTab extends React.Component {
                         </div>
                     </div>
                 </TabContainer>}
-                
+                </ScrollAnimation>
             </div>
         );
     }

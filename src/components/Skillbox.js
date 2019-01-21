@@ -6,6 +6,8 @@ import 'video-react/dist/video-react.css'
 import { Table} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import H2 from './TalentH2Color'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 
 
@@ -29,7 +31,7 @@ class Skillbox extends React.Component {
     }
     render() {
         return (
-            <div>    {this.props.lvl2 && 
+            <ScrollAnimation animateIn="fadeInRight" animateOnce>    {this.props.lvl2 && 
                 <Modal isOpen={this.state.showModal} className="Modal" overlayClassName="Overlay" onRequestClose={this.handleCloseModal} shouldCloseOnOverlayClick={true}>
                 {this.props.video && <Player className="player" autoPlay="true" isFullscreen="false" loop controls="true">
                         <ControlBar disableCompletely={true} />
@@ -133,13 +135,13 @@ class Skillbox extends React.Component {
                     </Table>
                     <button onClick={this.handleCloseModal}>CLOSE</button>
                 </Modal>}
-                <div className="Skillbox" onClick={this.handleOpenModal} tabindex='0'>
+                <div className="Skillbox" onClick={this.handleOpenModal} tabindex='0' >
                     <img src={this.props.image} />
                     <h1>{this.props.title}</h1>
                     <h2>{this.props.subtitle}</h2>
                     <p>{this.props.text}</p>
                 </div>
-            </div >
+            </ScrollAnimation >
         );
     }
 }

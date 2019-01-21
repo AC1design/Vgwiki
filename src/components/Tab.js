@@ -4,6 +4,8 @@ import React from 'react'
 import Card from './Card';
 import Itemsbox from './Item';
 import MediaQuery from 'react-responsive';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 const Tabsind = () => (
     <MediaQuery query="(min-width: 1367px)">
@@ -18,6 +20,7 @@ const Tabsind = () => (
         <TabPanel>
             <div className="Selectan">
             <h1>Select an Hero</h1>
+          
           <Tabs>
             <TabList className="Subcategory">
               <Tab>All</Tab>
@@ -27,6 +30,7 @@ const Tabsind = () => (
               <Tab>Sniper</Tab>
               <Tab>Warrior</Tab>
             </TabList>
+            <ScrollAnimation animateIn="fadeInRight" animateOnce>
             <TabPanel className="AllHeroes">
             <div className="CardboxGroup">
                 <Card
@@ -550,6 +554,7 @@ const Tabsind = () => (
                   link="/Tony/" />
               </div>
             </TabPanel>
+           </ScrollAnimation>
            </Tabs>
            </div>
         </TabPanel>
@@ -565,6 +570,7 @@ const Tabsind = () => (
               <Tab>Utility</Tab>
               <Tab>Consumable</Tab>
             </TabList>
+          <ScrollAnimation animateIn="fadeInRight" animateOnce>
             <TabPanel className="All">
               <div className="ItemboxGroup">
               <Itemsbox
@@ -3161,6 +3167,7 @@ Activate: Sprint for 2s (90s cooldown).
                 </Itemsbox>
                </div>
             </TabPanel>
+            </ScrollAnimation>
             </Tabs>
         </TabPanel>
         <TabPanel>

@@ -43,11 +43,12 @@
     margin-bottom: 40px;
     margin-left: 16px;
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(6, 300px);
     grid-column-gap: 20px;
+    grid-row-gap: 20px;
     justify-content: left;
     justify-items: stretch;
-    overflow: visible;
+    min-height: 100%;
 }
 
 .TalentboxGroupScroll{
@@ -63,6 +64,7 @@
     grid-template-columns: repeat(4, 300px);
     justify-content: center;
     margin-left: -70px;
+    grid-auto-rows: 1fr;
 }
 }
 

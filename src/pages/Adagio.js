@@ -6,12 +6,14 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model'
 import Layout from '../components/layout'
+import Page from 'react-page-loading'
 
 
 const Adagio = () => (
 <Layout>
 <div style={{ height: "100%" }}>
 <meta name="theme-color" content="#1f1f21"/>
+            <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
                 bgdesktop={require("./../images/BG/Adagio_Desktop.jpg")}
                 bgtablet={require("./../images/BG/Adagio_Tablet.jpg")}
@@ -349,6 +351,7 @@ const Adagio = () => (
                 image={require('./../images/Skins/Adagio_Ra_Rare.png')} />
         </div>
     </div>
+            </Page>
   </div >
   </Layout>
     )

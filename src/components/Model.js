@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 
 const Bgmodel = styled.div`
@@ -19,9 +21,11 @@ height: 45vh;
 `
 
 const Models = props => (
+  <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
     <Bgmodel bgmodel={props.bgmodel}>
     <Model src={props.model}></Model>
     </Bgmodel>
+    </ScrollAnimation>
 )
 
 

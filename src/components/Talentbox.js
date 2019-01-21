@@ -1,9 +1,12 @@
 import React from 'react'
 import '../components/Talentbox.css'
 import H2 from './TalentH2Color'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 const Talentbox = props => (
-	<div className="Talentbox">
+	<ScrollAnimation className='Talentbox' animateIn="fadeInRight" animateOnce>
+	
 		<img src={props.image} />
 		<h1>{props.title}</h1>
 		<H2 color={props.color}> {props.subtitle} </H2>
@@ -12,7 +15,7 @@ const Talentbox = props => (
         <p>{props.text3}</p>
 		<p>{props.text4}</p>
 		<p>{props.text5}</p>
-	</div>
+	</ScrollAnimation>
 )
 
 export default Talentbox

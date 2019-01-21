@@ -2,6 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import Modal from 'react-modal-video'
 import 'react-modal-video/css/modal-video.min.css'
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
+
 
 const Hero = styled.div`
     display: flex;
@@ -13,7 +16,6 @@ const Hero = styled.div`
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    animation: ModelAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);;
 
 @media (max-width:1024px) {
       background-size: cover;
@@ -155,7 +157,7 @@ class Heroes extends React.Component {
     }
     render() {
         return (
-            <div>
+            <ScrollAnimation animateIn="fadeIn" animateOnce duration={3}>
                 <Modal channel='youtube' isOpen={this.state.isOpen} videoId={this.props.spotlight} onClose={() => this.setState({ isOpen: false })}  onRequestClose={this.handleCloseModal} shouldCloseOnOverlayClick={true}>
                 </Modal>
                 <Hero bgdesktop={this.props.bgdesktop} bgtablet={this.props.bgtablet} bgmobile={this.props.bgmobile}>
@@ -166,7 +168,7 @@ class Heroes extends React.Component {
                         <Button onClick={this.openModal}>SPOTLIGHT</Button>
         </HeroGroup>
     </Hero>
-            </div >
+            </ScrollAnimation >
         );
     }
 }

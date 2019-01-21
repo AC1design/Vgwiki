@@ -6,11 +6,12 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model'
 import Layout from '../components/layout'
-
+import Page from 'react-page-loading'
 
 const Adagio = () => (
 <Layout>
 <div style={{ height: "100%" }}>
+            <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
 <meta name="theme-color" content="#1f1f21"/>
     <Heroes
                 bgdesktop={require("./../images/BG/Ylva_Desktop.jpg")}
@@ -100,6 +101,7 @@ const Adagio = () => (
                 subtitle="HEROIC PERK"
                         image={require('./../images/Ability/Adagio-P.png')}
                         text="Ylva can detect the location and movement direction of enemy heroes through walls and brush, as long as they are moving and within her vision range."
+                        lvl2=' '
             />
             <Skillbox
                         video={require('./../images/SkillVideos/Ylva-A.mp4')}
@@ -334,6 +336,7 @@ const Adagio = () => (
             />
         </div>
     </div>
+    </Page>
   </div >
   </Layout>
     )
