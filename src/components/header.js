@@ -110,7 +110,7 @@ handleScroll = (event) => {
         <h1 style={{ fontSize: '14px', marginLeft: '16px', marginTop: '20px',}}>Heroes</h1>
         <StyledDivider variant="middle" />
         <StyledList>
-          {['', 'Adagio', 'Alpha', 'Anka', 'Ardan', 'Baptiste', 'Baron', 'Blackfeather',
+          {['Ylva', 'Adagio', 'Alpha', 'Anka', 'Ardan', 'Baptiste', 'Baron', 'Blackfeather',
           'Catherine', 'Celeste', 'Churnwalker', 'Flicker', 'Fortress', 'Glaive', 'Grace', 'Grumpjaw',
             'Gwen', 'Idris', 'Inara', 'Joule', 'Kensei', 'Kestrel', 'Kinetic', 'Koshka',
             'Krul', 'Lance', 'Lorelai', 'Lyra', 'Magnus', 'Malene', 'Ozo', 'Petal',

@@ -142,7 +142,6 @@ class MobileHeroesTab extends React.Component {
                         </VerticalTabs>
                     </Menu>
                     </div>
-                <ScrollAnimation animateIn="fadeInRight" animateOnce>
                 {value === 0 && <TabContainer >
                     <div className="CardboxGroupScroll">
                         <div className="CardboxGroup">
@@ -645,7 +644,7 @@ class MobileHeroesTab extends React.Component {
                         </div>
                     </div>
                 </TabContainer>}
-                </ScrollAnimation>
+                
             </div>
         );
     }

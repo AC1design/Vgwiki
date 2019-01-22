@@ -144,7 +144,6 @@ class MobileItemsTab extends React.Component {
                         </VerticalTabs>
                     </Menu>
                 </div>
-            <ScrollAnimation animateIn="fadeInRight" animateOnce>
                 {value === 0 && <TabContainer >
                     <div className="ItemboxGroupScroll">
                         <div className="ItemboxGroup">
@@ -2753,7 +2752,6 @@ Activate: Sprint for 2s (90s cooldown).
                         </div>
                     </div>
                 </TabContainer>}
-</ScrollAnimation>
             </div>
         );
     }
