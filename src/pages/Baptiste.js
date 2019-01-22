@@ -6,10 +6,12 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Layout from '../components/layout'
 import Models from '../components/Model'
+import Page from 'react-page-loading'
 
 
 const Baptiste = () => (
     <Layout>
+        <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Baptiste_Desktop.jpg")}
         bgtablet={require("./../images/BG/Baptiste_Tablet.jpg")}
@@ -182,6 +184,7 @@ const Baptiste = () => (
                 image={require('./../images/Skins/Baptiste_Anubis_Epic.png')} />
         </div>
     </div>
+    </Page>
   </Layout>
     )
 

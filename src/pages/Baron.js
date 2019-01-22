@@ -6,11 +6,13 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model';
 import Layout from '../components/layout'
+import Page from 'react-page-loading'
 
 
 const Baron = () => (
     <Layout>
 <div style={{ height: "100%" }}>
+            <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Baron_Desktop.jpg")}
         bgtablet={require("./../images/BG/Baron_Tablet.jpg")}
@@ -193,6 +195,7 @@ const Baron = () => (
                 image={require('./../images/Skins/Baron_Fly_or_Die_Legendary.png')} />
         </div>
     </div>
+    </Page>
   </div >
   </Layout>
     )

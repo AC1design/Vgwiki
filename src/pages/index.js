@@ -6,10 +6,12 @@ import StickyFooter from 'react-sticky-footer';
 import MobileHeroesTab from '../components/MobileHeroesTabs';
 import MobileItemsTab from '../components/MobileItemsTabs';
 import AdComponent from '../components/ad';
+import Page from 'react-page-loading'
 
 const IndexPage = () => (
   <Layout>
     <meta name="theme-color" content="#1f1f21" />
+    <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <div className="Hero">
       <div className="HeroGroup">
         <h1>VAINGLORY WIKI</h1>
@@ -58,6 +60,7 @@ const IndexPage = () => (
       © 2018 Copyright: <a href="https://twitter.com/AngeloCant1">AngeloC</a>
 </StickyFooter>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </Page>
   </Layout>
 )
 

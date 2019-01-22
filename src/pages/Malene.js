@@ -6,10 +6,12 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model';
 import Layout from '../components/layout';
+import Page from 'react-page-loading'
 
 
 const Malene = () => (
     <Layout>
+        <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Malene_Desktop.jpg")}
         bgtablet={require("./../images/BG/Malene_Tablet.jpg")}
@@ -189,6 +191,7 @@ const Malene = () => (
                 image={require('./../images/Skins/Malene_Trick_or_Treat.png')} />
         </div>
     </div>
+    </Page>
   </Layout>
     )
 

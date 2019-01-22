@@ -12,7 +12,6 @@ const Adagio = () => (
 <Layout>
 <div style={{ height: "100%" }}>
             <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
-<meta name="theme-color" content="#1f1f21"/>
     <Heroes
                 bgdesktop={require("./../images/BG/Ylva_Desktop.jpg")}
                 bgtablet={require("./../images/BG/Ylva_Tablet.jpg")}

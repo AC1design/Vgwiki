@@ -6,10 +6,11 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model';
 import Layout from '../components/layout';
+import Page from 'react-page-loading'
 
 const Kinetic = () => (
-    <div style={{ height: "100%" }}>
     <Layout>
+        <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Kinetic_Desktop.jpg")}
         bgtablet={require("./../images/BG/Kinetic_Tablet.jpg")}
@@ -180,9 +181,8 @@ const Kinetic = () => (
                 image={require('./../images/Skins/Kinetic_Enforcer.png')} />
         </div>
     </div>
+    </Page>
   </Layout>
-
-  </div >
     )
 
 export default Kinetic

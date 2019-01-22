@@ -6,11 +6,12 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model';
 import Layout from '../components/layout';
+import Page from 'react-page-loading'
 
 
 const Magnus = () => (
     <Layout>
-        <meta name="theme-color" content="#1f1f21" />
+        <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
         <Heroes
             bgdesktop={require("./../images/BG/Magnus_Desktop.jpg")}
             bgtablet={require("./../images/BG/Magnus_Tablet.jpg")}
@@ -272,6 +273,7 @@ stats1='Cooldown'
                     image={require('./../images/Skins/Magnus_Masquerade.jpg')} />
             </div>
         </div>
+        </Page>
     </Layout>
 )
 

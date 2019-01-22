@@ -6,10 +6,12 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model';
 import Layout from '../components/layout';
+import Page from 'react-page-loading'
 
 const Koshka = () => (
     <Layout>
 <div style={{ height: "100%" }}>
+            <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Koshka_Desktop.jpg")}
         bgtablet={require("./../images/BG/Koshka_Tablet.jpg")}
@@ -206,6 +208,7 @@ const Koshka = () => (
                 image={require('./../images/Skins/Koshka_Red_Lantern_LE.png')} />
            </div>
     </div>
+    </Page>
   </div >
   </Layout>
     )

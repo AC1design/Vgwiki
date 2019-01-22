@@ -6,11 +6,13 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model';
 import Layout from '../components/layout';
+import Page from 'react-page-loading'
 
 
 const Tony = () => (
     <Layout>
 <div style={{ height: "100%" }}>
+            <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Tony_Desktop.jpg")}
         bgtablet={require("./../images/BG/Tony_Tablet.jpg")}
@@ -173,6 +175,7 @@ const Tony = () => (
                 image={require('./../images/Skins/Tony_SteamKnight.png')} />
         </div>
     </div>
+    </Page>
   </div >
   </Layout>
     )

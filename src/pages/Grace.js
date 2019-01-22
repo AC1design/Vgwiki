@@ -6,11 +6,13 @@ import Skinbox from '../components/SkinBox';
 import Heroes from '../components/Hero';
 import Models from '../components/Model';
 import Layout from '../components/layout'
+import Page from 'react-page-loading'
 
 
 const Grace = () => (
     <Layout>
 <div style={{ height: "100%" }}>
+            <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Grace_Desktop.jpg")}
         bgtablet={require("./../images/BG/Grace_Tablet.jpg")}
@@ -190,6 +192,7 @@ const Grace = () => (
                 image={require('./../images/Skins/Grace_Tea_Party.png')} />
         </div>
     </div>
+    </Page>
   </div >
   </Layout>
     )

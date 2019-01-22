@@ -10,7 +10,7 @@ import Page from 'react-page-loading'
 
 const Alpha = () => (
     <Layout>
-<meta name="theme-color" content="#1f1f21"/>
+        <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Alpha_Desktop.jpg")}
         bgtablet={require("./../images/BG/Alpha_Tablet.jpg")}
@@ -321,6 +321,7 @@ Core Overload (status effect): Each stack increases health cost of Core Charge b
                 image={require('./../images/Skins/Alpha_Heartless_Rare.png')} />
         </div>
     </div>
+    </Page>
   </Layout>
     )
 

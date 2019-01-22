@@ -12,7 +12,6 @@ import Page from 'react-page-loading'
 const Adagio = () => (
 <Layout>
 <div style={{ height: "100%" }}>
-<meta name="theme-color" content="#1f1f21"/>
             <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
                 bgdesktop={require("./../images/BG/Adagio_Desktop.jpg")}

@@ -11,6 +11,7 @@ import Page from 'react-page-loading'
 
 const Anka = () => (
     <Layout>
+        <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
     <Heroes
         bgdesktop={require("./../images/BG/Anka_Desktop.jpg")}
         bgtablet={require("./../images/BG/Anka_Tablet.jpg")}
@@ -274,6 +275,7 @@ const Anka = () => (
                 image={require('./../images/Skins/Anka_Frostborn.png')} />
         </div>
     </div>
+    </Page>
   </Layout>
     )
 
