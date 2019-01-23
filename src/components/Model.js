@@ -21,11 +21,12 @@ height: 45vh;
 `
 
 const Models = props => (
-  <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
     <Bgmodel bgmodel={props.bgmodel}>
+    <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
     <Model src={props.model}></Model>
-    </Bgmodel>
     </ScrollAnimation>
+    </Bgmodel>
+    
 )
 
 
