@@ -18,7 +18,7 @@ const Ylva = () => (
                 bgmobile={require("./../images/BG/Ylva_Mobile.jpg")}
         heroname="YLVA"
         role='JUNGLER, ASSASSIN'
-        description="Team healer and damage enhancer with a large area stun."
+        description="A huntress that stalks her prey and lays traps for them."
                     spotlight="K6kHZW3Vq2g">
     </Heroes>
     <div className="Title">
