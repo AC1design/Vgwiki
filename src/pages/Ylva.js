@@ -8,7 +8,7 @@ import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
 
-const Adagio = () => (
+const Ylva = () => (
 <Layout>
 <div style={{ height: "100%" }}>
             <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
@@ -84,8 +84,8 @@ const Adagio = () => (
         <div className="line" />
     </div>
    <Models
-   bgmodel={require("./../images/BG/Adagioblurred.jpg")}
-   model={require("./../images/models/Adagio.png")}>
+   bgmodel={require("./../images/BG/Ylvablurred.jpg")}
+   model={require("./../images/models/Ylva.png")}>
    </Models>
     <div className="Title">
         <h1>SKILLS (CLICK FOR MORE)</h1>
@@ -98,7 +98,7 @@ const Adagio = () => (
                         video={require('./../images/SkillVideos/Ylva-P.mp4')}
                         title="Hunter’s Sense"
                 subtitle="HEROIC PERK"
-                        image={require('./../images/Ability/Adagio-P.png')}
+                        image={require('./../images/Ability/Ylva-P.png')}
                         text="Ylva can detect the location and movement direction of enemy heroes through walls and brush, as long as they are moving and within her vision range."
                         lvl2=' '
             />
@@ -108,7 +108,7 @@ const Adagio = () => (
                 subtitle="A ABILITY"
                 text="Ylva charges her weapon, causing her next basic attack to deal bonus damage based on the time spent charging. After it reaches full charge the attack will also stun. While active, Ylva is slowed. Reactivate to cancel. 
 • Overdrive: At max rank, the time it takes to reach full charge is reduced."
-                        image={require('./../images/Ability/Adagio-A.jpg')}
+                        image={require('./../images/Ability/Ylva-A.png')}
                         stats1='Cooldown'
                         row11='8s'
                         row12='7.5s'
@@ -187,7 +187,7 @@ const Adagio = () => (
                         video={require('./../images/SkillVideos/Ylva-B.mp4')}
                         title="Crimson Fang"
                 subtitle="B ABILITY"
-                        image={require('./../images/Ability/Adagio-B.jpg')}
+                        image={require('./../images/Ability/Ylva-B.png')}
                 text="Ylva lunges at her target to deliver a powerful strike that deals more damage to immobilized targets. She then gains additional move and attack speed for a short duration. 
 • Overdrive: At max rank, lunge range is increased."
                         stats1='Cooldown'
@@ -260,7 +260,7 @@ const Adagio = () => (
                         video={require('./../images/SkillVideos/Ylva-C.mp4')}
                 title="VERSE OF JUDGEMENT"
                 subtitle="ULTIMATE"
-                        image={require('./../images/Ability/Adagio-C.jpg')}
+                        image={require('./../images/Ability/Ylva-C.png')}
                 text="Ylva places a mine that arms and stealths. When an enemy hero touches it, it will explode after a short delay, causing all enemies within range to take damage and become rooted. Only 1 trap can exist at once. 
 • Traps expire after a minute. Basic attacks reduce their remaining duration."
                         stats1='Cooldown'
@@ -340,4 +340,4 @@ const Adagio = () => (
   </Layout>
     )
 
-export default Adagio
+export default Ylva

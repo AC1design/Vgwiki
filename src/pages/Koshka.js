@@ -206,6 +206,11 @@ const Koshka = () => (
                 title="Red Lantern Koshka"
                 text="Limited Edition"
                 image={require('./../images/Skins/Koshka_Red_Lantern_LE.png')} />
+                        <Skinbox
+                            color="red"
+                            title="Red Lantern Lotus Koshka"
+                            text="Special Edition"
+                            image={require('./../images/Skins/Koshka_Red_Lantern_Lotus.png')} />
            </div>
     </div>
     </Page>
