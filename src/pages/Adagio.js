@@ -291,7 +291,7 @@ const Adagio = () => (
                 subtitle="RARE"
                 color="#6393F9"
                 text="Gift of Fire (A) grants fortified health equal to a portion of its burst heal. Shorter cooldown."
-                text2="• Heal to Fort Health 80% (+10%)%"
+                text2="• Heal to Fort Health 80% (+10%)"
                 text3="• Cooldown 90% (-1%)"
                 image={require('./../images/Talents/Adagio_Rare.png')}
             />

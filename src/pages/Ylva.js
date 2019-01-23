@@ -308,30 +308,30 @@ const Ylva = () => (
                 subtitle="RARE"
                 color="#6393F9"
                         text="Charge Shot (A) reaches full charge faster."
-                        text2="• Charge Time (+10%)%"
-                text3="• Cooldown 90% (-1%)"
-                text4="• Damage"
-                image={require('./../images/Talents/Adagio_Rare.png')}
+                        text2="• Charge Time 80%"
+                text3="• Cooldown 100%"
+                text4="• Damage 100%"
+                image={require('./../images/Talents/Ylva_Rare.png')}
             />
             <Talentbox
-                title="Avenging Wrath"
+                title="MULTY MINE"
                 subtitle="EPIC"
                 color="#7A02EA"
                         text="Ylva may place up to 3 Blinding Mines (Ult)."
-                text2="• Trap Limit"
-                text3="• Cooldown"
-                        text4="• Damage"
-                        text5="• Bonus Range"
-                image={require('./../images/Talents/Adagio_Epic.png')}
+                text2="• Trap Limit 3"
+                text3="• Cooldown 80%"
+                        text4="• Damage 75%"
+                        text5="• Bonus Range 6"
+                image={require('./../images/Talents/Ylva_Epic.png')}
             />
             <Talentbox
-                title="Healing Verse"
+                title="SHATTERED FANG"
                 subtitle="LEGENDARY"
                 color="#FF9000"
                         text="Ylva places a Blinding Mine (Ult) at her feet after using Crimson Fang (B). "
-                text2="• Cooldown "
-                text3="• Damage"
-                image={require('./../images/Talents/Adagio_Legendary.png')}
+                text2="• Cooldown 90%"
+                text3="• Damage 100%"
+                image={require('./../images/Talents/Ylva_Legendary.png')}
             />
         </div>
     </div>
