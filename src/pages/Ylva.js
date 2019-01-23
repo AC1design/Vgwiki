@@ -19,7 +19,7 @@ const Ylva = () => (
         heroname="YLVA"
         role='JUNGLER, ASSASSIN'
         description="Team healer and damage enhancer with a large area stun."
-                spotlight="TQx1TVGANF4">
+                    spotlight="K6kHZW3Vq2g">
     </Heroes>
     <div className="Title">
         <h1>STATS (LEVEL 1-12)</h1>
