@@ -1,0 +1,104 @@
+.Emojis{
+align-self: center;
+  justify-self: center;
+}
+
+.Emojibox {
+    position: relative;
+	border-radius: 100px;
+	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    background-color: #2B2B2D;
+    padding-bottom:10px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    padding: 20px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    min-height: 100px;
+    max-width: 100px;
+   outline: none;
+}
+
+.Emojibox:hover {
+	transform: scale(1.1, 1.1);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.233);
+}
+
+.Emojibox img {
+    height: 50px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px
+}
+
+.Emojiboxh1 {
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+    margin-top: 20px;
+    -webkit-font-smoothing: antialiased;
+    justify-content: center;
+    width: 100px;
+}
+
+
+.EmojiboxGroup {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.EmojiboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+}
+
+
+
+  @media (max-width: 1366px) {
+    .EmojiboxGroup {
+    margin: 20px 16px 40px;
+    display: grid;
+    grid-template-columns: repeat(10, 140px);
+    grid-column-gap: 20px;
+    justify-content: left;
+    justify-items: stretch;
+    overflow: visible;
+}
+
+.EmojiboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+    padding: 20px 0px -10px;
+}
+  }
+  
+  @media (max-width: 720px) {
+    .ItemboxGroup {
+    margin: 20px 16px 40px;
+    display: grid;
+    grid-template-columns: repeat(82, 195px);
+    grid-column-gap: 20px;
+    justify-content: left;
+    justify-items: stretch;
+    overflow: visible;
+}
+
+.ItemboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+    padding: 20px 0px -10px;
+}
+}
+
+::-webkit-scrollbar { display: none; }

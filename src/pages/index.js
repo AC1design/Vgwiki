@@ -7,6 +7,7 @@ import MobileHeroesTab from '../components/MobileHeroesTabs';
 import MobileItemsTab from '../components/MobileItemsTabs';
 import AdComponent from '../components/ad';
 import Page from 'react-page-loading'
+import Charms from '../components/MobileCharmsTab';
 
 const IndexPage = () => (
   <Layout>
@@ -30,11 +31,11 @@ const IndexPage = () => (
   </path>
 </svg>
     </div>
-    <AdComponent></AdComponent>
     <Tabsind></Tabsind>
 <MediaQuery query="(max-width: 1366px)">
       <MobileHeroesTab></MobileHeroesTab>
-      <MobileItemsTab></MobileItemsTab> 
+      <MobileItemsTab></MobileItemsTab>
+      <Charms></Charms>
 </MediaQuery>
     <StickyFooter
     className="footer"

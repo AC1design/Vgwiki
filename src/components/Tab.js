@@ -6,6 +6,7 @@ import Itemsbox from './Item';
 import MediaQuery from 'react-responsive';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
+import Emojibox from './Emoji';
 
 const Tabsind = () => (
     <MediaQuery query="(min-width: 1367px)">
@@ -20,7 +21,6 @@ const Tabsind = () => (
         <TabPanel>
             <div className="Selectan">
             <h1>Select an Hero</h1>
-          
           <Tabs>
             <TabList className="Subcategory">
               <Tab>All</Tab>
@@ -3171,10 +3171,36 @@ Activate: Sprint for 2s (90s cooldown).
             </Tabs>
         </TabPanel>
         <TabPanel>
-      <Tabs>
-      
-      </Tabs>
     </TabPanel>
+      <TabPanel>
+        <div className='EmojiboxGroup'>
+
+          <Emojibox
+            itemimg={require('./../images/Emoji/CallMe.png')}
+            itemname="Call Me"
+          />
+          <Emojibox
+            itemimg={require('./../images/Emoji/Heart_Broken.png')}
+            itemname="Broken Heart"
+          />
+          <Emojibox
+            itemimg={require('./../images/Emoji/Heart.png')}
+            itemname="Heart"
+          />
+          <Emojibox
+            itemimg={require('./../images/Emoji/Candy_Shop.png')}
+            itemname="Kiss"
+          />
+          <Emojibox
+            itemimg={require('./../images/Emoji/Poop_Gold.png')}
+            itemname="Gold Poop"
+          />
+          <Emojibox
+            itemimg={require('./../images/Emoji/Source_Angel_Happy.png')}
+            itemname=" Happy Angel"
+          />
+        </div>
+      </TabPanel>
     </Tabs>
     
     </MediaQuery>
