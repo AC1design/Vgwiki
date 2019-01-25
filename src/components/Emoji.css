@@ -63,7 +63,7 @@ align-self: center;
 
   @media (max-width: 1366px) {
     .EmojiboxGroup {
-    margin: 20px 16px 40px;
+    margin: 20px 0px 40px;
     display: grid;
     grid-template-columns: repeat(10, 140px);
     grid-column-gap: 20px;

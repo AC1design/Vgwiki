@@ -36,9 +36,11 @@ const IndexPage = () => (
     <Tabsind></Tabsind>
 <MediaQuery query="(max-width: 1366px)">
       <MobileHeroesTab></MobileHeroesTab>
+        <AdComponent></AdComponent>
       <MobileItemsTab></MobileItemsTab>
       <Charms></Charms>
 </MediaQuery>
+      <AdComponent></AdComponent>
     <StickyFooter
     className="footer"
       bottomThreshold={50}
