@@ -33,13 +33,6 @@ const IndexPage = () => (
 </svg>
     </div>
       <AdComponent></AdComponent>
-      <AdSense.Google
-        client='ca-pub-9376266750696675'
-        slot='3515656105'
-        style={{ display: 'block' }}
-        format='auto'
-        responsive='true'
-      />
     <Tabsind></Tabsind>
 <MediaQuery query="(max-width: 1366px)">
       <MobileHeroesTab></MobileHeroesTab>
