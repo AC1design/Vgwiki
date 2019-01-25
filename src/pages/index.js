@@ -5,9 +5,10 @@ import MediaQuery from 'react-responsive';
 import StickyFooter from 'react-sticky-footer';
 import MobileHeroesTab from '../components/MobileHeroesTabs';
 import MobileItemsTab from '../components/MobileItemsTabs';
-import AdComponent from '../components/ad';
 import Page from 'react-page-loading'
 import Charms from '../components/MobileCharmsTab';
+import AdSense from 'react-adsense';
+import AdComponent from '../components/ad';
 
 const IndexPage = () => (
   <Layout>
@@ -31,6 +32,14 @@ const IndexPage = () => (
   </path>
 </svg>
     </div>
+      <AdComponent></AdComponent>
+      <AdSense.Google
+        client='ca-pub-9376266750696675'
+        slot='3515656105'
+        style={{ display: 'block' }}
+        format='auto'
+        responsive='true'
+      />
     <Tabsind></Tabsind>
 <MediaQuery query="(max-width: 1366px)">
       <MobileHeroesTab></MobileHeroesTab>

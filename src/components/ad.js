@@ -10,7 +10,9 @@ export default class AdComponent extends React.Component {
             <ins className='adsbygoogle'
                 style={{ display: 'block' }}
                 data-ad-client='ca-pub-9376266750696675'
-                data-ad-format='auto' />
+                slot='3515656105'
+                data-ad-format='auto'
+                enable_page_level_ads= 'true' />
         );
     }
 }
