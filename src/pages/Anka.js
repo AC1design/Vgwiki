@@ -8,7 +8,6 @@ import Models from '../components/Model';
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
 
-
 const Anka = () => (
     <Layout>
         <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1}>
@@ -105,7 +104,7 @@ const Anka = () => (
                 video={require('./../images/SkillVideos/Anka-A.mp4')}
                 title="SHIMMER BLADE"
                 subtitle="A ABILITY"
-                text="Anka throws a dagger in the target direction, dealing damage to the first enemy hit. When the dagger hits an enemy, Anka can reactivate the ability within 3s to blink next to the victim. 
+                text="Anka throws a dagger in the target direction, dealing damage to the first enemy hit. When the dagger hits an enemy, Anka can reactivate the ability within 2s to blink next to the victim. 
 • Anka gains a burst of decaying movement speed upon blinking."
                     image={require('./../images/Ability/Anka-A.jpg')}
                     lvl1='LVL 1'
@@ -114,7 +113,6 @@ const Anka = () => (
                     lvl4='LVL 4'
                     lvl5='LVL 5'
                     cp='CR%'
-                    wp='WR%'
                 color='#38eeff'
                 stats1='Cooldown'
                 row11='12s'
@@ -131,19 +129,19 @@ const Anka = () => (
                 row25='50'
                 row26=' '
                 stats3='Damage'
-                row31='35'
-                row32='60'
-                row33='85'
-                row34='110'
-                row35='160'
+                row31='25'
+                row32='50'
+                row33='75'
+                row34='100'
+                row35='150'
                 row36='40%'
                 stats4='Damage (Blink)'
-                row41='70'
-                row42='120'
-                row43='170'
-                row44='220'
-                row45='320'
-                row46='80%'
+                row41='50'
+                row42='85'
+                row43='120'
+                row44='155'
+                row45='225'
+                row46='60%'
                 stats5='Range'
                 row51='8'
                 row52='9'
@@ -162,8 +160,9 @@ const Anka = () => (
                     lvl1='LVL 1'
                     lvl2='LVL 2'
                     lvl3='LVL 3'
+                        lvl4='LVL 4'
+                        lvl5='LVL 5'
                     cp='CR%'
-                    wp='WR%'
                     color='#38eeff'
                     stats1='Cooldown'
                     row11='8s'
@@ -181,11 +180,11 @@ const Anka = () => (
                     row26=' '
                     stats3='Damage'
                     row31='50'
-                    row32='80'
-                    row33='110'
-                    row34='140'
-                    row35='200'
-                    row36='40%'
+                    row32='75'
+                    row33='100'
+                    row34='125'
+                    row35='175'
+                    row36='50%'
             />
             <Skillbox
                 video={require('./../images/SkillVideos/Anka-C.mp4')}
@@ -199,12 +198,11 @@ const Anka = () => (
                     lvl2='LVL 2'
                     lvl3='LVL 3'
                     cp='CR%'
-                    wp='WR%'
                     color='#38eeff'
                     stats1='Cooldown'
-                    row11='90s'
-                    row12='70s'
-                    row13='50s'
+                    row11='100s'
+                    row12='80s'
+                    row13='60s'
                     row16=' '
                     stats2='Energy Cost'
                     row21='70'

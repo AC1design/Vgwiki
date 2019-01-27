@@ -8,7 +8,6 @@ import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
 
-
 const Adagio = () => (
 <Layout>
 <div style={{ height: "100%" }}>
