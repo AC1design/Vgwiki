@@ -99,45 +99,197 @@ const Blackfeather = () => (
                 title="HEARTTHROB"
                 subtitle="HEROIC PERK"
                         image={require("./../images/Ability/Blackfeather-P.png")}
-                text="Blackfeather's attacks and abilities apply Heartthrob stacks to enemies. Any time stacks are added or refreshed, Blackfeather deals bonus crystal damage for each stack already on the target.
-
-                • Bonus damage: 5-10 (level 1-12) (+15% of crystal power).
-                • Mas 2 stacks on minions and monsters, 5 stacks on heroes and objectives.
-                • Stacks appear as broken hearts around enemies.
-                • Instead of energy, Blackfeather uses Focus for his abilities. This is capped at 100 and naturally regenerates 10 per second. Blackfeather also recovers and additional 10 focus for each basic attack he lands.
-                "
+                text="Blackfeather's attacks and abilities apply Heartthrob stacks to enemies. Any time stacks are added or refreshed, Blackfeather deals bonus crystal damage for each stack already on the target. 
+• Bonus damage: 5-10 (level 1-12) (+15% of crystal power). 
+• Mas 2 stacks on minions and monsters, 5 stacks on heroes and objectives. 
+• Stacks appear as broken hearts around enemies. 
+• Instead of energy, Blackfeather uses Focus for his abilities. This is capped at 100 and naturally regenerates 10 per second. Blackfeather also recovers and additional 10 focus for each basic attack he lands."
             />
             <Skillbox
                 title="FEINT OF HEART"
                 subtitle="A ABILITY"
-                text="Blackfeather lunges to his target with a thrust of his sword, then gains 2.2 bonus movement speed for 3s.
-
-                • If the target has full Heartthrob stacks, it deals bonus weapon damage based on target's missing health
-                • Overdrive: At max rank, the cooldown for Feint of Heart is reset if the target is killed within 0.5s.
-                • Execute damage is capped against non-heroes.
-                • This ability triggers basic-attack effects."
+                text="Blackfeather lunges to his target with a thrust of his sword, then gains 2.2 bonus movement speed for 3s. 
+• If the target has full Heartthrob stacks, it deals bonus weapon damage based on target's missing health. 
+• Overdrive: At max rank, the cooldown for Feint of Heart is reset if the target is killed within 0.5s. 
+• Execute damage is capped against non-heroes. 
+• This ability triggers basic-attack effects."
                         image={require("./../images/Ability/Blackfeather-A.jpg")}
+                            lvl1='LVL 1'
+                            lvl2='LVL 2'
+                            lvl3='LVL 3'
+                            lvl4='LVL 4'
+                            lvl5='LVL 5'
+                            cp='CP%'
+                            color='#38eeff'
+                            wp='WP%'
+                            color2='red'
+                            stats1='Cooldown'
+                            row11='9s'
+                            row12='8.5s'
+                            row13='8s'
+                            row14='7.5s'
+                            row15='7s'
+                            row16=' '
+                            row17=' '
+                            stats2='Energy Cost'
+                            row21='0'
+                            row22='0'
+                            row23='0'
+                            row24='0'
+                            row25='0'
+                            row26=' '
+                            row27=' '
+                            stats3='Damege'
+                            row31='60'
+                            row32='95'
+                            row33='130'
+                            row34='165'
+                            row35='200'
+                            row36='50%'
+                            row37='100%'
+                            stats4='Missing Health %'
+                            row41='15%'
+                            row42='15%'
+                            row43='15%'
+                            row44='15%'
+                            row45='25%'
+                            row46=' '
+                            row47=' '
+                            stats5='Focus Cost'
+                            row51='60'
+                            row52='60'
+                            row53='60'
+                            row54='60'
+                            row55='60'
+                            row56=' '
+                            row57=' '
+                            stats6='Stacks'
+                            row61='1'
+                            row62='2'
+                            row63='3'
+                            row64='4'
+                            row65='5'
+                            row66=' '
+                            row67=' '
             />
             <Skillbox
                 title="ON POINT"
                 subtitle="B ABILITY"
                         image={require("./../images/Ability/Blackfeather-B.jpg")}
-                text="Blackfeather pierces all enemies in a line, damaging them.
-
-                • Overdrive: At max rank, On Point gains increased range.
-                • If this hits at least one enemy hero, Blackfeather also gains a 1.2s barrier that scales with 5% of his bonus health and recovers 35 focus.
-                • The amount of focus recovered is further increased with 2% of his max energy and 50% of his Energy Regen.
-                • Deals 50% less damage to minions."
+                text="Blackfeather pierces all enemies in a line, damaging them. 
+• Overdrive: At max rank, On Point gains increased range. 
+• If this hits at least one enemy hero, Blackfeather also gains a 1.2s barrier that scales with 5% of his bonus health and recovers 40 focus. 
+• The amount of focus recovered is further increased with 2% of his max energy and 50% of his Energy Regen. 
+• Deals less damage to minions."
+                            lvl1='LVL 1'
+                            lvl2='LVL 2'
+                            lvl3='LVL 3'
+                            lvl4='LVL 4'
+                            lvl5='LVL 5'
+                            cp='CP%'
+                            color='#38eeff'
+                            wp='WP%'
+                            color2='red'
+                            stats1='Cooldown'
+                            row11='6s'
+                            row12='5.5s'
+                            row13='5s'
+                            row14='4.5s'
+                            row15='3.5s'
+                            row16=' '
+                            row17=' '
+                            stats2='Energy Cost'
+                            row21='0'
+                            row22='0'
+                            row23='0'
+                            row24='0'
+                            row25='0'
+                            row26=' '
+                            row27=' '
+                            stats3='Damege'
+                            row31='80'
+                            row32='120'
+                            row33='160'
+                            row34='200'
+                            row35='240'
+                            row36='180%'
+                            row37='120%'
+                            stats4='Focus Cost'
+                            row41='60'
+                            row42='60'
+                            row43='60'
+                            row44='60'
+                            row45='40'
+                            row46=' '
+                            row47=' '
+                            stats5='Range'
+                            row51='7'
+                            row52='7'
+                            row53='7'
+                            row54='7'
+                            row55='9'
+                            row56=' '
+                            row57=' '
+                            stats6='Stacks'
+                            row61='125'
+                            row62='175'
+                            row63='225'
+                            row64='275'
+                            row65='325'
+                            row66=' '
+                            row67=' '
             />
             <Skillbox
                 title="ROSE OFFENSIVE"
                 subtitle="ULTIMATE"
                         image={require("./../images/Ability/Blackfeather-C.jpg")}
-                text="Blackfeather dashes and slashes all enemies along his path.
-
-                • During the dash, Blackfeather is immune to negative effects and has fortified health.
-                • This ability has 2 charges.
-                • This ability triggers basic-attack effects."
+                text="Blackfeather dashes and slashes all enemies along his path. 
+• During the dash, Blackfeather is immune to negative effects and has fortified health. 
+• This ability has 2 charges. 
+• This ability triggers basic-attack effects."
+                            lvl1='LVL 1'
+                            lvl2='LVL 2'
+                            lvl3='LVL 3'
+                            cp='CP%'
+                            color='#38eeff'
+                            wp='WP%'
+                            color2='red'
+                            stats1='Charge Time	'
+                            row11='40s'
+                            row12='30s'
+                            row13='20s'
+                            row16=' '
+                            row17=' '
+                            stats2='Energy Cost'
+                            row21='0'
+                            row22='0'
+                            row23='0'
+                            row26=' '
+                            row27=' '
+                            stats3='Damege'
+                            row31='100'
+                            row32='150'
+                            row33='200'
+                            row36='50%'
+                            row37='100%'
+                            stats4='Cooldown'
+                            row41='0.2s'
+                            row42='0.2s'
+                            row43='0.2s'
+                            row46=' '
+                            row47=' '
+                            stats5='Focus Cost'
+                            row51='60'
+                            row52='40'
+                            row53='20'
+                            row56=' '
+                            row57=' '
+                            stats6='Fortified Health'
+                            row61='75'
+                            row62='125'
+                            row63='175'
+                            row66=' '
+                            row67=' '
             />
         </div>
     </div>

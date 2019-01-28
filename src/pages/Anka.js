@@ -99,7 +99,7 @@ const Anka = () => (
                 subtitle="HEROIC PERK"
                     image={require('./../images/Ability/Anka-P.jpg')}
                 text="After 8s, Anka’s next basic attack on an enemy hero becomes Execute Strike, dealing bonus crystal damage equal to 19-30% (level 1-12) of the target’s missing health. Additionally, Anka fully refreshes Execute Strike and Shimmer Blade upon getting a hero kill or assist."
-            />
+            lvl2=' '/>
             <Skillbox
                 video={require('./../images/SkillVideos/Anka-A.mp4')}
                 title="SHIMMER BLADE"

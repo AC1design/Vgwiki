@@ -98,12 +98,12 @@ const Baptiste = () => (
                 title="REAP"
                 subtitle="HEROIC PERK"
                     image={require('./../images/Ability/Baptiste-P.png')}
-                text="Baptiste steals soul fragments through combat and is healed for each soul fragment acquired.
-                • Upon reaching 4 soul fragments, Baptiste is empowered for 4 seconds and deals increased damage but generates no additional soul fragments.
-                • Basic attacks generate one soul fragment
-                • Abilities generate one soul fragment for each enemy hero hit.
-                • Heal per Soul Fragment: 20-86 (level 1-12) (+ 25% of crystal power)
-                • Empowered effects: +35% basic-attack damage and +100% ability damage."
+                text="Baptiste steals soul fragments through combat and is healed for each soul fragment acquired. 
+• Upon reaching 4 soul fragments, Baptiste is empowered for 4 seconds and deals increased damage but generates no additional soul fragments. 
+• Basic attacks generate one soul fragment 
+• Abilities generate one soul fragment for each enemy hero hit 
+• Heal per Soul Fragment: 20-86 (level 1-12) (+ 25% of crystal power) 
+• Empowered effects: +35% basic-attack damage and +100% ability damage."
             />
             <Skillbox
                 title="BAD MOJO"
@@ -112,20 +112,141 @@ const Baptiste = () => (
                 • Enemies near the explosion take damage and the first enemy hit is slowed.
                 • Deals 50% less damage to minions."
                     image={require('./../images/Ability/Baptiste-A.jpg')}
-            />
+                        lvl1='LVL 1'
+                        lvl2='LVL 2'
+                        lvl3='LVL 3'
+                        lvl4='LVL 4'
+                        lvl5='LVL 5'
+                        cp='CP%'
+                        color='#38eeff'
+                        stats1='Cooldown'
+                        row11='4s'
+                        row12='3.8s'
+                        row13='3.6s'
+                        row14='3.4s'
+                        row15='3s'
+                        row16=' '
+                        stats2='Energy Cost'
+                        row21='40'
+                        row22='45'
+                        row23='50'
+                        row24='55'
+                        row25='60'
+                        row26=' '
+                        stats3='Damage'
+                        row31='80'
+                        row32='120'
+                        row33='160'
+                        row34='200'
+                        row35='280'
+                        row36='115%'
+                        stats4='Splash Damage	'
+                        row41='40'
+                        row42='60'
+                        row43='80'
+                        row44='100'
+                        row45='140'
+                        row46='60%'
+                        stats5='Slow'
+                        row51='60%'
+                        row52='60%'
+                        row53='60%'
+                        row54='60%'
+                        row55='60%'
+                        row56=' '
+                        stats6='Slow Duration'
+                        row61='0.8s'
+                        row62='0.8s'
+                        row63='0.8s'
+                        row64='0.8s'
+                        row65='1.2s'
+                        row66=' '/>
             <Skillbox
                 title="ORDAINED"
                 subtitle="B ABILITY"
                     image={require('./../images/Ability/Baptiste-B.jpg')}
                 text="Baptiste ordains a target enemy, damaging them and creating an ethereal prison around them. If the ordained target leaves the area, they are stunned and take additional damage."
-            />
+                        lvl1='LVL 1'
+                        lvl2='LVL 2'
+                        lvl3='LVL 3'
+                        lvl4='LVL 4'
+                        lvl5='LVL 5'
+                        cp='CP%'
+                        color='#38eeff'
+                        stats1='Cooldown'
+                    row11='17s'
+                    row12='16s'
+                    row13='15s'
+                    row14='14s'
+                    row15='13s'
+                    row16=' '
+                    stats2='Energy Cost'
+                    row21='60'
+                    row22='70'
+                    row23='80'
+                    row24='90'
+                    row25='100'
+                    row26='45%'
+                    stats3='Damege'
+                    row31='45'
+                    row32='75'
+                    row33='105'
+                    row34='135'
+                    row35='195'
+                    row36=' '
+                    stats4='Duration'
+                    row41='2.5'
+                    row42='2.5s'
+                    row43='2.5s'
+                    row44='2.5s'
+                    row45='2.5s'
+                    row46=' '
+                    stats5='Bonus Damage'
+                    row51='60'
+                    row52='100'
+                    row53='140'
+                    row54='180'
+                    row55='260'
+                    row56='60%'
+                    stats6='Stun Duration'
+                    row61='1.2s'
+                    row62='1.2s'
+                    row63='1.2s'
+                    row64='1.2s'
+                    row65='1.5s'
+                    row66=' '
+                    />
             <Skillbox
                 title="FEARSOME SHADE"
                 subtitle="ULTIMATE"
                     image={require('./../images/Ability/Baptiste-C.jpg')}
                 text="Baptiste summons waves of shade that terrorize enemies caught in their path. Enemies struck by the shade run from the source in fear and take damage each second.
                 • Deals 50% less damage to minions."
-            />
+                        lvl1='LVL 1'
+                        lvl2='LVL 2'
+                        lvl3='LVL 3'
+                        cp='CP%'
+                        color='#38eeff'
+                        stats1='Cooldown'
+                        row11='80'
+                        row12='65'
+                        row13='50'
+                        row16=' '
+                        stats2='Energy Cost'
+                        row21='60'
+                        row22='80'
+                        row23='100'
+                        row26=' '
+                        stats3='Damege'
+                        row31='120'
+                        row32='160'
+                        row33='200'
+                        row36='65%'
+                        stats4='Fear Duration'
+                        row41='1s'
+                        row42='1.3s'
+                        row43='1.6s'
+                        row46=' '/>
         </div>
     </div>
     <div className="Title">

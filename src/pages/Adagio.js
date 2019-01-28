@@ -100,7 +100,7 @@ const Adagio = () => (
                 subtitle="HEROIC PERK"
                         image={require('./../images/Ability/Adagio-P.png')}
                 text="Whenever enemies burning with Arcane Fire take damage from any source, Adagio regenerates 25% of that damage as energy."
-            />
+            lvl2=' '/>
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-A-Gift-of-Fire.mp4'}
                 title="GIFT OF FIRE"

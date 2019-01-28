@@ -104,6 +104,7 @@ const Ardan = () => (
 • Instead of energy, Ardan uses a yellow meter called Vengeance. Vengeance builds over time and can also be gained with basic attacks, crtical strikes and abilities. 
 • Vengeance per attack 5%
 • Because Ardan doesn't need regular energy, 5% of bonus energy and 50% of bonus energy recharge are converted to crystal power."
+lvl2=' '
             />
             <Skillbox
                 video="https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-A-Vanguard.mp4"

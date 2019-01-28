@@ -100,27 +100,119 @@ const Catherine = () => (
                 title="CAPTAIN OF THE GUARD"
                 subtitle="HEROIC PERK"
                         image={require("./../images/Ability/Catherine-P.png")}
-                text="Catherine gains 1 armor and shield every time she stuns or silences or silences an enemy hero with her abilities.                "
+                text="Catherine gains 1 armor and shield every time she stuns or silences or silences an enemy hero with her abilities."
+                lvl2=" "
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-A-Merciless-Pursuit.mp4'}
                 title="MERCILESS PURSUITS"
                 subtitle="A ABILITY"
-                text="Catherine gains a burst of move speed. Her next basic attack is replaced by a powerful stun attack.
-
-                • Resets basic-attack cooldown on activation."
+                text="Catherine gains a burst of move speed. Her next basic attack is replaced by a powerful stun attack. 
+• Resets basic-attack cooldown on activation."
                         image={require("./../images/Ability/Catherine-A.jpg")}
+                            lvl1='LVL 1'
+                            lvl2='LVL 2'
+                            lvl3='LVL 3'
+                            lvl4='LVL 4'
+                            lvl5='LVL 5'
+                            cp='CP%'
+                            color='#38eeff'
+                            wp='WP%'
+                            color2='red'
+                            stats1='Cooldown'
+                            row11='16s'
+                            row12='15s'
+                            row13='14s'
+                            row14='13s'
+                            row15='12s'
+                            row16=' '
+                            row17=' '
+                            stats2='Energy Cost'
+                            row21='30'
+                            row22='40'
+                            row23='50'
+                            row24='60'
+                            row25='70'
+                            row26=' '
+                            row27=' '
+                            stats3='Damege'
+                            row31='35'
+                            row32='60'
+                            row33='85'
+                            row34='110'
+                            row35='135'
+                            row36='100%'
+                            row37='100%'
+                            stats4='Bonus Speed Duration'
+                            row41='1.5'
+                            row42='1.5'
+                            row43='1.5'
+                            row44='1.5'
+                            row45='2'
+                            row46=' '
+                            row47=' '
+                            stats5='Stun Duration'
+                            row51='0.7s'
+                            row52='0.7s'
+                            row53='0.7s'
+                            row54='0.7s'
+                            row55='0.9s'
+                            row56=' '
+                            row57=' '
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-C-Blast-Tremor.mp4'}
                 title="STORMGUARD"
                 subtitle="B ABILITY"
                         image={require("./../images/Ability/Catherine-B.jpg")}
-                text="Activates a protective bubble that reflects damage back to nearby enemies - especially when it comes in large bursts.
-                • Reflects any damage above 7.5% of base maximum health.
-                • Reflect damage is spread out to up 3 nearby enemies.
-                • Each reflection reduces the shield duration by 0.4s.
-                • Also damages enemies around Catherine while Stormguard is on."
+                text="Activates a protective bubble that reflects damage back to nearby enemies - especially when it comes in large bursts. 
+• Reflects any damage above 7.5% of base maximum health. 
+• Reflect damage is spread out to up 3 nearby enemies. 
+• Each reflection reduces the shield duration by 0.4s. 
+• Also damages enemies around Catherine while Stormguard is on."
+                            lvl1='LVL 1'
+                            lvl2='LVL 2'
+                            lvl3='LVL 3'
+                            lvl4='LVL 4'
+                            lvl5='LVL 5'
+                            cp='CP%'
+                            color='#38eeff'
+                            stats1='Cooldown'
+                            row11='9s'
+                            row12='7.5s'
+                            row13='7s'
+                            row14='6.5s'
+                            row15='6s'
+                            row16=' '
+                            row17=' '
+                            stats2='Energy Cost'
+                            row21='40'
+                            row22='50'
+                            row23='60'
+                            row24='70'
+                            row25='80'
+                            row26=' '
+                            stats3='Damege/sec'
+                            row31='45'
+                            row32='65'
+                            row33='85'
+                            row34='105'
+                            row35='125'
+                            row36='50%'
+                            stats4='Duration'
+                            row41='4s'
+                            row42='4s'
+                            row43='4s'
+                            row44='4s'
+                            row45='4s'
+                            row46=' '
+                            stats5='Bonus Reflect Damage'
+                            row51='0%'
+                            row52='5%'
+                            row53='10%'
+                            row54='15%'
+                            row55='25%'
+                            row56=' '
             />
             <Skillbox
                 video={'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-B-Stormguard.mp4'}
@@ -128,7 +220,36 @@ const Catherine = () => (
                 subtitle="ULTIMATE"
                         image={require("./../images/Ability/Catherine-C.jpg")}
                 text="Catherine slams the ground, damaging and silencing enemies in a large cone in front of her."
-            />
+                            lvl1='LVL 1'
+                            lvl2='LVL 2'
+                            lvl3='LVL 3'
+                            cp='CP%'
+                            color='#38eeff'
+                            stats1='Cooldown'
+                            row11='90s'
+                            row12='80s'
+                            row13='70s'
+                            row16=' '
+                            stats2='Energy Cost'
+                            row21='120'
+                            row22='140'
+                            row23='160'
+                            row26=' '
+                            stats3='Damage'
+                            row31='400'
+                            row32='550'
+                            row33='700'
+                            row36='150%'
+                            stats4='Range'
+                            row41='11'
+                            row42='11'
+                            row43='11'
+                            row46=' '
+                            stats5='Silence Duration'
+                            row51='1.5s'
+                            row52='2s'
+                            row53='2.5s'
+                            row56=' '/>
         </div>
     </div>
     <div className="Title">
