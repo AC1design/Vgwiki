@@ -50,10 +50,10 @@ class Itemsbox extends React.Component {
 					<div className="ItemsRequired">
 						{this.props.item4 && <img src={this.props.item4}/> }
 		                {this.props.item5 && <img src={this.props.item5} /> }
-						{this.props.item6 && < img src={this.props.item6} /> }
-						{this.props.item7 && < img src={this.props.item7} />}
-						{this.props.item8 && < img src={this.props.item8} />}
-							{this.props.item9 && < img src={this.props.item8} />}
+						{this.props.item6 && <img src={this.props.item6} /> }
+						{this.props.item7 && <img src={this.props.item7} />}
+						{this.props.item8 && <img src={this.props.item8} />}
+							{this.props.item9 && <img src={this.props.item8} />}
 					</div>
 					</div>
 					<button onClick={this.handleCloseModal}>CLOSE</button>
@@ -77,7 +77,7 @@ class Itemsbox extends React.Component {
 	}
 }
 
-		
-		
-		
+
+
+
 export default Itemsbox
