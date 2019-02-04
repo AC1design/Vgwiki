@@ -7,6 +7,7 @@ import MediaQuery from 'react-responsive'
 import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 import Emojibox from './Emoji'
+import AdComponent from './ad';
 
 const Tabsind = () => (
   <MediaQuery query="(min-width: 1367px)">
@@ -3140,6 +3141,9 @@ Activate: Sprint for 2s (90s cooldown).
         </div>
       </TabPanel>
     </Tabs>
+
+    <div className='adbox' style={{ marginTop: '20px' }}><AdComponent></AdComponent></div>
+    <div className='adbox' style={{ marginTop: '20px', color: 'white', textAlign: 'center' }}>© 2018 Copyright: <a href="https://twitter.com/AngeloCant1">AngeloC</a></div>
   </MediaQuery>
 )
 export default Tabsind
