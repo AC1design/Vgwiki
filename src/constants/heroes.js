@@ -37,7 +37,7 @@ export const heroCards = [
   { name: 'Ringo', type: ['LANE', 'SNIPER'] },
   { name: 'Rona', type: ['JUNGLE', 'WARRIOR'] },
   { name: 'Samuel', type: ['LANE', 'MAGE'] },
-  { name: 'SAW', type: ['LANE', 'SNIPER'] },
+  { name: 'Saw', type: ['LANE', 'SNIPER'] },
   { name: 'Silvernail', type: ['LANE', 'SNIPER'] },
   { name: 'Skaarf', type: ['LANE', 'MAGE'] },
   { name: 'Skye', type: ['LANE', 'SNIPER'] },
