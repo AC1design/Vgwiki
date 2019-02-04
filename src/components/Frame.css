@@ -1,0 +1,16 @@
+.farmesgrid{
+    height:80px;
+    border-radius: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.farmesgridgroup{
+    padding: 10px;
+	display: flex;
+  margin: 0 auto;
+  margin-left: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
