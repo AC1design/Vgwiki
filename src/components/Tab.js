@@ -31,7 +31,6 @@ const Tabsind = () => (
               <Tab>Sniper</Tab>
               <Tab>Warrior</Tab>
             </TabList>
-            <ScrollAnimation animateIn="fadeInRight" animateOnce>
               <TabPanel className="AllHeroes">
                 <div className="CardboxGroup">
                   <Card
@@ -656,7 +655,6 @@ const Tabsind = () => (
                   />
                 </div>
               </TabPanel>
-            </ScrollAnimation>
           </Tabs>
         </div>
       </TabPanel>
@@ -673,7 +671,6 @@ const Tabsind = () => (
             <Tab>Utility</Tab>
             <Tab>Consumable</Tab>
           </TabList>
-          <ScrollAnimation animateIn="fadeInRight" animateOnce>
             <TabPanel className="All">
               <div className="ItemboxGroup">
                 <Itemsbox
@@ -3108,7 +3105,6 @@ Activate: Sprint for 2s (90s cooldown).
                 />
               </div>
             </TabPanel>
-          </ScrollAnimation>
         </Tabs>
       </TabPanel>
       <TabPanel />

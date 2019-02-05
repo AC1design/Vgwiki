@@ -24,7 +24,6 @@ const IndexPage = () => (
     <div className='mobile'>
 <MediaQuery query="(max-width: 1366px)">
       <MobileHeroesTab></MobileHeroesTab>
-      <Frames></Frames>
       <div className='adbox'><AdComponent></AdComponent></div>
       <MobileItemsTab></MobileItemsTab>
       <Charms></Charms>
