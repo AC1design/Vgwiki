@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography'
 import Itemsbox from './Item'
 import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
-import { menuTabs, itemBoxes } from '../constants/mobileItemsTab'
+import { menuTabs, itemBoxes } from '../constants/items'
 import 'animate.css/animate.min.css'
 
 const Selectan = styled.div`

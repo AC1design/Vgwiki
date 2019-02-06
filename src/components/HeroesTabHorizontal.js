@@ -130,11 +130,7 @@ class HeroesHorizontal extends React.Component {
             <Filter></Filter>
           </StyledButton>
         </Selectan>
-        <div
-          style={{
-            display: 'flex',
-            background: 'black',
-          }}
+        <div style={{display: 'flex',background: 'black',}}
         >
           <Menu
             id="fade-menu"

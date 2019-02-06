@@ -104,6 +104,7 @@ class HeroesGrid extends React.Component {
         <Frame
             image={'https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/' + `${hero.name.toLowerCase()}` + '.png' }
             link={`/${hero.name}/`}
+            roleimg={require(`./../images/${hero.role}.png`)}
         />
     )
 
@@ -164,55 +165,49 @@ class HeroesGrid extends React.Component {
                 {value === 1 && (
                     <TabContainer>
                         <div className='farmesgridgroup'>
-                            <div>
                                 {heroCards
                                     .filter(hero => hero.type.includes('ASSASSIN'))
                                     .map((hero, index) => this.makeHeroCard(hero, index))}
-                            </div>
                         </div>
                     </TabContainer>
                 )}
                 {value === 2 && (
                     <TabContainer>
                         <div className='farmesgridgroup'>
-                            <div>
                                 {heroCards
                                     .filter(hero => hero.type.includes('MAGE'))
                                     .map((hero, index) => this.makeHeroCard(hero, index))}
-                            </div>
+                            
                         </div>
                     </TabContainer>
                 )}
                 {value === 3 && (
                     <TabContainer>
                         <div className='farmesgridgroup'>
-                            <div>
                                 {heroCards
                                     .filter(hero => hero.type.includes('PROTECTOR'))
                                     .map((hero, index) => this.makeHeroCard(hero, index))}
-                            </div>
+                           
                         </div>
                     </TabContainer>
                 )}
                 {value === 4 && (
                     <TabContainer>
                         <div className='farmesgridgroup'>
-                            <div>
                                 {heroCards
                                     .filter(hero => hero.type.includes('SNIPER'))
                                     .map((hero, index) => this.makeHeroCard(hero, index))}
-                            </div>
+                        
                         </div>
                     </TabContainer>
                 )}
                 {value === 5 && (
                     <TabContainer>
                         <div className='farmesgridgroup'>
-                            <div>
                                 {heroCards
                                     .filter(hero => hero.type.includes('WARRIOR'))
                                     .map((hero, index) => this.makeHeroCard(hero, index))}
-                            </div>
+             
                         </div>
                     </TabContainer>
                 )}
