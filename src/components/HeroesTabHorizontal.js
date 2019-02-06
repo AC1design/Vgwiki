@@ -12,6 +12,7 @@ import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
 import { heroCards } from '../constants/heroes'
 import 'animate.css/animate.min.css'
+import Filter from './Icon/FilterIcon';
 
 const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
 
@@ -24,12 +25,12 @@ const StyledButton = withStyles({
     borderRadius: 5,
     border: 0,
     color: 'white',
-    height: 40,
-    padding: '0 20px',
+    height: 0,
+    padding:'0px',
     marginLeft: '16px',
     marginRight: '16px',
     right: 0,
-    display: 'inline-block',
+    backgroundColor: 'transparent'
   },
   label: {
     textTransform: 'capitalize',
@@ -81,7 +82,7 @@ TabContainer.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-class MobileHeroesTab extends React.Component {
+class HeroesHorizontal extends React.Component {
   state = {
     anchorEl: null,
     value: 0,
@@ -124,12 +125,11 @@ class MobileHeroesTab extends React.Component {
             aria-owns={open ? 'fade-menu' : undefined}
             aria-haspopup="true"
             onClick={this.handleClick}
-            style={{ color: 'white', fontWeight: '900', marginTop: '10px' }}
+            style={{ color: 'white', fontWeight: '900', marginTop: '10px', padding: '0px', minWidth: '30px',}}
           >
-            FILTER
+            <Filter></Filter>
           </StyledButton>
         </Selectan>
-
         <div
           style={{
             display: 'flex',
@@ -226,4 +226,4 @@ class MobileHeroesTab extends React.Component {
   }
 }
 
-export default MobileHeroesTab
+export default HeroesHorizontal

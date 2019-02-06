@@ -2,12 +2,11 @@ import React from 'react'
 import Layout from '../components/layout'
 import Tabsind from '../components/Tab';
 import MediaQuery from 'react-responsive';
-import MobileHeroesTab from '../components/MobileHeroesTabs';
 import MobileItemsTab from '../components/MobileItemsTabs';
 import Page from 'react-page-loading'
 import Charms from '../components/MobileCharmsTab';
 import AdComponent from '../components/ad';
-import Frames from '../components/Frame'
+import GridList from '../components/GridList';
 
 const IndexPage = () => (
   <Layout>
@@ -19,11 +18,10 @@ const IndexPage = () => (
         <p>UPDATE 3.10</p>
       </div>
     </div>
-    
     <Tabsind></Tabsind>
     <div className='mobile'>
 <MediaQuery query="(max-width: 1366px)">
-      <MobileHeroesTab></MobileHeroesTab>
+<GridList></GridList>
       <div className='adbox'><AdComponent></AdComponent></div>
       <MobileItemsTab></MobileItemsTab>
       <Charms></Charms>

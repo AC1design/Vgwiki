@@ -4,7 +4,6 @@ import React from 'react'
 import Card from './Card'
 import Itemsbox from './Item'
 import MediaQuery from 'react-responsive'
-import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 import Emojibox from './Emoji'
 import AdComponent from './ad';
