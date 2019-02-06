@@ -125,7 +125,7 @@ class HeroesHorizontal extends React.Component {
             aria-owns={open ? 'fade-menu' : undefined}
             aria-haspopup="true"
             onClick={this.handleClick}
-            style={{ color: 'white', fontWeight: '900', marginTop: '10px', padding: '0px', minWidth: '30px',}}
+            style={{ color: 'white', fontWeight: '900', marginTop: '15px', padding: '0px', minWidth: '30px'}}
           >
             <Filter></Filter>
           </StyledButton>

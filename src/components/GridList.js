@@ -10,7 +10,7 @@ import Grid from './Icon/GridIcon';
 const GridList = () => (
         <Tabs>
             <TabList>
-                <Tab><Square></Square></Tab>
+            <Tab><Square></Square></Tab>
                 <Tab><Grid></Grid></Tab>
             </TabList>
             <TabPanel>

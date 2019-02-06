@@ -7,6 +7,7 @@ import Page from 'react-page-loading'
 import Charms from '../components/MobileCharmsTab';
 import AdComponent from '../components/ad';
 import GridList from '../components/GridList';
+import StickyFooter from 'react-sticky-footer';
 
 const IndexPage = () => (
   <Layout>
@@ -19,15 +20,36 @@ const IndexPage = () => (
       </div>
     </div>
     <Tabsind></Tabsind>
-    <div className='mobile'>
+    
 <MediaQuery query="(max-width: 1366px)">
-<GridList></GridList>
+<div className='mobile'><GridList></GridList>
       <div className='adbox'><AdComponent></AdComponent></div>
       <MobileItemsTab></MobileItemsTab>
-      <Charms></Charms>
-</MediaQuery></div>
-      
-      
+      <Charms></Charms></div>
+</MediaQuery>
+<div>
+      <StickyFooter
+        className="footer"
+        bottomThreshold={50}
+        normalStyles={{
+          backgroundColor: "#2B2B2D",
+          padding: "1rem",
+          fontSize: "12px",
+          color: "white",
+          textAlign: "center",
+          marginTop: "50px"
+        }}
+        stickyStyles={{
+          backgroundColor: "#2B2B2D",
+          padding: "1rem",
+          fontSize: "12px",
+          color: "white",
+          textAlign: "center",
+          marginTop: "50px"
+        }}>
+        © 2018 Copyright: <a href="https://twitter.com/AngeloCant1">AngeloC</a>
+      </StickyFooter>
+      </div>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Page>
   </Layout>

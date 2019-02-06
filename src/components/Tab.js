@@ -3137,8 +3137,6 @@ Activate: Sprint for 2s (90s cooldown).
       </TabPanel>
     </Tabs>
 
-    <div className='adbox' style={{ marginTop: '20px' }}><AdComponent></AdComponent></div>
-    <div className='adbox' style={{ marginTop: '20px', color: 'white', textAlign: 'center' }}>© 2018 Copyright: <a href="https://twitter.com/AngeloCant1">AngeloC</a></div>
   </MediaQuery>
 )
 export default Tabsind
