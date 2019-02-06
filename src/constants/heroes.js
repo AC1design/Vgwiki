@@ -1,3 +1,12 @@
+export const heroTabs = [
+  'ALL',
+  'ASSASSINS',
+  'MAGE',
+  'PROTECTOR',
+  'SNIPER',
+  'WARRIOR',
+]
+
 export const heroCards = [
   {
     name: 'Ylva',
