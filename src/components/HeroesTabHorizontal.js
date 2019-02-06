@@ -158,7 +158,7 @@ class HeroesHorizontal extends React.Component {
           </Menu>
         </div>
         {value === 0 && (
-          <TabContainer>
+          <TabContainer >
             <div className="CardboxGroupScroll">
               <div className="CardboxGroup">
                 {heroCards.map((hero, index) => this.makeHeroCard(hero, index))}
