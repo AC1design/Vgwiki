@@ -9,12 +9,17 @@ import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
-import { heroCards } from '../constants/heroes'
+import { itemBoxes } from '../constants/items'
 import 'animate.css/animate.min.css'
-import Frame from './HeroFrames'
 import Filter from './Icon/FilterIcon';
+import Framesitem from './ItemFrames';
 
-const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
+const itemTabs = ['ALL',
+    'CRYSTAL',
+    'WEAPON',
+    'DEFENSE',
+    'UTILITY',
+    'CONSUMABLE',]
 
 const Selectan = styled.div`
   display: flex;
@@ -37,7 +42,7 @@ const StyledButton = withStyles({
     },
 })(Button)
 
-const VerticalTabs = withStyles(theme => ({
+const VerticalTabs = withStyles(() => ({
     root: {
         outline: 'none',
     },
@@ -50,7 +55,7 @@ const VerticalTabs = withStyles(theme => ({
     },
 }))(Tabs)
 
-const StyledTab = withStyles(theme => ({
+const StyledTab = withStyles(() => ({
     selected: {
         fontWeight: '800',
         borderBottom: '2px solid rgb(0, 183, 255)',
@@ -72,7 +77,17 @@ const StyledTab = withStyles(theme => ({
 
 function TabContainer(props) {
     return (
-        <Typography component="div" style={{ padding: 0, lineHeight: 1.2 }}>
+        <Typography
+            component="div"
+            style={{
+                padding: 0,
+                color: '',
+                fontSize: '',
+                fontWeight: '',
+                fontFamily: '',
+                lineHeight: '',
+            }}
+        >
             {props.children}
         </Typography>
     )
@@ -82,7 +97,7 @@ TabContainer.propTypes = {
     children: PropTypes.node.isRequired,
 }
 
-class HeroesGrid extends React.Component {
+class ItemsTabGrid extends React.Component {
     state = {
         anchorEl: null,
         value: 0,
@@ -100,11 +115,29 @@ class HeroesGrid extends React.Component {
         this.setState({ value })
     }
 
-    makeHeroCard = (hero, index) => (
-        <Frame
-            image={'https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/' + `${hero.name.toLowerCase()}` + '.png' }
-            link={`/${hero.name}/`}
-            roleimg={require(`./../images/${hero.role}.png`)}
+    makeItemBox = (item, index) => (
+        <Framesitem
+            itemimg={require(`./../images/Items/${item.image}.png`)}
+            itemname={item.name}
+            class={item.class}
+            tier={item.tier}
+            color={item.color}
+            cost={item.cost}
+            tag={item.tag}
+            description={item.description}
+            tip={item.tip}
+            builtfrom={item.item1 ? 'BUILT FROM' : null}
+            buildsto={item.item4 ? 'BUILDS INTO' : null}
+            item1={item.item1 ? require(`./../images/Items/${item.item1}.png`) : null}
+            item2={item.item2 ? require(`./../images/Items/${item.item2}.png`) : null}
+            item3={item.item3 ? require(`./../images/Items/${item.item3}.png`) : null}
+            item4={item.item4 ? require(`./../images/Items/${item.item4}.png`) : null}
+            item5={item.item5 ? require(`./../images/Items/${item.item5}.png`) : null}
+            item6={item.item6 ? require(`./../images/Items/${item.item6}.png`) : null}
+            item7={item.item7 ? require(`./../images/Items/${item.item7}.png`) : null}
+            item8={item.item8 ? require(`./../images/Items/${item.item8}.png`) : null}
+            item9={item.item9 ? require(`./../images/Items/${item.item9}.png`) : null}
+            key={index}
         />
     )
 
@@ -117,16 +150,16 @@ class HeroesGrid extends React.Component {
             <div>
                 <Selectan>
                     <div className="Selectan">
-                        <h1>Select an Hero</h1>
+                        <h1>Select an Item</h1>
                     </div>
                     <StyledButton
                         aria-owns={open ? 'fade-menu' : undefined}
                         aria-haspopup="true"
                         onClick={this.handleClick}
-                        style={{ color: 'white', fontWeight: '900', marginTop: '15px', padding: '0px', minWidth: '30px'}}
+                        style={{ color: 'white', fontWeight: '900', marginTop: '15px', padding: '0px', minWidth: '30px' }}
                     >
                         <Filter></Filter>
-          </StyledButton>
+                    </StyledButton>
                 </Selectan>
                 <div
                     style={{
@@ -147,7 +180,7 @@ class HeroesGrid extends React.Component {
                             onChange={this.handleChange}
                             className="menu-hack"
                         >
-                            {heroTabs.map((label, index) => (
+                            {itemTabs.map((label, index) => (
                                 <StyledTab label={label} onClick={this.handleClose} key={index}>
                                     <MenuItem onClick={this.handleClose}>{label}</MenuItem>
                                 </StyledTab>
@@ -158,56 +191,62 @@ class HeroesGrid extends React.Component {
                 {value === 0 && (
                     <TabContainer>
                         <div className='farmesgridgroup'>
-                                {heroCards.map((hero, index) => this.makeHeroCard(hero, index))}
+                            {itemBoxes.map((item, index) => this.makeItemBox(item, index))}
                         </div>
                     </TabContainer>
                 )}
                 {value === 1 && (
                     <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('ASSASSIN'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
+                        <div className="ItemboxGroupScroll">
+                            <div className="ItemboxGroup">
+                                {itemBoxes
+                                    .filter(item => item.class === 'CRYSTAL')
+                                    .map((item, index) => this.makeItemBox(item, index))}
+                            </div>
                         </div>
                     </TabContainer>
                 )}
                 {value === 2 && (
                     <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('MAGE'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-                            
+                        <div className="ItemboxGroupScroll">
+                            <div className="ItemboxGroup">
+                                {itemBoxes
+                                    .filter(item => item.class === 'WEAPON')
+                                    .map((item, index) => this.makeItemBox(item, index))}
+                            </div>
                         </div>
                     </TabContainer>
                 )}
                 {value === 3 && (
                     <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('PROTECTOR'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-                           
+                        <div className="ItemboxGroupScroll">
+                            <div className="ItemboxGroup">
+                                {itemBoxes
+                                    .filter(item => item.class === 'DEFENSE')
+                                    .map((item, index) => this.makeItemBox(item, index))}
+                            </div>
                         </div>
                     </TabContainer>
                 )}
                 {value === 4 && (
                     <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('SNIPER'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-                        
+                        <div className="ItemboxGroupScroll">
+                            <div className="ItemboxGroup">
+                                {itemBoxes
+                                    .filter(item => item.class === 'UTILITY')
+                                    .map((item, index) => this.makeItemBox(item, index))}
+                            </div>
                         </div>
                     </TabContainer>
                 )}
                 {value === 5 && (
                     <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('WARRIOR'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-             
+                        <div className="ItemboxGroupScroll">
+                            <div className="ItemboxGroup">
+                                {itemBoxes
+                                    .filter(item => item.class === 'CONSUMABLE')
+                                    .map((item, index) => this.makeItemBox(item, index))}
+                            </div>
                         </div>
                     </TabContainer>
                 )}
@@ -216,4 +255,4 @@ class HeroesGrid extends React.Component {
     }
 }
 
-export default HeroesGrid
+export default ItemsTabGrid

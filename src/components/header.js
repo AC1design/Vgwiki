@@ -1,15 +1,13 @@
 import React from 'react'
 import './Header.css'
-import PropTypes from 'prop-types';
+import { Link } from "gatsby"
 import { withStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import SvgComponent from './SvgList';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import { ListItemIcon, Divider } from '@material-ui/core';
-import { Link } from "react-dom";
+import {Divider } from '@material-ui/core';
 import SimpleDialogDemo from './VgDialog';
 
 
@@ -117,12 +115,12 @@ handleScroll = (event) => {
             'Phinn', 'Reim', 'Reza', 'Ringo', 'Rona', 'Samuel', 'Saw', 'Silvernail',
             'Skaarf', 'Skye', 'Taka', 'Tony', 'Varya', 'Vox', 'Yates',].map((text,index) => (
               <div  className='Listitem'>
-                <a  href={`/${text}`}>
+                <Link to={`/${text}`}>
                 
                   <StyledListItem button >
                     <img style={{ overflow: 'visible' }} src={'https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/' + `${text.toLowerCase()}` + '.png'}></img>
                     {text}</StyledListItem>
-            </a>
+            </Link>
             </div>
           ))}
         </StyledList>
@@ -134,9 +132,9 @@ handleScroll = (event) => {
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
           <SimpleDialogDemo></SimpleDialogDemo>
-          <a href="/">
+          <Link to="/">
             <img src={require("./../images/LOGOWHITE.png")} />
-          </a>
+          </Link>
           <StyledButton onClick={this.toggleDrawer('right', true)}><SvgComponent></SvgComponent></StyledButton>
         </div>
         <StyledSwipeableDrawer

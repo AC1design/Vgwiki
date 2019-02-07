@@ -17,6 +17,7 @@ const GridList = () => (
                 <HeroesHorizontal></HeroesHorizontal>
             </TabPanel>
         <TabPanel>
+            
             <HeroesGrid></HeroesGrid>
         </TabPanel>
             </Tabs>

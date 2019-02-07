@@ -2,12 +2,14 @@ import React from 'react'
 import Layout from '../components/layout'
 import Tabsind from '../components/Tab';
 import MediaQuery from 'react-responsive';
-import MobileItemsTab from '../components/MobileItemsTabs';
+import ItemsTabHorizontal from '../components/ItemsTabHorizontal';
 import Page from 'react-page-loading'
 import Charms from '../components/MobileCharmsTab';
 import AdComponent from '../components/ad';
 import GridList from '../components/GridList';
 import StickyFooter from 'react-sticky-footer';
+import ItemsTabGrid from '../components/ItemsTabGrid';
+import ItemsGridList from '../components/ItemsGridList';
 
 const IndexPage = () => (
   <Layout>
@@ -20,12 +22,11 @@ const IndexPage = () => (
       </div>
     </div>
     <Tabsind></Tabsind>
-    
 <MediaQuery query="(max-width: 1366px)">
 <div className='mobile'>
 <GridList></GridList>
       <div className='adbox'><AdComponent></AdComponent></div>
-      <MobileItemsTab></MobileItemsTab>
+          <ItemsGridList></ItemsGridList>
       <Charms></Charms></div>
 </MediaQuery>
 <div>
