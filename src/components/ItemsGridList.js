@@ -6,7 +6,6 @@ import ItemsTabGrid from './ItemsTabGrid'
 import Square from './Icon/SquareIcon'
 import Grid from './Icon/GridIcon'
 import MobileItemsTab from './ItemsTabHorizontal'
-import Page from 'react-page-loading'
 
 const ItemsGridList = () => (
     <Tabs>
