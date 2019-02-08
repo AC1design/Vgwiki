@@ -18,8 +18,7 @@ const ItemsGridList = () => (
             <MobileItemsTab></MobileItemsTab>
         </TabPanel>
         <TabPanel>
-            <Page loader={"bar"} color={"#A9A9A9"} size={4} duration={1} >
-            <ItemsTabGrid></ItemsTabGrid></Page>
+            <ItemsTabGrid></ItemsTabGrid>
         </TabPanel>
     </Tabs>
 )
