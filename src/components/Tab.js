@@ -10,12 +10,7 @@ import { heroCards } from '../constants/heroes'
 import { menuTabs, itemBoxes } from '../constants/items'
 
 const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
-const itemTabs = ['ALL',
-  'CRYSTAL',
-  'WEAPON',
-  'DEFENSE',
-  'UTILITY',
-  'CONSUMABLE',]
+const itemTabs = ['ALL','CRYSTAL','WEAPON','DEFENSE','UTILITY','CONSUMABLE']
 
 class Tabsind extends React.Component {
 
@@ -62,9 +57,7 @@ class Tabsind extends React.Component {
       <TabList>
         <Tab>HEROES</Tab>
         <Tab>ITEMS</Tab>
-        <Tab>HATS</Tab>
-        <Tab>SOCIAL PINGS</Tab>
-        <Tab>EMOJI CHARMS</Tab>
+        <Tab>COSMETICS</Tab>
       </TabList>
       <TabPanel className='HeroesPanel'>
         <div className="Selectan">
@@ -118,7 +111,7 @@ class Tabsind extends React.Component {
           </Tabs>
         </div>
       </TabPanel>
-          <TabPanel className='ItemsPanel'>
+      <TabPanel className='ItemsPanel'>
         <div className="Selectan">
           <h1>Select an Item</h1>{' '}
         </div>
@@ -166,14 +159,16 @@ class Tabsind extends React.Component {
             <TabPanel className="Consumable">
                 <div className="ItemboxGroup">
                 {itemBoxes
-                  .filter(item => item.class === 'UTILITY')
+                  .filter(item => item.class === 'CONSUMABLE')
                   .map((item, index) => this.makeItemBox(item, index))}
               </div>
             </TabPanel>
         </Tabs>
       </TabPanel>
-      <TabPanel />
       <TabPanel>
+            <div className="Selectan">
+              <h1>Select an Item</h1>{' '}
+            </div>
         <div className="EmojiboxGroup">
           <Emojibox
             itemimg={require('./../images/Emoji/CallMe.png')}

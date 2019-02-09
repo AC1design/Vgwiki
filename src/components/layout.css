@@ -224,6 +224,7 @@ margin: 0 auto;
   }
    .Hero {
     height:550px;
+    background: linear-gradient(to top, #1f1f21 1%, #1f1f21 1%,rgba(25, 26, 27, 0) 100%) , url('./../images/BG/Ylva_Mobile.jpg') no-repeat top center;
   }
 }
 

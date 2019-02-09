@@ -197,57 +197,47 @@ class ItemsTabGrid extends React.Component {
                 )}
                 {value === 1 && (
                     <TabContainer>
-                        <div className="ItemboxGroupScroll">
-                            <div className="ItemboxGroup">
+                        <div className="farmesgridgroup">
                                 {itemBoxes
                                     .filter(item => item.class === 'CRYSTAL')
                                     .map((item, index) => this.makeItemBox(item, index))}
                             </div>
-                        </div>
                     </TabContainer>
                 )}
                 {value === 2 && (
                     <TabContainer>
-                        <div className="ItemboxGroupScroll">
-                            <div className="ItemboxGroup">
+                        <div className="farmesgridgroup">
                                 {itemBoxes
                                     .filter(item => item.class === 'WEAPON')
                                     .map((item, index) => this.makeItemBox(item, index))}
-                            </div>
                         </div>
                     </TabContainer>
                 )}
                 {value === 3 && (
                     <TabContainer>
-                        <div className="ItemboxGroupScroll">
-                            <div className="ItemboxGroup">
+                        <div className="farmesgridgroup">
                                 {itemBoxes
                                     .filter(item => item.class === 'DEFENSE')
                                     .map((item, index) => this.makeItemBox(item, index))}
                             </div>
-                        </div>
                     </TabContainer>
                 )}
                 {value === 4 && (
                     <TabContainer>
-                        <div className="ItemboxGroupScroll">
-                            <div className="ItemboxGroup">
+                        <div className="farmesgridgroup">
                                 {itemBoxes
                                     .filter(item => item.class === 'UTILITY')
                                     .map((item, index) => this.makeItemBox(item, index))}
                             </div>
-                        </div>
                     </TabContainer>
                 )}
                 {value === 5 && (
                     <TabContainer>
-                        <div className="ItemboxGroupScroll">
-                            <div className="ItemboxGroup">
+                        <div className="farmesgridgroup">
                                 {itemBoxes
                                     .filter(item => item.class === 'CONSUMABLE')
                                     .map((item, index) => this.makeItemBox(item, index))}
                             </div>
-                        </div>
                     </TabContainer>
                 )}
             </div>
