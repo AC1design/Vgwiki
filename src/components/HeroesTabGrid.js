@@ -11,13 +11,8 @@ import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
 import { heroCards } from '../constants/heroes'
 import 'animate.css/animate.min.css'
-<<<<<<< HEAD
-import Frame from '../components/Frame'
-import Filter from './Icon/FilterIcon'
-=======
 import Frame from './HeroFrames'
-import Filter from './Icon/FilterIcon';
->>>>>>> cc63bff26afc980d6c7d65733ade3eaad57f560e
+import Filter from './Icon/FilterIcon'
 
 const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
 
@@ -139,7 +134,6 @@ class HeroesGrid extends React.Component {
           >
             <Filter />
           </StyledButton>
-<<<<<<< HEAD
         </Selectan>
         <div
           style={{
@@ -194,92 +188,6 @@ class HeroesGrid extends React.Component {
                   .filter(hero => hero.type.includes('MAGE'))
                   .map((hero, index) => this.makeHeroCard(hero, index))}
               </div>
-=======
-                </Selectan>
-                <div
-                    style={{
-                        display: 'flex',
-                        background: 'black',
-                    }}
-                >
-                    <Menu
-                        id="fade-menu"
-                        anchorEl={anchorEl}
-                        open={open}
-                        onClose={this.handleClose}
-                        TransitionComponent={Fade}
-                        style={{ outline: 'none' }}
-                    >
-                        <VerticalTabs
-                            value={value}
-                            onChange={this.handleChange}
-                            className="menu-hack"
-                        >
-                            {heroTabs.map((label, index) => (
-                                <StyledTab label={label} onClick={this.handleClose} key={index}>
-                                    <MenuItem onClick={this.handleClose}>{label}</MenuItem>
-                                </StyledTab>
-                            ))}
-                        </VerticalTabs>
-                    </Menu>
-                </div>
-                {value === 0 && (
-                    <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards.map((hero, index) => this.makeHeroCard(hero, index))}
-                        </div>
-                    </TabContainer>
-                )}
-                {value === 1 && (
-                    <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('ASSASSIN'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-                        </div>
-                    </TabContainer>
-                )}
-                {value === 2 && (
-                    <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('MAGE'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-
-                        </div>
-                    </TabContainer>
-                )}
-                {value === 3 && (
-                    <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('PROTECTOR'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-
-                        </div>
-                    </TabContainer>
-                )}
-                {value === 4 && (
-                    <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('SNIPER'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-
-                        </div>
-                    </TabContainer>
-                )}
-                {value === 5 && (
-                    <TabContainer>
-                        <div className='farmesgridgroup'>
-                                {heroCards
-                                    .filter(hero => hero.type.includes('WARRIOR'))
-                                    .map((hero, index) => this.makeHeroCard(hero, index))}
-
-                        </div>
-                    </TabContainer>
-                )}
->>>>>>> cc63bff26afc980d6c7d65733ade3eaad57f560e
             </div>
           </TabContainer>
         )}

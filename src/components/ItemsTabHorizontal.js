@@ -10,9 +10,9 @@ import Typography from '@material-ui/core/Typography'
 import Itemsbox from './Item'
 import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
-import { menuTabs, itemBoxes } from '../constants/items'
+import { itemBoxes, itemTabs } from '../constants/items'
 import 'animate.css/animate.min.css'
-import Filter from './Icon/FilterIcon';
+import Filter from './Icon/FilterIcon'
 
 const Selectan = styled.div`
   display: flex;
@@ -28,7 +28,7 @@ const StyledButton = withStyles({
     marginLeft: '16px',
     marginRight: '16px',
     right: 0,
-    backgroundColor: 'transparent'
+    backgroundColor: 'transparent',
   },
   label: {
     textTransform: 'capitalize',
@@ -149,9 +149,15 @@ class MobileItemsTab extends React.Component {
             aria-owns={open ? 'fade-menu' : undefined}
             aria-haspopup="true"
             onClick={this.handleClick}
-            style={{ color: 'white', fontWeight: '900', marginTop: '15px', padding: '0px', minWidth: '30px' }}
+            style={{
+              color: 'white',
+              fontWeight: '900',
+              marginTop: '15px',
+              padding: '0px',
+              minWidth: '30px',
+            }}
           >
-            <Filter></Filter>
+            <Filter />
           </StyledButton>
         </Selectan>
         <div
@@ -173,7 +179,7 @@ class MobileItemsTab extends React.Component {
               onChange={this.handleChange}
               className="menu-hack"
             >
-              {menuTabs.map((tab, index) => (
+              {itemTabs.map((tab, index) => (
                 <StyledTab label={tab} onClick={this.handleClose} key={index}>
                   <MenuItem onClick={this.handleClose}>{tab}</MenuItem>
                 </StyledTab>

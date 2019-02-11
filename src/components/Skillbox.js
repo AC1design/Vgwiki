@@ -50,7 +50,7 @@ class Skillbox extends React.Component {
             {this.props.video && (
               <Player
                 className="player"
-                autoPlay="true"
+                autoPlay={true}
                 isFullscreen="false"
                 loop
                 controls="true"

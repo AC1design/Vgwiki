@@ -24,22 +24,25 @@ class GridList extends Component {
   }
 
   hydrateStateWithLocalStorage() {
-    this.setState({ chosenTab: localStorage.getItem('chosenTab') })
+    console.log('hydare', localStorage.getItem('chosenTab'))
+    // Update state from what was saved in local storage
+    this.setState({ chosenTab: localStorage.getItem('chosenTab') || 'square' })
   }
 
   componentDidMount() {
-    this.hydrateStateWithLocalStorage();
- }
+    // When this loads use the locally stored values
+    this.hydrateStateWithLocalStorage()
+  }
 
   render() {
     return (
       <Tabs>
         <TabList>
           <Tab>
-            <Square />
+            <Square onClick={this.selectTab('square')} />
           </Tab>
           <Tab>
-            <Grid />
+            <Grid onClick={this.selectTab('grid')} />
           </Tab>
         </TabList>
         <TabPanel>

@@ -7,7 +7,7 @@ import MediaQuery from 'react-responsive'
 import 'animate.css/animate.min.css'
 import Emojibox from './Emoji'
 import { heroCards, heroTabs } from '../constants/heroes'
-import { menuTabs, itemBoxes } from '../constants/items'
+import { itemTabs, itemBoxes } from '../constants/items'
 import { charms } from '../constants/charms'
 
 const tabNames = ['HEROES', 'ITEMS', 'EMOJI CHARMS']
@@ -47,16 +47,6 @@ const makeItemBox = (item, index) => (
     key={index}
   />
 )
-
-const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
-const itemTabs = [
-  'ALL',
-  'CRYSTAL',
-  'WEAPON',
-  'DEFENSE',
-  'UTILITY',
-  'CONSUMABLE',
-]
 
 class Tabsind extends React.Component {
   makeHeroCard = (hero, index) => (
@@ -162,7 +152,7 @@ class Tabsind extends React.Component {
             </div>
             <Tabs>
               <TabList className="Subcategory">
-                {menuTabs.map((tab, index) => (
+                {itemTabs.map((tab, index) => (
                   <Tab key={index}>{tab}</Tab>
                 ))}
               </TabList>

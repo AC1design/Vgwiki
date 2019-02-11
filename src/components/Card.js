@@ -7,7 +7,7 @@ const Card = props => (
   <span>
     <div className="Card">
       <Link to={`Hero/?${props.link}`}>
-        <img src={props.image} />
+        <img src={props.image} alt={props.text} />
         <h3>{props.title}</h3>
         <p>{props.text}</p>
       </Link>
