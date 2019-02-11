@@ -9,11 +9,9 @@ const Talentbox = props => (
     <img src={props.image} alt={props.title} />
     <h1>{props.title}</h1>
     <H2 color={props.color}> {props.subtitle} </H2>
-    <p>{props.text}</p>
-    <p>{props.text2}</p>
-    <p>{props.text3}</p>
-    <p>{props.text4}</p>
-    <p>{props.text5}</p>
+    {props.text.map((text, index) => (
+      <p key={index}>{text}</p>
+    ))}
   </ScrollAnimation>
 )
 

@@ -114,7 +114,7 @@ class Skillbox extends React.Component {
             <button onClick={this.handleCloseModal}>CLOSE</button>
           </Modal>
         )}
-        <div className="Skillbox" onClick={this.handleOpenModal} tabindex="0">
+        <div className="Skillbox" onClick={this.handleOpenModal} tabIndex="0">
           <img src={this.props.image} alt={this.props.title} />
           <h1>{this.props.title}</h1>
           <h2>{this.props.subtitle}</h2>

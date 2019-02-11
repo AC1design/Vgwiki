@@ -82,7 +82,7 @@ class Itemsbox extends React.Component {
           </div>
           <button onClick={this.handleCloseModal}>CLOSE</button>
         </Modal>
-        <div className="Itembox" onClick={this.handleOpenModal} tabindex="0">
+        <div className="Itembox" onClick={this.handleOpenModal} tabIndex="0">
           <div className="ImageCost">
             <img src={this.props.itemimg} alt={this.props.itemimg} />
             <div className="Cost">

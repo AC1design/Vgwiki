@@ -83,6 +83,10 @@ class Header extends React.Component {
     super(props)
     this.state = {
       hasScrolled: false,
+      top: false,
+      left: false,
+      bottom: false,
+      right: false,
     }
   }
   componentDidMount() {
@@ -143,6 +147,7 @@ class Header extends React.Component {
             <SvgComponent />
           </StyledButton>
         </div>
+        {console.log(this.state.right)}
         <StyledSwipeableDrawer
           anchor="right"
           open={this.state.right}

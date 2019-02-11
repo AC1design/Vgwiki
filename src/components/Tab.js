@@ -7,10 +7,10 @@ import MediaQuery from 'react-responsive'
 import 'animate.css/animate.min.css'
 import Emojibox from './Emoji'
 import { heroCards, heroTabs } from '../constants/heroes'
-import { itemBoxes, menuTabs } from '../constants/items'
+import { menuTabs, itemBoxes } from '../constants/items'
 import { charms } from '../constants/charms'
 
-const tabNames = ['HEROES', 'ITEMS', 'HATS', 'SOCIAL PINGS', 'EMOJI CHARMS']
+const tabNames = ['HEROES', 'ITEMS', 'EMOJI CHARMS']
 
 const makeHeroCard = (hero, index) => (
   <Card
@@ -160,7 +160,6 @@ const Tabsind = () => (
           </TabPanel>
         </Tabs>
       </TabPanel>
-      <TabPanel />
       <TabPanel>
         <div className="EmojiboxGroup">
           {charms.map((charm, index) => (

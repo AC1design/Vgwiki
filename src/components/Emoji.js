@@ -9,7 +9,7 @@ class Emojibox extends React.Component {
   render() {
     return (
       <div className="Emojis">
-        <div className="Emojibox" onClick={this.handleOpenModal} tabindex="0">
+        <div className="Emojibox" onClick={this.handleOpenModal} tabIndex="0">
           <div className="ImageCost">
             <img src={this.props.itemimg} alt={this.props.itemname} />
           </div>
