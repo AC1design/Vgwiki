@@ -147,7 +147,7 @@ class Header extends React.Component {
             <SvgComponent />
           </StyledButton>
         </div>
-        {console.log(this.state.right)}
+
         <StyledSwipeableDrawer
           anchor="right"
           open={this.state.right}

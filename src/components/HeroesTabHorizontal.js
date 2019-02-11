@@ -12,7 +12,7 @@ import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
 import { heroCards } from '../constants/heroes'
 import 'animate.css/animate.min.css'
-import Filter from './Icon/FilterIcon';
+import Filter from './Icon/FilterIcon'
 
 const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
 
@@ -26,11 +26,11 @@ const StyledButton = withStyles({
     border: 0,
     color: 'white',
     height: 0,
-    padding:'0px',
+    padding: '0px',
     marginLeft: '16px',
     marginRight: '16px',
     right: 0,
-    backgroundColor: 'transparent'
+    backgroundColor: 'transparent',
   },
   label: {
     textTransform: 'capitalize',
@@ -105,7 +105,7 @@ class HeroesHorizontal extends React.Component {
       title={hero.name}
       text={hero.type.join(', ')}
       image={require(`./../images/Cards/${hero.name}_Card.jpg`)}
-      link={`/${hero.name}/`}
+      link={hero.name}
       key={index}
     />
   )
@@ -125,9 +125,15 @@ class HeroesHorizontal extends React.Component {
             aria-owns={open ? 'fade-menu' : undefined}
             aria-haspopup="true"
             onClick={this.handleClick}
-            style={{ color: 'white', fontWeight: '900', marginTop: '15px', padding: '0px', minWidth: '30px'}}
+            style={{
+              color: 'white',
+              fontWeight: '900',
+              marginTop: '15px',
+              padding: '0px',
+              minWidth: '30px',
+            }}
           >
-            <Filter></Filter>
+            <Filter />
           </StyledButton>
         </Selectan>
         <div
@@ -158,7 +164,7 @@ class HeroesHorizontal extends React.Component {
           </Menu>
         </div>
         {value === 0 && (
-          <TabContainer >
+          <TabContainer>
             <div className="CardboxGroupScroll">
               <div className="CardboxGroup">
                 {heroCards.map((hero, index) => this.makeHeroCard(hero, index))}

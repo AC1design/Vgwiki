@@ -92,7 +92,7 @@ export default props => {
             </div>
           </div>
           <div className="Title">
-            <h1>SKINS</h1>
+            {hero.skins.length ? <h1>SKINS</h1> : null}
             <div className="line" />
           </div>
           <div className="SkinboxGroupScroll">

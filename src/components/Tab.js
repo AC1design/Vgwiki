@@ -17,7 +17,7 @@ const makeHeroCard = (hero, index) => (
     title={hero.name}
     text={hero.type.join(', ')}
     image={require(`./../images/Cards/${hero.name}_Card.jpg`)}
-    link={`/${hero.name}/`}
+    link={hero.name}
     key={index}
   />
 )

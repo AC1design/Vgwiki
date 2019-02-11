@@ -4,7 +4,7 @@ import 'animate.css/animate.min.css'
 const Card = props => (
   <span>
     <div className="Card">
-      <a href={props.link}>
+      <a href={`Hero/?${props.link}`}>
         <img src={props.image} alt={props.title} />
         <h3>{props.title}</h3>
         <p>{props.text}</p>
