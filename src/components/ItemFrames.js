@@ -24,7 +24,7 @@ class Framesitem extends React.Component {
   }
   render() {
     return (
-      <div class="animated zoomIn">
+      <div className="animated zoomIn">
         <Modal
           isOpen={this.state.showModal}
           className="Modal"
@@ -86,7 +86,7 @@ class Framesitem extends React.Component {
         <div
           style={{ outline: 'none' }}
           onClick={this.handleOpenModal}
-          tabindex="0"
+          tabIndex="0"
         >
           <img
             className="itemsgrid"
