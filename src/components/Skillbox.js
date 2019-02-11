@@ -118,7 +118,7 @@ class Skillbox extends React.Component {
           <img src={this.props.image} alt={this.props.title} />
           <h1>{this.props.title}</h1>
           <h2>{this.props.subtitle}</h2>
-          <p>{this.props.text}</p>
+          <p>{this.props.text.join('\n')}</p>
         </div>
       </ScrollAnimation>
     )
