@@ -3,7 +3,7 @@ import './Frame.css'
 import 'animate.css/animate.min.css'
 
 const Frames = props => (
-  <a href={props.link} class="animated zoomIn">
+  <a href={props.link} className="animated zoomIn">
     <img
       className="farmesgrid"
       style={{ overflow: 'visible' }}
