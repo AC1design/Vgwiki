@@ -32,6 +32,13 @@ const Hero = styled.div`
           justify-content: flex-end;
           background:linear-gradient(to top, rgba(31, 31, 33, 1) 2%, rgba(31, 31, 33, 1) 5%,rgba(25, 26, 27, 0) 100%)  , url(${props => props.bgmobile}) no-repeat center top;
         }
+        @media only screen and (min-device-width : 319px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+            background: linear-gradient(to top, #1f1f21 1%, #1f1f21 1%,rgba(25, 26, 27, 0) 100%) , url(${props => props.bgdesktop}) no-repeat top center;
+    height: 400px;
+    background-size: cover;
+}
 `
 const HeroGroup = styled.div`
 max-width: 500px;

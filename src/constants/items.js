@@ -29,7 +29,6 @@ export const itemBoxes = [
     tier: 'TIER 3',
     color: '#A0D46B',
     cost: '2200',
-    tag: 'NEW',
     description:
       '+40 Shield\n+40 Armor\n+200 Max Health\n\nActivate: Reflex Block (45s cooldown).',
     tip: 'Tip: Greatly reduces damage from enemy abilities.',

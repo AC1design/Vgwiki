@@ -1,5 +1,7 @@
 import React from 'react'
 import './Header.css'
+import { heroCards } from '../constants/heroes'
+import { Link } from 'gatsby'
 import { withStyles } from '@material-ui/core/styles'
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer'
 import Button from '@material-ui/core/Button'
@@ -8,7 +10,6 @@ import SvgComponent from './SvgList'
 import ListItem from '@material-ui/core/ListItem'
 import { Divider } from '@material-ui/core'
 import SimpleDialogDemo from './VgDialog'
-import { heroCards } from '../constants/heroes'
 
 const StyledButton = withStyles({
   root: {
@@ -118,7 +119,7 @@ class Header extends React.Component {
             .map(hero => hero.name)
             .map((text, index) => (
               <div className="Listitem" key={index}>
-                <a href={`/Hero/?${text}`}>
+                <Link to={`/Hero/?${text}`}>
                   <StyledListItem button>
                     <img
                       style={{ overflow: 'visible' }}
@@ -127,7 +128,7 @@ class Header extends React.Component {
                     />
                     {text}
                   </StyledListItem>
-                </a>
+                </Link>
               </div>
             ))}
         </StyledList>
@@ -140,9 +141,9 @@ class Header extends React.Component {
       >
         <div className="HeaderGroup">
           <SimpleDialogDemo />
-          <a href="/">
+          <Link to="/">
             <img src={require('./../images/LOGOWHITE.png')} alt="LOGOWHITE" />
-          </a>
+          </Link>
           <StyledButton onClick={this.toggleDrawer('right', true)}>
             <SvgComponent />
           </StyledButton>

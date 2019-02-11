@@ -18,6 +18,11 @@ height: 45vh;
     @media (max-width:480px) {
       vertical-align: middle;
     }
+     @media only screen and (min-device-width : 319px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  height: 85vh;
+}
 `
 
 const Models = props => (
