@@ -11,38 +11,29 @@ class GridList extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      chosenTab: 'square',
+      tabIndex: localStorage.getItem('tabIndex') || 0,
     }
   }
 
-  selectTab(tab) {
-    // update react state
-    this.setState({ chosenTab: tab })
-
+  selectTab(index) {
     // update localStorage
-    localStorage.setItem('chosenTab', tab)
-  }
-
-  hydrateStateWithLocalStorage() {
-    console.log('hydare', localStorage.getItem('chosenTab'))
-    // Update state from what was saved in local storage
-    this.setState({ chosenTab: localStorage.getItem('chosenTab') || 'square' })
-  }
-
-  componentDidMount() {
-    // When this loads use the locally stored values
-    this.hydrateStateWithLocalStorage()
+    localStorage.setItem('tabIndex', index)
+    // Update the state
+    return this.setState({ tabIndex: index })
   }
 
   render() {
     return (
-      <Tabs>
+      <Tabs
+        defaultIndex={parseInt(this.state.tabIndex, 10)}
+        onSelect={tabIndex => this.selectTab(tabIndex)}
+      >
         <TabList>
           <Tab>
-            <Square onClick={this.selectTab('square')} />
+            <Square />
           </Tab>
           <Tab>
-            <Grid onClick={this.selectTab('grid')} />
+            <Grid />
           </Tab>
         </TabList>
         <TabPanel>

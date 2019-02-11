@@ -30,16 +30,6 @@ const IndexPage = () => (
           <Charms />
         </div>
       </MediaQuery>
-      <MediaQuery query="(max-width: 1366px)">
-        <div className="mobile">
-          <GridList />
-          <div className="adbox">
-            <AdComponent />
-          </div>
-          <ItemsGridList />
-          <Charms />
-        </div>
-      </MediaQuery>
       <div>
         <StickyFooter
           className="footer"
