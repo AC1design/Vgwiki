@@ -272,7 +272,7 @@ export const heroCards = [
         image: 'Adagio_Ra_Rare.png',
       },
     ],
-  }
+  },
   //Aplha
   {
     name: "Alpha",
@@ -596,7 +596,7 @@ export const heroCards = [
         ],
       },
       {
-        video:: 'Anka-C',
+        video: 'Anka-C',
         name: "MIRAGE",
         type: "ULTIMATE",
         image: 'Anka-C',
@@ -674,7 +674,7 @@ export const heroCards = [
         color: "#6393F9",
         name: "Frostborn Anka",
         type: "Rare",
-        image: { require('./../images/Skins/Anka_Frostborn.png') },
+        image: 'Anka_Frostborn',
       },
     ],
   },
@@ -713,6 +713,7 @@ export const heroCards = [
           "• Vengeance per attack 5%",
           "• Because Ardan doesn't need regular energy, 5% of bonus energy and 50% of bonus energy recharge are converted to crystal power.",
         ],
+      },
             {
         video: 'Ardan-A',
         name: "VANGUARD",
@@ -1835,7 +1836,7 @@ export const heroCards = [
   },
   //Celeste
   {
-    name: "Celeste"
+    name: "Celeste",
     type: ['LANER, MAGE'], role: ['LANER'],
     description: "Back-line mage with heavy area damage and a stun.",
     spotlight: "rC-vkqUkERY",
@@ -3145,7 +3146,7 @@ export const heroCards = [
         image: 'Grace_Valkyrie',
       },
       {
-        color: "#FF9000"n,
+        color: "#FF9000",
         name: "Tea Party Grace",
         type: "Legendary",
         image: 'Grace_Tea_Party',
