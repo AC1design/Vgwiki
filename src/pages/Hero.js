@@ -80,12 +80,12 @@ export default props => {
               {hero.talents.map((talent, index) => (
                 <Talentbox
                   title={talent.name}
-                  subtitle={talent.type.toUpperCase()}
-                  color={talent.color}
-                  text={talent.text}
                   image={require(`./../images/Talents/${hero.name}_${
                     talent.type
                   }.png`)}
+                  subtitle={talent.type.toUpperCase()}
+                  color={talent.color}
+                  text={talent.text}
                   key={index}
                 />
               ))}
@@ -102,7 +102,7 @@ export default props => {
                   color={skin.color}
                   title={skin.name}
                   text={skin.type}
-                  image={require(`./../images/Skins/${skin.image}.jpg`)}
+                  image={require(`./../images/Skins/${skin.image}.png`)}
                   key={index}
                 />
               ))}
