@@ -27,18 +27,17 @@ export const heroCards = [
       { name: 'ATTACK RANGE', value: '6.7', color: '#e19efb' },
       { name: 'MOVE SPEED', value: '3.4', color: '#e19efb' },
     ],
-
     model: [{ image: 'Adagioblurred' }, { tmodel: 'Adagio' }],
-
     skills: [
       {
         video: 'Adagio-P',
         name: 'ARCANE RENEWAL',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Adagio-P',
         text: [
           'Whenever enemies burning with Arcane Fire take damage from any source, Adagio regenerates 25% of that damage as energy.',
         ],
+        stats: [],
       },
 
       {
@@ -205,7 +204,7 @@ export const heroCards = [
     talents: [
       {
         name: 'GIFT OF LIFE',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Gift of Fire (A) grants fortified health equal to a portion of its burst heal. Shorter cooldown.',
@@ -216,7 +215,7 @@ export const heroCards = [
       },
       {
         name: 'Avenging Wrath',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Core Collapse (B) creates four black-hole collapses. Longer cooldown and lower damage.',
@@ -227,7 +226,7 @@ export const heroCards = [
       },
       {
         name: 'Healing Verse',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           "Verse of Judgement (Ult) heals all of Adagio's allies within its radius. Shorter cooldown but lower damage.",
@@ -243,31 +242,31 @@ export const heroCards = [
         color: '#6393F9',
         name: 'Spiderwing Adagio',
         type: 'Rare',
-        image: 'Adagio_Dark_Parade_I_R.png',
+        image: 'Adagio_Dark_Parade_I_R',
       },
       {
         color: '#7A02EA',
         name: 'Dark Parade Adagio',
         type: 'Epic',
-        image: 'Adagio_Dark_Parade_II_E.png',
+        image: 'Adagio_Dark_Parade_II_E',
       },
       {
         color: '#FF9000',
         name: 'Crimson Song Adagio',
         type: 'Legendary',
-        image: 'Adagio_Dark_Parade_III_L.png',
+        image: 'Adagio_Dark_Parade_III_L',
       },
       {
         color: '#7A02EA',
         name: 'Seraphim Adagio',
         type: 'Epic',
-        image: 'Adagio_Seraphim_E.png',
+        image: 'Adagio_Seraphim_E',
       },
       {
         color: '#6393F9',
         name: "Ra'dagio",
         type: 'Rare',
-        image: 'Adagio_Ra_Rare.png',
+        image: 'Adagio_Ra_Rare',
       },
     ],
   },
@@ -294,8 +293,8 @@ export const heroCards = [
     skills: [
       {
         name: 'INFINITE REBOOT',
-        type: 'HEROIC PERK',
-        image: 'Alpha-P.jpg',
+        type: 'Perk',
+        image: 'Alpha-P',
         text: [
           'Instead of dying, Alpha initiates 3.5s reboot sequence. If her reboot health is not destroyed before time runs out, she will return to life.',
           "When alive, Alpha's special energy bar shows the time until Infinite Reboot is available. When rebooting, the bar counts down to when she will revive.",
@@ -303,6 +302,7 @@ export const heroCards = [
           '• Reboot Duration: 3.5s',
           '• Alpha revives with her Prime Directive & Core Charge ability cooldowns refreshed.',
         ],
+        stats: [],
       },
       {
         name: 'PRIME DIRECTIVE',
@@ -353,7 +353,7 @@ export const heroCards = [
       {
         name: 'CORE CHARGE',
         type: 'B ABILITY',
-        image: 'Alpha-B.jpg',
+        image: 'Alpha-B',
         text: [
           'Alpha lunges forward, and basic attacks her target. This ability costs 2% of her current health and applies Core Overload to herself, which will increase her damage output.',
           'Core Overload (status effect): Each stack increases health cost of Core Charge by 2%, but also increases the damage. Also causes basic attacks to heal her. This healing is reduced against lane minions. Lasts 8.0s, stacking up to 3 times. Basic attacks refresh the duration.',
@@ -426,18 +426,18 @@ export const heroCards = [
     talents: [
       {
         name: 'Core Overclock',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Beneficial Core Overload (B) stacks boost attack speed. Alpha passively gains weapon power.',
           '• Attack Speed/Stack +15%',
           '• Passive Weapon Power +5% (+1%)',
         ],
-        image: 'Alpha_Rare.png',
+        image: 'Alpha_Rare',
       },
       {
         name: 'Prime Time',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Prime Directive (A) grants Alpha bonus fortified health for every negative Core Overload stack from Core Charge (B) she expends. Longer cooldown.',
@@ -449,7 +449,7 @@ export const heroCards = [
       },
       {
         name: 'Acceleration',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Termination Protocol (Ult) has a stronger barrier and grants Alpha increased move speed instead of slowing her. Shorter cooldown.',
@@ -465,13 +465,13 @@ export const heroCards = [
         color: '#6393F9',
         name: 'Broken Doll Alpha',
         type: 'Rare',
-        image: 'Alpha_Broken_Doll_I_R.png',
+        image: 'Alpha_Broken_Doll_I_R',
       },
       {
         color: '#7A02EA',
         name: 'Toy Box Alpha',
         type: 'Epic',
-        image: 'Alpha_Broken_Doll_II_E.png',
+        image: 'Alpha_Broken_Doll_II_E',
       },
       {
         color: '#FF9000',
@@ -512,8 +512,8 @@ export const heroCards = [
       {
         video: 'Anka-P',
         name: 'GYTHIAN PROMISE',
-        type: 'HEROIC PERK',
-        image: 'Anka-P.jpg',
+        type: 'Perk',
+        image: 'Anka-P',
         text: [
           'After 8s, Anka’s next basic attack on an enemy hero becomes Execute Strike, dealing bonus crystal damage equal to 19-30% (level 1-12) of the target’s missing health. Additionally, Anka fully refreshes Execute Strike and Shimmer Blade upon getting a hero kill or assist.',
         ],
@@ -631,7 +631,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Gale Blade',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Bonus movespeed on reactivating Shimmer Blade (A) is increased and lasts longer.',
@@ -643,7 +643,7 @@ export const heroCards = [
       },
       {
         name: 'Gythian Tempest',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Gythian Promise (Perk) refreshes all abilities on hero kill/assist. Anka passively gains crystal power.',
@@ -653,7 +653,7 @@ export const heroCards = [
       },
       {
         name: 'Crimson Blade',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Shimmer Blade (A) has greatly increased range, lower cooldown and increased damage.',
@@ -698,7 +698,7 @@ export const heroCards = [
       {
         video: 'Ardan-P',
         name: "JULIA'S GIFT",
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Ardan-P',
         text: [
           'Ardan benefits from purchasing health items.',
@@ -832,7 +832,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Vanguardian',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Vanguard (A) provides a full-strength barrier when self-cast.',
@@ -844,7 +844,7 @@ export const heroCards = [
       },
       {
         name: 'Heavy Hitter',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Blood for Blood (B) deals much more damage but has 3.5 shorter range.',
@@ -855,7 +855,7 @@ export const heroCards = [
       },
       {
         name: 'Knockout Punch',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Blood for Blood (B) also knocks back the target 10 meters.',
@@ -927,7 +927,7 @@ export const heroCards = [
     skills: [
       {
         name: 'REAP',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Baptiste-P',
         text: [
           'Baptiste steals soul fragments through combat and is healed for each soul fragment acquired.',
@@ -1071,7 +1071,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Bad Bad Mojo',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Bad Mojo (A) has 2 bonus range.',
@@ -1082,7 +1082,7 @@ export const heroCards = [
       },
       {
         name: 'The Reaper',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Reap (Perk) continues to collect souls when empowered.',
@@ -1093,7 +1093,7 @@ export const heroCards = [
       },
       {
         name: 'Army of Souls',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Fearsome Shade (Ult) summons two sets of spectres that travel side by side.',
@@ -1115,7 +1115,7 @@ export const heroCards = [
         color: '#7A02EA',
         name: 'Anubis Baptiste',
         type: 'Epic',
-        image: 'Anubis_Epic.png',
+        image: 'Anubis_Epic',
       },
     ],
   },
@@ -1142,7 +1142,7 @@ export const heroCards = [
     skills: [
       {
         name: 'ROCKET LAUNCHER',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Baron-P',
         text: [
           'Baron’s basic attacks deal 135% weapon damage to the target and surrounding enemies.',
@@ -1223,7 +1223,7 @@ export const heroCards = [
       {
         name: 'ION CANNON',
         type: 'ULTIMATE',
-        image: 'Baron-C.jpg',
+        image: 'Baron-C',
         text: [
           'Baron targets a location anywhere on the map for an orbital strike., obliterating the area after a 3s delay.',
           '• Deals 50 % less damage to minions.',
@@ -1263,7 +1263,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Turbo Jets',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Jump Jets (B) has no startup delay and fires three rockets on Baron’s next basic attack.',
@@ -1274,7 +1274,7 @@ export const heroCards = [
       },
       {
         name: 'Endless Mortars',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Porcupine Mortar (A) has 6 additional charges and travels faster.',
@@ -1285,7 +1285,7 @@ export const heroCards = [
       },
       {
         name: 'Trion Cannon',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Ion Cannon (Ult) has 2 additional charges. Baron passively gains attack range.',
@@ -1335,7 +1335,7 @@ export const heroCards = [
     skills: [
       {
         name: 'HEARTTHROB',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Blackfeather-P',
         text: [
           "Blackfeather's attacks and abilities apply Heartthrob stacks to enemies. Any time stacks are added or refreshed, Blackfeather deals bonus crystal damage for each stack already on the target.",
@@ -1498,18 +1498,18 @@ export const heroCards = [
     talents: [
       {
         name: 'Hummingbird Heart',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Heartthrob (Perk) lasts 4s longer on targets. Blackfeather passively gains weapon power and attack speed.',
           '• Passive Attack Speed +20% (+2%)',
           '• Passive Weapon Power +5% (+1%)',
         ],
-        image: 'Blackfeather_Rare.png',
+        image: 'Blackfeather_Rare',
       },
       {
         name: 'Point Guard',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Landing On Point (B) on an enemy hero grants a stronger barrier to nearby allies for 2s.',
@@ -1519,7 +1519,7 @@ export const heroCards = [
       },
       {
         name: 'Elusiveness',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Rose Offensive (Ult) has 2 additional charges.',
@@ -1535,7 +1535,7 @@ export const heroCards = [
         color: '#6393F9',
         name: 'Dynasties Blackfeather',
         type: 'Rare',
-        image: 'Blackfeather_Dynasties_R.png',
+        image: 'Blackfeather_Dynasties_R',
       },
       {
         color: '#FF9000',
@@ -1581,7 +1581,7 @@ export const heroCards = [
       {
         video: 'Catherine-P',
         name: 'CAPTAIN OF THE GUARD',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Catherine-P',
         text: [
           'Catherine gains 1 armor and shield every time she stuns or silences or silences an enemy hero with her abilities.',
@@ -1720,7 +1720,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Advancing Guard',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Captain of the Guard (Perk) also grants temporary bonys crystal and weapon power for 30s.',
@@ -1732,7 +1732,7 @@ export const heroCards = [
       },
       {
         name: 'Quick Pursuit',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'While Stormguard (B) is active, Catherine’s basic attacks will reduce the cooldown of Merciless Pursuit (A) and Blast Tremor (Ult).',
@@ -1743,7 +1743,7 @@ export const heroCards = [
       },
       {
         name: 'Shockwave',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Blast Tremor (Ult) knock back enemies but no longer silences.',
@@ -1846,7 +1846,7 @@ export const heroCards = [
       {
         video: 'Celeste-P',
         name: "JULIA'S LIGHT",
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Celeste-P',
         text: [
           "Celeste's basic attacks have a spell component, dealing 75-125 (level 1-12) (+75% Crystal Power)(+100% Weapon Power). Celeste's basic attacks also reveal enemy heroes for 1.5 seconds - even after the target leaves vision range.",
@@ -1975,7 +1975,7 @@ export const heroCards = [
     talents: [
       {
         name: 'YOUNG STAR',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Heliogensis (A) stars linger on the field 4s longer and continuously damage nearby enemies. Lower impact damage.',
@@ -1986,7 +1986,7 @@ export const heroCards = [
       },
       {
         name: 'CORE LEAF CLOVER',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Core Collapse (B) creates four black-hole collapses. Longer cooldown and lower damage.',
@@ -1997,7 +1997,7 @@ export const heroCards = [
       },
       {
         name: 'GALAXY COLLAPSE',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Heliogenesis (A) supernovas cause other stars to supernova. Lower damage.',
@@ -2082,7 +2082,7 @@ export const heroCards = [
     skills: [
       {
         name: 'FUTILITY OF LIFE',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Churnwalker-P',
         text: [
           '• Whenever chained victims take damage from any source, Churnwalker regenerates 20% of that damage as health.',
@@ -2196,7 +2196,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Churn Tank',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Futility of Life (Perk) has significantly increased healing but decreased damage share.',
@@ -2207,7 +2207,7 @@ export const heroCards = [
       },
       {
         name: 'Cloud of Torment',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Activating Torment (B) releases a powerful Churn Cloud that damages enemies over time, making Churnwalker a dangerous threat at close range. Cooldown increased.',
@@ -2220,7 +2220,7 @@ export const heroCards = [
       },
       {
         name: 'Grappling Hook',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Churnwalker’s Hook & Chain (A) gains a grappling hook. This ability has dramatically increased range and can grapple to targets, pulling Churnwalker to the hooked location.',
@@ -2262,7 +2262,7 @@ export const heroCards = [
     skills: [
       {
         name: 'WILLOW WHISPER',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Flicker-P',
         text: [
           'Flicker gains stealth and a move speed bonus when in brush for 2s. Flicker can then leave the brush and remain stealthed for 3s.',
@@ -2391,7 +2391,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Swarming Light',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Binding Light (A) has 1 additional charge.',
@@ -2402,7 +2402,7 @@ export const heroCards = [
       },
       {
         name: 'Binding Dust',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Fairy Dust (B) roots enemies caught within its detonation and grants Flicker move speed while active.',
@@ -2414,7 +2414,7 @@ export const heroCards = [
       },
       {
         name: 'Fairy Healing',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Flicker’s stealth also greatly increases health regeneration. Flicker passively gains crystal power.',
@@ -2469,7 +2469,7 @@ export const heroCards = [
       {
         video: 'Fortress-P',
         name: 'PACKMATES',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Fortress-P',
         text: [
           "When Fortress is near an allied hero, he will move faster after 1s. He will maintain this move-speed bonus so long as he's alongside any allied hero.",
@@ -2635,7 +2635,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Longtooth',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Truth of the Tooth (A) has 1.6 bonus range. Fortress passively gains attack speed and weapon power.',
@@ -2647,7 +2647,7 @@ export const heroCards = [
       },
       {
         name: 'Critical Wounds',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Fortress gains +15% critical chance for each active wolf summoned by Attack of the Pack (Ult). Fortress passively gains critical strike damage.',
@@ -2658,7 +2658,7 @@ export const heroCards = [
       },
       {
         name: 'Flank Attack',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Truth of the Tooth (A) and Law of the Claw (B) spawn a wolf to attack Fortress’ target, up to a maximum of 3 wolves.',
@@ -2737,7 +2737,7 @@ export const heroCards = [
       {
         video: 'Glaive-P',
         name: 'HUNT THE WEAK',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Glaive-P',
         text: [
           "Glaive's critical strikes cleave in a 4 metres cone in front of him.",
@@ -2864,7 +2864,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Violent Afterburn',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Using Afterburn (A) to punt a target will deal a portion of Afterburn’s damage and stun all enemies along its path.',
@@ -2876,7 +2876,7 @@ export const heroCards = [
       },
       {
         name: 'Stunning Bloodsong',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Bloodsong (Ult) stuns enemies caught by Glaive’s axe.',
@@ -2888,7 +2888,7 @@ export const heroCards = [
       },
       {
         name: 'Twisted Pursuit',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Twisted Stroke (B) has 5 increased range and causes Glaive to dash to his target.',
@@ -2960,7 +2960,7 @@ export const heroCards = [
     skills: [
       {
         name: 'RETRIBUTION',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Grace-P',
         text: [
           'Grace chains her normal basic attack into a ground slam, dealing bonus weapon damage and slowing enemies in a wide area. If any enemies are hit by the ground slam, her ability cooldowns are reduced by 1.2s.',
@@ -3083,7 +3083,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Seal of Retribution',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Retribution (Perk) deal bonus crystal damage. Grace passively gains crystal power.',
@@ -3094,7 +3094,7 @@ export const heroCards = [
       },
       {
         name: 'Double Benediction',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Benediction (A) has 1 additional charge.',
@@ -3105,7 +3105,7 @@ export const heroCards = [
       },
       {
         name: 'United Front',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Divine Intervention (Ult) also heals Grace.',
@@ -3153,7 +3153,7 @@ export const heroCards = [
     skills: [
       {
         name: 'LIVING ARMOR',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Grumpjaw-P',
         text: [
           'Each stack of Living Armor reduces incoming damage by 7%.',
@@ -3294,7 +3294,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Rampage',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Grumpy (A) deals a portion of its damage to all enemies along its path.',
@@ -3304,7 +3304,7 @@ export const heroCards = [
       },
       {
         name: 'Reconstitution',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Hangry (B) grants Grumpjaw life steal.',
@@ -3315,7 +3315,7 @@ export const heroCards = [
       },
       {
         name: 'Big Appetite',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Stuffed (Ult) keeps enemies inside for much longer and eats all heros in Grumpjaw’s path.',
@@ -3364,7 +3364,7 @@ export const heroCards = [
     skills: [
       {
         name: 'BOOMSTICK',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Gwen-P',
         text: [
           "After not attacking for 1.4s, Gwen's next basic attack is a Boomstick shot that deals bonus damage.",
@@ -3484,7 +3484,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Speed Loader',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Buckshot Bonanza (A) is reset whenever Gwen uses Skedaddle (B).',
@@ -3495,7 +3495,7 @@ export const heroCards = [
       },
       {
         name: 'Skedaddling',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Skedaddle’s (B) duration is increased. Gwen passively gains weapon power.',
@@ -3507,7 +3507,7 @@ export const heroCards = [
       },
       {
         name: 'Three of a Kind',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Aces High (Ult) fires three cards in a cone.',
@@ -3573,7 +3573,7 @@ export const heroCards = [
     skills: [
       {
         name: 'DIVERGENT PATHS',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Idris-P',
         text: [
           'Idris unlocks unique combat styles upon attaining 100 weapon or crystal power',
@@ -3710,7 +3710,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Path of the Seeker',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'All Divergent Paths (Perk) bonuses are unlocked. Idris passively gains weapon and crystal power.',
@@ -3722,7 +3722,7 @@ export const heroCards = [
       },
       {
         name: 'Cha-Cha-Chakram',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Chakram (B) throws thress projectiles in a cone.',
@@ -3733,7 +3733,7 @@ export const heroCards = [
       },
       {
         name: 'Shimmer Heal',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Shimmer Strike (Ult) heals Idris and target ally for a percentage of their maximum health.',
@@ -3795,7 +3795,7 @@ export const heroCards = [
       {
         video: 'Inara-P',
         name: 'SACRED GROVE',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Inara-P',
         text: [
           'Inara summons wisps around nearby treants, gaining vision and allowing her to leap to them. Killing a treant grants Inara a movement speed boost for 30s.',
@@ -3917,7 +3917,7 @@ export const heroCards = [
     talents: [
       {
         name: 'DANCE OF MENDING',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Dance of Leaves (A) also heals Inara and her allies.',
@@ -3928,7 +3928,7 @@ export const heroCards = [
       },
       {
         name: 'BANISHING MIGHT',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Banishing Kick (B) knocks targets further.',
@@ -3939,7 +3939,7 @@ export const heroCards = [
       },
       {
         name: 'Sacred Warrior',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Shimmer Blade (A) has greatly increased range, lower cooldown and increased damage.',
@@ -3981,7 +3981,7 @@ export const heroCards = [
       {
         video: 'Joule-P',
         name: 'HEAVY PLATING',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Joule-P',
         text: ['Joule takes 35% less damage when hit from the front or sides.'],
       },
@@ -4086,7 +4086,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Rocket Leapfrog',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Rocket Leap (A) is reset whenever landing on enemies but no longer stuns or knocks back. Joule passively gains armor and shield.',
@@ -4099,7 +4099,7 @@ export const heroCards = [
       },
       {
         name: 'Backup Button',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Big Red Button (Ult) has 1 additional charge.',
@@ -4110,7 +4110,7 @@ export const heroCards = [
       },
       {
         name: 'Thundering Steps',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Thunder Strike (B) grants Joule bonus move speed when it strikes enemies. Joule passively gains weapon power.',
@@ -4185,7 +4185,7 @@ export const heroCards = [
       {
         video: 'Kensei-P',
         name: 'IMMOVABLE MIND',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Kensei-P',
         text: [
           "After striking enemy heroes or jungle monsters 3 times, Kensei's next basic attack deals 20% bonus damage and grants a burst of barrier.",
@@ -4307,7 +4307,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Accelerated Mind',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Hitting an enemy hero or jungle monster grants max stats of Immovable Mind (Perk)',
@@ -4318,7 +4318,7 @@ export const heroCards = [
       },
       {
         name: 'Enlightened Kensho',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Kensho’s empowered attack grants Kensei temporary invulnerability.',
@@ -4330,7 +4330,7 @@ export const heroCards = [
       },
       {
         name: 'Endless Path',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Landing Path of the Ronin (Ult) resets its cooldown',
@@ -4378,7 +4378,7 @@ export const heroCards = [
     skills: [
       {
         name: 'ADRENALINE',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Kestrel-P',
         text: [
           'Whenever Kestrel lands a basic attack, she reduces the energy cost of her abilities by 10%. This stacks up to 5 times and wears off after 8s.',
@@ -4521,7 +4521,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Glimmer Volley',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Glimmershot (A) launches two arrows without consuming an additional charge.',
@@ -4532,7 +4532,7 @@ export const heroCards = [
       },
       {
         name: 'Active Reload',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Active Camo (B) refreshes all charges of Glimmershot (A). Glimmershot (A) has 2 additional charges.',
@@ -4544,7 +4544,7 @@ export const heroCards = [
       },
       {
         name: 'Piercing Shot',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'One Shot One Kill (Ult) pierces through its target, damaging all enemies along its path.',
@@ -4617,7 +4617,7 @@ export const heroCards = [
       {
         video: 'Kinetic-P',
         name: 'TRACER SHOTS',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Kinetic-P',
         text: [
           'Landing Plasma Driver grants Kinetic a stack of Tracer Shots up to 4 stacks.',
@@ -4733,7 +4733,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Pain Tracers',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Tracer Shots (Perk) deals increased damage. Kinetic passively gains attack speed.',
@@ -4744,7 +4744,7 @@ export const heroCards = [
       },
       {
         name: 'Plasma Overdrive',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Plasma Driver (A) fires two additional bursts.',
@@ -4755,7 +4755,7 @@ export const heroCards = [
       },
       {
         name: 'Max Kinetic',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Damaging enemies with Plasma Driver (A) reduces Inertial Dash’s (B) cooldown.',
@@ -4799,7 +4799,7 @@ export const heroCards = [
       {
         video: 'Koshka-P',
         name: 'BLOODRUSH',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Koshka-P',
         text: [
           'Koshka gains 2 move speed for 4s whenever she deals damage with her abilities.',
@@ -4919,7 +4919,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Frenzied',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Basic attacks reduce the cooldown of Koshka’s abilities.',
@@ -4932,7 +4932,7 @@ export const heroCards = [
       },
       {
         name: 'Twirly Life',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Twirly Death (B) grants Koshka additional health barrier.',
@@ -4944,7 +4944,7 @@ export const heroCards = [
       },
       {
         name: 'Slashy Play Time!',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Yummy Catnip Frenzy (Ult) activates quicker and stuns nearby enemies.',
@@ -5023,7 +5023,7 @@ export const heroCards = [
       {
         video: 'Krul-P',
         name: 'SHADOWS EMPOWER ME',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Krul-P',
         text: [
           'Krul is empowered by the shadows after standing still in brush for 1s. While empowered, Krul briefly gains 2.2 move speed and his basic attacks will slow the target by 40% for 2.5s.',
@@ -5181,7 +5181,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Dead Man’s Barrier',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Dead Man’s Rush (A) has 0.5 increased range and stronger barrier.',
@@ -5191,7 +5191,7 @@ export const heroCards = [
       },
       {
         name: 'Healing Smite',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Spectral Smite (B) heals nearby allies. Krul passively gains crystal power.',
@@ -5202,7 +5202,7 @@ export const heroCards = [
       },
       {
         name: 'Cursed Blade',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'From Hell’s Heart (Ult) applies max Spectral Smite (B) Weakness stacks to the victim.',
@@ -5292,7 +5292,7 @@ export const heroCards = [
     skills: [
       {
         name: "PARTISAN'S TECHNIQUE",
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Lance-P',
         text: [
           "Lance's basic attacks damage every target along their path. However, his attacks are slow to land and attack speed is less effective on him.",
@@ -5438,7 +5438,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Reinforced Walls',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Gythian Wall (B) grants Lance and nearby allies a barrier.',
@@ -5450,7 +5450,7 @@ export const heroCards = [
       },
       {
         name: 'Rollout',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Combat Roll (Ult) has 2 longer range and damages enemies along its path.',
@@ -5461,7 +5461,7 @@ export const heroCards = [
       },
       {
         name: 'Striker',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Basic attacks reduce the cooldown of Impale (A) and Combat Roll (Ult).',
@@ -5529,7 +5529,7 @@ export const heroCards = [
     skills: [
       {
         name: "THAT'S SWELL",
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Lorelai-P',
         text: [
           "Lorelai's abilities leave pools of water on the ground. While on a pool, Lorelai gains 10-120 (level 1-12) crystal power. Using an ability while empowered consumes the pool she’s on and affects the ability used. Additionally, Lorelai's basic attacks are torrents of water that deals crystal damage.",
@@ -5660,7 +5660,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Splash Doubledown',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Splashdown (B) has 1 additional charge.',
@@ -5671,7 +5671,7 @@ export const heroCards = [
       },
       {
         name: 'Clam Up',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Fish Food (A) stuns for a longer duration.',
@@ -5681,7 +5681,7 @@ export const heroCards = [
       },
       {
         name: 'Wonder Wall',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Waterwall (Ult) grants invulnerability instead of barrier.',
@@ -5715,7 +5715,7 @@ export const heroCards = [
     skills: [
       {
         name: 'PRINCIPLE ARCANUM',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Lyra-P',
         text: [
           'Lyra’s attacks are arcane missiles that deal crystal damage. if she holds her ground after releasing an attack, she automatically follows up with a heavy attack that also slows the target.',
@@ -5866,7 +5866,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Twin Missles',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Principle Arcanum (Perk) shoots an additional projectile but no longer slows.',
@@ -5876,7 +5876,7 @@ export const heroCards = [
       },
       {
         name: 'Mobile Bulwark',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Bright Bulwark (B) moves with Lyra and lasts longer. Lyra passively gains crystal power.',
@@ -5887,7 +5887,7 @@ export const heroCards = [
       },
       {
         name: 'Gythian Ward',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Bright Bulwark (B) grants a barrier for 2s and removes all negative effects on nearby allies.',
@@ -5953,7 +5953,7 @@ export const heroCards = [
     skills: [
       {
         name: 'ARCANE RITE',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Magnus-P',
         text: [
           'Whenever an enemy is hit by any of Magnus’ abilities, they are afflicted with an Arcane Mark for 4s. Magnus’ abilities have bonus effects when hitting enemies afflicted with Arcane Mark.',
@@ -6070,7 +6070,7 @@ export const heroCards = [
     talents: [
       {
         name: 'MYSTIC SEER',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Arcane Mark lasts longer and reveals marked targets.',
@@ -6080,7 +6080,7 @@ export const heroCards = [
       },
       {
         name: 'ARCANE ALCHEMIST',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Banishing Kick (B) knocks targets further.',
@@ -6090,7 +6090,7 @@ export const heroCards = [
       },
       {
         name: 'INFINITE ARCANA',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Hitting an enemy hero with an ability reduces all ability cooldowns',
@@ -6132,7 +6132,7 @@ export const heroCards = [
     skills: [
       {
         name: 'MASKED BALL',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Malene-P',
         text: [
           "Malene's ultimate is available at level 1 and allows her to switch between Light Form and Shadow Form. Additionally, Malene's basic attacks deal crystal damage.",
@@ -6312,7 +6312,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Spiky-Spiky',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Wicked Escapade (Shadow B) will also deal damage where Malene appears.',
@@ -6323,7 +6323,7 @@ export const heroCards = [
       },
       {
         name: 'Shadow Terror',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Shadow Tendrils (Shadow A) will also fear enemies.',
@@ -6334,7 +6334,7 @@ export const heroCards = [
       },
       {
         name: 'Royal Favors',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Royal Amnesty (Light B) will also apply to nearby allies and deal damage around shielded targets upon expiration.',
@@ -6376,7 +6376,7 @@ export const heroCards = [
     skills: [
       {
         name: 'CARNIE LUCK',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Ozo-P',
         text: [
           'Ozo receives 10-25% additional healing, barrier and fortified health from all sources.',
@@ -6536,7 +6536,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Second Wind',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Acrobounce (B) is reset upon the third bounce.',
@@ -6547,7 +6547,7 @@ export const heroCards = [
       },
       {
         name: 'Ring Leader',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Three-Ring Circus (A) heals nearby allies.',
@@ -6557,7 +6557,7 @@ export const heroCards = [
       },
       {
         name: 'Bangaranarang!',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Bangarang (ult) has 1 additional charge.',
@@ -6607,7 +6607,7 @@ export const heroCards = [
       {
         video: 'Petal-P',
         name: 'MUNIONS',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Petal-P',
         text: [
           'A few moments after Petal plants a Bramblebloom Seed, it will automatically sprout into a Munion pet, which will fight alongside Petal up to a maximum of 3 Munions.',
@@ -6755,7 +6755,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Bouncer',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Trampoline (B) has a 1s cooldown but will cost more energy if used while empowerment is still active.',
@@ -6765,7 +6765,7 @@ export const heroCards = [
       },
       {
         name: 'Kaboom Seeds',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Brambleboom Seeds (A) explode for massive damage but no longer knock back enemies.',
@@ -6775,7 +6775,7 @@ export const heroCards = [
       },
       {
         name: 'Explosive Force',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Spontaneous Combustion (Ult) knocks back enemies caught within its explosion.',
@@ -6847,7 +6847,7 @@ export const heroCards = [
     skills: [
       {
         name: 'UNSTOPPABLE',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Phinn-P',
         text: [
           'Phinn cannot be stopped or stunned. All movement-impairing effects are instead reduced to moderate slows, and stuns are converted to silences.',
@@ -6964,7 +6964,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Friendly Cavil',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Polite Company (B) resets the cooldown of Quibble (A). The energy costs of both abilities are reduced by 50%.',
@@ -6975,7 +6975,7 @@ export const heroCards = [
       },
       {
         name: 'Phaster',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Polite Company (B) grants bonus move speed to Phinn and his allies.',
@@ -6986,7 +6986,7 @@ export const heroCards = [
       },
       {
         name: 'Raid Boss',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Phinn rapidly regenerates health.',
@@ -7046,7 +7046,7 @@ export const heroCards = [
     skills: [
       {
         name: 'FROSTGUARD',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Reim-P',
         text: [
           "Reim's basic attacks deal 50-160 (level 1-12) (+180% crystal power) damage over 4s and slow targets for 0.6s.",
@@ -7193,7 +7193,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Creeping Cold',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Winter Spire (A) deals damage to all enemies it passes through.',
@@ -7203,7 +7203,7 @@ export const heroCards = [
       },
       {
         name: 'Long Winter',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Fortified Health generated by Reim lasts 30s longer. Reim passively gains crystal power.',
@@ -7213,7 +7213,7 @@ export const heroCards = [
       },
       {
         name: 'Revenant',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Chill Winds (B) prevents Reim from being slowed and grants him a barrier for 2s.',
@@ -7279,7 +7279,7 @@ export const heroCards = [
     skills: [
       {
         name: 'FIRESTARTER',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Reza-P',
         text: [
           'Scorcher and Netherform Detonator apply Firestarter to enemy targets.',
@@ -7412,7 +7412,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Burning Barrier',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Troublemaker (B) grants Reza a barrier for a short duration.',
@@ -7422,7 +7422,7 @@ export const heroCards = [
       },
       {
         name: 'Firemaker',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Troublemaker (B) applies Firestarter (Perk) to enemy heroes he passes through.',
@@ -7432,7 +7432,7 @@ export const heroCards = [
       },
       {
         name: 'Nether Rage',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Netherform Detonator (Ult) grants Reza bonus attack speed and lasts longer.',
@@ -7482,7 +7482,7 @@ export const heroCards = [
         video:
           'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ringo-P-Double-Down.mp4',
         name: 'DOUBLE DOWN',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Ringo-P',
         text: [
           "Ringo's next basic attack after killing anything will be a critical strike.",
@@ -7524,7 +7524,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Long Shot',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Achilles Shot (A) has 4 bonus range.',
@@ -7535,7 +7535,7 @@ export const heroCards = [
       },
       {
         name: 'Bullet Split',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Twirling Silver (B) causes Ringo’s basic attacks to fire a secondary shot at a nearby target.',
@@ -7546,7 +7546,7 @@ export const heroCards = [
       },
       {
         name: 'Spiked Brew',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Hellfire Brew (Ult) bounces to a nearby enemy hero upon impact.',
@@ -7614,7 +7614,7 @@ export const heroCards = [
         video:
           'https://www.vainglorygame.com/wp-content/uploads/2015/08/P-Rona-Berserkers-Fury-Large.mp4',
         name: "BERSERKERS' FURY",
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Rona-P',
         text: [
           'Rona attacks faster than most heroes, but she deals 85% damage with each attack.',
@@ -7665,7 +7665,7 @@ export const heroCards = [
     talents: [
       {
         name: 'MOAR Rage',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Increases maximum Bloodrage. Rona passively gains weapon power.',
@@ -7676,7 +7676,7 @@ export const heroCards = [
       },
       {
         name: 'Heroic Brawler',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Basic attacks reduce the cooldown of Into the Fray (A) by 10%. Rona passively gains attack speed.',
@@ -7687,7 +7687,7 @@ export const heroCards = [
       },
       {
         name: 'Fast Whirlwind',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Red Mist (Ult) grants Rona 1.2s bonus move speed.',
@@ -7759,7 +7759,7 @@ export const heroCards = [
     skills: [
       {
         name: 'CORRUPTED GENIUS',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Samuel-P',
         text: [
           'Every 6s, Samuels next basic attack fires a bolt of dark power that deals bonus crystal damage and draws health & energy back to Samuel.',
@@ -7802,7 +7802,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Power Siphon',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'Corrupted Genius (Perk) occurs more frequently.',
@@ -7813,7 +7813,7 @@ export const heroCards = [
       },
       {
         name: 'Unwaking Nightmare',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Enemies put to sleep by Oblivion (Ult) will not wake up when taking damage.',
@@ -7824,7 +7824,7 @@ export const heroCards = [
       },
       {
         name: 'Viscous Darkness',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'Drifting Dark (B) moves slower and slows enemies caught within.',
@@ -7876,7 +7876,7 @@ export const heroCards = [
         video:
           'https://www.vainglorygame.com/wp-content/uploads/2015/05/SAW-P-Spin-Up.mp4',
         name: 'SPIN UP',
-        type: 'HEROIC PERK',
+        type: 'Perk',
         image: 'Saw-P',
         text: [
           'Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed.',
@@ -7924,7 +7924,7 @@ export const heroCards = [
     talents: [
       {
         name: 'Piercing Bullets',
-        type: 'RARE',
+        type: 'Rare',
         color: '#6393F9',
         text: [
           'SAW’s basic attack pierces its target to hit all enemies along its path.',
@@ -7935,7 +7935,7 @@ export const heroCards = [
       },
       {
         name: 'Speedy Spin Up',
-        type: 'EPIC',
+        type: 'Epic',
         color: '#7A02EA',
         text: [
           'Spin Up (Perk) no longer slows SAW.',
@@ -7945,7 +7945,7 @@ export const heroCards = [
       },
       {
         name: 'Road Rage',
-        type: 'LEGENDARY',
+        type: 'Legendary',
         color: '#FF9000',
         text: [
           'SAW gains Spin Up (Perk) stacks after attacking an enemy with Roadie Run (A). Basic attacks reduce the cooldown of Roadie Run (A) by 50%.',
