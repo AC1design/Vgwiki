@@ -34,7 +34,7 @@ export const heroCards = [
 
     skills: [
       {
-        video: "Adagio-P",
+        video: "https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-P-Arcane-Renewal.mp4",
         name: "ARCANE RENEWAL",
         type: "HEROIC PERK",
         image: "Adagio-P",
@@ -44,7 +44,7 @@ export const heroCards = [
       },
 
       {
-        video: "Adagio-A",
+        video: "https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-A-Gift-of-Fire.mp4",
         name: "GIFT OF FIRE",
         type: "A ABILITY",
         text: [
@@ -101,7 +101,7 @@ export const heroCards = [
         ],
       },
       {
-        video: "Adagio-B",
+        video: "https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-B-Agent-of-Wrath.mp4",
         name: "AGENT OF WRATH",
         type: "B ABILITY",
         image: "Adagio-B",
@@ -151,7 +151,7 @@ export const heroCards = [
         ],
       },
       {
-        video: "Adagio-C",
+        video: "https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-C-Verse-of-Judgement.mp4",
         name: "VERSE OF JUDGEMENT",
         type: "ULTIMATE",
         image: "Adagio-C.",
@@ -705,7 +705,7 @@ export const heroCards = [
         video: 'Ardan-P',
         name: "JULIA'S GIFT",
         type: "HEROIC PERK",
-        image: 'Ardan-P',
+        image: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-P-Julias-Gift.mp4',
         text: [
           "Ardan benefits from purchasing health items.",
           "• Whenever Ardan takes damage, he heals for 0.8% of his missing health, but no more than 75% of the damage taken.",
@@ -715,7 +715,7 @@ export const heroCards = [
         ],
       },
             {
-        video: 'Ardan-A',
+              video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-A-Vanguard.mp4',
         name: "VANGUARD",
         type: "A ABILITY",
         text: [
@@ -760,7 +760,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Ardan-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-B-Blood-for-Blood.mp4',
         name: "BLOOD FOR BLOOD",
         type: "B ABILITY",
         image: 'Ardan-B',
@@ -792,7 +792,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Ardan-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/C-Ardan-Gauntlet-Large.mp4',
         name: "GAUNTLET",
         type: "ULTIMATE",
         image: 'Ardan-C',
@@ -1592,7 +1592,7 @@ export const heroCards = [
     ],
     skills: [
       {
-        video: 'Catherine-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-P-Captain-of-the-Guard.mp4',
         name: "CAPTAIN OF THE GUARD",
         type: "HEROIC PERK",
         image: 'Catherine-P',
@@ -1601,7 +1601,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Catherine-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-A-Merciless-Pursuit.mp4',
         name: "MERCILESS PURSUITS",
         type: "A ABILITY",
         text: [
@@ -1643,7 +1643,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Catherine-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-B-Stormguard.mp4',
         name: "STORMGUARD",
         type: "B ABILITY",
         image: 'Catherine-B',
@@ -1689,7 +1689,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Catherine-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-C-Blast-Tremor.mp4',
         name: "BLAST TREMOR",
         type: "ULTIMATE",
         image: 'Catherine-C',
@@ -1858,7 +1858,7 @@ export const heroCards = [
     ],
     skills: [
       {
-        video: 'Celeste-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-P-Julias-Light.mp4',
         name: "JULIA'S LIGHT",
         type: "HEROIC PERK",
         image: 'Celeste-P',
@@ -1867,7 +1867,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Celeste-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-A-Heliogenesis.mp4',
         name: "HELIOGENESIS",
         type: "A ABILITY",
         type: [
@@ -1909,7 +1909,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Celeste-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-B-Core-Collapse.mp4',
         name: "CORE COLLAPSE",
         type: "B ABILITY",
         image: 'Celeste-B',
@@ -1944,7 +1944,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Celeste-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-C-Solar-Storm.mp4',
         name: "SOLAR STORM",
         type: "ULTIMATE",
         image: 'Celeste-C',
@@ -2486,7 +2486,7 @@ export const heroCards = [
     ],
     skills: [
       {
-        video: 'Fortress-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/08/P-Fortress-Packmates-Large.mp4',
         name: "PACKMATES",
         type: "HEROIC PERK",
         image: 'Fortress-P',
@@ -2495,7 +2495,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Fortress-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/08/A-Fortress-Truth-of-the-Tooth-Large.mp4',
         name: "TRUTH OF THE TOOTH",
         type: "A ABILITY",
         image: 'Fortress-A',
@@ -2549,7 +2549,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Fortress-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/08/B-Fortress-Truth-of-the-Tooth-Large.mp4',
         name: "LAW OF THE CLAW",
         type: "B ABILITY",
         image: 'Fortress-B',
@@ -2593,7 +2593,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Fortress-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/08/C-Fortress-Attack-of-the-Pack-Large.mp4',
         name: "ATTACK OF THE PACK",
         type: "ULTIMATE",
         image: 'Fortress-C',
@@ -2756,7 +2756,7 @@ export const heroCards = [
     ],
     skills: [
       {
-        video: 'Glaive-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-P-Hunt-the-Weak.mp4',
         name: "HUNT THE WEAK",
         type: "HEROIC PERK",
         image: 'Glaive-P',
@@ -2766,7 +2766,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Glaive-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-A-Afterburn.mp4',
         name: "AFTERBURN",
         type: "A ABILITY",
         image: 'Glaive-A',
@@ -2795,7 +2795,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Glaive-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-B-Twisted-Stroke.mp4',
         name: "TWISTED STROKE",
         type: "B ABILITY",
         image: 'Glaive-B',
@@ -2839,7 +2839,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Glaive-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-C-Bloodsong.mp4',
         name: "BLOODSONG",
         type: "ULTIMATE",
         image: 'Glaive-C',
@@ -4010,7 +4010,7 @@ export const heroCards = [
     ],
     skills: [
       {
-        video: 'Joule-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-Perk-Heavy-Plating.mp4',
         name: "HEAVY PLATING",
         type: "HEROIC PERK",
         image: 'Joule-P',
@@ -4019,7 +4019,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Joule-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-A-Rocket-Leap.mp4',
         name: "ROCKET LEAP",
         type: "A ABILITY",
         image: 'Joule-A',
@@ -4054,7 +4054,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Joule-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-B-Thunder-Strike.mp4',
         name: "THUNDER STRIKE",
         type: "B ABILITY",
         image: 'Joule-B',
@@ -4085,7 +4085,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Joule-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-C-Big-Red-Button.mp4',
         name: "BLAST TREMOR",
         type: "ULTIMATE",
         image: 'Joule-C',
@@ -4836,7 +4836,7 @@ export const heroCards = [
     ],
     skills: [
       {
-        video: 'Koshka-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Koshka-P-Bloodrush.mp4',
         name: "BLOODRUSH",
         type: "HEROIC PERK",
         image: 'Koshka-P',
@@ -4845,7 +4845,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Koshka-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Koshka-A-Pouncy-Fun.mp4',
         name: "POUNCY FUN",
         type: "A ABILITY",
         image: 'Koshka-A',
@@ -4875,7 +4875,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Koshka-B',
+        video: '',
         name: "TWIRLY DEATH",
         type: "B ABILITY",
         image: 'Koshka-B',
@@ -4925,7 +4925,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Koshka-C',
+        video: '',
         name: "YUMMY CATNIP FRENZY",
         type: "ULTIMATE",
         image: 'Koshka-C',
@@ -5062,7 +5062,7 @@ export const heroCards = [
     ],
     skills: [
       {
-        video: 'Krul-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-P-Shadows-Empower-Me.mp4',
         name: "SHADOWS EMPOWER ME",
         type: "HEROIC PERK",
         image: 'Krul-P',
@@ -5071,7 +5071,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Krul-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-A-Dead-Mans-Rush.mp4',
         name: "DEAD MAN'S RUSH",
         type: "A ABILITY",
         image: 'Krul-A',
@@ -5114,7 +5114,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Krul-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-B-Spectral-Smite.mp4',
         name: "SPECTRAL SMITE",
         type: "B ABILITY",
         image: 'Krul-B',
@@ -5174,7 +5174,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Krul-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-C-From-Hells-Heart.mp4',
         name: "FROM HELL'S HEART ",
         type: "ULTIMATE",
         image: 'Krul-C',
@@ -9544,7 +9544,7 @@ export const heroCards = [
           '• Resonance bounces deal 50% damage to minions.',
           '• Basic Attacks deal an additional 20-42 (level 1-12) (+40% of crystal power)(+100% of weapon power)',
         ],
-        video: 'Vox-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-P-Julias-Song.mp4',
         stats: [],
       },
       {
@@ -9554,7 +9554,7 @@ export const heroCards = [
         text: [
           'Vox dashes in the targeted direction, throwing two basic attacks to the nearest enemy marked by Resonance (prioritizing heroes).',
         ],
-        video: 'Vox-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-A-Sonic-Zoom.mp4',
         stats: [
             {
               name: 'Cooldown',
@@ -9585,7 +9585,7 @@ export const heroCards = [
           "• Each upgrade to Pulse increases the damage of Vox's bouncing Resonance bolts.",
           '• Overdrive: Resonance bounce range increased by 2.',
         ],
-        video: 'Vox-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-B-Pulse.mp4',
         stats: [
             {
               name: 'Cooldown',
@@ -9627,7 +9627,7 @@ export const heroCards = [
           'Vox fires an ultrasonic wave that applies Resonance to enemies in its path. Shortly after, a wide shockwave explodes along the same path, dealing crystal damage and silencing enemies.',
           '• Striking enemy heroes with the shockwave will also cause Resonance Bolts to bounce outward to other enemies.',
         ],
-        video: 'Vox-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-C-Wait-for-It....mp4',
         stats: [
             {
               name: 'Cooldown',
