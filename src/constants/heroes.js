@@ -30,10 +30,10 @@ export const heroCards = [
     model: [{ image: 'Adagioblurred' }, { tmodel: 'Adagio' }],
     skills: [
       {
-        video: 'Adagio-P',
-        name: 'ARCANE RENEWAL',
-        type: 'Perk',
-        image: 'Adagio-P',
+        video: "https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-P-Arcane-Renewal.mp4",
+        name: "ARCANE RENEWAL",
+        type: "Perk",
+        image: "Adagio-P",
         text: [
           'Whenever enemies burning with Arcane Fire take damage from any source, Adagio regenerates 25% of that damage as energy.',
         ],
@@ -41,9 +41,9 @@ export const heroCards = [
       },
 
       {
-        video: 'Adagio-A',
-        name: 'GIFT OF FIRE',
-        type: 'A ABILITY',
+        video: "https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-A-Gift-of-Fire.mp4",
+        name: "GIFT OF FIRE",
+        type: "A ABILITY",
         text: [
           "Heals a target ally, then splashes Arcane Fire onto nearby enemies. If Adagio heals himself, he'll also apply a heavy slow to nearby enemies. ,Arcane Fire (status effect): Burns the target every second and causes Adagio's other abilities to deal more damage.",
           '• Burst heals the target instantly, followed by a gradual heal over the next few seconds.',
@@ -98,10 +98,10 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Adagio-B',
-        name: 'AGENT OF WRATH',
-        type: 'B ABILITY',
-        image: 'Adagio-B',
+        video: "https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-B-Agent-of-Wrath.mp4",
+        name: "AGENT OF WRATH",
+        type: "B ABILITY",
+        image: "Adagio-B",
         text: [
           "Temporarily boosts an allied hero's next several basic attacks for 6s.",
           '• Deals bonus damage to enemies afflicted by Arcane Fire.',
@@ -148,10 +148,10 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Adagio-C',
-        name: 'VERSE OF JUDGEMENT',
-        type: 'ULTIMATE',
-        image: 'Adagio-C.',
+        video: "https://www.vainglorygame.com/wp-content/uploads/2015/05/Adagio-C-Verse-of-Judgement.mp4",
+        name: "VERSE OF JUDGEMENT",
+        type: "ULTIMATE",
+        image: "Adagio-C",
         text: [
           'Adagio channels for 2s then deals heavy damage to all enemies in a wide ring around him. Enemies burning with Arcane Fire are also stunned. Adagio temporarily gains fortified health while channeling.',
         ],
@@ -698,8 +698,8 @@ export const heroCards = [
       {
         video: 'Ardan-P',
         name: "JULIA'S GIFT",
-        type: 'Perk',
-        image: 'Ardan-P',
+        type: "Perk",
+        image: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-P-Julias-Gift.mp4',
         text: [
           'Ardan benefits from purchasing health items.',
           '• Whenever Ardan takes damage, he heals for 0.8% of his missing health, but no more than 75% of the damage taken.',
@@ -708,10 +708,10 @@ export const heroCards = [
           "• Because Ardan doesn't need regular energy, 5% of bonus energy and 50% of bonus energy recharge are converted to crystal power.",
         ],
       },
-      {
-        video: 'Ardan-A',
-        name: 'VANGUARD',
-        type: 'A ABILITY',
+            {
+              video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-A-Vanguard.mp4',
+        name: "VANGUARD",
+        type: "A ABILITY",
         text: [
           'Ardan dashes to protect an ally, granting them a 4s barrier and a burst of move speed. This also slows and damages nearby enemies.',
           '• Overdrive: At max rank, Vanguard grants 50% Vengeance when cast on an ally.',
@@ -754,9 +754,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Ardan-B',
-        name: 'BLOOD FOR BLOOD',
-        type: 'B ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-B-Blood-for-Blood.mp4',
+        name: "BLOOD FOR BLOOD",
+        type: "B ABILITY",
         image: 'Ardan-B',
         text: [
           'Ardan rushes forward and punches his target.',
@@ -786,9 +786,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Ardan-C',
-        name: 'GAUNTLET',
-        type: 'ULTIMATE',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/C-Ardan-Gauntlet-Large.mp4',
+        name: "GAUNTLET",
+        type: "ULTIMATE",
         image: 'Ardan-C',
         text: [
           'Ardan leaps to the target location and projects a perimeter around him. Enemy heroes who touch or cross the perimeter are stunned and take crystal damage.',
@@ -1579,18 +1579,18 @@ export const heroCards = [
     model: [{ image: 'Catherineblurred' }, { tmodel: 'Catherine' }],
     skills: [
       {
-        video: 'Catherine-P',
-        name: 'CAPTAIN OF THE GUARD',
-        type: 'Perk',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-P-Captain-of-the-Guard.mp4',
+        name: "CAPTAIN OF THE GUARD",
+        type: "Perk",
         image: 'Catherine-P',
         text: [
           'Catherine gains 1 armor and shield every time she stuns or silences or silences an enemy hero with her abilities.',
         ],
       },
       {
-        video: 'Catherine-A',
-        name: 'MERCILESS PURSUITS',
-        type: 'A ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-A-Merciless-Pursuit.mp4',
+        name: "MERCILESS PURSUITS",
+        type: "A ABILITY",
         text: [
           'Catherine gains a burst of move speed. Her next basic attack is replaced by a powerful stun attack.',
           '• Resets basic-attack cooldown on activation.',
@@ -1630,9 +1630,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Catherine-B',
-        name: 'STORMGUARD',
-        type: 'B ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-B-Stormguard.mp4',
+        name: "STORMGUARD",
+        type: "B ABILITY",
         image: 'Catherine-B',
         text: [
           'Activates a protective bubble that reflects damage back to nearby enemies - especially when it comes in large bursts.',
@@ -1676,9 +1676,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Catherine-C',
-        name: 'BLAST TREMOR',
-        type: 'ULTIMATE',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Catherine-C-Blast-Tremor.mp4',
+        name: "BLAST TREMOR",
+        type: "ULTIMATE",
         image: 'Catherine-C',
         text: [
           'Catherine slams the ground, damaging and silencing enemies in a large cone in front of her.',
@@ -1844,7 +1844,7 @@ export const heroCards = [
     model: [{ image: 'Celesteblurred' }, { tmodel: 'Celeste' }],
     skills: [
       {
-        video: 'Celeste-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-P-Julias-Light.mp4',
         name: "JULIA'S LIGHT",
         type: 'Perk',
         image: 'Celeste-P',
@@ -1853,12 +1853,12 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Celeste-A',
-        name: 'HELIOGENESIS',
-        type: 'A ABILITY',
-        text: [
-          'Celeste forms a small star at a target location, dealing crystal damage to nearby enemies. The star will briefly linger on the field. If Celeste uses this ability on an existing star, the star will go supernova, dealing more crystal damage in a larger area.',
-          'Deals reduced damage (-50%) to minions.',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-A-Heliogenesis.mp4',
+        name: "HELIOGENESIS",
+        type: "A ABILITY",
+        type: [
+          "Celeste forms a small star at a target location, dealing crystal damage to nearby enemies. The star will briefly linger on the field. If Celeste uses this ability on an existing star, the star will go supernova, dealing more crystal damage in a larger area.",
+          "Deals reduced damage (-50%) to minions."
         ],
         image: 'Celeste-A',
         stats: [
@@ -1895,9 +1895,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Celeste-B',
-        name: 'CORE COLLAPSE',
-        type: 'B ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-B-Core-Collapse.mp4',
+        name: "CORE COLLAPSE",
+        type: "B ABILITY",
         image: 'Celeste-B',
         text: [
           'After a brief delay, the target location collapses and nearby enemies are stunned and take crystal damage.',
@@ -1930,9 +1930,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Celeste-C',
-        name: 'SOLAR STORM',
-        type: 'ULTIMATE',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Celeste-C-Solar-Storm.mp4',
+        name: "SOLAR STORM",
+        type: "ULTIMATE",
         image: 'Celeste-C',
         text: [
           'Celeste launches a storm of stars that travel across the world. Stars collide with the first enemy they hit, dealing crystal damage in an area. The number of stars increases each time Solar Storm is upgraded.',
@@ -2467,18 +2467,18 @@ export const heroCards = [
     model: [{ image: 'Fortressblurred' }, { tmodel: 'Fortress' }],
     skills: [
       {
-        video: 'Fortress-P',
-        name: 'PACKMATES',
-        type: 'Perk',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/08/P-Fortress-Packmates-Large.mp4',
+        name: "PACKMATES",
+        type: "Perk",
         image: 'Fortress-P',
         text: [
           "When Fortress is near an allied hero, he will move faster after 1s. He will maintain this move-speed bonus so long as he's alongside any allied hero.",
         ],
       },
       {
-        video: 'Fortress-A',
-        name: 'TRUTH OF THE TOOTH',
-        type: 'A ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/08/A-Fortress-Truth-of-the-Tooth-Large.mp4',
+        name: "TRUTH OF THE TOOTH",
+        type: "A ABILITY",
         image: 'Fortress-A',
         text: [
           'Fortress marks the target enemy as prey and his next basic attack becomes a short-range lunge.',
@@ -2530,9 +2530,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Fortress-B',
-        name: 'LAW OF THE CLAW',
-        type: 'B ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/08/B-Fortress-Truth-of-the-Tooth-Large.mp4',
+        name: "LAW OF THE CLAW",
+        type: "B ABILITY",
         image: 'Fortress-B',
         text: [
           'Fortress claws his target, causing it to bleed for several seconds.',
@@ -2574,9 +2574,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Fortress-C',
-        name: 'ATTACK OF THE PACK',
-        type: 'ULTIMATE',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/08/C-Fortress-Attack-of-the-Pack-Large.mp4',
+        name: "ATTACK OF THE PACK",
+        type: "ULTIMATE",
         image: 'Fortress-C',
         text: [
           'Fortress summons a pack of wolves. Each pack wolf seeks out a different enemy hero.',
@@ -2735,9 +2735,9 @@ export const heroCards = [
     model: [{ image: 'Glaiveblurred' }, { tmodel: 'Glaive' }],
     skills: [
       {
-        video: 'Glaive-P',
-        name: 'HUNT THE WEAK',
-        type: 'Perk',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-P-Hunt-the-Weak.mp4',
+        name: "HUNT THE WEAK",
+        type: "Perk",
         image: 'Glaive-P',
         text: [
           "Glaive's critical strikes cleave in a 4 metres cone in front of him.",
@@ -2745,9 +2745,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Glaive-A',
-        name: 'AFTERBURN',
-        type: 'A ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-A-Afterburn.mp4',
+        name: "AFTERBURN",
+        type: "A ABILITY",
         image: 'Glaive-A',
         text: [
           'Glaive rockets in the target direction, damaging all enemies along the way. His next basic attack is replaced by a frightening blast that knocks his target back 5.5 meters and briefly stuns them.',
@@ -2774,9 +2774,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Glaive-B',
-        name: 'TWISTED STROKE',
-        type: 'B ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-B-Twisted-Stroke.mp4',
+        name: "TWISTED STROKE",
+        type: "B ABILITY",
         image: 'Glaive-B',
         text: [
           'Instantly executes a critical strike.',
@@ -2818,9 +2818,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Glaive-C',
-        name: 'BLOODSONG',
-        type: 'ULTIMATE',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Glaive-C-Bloodsong.mp4',
+        name: "BLOODSONG",
+        type: "ULTIMATE",
         image: 'Glaive-C',
         text: [
           "Swing Glaive's axe in a 5.4-meter circle, dealing massive area damage that increases with the number of Bloodsong stacks used. This removes all stacks.",
@@ -3979,16 +3979,16 @@ export const heroCards = [
     model: [{ image: 'Jouleblurred' }, { tmodel: 'Joule' }],
     skills: [
       {
-        video: 'Joule-P',
-        name: 'HEAVY PLATING',
-        type: 'Perk',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-Perk-Heavy-Plating.mp4',
+        name: "HEAVY PLATING",
+        type: "Perk",
         image: 'Joule-P',
         text: ['Joule takes 35% less damage when hit from the front or sides.'],
       },
       {
-        video: 'Joule-A',
-        name: 'ROCKET LEAP',
-        type: 'A ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-A-Rocket-Leap.mp4',
+        name: "ROCKET LEAP",
+        type: "A ABILITY",
         image: 'Joule-A',
         text: [
           'Joule leaps to a target location. Enemies caught underneath Joule take full damage and are stunned, while enemies near the impact are knocked away and take 50% damage.',
@@ -4021,9 +4021,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Joule-B',
-        name: 'THUNDER STRIKE',
-        type: 'B ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-B-Thunder-Strike.mp4',
+        name: "THUNDER STRIKE",
+        type: "B ABILITY",
         image: 'Joule-B',
         text: [
           "Joule's mech fires an energy bolt directly in front of her. If this strikes an enemy, the next Thunder Strike will have bonus armor & shield pierce.",
@@ -4052,9 +4052,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Joule-C',
-        name: 'BLAST TREMOR',
-        type: 'ULTIMATE',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-C-Big-Red-Button.mp4',
+        name: "BLAST TREMOR",
+        type: "ULTIMATE",
         image: 'Joule-C',
         text: [
           'Joule fires a massive beam of energy for 1.5s.',
@@ -4797,18 +4797,18 @@ export const heroCards = [
     model: [{ image: 'Koshkablurred' }, { tmodel: 'Koshka' }],
     skills: [
       {
-        video: 'Koshka-P',
-        name: 'BLOODRUSH',
-        type: 'Perk',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Koshka-P-Bloodrush.mp4',
+        name: "BLOODRUSH",
+        type: "Perk",
         image: 'Koshka-P',
         text: [
           'Koshka gains 2 move speed for 4s whenever she deals damage with her abilities.',
         ],
       },
       {
-        video: 'Koshka-A',
-        name: 'POUNCY FUN',
-        type: 'A ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Koshka-A-Pouncy-Fun.mp4',
+        name: "POUNCY FUN",
+        type: "A ABILITY",
         image: 'Koshka-A',
         text: [
           'Koshka pounces to the target enemy and deals damage.',
@@ -4836,9 +4836,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Koshka-B',
-        name: 'TWIRLY DEATH',
-        type: 'B ABILITY',
+        video: '',
+        name: "TWIRLY DEATH",
+        type: "B ABILITY",
         image: 'Koshka-B',
         text: [
           'Koshka twirls, damaging all enemies around her.',
@@ -4886,9 +4886,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Koshka-C',
-        name: 'YUMMY CATNIP FRENZY',
-        type: 'ULTIMATE',
+        video: '',
+        name: "YUMMY CATNIP FRENZY",
+        type: "ULTIMATE",
         image: 'Koshka-C',
         text: [
           'Koshka leaps at her target, then launches into a flurry of slashes, stunning the target for the entire 2.2s duration.',
@@ -5021,16 +5021,16 @@ export const heroCards = [
     model: [{ image: 'Krulblurred' }, { tmodel: 'Krul' }],
     skills: [
       {
-        video: 'Krul-P',
-        name: 'SHADOWS EMPOWER ME',
-        type: 'Perk',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-P-Shadows-Empower-Me.mp4',
+        name: "SHADOWS EMPOWER ME",
+        type: "Perk",
         image: 'Krul-P',
         text: [
           'Krul is empowered by the shadows after standing still in brush for 1s. While empowered, Krul briefly gains 2.2 move speed and his basic attacks will slow the target by 40% for 2.5s.',
         ],
       },
       {
-        video: 'Krul-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-A-Dead-Mans-Rush.mp4',
         name: "DEAD MAN'S RUSH",
         type: 'A ABILITY',
         image: 'Krul-A',
@@ -5073,9 +5073,9 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Krul-B',
-        name: 'SPECTRAL SMITE',
-        type: 'B ABILITY',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-B-Spectral-Smite.mp4',
+        name: "SPECTRAL SMITE",
+        type: "B ABILITY",
         image: 'Krul-B',
         text: [
           'Krul detonates the Weakness stacks built up on a single target, regaining health based on the number of stacks consumed.',
@@ -5133,7 +5133,7 @@ export const heroCards = [
         ],
       },
       {
-        video: 'Krul-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Krul-C-From-Hells-Heart.mp4',
         name: "FROM HELL'S HEART ",
         type: 'ULTIMATE',
         image: 'Krul-C',
@@ -9513,7 +9513,7 @@ export const heroCards = [
           '• Resonance bounces deal 50% damage to minions.',
           '• Basic Attacks deal an additional 20-42 (level 1-12) (+40% of crystal power)(+100% of weapon power)',
         ],
-        video: 'Vox-P',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-P-Julias-Song.mp4',
         stats: [],
       },
       {
@@ -9523,7 +9523,7 @@ export const heroCards = [
         text: [
           'Vox dashes in the targeted direction, throwing two basic attacks to the nearest enemy marked by Resonance (prioritizing heroes).',
         ],
-        video: 'Vox-A',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-A-Sonic-Zoom.mp4',
         stats: [
           {
             name: 'Cooldown',
@@ -9554,7 +9554,7 @@ export const heroCards = [
           "• Each upgrade to Pulse increases the damage of Vox's bouncing Resonance bolts.",
           '• Overdrive: Resonance bounce range increased by 2.',
         ],
-        video: 'Vox-B',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-B-Pulse.mp4',
         stats: [
           {
             name: 'Cooldown',
@@ -9596,7 +9596,7 @@ export const heroCards = [
           'Vox fires an ultrasonic wave that applies Resonance to enemies in its path. Shortly after, a wide shockwave explodes along the same path, dealing crystal damage and silencing enemies.',
           '• Striking enemy heroes with the shockwave will also cause Resonance Bolts to bounce outward to other enemies.',
         ],
-        video: 'Vox-C',
+        video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Vox-C-Wait-for-It....mp4',
         stats: [
           {
             name: 'Cooldown',
