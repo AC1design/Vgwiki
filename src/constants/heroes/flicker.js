@@ -1,6 +1,6 @@
 export default  {
 	name: 'Flicker',
-	type: ['CAPTAIN, PROTECTOR'],
+	type: ['CAPTAIN', 'PROTECTOR'],
 	role: ['CAPTAIN'],
 	description: 'Trickster who can make the entire team invisible.',
 	spotlight: 'xj7Lj295kXM',

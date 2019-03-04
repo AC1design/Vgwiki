@@ -1,6 +1,6 @@
 export default {
 	name: 'Idris',
-	type: ['JUNGLE, ASSASSIN'],
+	type: ['JUNGLE', 'ASSASSIN'],
 	role: ['JUNGLE'],
 	description: 'Nimble assassin who unlocks melee or ranged fighting styles.',
 	spotlight: 'aUL7JieeYUk',

@@ -1,6 +1,6 @@
 export default {
 	name: 'Malene',
-	type: ['LANE, MAGE'],
+	type: ['LANE', 'MAGE'],
 	role: ['LANE'],
 	description:
 		'Form swapping spellcaster who has the tools for any situation.',

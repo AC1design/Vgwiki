@@ -1,6 +1,6 @@
 export default {
 	name: 'Grumpjaw',
-	type: ['JUNGLE, WARRIOR'],
+	type: ['JUNGLE', 'WARRIOR'],
 	role: ['JUNGLE'],
 	description: 'A hungry beast who can swallow a hero whole.',
 	spotlight: 'kwm2U7-P-uc',

@@ -1,6 +1,6 @@
 export default {
   name: 'Gwen',
-  type: ['LANE, SNIPER'],
+  type: ['LANE', 'SNIPER'],
   role: ['LANE'],
   description:
     'Gunslinger with powerful burst damage and ability to shake off disables.',

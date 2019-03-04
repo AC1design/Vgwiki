@@ -1,6 +1,6 @@
 export default {
 	name: 'Reza',
-	type: ['JUNGLE, MAGE'],
+	type: ['JUNGLE', 'MAGE'],
 	role: ['JUNGLE'],
 	description: 'A fast, devastating fire mage with a demon netherform.',
 	spotlight: 'MsCucm_7QXU',

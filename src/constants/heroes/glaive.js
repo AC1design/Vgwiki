@@ -1,6 +1,6 @@
 export default  {
 	name: 'Glaive',
-	type: ['JUNGLE, WARRIOR'],
+	type: ['JUNGLE', 'WARRIOR'],
 	role: ['JUNGLE'],
 	description: 'Brutal axe warrior who can knock enemies out of position.',
 	spotlight: 'htECezLaZRI',

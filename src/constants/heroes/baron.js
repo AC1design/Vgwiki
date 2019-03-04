@@ -1,6 +1,6 @@
 export default {
 	name: 'Baron',
-	type: ['LANE, SNIPER'],
+	type: ['LANE', 'SNIPER'],
 	role: ['LANE'],
 	description: 'Rocket soldier who can nuke anywhere on the map.',
 	spotlight: 'qTHw50-xTbc',

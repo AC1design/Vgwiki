@@ -1,6 +1,6 @@
 export default {
 	name: 'Phinn',
-	type: ['CAPTAIN, PROTECTOR'],
+	type: ['CAPTAIN', 'PROTECTOR'],
 	role: ['CAPTAIN'],
 	description:
 		'Extremely tanky and can pull in enemies from across the screen.',

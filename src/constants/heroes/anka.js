@@ -1,6 +1,6 @@
 export default {
   name: 'Anka',
-  type: ['LANE, ASSASSIN'],
+  type: ['LANE', 'ASSASSIN'],
   role: ['LANE'],
   description:
     'An elusive and bursty assassin who strikes with a flurry of blades.',

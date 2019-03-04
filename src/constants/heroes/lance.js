@@ -1,6 +1,6 @@
 export default  {
 	name: 'Lance',
-	type: ['CAPTAIN, WARRIOR'],
+	type: ['CAPTAIN', 'WARRIOR'],
 	role: ['CAPTAIN'],
 	description: 'The king of duels with massive lifesteal and self-healing.',
 	spotlight: 'HTZIGNW5F7A',

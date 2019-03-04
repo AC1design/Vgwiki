@@ -1,6 +1,6 @@
 export default {
   name: 'Catherine',
-  type: ['CAPTAIN, PROTECTOR'],
+  type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
   description: 'Disruptive tank with lots of stuns and a powerful silence.',
   spotlight: 'i2cphmHljZM',

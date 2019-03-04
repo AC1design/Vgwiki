@@ -1,6 +1,6 @@
 export default {
 	name: 'Lorelai',
-	type: ['CAPTAIN, PROTECTOR'],
+	type: ['CAPTAIN', 'PROTECTOR'],
 	role: ['CAPTAIN'],
 	description:
 		'Backline support, excelling at zone control and team utility.',

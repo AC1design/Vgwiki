@@ -1,6 +1,6 @@
 export default {
 	name: 'Kensei',
-	type: ['JUNGLE, WARRIOR'],
+	type: ['JUNGLE', 'WARRIOR'],
 	role: ['JUNGLE'],
 	description:
 		'Swift swordmaster who can easily manuever through the battlefield.',

@@ -1,6 +1,6 @@
 export default {
 	name: 'Joule',
-	type: ['JUNGLE, WARRIOR'],
+	type: ['JUNGLE', 'WARRIOR'],
 	role: ['JUNGLE'],
 	description: 'Heavily armored mech rider with a powerful energy beam.',
 	spotlight: 'OYcWpLN_408',

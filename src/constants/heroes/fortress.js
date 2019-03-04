@@ -1,6 +1,6 @@
 export default  {
 	name: 'Fortress',
-	type: ['CAPTAIN, PROTECTOR'],
+	type: ['CAPTAIN', 'PROTECTOR'],
 	role: ['CAPTAIN'],
 	description: 'Agressive pack leader who swarms the enemy with great speed.',
 	spotlight: 'DGEg_EsKwwY',
