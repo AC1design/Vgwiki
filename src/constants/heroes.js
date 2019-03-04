@@ -35,6 +35,7 @@ import reza from './heroes/reza'
 import ringo from './heroes/ringo'
 import rona from './heroes/rona'
 import samuel from './heroes/samuel'
+import sanfeng from './heroes/sanfeng'
 import saw from './heroes/saw'
 import silvernail from './heroes/silvernail'
 import skaarf from './heroes/skaarf'
@@ -56,6 +57,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
+  sanfeng,
   adagio,
   alpha,
   anka,

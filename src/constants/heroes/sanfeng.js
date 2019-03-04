@@ -1,6 +1,6 @@
 export default {
     name: 'SanFeng',
-    type: ['JUNGLE, WARRIOR'],
+    type: ['JUNGLE', 'WARRIOR'],
     role: ['JUNGLE'],
     description: 'Team healer and damage enhancer with a large area stun.',
     spotlight: 'TQx1TVGANF4',
