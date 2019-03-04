@@ -65,7 +65,7 @@ export default props => {
                   subtitle={skill.type}
                   image={require(`./../images/Ability/${skill.image}.png`)}
                   text={skill.text}
-                  stats={skill.stats}
+                  stats={skill.stats || []}
                   key={index}
                 />
               ))}
