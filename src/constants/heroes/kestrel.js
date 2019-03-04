@@ -199,9 +199,9 @@ export default {
   skins: [
     {
       color: '#6393F9',
-      name: 'SKestreln Kestrel',
+      name: 'Sylvan Kestrel',
       type: 'Rare',
-      image: 'Kestrel_SKestreln_R',
+      image: 'Kestrel_Sylvan_R',
     },
     {
       color: '#6393F9',

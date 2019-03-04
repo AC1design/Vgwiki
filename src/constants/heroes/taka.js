@@ -29,7 +29,8 @@ export default {
         '• Ki: Taka gains Mortal Strike faster and his ability cooldown are reduced by 10% per stack.',
         '• 5 stacks max.',
       ],
-      video: 'Taka-P',
+      video:
+        'https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/themes/vainglory/images/icon-play-round.png',
       stats: [],
     },
     {
@@ -39,7 +40,8 @@ export default {
       text: [
         'Taka flips over his target, cutting it with his switchblade. Taka is invulnerable to damage & debuffs while in mid-air.',
       ],
-      video: 'Taka-A',
+      video:
+        'https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-A-Kaiten.mp4',
       stats: [
         // {
         //   name: 'Cooldown',
@@ -100,7 +102,8 @@ export default {
         '• Invisibility ends early if he strikes a target or takes direct damage.',
         '• Turrets, Scout Traps and Flare Guns can still see Taka while he is invisible.',
       ],
-      video: 'Taka-B',
+      video:
+        'https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-B-Kaku.mp4',
       stats: [
         // {
         //   name: 'Cooldown',
@@ -160,7 +163,7 @@ export default {
         "Taka bursts through his target for massive damage and gains Ki Stacks. The target suffers a mortal wound (reduced healing) and takes damage per second for the next 3s. The wound's duration is refreshed whenever Taka Mortal Strikes this target.",
       ],
       video:
-        '"https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-C-X-Retsu.mp4"',
+        'https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-C-X-Retsu.mp4',
       stats: [
         // {
         //   name: 'Cooldown',
