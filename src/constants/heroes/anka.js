@@ -39,13 +39,13 @@ export default {
       image: 'Anka-A',
       stats: [
         {
-          name: 'Energy Cost',
+          name: 'Cooldown',
           amount: ['12s', '12s', '12s', '12s', '8s'],
           cr: '',
           wr: '',
         },
         {
-          name: 'Cooldown',
+          name: 'Energy Cost',
           amount: ['30', '35', '40', '45', '50'],
           cr: '',
           wr: '',

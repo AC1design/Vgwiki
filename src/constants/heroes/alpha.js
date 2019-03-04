@@ -41,9 +41,9 @@ export default {
 			stats: [
 				{
 					name: 'Cooldown',
-					amount: ['11', '10', '9', '8', '7'],
-					cr: '',
-					wr: '',
+					amount: ['11s', '10s', '9s', '8s', '7s'],
+					cr: ' ',
+					wr: ' ',
 				},
 				{
 					name: 'Damage',
@@ -61,19 +61,19 @@ export default {
 					name: 'Range',
 					amount: ['20', '20', '40', '50', '70'],
 					cr: '20%',
-					wr: '',
+					wr: ' ',
 				},
 				{
 					name: 'Slow',
 					amount: ['40%', '50%', '60%', '70%', '80%'],
-					cr: '',
-					wr: '',
+					cr: ' ',
+					wr: ' ',
 				},
 				{
 					name: 'Slow Duration',
-					amount: ['1.5', '1.5', '1.5', '1.5', '1.5'],
-					cr: '',
-					wr: '',
+					amount: ['1.5s', '1.5s', '1.5s', '1.5s', '1.5s'],
+					cr: ' ',
+					wr: ' ',
 				},
 			],
 		},
@@ -90,9 +90,9 @@ export default {
 			stats: [
 				{
 					name: 'Cooldown',
-					amount: ['6', '5.5', '5', '4.5', '4'],
-					cr: '',
-					wr: '',
+					amount: ['6s', '5.5s', '5s', '4.5s', '4s'],
+					cr: ' ',
+					wr: ' ',
 				},
 				{
 					name: 'Damage',
@@ -103,20 +103,20 @@ export default {
 				{
 					name: 'Cooldown Reduction',
 					amount: ['1', '1', '1', '1', '1.2'],
-					cr: '',
-					wr: '',
+					cr: ' ',
+					wr: ' ',
 				},
 				{
 					name: 'Heal/Stack',
 					amount: ['7', '8', '9', '10', '12'],
-					cr: '',
+					cr: ' ',
 					wr: '3%',
 				},
 				{
 					name: 'Bonus Damage/stack',
 					amount: ['11%', '11%', '11%', '11%', '15%'],
-					cr: '',
-					wr: '',
+					cr: ' ',
+					wr: ' ',
 				},
 			],
 		},
@@ -136,15 +136,15 @@ export default {
 			stats: [
 				{
 					name: 'Cooldown',
-					amount: ['85', '75', '65'],
-					cr: '',
-					wr: '',
+					amount: ['85s', '75s', '65s'],
+					cr: ' ',
+					wr: ' ',
 				},
 				{
 					name: 'Damage',
 					amount: ['529', '933', '1337'],
 					cr: '250%',
-					wr: '',
+					wr: ' ',
 				},
 			],
 		},

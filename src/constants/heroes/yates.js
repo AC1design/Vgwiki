@@ -216,11 +216,12 @@ export default {
       type: 'Rare',
       color: '#6393F9',
       text: [
-        'Wolf’s May (A) has increased range.',
+        'Wolf’s Maw (A) has increased range.',
         '• Cooldown 110% (-2%)',
         '• Damage 75% (+5%)',
         '• Bonus Range 2.5 (+0.4)',
       ],
+      image: 'Yates_Rare',
     },
     {
       name: 'Whiplash',
@@ -233,7 +234,7 @@ export default {
         '• Passive Attack Speed +0%',
         '• Bonus Range 6',
       ],
-      image: '',
+      image: 'Yates_Epic',
     },
     {
       name: 'Rapid Response',
@@ -245,7 +246,7 @@ export default {
         '• Damage 120%',
         '• Barrier 140%',
       ],
-      image: '',
+      image: 'Yates_Legendary',
     },
   ],
   skins: [

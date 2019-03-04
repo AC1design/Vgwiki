@@ -29,7 +29,7 @@ class Skillbox extends React.Component {
   }
   render() {
     const isPerkAbility = this.props.subtitle === 'Perk'
-    const isUltimate = this.props.subtitle === 'Ultimate'
+    const isULTIMATE = this.props.subtitle === 'ULTIMATE'
     const cpRatio = this.props.stats.find(s => s.cr)
       ? this.props.stats.find(s => s.cr).cr
       : null
@@ -66,8 +66,8 @@ class Skillbox extends React.Component {
                   {!isPerkAbility && <th>LVL 1</th>}
                   {!isPerkAbility && <th>LVL 2</th>}
                   {!isPerkAbility && <th>LVL 3</th>}
-                  {!isUltimate && !isPerkAbility && <th>LVL 4</th>}
-                  {!isUltimate && !isPerkAbility && <th>LVL 5</th>}
+                  {!isULTIMATE && !isPerkAbility && <th>LVL 4</th>}
+                  {!isULTIMATE && !isPerkAbility && <th>LVL 5</th>}
                   {cpRatio && (
                     <th>
                       <H2 color="#38EEFF" style={{ fontSize: '12px' }}>

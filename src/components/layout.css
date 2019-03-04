@@ -237,7 +237,7 @@ margin: 0 auto;
 /*modal queries*/
 
 .Modal {
-    max-width:940px;
+    max-width:380px;
     width:95%;
     height:auto;
     margin:0 auto;
