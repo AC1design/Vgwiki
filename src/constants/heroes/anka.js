@@ -29,7 +29,7 @@ export default {
       ],
     },
     {
-      video: 'Anka-A.mp4',
+      video: 'Anka-A',
       name: 'SHIMMER BLADE',
       type: 'A ABILITY',
       text: [

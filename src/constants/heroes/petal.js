@@ -20,7 +20,8 @@ export default {
   model: [{ image: 'Petalblurred' }, { tmodel: 'Petal' }],
   skills: [
     {
-      video: 'Petal-P',
+      video:
+        'https://www.vainglorygame.com/wp-content/uploads/2015/05/Petal-P-Bramblethorn-Munions.mp4',
       name: 'MUNIONS',
       type: 'Perk',
       image: 'Petal-P',
@@ -29,7 +30,8 @@ export default {
       ],
     },
     {
-      video: 'Petal-A',
+      video:
+        'https://www.vainglorygame.com/wp-content/uploads/2015/05/Petal-A-Bramblethorn-Seed.mp4',
       name: 'BRAMBLEBOOM SEEDS',
       type: 'A ABILITY',
       image: 'Petal-A',
@@ -124,7 +126,8 @@ export default {
       ],
     },
     {
-      video: 'Petal-C',
+      video:
+        'https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/04/Petal_Ultimate.gif',
       name: 'BLAST TREMOR',
       type: 'ULTIMATE',
       image: 'Petal-C',

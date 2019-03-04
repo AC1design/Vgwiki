@@ -67,13 +67,13 @@ export default {
         },
         {
           name: 'Slow',
-          row51: ['60%', '60%', '60%', '60%', '60%'],
+          amount: ['60%', '60%', '60%', '60%', '60%'],
           cr: '',
           wr: '',
         },
         {
           name: 'Slow Duration',
-          row61: ['0.8s', '0.8s', '0.8s', '0.8s', '1.2s'],
+          amount: ['0.8s', '0.8s', '0.8s', '0.8s', '1.2s'],
           cr: '',
           wr: '',
         },
@@ -208,7 +208,7 @@ export default {
       color: '#7A02EA',
       name: 'Anubis Baptiste',
       type: 'Epic',
-      image: 'Baptiste_Epic',
+      image: 'Baptiste_Anubis_Epic',
     },
   ],
 }
