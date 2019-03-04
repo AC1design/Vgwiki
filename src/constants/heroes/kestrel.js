@@ -1,7 +1,7 @@
 export default {
 	name: 'Kestrel',
-	type: ['LANER, SNIPER'],
-	role: ['LANER'],
+	type: ['LANE, SNIPER'],
+	role: ['LANE'],
 	description: 'Stealthy archer with devastating skillshots and traps.',
 	spotlight: 'ClhyGmpQZhY',
 	stats: [

@@ -1,6 +1,7 @@
 export default {
 	name: 'Tony',
 	type: ['JUNGLE', 'WARRIOR'],
+	role: ['JUNGLE'],
 	description: 'Dwarven brawler who taunts and pummels enemies.',
 	spotlight: 'HG-_NNyu4I8',
 	stats: [

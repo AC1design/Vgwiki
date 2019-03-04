@@ -1,6 +1,7 @@
 export default {
 	name: 'Skaarf',
 	type: ['LANE', 'MAGE'],
+	role: ['LANE'],
 	description: 'Spits long-range fireballs and incinerates entire teams.',
 	spotlight: 'AlXyClywtNQ',
 	stats: [

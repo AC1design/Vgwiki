@@ -1,6 +1,7 @@
 export default {
   name: 'Varya',
   type: ['LANE', 'MAGE'],
+  role: ['LANE'],
   description:
     'Shocking valkyrie who chains massive damage across enemy teams.',
   spotlight: 'dMBPEcWHgek',

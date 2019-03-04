@@ -1,6 +1,7 @@
 export default {
 	name: 'Skye',
 	type: ['LANE', 'SNIPER'],
+	role: ['LANE'],
 	description:
 		'Versatile, elusive mech pilot who can flank enemies from any angle.',
 	spotlight: 'N2Ll7RmMnXs',

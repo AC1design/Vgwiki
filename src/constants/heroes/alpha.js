@@ -1,7 +1,7 @@
 export default {
 	name: 'Alpha',
-	type: ['JUNGLER, WARRIOR'],
-	role: ['JUNGLER'],
+	type: ['JUNGLE, WARRIOR'],
+	role: ['JUNGLE'],
 	description: 'Killing machine who can resurrect herself.',
 	spotlight: 'bZOG2BzWE2o',
 	stats: [
