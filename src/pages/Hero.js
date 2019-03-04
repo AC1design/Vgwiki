@@ -58,7 +58,9 @@ export default props => {
                 <Skillbox
                   video={
                     skill.video
-                      ? require(`./../images/SkillVideos/${skill.video}.mp4`)
+                      ? skill.video.startsWith('https')
+                        ? skill.video
+                        : require(`./../images/SkillVideos/${skill.video}.mp4`)
                       : null
                   }
                   title={skill.name}
