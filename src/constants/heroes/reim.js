@@ -1,6 +1,6 @@
 export default {
 	name: 'Reim',
-	type: ['JUNGLE, MAGE'],
+	type: ['JUNGLE', 'MAGE'],
 	role: ['JUNGLE'],
 	description: 'Resilient ice mage who dominates close-quarter battles.',
 	spotlight: 'Ur-cD6ibo00',

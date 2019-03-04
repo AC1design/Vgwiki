@@ -1,6 +1,6 @@
 export default {
 	name: 'Adagio',
-	type: ['CAPTAIN, PROTECTOR'],
+	type: ['CAPTAIN', 'PROTECTOR'],
 	role: ['CAPTAIN'],
 	description: 'Team healer and damage enhancer with a large area stun.',
 	spotlight: 'TQx1TVGANF4',

@@ -1,6 +1,6 @@
 export default {
 	name: 'Ringo',
-	type: ['LANE, SNIPER'],
+	type: ['LANE', 'SNIPER'],
 	role: ['LANE'],
 	description: 'Fast-moving, fast-shooting gunslinger with an epic fireball.',
 	spotlight: 'QKA4GSSrRRU',

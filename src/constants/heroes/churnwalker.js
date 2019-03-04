@@ -1,6 +1,6 @@
 export default {
 	name: 'Churnwalker',
-	type: ['CAPTAIN, WARRIOR'],
+	type: ['CAPTAIN', 'WARRIOR'],
 	role: ['CAPTAIN'],
 	description:
 		'A disruptor who throws multiple skillshot hooks, chaining victims to him.',

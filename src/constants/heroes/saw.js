@@ -1,6 +1,6 @@
 export default {
 	name: 'SAW',
-	type: ['LANE, SNIPER'],
+	type: ['LANE', 'SNIPER'],
 	role: ['LANE'],
 	description: 'Heavy machine gunner who sacrifices move speed for damage.',
 	spotlight: '2nJHJGgcO3k',

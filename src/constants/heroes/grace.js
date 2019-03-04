@@ -1,6 +1,6 @@
 export default {
   name: 'Grace',
-  type: ['CAPTAIN, PROTECTOR'],
+  type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
   description: 'A powerful paladin with a massive heal.',
   spotlight: 'fjSbPL3KaqU',

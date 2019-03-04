@@ -1,6 +1,6 @@
 export default {
 	name: 'Rona',
-	type: ['JUNGLE, WARRIOR'],
+	type: ['JUNGLE', 'WARRIOR'],
 	role: ['JUNGLE'],
 	description: 'Durable berserker who excels in the thick of fights.',
 	spotlight: 'EYIhMwdQoug',

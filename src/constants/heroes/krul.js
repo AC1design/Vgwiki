@@ -1,6 +1,6 @@
 export default {
   name: 'Krul',
-  type: ['JUNGLE, WARRIOR'],
+  type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
   description: 'The king of duels with massive lifesteal and self-healing.',
   spotlight: 'ZR8J8b44FOk',

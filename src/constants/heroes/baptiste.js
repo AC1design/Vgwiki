@@ -1,6 +1,6 @@
 export default {
 	name: 'Baptiste',
-	type: ['JUNGLE, MAGE'],
+	type: ['JUNGLE', 'MAGE'],
 	role: ['JUNGLE'],
 	description: 'Mid-range mage who inflicts fear on foes.',
 	spotlight: '0MG8X_w4EFI',

@@ -1,6 +1,6 @@
 export default  {
 	name: 'Magnus',
-	type: ['LANE, MAGE'],
+	type: ['LANE', 'MAGE'],
 	role: ['LANE'],
 	description:
 		'A powerful arcanist with a penchant for Arcane Magic decimating enemies from afar',

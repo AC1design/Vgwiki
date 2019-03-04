@@ -1,6 +1,6 @@
 export default {
 	name: 'Kinetic',
-	type: ['LANE, SNIPER'],
+	type: ['LANE', 'SNIPER'],
 	role: ['LANE'],
 	description: 'Nimble duelist weilding a powerful pulse cannon',
 	spotlight: 'I9A1w1OIIq4',

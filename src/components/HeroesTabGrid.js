@@ -105,7 +105,7 @@ class HeroesGrid extends React.Component {
       image={`https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/${hero.name.toLowerCase()}.png`}
       link={hero.name}
       key={index}
-      roleimg={require(`./../images/${hero.role}.png`)}
+      roleimg={require(`./../images/${hero.type[0]}.png`)}
     />
   )
 

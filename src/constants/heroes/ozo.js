@@ -1,6 +1,6 @@
 export default {
   name: 'Ozo',
-  type: ['JUNGLE, ASSASSIN'],
+  type: ['JUNGLE', 'ASSASSIN'],
   role: ['JUNGLE'],
   description: 'Acrobatic monkey with immense self-healing.',
   spotlight: 'Dp7MIjNuZXc',

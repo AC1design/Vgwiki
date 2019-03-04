@@ -1,6 +1,6 @@
 export default {
   name: 'Celeste',
-  type: ['LANE, MAGE'],
+  type: ['LANE', 'MAGE'],
   role: ['LANE'],
   description: 'Back-line mage with heavy area damage and a stun.',
   spotlight: 'rC-vkqUkERY',

@@ -1,6 +1,6 @@
 export default {
   name: 'Ardan',
-  type: ['CAPTAIN, PROTECTOR'],
+  type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
   description:
     'Protects allies with barriers and traps enemies inside a large cage.',

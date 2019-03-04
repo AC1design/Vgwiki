@@ -1,6 +1,6 @@
 export default {
 	name: 'Koshka',
-	type: ['JUNGLE, ASSASSIN'],
+	type: ['JUNGLE', 'ASSASSIN'],
 	role: ['JUNGLE'],
 	description:
 		'Hit-and-run assassin who can pin down enemies with a long stun.',

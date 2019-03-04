@@ -1,6 +1,6 @@
 export default {
 	name: 'Lyra',
-	type: ['CAPTAIN, PROTECTOR'],
+	type: ['CAPTAIN', 'PROTECTOR'],
 	role: ['CAPTAIN'],
 	description: 'Healer and zone mage who can create teleportation portals.',
 	spotlight: '5URpZoYn9a8',

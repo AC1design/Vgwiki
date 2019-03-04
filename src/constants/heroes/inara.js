@@ -1,6 +1,6 @@
 export default {
 	name: 'Inara',
-	type: ['JUNGLE, ASSASSIN'],
+	type: ['JUNGLE', 'ASSASSIN'],
 	role: ['JUNGLE'],
 	description:
 		'An elusive and bursty assassin who strikes with a flurry of blades.',

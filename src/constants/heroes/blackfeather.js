@@ -1,6 +1,6 @@
 export default {
 	name: 'Blackfeather',
-	type: ['LANE, ASSASSIN'],
+	type: ['LANE', 'ASSASSIN'],
 	role: ['LANE'],
 	description:
 		'Evasive fighter who excels at chasing and cleaning up fragile enemies.',

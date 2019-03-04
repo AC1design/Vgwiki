@@ -1,6 +1,6 @@
 export default {
   name: 'Petal',
-  type: ['JUNGLE, SNIPER'],
+  type: ['JUNGLE', 'SNIPER'],
   role: ['JUNGLE'],
   description:
     'Commands 3 pets who tear apart enemies and block incoming skillshots.',

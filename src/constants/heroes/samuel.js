@@ -1,6 +1,6 @@
 export default {
 	name: 'Samuel',
-	type: ['LANE, MAGE'],
+	type: ['LANE', 'MAGE'],
 	role: ['LANE'],
 	description: 'Dark zone-control mage who can put enemies to sleep.',
 	spotlight: 'S01AKcC0TR0',
