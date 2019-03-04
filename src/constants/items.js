@@ -19,8 +19,7 @@ export const itemBoxes = [
     description:
       '+95 Shield\nPassive: Grants immunity to abilities and debuffs. Disabled for 35s shortly after negating ability damage',
     tip: 'Tip: Buy this against heavy crystal damage or hard-engage heroes',
-    item1: 'reflex-block',
-    item2: 'warmail',
+    item1: 'kinetic-shield',
   },
   {
     image: 'aegis',
@@ -30,7 +29,7 @@ export const itemBoxes = [
     color: '#A0D46B',
     cost: '2200',
     description:
-      '+40 Shield\n+40 Armor\n+200 Max Health\n\nActivate: Reflex Block (45s cooldown).',
+      '+45 Shield\n+44 Armor\n+200 Max Health\n\nActivate: Reflex Block (45s cooldown).',
     tip: 'Tip: Greatly reduces damage from enemy abilities.',
     item1: 'reflex-block',
     item2: 'warmail',
@@ -67,7 +66,7 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '1900',
+    cost: '1750',
     description:
       '+65 Armor\nActivate: Maim nearby enemies, lowering their attack speed by 65% of their total for 4s in a 4-meter range. (45s cooldown)',
     tip:

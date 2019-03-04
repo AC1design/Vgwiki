@@ -142,7 +142,7 @@ class Header extends React.Component {
         <div className="HeaderGroup">
           <SimpleDialogDemo />
           <Link to="/">
-            <img src={require('./../images/LOGOWHITE.png')} alt="LOGOWHITE" />
+            <img src={require('./../images/LOGOCOLORED.png')} alt="LOGOVGWIKI" />
           </Link>
           <StyledButton onClick={this.toggleDrawer('right', true)}>
             <SvgComponent />
