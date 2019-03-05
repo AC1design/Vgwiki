@@ -46,7 +46,7 @@ align-self: center;
 
 .EmojiboxGroup {
     display: grid;
-    grid-template-columns: repeat(5, 150px);
+    grid-template-columns: repeat(6, 150px);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     justify-content: center;
@@ -101,4 +101,4 @@ align-self: center;
 }
 }
 
-::-webkit-scrollbar { display: none; }
+ 

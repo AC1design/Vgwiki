@@ -14,7 +14,6 @@
     margin-left: -10px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     margin-bottom: 10px;
-    
 }
 
 .Talentbox h1 {
@@ -68,4 +67,4 @@
 }
 }
 
-::-webkit-scrollbar { display: none; }
+ 

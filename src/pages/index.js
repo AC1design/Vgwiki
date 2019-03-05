@@ -8,6 +8,7 @@ import AdComponent from '../components/ad'
 import GridList from '../components/GridList'
 import StickyFooter from 'react-sticky-footer'
 import ItemsGridList from '../components/ItemsGridList'
+import SocialPingsMobile from '../components/SocialPingsMobile'
 
 const IndexPage = () => (
   <Layout>
@@ -16,18 +17,17 @@ const IndexPage = () => (
       <div className="Hero">
         <div className="HeroGroup">
           <h1>VAINGLORY WIKI</h1>
-          <p>UPDATE 3.10</p>
+          <p>UPDATE 4.0</p>
         </div>
       </div>
       <Tabsind />
       <MediaQuery query="(max-width: 1366px)">
         <div className="mobile">
-          <GridList />
-          <div className="adbox">
-            <AdComponent />
-          </div>
-          <ItemsGridList />
+          <GridList/>
+          <AdComponent/>
+          <ItemsGridList/>
           <Charms />
+          <SocialPingsMobile/>
         </div>
       </MediaQuery>
       <div>
