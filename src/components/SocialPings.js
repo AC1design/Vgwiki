@@ -25,7 +25,7 @@ const Pingsgroup = styled.div`
  display: grid;
     grid-template-columns: repeat(5, 35px);
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-row-gap: 10px;
     justify-content: center;
     text-align: center;
     padding-bottom: 20px
