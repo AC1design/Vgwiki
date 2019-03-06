@@ -8,19 +8,21 @@ import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { heroCards } from '../constants/heroes'
+import Assets from '../constants/assets'
 
 export default props => {
   const hero = props.location.href
     ? heroCards.find(h => h.name === props.location.href.substring(28))
     : heroCards[0]
+  const heroAssets = Assets[hero.name]
   return (
     <Layout>
       <div style={{ height: '100%' }}>
         <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
           <Heroes
-            bgdesktop={require(`./../images/BG/${hero.name}_Desktop.jpg`)}
-            bgtablet={require(`./../images/BG/${hero.name}_Tablet.jpg`)}
-            bgmobile={require(`./../images/BG/${hero.name}_Mobile.jpg`)}
+            bgdesktop={heroAssets.Desktop}
+            bgtablet={heroAssets.Tablet}
+            bgmobile={heroAssets.Mobile}
             heroname={hero.name}
             role={hero.type.join(', ')}
             description={hero.description}
@@ -46,10 +48,7 @@ export default props => {
             <h1>3D MODEL</h1>
             <div className="line" />
           </div>
-          <Models
-            bgmodel={require(`./../images/BG/${hero.name}blurred.jpg`)}
-            model={require(`./../images/models/${hero.name}.png`)}
-          />
+          <Models bgmodel={heroAssets.blurred} model={heroAssets.model} />
           <div className="Title">
             <h1>SKILLS (CLICK FOR MORE)</h1>
             <div className="line" />
@@ -62,12 +61,12 @@ export default props => {
                     skill.video
                       ? skill.video.startsWith('https')
                         ? skill.video
-                        : require(`./../images/SkillVideos/${skill.video}.mp4`)
+                        : heroAssets[skill.type].video
                       : null
                   }
                   title={skill.name}
-                  subtitle={skill.type}
-                  image={require(`./../images/Ability/${skill.image}.png`)}
+                  subtitle={console.log(skill.type) && skill.type}
+                  image={heroAssets[skill.type].image}
                   text={skill.text}
                   stats={skill.stats || []}
                   key={index}
@@ -84,9 +83,7 @@ export default props => {
               {hero.talents.map((talent, index) => (
                 <Talentbox
                   title={talent.name}
-                  image={require(`./../images/Talents/${hero.name}_${
-                    talent.type
-                  }.png`)}
+                  image={heroAssets.Talents[talent.type]}
                   subtitle={talent.type.toUpperCase()}
                   color={talent.color}
                   text={talent.text}
@@ -106,7 +103,7 @@ export default props => {
                   color={skin.color}
                   title={skin.name}
                   text={skin.type}
-                  image={require(`./../images/Skins/${skin.image}.png`)}
+                  image={heroAssets.Skins[skin.name]}
                   key={index}
                 />
               ))}
