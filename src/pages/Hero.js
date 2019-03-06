@@ -10,7 +10,9 @@ import Page from 'react-page-loading'
 import { heroCards } from '../constants/heroes'
 
 export default props => {
-  const hero = heroCards.find(h => h.name === props.location.href.substring(28))
+  const hero = props.location.href
+    ? heroCards.find(h => h.name === props.location.href.substring(28))
+    : heroCards[0]
   return (
     <Layout>
       <div style={{ height: '100%' }}>
