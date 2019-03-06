@@ -1,49 +1,108 @@
+import adagio from './heroes/adagio'
+import alpha from './heroes/alpha'
+import anka from './heroes/anka'
+import ardan from './heroes/ardan'
+import baptiste from './heroes/baptiste'
+import baron from './heroes/baron'
+import blackfeather from './heroes/blackfeather'
+import catherine from './heroes/catherine'
+import celeste from './heroes/celeste'
+import churnwalker from './heroes/churnwalker'
+import flicker from './heroes/flicker'
+import fortress from './heroes/fortress'
+import glaive from './heroes/glaive'
+import grace from './heroes/grace'
+import grumpjaw from './heroes/grumpjaw'
+import gwen from './heroes/gwen'
+import idris from './heroes/idris'
+import inara from './heroes/inara'
+import joule from './heroes/joule'
+import kensei from './heroes/kensei'
+import kestrel from './heroes/kestrel'
+import kinetic from './heroes/kinetic'
+import koshka from './heroes/koshka'
+import krul from './heroes/krul'
+import lance from './heroes/lance'
+import lorelai from './heroes/lorelai'
+import lyra from './heroes/lyra'
+import magnus from './heroes/magnus'
+import malene from './heroes/malene'
+import ozo from './heroes/ozo'
+import petal from './heroes/petal'
+import phinn from './heroes/phinn'
+import reim from './heroes/reim'
+import reza from './heroes/reza'
+import ringo from './heroes/ringo'
+import rona from './heroes/rona'
+import samuel from './heroes/samuel'
+import sanfeng from './heroes/sanfeng'
+import saw from './heroes/saw'
+import silvernail from './heroes/silvernail'
+import skaarf from './heroes/skaarf'
+import skye from './heroes/skye'
+import taka from './heroes/taka'
+import tony from './heroes/tony'
+import varya from './heroes/varya'
+import vox from './heroes/vox'
+import yates from './heroes/yates'
+import ylva from './heroes/ylva'
+
+export const heroTabs = [
+  'ALL',
+  'ASSASSINS',
+  'MAGE',
+  'PROTECTOR',
+  'SNIPER',
+  'WARRIOR',
+]
+
 export const heroCards = [
-  { name: 'Ylva', type: ['JUNGLE', 'ASSASSIN'], role: ['JUNGLE'], role: ['JUNGLE'] },
-  { name: 'Adagio', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Alpha', type: ['JUNGLE', 'WARRIOR'], role: ['JUNGLE'] },
-  { name: 'Anka', type: ['LANE', 'ASSASSIN'], role: ['LANE'] },
-  { name: 'Ardan', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Baptiste', type: ['JUNGLE', 'MAGE'], role: ['JUNGLE'] },
-  { name: 'Baron', type: ['LANE', 'SNIPER'], role: ['LANE'] },
-  { name: 'Blackfeather', type: ['LANE', 'ASSASSIN'], role: ['LANE'] },
-  { name: 'Catherine', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Celeste', type: ['LANE', 'MAGE'], role: ['LANE'] },
-  { name: 'Churnwalker', type: ['CAPTAIN', 'WARRIOR'], role: ['CAPTAIN'] },
-  { name: 'Flicker', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Fortress', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Glaive', type: ['JUNGLE', 'WARRIOR'], role: ['JUNGLE'] },
-  { name: 'Grace', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Grumpjaw', type: ['JUNGLE', 'WARRIOR'], role: ['JUNGLE'] },
-  { name: 'Gwen', type: ['LANE', 'SNIPER'], role: ['LANE'] },
-  { name: 'Idris', type: ['JUNGLE', 'ASSASSIN'], role: ['JUNGLE'] },
-  { name: 'Inara', type: ['JUNGLE', 'WARRIOR'], role: ['JUNGLE'] },
-  { name: 'Joule', type: ['LANE', 'WARRIOR'], role: ['LANE'] },
-  { name: 'Kensei', type: ['JUNGLE', 'ASSASSIN'], role: ['JUNGLE'] },
-  { name: 'Kestrel', type: ['JUNGLE', 'SNIPER'], role: ['JUNGLE'] },
-  { name: 'Kinetic', type: ['LANE', 'MAGE'], role: ['LANE'] },
-  { name: 'Koshka', type: ['JUNGLE', 'ASSASSIN'], role: ['JUNGLE'] },
-  { name: 'Krul', type: ['JUNGLE', 'WARRIOR'], role: ['JUNGLE'] },
-  { name: 'Lance', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Lorelai', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Lyra', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Magnus', type: ['LANE', 'MAGE'], role: ['LANE'] },
-  { name: 'Malene', type: ['LANE', 'MAGE'], role: ['LANE'] },
-  { name: 'Ozo', type: ['JUNGLE', 'ASSASSIN'], role: ['JUNGLE'] },
-  { name: 'Petal', type: ['JUNGLE', 'SNIPER'], role: ['JUNGLE'] },
-  { name: 'Phinn', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
-  { name: 'Reim', type: ['JUNGLE', 'MAGE'], role: ['JUNGLE'] },
-  { name: 'Reza', type: ['JUNGLE', 'ASSASSIN'], role: ['JUNGLE'] },
-  { name: 'Ringo', type: ['LANE', 'SNIPER'], role: ['LANE'] },
-  { name: 'Rona', type: ['JUNGLE', 'WARRIOR'], role: ['JUNGLE'] },
-  { name: 'Samuel', type: ['LANE', 'MAGE'], role: ['LANE'] },
-  { name: 'Saw', type: ['LANE', 'SNIPER'], role: ['LANE'] },
-  { name: 'Silvernail', type: ['LANE', 'SNIPER'], role: ['LANE'] },
-  { name: 'Skaarf', type: ['LANE', 'MAGE'], role: ['LANE'] },
-  { name: 'Skye', type: ['LANE', 'SNIPER'], role: ['LANE'] },
-  { name: 'Taka', type: ['JUNGLE', 'ASSASSIN'], role: ['JUNGLE'] },
-  { name: 'Tony', type: ['JUNGLE', 'WARRIOR'], role: ['JUNGLE'] },
-  { name: 'Varya', type: ['LANE', 'MAGE'], role: ['LANE'] },
-  { name: 'Vox', type: ['LANE', 'SNIPER'], role: ['LANE'] },
-  { name: 'Yates', type: ['CAPTAIN', 'PROTECTOR'], role: ['CAPTAIN'] },
+  sanfeng,
+  adagio,
+  alpha,
+  anka,
+  ardan,
+  baptiste,
+  baron,
+  blackfeather,
+  catherine,
+  celeste,
+  churnwalker,
+  flicker,
+  fortress,
+  glaive,
+  grace,
+  grumpjaw,
+  gwen,
+  idris,
+  inara,
+  joule,
+  kensei,
+  kestrel,
+  kinetic,
+  koshka,
+  krul,
+  lance,
+  lorelai,
+  lyra,
+  magnus,
+  malene,
+  ozo,
+  petal,
+  phinn,
+  reim,
+  reza,
+  ringo,
+  rona,
+  samuel,
+  saw,
+  silvernail,
+  skaarf,
+  skye,
+  taka,
+  tony,
+  varya,
+  vox,
+  yates,
+  ylva,
 ]

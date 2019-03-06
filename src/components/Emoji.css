@@ -5,7 +5,8 @@ align-self: center;
 
 .Emojibox {
     position: relative;
-	border-radius: 100px;
+	overflow: hidden;
+	border-radius: 20px;
 	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     background-color: #2B2B2D;
     padding-bottom:10px;
@@ -16,8 +17,8 @@ align-self: center;
     box-sizing: border-box;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    min-height: 100px;
-    max-width: 100px;
+    height: auto;
+    width: 135px;
    outline: none;
 }
 
@@ -29,15 +30,16 @@ align-self: center;
 .Emojibox img {
     height: 50px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    position: absolute;
     margin-left: 5px;
-    margin-top: 5px
+    margin-top: 5px;
+    -webkit-user-drag: none;
 }
 
 .Emojiboxh1 {
 	color: rgb(255, 255, 255);
-	font-size: 16px;
+	font-size: 14px;
     margin-top: 20px;
+    margin-bottom: 16px;
     -webkit-font-smoothing: antialiased;
     justify-content: center;
     width: 100px;
@@ -46,7 +48,7 @@ align-self: center;
 
 .EmojiboxGroup {
     display: grid;
-    grid-template-columns: repeat(5, 150px);
+    grid-template-columns: repeat(6, 150px);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     justify-content: center;
@@ -70,6 +72,7 @@ align-self: center;
     justify-content: left;
     justify-items: stretch;
     overflow: visible;
+    margin-left: 16px;
 }
 
 .EmojiboxGroupScroll{
@@ -81,24 +84,19 @@ align-self: center;
 }
   }
   
-  @media (max-width: 720px) {
-    .ItemboxGroup {
-    margin: 20px 16px 40px;
-    display: grid;
-    grid-template-columns: repeat(82, 195px);
-    grid-column-gap: 20px;
-    justify-content: left;
-    justify-items: stretch;
-    overflow: visible;
-}
+ 
 
-.ItemboxGroupScroll{
-    overflow-x: scroll;
-    overflow-y: visible;
-    width:100%;
-    background: transparent;
-    padding: 20px 0px -10px;
+ ::-webkit-scrollbar{
+        height: 10px;
+        width: 0px;
+    }
+    ::-webkit-scrollbar-thumb:horizontal{
+        background: rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+    }
+@media (max-width: 411px) {
+    ::-webkit-scrollbar{
+        display: none;
+    }
 }
-}
-
-::-webkit-scrollbar { display: none; }
+ 

@@ -34,6 +34,7 @@
     border-radius: 20px;
     margin-bottom: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.418);
+    -webkit-user-drag: none;
 }
 
 .Skillbox h1 {
@@ -116,5 +117,12 @@
 }
 }
 
-::-webkit-scrollbar { display: none; }
+  ::-webkit-scrollbar{
+        height: 10px;
+        width: 0px;
+    }
+    ::-webkit-scrollbar-thumb:horizontal{
+        background: rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+    }
 

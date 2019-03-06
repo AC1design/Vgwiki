@@ -1,10 +1,10 @@
-export const menuTabs = [
-  'All',
-  'Crystal',
-  'Weapon',
-  'Defense',
-  'Utility',
-  'Consumable',
+export const itemTabs = [
+  'ALL',
+  'CRYSTAL',
+  'WEAPON',
+  'DEFENSE',
+  'UTILITY',
+  'CONSUMABLE',
 ]
 
 export const itemBoxes = [
@@ -19,8 +19,7 @@ export const itemBoxes = [
     description:
       '+95 Shield\nPassive: Grants immunity to abilities and debuffs. Disabled for 35s shortly after negating ability damage',
     tip: 'Tip: Buy this against heavy crystal damage or hard-engage heroes',
-    item1: 'reflex-block',
-    item2: 'warmail',
+    item1: 'kinetic-shield',
   },
   {
     image: 'aegis',
@@ -30,7 +29,7 @@ export const itemBoxes = [
     color: '#A0D46B',
     cost: '2200',
     description:
-      '+40 Shield\n+40 Armor\n+200 Max Health\n\nActivate: Reflex Block (45s cooldown).',
+      '+45 Shield\n+44 Armor\n+200 Max Health\n\nActivate: Reflex Block (45s cooldown).',
     tip: 'Tip: Greatly reduces damage from enemy abilities.',
     item1: 'reflex-block',
     item2: 'warmail',
@@ -67,7 +66,7 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '1900',
+    cost: '1750',
     description:
       '+65 Armor\nActivate: Maim nearby enemies, lowering their attack speed by 65% of their total for 4s in a 4-meter range. (45s cooldown)',
     tip:
@@ -294,10 +293,10 @@ export const itemBoxes = [
     cost: '650',
     description: '+400 Max Health',
     item1: 'oakheart',
-		item4: 'capacitor-plate',
-		item5: 'crucible',
-		item6: 'pulseweave',
-		item7: 'slumbering-husk',
+    item4: 'capacitor-plate',
+    item5: 'crucible',
+    item6: 'pulseweave',
+    item7: 'slumbering-husk',
   },
   {
     image: 'eclipse-prism',
@@ -309,12 +308,12 @@ export const itemBoxes = [
     description: '+30 Crystal Power',
     tip: 'Tip: Crystal power increases the strength of abilities.',
     item1: 'crystal-bit',
-		item4: 'aftershock',
-		item5: 'frostburn',
-		item6: 'shatterglass',
-		item7: 'spellfire',
-		item8: 'dragons-eye',
-		item9: 'broken-myth',
+    item4: 'aftershock',
+    item5: 'frostburn',
+    item6: 'shatterglass',
+    item7: 'spellfire',
+    item8: 'dragons-eye',
+    item9: 'broken-myth',
   },
   {
     image: 'energy-battery',
@@ -334,7 +333,8 @@ export const itemBoxes = [
     tier: 'TIER 3',
     color: '#4A90E2',
     cost: '2600',
-    description: '+15% Crystal Lifesteal\n+60 Crystal Power\n+300 Max Energy\n+4 Energy Recharge\n\nPassive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +25% lifesteal, recharges over 40s.',
+    description:
+      '+15% Crystal Lifesteal\n+60 Crystal Power\n+300 Max Energy\n+4 Energy Recharge\n\nPassive: Your next 400-800 (level 1-12) points of crystal damage to enemy heroes have +25% lifesteal, recharges over 40s.',
     tip: 'Tip: Crystal lifesteal heals you for a % of crystal damage dealt.',
     item1: 'heavy-prism',
     item2: 'void-battery',
@@ -346,7 +346,8 @@ export const itemBoxes = [
     tier: 'TIER 1',
     color: '#CCD1D9',
     cost: '25',
-    description: 'Consume: Reveal an area for 5s. Can see over walls, into brush, and stealthed units. Scout Traps within this area are permanently revealed.',
+    description:
+      'Consume: Reveal an area for 5s. Can see over walls, into brush, and stealthed units. Scout Traps within this area are permanently revealed.',
     tip: 'Tip: Use this to avoid being ambushed, especially in the late game.',
   },
   {
@@ -356,7 +357,8 @@ export const itemBoxes = [
     tier: 'TIER 2',
     color: '#AC92EC',
     cost: '600',
-    description: '+250 Max Health\n\nActivate: Fire a flare. 5s cooldown. 2 charges max. 20s per charge.',
+    description:
+      '+250 Max Health\n\nActivate: Fire a flare. 5s cooldown. 2 charges max. 20s per charge.',
     tip: 'Tip: Use this to avoid being ambushed, especially in the late game.',
     item1: 'oakheart',
     item4: 'contraption',
@@ -369,8 +371,10 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '300',
     tag: '5V5',
-    description: '+150 Max Health\n\nActivate: Flare - Fires a Flare that lasts 3s, granting vision and true sight in the area. Flares have 3 max charges and recover 1 charge every 75s.',
-    tip: 'Tip: Buy this to counter enemy stealth/vision and to safely check objectives.',
+    description:
+      '+150 Max Health\n\nActivate: Flare - Fires a Flare that lasts 3s, granting vision and true sight in the area. Flares have 3 max charges and recover 1 charge every 75s.',
+    tip:
+      'Tip: Buy this to counter enemy stealth/vision and to safely check objectives.',
   },
   {
     image: 'fountain-of-renewal',
@@ -379,7 +383,8 @@ export const itemBoxes = [
     tier: 'TIER 3',
     color: '#A0D46B',
     cost: '2400',
-    description: '+400 Max Health\n+60 Shield\n+20 Armor\n\nPassive: Lifespring\nActivate: Heals you and nearby allies for 2 health for each % missing health per second for 3s. (75s cooldown)',
+    description:
+      '+400 Max Health\n+60 Shield\n+20 Armor\n\nPassive: Lifespring\nActivate: Heals you and nearby allies for 2 health for each % missing health per second for 3s. (75s cooldown)',
     tip: 'Tip: Heal is especially powerful on allies who are almost dead.',
     item1: 'lifespring',
     item2: 'kinetic-shield',
@@ -391,7 +396,8 @@ export const itemBoxes = [
     tier: 'TIER 3',
     color: '#4A90E2',
     cost: '2700',
-    description: '+90 Crystal Power\n\nPassive: Crystal damage abilities slow enemy heroes by 25% for 1.5 seconds.',
+    description:
+      '+90 Crystal Power\n\nPassive: Crystal damage abilities slow enemy heroes by 25% for 1.5 seconds.',
     tip: 'Tip: The slow becomes more powerful as you build more crystal power.',
     item1: 'heavy-prism',
     item2: 'eclipse-prism',
@@ -403,8 +409,10 @@ export const itemBoxes = [
     tier: 'TIER 3',
     color: '#AC92EC',
     cost: '1500',
-    description: '+150 Max Health\n+15% Cooldown Speed\n+250 Max Energy\n+3.5 Energy Recharge\n\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (45s cooldown).',
-    tip: 'Tip: Allows you to chase down enemy targets and use abilities more frequently... or to escape trouble!',
+    description:
+      '+150 Max Health\n+15% Cooldown Speed\n+250 Max Energy\n+3.5 Energy Recharge\n\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (45s cooldown).',
+    tip:
+      'Tip: Allows you to chase down enemy targets and use abilities more frequently... or to escape trouble!',
     item1: 'travel-boots',
     item2: 'void-battery',
   },
@@ -415,7 +423,8 @@ export const itemBoxes = [
     tier: 'TIER 1',
     color: '#CCD1D9',
     cost: 'Eqp',
-    description: 'Activate: Block 115-500 (level 1-12) damage and recover 200 (+25 per hero level) health and energy over the next 5s (120 cooldown).',
+    description:
+      'Activate: Block 115-500 (level 1-12) damage and recover 200 (+25 per hero level) health and energy over the next 5s (120 cooldown).',
   },
   {
     image: 'heavy-prism',
@@ -427,13 +436,13 @@ export const itemBoxes = [
     description: '+45 Crystal Power',
     tip: 'Tip: Crystal power increases the strength of abilities.',
     item1: 'crystal-bit',
-		item4: 'alternating-current',
-		item5: 'broken-myth',
-		item6: 'eve-of-harvest',
-		item7: 'frostburn',
-		item8: 'shatterglass'
-	},
-	{
+    item4: 'alternating-current',
+    item5: 'broken-myth',
+    item6: 'eve-of-harvest',
+    item7: 'frostburn',
+    item8: 'shatterglass',
+  },
+  {
     image: 'heavy-steel',
     name: 'Heavy Steel',
     class: 'WEAPON',
@@ -443,11 +452,11 @@ export const itemBoxes = [
     description: '+45 Weapon Power',
     tip: 'Tip: Weapon power increases the damage of basic attacks.',
     item1: 'weapon-blade',
-		item4: 'breaking-point',
-		item5: 'serpent-mask',
-		item6: 'sorrowblade',
-	},
-	{
+    item4: 'breaking-point',
+    item5: 'serpent-mask',
+    item6: 'sorrowblade',
+  },
+  {
     image: 'hourglass',
     name: 'Hourglass',
     class: 'CRYSTAL',
@@ -455,33 +464,38 @@ export const itemBoxes = [
     color: '#4A90E2',
     cost: '250',
     description: '+7.5% Cooldown Reduction\n+0.25 Energy Recharge ',
-    tip: 'Tip: Cooldown reduction the time it takes for your abilities to come off the cooldown timer.',
+    tip:
+      'Tip: Cooldown reduction the time it takes for your abilities to come off the cooldown timer.',
     item1: 'chronograph',
   },
-	{
+  {
     image: 'ironguard-contract',
     name: 'Ironguard Contract',
     class: 'CONSUMABLE',
     tier: 'TIER 1',
     color: '#CCD1D9',
     cost: '250',
-    description: 'Passive: When a nearby ally kills a jungle monster or large lane minion, it heals you and your ally by 75 health each and 10 energy each.',
-    tip: 'Tip: Use this to be battle ready coming out of the jungle. Be sure to sell this item when you are durable enough to survive the jungle.',
+    description:
+      'Passive: When a nearby ally kills a jungle monster or large lane minion, it heals you and your ally by 75 health each and 10 energy each.',
+    tip:
+      'Tip: Use this to be battle ready coming out of the jungle. Be sure to sell this item when you are durable enough to survive the jungle.',
     item1: '',
     item2: '',
   },
-	{
+  {
     image: 'journey-boots',
     name: 'Journey Boots',
     class: 'UTILITY',
     tier: 'TIER 2',
     color: '#AC92EC',
     cost: '1500',
-    description: '+150 Max Health\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (75s cooldown). Damaging heroes instantly sets the cooldown to 10s if it is above it.',
-    tip: 'Tip: Purchase to be able to chase down fleeing targets and sustain pressure.',
+    description:
+      '+150 Max Health\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (75s cooldown). Damaging heroes instantly sets the cooldown to 10s if it is above it.',
+    tip:
+      'Tip: Purchase to be able to chase down fleeing targets and sustain pressure.',
     item1: 'travel-boots',
   },
-	{
+  {
     image: 'kinetic-shield',
     name: 'Kinetic Shield',
     class: 'DEFENSE',
@@ -491,34 +505,35 @@ export const itemBoxes = [
     description: '+60 Shield',
     tip: 'Tip: Shield reduces damage from abilities.',
     item1: 'light-shield',
-		item4: 'aegis',
-		item5: 'fountain-of-renewal'
+    item4: 'aegis',
+    item5: 'fountain-of-renewal',
   },
-	{
+  {
     image: 'level-juice',
     name: 'Level Juice',
     class: 'CONSUMABLE',
     tier: 'TIER 1',
     color: '#CCD1D9',
-		cost: '0',
-		tag: 'PRACTICE',
+    cost: '0',
+    tag: 'PRACTICE',
     description: 'Activate: Instantly level up.',
     tip: 'Tip: This item is only available in practice mode.',
   },
-	{
+  {
     image: 'lifespring',
     name: 'Lifespring',
     class: 'DEFENSE',
     tier: 'TIER 2',
     color: '#A0D46B',
     cost: '800',
-    description: '+200 Max Health\n\nPassive: Regenerate 2.5% of your missing health per second whenever you are out of combat with enemy heroes for 5s.',
+    description:
+      '+200 Max Health\n\nPassive: Regenerate 2.5% of your missing health per second whenever you are out of combat with enemy heroes for 5s.',
     tip: 'Tip: Helps you stay healthy in between battles.',
     item1: 'oakheart',
-		item4: 'fountain-of-renewal',
-		item5: 'pulseweave',
+    item4: 'fountain-of-renewal',
+    item5: 'pulseweave',
   },
-	{
+  {
     image: 'light-armor',
     name: 'Light Armor',
     class: 'DEFENSE',
@@ -529,7 +544,7 @@ export const itemBoxes = [
     tip: 'Tip: Armor reduces damage from basic attacks.',
     item1: 'coat-of-plates',
   },
-	{
+  {
     image: 'light-shield',
     name: 'Light Shield',
     class: 'DEFENSE',
@@ -540,7 +555,7 @@ export const itemBoxes = [
     tip: 'Tip: Shield reduces damage from abilities.',
     item4: 'kinetic-shield',
   },
-	{
+  {
     image: 'lucky-strike',
     name: 'Lucky Strike',
     class: 'WEAPON',
@@ -552,52 +567,57 @@ export const itemBoxes = [
     item1: 'minions-foot',
     item4: 'tornado-trigger',
   },
-	{
+  {
     image: 'metal-jacket',
     name: 'Metal Jacket',
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
     cost: '2400',
-    description: '+90 Armor\nPassive: Reduces incoming damage from Basic Attacks by 15%.',
+    description:
+      '+90 Armor\nPassive: Reduces incoming damage from Basic Attacks by 15%.',
     tip: 'Tip: Armor reduces damage from basic attacks.',
     item1: 'coat-of-plates',
     item2: '',
   },
-	{
+  {
     image: 'minion-candy',
     name: 'Minion Candy',
     class: 'CONSUMABLE',
     tier: 'TIER 1',
     color: '#CCD1D9',
     cost: '75',
-    description: 'Consume: Empowers nearby friendly minions for 60s and friendly jungle bosses for 30s. They are granted 40% increased damage, 120 armor, 60 shield, and 0.5 increased movement speed.',
-    tip: 'Tip: Helps you push and siege enemy turrets, especially in early game.',
+    description:
+      'Consume: Empowers nearby friendly minions for 60s and friendly jungle bosses for 30s. They are granted 40% increased damage, 120 armor, 60 shield, and 0.5 increased movement speed.',
+    tip:
+      'Tip: Helps you push and siege enemy turrets, especially in early game.',
   },
-	{
+  {
     image: 'minions-foot',
-    name: 'Minion\'s Foot',
+    name: "Minion's Foot",
     class: 'WEAPON',
     tier: 'TIER 1',
     color: '#ED5565',
     cost: '300',
-    description: '+10% Critical Chance\n+5% Critical Damage\n\nPassive: After buying this item, your very first attack on an enemy hero will crit.',
+    description:
+      '+10% Critical Chance\n+5% Critical Damage\n\nPassive: After buying this item, your very first attack on an enemy hero will crit.',
     tip: 'Tip: You can sell and re-buy this item to refresh the passive.',
     item1: 'lucky-strike',
   },
-	{
+  {
     image: 'nullwave-gauntlet',
     name: 'Nullwave Gauntlet',
     class: 'UTILITY',
     tier: 'TIER 3',
     color: '#AC92EC',
     cost: '2200',
-    description: '+400 Max Health\n+25% Cooldown Reduction\n+1 Energy Recharge\n\nActivate: Fires a blast at an enemy hero which explodes shortly after hitting its target, item silencing for 4s and dealing 50-100 + 15% max health in crystal damage (35s cooldown) (11 range).',
+    description:
+      '+400 Max Health\n+25% Cooldown Reduction\n+1 Energy Recharge\n\nActivate: Fires a blast at an enemy hero which explodes shortly after hitting its target, item silencing for 4s and dealing 50-100 + 15% max health in crystal damage (35s cooldown) (11 range).',
     tip: 'Tip: Use this against opponents with many active items.',
     item1: 'chronograph',
     item2: 'dragonheart',
   },
-	{
+  {
     image: 'oakheart',
     name: 'Oakheart',
     class: 'DEFENSE',
@@ -606,10 +626,10 @@ export const itemBoxes = [
     cost: '300',
     description: '+200 Max Health',
     item4: 'dragonheart',
-		item5: 'lifespring',
-		item6: 'reflex-block'
+    item5: 'lifespring',
+    item6: 'reflex-block',
   },
-	{
+  {
     image: 'piercing-shard',
     name: 'Piercing Shard',
     class: 'CRYSTAL',
@@ -620,7 +640,7 @@ export const itemBoxes = [
     tip: 'Tip: Shield pierce makes a % of your crystal damage bypass shield.',
     item1: 'crystal-bit',
   },
-	{
+  {
     image: 'piercing-spear',
     name: 'Piercing Spear',
     class: 'WEAPON',
@@ -630,149 +650,164 @@ export const itemBoxes = [
     description: '+8% Armor Pierce\n+15 Weapon Power',
     tip: 'Tip: Armor pierce makes a % of your weapon damage bypass armor.',
     item1: 'weapon-blade',
-		item4: 'bonesaw',
-		item5: 'tension-bow',
+    item4: 'bonesaw',
+    item5: 'tension-bow',
   },
-	{
+  {
     image: 'poisoned-shiv',
     name: 'Poisoned Shiv',
     class: 'WEAPON',
     tier: 'TIER 3',
     color: '#ED5565',
     cost: '900',
-    description: '+30 Weapon Power\n+25% Attack Speed\n+10% Weapon Lifesteal\n\nPassive: Every 2 basic attacks will apply a mortal wound for 2s.\nPassive: Barbed Needle',
+    description:
+      '+30 Weapon Power\n+25% Attack Speed\n+10% Weapon Lifesteal\n\nPassive: Every 2 basic attacks will apply a mortal wound for 2s.\nPassive: Barbed Needle',
     tip: 'Tip: Buy this against high sustain targets.',
     item1: 'barbed-needle',
     item2: 'blazing-salvo',
   },
-	{
+  {
     image: 'protector-contract',
     name: 'Protector Contract',
     class: 'CONSUMABLE',
     tier: 'TIER 1',
     color: '#CCD1D9',
     cost: '250',
-    description: 'Activate: Grants a 120 health barrier to nearby allied heroes for 2s. 5s cooldown. 2 max charges, 15s per charge.',
-    tip: 'Tip: Purchase this if you expect heavy aggression coming from the enemy team or want early teamfights.',
+    description:
+      'Activate: Grants a 120 health barrier to nearby allied heroes for 2s. 5s cooldown. 2 max charges, 15s per charge.',
+    tip:
+      'Tip: Purchase this if you expect heavy aggression coming from the enemy team or want early teamfights.',
   },
-	{
+  {
     image: 'pulseweave',
     name: 'Pulseweave',
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
     cost: '2700',
-    description: '+600 Health\n\nPassive: Upon taking damage from an enemy hero, gain bonus movement speed for 3s then deal 50 (+25% of bonus health) damage and slow enemies by 5% (+0.02% of bonus health) for 2s. (30s cooldown)\nPassive: +10% base movement speed\nPassive: Lifespring',
+    description:
+      '+600 Health\n\nPassive: Upon taking damage from an enemy hero, gain bonus movement speed for 3s then deal 50 (+25% of bonus health) damage and slow enemies by 5% (+0.02% of bonus health) for 2s. (30s cooldown)\nPassive: +10% base movement speed\nPassive: Lifespring',
     tip: 'Tip: Purchase this to strengthen your engage.',
     item1: 'lifespring',
     item2: 'dragonheart',
   },
-	{
+  {
     image: 'reflex-block',
     name: 'Reflex Block',
     class: 'DEFENSE',
     tier: 'TIER 2',
     color: '#A0D46B',
     cost: '700',
-    description: '+200 Max Health\n\nActivate: Gain a barrier worth 100-400 (level 1-12) and block all debuffs for 1.5s. (75s cooldown) Can activate while stunned.',
-    tip: 'Tip: Block dangerous but predictable abilities with your fast reflexes.',
+    description:
+      '+200 Max Health\n\nActivate: Gain a barrier worth 100-400 (level 1-12) and block all debuffs for 1.5s. (75s cooldown) Can activate while stunned.',
+    tip:
+      'Tip: Block dangerous but predictable abilities with your fast reflexes.',
     item1: 'oakheart',
-		item4: 'aegis',
-		item5: 'crucible'
+    item4: 'aegis',
+    item5: 'crucible',
   },
-	{
+  {
     image: 'rooks-decree',
-    name: 'Rook\'s Decree',
+    name: "Rook's Decree",
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
     cost: '2400',
-    description: '+500 Health\n+30 Armor\n+30 Shield\n+5% Cooldown Reduction\n\nPassive: After using an ability, your next basic attack against an enemy hero applies a barrier (100+15% of bonus health) to all nearby allies for 2 seconds (10s cooldown).',
+    description:
+      '+500 Health\n+30 Armor\n+30 Shield\n+5% Cooldown Reduction\n\nPassive: After using an ability, your next basic attack against an enemy hero applies a barrier (100+15% of bonus health) to all nearby allies for 2 seconds (10s cooldown).',
     item1: 'dragonheart',
     item2: 'warmail',
   },
-	{
+  {
     image: 'scout-cam',
     name: 'Scout Cam',
     class: 'CONSUMABLE',
     tier: 'TIER 1',
     color: '#CCD1D9',
     cost: 'Eqp',
-    description: 'The enemy doesn\'t deserve privacy. These gizmos are the latest in high-tech surveillance. They\'re small, light and undetectable...except by other Scout Cams',
+    description:
+      "The enemy doesn't deserve privacy. These gizmos are the latest in high-tech surveillance. They're small, light and undetectable...except by other Scout Cams",
   },
-	{
+  {
     image: 'scout-trap',
     name: 'Scout Trap',
     class: 'CONSUMABLE',
     tier: 'TIER 1',
     color: '#CCD1D9',
     cost: '50',
-    description: 'Consume: Place a trap at your feet. Trap grants vision & will explode on contact with enemy heroes after a short delay. Deals splash damage and reveals affected enemies for 5s.',
-    tip: 'Tip: Use this to gain vision of strategic locations such as the Gold Mine or Kraken.',
+    description:
+      'Consume: Place a trap at your feet. Trap grants vision & will explode on contact with enemy heroes after a short delay. Deals splash damage and reveals affected enemies for 5s.',
+    tip:
+      'Tip: Use this to gain vision of strategic locations such as the Gold Mine or Kraken.',
   },
-	{
+  {
     image: 'scoutpak',
     name: 'ScoutPak',
     class: 'UTILITY',
     tier: 'TIER 2',
     color: '#AC92EC',
-		cost: '500',
-		tag: '5V5',
-    description: '+10% CDR\n+2.0 Energy Recharge\n\nBreadth: You can hold 1 additional Scout Cam(s) and obtain charges 30s faster per Scout Cam.',
-		tip: 'Tip: Buy this to spread out vision across various areas.',
-		item1: 'hourglass',
+    cost: '500',
+    tag: '5V5',
+    description:
+      '+10% CDR\n+2.0 Energy Recharge\n\nBreadth: You can hold 1 additional Scout Cam(s) and obtain charges 30s faster per Scout Cam.',
+    tip: 'Tip: Buy this to spread out vision across various areas.',
+    item1: 'hourglass',
     item4: 'superscout-2000',
   },
-	{
+  {
     image: 'scouttuff',
     name: 'ScoutTuff',
     class: 'UTILITY',
     tier: 'TIER 2',
     color: '#AC92EC',
-		cost: '500',
-		tag: '5V5',
-    description: '+250 Max Health\n\nDepth: Scout Cams last 30s longer and take 1 extra hit(s) to kill.\nActivate: Flare.',
-		tip: 'Tip: Buy this to strengthen your vision control in specific areas.',
-		item1: 'oakheart',
+    cost: '500',
+    tag: '5V5',
+    description:
+      '+250 Max Health\n\nDepth: Scout Cams last 30s longer and take 1 extra hit(s) to kill.\nActivate: Flare.',
+    tip: 'Tip: Buy this to strengthen your vision control in specific areas.',
+    item1: 'oakheart',
     item4: 'superscout-2000',
   },
-	{
+  {
     image: 'serpent-mask',
     name: 'Serpent Mask',
     class: 'WEAPON',
     tier: 'TIER 3',
     color: '#ED5565',
     cost: '2800',
-    description: '+70 Weapon Power\n+15% Weapon Lifesteal\n\nPassive: Your next 400-800 (level 1-12) points of weapon damage to enemy heroes has +25% lifesteal, recharges over 40 seconds.\nPassive: Barbed Needle',
-		tip: 'Tip: Helps you stay alive in battle, especially if you are already dealing lots of weapon damage.',
-		item1: 'heavy-steel',
+    description:
+      '+70 Weapon Power\n+15% Weapon Lifesteal\n\nPassive: Your next 400-800 (level 1-12) points of weapon damage to enemy heroes has +25% lifesteal, recharges over 40 seconds.\nPassive: Barbed Needle',
+    tip:
+      'Tip: Helps you stay alive in battle, especially if you are already dealing lots of weapon damage.',
+    item1: 'heavy-steel',
     item2: 'barbed-needle',
   },
-	{
+  {
     image: 'shatterglass',
     name: 'Shatterglass',
     class: 'CRYSTAL',
     tier: 'TIER 3',
     color: '#4A90E2',
     cost: '3000',
-		description: '+130 Crystal Power',
-		tip: 'Tip: Crystal power increases the strength of abilities.',
+    description: '+130 Crystal Power',
+    tip: 'Tip: Crystal power increases the strength of abilities.',
     item1: 'heavy-prism',
     item2: 'eclipse-prism',
   },
-	{
+  {
     image: 'shiversteel',
     name: 'Shiversteel',
     class: 'UTILITY',
     tier: 'TIER 3',
     color: '#AC92EC',
     cost: '1950',
-    description: '+400 Max Health\n+25% Attack Speed\n\nActivate: For the next 4s (6s if you are melee), your basic attacks slow enemy heroes by 40% for 1.4s. (12s cooldown)',
-		tip: 'Tip: Use this to slow fleeing enemies.',
-		item1: 'dragonheart',
+    description:
+      '+400 Max Health\n+25% Attack Speed\n\nActivate: For the next 4s (6s if you are melee), your basic attacks slow enemy heroes by 40% for 1.4s. (12s cooldown)',
+    tip: 'Tip: Use this to slow fleeing enemies.',
+    item1: 'dragonheart',
     item2: 'blazing-salvo',
   },
-	{
+  {
     image: 'six-sins',
     name: 'Six Sins',
     class: 'WEAPON',
@@ -780,93 +815,99 @@ export const itemBoxes = [
     color: '#ED5565',
     cost: '650',
     description: '+25 Weapon Power',
-		tip: 'Tip: Weapon power increases the damage of basic attacks.',
-		item1: 'weapon-blade',
-		item4: 'sorrowblade',
-		item5: 'tension-bow',
+    tip: 'Tip: Weapon power increases the damage of basic attacks.',
+    item1: 'weapon-blade',
+    item4: 'sorrowblade',
+    item5: 'tension-bow',
   },
-	{
+  {
     image: 'slumbering-husk',
     name: 'Slumbering Husk',
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
     cost: '2600',
-    description: '+45 Armor\n+90 Shield\n\nPassive: Taking 25% of your max health in damage over 1s fortifies your remaining health for 2s (30s cooldown).',
-		tip: 'Tip: Buy this to survive against opponents with high burst damage.',
-		item1: 'warmail',
+    description:
+      '+45 Armor\n+90 Shield\n\nPassive: Taking 25% of your max health in damage over 1s fortifies your remaining health for 2s (30s cooldown).',
+    tip: 'Tip: Buy this to survive against opponents with high burst damage.',
+    item1: 'warmail',
     item2: 'kinetic-shield',
   },
-	{
+  {
     image: 'sorrowblade',
     name: 'Sorrowblade',
     class: 'WEAPON',
     tier: 'TIER 3',
     color: '#ED5565',
     cost: '3100',
-		description: '+120 Weapon Power',
-		tip: 'Tip: Weapon power increases the damage of basic attacks.',
+    description: '+120 Weapon Power',
+    tip: 'Tip: Weapon power increases the damage of basic attacks.',
     item1: 'heavy-steel',
     item2: 'six-sins',
   },
-	{
+  {
     image: 'spellfire',
     name: 'Spellfire',
     class: 'CRYSTAL',
     tier: 'TIER 3',
     color: '#4A90E2',
     cost: '2900',
-    description: '+80 crystal power\n\nPassive: Abilities dealing crystal damage to enemies (excluding lane minions) deal 10-120 (level 1-12) + 60% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.',
+    description:
+      '+80 crystal power\n\nPassive: Abilities dealing crystal damage to enemies (excluding lane minions) deal 10-120 (level 1-12) + 60% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.',
     item1: 'heavy-prism',
     item2: 'eclipse-prism',
   },
-	{
+  {
     image: 'spellsword',
     name: 'Spellsword',
     class: 'WEAPON',
     tier: 'TIER 3',
     color: '#ED5565',
     cost: '2800',
-    description: '+85 Weapon Power\n+35% Cooldown Speed\n+2 Energy Recharge\n\nPassive: Every basic attack grants you 4 energy (12 on heroes).',
-		tip: 'Tip: Particularly useful on heroes who run into energy problems.',
-		item1: 'heavy-steel',
+    description:
+      '+85 Weapon Power\n+35% Cooldown Speed\n+2 Energy Recharge\n\nPassive: Every basic attack grants you 4 energy (12 on heroes).',
+    tip: 'Tip: Particularly useful on heroes who run into energy problems.',
+    item1: 'heavy-steel',
     item2: 'chronograph',
   },
-	{
+  {
     image: 'sprint-boots',
     name: 'Sprint Boots',
     class: 'UTILITY',
     tier: 'TIER 1',
     color: '#AC92EC',
     cost: '300',
-    description: 'Passive: +0.3 move speed. (Does not stack with other boots.)\nActivate: Sprint for 2s (150s cooldown).',
+    description:
+      'Passive: +0.3 move speed. (Does not stack with other boots.)\nActivate: Sprint for 2s (150s cooldown).',
     item4: 'travel-boots',
   },
-	{
+  {
     image: 'stormcrown',
     name: 'Stormcrown',
     class: 'UTILITY',
     tier: 'TIER 3',
     color: '#AC92EC',
     cost: '2000',
-    description: '+15% Cooldown Reduction\n+1 Energy Recharge\n+200 Max Health\n\nStormguard: Your next basic attack will deal 140-480 bonus true damage (4s cooldown). 25% effectiveness against heroes and structures. (Does not stack with other Stormguard)',
-		tip: 'Tip: Substantially increases your damage to objectives.',
-		item1: 'chronograph',
+    description:
+      '+15% Cooldown Reduction\n+1 Energy Recharge\n+200 Max Health\n\nStormguard: Your next basic attack will deal 140-480 bonus true damage (4s cooldown). 25% effectiveness against heroes and structures. (Does not stack with other Stormguard)',
+    tip: 'Tip: Substantially increases your damage to objectives.',
+    item1: 'chronograph',
     item2: 'stormguard-banner',
   },
-	{
+  {
     image: 'stormguard-banner',
     name: 'Stormguard Banner',
     class: 'UTILITY',
     tier: 'TIER 2',
     color: '#AC92EC',
     cost: '600',
-    description: '+200 Max Health\n\nStormguard: Your next basic attack will deal 30-200 bonus true damage (4s cooldown). 25% effectiveness against heroes and structures. (Does not stack with other Stormguard)',
-		tip: 'Tip: Helps you damage objectives such as turrets & jungle bosses.',
-		item1: 'oakheart',
+    description:
+      '+200 Max Health\n\nStormguard: Your next basic attack will deal 30-200 bonus true damage (4s cooldown). 25% effectiveness against heroes and structures. (Does not stack with other Stormguard)',
+    tip: 'Tip: Helps you damage objectives such as turrets & jungle bosses.',
+    item1: 'oakheart',
     item4: 'stormcrown',
   },
-	{
+  {
     image: 'superscout-2000',
     name: 'SuperScout2000',
     class: 'UTILITY',
@@ -874,12 +915,13 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '2000',
     tag: '5V5',
-    description: '+450 Max Health\n+20% CDR\n+4.5 Energy Recharge\n\nBreadth: You can hold 3 additional Scout Cam(s) and obtain charges 60s faster per Scout Cam.\nDepth: Scout Cams last 60s longer and take 3 extra hit(s) to kill.\nActivate: Flare',
+    description:
+      '+450 Max Health\n+20% CDR\n+4.5 Energy Recharge\n\nBreadth: You can hold 3 additional Scout Cam(s) and obtain charges 60s faster per Scout Cam.\nDepth: Scout Cams last 60s longer and take 3 extra hit(s) to kill.\nActivate: Flare',
     tip: 'Tip: Buy this to provide maximum vision control for your team.',
     item1: 'scoutpak',
     item2: 'scouttuff',
   },
-	{
+  {
     image: 'swift-shooter',
     name: 'Swift Shooter',
     class: 'WEAPON',
@@ -889,7 +931,7 @@ export const itemBoxes = [
     description: '+10% Attack Speed',
     item4: 'blazing-salvo',
   },
-	{
+  {
     image: 'teleport-boots',
     name: 'Teleport Boots',
     class: 'UTILITY',
@@ -897,57 +939,64 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '2000',
     tag: '5V5',
-    description: '+150 Max Health\n+15 Shield\n+15 Armor\n\nBoots: +0.5 move speed (does not stack)\nPassive (Travel): +1 move speed when not in combat with heroes, monsters or turrets.\nActivate: After channeling for 2.5s, teleport to allied structure, minion or Scout Cam. Grant 600 barrier to the target while channeling. Gain a burst of move speed upon arrival (180s cooldown).',
-    tip: 'Tip: Lets you quickly join your team from across the map or flank unsuspecting opponents.',
+    description:
+      '+150 Max Health\n+15 Shield\n+15 Armor\n\nBoots: +0.5 move speed (does not stack)\nPassive (Travel): +1 move speed when not in combat with heroes, monsters or turrets.\nActivate: After channeling for 2.5s, teleport to allied structure, minion or Scout Cam. Grant 600 barrier to the target while channeling. Gain a burst of move speed upon arrival (180s cooldown).',
+    tip:
+      'Tip: Lets you quickly join your team from across the map or flank unsuspecting opponents.',
     item1: 'travel-boots',
   },
-	{
+  {
     image: 'tension-bow',
     name: 'Tension Bow',
     class: 'WEAPON',
     tier: 'TIER 3',
     color: '#ED5565',
     cost: '2700',
-    description: '+450 Max Health\n+20% CDR\n+4.5 Energy Recharge\n\nBreadth: You can hold 3 additional Scout Cam(s) and obtain charges 60s faster per Scout Cam.\nDepth: Scout Cams last 60s longer and take 3 extra hit(s) to kill.\nActivate: Flare',
+    description:
+      '+450 Max Health\n+20% CDR\n+4.5 Energy Recharge\n\nBreadth: You can hold 3 additional Scout Cam(s) and obtain charges 60s faster per Scout Cam.\nDepth: Scout Cams last 60s longer and take 3 extra hit(s) to kill.\nActivate: Flare',
     tip: 'Tip: Buy this to provide maximum vision control for your team.',
     item1: 'six-sins',
     item2: 'piercing-spear',
   },
-	{
+  {
     image: 'tornado-trigger',
     name: 'Tornado Trigger',
     class: 'WEAPON',
     tier: 'TIER 3',
     color: '#ED5565',
     cost: '2800',
-    description: '+40% Attack Speed\n+35% Critical Chance\n+5% Critical Damage\n\nPassive: Basic attacking grants you +10% bonus base movement speed for 1.2s.',
-    tip: 'Tip: Use this if you already have lots of weapon power but little attack speed, or if you wish to apply on-hit effects faster.',
+    description:
+      '+40% Attack Speed\n+35% Critical Chance\n+5% Critical Damage\n\nPassive: Basic attacking grants you +10% bonus base movement speed for 1.2s.',
+    tip:
+      'Tip: Use this if you already have lots of weapon power but little attack speed, or if you wish to apply on-hit effects faster.',
     item1: 'blazing-salvo',
     item2: 'lucky-strike',
   },
-	{
+  {
     image: 'travel-boots',
     name: 'Travel Boots',
     class: 'UTILITY',
     tier: 'TIER 2',
     color: '#AC92EC',
     cost: '350',
-    description: '+100 Max Health\n\nPassive: +0.3 move speed. (Does not stack with other boots.)\nPassive (Travel): +1 move speed when not in combat with heroes, monsters or turrets.\nActivate: Sprint for 2s (90s cooldown).',
+    description:
+      '+100 Max Health\n\nPassive: +0.3 move speed. (Does not stack with other boots.)\nPassive (Travel): +1 move speed when not in combat with heroes, monsters or turrets.\nActivate: Sprint for 2s (90s cooldown).',
     item1: 'sprint-boots',
   },
-	{
+  {
     image: 'tyrants-monocle',
-    name: 'Tyrant\'s Monocle',
+    name: "Tyrant's Monocle",
     class: 'WEAPON',
     tier: 'TIER 3',
     color: '#ED5565',
     cost: '2900',
     description: '+35% Critical Chance\n+15% Critical Damage\n+50 Weapon Power',
-    tip: 'Tip: Most effective when combined with more weapon power & attack speed.',
+    tip:
+      'Tip: Most effective when combined with more weapon power & attack speed.',
     item1: 'six-sins',
     item2: 'lucky-strike',
   },
-	{
+  {
     image: 'void-battery',
     name: 'Void Battery',
     class: 'CRYSTAL',
@@ -958,9 +1007,9 @@ export const itemBoxes = [
     tip: 'Tip: Energy is needed to use your abilities.',
     item1: 'energy-battery',
     item4: 'clockwork',
-    item5: 'eve-of-harvest'
+    item5: 'eve-of-harvest',
   },
-	{
+  {
     image: 'war-treads',
     name: 'War Treads',
     class: 'UTILITY',
@@ -972,7 +1021,7 @@ export const itemBoxes = [
     item1: 'travel-boots',
     item2: 'dragonheart',
   },
-	{
+  {
     image: 'warmail',
     name: 'Warmail',
     class: 'DEFENSE',
@@ -986,7 +1035,7 @@ export const itemBoxes = [
     item5: 'capacitor-plate',
     item6: 'slumbering-husk',
   },
-	{
+  {
     image: 'weapon-blade',
     name: 'Weapon Blade',
     class: 'WEAPON',
@@ -999,14 +1048,15 @@ export const itemBoxes = [
     item5: 'piercing-spear',
     item6: 'six-sins',
   },
-	{
+  {
     image: 'weapon-infusion',
     name: 'Weapon Infusion',
     class: 'CONSUMABLE',
     tier: 'TIER 1',
     color: '#CCD1D9',
     cost: '500',
-    description: 'Consume: Temporarily gain 20-40 weapon power, 15-35%% attack speed, and 10-20 armor & shield based on your level. Lasts 150s. Can only have one infusion at a time.',
+    description:
+      'Consume: Temporarily gain 20-40 weapon power, 15-35%% attack speed, and 10-20 armor & shield based on your level. Lasts 150s. Can only have one infusion at a time.',
     tip: 'Tip: Gain a powerful temporary advantage in your basic attacks.',
   },
 ]

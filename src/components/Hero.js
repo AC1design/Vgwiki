@@ -16,7 +16,6 @@ const Hero = styled.div`
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
 @media (max-width:1024px) {
       background-size: cover;
       display: flex;
@@ -24,7 +23,6 @@ const Hero = styled.div`
       justify-content: flex-end;
       background: linear-gradient(to top, #1f1f21 1%, #1f1f21 1%,rgba(25, 26, 27, 0) 100%) , url(${props => props.bgtablet}) no-repeat center top;
     }
-
     @media (max-width:480px) {
           background-size: cover;
           display: flex;
@@ -32,8 +30,8 @@ const Hero = styled.div`
           justify-content: flex-end;
           background:linear-gradient(to top, rgba(31, 31, 33, 1) 2%, rgba(31, 31, 33, 1) 5%,rgba(25, 26, 27, 0) 100%)  , url(${props => props.bgmobile}) no-repeat center top;
         }
-        @media only screen and (min-device-width : 319px) 
-and (max-device-width : 1024px) 
+        @media only screen and (min-device-width : 480px) 
+and (max-device-width : 812px) 
 and (orientation : landscape) {
             background: linear-gradient(to top, #1f1f21 1%, #1f1f21 1%,rgba(25, 26, 27, 0) 100%) , url(${props => props.bgdesktop}) no-repeat top center;
     height: 400px;
@@ -73,7 +71,6 @@ max-width: 500px;
     justify-content: center;
     text-align: center;
     }
-
 `
 const HeroName = styled.h1`
 font-family: "Antonio";
@@ -82,7 +79,7 @@ font-family: "Antonio";
     font-weight: 700;
     color: rgb(255, 193, 21);
     line-height: 1.2;
-
+    text-transform: uppercase;
     @media (max-width:480px){
         font-family: Antonio;
     margin: 0;
@@ -91,6 +88,15 @@ font-family: "Antonio";
     line-height: 1.2;
     }
 
+    @media only screen and (min-device-width : 480px)
+and (max-device-width : 812px)
+and (orientation : landscape) {
+            font-family: Antonio;
+    margin: 0;
+    font-size: 40px;
+    color: rgb(255, 193, 21);
+    line-height: 1.2;
+}
 `
 const Roles = styled.h2`
 font-family: sans-serif;
@@ -100,7 +106,6 @@ font-weight: 350;
     margin: 0;
     color: white;
     line-height: 1.2;
-
     @media (max-width:480px){
     font-size: 20px;
     letter-spacing: normal;
@@ -108,20 +113,34 @@ font-weight: 350;
     color: white;
     line-height: 1.2;
     }
-
-
+    @media only screen and (min-device-width : 480px)
+and (max-device-width : 812px)
+and (orientation : landscape) {
+           font-size: 20px;
+    letter-spacing: normal;
+    margin: 0;
+    color: white;
+    line-height: 1.2;
+}
 `
 const Descritpion = styled.p`
 font-size: 16px;
     color: rgba(255, 255, 255, 0.808);
     line-height: 1.5;
-
     @media (max-width:480px){
         font-size: 12px;
     color: rgba(255, 255, 255, 0.808);
     line-height: 1.5;
     width: 290px;
     }
+    @media only screen and (min-device-width : 480px)
+and (max-device-width : 812px)
+and (orientation : landscape) {
+           font-size: 12px;
+    color: rgba(255, 255, 255, 0.808);
+    line-height: 1.5;
+    width: 290px;
+}
 `
 
 const Button = styled.button`
@@ -148,6 +167,13 @@ font-size:14px;
     color: black;
     box-shadow: 0 10px 20px rgba(0,0,0, 0.25);}
     }
+    @media only screen and (min-device-width : 480px)
+and (max-device-width : 812px)
+and (orientation : landscape) {
+           font-size: 12px;
+           width: 110px;
+      height: 35px;
+}
 `
 
 class Heroes extends React.Component {

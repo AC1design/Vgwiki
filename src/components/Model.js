@@ -15,6 +15,7 @@ const Model = styled.img`
 vertical-align: middle;
 height: 45vh;
     margin-top: 30px;
+    -webkit-user-drag: none;
     @media (max-width:480px) {
       vertical-align: middle;
     }

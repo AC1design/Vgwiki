@@ -22,7 +22,8 @@
 
 .Skinbox img {
 	position:absolute;
-    z-index: -1;   
+    z-index: -1;
+    -webkit-user-drag: none;
 }
 
 .Skinbox h3 {
@@ -80,4 +81,11 @@
 }
 }
 
-::-webkit-scrollbar { display: none; }
+  ::-webkit-scrollbar{
+        height: 10px;
+        width: 0px;
+    }
+    ::-webkit-scrollbar-thumb:horizontal{
+        background: rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+    }
