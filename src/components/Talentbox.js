@@ -6,7 +6,10 @@ import 'animate.css/animate.min.css'
 
 const Talentbox = props => (
   <ScrollAnimation className="Talentbox" animateIn="fadeInRight" animateOnce>
-    <img src={props.image} alt={props.title} />
+    <img
+      src={require(`./../images/Talents/${props.image}`)}
+      alt={props.title}
+    />
     <h1>{props.title}</h1>
     <H2 color={props.color}> {props.subtitle} </H2>
     {props.text.map((text, index) => (

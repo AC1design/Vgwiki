@@ -56,7 +56,17 @@ class Skillbox extends React.Component {
                 controls="true"
               >
                 <ControlBar disableCompletely={true} />
-                <source src={this.props.video} />
+                <source
+                  src={
+                    this.props.video
+                      ? this.props.video.startsWith('https')
+                        ? this.props.video
+                        : require(`./../images/SkillVideos/${
+                            this.props.video
+                          }.mp4`)
+                      : null
+                  }
+                />
               </Player>
             )}
             <Table striped bordered hover className="Tableclass">
@@ -115,7 +125,10 @@ class Skillbox extends React.Component {
           </Modal>
         )}
         <div className="Skillbox" onClick={this.handleOpenModal} tabIndex="0">
-          <img src={this.props.image} alt={this.props.title} />
+          <img
+            src={require(`./../images/Ability/${this.props.image}.png`)}
+            alt={this.props.title}
+          />
           <h1>{this.props.title}</h1>
           <h2>{this.props.subtitle}</h2>
           <p>{this.props.text.join('\n')}</p>
