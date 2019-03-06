@@ -79,6 +79,7 @@ font-family: "Antonio";
     font-weight: 700;
     color: rgb(255, 193, 21);
     line-height: 1.2;
+    text-transform: uppercase;
     @media (max-width:480px){
         font-family: Antonio;
     margin: 0;

@@ -33,13 +33,16 @@ const Pingsgroup = styled.div`
 const PingImg = styled.img`
 height: 35px;
 filter: drop-shadow(0px 2px 3px #3A3A33);
+-webkit-user-drag: none;
 &:hover{
      transform: scale(2, 2);
     transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index:1;
 }
 &:focus{
      transform: scale(2, 2);
     transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index:1;
 }
 `
 

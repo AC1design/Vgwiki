@@ -86,8 +86,7 @@ a {
         display: flex;
     -webkit-font-smoothing: antialiased;
     flex-direction: column;
-    margin-left: 16px;
-    width: 100%;
+    margin: 0 auto;
         text-align: center;
         justify-content: center;
   }
@@ -109,6 +108,10 @@ a {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.808);
     -webkit-font-smoothing: antialiased;
+    background: rgba(255, 255, 255, 0.274);
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
   }
 
   .Hero svg {
@@ -168,6 +171,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 
 @media (min-width: 1367px) {
   .Title{

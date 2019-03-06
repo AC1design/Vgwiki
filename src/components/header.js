@@ -122,7 +122,7 @@ class Header extends React.Component {
                 <Link to={`/Hero/?${text}`}>
                   <StyledListItem button>
                     <img
-                      style={{ overflow: 'visible' }}
+                      style={{ overflow: 'visible'}}
                       src={`https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/${text.toLowerCase()}.png`}
                       alt={text}
                     />

@@ -27,7 +27,7 @@
     width: 50px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     margin-bottom: 5px;
-    
+    -webkit-user-drag: none;
 }
 
 .Itembox h1 {
@@ -120,6 +120,7 @@
     height: 50px;
     text-align:center;
     margin-top: 15px;
+    -webkit-user-drag: none;
 }
 
 .Info{
@@ -221,24 +222,12 @@
 }
   }
   
-  @media (max-width: 720px) {
-    .ItemboxGroup {
-    margin: 20px 16px 40px;
-    display: grid;
-    grid-template-columns: repeat(82, 195px);
-    grid-column-gap: 20px;
-    justify-content: left;
-    justify-items: stretch;
-    overflow: visible;
-}
 
-.ItemboxGroupScroll{
-    overflow-x: scroll;
-    overflow-y: visible;
-    width:100%;
-    background: transparent;
-    padding: 20px 0px -10px;
-}
-}
-
- 
+  ::-webkit-scrollbar{
+        height: 10px;
+        width: 0px;
+    }
+    ::-webkit-scrollbar-thumb:horizontal{
+        background: rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+    }

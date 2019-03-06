@@ -37,6 +37,38 @@ export default {
 			text: [
 				"Ringo fires a trick shot at his target's heel (or whatever lower extremity exists), slowing the target and dealing damage.",
 			],
+			stats: [
+				{
+					name: 'Cooldown',
+					amount: ['9s', '8.5s', '8s', '7.5s', '7s'],
+					cr: '',
+					wr: '',
+				},
+				{
+					name: 'Energy Cost',
+					amount: ['40', '50', '60', '70', '100'],
+					cr: '',
+					wr: '',
+				},
+				{
+					name: 'Damage',
+					amount: ['80', '125', '170', '215', '350'],
+					cr: '125%',
+					wr: '',
+				},
+				{
+					name: 'Slow',
+					amount: ['30%', '35%', '40%', '45%', '50%'],
+					cr: '',
+					wr: '',
+				},
+				{
+					name: 'Slow Duration',
+					amount: ['1.5s', '1.5s', '1.5s', '1.5s', '2.5s'],
+					cr: '',
+					wr: '',
+				},
+			],
 		},
 		{
 			video:
@@ -48,6 +80,44 @@ export default {
 				'Ringo slings bullets at his target in a mad flurry, dramatically increasing his attack speed and move speed for a duration.',
 				"• Activating this ability resets Ringo's basic-attack cooldown.",
 			],
+			stats: [
+				{
+					name: 'Cooldown',
+					amount: ['11s', '11s', '11s', '11s', '11s'],
+					cr: '',
+					wr: '',
+				},
+				{
+					name: 'Energy Cost',
+					amount: ['30', '35', '40', '45', '50'],
+					cr: '',
+					wr: '',
+				},
+				{
+					name: 'Bonus Damage',
+					amount: ['5', '5', '5', '5', '5'],
+					cr: '80%',
+					wr: '',
+				},
+				{
+					name: 'Duration',
+					amount: ['6s', '6s', '6s', '6s', '6s'],
+					cr: '15%',
+					wr: '',
+				},
+				{
+					name: 'Attack Speed',
+					amount: ['30%', '40%', '50%', '60%', '80%'],
+					cr: '',
+					wr: '',
+				},
+				{
+					name: 'Speed Boost',
+					amount: ['0.75', '0.8', '0.85', '0.9', '1'],
+					cr: '',
+					wr: '',
+				},
+			],
 		},
 		{
 			video:
@@ -58,6 +128,32 @@ export default {
 			text: [
 				'Ringo takes a long swig from his gourd, then spits out a scorching fireball at his target. The explosion deals splash damage on impact and sets the target on fire, burning it & nearby enemies for 7s.',
 				'• The fire pierces all shield on impact.',
+			],
+			stats: [
+				{
+					name: 'Cooldown',
+					amount: ['100s', '85s', '70s'],
+					cr: '',
+					wr: '',
+				},
+				{
+					name: 'Energy Cost',
+					amount: ['100', '115', '130'],
+					cr: '',
+					wr: '',
+				},
+				{
+					name: 'Damage',
+					amount: ['250', '365', '480'],
+					cr: '75%',
+					wr: '',
+				},
+				{
+					name: 'Burn Damage',
+					amount: ['30', '50', '70'],
+					cr: '20%',
+					wr: '',
+				},
 			],
 		},
 	],
