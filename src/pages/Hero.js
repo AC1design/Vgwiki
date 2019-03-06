@@ -18,7 +18,6 @@ export default props => {
       <div style={{ height: '100%' }}>
         <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
           <Heroes
-            bgdesktop={require(`./../images/BG/${hero.name}_Desktop.jpg`)}
             bgtablet={require(`./../images/BG/${hero.name}_Tablet.jpg`)}
             bgmobile={require(`./../images/BG/${hero.name}_Mobile.jpg`)}
             heroname={hero.name}
