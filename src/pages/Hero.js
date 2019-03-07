@@ -10,15 +10,15 @@ import Page from 'react-page-loading'
 import { heroCards } from '../constants/heroes'
 
 export default props => {
-  console.log(
-    props.location.href,
-    props.location.href
-      ? heroCards.find(h => h.name === props.location.href.substring(28))
-      : 'no href'
-  )
   const hero = props.location.href
-    ? heroCards.find(h => h.name === props.location.href.substring(28))
-    : heroCards[0]
+    ? heroCards.find(
+        h =>
+          h.name ===
+          props.location.href.substring(
+            props.location.href.indexOf('/Hero/?') + 7
+          )
+      )
+    : null
   return (
     <Layout>
       <div style={{ height: '100%' }}>
@@ -92,7 +92,7 @@ export default props => {
                   title={talent.name}
                   image={require(`./../images/Talents/${hero.name}_${
                     talent.type
-                    }.png`)}
+                  }.png`)}
                   subtitle={talent.type.toUpperCase()}
                   color={talent.color}
                   text={talent.text}
