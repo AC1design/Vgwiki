@@ -30,9 +30,9 @@ const Model = styled.img`
 `
 
 const Models = props => (
-  <Bgmodel bgmodel={props.bgmodel}>
+  <Bgmodel bgmodel={require(`./../images/BG/${props.heroname}blurred.jpg`)}>
     <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
-      <Model src={props.model}></Model>
+      <Model src={require(`./../images/models/${props.heroname}.jpg`)} />
     </ScrollAnimation>
   </Bgmodel>
 )

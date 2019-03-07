@@ -24,9 +24,6 @@ export default props => {
       <div style={{ height: '100%' }}>
         <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
           <Heroes
-            bgdesktop={require(`./../images/BG/${hero.name}_Desktop.jpg`)}
-            bgtablet={require(`./../images/BG/${hero.name}_Tablet.jpg`)}
-            bgmobile={require(`./../images/BG/${hero.name}_Mobile.jpg`)}
             heroname={hero.name}
             role={hero.type.join(', ')}
             description={hero.description}
@@ -52,10 +49,7 @@ export default props => {
             <h1>3D MODEL</h1>
             <div className="line" />
           </div>
-          <Models
-            bgmodel={require(`./../images/BG/${hero.name}blurred.jpg`)}
-            model={require(`./../images/models/${hero.name}.png`)}
-          />
+          <Models heroname={hero.name} />
           <div className="Title">
             <h1>SKILLS (CLICK FOR MORE)</h1>
             <div className="line" />
@@ -64,16 +58,10 @@ export default props => {
             <div className="SkillboxGroup">
               {hero.skills.map((skill, index) => (
                 <Skillbox
-                  video={
-                    skill.video
-                      ? skill.video.startsWith('https')
-                        ? skill.video
-                        : require(`./../images/SkillVideos/${skill.video}.mp4`)
-                      : null
-                  }
+                  video={skill.video}
                   title={skill.name}
                   subtitle={skill.type}
-                  image={require(`./../images/Ability/${skill.image}.png`)}
+                  image={skill.image}
                   text={skill.text}
                   stats={skill.stats || []}
                   key={index}
@@ -90,9 +78,7 @@ export default props => {
               {hero.talents.map((talent, index) => (
                 <Talentbox
                   title={talent.name}
-                  image={require(`./../images/Talents/${hero.name}_${
-                    talent.type
-                  }.png`)}
+                  image={`./../images/Talents/${hero.name}_${talent.type}.png`}
                   subtitle={talent.type.toUpperCase()}
                   color={talent.color}
                   text={talent.text}
@@ -112,7 +98,7 @@ export default props => {
                   color={skin.color}
                   title={skin.name}
                   text={skin.type}
-                  image={require(`./../images/Skins/${skin.image}.png`)}
+                  image={skin.image}
                   key={index}
                 />
               ))}
