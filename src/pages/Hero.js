@@ -8,10 +8,13 @@ import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { heroCards } from '../constants/heroes'
+
 export default props => {
   console.log(
     props.location.href,
-    heroCards.find(h => h.name === props.location.href.substring(28))
+    props.location.href
+      ? heroCards.find(h => h.name === props.location.href.substring(28))
+      : 'no href'
   )
   const hero = props.location.href
     ? heroCards.find(h => h.name === props.location.href.substring(28))
