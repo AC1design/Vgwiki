@@ -16,50 +16,53 @@ export default function({ data }) {
 
 export const postQuery = graphql`
   query HeroDataByPath($path: String!) {
-    allJavascriptFrontmatter(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        error
-				name
-				path
-        type
-        role
-        description
-        spotlight
-        stats {
-          name
-          value
-          color
-        }
-        model {
-          image
-          tmodel
-        }
-        skills {
-          video
-          name
-          type
-          image
-          text
-          stats {
+    allJavascriptFrontmatter(filter: { frontmatter: { path: { eq: $path } } }) {
+      edges {
+        node {
+          frontmatter {
+            error
             name
-            amount
-            cr
-            wr
+            path
+            type
+            role
+            description
+            spotlight
+            stats {
+              name
+              value
+              color
+            }
+            model {
+              image
+              tmodel
+            }
+            skills {
+              video
+              name
+              type
+              image
+              text
+              stats {
+                name
+                amount
+                cr
+                wr
+              }
+            }
+            talents {
+              name
+              type
+              color
+              text
+              image
+            }
+            skins {
+              name
+              color
+              type
+              image
+            }
           }
-        }
-        talents {
-          name
-          type
-          color
-          text
-          image
-        }
-        skins {
-          name
-          color
-          type
-          image
         }
       }
     }
