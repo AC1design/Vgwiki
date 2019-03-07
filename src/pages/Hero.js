@@ -21,7 +21,7 @@ export default props => {
           )
       )
     : null
-
+  const heroAssets = hero ? Assets[hero.name] : null;
   return (
     <Layout>
       <div style={{ height: '100%' }}>
