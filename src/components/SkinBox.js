@@ -7,10 +7,7 @@ import 'animate.css/animate.min.css'
 const Skinbox = props => (
   <ScrollAnimation animateIn="fadeInRight" animateOnce>
     <div className="Skinbox">
-      <img
-        src={require(`./../images/Skins/${props.image}.png`)}
-        alt={props.title}
-      />
+      <img src={props.image} alt={props.title} />
       <h3>{props.title} </h3>
       <P color={props.color}> {props.text} </P>
     </div>

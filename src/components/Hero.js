@@ -205,21 +205,9 @@ class Heroes extends React.Component {
   render() {
     return (
       <ScrollAnimation animateIn="fadeIn" animateOnce duration={3}>
-        <Modal
-          channel="youtube"
-          isOpen={this.state.isOpen}
-          videoId={this.props.spotlight}
-          onClose={() => this.setState({ isOpen: false })}
-          onRequestClose={this.handleCloseModal}
-          shouldCloseOnOverlayClick={true}
-        />
-        <Hero
-          bgdesktop={require(`./../images/BG/${
-            this.props.heroname
-          }_Desktop.jpg`)}
-          bgtablet={require(`./../images/BG/${this.props.heroname}_Tablet.jpg`)}
-          bgmobile={require(`./../images/BG/${this.props.heroname}_Mobile.jpg`)}
-        >
+        <Modal channel='youtube' isOpen={this.state.isOpen} videoId={this.props.spotlight} onClose={() => this.setState({ isOpen: false })} onRequestClose={this.handleCloseModal} shouldCloseOnOverlayClick={true}>
+        </Modal>
+        <Hero bgdesktop={this.props.bgdesktop} bgtablet={this.props.bgtablet} bgmobile={this.props.bgmobile}>
           <HeroGroup>
             <HeroName>{this.props.heroname}</HeroName>
             <Roles>{this.props.role}</Roles>
@@ -227,8 +215,8 @@ class Heroes extends React.Component {
             <Button onClick={this.openModal}>SPOTLIGHT</Button>
           </HeroGroup>
         </Hero>
-      </ScrollAnimation>
-    )
+      </ScrollAnimation >
+    );
   }
 }
 
