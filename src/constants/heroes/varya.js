@@ -1,4 +1,4 @@
-export default {
+export const frontmatter = {
   name: 'Varya',
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
@@ -167,7 +167,7 @@ export default {
       color: '#7A02EA',
       text: [
         'Arc Recursion (B) grants additional barrier and charges up quicker.',
-        '• Barrier 130% (+15%)'
+        '• Barrier 130% (+15%)',
       ],
     },
     {

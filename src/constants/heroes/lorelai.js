@@ -1,4 +1,4 @@
-export default {
+export const frontmatter = {
   name: 'Lorelai',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],

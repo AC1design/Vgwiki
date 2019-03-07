@@ -18,6 +18,8 @@
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.8",
     "gatsby-plugin-styled-components": "^3.0.6",
+    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-javascript-frontmatter": "^2.0.8",
     "hoist-non-react-statics": "^3.3.0",
     "react": "^16.8.4",
     "react-adsense": "0.0.6",

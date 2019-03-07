@@ -1,4 +1,4 @@
-export default {
+export const frontmatter = {
   name: 'Petal',
   type: ['JUNGLE', 'SNIPER'],
   role: ['JUNGLE'],
