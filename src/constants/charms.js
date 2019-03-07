@@ -6,4 +6,6 @@ export const charms = [
   { name: 'Gold Poop', image: 'Poop_Gold' },
   { name: 'Happy Angel', image: 'Source_Angel_Happy' },
   { name: 'Mouse', image: 'PC_Mouse' },
+  { name: 'Heart Eyes', image: 'Heart_Eyes' },
+  { name: 'Pig', image: 'Pig' },
 ]

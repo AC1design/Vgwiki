@@ -12,9 +12,16 @@ import Assets from '../constants/assets'
 
 export default props => {
   const hero = props.location.href
-    ? heroCards.find(h => h.name === props.location.href.substring(props.location.href.indexOf('/Hero/?') + 7))
-    : heroCards[0]
-  const heroAssets = Assets[hero.name]
+
+    ? heroCards.find(
+        h =>
+          h.name ===
+          props.location.href.substring(
+            props.location.href.indexOf('/Hero/?') + 7
+          )
+      )
+    : null
+
   return (
     <Layout>
       <div style={{ height: '100%' }}>
