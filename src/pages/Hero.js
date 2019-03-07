@@ -13,32 +13,21 @@ export default props => {
   const hero = props.location.href
     ? heroCards.find(h => h.name === props.location.href.substring(28))
     : heroCards[0]
+  let path = `${hero.name}`
   return (
     <Layout>
       <div style={{ height: '100%' }}>
         <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
-          <Heroes
-            heroname={hero.name}
-            role={hero.type.join(', ')}
-            description={hero.description}
-            spotlight={hero.spotlight}
-          />
-          <div className="Title">
-            <h1>STATS (LEVEL 1-12)</h1>
-            <div className="line" />
-          </div>
-          <div className="StatboxGroupScroll">
-            <div className="StatboxGroup">
-              {hero.stats.map((stat, index) => (
-                <Statbox
-                  title={stat.name}
-                  value={stat.value}
-                  color={stat.color}
-                  key={index}
-                />
-              ))}
-            </div>
-          </div>
+          <li key={hero.name}>
+            <Heroes
+              bgdesktop={require(`./../images/BG/` + path + `_Desktop.jpg`)}
+              bgtablet={require(`./../images/BG/` + path + `_Desktop.jpg`)}
+              bgmobile={require(`./../images/BG/` + path + `_Desktop.jpg`)}
+              role={hero.type.join(', ')}
+              description={hero.description}
+              spotlight={hero.spotlight}
+            />
+          </li>
           <div className="Title">
             <h1>3D MODEL</h1>
             <div className="line" />
