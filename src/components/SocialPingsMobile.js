@@ -11,7 +11,7 @@ const SocialPings = props => (
     <div className="PingboxGroup">
         {pings.map((ping, index) => (
             <Pings
-                bg={require(`./../images/Ping/${ping.id}.png`)}
+                bg={require(`./../images/Ping/${ping.id}.jpg`)}
                 namepack={ping.name}
                 ping1={require(`./../images/Ping/${ping.id}-ThumbsUp-1.png`)}
                 ping2={require(`./../images/Ping/${ping.id}-Happy-1.png`)}

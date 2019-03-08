@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Page from 'react-page-loading'
 
 const Pingsbox = styled.div`
 width: 300px;

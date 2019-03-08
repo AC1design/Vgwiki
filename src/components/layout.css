@@ -240,9 +240,6 @@ overflow: visible;
     overflow: hidden;
   }
 
-  .Hero {
-    height:600px;
-  }
 }
 
 .Listitem{
@@ -262,29 +259,18 @@ overflow: visible;
     font-size: 30px;
   }
    .HeroContainer {
-    height:550px;
+    height:600px;
   }
 
   .Img{
-  height:550px;
+  height:600px;
 }
 
 .gradient{
-  height: 550px;
+  height: 600px;
 }
 }
 
-@media(max-width:375px){
-   .Hero {
-    height:400px;
-  }
-  .Img{
-  height:400px;
-}
-.gradient{
-  height: 400px;
-}
-}
 
 /*modal queries*/
 

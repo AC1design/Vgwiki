@@ -17,7 +17,7 @@ const IndexPage = (props) => (
     
     <meta name="theme-color" content="#1f1f21" />
     <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
-      <MediaQuery query="(min-width: 412px)">
+      <MediaQuery query="(min-width: 721px)">
         <div className='Hero'>
         <div className='HeroContainer'>
           <ImgHero className='Img'
@@ -31,7 +31,7 @@ const IndexPage = (props) => (
         </div>
         </div>
       </MediaQuery>
-      <MediaQuery query="(max-width: 411px)">
+      <MediaQuery query="(max-width: 720px)">
         <div className='Hero'>
           <div className='HeroContainer'>
             <ImgHero className='Img'
@@ -92,6 +92,13 @@ export default IndexPage
 export const pageQuery = graphql`
 {
   imageOne: file(relativePath: { eq: "SanFeng_Desktop.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 2560) {
+        ...GatsbyImageSharpFluid_tracedSVG
+      }
+    }
+  }
+  imageTwo: file(relativePath: { eq: "SanFeng_Mobile.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 2560) {
         ...GatsbyImageSharpFluid_tracedSVG
