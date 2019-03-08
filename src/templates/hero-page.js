@@ -73,7 +73,8 @@ export default function({ data }) {
               {hero.talents.map((talent, index) => (
                 <Talentbox
                   title={talent.name}
-                  image={`./../images/Talents/${hero.name}_${talent.type}.png`}
+                  heroname={hero.name}
+                  type={talent.type}
                   subtitle={talent.type.toUpperCase()}
                   color={talent.color}
                   text={talent.text}
