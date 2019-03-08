@@ -54,6 +54,7 @@ class Skillbox extends React.Component {
                 isFullscreen="false"
                 loop
                 controls="true"
+                muted
               >
                 <ControlBar disableCompletely={true} />
                 <source

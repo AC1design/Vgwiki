@@ -50,8 +50,10 @@ const IndexPage = (props) => (
         <div className="mobile">
           <GridList/>
           <AdComponent/>
-          <ItemsGridList/>
+          <ItemsGridList />
+          <AdComponent />
           <Charms />
+          <AdComponent />
           <SocialPingsMobile/>
         </div>
       </MediaQuery>

@@ -25,7 +25,7 @@ export const frontmatter = {
       image: 'Samuel-P',
       text: [
         'Every 6s, Samuels next basic attack fires a bolt of dark power that deals bonus crystal damage and draws health & energy back to Samuel.',
-        '• Crystal Damage: 50-60 (level 1-12).',
+        '• Crystal Damage: 50-160 (level 1-12).',
         '• Healing: 20-200 (level 1-12).',
         '• Recharge: 30-200 (level 1-12) energy.',
         '• The restorative powers are only 25% as effective against non-heroes.',
@@ -38,7 +38,39 @@ export const frontmatter = {
       text: [
         'Samuel fires two bolts from his wands at a target location, impacting the first enemy hit. Samuel can move between the shots.',
         'If Samuel is standing inside the energy field from Drifting Dark, these bolts move faster, travel farther and deal additional area damage. In addition, the cooldown is significantly reduced.',
-        '• Empowered shots deal 50% less damage to minions.',
+        '• Empowered shots deal less damage to minions.',
+      ],
+      stats: [
+        {
+          name: 'Cooldown',
+          amount: ['4s', '4s', '4s', '4s', '4s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['40', '45', '50', '55', '60'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['60', '90', '120', '150', '210'],
+          cr: '100%',
+          wr: '',
+        },
+        {
+          name: 'Empowered Damage',
+          amount: ['75', '105', '135', '165', '225'],
+          cr: '110%',
+          wr: '',
+        },
+        {
+          name: 'Range',
+          amount: ['10', '10', '10', '10', '10'],
+          cr: '',
+          wr: '',
+        },
       ],
     },
     {
@@ -50,6 +82,44 @@ export const frontmatter = {
         '• The field will disappear if Samuel moves more than 16 meters away from it.',
         '• Deals 50% less damage to minions.',
       ],
+      stats: [
+        {
+          name: 'Cooldown',
+          amount: ['26s', '26s', '26s', '26s', '26s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['120', '160', '200', '240', '280'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Range',
+          amount: ['14', '18', '22', '26', '30'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage/sec',
+          amount: ['40', '55', '70', '85', '100'],
+          cr: '10%',
+          wr: '',
+        },
+        {
+          name: 'Heal/Sec Per Target',
+          amount: ['2', '4', '6', '8', '10'],
+          cr: '10%',
+          wr: '',
+        },
+        {
+          name: 'Heal/Sec Per Minion',
+          amount: ['1', '2', '3', '4', '5'],
+          cr: '10%',
+          wr: '',
+        },
+      ],
     },
     {
       name: 'OBLIVION',
@@ -58,6 +128,32 @@ export const frontmatter = {
       text: [
         'After a short delay, Samuel summons a phantasm at the target location, which puts nearby enemies to sleep. Enemies inflicted are unable to move or act.',
         '• Dealing direct damage to a sleeping enemy with an attack or ability will wake them up.',
+      ],
+      stats: [
+        {
+          name: 'Cooldown',
+          amount: ['90s', '75s', '60s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['100', '130', '160'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['200', '325', '450'],
+          cr: '100%',
+          wr: '',
+        },
+        {
+          name: 'Duration',
+          amount: ['2s', '2.5s', '3s'],
+          cr: '',
+          wr: '',
+        },
       ],
     },
   ],
@@ -80,7 +176,7 @@ export const frontmatter = {
       text: [
         'Enemies put to sleep by Oblivion (Ult) will not wake up when taking damage.',
         '• Cooldown 70% (-2.5%)',
-        '• Sleep Duration 2s (+0.1s)',
+        '• Sleep Duration 65% (+5%)',
       ],
       image: 'Samuel_Epic',
     },
@@ -90,9 +186,9 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'Drifting Dark (B) moves slower and slows enemies caught within.',
-        '• Heal 150%',
-        '• Damage 150%',
-        '• Duration 6s',
+        '• Heal 150% (+25%)',
+        '• Damage 150% (+25%)',
+        '• Duration 6s (+1s)',
         '• Slow Strength 50%',
       ],
       image: 'Samuel_Legendary',

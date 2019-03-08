@@ -27,7 +27,7 @@ export const frontmatter = {
       image: 'Saw-P',
       text: [
         'Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed.',
-        '• Each basic attack grants SAW + 15 % attack speed.',
+        '• Each basic attack grants SAW +15 % attack speed.',
         "• Each basic attack decreases SAW's move speed by -0.12.",
         '• Max 12 stacks.',
         '• After 3.5s without basic attacking, SAW rapidly spins down.',
@@ -42,7 +42,39 @@ export const frontmatter = {
       text: [
         "SAW sprints and switches to a melee combat knife. If SAW attacks someone, he will deal bonus damage based on the target's missing health & roll backwards.",
         '• Activating this ability clears all stacks of Spin Up.',
-        '• Crystal will boost the speed, up to a maximum of + 3.2.',
+        '• Crystal will boost the speed, up to a maximum of +3.2.',
+      ],
+      stats: [
+        {
+          name: 'Cooldown',
+          amount: ['13s', '12s', '11s', '10s', '9s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['65', '65', '65', '65', '65'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['60', '140', '220', '300', '380'],
+          cr: '280%',
+          wr: '100%',
+        },
+        {
+          name: 'Missing Health %',
+          amount: ['15%', '20%', '25%', '30%', '40%'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Speed Boost',
+          amount: ['2.5', '2.5', '2.5', '2.5', '2.5'],
+          cr: '',
+          wr: '',
+        },
       ],
     },
     {
@@ -55,6 +87,38 @@ export const frontmatter = {
         'SAW fires a hurricane of bullets in a set direction for 2 seconds, damaging and slowing enemies in its path.',
         'Finishing this ability grants all stacks of Spin Up and resets the cooldown of Roadie Run.Deal reduced damage to turrets if out of range.',
       ],
+      stats: [
+        {
+          name: 'Cooldown',
+          amount: ['15s', '15s', '15s', '15s', '15s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['40', '50', '60', '70', '80'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['120', '170', '220', '270', '370'],
+          cr: '220%',
+          wr: '',
+        },
+        {
+          name: 'Slow Duration ',
+          amount: ['0.4s', '0.4s', '0.4s', '0.4s', '0.4s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Slow',
+          amount: ['45%', '45%', '45%', '45%', '45%'],
+          cr: '',
+          wr: '',
+        },
+      ],
     },
     {
       video:
@@ -63,8 +127,39 @@ export const frontmatter = {
       type: 'ULTIMATE',
       image: 'Saw-C',
       text: [
-        "SAW loads explosive shells into his gun which deal additional damage based on the target's missing health. The shells also deal splash damage based on the amount of crystal power SAW has.",
-        '• This explosive ammo fires 36 % slower and grants 2 stacks of Spin Up.',
+        "SAW fires an explosive shell, dealing damage to nearby enemies when it explodes.",
+      ],
+      stats: [
+        {
+          name: 'Charge Time',
+          amount: ['25s', '20s', '15s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['50', '55', '60'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['200', '275', '350'],
+          cr: '140%',
+          wr: '100%',
+        },
+        {
+          name: 'Charges',
+          amount: ['3', '4', '5'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Cooldown',
+          amount: ['1s', '1s', '1s'],
+          cr: '',
+          wr: '',
+        },
       ],
     },
   ],

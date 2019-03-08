@@ -8,6 +8,7 @@ import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
+import AdComponent from '../components/ad';
 
 export default function({ data }) {
   const hero = data.allJavascriptFrontmatter.edges.length
@@ -45,6 +46,7 @@ export default function({ data }) {
             <div className="line" />
           </div>
           <Models heroname={hero.name} />
+          <AdComponent></AdComponent>
           <div className="Title">
             <h1>SKILLS (CLICK FOR MORE)</h1>
             <div className="line" />
@@ -64,6 +66,7 @@ export default function({ data }) {
               ))}
             </div>
           </div>
+          <AdComponent></AdComponent>
           <div className="Title">
             <h1>TALENTS (LVL 1 + % PER LVL)</h1>
             <div className="line" />
@@ -83,6 +86,7 @@ export default function({ data }) {
               ))}
             </div>
           </div>
+          <AdComponent></AdComponent>
           <div className="Title">
             {hero.skins.length ? <h1>SKINS</h1> : null}
             <div className="line" />

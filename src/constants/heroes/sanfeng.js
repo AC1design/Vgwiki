@@ -4,7 +4,7 @@ export const frontmatter = {
   role: ['JUNGLE'],
   path: '/SanFeng',
   description: 'Team healer and damage enhancer with a large area stun.',
-  spotlight: 'TQx1TVGANF4',
+  spotlight: 'Pv2r7OiUKJs',
   stats: [
     { name: 'HEALTH', value: '821 - 2176', color: '#4eec8b' },
     { name: 'HEALTH REGEN', value: '-', color: '#4eec8b' },
@@ -31,7 +31,7 @@ export const frontmatter = {
     },
 
     {
-      video: '',
+      video: 'SanFeng-A',
       name: "TIGER'S BRIDGE",
       type: 'A ABILITY',
       text: [
@@ -67,7 +67,7 @@ export const frontmatter = {
       ],
     },
     {
-      video: '',
+      video: 'SanFeng-B',
       name: 'ADIVINE FIST',
       type: 'B ABILITY',
       image: 'SanFeng-B',
@@ -97,7 +97,7 @@ export const frontmatter = {
       ],
     },
     {
-      video: '',
+      video: 'SanFeng-C',
       name: "MASTER'S LESSON",
       type: 'ULTIMATE',
       image: 'SanFeng-C',
