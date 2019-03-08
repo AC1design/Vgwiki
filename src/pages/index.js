@@ -9,17 +9,42 @@ import GridList from '../components/GridList'
 import StickyFooter from 'react-sticky-footer'
 import ItemsGridList from '../components/ItemsGridList'
 import SocialPingsMobile from '../components/SocialPingsMobile'
+import { Link, graphql } from 'gatsby'
+import ImgHero from 'gatsby-image'
 
-const IndexPage = () => (
+const IndexPage = (props) => (
   <Layout>
+    
     <meta name="theme-color" content="#1f1f21" />
     <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
-      <div className="Hero">
+      <MediaQuery query="(min-width: 412px)">
+        <div className='Hero'>
+        <div className='HeroContainer'>
+          <ImgHero className='Img'
+           fluid={props.data.imageOne.childImageSharp.fluid}
+          ></ImgHero>
+          <div className='gradient' />
+        </div>
         <div className="HeroGroup">
           <h1>VAINGLORY WIKI</h1>
           <p>UPDATE 4.0</p>
         </div>
-      </div>
+        </div>
+      </MediaQuery>
+      <MediaQuery query="(max-width: 411px)">
+        <div className='Hero'>
+          <div className='HeroContainer'>
+            <ImgHero className='Img'
+              fluid={props.data.imageTwo.childImageSharp.fluid}
+            ></ImgHero>
+            <div className='gradient' />
+          </div>
+          <div className="HeroGroup">
+            <h1>VAINGLORY WIKI</h1>
+            <p>UPDATE 4.0</p>
+          </div>
+        </div>
+      </MediaQuery>
       <Tabsind />
       <MediaQuery query="(max-width: 1366px)">
         <div className="mobile">
@@ -64,3 +89,21 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+export const pageQuery = graphql`
+{
+  imageOne: file(relativePath: { eq: "SanFeng_Desktop.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 2560) {
+        ...GatsbyImageSharpFluid_tracedSVG
+      }
+    }
+  }
+  imageTwo: file(relativePath: { eq: "SanFeng_Mobile.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 2560) {
+        ...GatsbyImageSharpFluid_tracedSVG
+      }
+    }
+  }
+}
+`

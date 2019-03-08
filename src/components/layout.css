@@ -65,30 +65,42 @@ a {
  font-weight: 600; 
 }
 
+
 /*                  DESKTOP                    */
   .Hero {
-    display:flex;
-    background-size: cover;
-    background: linear-gradient(to top, #1f1f21 1%, #1f1f21 1%,rgba(25, 26, 27, 0) 100%) , url('./../images/BG/SanFeng_Desktop.jpg') no-repeat top center; 
-    width: 100%;
-    height:750px;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
     position: relative;
-    z-index: -1;
+  text-align: center;
+  color: white;
   }
   .mobile{
     margin-top:-15vh;
 }
 
+.HeroContainer{
+  background-size: cover;
+  height:750px;
+  width: 100%;
+  z-index: -1;
+  position: relative;
+}
+.Img{
+  height:750px;
+}
+
+.gradient {
+  position: absolute;
+  height: 750px;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(0deg,#1f1f21 1%,#1f1f21 0,rgba(25,26,27,0));
+  pointer-events: none;
+}
+
   .HeroGroup{
-        display: flex;
-    -webkit-font-smoothing: antialiased;
-    flex-direction: column;
-    margin: 0 auto;
-        text-align: center;
-        justify-content: center;
+        position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
 
   .HeroGroup h1{
@@ -98,7 +110,7 @@ a {
     color: rgba(255, 255, 255, 0.808);
     line-height: 1.2;
    -webkit-font-smoothing: antialiased;
-   
+   width: 300px
   }
   
   .HeroGroup p{
@@ -143,6 +155,9 @@ a {
     justify-content: left;
     overflow: hidden;
   }
+
+
+
 .menu-hack {
     margin: -8px 0 -8px 0; /* the real magic */
     padding: 0 !important; /* removes left and right padding */
@@ -246,16 +261,29 @@ overflow: visible;
   .Hero h1{
     font-size: 30px;
   }
-   .Hero {
+   .HeroContainer {
     height:550px;
-    background: linear-gradient(to top, #1f1f21 1%, #1f1f21 1%,rgba(25, 26, 27, 0) 100%) , url('./../images/BG/SanFeng_Mobile.jpg') no-repeat top center;
   }
+
+  .Img{
+  height:550px;
 }
 
-@media(max-width:321px){
+.gradient{
+  height: 550px;
+}
+}
+
+@media(max-width:375px){
    .Hero {
     height:400px;
   }
+  .Img{
+  height:400px;
+}
+.gradient{
+  height: 400px;
+}
 }
 
 /*modal queries*/

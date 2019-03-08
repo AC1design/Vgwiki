@@ -152,7 +152,7 @@ class MobileItemsTab extends React.Component {
             style={{
               color: 'white',
               fontWeight: '900',
-              marginTop: '15px',
+              marginTop: '25px',
               padding: '0px',
               minWidth: '30px',
             }}
