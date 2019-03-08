@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Varya',
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
+  path: '/Varya',
   description:
     'Shocking valkyrie who chains massive damage across enemy teams.',
   spotlight: 'dMBPEcWHgek',

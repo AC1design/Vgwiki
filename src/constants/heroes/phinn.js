@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Phinn',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
+  path: '/Phinn',
   description:
     'Extremely tanky and can pull in enemies from across the screen.',
   spotlight: 'hu9kTiwJejc',

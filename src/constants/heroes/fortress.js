@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Fortress',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
+  path: '/Fortress',
   description: 'Agressive pack leader who swarms the enemy with great speed.',
   spotlight: 'DGEg_EsKwwY',
   stats: [

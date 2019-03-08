@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Magnus',
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
+  path: '/Magnus',
   description:
     'A powerful arcanist with a penchant for Arcane Magic decimating enemies from afar',
   spotlight: 'g9W8C8hPA2w',

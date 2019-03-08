@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Reza',
   type: ['JUNGLE', 'MAGE'],
   role: ['JUNGLE'],
+  path: '/Reza',
   description: 'A fast, devastating fire mage with a demon netherform.',
   spotlight: 'MsCucm_7QXU',
   stats: [

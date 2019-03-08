@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Lorelai',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
+  path: '/Lorelai',
   description: 'Backline support, excelling at zone control and team utility.',
   spotlight: 'VT0JBLt-QKE',
   stats: [

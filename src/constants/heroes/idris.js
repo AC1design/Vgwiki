@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Idris',
   type: ['JUNGLE', 'ASSASSIN'],
   role: ['JUNGLE'],
+  path: '/Idris',
   description: 'Nimble assassin who unlocks melee or ranged fighting styles.',
   spotlight: 'aUL7JieeYUk',
   stats: [

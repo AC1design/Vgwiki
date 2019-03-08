@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Ylva',
   type: ['JUNGLE', 'ASSASSIN'],
   role: ['JUNGLE'],
+  path: '/Ylva',
   description: 'A huntress that stalks her prey and lays traps for them.',
   spotlight: 'K6kHZW3Vq2g',
   stats: [

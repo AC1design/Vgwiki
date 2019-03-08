@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Joule',
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
+  path: '/Joule',
   description: 'Heavily armored mech rider with a powerful energy beam.',
   spotlight: 'OYcWpLN_408',
   stats: [

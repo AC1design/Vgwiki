@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'SanFeng',
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
+  path: '/SanFeng',
   description: 'Team healer and damage enhancer with a large area stun.',
   spotlight: 'TQx1TVGANF4',
   stats: [

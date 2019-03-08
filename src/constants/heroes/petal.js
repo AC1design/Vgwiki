@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Petal',
   type: ['JUNGLE', 'SNIPER'],
   role: ['JUNGLE'],
+  path: '/Petal',
   description:
     'Commands 3 pets who tear apart enemies and block incoming skillshots.',
   spotlight: '6RBEJWEcBLs',

@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Glaive',
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
+  path: '/Glaive',
   description: 'Brutal axe warrior who can knock enemies out of position.',
   spotlight: 'htECezLaZRI',
   stats: [

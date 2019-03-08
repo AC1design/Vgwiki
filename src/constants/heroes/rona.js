@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Rona',
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
+  path: '/Rona',
   description: 'Durable berserker who excels in the thick of fights.',
   spotlight: 'EYIhMwdQoug',
   stats: [

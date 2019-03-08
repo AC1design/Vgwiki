@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Grumpjaw',
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
+  path: '/Grumpjaw',
   description: 'A hungry beast who can swallow a hero whole.',
   spotlight: 'kwm2U7-P-uc',
   stats: [

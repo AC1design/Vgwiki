@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Lyra',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
+  path: '/Lyra',
   description: 'Healer and zone mage who can create teleportation portals.',
   spotlight: '5URpZoYn9a8',
   stats: [

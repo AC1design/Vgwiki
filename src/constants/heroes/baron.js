@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Baron',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/Baron',
   description: 'Rocket soldier who can nuke anywhere on the map.',
   spotlight: 'qTHw50-xTbc',
   stats: [

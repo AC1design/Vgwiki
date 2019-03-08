@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Krul',
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
+  path: '/Krul',
   description: 'The king of duels with massive lifesteal and self-healing.',
   spotlight: 'ZR8J8b44FOk',
   stats: [

@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Malene',
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
+  path: '/Malene',
   description: 'Form swapping spellcaster who has the tools for any situation.',
   spotlight: '9H2Xp_HWB8o',
   stats: [

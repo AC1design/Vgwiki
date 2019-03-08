@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Koshka',
   type: ['JUNGLE', 'ASSASSIN'],
   role: ['JUNGLE'],
+  path: '/Koshka',
   description:
     'Hit-and-run assassin who can pin down enemies with a long stun.',
   spotlight: 'r73Ezze8OLE',

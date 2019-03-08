@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Tony',
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
+  path: '/Tony',
   description: 'Dwarven brawler who taunts and pummels enemies.',
   spotlight: 'HG-_NNyu4I8',
   stats: [

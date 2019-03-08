@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Ardan',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
+  path: '/Ardan',
   description:
     'Protects allies with barriers and traps enemies inside a large cage.',
   spotlight: 'NDKx8m_pfDU',

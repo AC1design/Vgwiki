@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Blackfeather',
   type: ['LANE', 'ASSASSIN'],
   role: ['LANE'],
+  path: '/Blackfeather',
   description:
     'Evasive fighter who excels at chasing and cleaning up fragile enemies.',
   spotlight: 'd7-fyE9P7QI',

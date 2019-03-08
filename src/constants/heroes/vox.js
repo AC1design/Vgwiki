@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Vox',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/Vox',
   description: 'Durable berserker who excels in the thick of fights.',
   spotlight: '5Z2KUYPYXEw',
   stats: [

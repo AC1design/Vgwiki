@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Churnwalker',
   type: ['CAPTAIN', 'WARRIOR'],
   role: ['CAPTAIN'],
+  path: '/Churnwalker',
   description:
     'A disruptor who throws multiple skillshot hooks, chaining victims to him.',
   spotlight: 'kFb2bUxln4E',

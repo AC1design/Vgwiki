@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'SAW',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/SAW',
   description: 'Heavy machine gunner who sacrifices move speed for damage.',
   spotlight: '2nJHJGgcO3k',
   stats: [

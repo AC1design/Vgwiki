@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Kensei',
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
+  path: '/Kensei',
   description:
     'Swift swordmaster who can easily manuever through the battlefield.',
   spotlight: 't6vVHJa90vA',

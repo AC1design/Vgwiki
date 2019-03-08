@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Grace',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
+  path: '/Grace',
   description: 'A powerful paladin with a massive heal.',
   spotlight: 'fjSbPL3KaqU',
   stats: [

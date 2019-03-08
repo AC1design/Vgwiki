@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Taka',
   type: ['JUNGLE', 'ASSASSIN'],
   role: ['JUNGLE'],
+  path: '/Taka',
   description: 'Stealthy assassin who can heal while invisible.',
   spotlight: 'Oo9Mu7cRRzA',
   stats: [

@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Lance',
   type: ['CAPTAIN', 'WARRIOR'],
   role: ['CAPTAIN'],
+  path: '/Lance',
   description: 'The king of duels with massive lifesteal and self-healing.',
   spotlight: 'HTZIGNW5F7A',
   stats: [

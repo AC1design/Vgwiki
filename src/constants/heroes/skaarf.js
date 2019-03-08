@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Skaarf',
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
+  path: '/Skaarf',
   description: 'Spits long-range fireballs and incinerates entire teams.',
   spotlight: 'AlXyClywtNQ',
   stats: [

@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Ringo',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/Ringo',
   description: 'Fast-moving, fast-shooting gunslinger with an epic fireball.',
   spotlight: 'QKA4GSSrRRU',
   stats: [

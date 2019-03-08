@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Reim',
   type: ['JUNGLE', 'MAGE'],
   role: ['JUNGLE'],
+  path: '/Reim',
   description: 'Resilient ice mage who dominates close-quarter battles.',
   spotlight: 'Ur-cD6ibo00',
   stats: [

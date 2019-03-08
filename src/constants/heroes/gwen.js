@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Gwen',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/Gwen',
   description:
     'Gunslinger with powerful burst damage and ability to shake off disables.',
   spotlight: 'lwv7-7lgE9o',

@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Silvernail',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/Silvernail',
   description: 'Grizzled hunter with a powerful crossbow and tripwires.',
   spotlight: 'cC5-fdOn8C8',
   stats: [

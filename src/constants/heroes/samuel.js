@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Samuel',
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
+  path: '/Samuel',
   description: 'Dark zone-control mage who can put enemies to sleep.',
   spotlight: 'S01AKcC0TR0',
   stats: [

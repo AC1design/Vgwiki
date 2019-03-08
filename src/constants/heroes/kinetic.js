@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Kinetic',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/Kinetic',
   description: 'Nimble duelist weilding a powerful pulse cannon',
   spotlight: 'I9A1w1OIIq4',
   stats: [

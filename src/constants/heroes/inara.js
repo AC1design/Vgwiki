@@ -2,6 +2,7 @@ export const frontmatter = {
   name: 'Inara',
   type: ['JUNGLE', 'ASSASSIN'],
   role: ['JUNGLE'],
+  path: '/Inara',
   description:
     'An elusive and bursty assassin who strikes with a flurry of blades.',
   spotlight: 'rvo9GzYoJkk',

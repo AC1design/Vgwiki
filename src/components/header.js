@@ -119,10 +119,10 @@ class Header extends React.Component {
             .map(hero => hero.name)
             .map((text, index) => (
               <div className="Listitem" key={index}>
-                <Link to={`/Hero/?${text}`}>
+                <Link to={`/${text}`}>
                   <StyledListItem button>
                     <img
-                      style={{ overflow: 'visible'}}
+                      style={{ overflow: 'visible' }}
                       src={`https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/${text.toLowerCase()}.png`}
                       alt={text}
                     />
@@ -142,7 +142,10 @@ class Header extends React.Component {
         <div className="HeaderGroup">
           <SimpleDialogDemo />
           <Link to="/">
-            <img src={require('./../images/LOGOCOLORED.png')} alt="LOGOVGWIKI" />
+            <img
+              src={require('./../images/LOGOCOLORED.png')}
+              alt="LOGOVGWIKI"
+            />
           </Link>
           <StyledButton onClick={this.toggleDrawer('right', true)}>
             <SvgComponent />
