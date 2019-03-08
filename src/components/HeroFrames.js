@@ -4,7 +4,7 @@ import 'animate.css/animate.min.css'
 import { Link } from 'gatsby'
 
 const Frames = props => (
-  <Link to={`Hero/?${props.link}`} className="animated zoomIn">
+  <Link to={props.link} className="animated zoomIn">
     <div className="role">
       <img src={props.roleimg} alt={props.roleimg} />
     </div>
