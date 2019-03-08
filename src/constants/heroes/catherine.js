@@ -1,7 +1,8 @@
-export default {
+export const frontmatter = {
   name: 'Catherine',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
+  path: '/Catherine',
   description: 'Disruptive tank with lots of stuns and a powerful silence.',
   spotlight: 'i2cphmHljZM',
   stats: [

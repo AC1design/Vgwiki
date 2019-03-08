@@ -1,7 +1,8 @@
-export default {
+export const frontmatter = {
   name: 'Kestrel',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/Kestrel',
   description: 'Stealthy archer with devastating skillshots and traps.',
   spotlight: 'ClhyGmpQZhY',
   stats: [

@@ -7,18 +7,13 @@ import Heroes from '../components/Hero'
 import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
-import { heroCards } from '../constants/heroes'
+import { graphql } from 'gatsby'
 
-export default props => {
-  const hero = props.location.href
-    ? heroCards.find(
-        h =>
-          h.name ===
-          props.location.href.substring(
-            props.location.href.indexOf('/Hero/?') + 7
-          )
-      )
+export default function({ data }) {
+  const hero = data.allJavascriptFrontmatter.edges.length
+    ? data.allJavascriptFrontmatter.edges[0].node.frontmatter
     : null
+  if (!hero) return <p>No hero found</p>
   return (
     <Layout>
       <div style={{ height: '100%' }}>
@@ -78,7 +73,8 @@ export default props => {
               {hero.talents.map((talent, index) => (
                 <Talentbox
                   title={talent.name}
-                  image={`./../images/Talents/${hero.name}_${talent.type}.png`}
+                  heroname={hero.name}
+                  type={talent.type}
                   subtitle={talent.type.toUpperCase()}
                   color={talent.color}
                   text={talent.text}
@@ -109,3 +105,58 @@ export default props => {
     </Layout>
   )
 }
+
+export const postQuery = graphql`
+  query HeroDataByPath($path: String!) {
+    allJavascriptFrontmatter(filter: { frontmatter: { path: { eq: $path } } }) {
+      edges {
+        node {
+          frontmatter {
+            error
+            name
+            path
+            type
+            role
+            description
+            spotlight
+            stats {
+              name
+              value
+              color
+            }
+            model {
+              image
+              tmodel
+            }
+            skills {
+              video
+              name
+              type
+              image
+              text
+              stats {
+                name
+                amount
+                cr
+                wr
+              }
+            }
+            talents {
+              name
+              type
+              color
+              text
+              image
+            }
+            skins {
+              name
+              color
+              type
+              image
+            }
+          }
+        }
+      }
+    }
+  }
+`

@@ -1,7 +1,8 @@
-export default {
+export const frontmatter = {
   name: 'Anka',
   type: ['LANE', 'ASSASSIN'],
   role: ['LANE'],
+  path: '/Anka',
   description:
     'An elusive and bursty assassin who strikes with a flurry of blades.',
   spotlight: 'EZ0Wq-FbU-o',
