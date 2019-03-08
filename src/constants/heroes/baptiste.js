@@ -1,7 +1,8 @@
-export default {
+export const frontmatter = {
   name: 'Baptiste',
   type: ['JUNGLE', 'MAGE'],
   role: ['JUNGLE'],
+  path: '/Baptiste',
   description: 'Mid-range mage who inflicts fear on foes.',
   spotlight: '0MG8X_w4EFI',
   stats: [

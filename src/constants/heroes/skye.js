@@ -1,7 +1,8 @@
-export default {
+export const frontmatter = {
   name: 'Skye',
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
+  path: '/Skye',
   description:
     'Versatile, elusive mech pilot who can flank enemies from any angle.',
   spotlight: 'N2Ll7RmMnXs',

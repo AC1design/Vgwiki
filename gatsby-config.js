@@ -26,5 +26,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/constants/heroes/`,
+      },
+    },
+    'gatsby-transformer-javascript-frontmatter',
   ],
 }

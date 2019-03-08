@@ -1,7 +1,8 @@
-export default {
+export const frontmatter = {
   name: 'Celeste',
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
+  path: '/Celeste',
   description: 'Back-line mage with heavy area damage and a stun.',
   spotlight: 'rC-vkqUkERY',
   stats: [

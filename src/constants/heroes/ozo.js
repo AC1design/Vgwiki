@@ -1,7 +1,8 @@
-export default {
+export const frontmatter = {
   name: 'Ozo',
   type: ['JUNGLE', 'ASSASSIN'],
   role: ['JUNGLE'],
+  path: '/Ozo',
   description: 'Acrobatic monkey with immense self-healing.',
   spotlight: 'Dp7MIjNuZXc',
   stats: [

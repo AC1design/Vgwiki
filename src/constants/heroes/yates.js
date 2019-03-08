@@ -1,7 +1,8 @@
-export default {
+export const frontmatter = {
   name: 'Yates',
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
+  path: '/Yates',
   description:
     'Battelfield commander who grabs enemies and has a global presence.',
   spotlight: 'K6kHZW3Vq2g',
