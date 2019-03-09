@@ -37,54 +37,6 @@ export const frontmatter = {
         '• Tony also gains a decaying move speed bonus when activating this ability.',
       ],
       stats: [
-        // {
-        //   name: 'Cooldown',
-        //   amount: ['8s', '7.5s', '7s', '6.5s', '6s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Energy Cost',
-        //   amount: ['25', '30', '35', '40', '45'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Damage',
-        //   amount: ['0', '0', '0', '0', '0'],
-        //   cr: '',
-        //   wr: '100%',
-        // },
-        // {
-        //   name: 'Bonus Damage',
-        //   amount: ['80', '120', '160', '200', '240'],
-        //   cr: '100%',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Range',
-        //   amount: ['0', '0', '0', '0', '0'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Stun Duration',
-        //   amount: ['1s', '1s', '1s', '1s', '1s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Charge Time',
-        //   amount: ['1.6s', '1.6s', '1.6s', '1.6s', '1.2s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Duration',
-        //   amount: ['6s', '6s', '6s', '6s', '6s'],
-        //   cr: '',
-        //   wr: '',
-        // },
       ],
     },
     {
@@ -98,54 +50,6 @@ export const frontmatter = {
         '• The duration is further increased with weapon power up to a cap of 1.8s with 300 weapon power.',
       ],
       stats: [
-        // {
-        //   name: 'Cooldown',
-        //   amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Energy Cost',
-        //   amount: ['25', '30', '35', '40', '45'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Damage',
-        //   amount: ['140', '190', '240', '290', '390'],
-        //   cr: '175%',
-        //   wr: '140%',
-        // },
-        // {
-        //   name: 'Range',
-        //   amount: ['5.5', '5.5', '5.5', '5.5', '7.5'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Move Speed Duration',
-        //   amount: ['3s', '3s', '3s', '3s', '3s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Attack Speed',
-        //   amount: ['40%', '40%', '40%', '40%', '40%'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Move Speed',
-        //   amount: ['1', '1', '1', '1', '1'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Duration',
-        //   amount: ['6s', '6s', '6s', '6s', '6s'],
-        //   cr: '',
-        //   wr: '',
-        // },
       ],
     },
     {
@@ -156,54 +60,7 @@ export const frontmatter = {
         'Tony winds up, then dashes to target location, releasing a massive uppercut. This colossal punch deals damage and knocks away all enemies caught in the area.',
       ],
       stats: [
-        // {
-        //   name: 'Cooldown',
-        //   amount: ['25s', '20s', '15s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Energy Cost',
-        //   amount: ['50', '60', '70'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Damage',
-        //   amount: ['300', '450', '600'],
-        //   cr: '150%',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Trap Limit',
-        //   amount: ['1', '1', '1'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Root Duration',
-        //   amount: ['1.6s', '1.8s', '2s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Attack Speed',
-        //   amount: ['40%', '40%', '40%', '40%', '40%'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Move Speed',
-        //   amount: ['1', '1', '1', '1', '1'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Duration',
-        //   amount: ['6s', '6s', '6s', '6s', '6s'],
-        //   cr: '',
-        //   wr: '',
-        // },
+        
       ],
     },
   ],
