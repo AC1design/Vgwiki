@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import ReactCardFlip from 'react-card-flip'
+import ReactCardFlip from 'react-card-flipper'
 
 const HatBox = styled.div`
 width: 190px;
@@ -70,7 +70,7 @@ class Hat extends React.Component {
 
     render() {
         return (
-            <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
+            <ReactCardFlip height='120px' >
                 <HatBox onClick={this.handleClick} key="front">
                     <HatImg src={this.props.hat}></HatImg>
                         <NameHat>{this.props.name}</NameHat>

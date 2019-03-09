@@ -51,11 +51,11 @@ const IndexPage = (props) => (
           <GridList/>
           <AdComponent/>
           <ItemsGridList />
-          <AdComponent />
           <HatsM></HatsM>
+          <AdComponent />
           <SocialPingsMobile/>
           <Charms />
-          <AdComponent />
+          <AdComponent/>
         </div>
       </MediaQuery>
       <div>
