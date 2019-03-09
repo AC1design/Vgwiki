@@ -223,6 +223,17 @@ margin: 0 auto;
 align-items: center;
 overflow: visible;
 }
+
+.HatsboxGroup {
+  margin:20px 16px 55px;
+	display: grid;
+	grid-template-columns: repeat(20, 190px);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	justify-content: left;
+align-items: center;
+overflow: visible;
+}
   
   }
   

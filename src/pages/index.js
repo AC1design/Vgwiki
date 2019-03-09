@@ -11,10 +11,10 @@ import ItemsGridList from '../components/ItemsGridList'
 import SocialPingsMobile from '../components/SocialPingsMobile'
 import { Link, graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
+import HatsM from '../components/HatsMobile';
 
 const IndexPage = (props) => (
   <Layout>
-    
     <meta name="theme-color" content="#1f1f21" />
     <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
       <MediaQuery query="(min-width: 721px)">
@@ -52,9 +52,10 @@ const IndexPage = (props) => (
           <AdComponent/>
           <ItemsGridList />
           <AdComponent />
+          <HatsM></HatsM>
+          <SocialPingsMobile/>
           <Charms />
           <AdComponent />
-          <SocialPingsMobile/>
         </div>
       </MediaQuery>
       <div>
