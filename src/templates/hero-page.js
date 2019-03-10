@@ -86,7 +86,6 @@ export default function({ data }) {
               ))}
             </div>
           </div>
-          <AdComponent></AdComponent>
           <div className="Title">
             {hero.skins.length ? <h1>SKINS</h1> : null}
             <div className="line" />

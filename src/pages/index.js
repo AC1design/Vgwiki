@@ -59,6 +59,7 @@ const IndexPage = (props) => (
         </div>
       </MediaQuery>
       <div>
+        <AdComponent />
         <StickyFooter
           className="footer"
           bottomThreshold={50}
