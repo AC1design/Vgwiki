@@ -9,35 +9,37 @@ import GridList from '../components/GridList'
 import StickyFooter from 'react-sticky-footer'
 import ItemsGridList from '../components/ItemsGridList'
 import SocialPingsMobile from '../components/SocialPingsMobile'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
-import HatsM from '../components/HatsMobile';
+import HatsM from '../components/HatsMobile'
 
-const IndexPage = (props) => (
+const IndexPage = props => (
   <Layout>
     <meta name="theme-color" content="#1f1f21" />
     <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
       <MediaQuery query="(min-width: 721px)">
-        <div className='Hero'>
-        <div className='HeroContainer'>
-          <ImgHero className='Img'
-           fluid={props.data.imageOne.childImageSharp.fluid}
-          ></ImgHero>
-          <div className='gradient' />
-        </div>
-        <div className="HeroGroup">
-          <h1>VAINGLORY WIKI</h1>
-          <p>UPDATE 4.0</p>
-        </div>
+        <div className="Hero">
+          <div className="HeroContainer">
+            <ImgHero
+              className="Img"
+              fluid={props.data.imageOne.childImageSharp.fluid}
+            />
+            <div className="gradient" />
+          </div>
+          <div className="HeroGroup">
+            <h1>VAINGLORY WIKI</h1>
+            <p>UPDATE 4.0</p>
+          </div>
         </div>
       </MediaQuery>
       <MediaQuery query="(max-width: 720px)">
-        <div className='Hero'>
-          <div className='HeroContainer'>
-            <ImgHero className='Img'
+        <div className="Hero">
+          <div className="HeroContainer">
+            <ImgHero
+              className="Img"
               fluid={props.data.imageTwo.childImageSharp.fluid}
-            ></ImgHero>
-            <div className='gradient' />
+            />
+            <div className="gradient" />
           </div>
           <div className="HeroGroup">
             <h1>VAINGLORY WIKI</h1>
@@ -48,14 +50,14 @@ const IndexPage = (props) => (
       <Tabsind />
       <MediaQuery query="(max-width: 1366px)">
         <div className="mobile">
-          <GridList/>
-          <AdComponent/>
-          <ItemsGridList />
-          <HatsM></HatsM>
+          <GridList />
           <AdComponent />
-          <SocialPingsMobile/>
+          <ItemsGridList />
+          <HatsM />
+          <AdComponent />
+          <SocialPingsMobile />
           <Charms />
-          <AdComponent/>
+          <AdComponent />
         </div>
       </MediaQuery>
       <div>
@@ -93,27 +95,27 @@ const IndexPage = (props) => (
 
 export default IndexPage
 export const pageQuery = graphql`
-{
-  imageOne: file(relativePath: { eq: "SanFeng_Desktop.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 2560) {
-        ...GatsbyImageSharpFluid_tracedSVG
+  {
+    imageOne: file(relativePath: { eq: "SanFeng_Desktop.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 2560) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    imageTwo: file(relativePath: { eq: "SanFeng_Mobile.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 2560) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    imageTwo: file(relativePath: { eq: "SanFeng_Mobile.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 2560) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
       }
     }
   }
-  imageTwo: file(relativePath: { eq: "SanFeng_Mobile.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 2560) {
-        ...GatsbyImageSharpFluid_tracedSVG
-      }
-    }
-  }
-  imageTwo: file(relativePath: { eq: "SanFeng_Mobile.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 2560) {
-        ...GatsbyImageSharpFluid_tracedSVG
-      }
-    }
-  }
-}
 `
