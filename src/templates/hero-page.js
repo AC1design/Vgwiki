@@ -9,6 +9,7 @@ import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
 import AdComponent from '../components/ad';
+import Vgpro from '../components/Vgprocard';
 
 export default function({ data }) {
   const hero = data.allJavascriptFrontmatter.edges.length
@@ -101,6 +102,17 @@ export default function({ data }) {
                   key={index}
                 />
               ))}
+            </div>
+          </div>
+          <div className="Title">
+          <h1>STATS</h1>
+            <div className="line" />
+          </div>
+          <div className="SkinboxGroupScroll">
+            <div className="SkinboxGroup">
+                <Vgpro
+                  stats={hero.name}
+                />
             </div>
           </div>
           <AdComponent/>

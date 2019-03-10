@@ -1,10 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import ReactCardFlip from 'react-card-flipper'
+import Button from '@material-ui/core/Button'
+import Tooltip from '@material-ui/core/Tooltip'
+import Grid from '@material-ui/core/Grid';
 
 const HatBox = styled.div`
 width: 190px;
-    height: 134px;
+    height: auto;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -58,7 +61,8 @@ class Hat extends React.Component {
     constructor() {
         super();
         this.state = {
-            isFlipped: false
+            isFlipped: false,
+            open: false,
         };
         this.handleClick = this.handleClick.bind(this);
     }
@@ -68,14 +72,22 @@ class Hat extends React.Component {
         this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
     }
 
+    handleTooltipClose = () => {
+        this.setState({ open: false });
+    };
+
+    handleTooltipOpen = () => {
+        this.setState({ open: true });
+    };
+
+
     render() {
         return (
             <ReactCardFlip height='120px' >
                 <HatBox onClick={this.handleClick} key="front">
                     <HatImg src={this.props.hat}></HatImg>
-                        <NameHat>{this.props.name}</NameHat>
+                    <NameHat>{this.props.name}</NameHat>
                     </HatBox>
-
                 <HatBox key="back" onClick={this.handleClick}>
                     <NameHat style={{ marginBottom: '5px', textAlign: 'center', marginLeft: '0'}}>Materials</NameHat>
                     <MaterialsGroup style={{marginLeft:'-5px'}}>

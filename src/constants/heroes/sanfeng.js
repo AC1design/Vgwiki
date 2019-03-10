@@ -3,7 +3,7 @@ export const frontmatter = {
   type: ['JUNGLE', 'WARRIOR'],
   role: ['JUNGLE'],
   path: '/SanFeng',
-  description: 'Team healer and damage enhancer with a large area stun.',
+  description: "A master Grangor who turn enemy's power against them",
   spotlight: 'Pv2r7OiUKJs',
   stats: [
     { name: 'HEALTH', value: '821 - 2176', color: '#4eec8b' },
