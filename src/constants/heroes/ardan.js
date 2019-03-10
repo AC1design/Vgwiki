@@ -21,10 +21,11 @@ export const frontmatter = {
   model: [{ image: 'Ardanblurred' }, { tmodel: 'Ardan' }],
   skills: [
     {
-      video: 'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-P-Julias-Gift.mp4',
+      video:
+        'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-P-Julias-Gift.mp4',
       name: "JULIA'S GIFT",
       type: 'Perk',
-      image:'Ardan-P',
+      image: 'Ardan-P',
       text: [
         'Ardan benefits from purchasing health items.',
         '• Whenever Ardan takes damage, he heals for 0.8% of his missing health, but no more than 75% of the damage taken.',
@@ -137,7 +138,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          ramount: ['400', '500', '600'],
+          amount: ['400', '500', '600'],
           cr: '250%',
           wr: '',
         },
