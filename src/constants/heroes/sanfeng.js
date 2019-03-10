@@ -113,13 +113,13 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['0', '0', '0', '', ''],
+          amount: ['0', '0', '0',],
           cr: ' ',
           wr: ' ',
         },
         {
           name: 'Damage',
-          amount: ['400', '550', '700', '', ''],
+          amount: ['400', '550', '700'],
           cr: '60%',
           wr: '40%',
         },
