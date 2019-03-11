@@ -57,7 +57,6 @@ const IndexPage = props => (
           <AdComponent />
           <SocialPingsMobile />
           <Charms />
-          <AdComponent />
         </div>
       </MediaQuery>
       <div>

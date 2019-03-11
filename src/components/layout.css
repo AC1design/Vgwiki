@@ -187,6 +187,17 @@ a {
   justify-content: center;
 }
 
+.HatsboxGroup {
+  max-width: 1366px;
+	display: grid;
+	grid-template-columns: repeat(4, 190px);
+	grid-column-gap: 70px;
+  grid-row-gap: 40px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media (min-width: 1367px) {
   .Title{
@@ -316,7 +327,6 @@ overflow: visible;
     bottom: 0;
     background: rgba(41, 41, 41, 0.801);
     backdrop-filter: blur(20px);
-    
   }
 
 
@@ -386,7 +396,6 @@ overflow: visible;
     height:auto;
     overflow: scroll;
     margin:0 auto;
-    margin-top: 30px;
     display:table;
     position: absolute;
     left: 0;
@@ -403,3 +412,15 @@ overflow: visible;
   overflow-y: auto;
 }
 }
+
+@media only screen and (min-device-width: 319px) and (max-device-width: 1024px) and (orientation: landscape) {
+   .Modal {
+    max-width:240px;
+    height: 250px;
+    overflow-y: auto;
+    margin-top: 70px;
+    }
+     .Overlay {
+    overflow-y: auto;
+  }
+  }

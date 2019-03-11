@@ -18,12 +18,12 @@ width: 190px;
     -webkit-tap-highlight-color: transparent;
     background-color: #2B2B2D;
     background-size: cover;
+    text-align:center;
 `
 const NameHat = styled.h1`
 color:white;
 witht: 180px;
      font-size: 18px;
-     margin-left:16px;
      margin-bottom: 16px;
 `
 const MaterialsGroup = styled.div`
@@ -36,14 +36,9 @@ const MaterialsGroup = styled.div`
     vertical-align:middle;
     padding: 6px;
 `
-const Mat1Group = styled.div`
- display: flex;
- flex-direction: column;
-`
 
 const HatImg = styled.img`
 height: 55px;
-margin-left: 16px;
 margin-top: 16px;
 filter: drop-shadow(0px 2px 3px #3A3A33);
 -webkit-user-drag: none;
