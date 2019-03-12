@@ -81,7 +81,9 @@ const IndexPage = props => (
             marginTop: '50px',
           }}
         >
-          © 2018 Copyright:{' '}
+          Copyright © 2019 VGWIKI.xyz
+VGWIKI.xyz is not affiliated or part of Super Evil Megacorp. All Vainglory copyrights and art assets belong to Super Evil Megacorp.\nMade by 
+{' '}
           <a href="https://twitter.com/AngeloCant1">AngeloC</a>
         </StickyFooter>
       </div>

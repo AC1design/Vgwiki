@@ -25,7 +25,7 @@ module.exports = {
         background_color: '#1f1f21',
         theme_color: '#1f1f21',
         display: 'fullscreen',
-        icon: './../images/favicon.png',
+        icon: 'src/images/favicon.png',
       },
     },
     'gatsby-plugin-offline',
