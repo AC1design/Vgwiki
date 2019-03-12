@@ -52,6 +52,8 @@ exports.createPages = ({ actions, graphql }) => {
                 color
                 type
                 image
+                price
+                opals
               }
             }
           }

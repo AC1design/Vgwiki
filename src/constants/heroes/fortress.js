@@ -255,6 +255,8 @@ export const frontmatter = {
       name: 'Gift Wrapped Fortress',
       type: 'Limited Edition',
       image: 'Fortress_Gift-wrapped_LE',
+      price: '2000',
+      opals: true,
     },
     {
       color: 'red',

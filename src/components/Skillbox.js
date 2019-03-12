@@ -96,11 +96,9 @@ class Skillbox extends React.Component {
                 </tr>
               </thead>
               <tbody>
-                {console.log(this.props.stats)}
                 {this.props.stats.map((stat, index) => (
                   <tr className={index % 2 === 0 ? 'striped' : ''} key={index}>
                     <td>{stat.name}</td>
-                    {console.log(stat.name, stat.amount)}
                     {stat.amount.map((value, idx) => (
                       <th key={idx}>{value}</th>
                     ))}
