@@ -99,6 +99,7 @@ export default function({ data }) {
                   title={skin.name}
                   text={skin.type}
                   image={skin.image}
+                  price={skin.price}
                   key={index}
                 />
               ))}

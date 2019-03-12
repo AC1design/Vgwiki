@@ -4,6 +4,12 @@ import P from '../components/SkinPColor'
 import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 
+const skinCosts = {
+  rare: '',
+  epic: '',
+  legendary: '',
+};
+
 const Skinbox = props => (
   <ScrollAnimation animateIn="fadeInRight" animateOnce>
     <div className="Skinbox">
