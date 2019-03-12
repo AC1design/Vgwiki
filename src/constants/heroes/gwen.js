@@ -187,6 +187,8 @@ export const frontmatter = {
       name: 'Red Lanter Gwen',
       type: 'Special Edition',
       image: 'Gwen_Red_Lantern',
+      price: '300',
+      opals: true,
     },
     {
       color: '#7A02EA',
@@ -196,9 +198,11 @@ export const frontmatter = {
     },
     {
       color: 'red',
-      name: 'Festive Gwen ',
+      name: 'Festive Gwen',
       type: 'Special Edition',
       image: 'Gwen_Festive',
+      price: '300',
+      opals: true,
     },
     {
       color: 'red',

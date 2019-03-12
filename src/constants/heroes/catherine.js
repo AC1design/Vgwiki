@@ -234,12 +234,16 @@ export const frontmatter = {
       name: 'Winter War Catherine',
       type: 'Special Edition',
       image: 'Catherine_Winter_War_SE',
+      price: '500',
+      opals: true,
     },
     {
       color: 'red',
       name: 'Championship Catherine',
       type: 'Special Edition',
       image: 'Catherine_Championship',
+      price: '300',
+      opals: true,
     },
     {
       color: 'red',
@@ -252,6 +256,8 @@ export const frontmatter = {
       name: "Surf's Up Catherine",
       type: 'Special Edition',
       image: 'Catherine_Summer_Blue',
+      price: '500',
+      opals: true,
     },
     {
       color: 'red',

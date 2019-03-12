@@ -233,6 +233,8 @@ export const frontmatter = {
       name: 'Pumpkin Spice Petal',
       type: 'Special Edition',
       image: 'Petal_Pumpkin_Spice_SE',
+      price: '500',
+      opals: true,
     },
     {
       color: '#FADA5E',

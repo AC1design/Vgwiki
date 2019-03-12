@@ -239,6 +239,8 @@ export const frontmatter = {
       name: 'Trick or Treat Malene',
       type: 'Special Edition',
       image: 'Malene_Trick_or_Treat',
+      price: '300',
+      opals: true,
     },
   ],
 }

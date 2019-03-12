@@ -201,6 +201,8 @@ export const frontmatter = {
       name: 'Black Cat Flicker',
       type: 'Special Edition',
       image: 'Flicker_Blackcat',
+      price: '300',
+      opals: true,
     },
   ],
 }

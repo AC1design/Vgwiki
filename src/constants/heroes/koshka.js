@@ -210,6 +210,8 @@ export const frontmatter = {
       name: 'Red Lantern Koshka',
       type: 'Special Edition',
       image: 'Koshka_Red_Lantern_SE',
+      price: '300',
+      opals: true,
     },
     {
       color: '#FADA5E',
@@ -222,6 +224,8 @@ export const frontmatter = {
       name: 'Red Lantern Lotus Koshka',
       type: 'Special Edition',
       image: 'Koshka_Red_Lantern_Lotus',
+      price: '300',
+      opals: true,
     },
   ],
 }

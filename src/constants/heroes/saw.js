@@ -227,6 +227,8 @@ export const frontmatter = {
       name: 'Summer Party SAW',
       type: 'Special Edition',
       image: 'SAW_Summer_Party_SE',
+      price: '500',
+      opals: true,
     },
   ],
 }

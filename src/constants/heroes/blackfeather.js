@@ -235,12 +235,16 @@ export const frontmatter = {
       name: 'Love Bites Blackfeather',
       type: 'Special Edition',
       image: 'Blackfeather_Love_Bites_SE',
+      price: '500',
+      opals: true,
     },
     {
       color: 'red',
       name: 'Summer Party Blackfeather',
       type: 'Special Edition',
       image: 'Blackfeather_Summer_Party',
+      price: '300',
+      opals: true,
     },
   ],
 }

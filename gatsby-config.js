@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'VGWIKI',
+    description: `A Vainglory Wiki`,
+    author: `AngeloCant1 - IGN: AngeloC`,
+    url: "https://www.vgwiki.xyz"
   },
   plugins: [
     {
@@ -22,7 +25,7 @@ module.exports = {
         background_color: '#1f1f21',
         theme_color: '#1f1f21',
         display: 'fullscreen',
-        icon: 'src/images/favicon.png',
+        icon: './../images/favicon.png',
       },
     },
     'gatsby-plugin-offline',

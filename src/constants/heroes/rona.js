@@ -250,6 +250,8 @@ export const frontmatter = {
       name: 'Killer Bunny Rona',
       type: 'Special Edition',
       image: 'Rona_Killer_Bunny_SE',
+      price: '500',
+      opals: true,
     },
     {
       color: '#FADA5E',

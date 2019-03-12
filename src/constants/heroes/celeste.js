@@ -223,12 +223,16 @@ export const frontmatter = {
       name: 'Moon Princess Celeste',
       type: 'Special Edition',
       image: 'Celeste_Moon_Princess_SE',
+      price: '500',
+      opals: true,
     },
     {
       color: '#FADA5E',
       name: 'Baewitched Celeste',
       type: 'Limited Edition',
       image: 'Celeste_Baewitched_LE',
+      price: '500',
+      opals: true,
     },
     {
       color: 'red',

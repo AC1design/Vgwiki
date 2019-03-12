@@ -228,6 +228,8 @@ export const frontmatter = {
       name: 'Santa Reim',
       type: 'Special Edition',
       image: 'Reim_Santa',
+      price: '150',
+      opals: true,
     },
   ],
 }

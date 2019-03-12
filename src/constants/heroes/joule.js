@@ -190,12 +190,16 @@ export const frontmatter = {
       name: 'Snow Monster Joule',
       type: 'Special Edition',
       image: 'Joule_Snow_Monster_SE',
+      price: '500',
+      opals: true,
     },
     {
       color: 'red',
       name: 'Panda Joule',
       type: 'Special Edition',
       image: 'Joule_Panda',
+      price: '500',
+      opals: true,
     },
     {
       color: 'red',

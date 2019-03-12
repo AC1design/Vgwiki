@@ -223,6 +223,8 @@ export const frontmatter = {
       name: 'Bakuto Ringo',
       type: 'Special Edition',
       image: 'Ringo_Bakuto',
+      price: '150',
+      opals: true,
     },
   ],
 }

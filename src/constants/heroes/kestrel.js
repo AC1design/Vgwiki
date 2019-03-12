@@ -227,6 +227,8 @@ export const frontmatter = {
       name: 'Summer Party Kestrel',
       type: 'Special Edition',
       image: 'Kestrel_Summer_Party_SE',
+      price: '500',
+      opals: true,
     },
     {
       color: '#FADA5E',

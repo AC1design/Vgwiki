@@ -280,6 +280,8 @@ export const frontmatter = {
       color: 'red',
       type: 'Special Edition',
       image: 'Taka_Night_Shadow_SE',
+      price: '1000',
+      opals: true,
     },
     {
       name: 'Night Shadow Taka',

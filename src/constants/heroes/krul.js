@@ -269,6 +269,8 @@ export const frontmatter = {
       name: 'Summer Party Krul',
       type: 'Special Edition',
       image: 'Krul_Summer_Party_SE',
+      price: '500',
+      opals: true,
     },
   ],
 }

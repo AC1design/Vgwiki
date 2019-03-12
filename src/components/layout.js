@@ -22,8 +22,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Vainglory Wiki' },
-            { name: 'keywords', content: 'vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg' },
+            { name: 'description', content: 'A Vainglory Wiki' },
+            { name: 'keywords', content: 'vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg, vaingloryheroes' },
             { property: 'og:image', content:'https://i.imgur.com/qBMkj19.png'}
           ]}
         >

@@ -196,6 +196,14 @@ export const frontmatter = {
       name: 'Red Lantern Reza',
       type: 'Special Edition',
       image: 'Reza_Red_Lantern',
+      price: '300',
+      opals: true,
+    },
+    {
+      color: 'red',
+      name: 'dAv11d Reza',
+      type: 'iOS Esclusive',
+      image: 'Reza_dAv11d',
     },
   ],
 }

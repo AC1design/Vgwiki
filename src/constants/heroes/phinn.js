@@ -196,5 +196,13 @@ export const frontmatter = {
       type: 'Special Edition',
       image: 'Phinn_Summer_Party',
     },
+    {
+      color: 'red',
+      name: 'Bakuto Phinn',
+      type: 'Special Edition',
+      image: 'Phinn_Bakuto',
+      price: '500',
+      opals: true,
+    },
   ],
 }

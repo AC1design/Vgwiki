@@ -215,6 +215,8 @@ export const frontmatter = {
       name: 'Headless Idris',
       type: 'Special Edition',
       image: 'Idris_Headless',
+      price: '500',
+      opals: true,
     },
   ],
 }
