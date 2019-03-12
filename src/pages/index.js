@@ -57,10 +57,10 @@ const IndexPage = props => (
           <AdComponent />
           <SocialPingsMobile />
           <Charms />
-          <AdComponent />
         </div>
       </MediaQuery>
       <div>
+        <AdComponent />
         <StickyFooter
           className="footer"
           bottomThreshold={50}

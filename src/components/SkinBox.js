@@ -14,8 +14,12 @@ const Skinbox = props => (
   <ScrollAnimation animateIn="fadeInRight" animateOnce>
     <div className="Skinbox">
       <img src={require(`./../images/Skins/${props.image}.png`)} alt={props.title} />
-      <h3>{props.title} </h3>
-      <P color={props.color}> {props.text} </P>
+      <h3>{props.title} </h3>  
+      <P color={props.color}> {props.text}
+      </P><div className='SkinCost'>
+      <img src={require('./../images/ICE.png')}/>
+        <span >1234</span>
+      </div>
     </div>
   </ScrollAnimation>
 )

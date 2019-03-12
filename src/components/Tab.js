@@ -10,7 +10,10 @@ import { heroCards, heroTabs } from '../constants/heroes'
 import { itemTabs, itemBoxes } from '../constants/items'
 import { charms } from '../constants/charms'
 import { pings } from '../constants/pings'
-import Pings from './SocialPings';
+import { hats } from '../constants/hats'
+import Pings from './SocialPings'
+import Hats from './Hats';
+import AdComponent from './ad';
 
 const tabNames = ['HEROES', 'ITEMS', 'COSMETICS']
 
@@ -121,6 +124,7 @@ class Tabsind extends React.Component {
                     <Tab key={index}>{tab}</Tab>
                   ))}
                 </TabList>
+                <AdComponent />
                 <TabPanel className="AllHeroes">
                   <div className="CardboxGroup">
                     {heroCards.map((hero, index) => makeHeroCard(hero, index))}
@@ -174,6 +178,7 @@ class Tabsind extends React.Component {
                   <Tab key={index}>{tab}</Tab>
                 ))}
               </TabList>
+              <AdComponent/>
               <TabPanel className="All">
                 <div className="ItemboxGroup">
                   {itemBoxes.map((item, index) => makeItemBox(item, index))}
@@ -218,13 +223,20 @@ class Tabsind extends React.Component {
           </TabPanel>
           <TabPanel>
             <div className="Selectan">
-              <h1>Charms</h1>{' '}
+              <h1>Hats (Click for More)</h1>{' '}
             </div>
-            <div className="EmojiboxGroup">
-              {charms.map((charm, index) => (
-                <Emojibox
-                  itemimg={require(`./../images/Emoji/${charm.image}.png`)}
-                  itemname={charm.name}
+            <div className="HatsboxGroup">
+              {hats.map((hat, index) => (
+                <Hats
+                  name={hat.name}
+                  hat={require(`./../images/Hats/${hat.hat}.png`)}
+                  mat1={require(`./../images/Hats/Materials/${hat.material1}.png`)}
+                  qt1={hat.qt1}
+                  mat2={require(`./../images/Hats/Materials/${hat.material2}.png`)}
+                  qt2={hat.qt2}
+                  mat3={require(`./../images/Hats/Materials/${hat.material3}.png`)}
+                  qt3={hat.qt3}
+                  text={hat.text}
                   key={index}
                 />
               ))}
@@ -252,6 +264,18 @@ class Tabsind extends React.Component {
               ping14 = {require(`./../images/Ping/${ping.id}-Cheers-3.png`)}
               ping10 = {require(`./../images/Ping/${ping.id}-OK-2.png`)}
               ping15 = {require(`./../images/Ping/${ping.id}-OK-3.png`)}
+                  key={index}
+                />
+              ))}
+            </div>
+            <div className="Selectan">
+              <h1>Charms</h1>{' '}
+            </div>
+            <div className="EmojiboxGroup">
+              {charms.map((charm, index) => (
+                <Emojibox
+                  itemimg={require(`./../images/Emoji/${charm.image}.png`)}
+                  itemname={charm.name}
                   key={index}
                 />
               ))}

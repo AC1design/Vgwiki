@@ -5,7 +5,7 @@ import Hats from './Hats';
 const HatsM = props => (
     <div>
         <div className="Selectan">
-            <h1>Hats</h1>{' '}
+            <h1>Hats (Click for More)</h1>{' '}
         </div>
         <div className="EmojiboxGroupScroll">
             <div className="HatsboxGroup">
@@ -19,6 +19,7 @@ const HatsM = props => (
                         qt2={hat.qt2}
                         mat3={require(`./../images/Hats/Materials/${hat.material3}.png`)}
                         qt3={hat.qt3}
+                        text={hat.text}
                         key={index}
                     />
                 ))}

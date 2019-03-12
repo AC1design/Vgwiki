@@ -49,7 +49,7 @@
     align-items: left;
     justify-content: left;
     text-align: left;
-    
+    padding-bottom: 5px;
 }
 
 
@@ -72,6 +72,32 @@
     background: transparent;
     padding: 20px 0px -10px;
 }
+
+.SkinCost{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 16px;
+    right: 16px;
+    background:rgba(255, 255, 255, 0.37);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.SkinCost img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.SkinCost span{
+    margin-left: 20px;
+color: white;
+font-size: 14px;
+font-weight: 800;
+}
+
 
 @media (min-width: 1367px) {
     .SkinboxGroup {

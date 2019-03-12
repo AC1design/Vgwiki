@@ -81,8 +81,7 @@ export const frontmatter = {
       ],
     },
     {
-      video:
-        'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-B-Blood-for-Blood.mp4',
+      video:'https://www.vainglorygame.com/wp-content/uploads/2015/05/Ardan-B-Blood-for-Blood.mp4',
       name: 'BLOOD FOR BLOOD',
       type: 'B ABILITY',
       image: 'Ardan-B',
