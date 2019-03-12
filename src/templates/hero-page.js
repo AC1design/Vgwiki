@@ -8,8 +8,8 @@ import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
-import AdComponent from '../components/ad';
-import Vgpro from '../components/Vgprocard';
+import AdComponent from '../components/ad'
+import Vgpro from '../components/Vgprocard'
 
 export default function({ data }) {
   const hero = data.allJavascriptFrontmatter.edges.length
@@ -47,7 +47,7 @@ export default function({ data }) {
             <div className="line" />
           </div>
           <Models heroname={hero.name} />
-          <AdComponent/>
+          <AdComponent />
           <div className="Title">
             <h1>SKILLS (CLICK FOR MORE)</h1>
             <div className="line" />
@@ -67,7 +67,7 @@ export default function({ data }) {
               ))}
             </div>
           </div>
-          <AdComponent></AdComponent>
+          <AdComponent />
           <div className="Title">
             <h1>TALENTS (LVL 1 + % PER LVL)</h1>
             <div className="line" />
@@ -100,23 +100,22 @@ export default function({ data }) {
                   text={skin.type}
                   image={skin.image}
                   price={skin.price}
+                  opals={skin.opals}
                   key={index}
                 />
               ))}
             </div>
           </div>
           <div className="Title">
-          <h1>STATS</h1>
+            <h1>STATS</h1>
             <div className="line" />
           </div>
           <div className="SkinboxGroupScroll">
             <div className="SkinboxGroup">
-                <Vgpro
-                  stats={hero.name}
-                />
+              <Vgpro stats={hero.name} />
             </div>
           </div>
-          <AdComponent/>
+          <AdComponent />
         </Page>
       </div>
     </Layout>
@@ -170,6 +169,8 @@ export const postQuery = graphql`
               color
               type
               image
+              price
+              opals
             }
           }
         }
