@@ -6,7 +6,7 @@ export const frontmatter = {
   description: 'Stealthy archer with devastating skillshots and traps.',
   spotlight: 'ClhyGmpQZhY',
   stats: [
-    { name: 'HEALTH', value: '700 - 2073', color: '#4eec8b' },
+    { name: 'HEALTH', value: '728 - 2147', color: '#4eec8b' },
     { name: 'HEALTH REGEN', value: ' - ', color: '#4eec8b' },
     { name: 'ENERGY', value: '404 - 492', color: '#5bbcff' },
     { name: 'ENERGY REGEN', value: ' - ', color: '#5bbcff' },
@@ -15,7 +15,7 @@ export const frontmatter = {
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '6.2', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.2', color: '#e19efb' },
+    { name: 'MOVE SPEED', value: '3.4', color: '#e19efb' },
   ],
   model: [{ image: 'Kestrelblurred' }, { tmodel: 'Kestrel' }],
   skills: [
@@ -93,7 +93,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['100', '120', '140', '160', '180'],
+          amount: ['100', '110', '120', '130', '140'],
           cr: '',
           wr: '',
         },
@@ -142,7 +142,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['150', '175', '200'],
+          amount: ['140', '155', '170'],
           cr: '',
           wr: '',
         },

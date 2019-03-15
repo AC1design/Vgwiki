@@ -195,6 +195,8 @@ export const frontmatter = {
       name: 'Summer Party Phinn',
       type: 'Special Edition',
       image: 'Phinn_Summer_Party',
+      price: '150',
+      opals: true,
     },
     {
       color: 'red',

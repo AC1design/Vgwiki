@@ -6,11 +6,11 @@ export const frontmatter = {
   description: 'Stealthy assassin who can heal while invisible.',
   spotlight: 'Oo9Mu7cRRzA',
   stats: [
-    { name: 'HEALTH', value: '702 - 2287', color: '#4eec8b' },
+    { name: 'HEALTH', value: '717 - 2302', color: '#4eec8b' },
     { name: 'HEALTH REGEN', value: '3.51 - 7.36', color: '#4eec8b' },
     { name: 'ENERGY', value: '180 - 422', color: '#5bbcff' },
     { name: 'ENERGY REGEN', value: '1.33 - 3.09', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '68 - 125', color: '#f48596' },
+    { name: 'WEAPON DAMAGE', value: '70 - 129', color: '#f48596' },
     { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
@@ -24,15 +24,14 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Taka-P',
       text: [
-        'Taka gains Mortal Strike every 4s.',
-        "• Mortal Strike: Taka's next basic attack deals 30-63 (level 1-12) (+35% weapon power) bonus damage and briefly gains bonus movement speed.",
+        'Taka gains Mortal Strike every 2s.',
+        "• Mortal Strike: Taka's next basic attack deals 30-85 (level 1-12) (+30% weapon power) bonus damage and briefly gains bonus movement speed.",
         '• When Taka uses an ability or lands a Mortal Strike, he gains a stack of Ki.',
-        '• Ki: Taka gains Mortal Strike faster and his ability cooldown are reduced by 10% per stack.',
+        '• Ki: Taka gains Mortal Strike faster and his ability cooldown are reduced by 5% per stack.',
         '• 5 stacks max.',
       ],
       video:
-        'https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/themes/vainglory/images/icon-play-round.png',
-      stats: [],
+        'https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-P-House-Kamuha.mp4',
     },
     {
       name: 'KAITEN',
@@ -44,54 +43,24 @@ export const frontmatter = {
       video:
         'https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-A-Kaiten.mp4',
       stats: [
-        // {
-        //   name: 'Cooldown',
-        //   amount: ['8s', '7.5s', '7s', '6.5s', '6s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Energy Cost',
-        //   amount: ['25', '30', '35', '40', '45'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Damage',
-        //   amount: ['0', '0', '0', '0', '0'],
-        //   cr: '',
-        //   wr: '100%',
-        // },
-        // {
-        //   name: 'Bonus Damage',
-        //   amount: ['80', '120', '160', '200', '240'],
-        //   cr: '100%',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Range',
-        //   amount: ['0', '0', '0', '0', '0'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Stun Duration',
-        //   amount: ['1s', '1s', '1s', '1s', '1s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Charge Time',
-        //   amount: ['1.6s', '1.6s', '1.6s', '1.6s', '1.2s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Duration',
-        //   amount: ['6s', '6s', '6s', '6s', '6s'],
-        //   cr: '',
-        //   wr: '',
-        // },
+        {
+          name: 'Cooldown',
+          amount: ['9s', '9s', '9s', '9s', '7.5s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['55', '55', '55', '55', '0'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['80', '120', '160', '200', '240'],
+          cr: '140%',
+          wr: '',
+        },
       ],
     },
     {
@@ -106,54 +75,30 @@ export const frontmatter = {
       video:
         'https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-B-Kaku.mp4',
       stats: [
-        // {
-        //   name: 'Cooldown',
-        //   amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Energy Cost',
-        //   amount: ['25', '30', '35', '40', '45'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Damage',
-        //   amount: ['140', '190', '240', '290', '390'],
-        //   cr: '175%',
-        //   wr: '140%',
-        // },
-        // {
-        //   name: 'Range',
-        //   amount: ['5.5', '5.5', '5.5', '5.5', '7.5'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Move Speed Duration',
-        //   amount: ['3s', '3s', '3s', '3s', '3s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Attack Speed',
-        //   amount: ['40%', '40%', '40%', '40%', '40%'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Move Speed',
-        //   amount: ['1', '1', '1', '1', '1'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Duration',
-        //   amount: ['6s', '6s', '6s', '6s', '6s'],
-        //   cr: '',
-        //   wr: '',
-        // },
+        {
+          name: 'Cooldown',
+          amount: ['14s', '14s', '14s', '14s', '12s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['40', '50', '60', '70', '80'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Duration',
+          amount: ['4s', '4.5s', '5s', '5.5s', '6s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Speed Boost',
+          amount: ['1.25', '1.5', '1.75', '2', '2.5'],
+          cr: '',
+          wr: '',
+        },
       ],
     },
     {
@@ -166,54 +111,36 @@ export const frontmatter = {
       video:
         'https://www.vainglorygame.com/wp-content/uploads/2015/05/Taka-C-X-Retsu.mp4',
       stats: [
-        // {
-        //   name: 'Cooldown',
-        //   amount: ['25s', '20s', '15s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Energy Cost',
-        //   amount: ['50', '60', '70'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Damage',
-        //   amount: ['300', '450', '600'],
-        //   cr: '150%',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Trap Limit',
-        //   amount: ['1', '1', '1'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Root Duration',
-        //   amount: ['1.6s', '1.8s', '2s'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Attack Speed',
-        //   amount: ['40%', '40%', '40%', '40%', '40%'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Bonus Move Speed',
-        //   amount: ['1', '1', '1', '1', '1'],
-        //   cr: '',
-        //   wr: '',
-        // },
-        // {
-        //   name: 'Duration',
-        //   amount: ['6s', '6s', '6s', '6s', '6s'],
-        //   cr: '',
-        //   wr: '',
-        // },
+        {
+          name: 'Cooldown',
+          amount: ['25s', '20s', '15s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['80', '100', '120'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['250', '300', '350'],
+          cr: '180%',
+          wr: '100%',
+        },
+        {
+          name: 'Damage/sec',
+          amount: ['30', '35', '40'],
+          cr: '75%',
+          wr: '',
+        },
+        {
+          name: 'Ki Stacks',
+          amount: ['1', '2', '3'],
+          cr: '75%',
+          wr: '',
+        },
       ],
     },
   ],
@@ -231,7 +158,7 @@ export const frontmatter = {
       text: [
         'Kaku (B) grants Taka invulnerability for 0.8s.',
         '• Cooldown 70% (-2.5%)',
-        '• Heal 110% (+4%)',
+        '• Heal 110% (+5%)',
       ],
     },
     {
@@ -240,7 +167,7 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'X-Retsu (Ult) automatically chains to 3 targets.',
-        '• Damage 80%',
+        '• Damage 100% (+15%)',
       ],
     },
   ],
@@ -265,7 +192,7 @@ export const frontmatter = {
     },
     {
       name: 'School Days Taka',
-      color: '#6393F9',
+      color: '#FF9000',
       type: 'Legendary',
       image: 'Taka_School_Days',
     },
@@ -291,8 +218,8 @@ export const frontmatter = {
     },
     {
       name: 'Wu Xing Flame Taka',
-      color: 'red',
-      type: 'Special Edition',
+      color: '#FF9000',
+      type: 'Legendary',
       image: 'Taka_Wu_Xing_Flame',
     },
   ],

@@ -24,7 +24,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Baron-P',
       text: [
-        'Baron’s basic attacks deal 135% weapon damage to the target and surrounding enemies.',
+        'Baron’s basic attacks deal 125% weapon damage to the target and surrounding enemies.',
         '• Explosions deal 90% damage to surrounding enemies.',
         '• Explosions less damage to minions.',
       ],
@@ -76,12 +76,12 @@ export const frontmatter = {
         'After a brief delay, Baron jets to the location then gains bonus move speed for 2.1s. His next basic attack is a double shot.',
         '• Overdrive: At max rank, Baron ignores all debuffs while leaping.',
         '• Baron takes longer to power up the farther away he is from his destination.However, this delay is reduced by weapon and crystal power up to a maximum of 200 total.',
-        "• Basic attacks reduce this ability's cooldown by 15%.",
+        "• Basic attacks reduce this ability's cooldown by 10%.",
       ],
       stats: [
         {
           name: 'Cooldown',
-          amount: ['22s', '20s', '18s', '16s', '12s'],
+          amount: ['20s', '19s', '18s', '17s', '14s'],
           cr: '',
           wr: '',
         },

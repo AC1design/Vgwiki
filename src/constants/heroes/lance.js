@@ -58,7 +58,7 @@ export const frontmatter = {
           name: 'Damage',
           amount: ['220', '290', '360', '430', '500'],
           cr: '80%',
-          wr: '100%',
+          wr: '80%',
         },
         {
           name: 'Stamina Cost',
@@ -101,7 +101,7 @@ export const frontmatter = {
           name: 'Damage',
           amount: ['80', '115', '150', '185', '220'],
           cr: '80%',
-          wr: '80%',
+          wr: '60%',
         },
         {
           name: 'Stamina Cost',
@@ -117,13 +117,13 @@ export const frontmatter = {
         },
         {
           name: 'Passive Damage Reduction',
-          amount: ['15%', '17.5%', '20%', '22.5%', '25%'],
+          amount: ['20%', '20%', '20%', '20%', '20%'],
           cr: '12.5%',
           wr: '',
         },
         {
           name: 'Active Damage Reduction',
-          amount: ['40%', '45%', '50%', '55%', '60%'],
+          amount: ['60%', '60%', '60%', '60%', '60%'],
           cr: '15%',
           wr: '',
         },

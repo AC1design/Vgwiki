@@ -235,9 +235,9 @@ export const frontmatter = {
       opals: true,
     },
     {
-      color: 'red',
+      color: '#FF9000',
       name: 'Snow Queen Celeste',
-      type: 'Special Edition',
+      type: 'Legendary',
       image: 'Celeste_Snow_Queen',
     },
   ],

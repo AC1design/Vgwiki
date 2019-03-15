@@ -44,13 +44,13 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['3s', '3s', '3s', '3s', '3s'],
+          amount: ['2s', '2s', '2s', '2s', '2s'],
           cr: '',
           wr: '',
         },
         {
           name: 'Energy Cost',
-          amount: ['60', '65', '70', '75', '80'],
+          amount: ['60', '60', '60', '60', '60'],
           cr: '',
           wr: '',
         },
@@ -108,7 +108,7 @@ export const frontmatter = {
         },
         {
           name: 'Bonus Attack Range',
-          amount: ['0', '0.2', '0.4', '0.6', '1.2'],
+          amount: ['1.2', '1.2', '1.2', '1.2', '1.2'],
           cr: '',
           wr: '',
         },

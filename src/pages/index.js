@@ -98,26 +98,20 @@ VGWIKI.xyz is not affiliated or part of Super Evil Megacorp. All Vainglory copyr
 export default IndexPage
 export const pageQuery = graphql`
   {
-    imageOne: file(relativePath: { eq: "SanFeng_Desktop.jpg" }) {
+    imageOne: file(relativePath: { eq: "41bgdesktop.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "SanFeng_Mobile.jpg" }) {
+    imageTwo: file(relativePath: { eq: "41bgmobile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "SanFeng_Mobile.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 2560) {
-          ...GatsbyImageSharpFluid_tracedSVG
-        }
-      }
-    }
+    
   }
 `

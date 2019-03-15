@@ -143,7 +143,7 @@ export const frontmatter = {
         },
         {
           name: 'Bonus Attack Speed',
-          amount: ['10%', '25%', '40%'],
+          amount: ['10%', '20%', '30%'],
           cr: ' ',
           wr: ' ',
         },
@@ -187,6 +187,20 @@ export const frontmatter = {
       color: '#6393F9',
       type: 'Rare',
       image: 'Varya_WinterWar',
+    },
+    {
+      name: 'Athena Varya',
+      color: '#FF9000',
+      type: 'Legendary',
+      image: 'Varya_Athena',
+    },
+    {
+      name: 'Ares Varya',
+      color: 'red',
+      type: 'Special Edition',
+      image: 'Varya_Ares',
+      price: '2599',
+      opals: false,
     },
   ],
 }

@@ -26,7 +26,7 @@ export const frontmatter = {
       image: 'Gwen-P',
       text: [
         "After not attacking for 1.4s, Gwen's next basic attack is a Boomstick shot that deals bonus damage.",
-        '• Bonus damage: 20-110 (+40% of bonus weapon power)',
+        '• Bonus damage: 25.80 (+40% of bonus weapon power)',
         '• Additional attack speed increase the frequency of Boomstick shots.',
       ],
     },
@@ -114,7 +114,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['80s', '65s', '50s'],
+          amount: ['90s', '75s', '60s'],
           cr: '',
           wr: '',
         },

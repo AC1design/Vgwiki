@@ -71,7 +71,7 @@ export const frontmatter = {
         },
         {
           name: 'Slow Duration',
-          amount: ['2s', '2s', '2s', '2s', '2.5s'],
+          amount: ['1s', '1.3s', '1.6s', '1.9s', '2.5s'],
           cr: '',
           wr: '',
         },
@@ -117,7 +117,7 @@ export const frontmatter = {
         },
         {
           name: 'Attack Speed',
-          amount: ['20%', '30%', '40%', '50%', '60%'],
+          amount: ['30%', '35%', '40%', '45%', '50%'],
           cr: '',
           wr: '',
         },

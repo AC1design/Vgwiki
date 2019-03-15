@@ -44,7 +44,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
+          amount: ['8s', '8s', '8s', '8s', '8s'],
           cr: '',
           wr: '',
         },
@@ -62,7 +62,7 @@ export const frontmatter = {
         },
         {
           name: 'Duration (Tripwire)',
-          amount: ['3s', '3.5s', '4s', '4.5s', '6s'],
+          amount: ['4s', '4.5s', '5s', '5.5s', '7s'],
           cr: '',
           wr: '',
         },

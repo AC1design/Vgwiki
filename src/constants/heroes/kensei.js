@@ -11,7 +11,7 @@ export const frontmatter = {
     { name: 'HEALTH REGEN', value: '4.01 - 7.42', color: '#4eec8b' },
     { name: 'ENERGY', value: '280 - 643', color: '#5bbcff' },
     { name: 'ENERGY REGEN', value: '1.87 - 4.29', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '74 - 129', color: '#f48596' },
+    { name: 'WEAPON DAMAGE', value: '78 - 140', color: '#f48596' },
     { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
@@ -43,7 +43,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['14s', '13s', '12s', '11s', '8s'],
+          amount: ['12s', '11s', '10s', '9s', '7s'],
           cr: '',
           wr: '',
         },
@@ -57,7 +57,7 @@ export const frontmatter = {
           name: 'Damage',
           amount: ['20', '40', '60', '80', '100'],
           cr: '',
-          wr: '50%',
+          wr: '65%',
         },
         {
           name: 'Slow (Kensho)',
@@ -102,7 +102,7 @@ export const frontmatter = {
           name: 'Fortified Health/sec',
           amount: ['30', '50', '70', '90', '110'],
           cr: '',
-          wr: '20%',
+          wr: '50%',
         },
       ],
     },

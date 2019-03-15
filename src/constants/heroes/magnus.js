@@ -59,7 +59,7 @@ export const frontmatter = {
         {
           name: 'Damage (Split Missiles)',
           amount: ['60', '105', '150', '195', '240'],
-          cr: '75%',
+          cr: '80%',
           wr: '',
         },
         {
@@ -99,7 +99,13 @@ export const frontmatter = {
         },
         {
           name: 'Stun Duration',
-          amount: ['0.4s', '0.5s', '0.6s', '0.7s', '0.9s'],
+          amount: ['0.4s', '0.5s', '0.6s', '0.7s', '1s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Range',
+          amount: ['10', '10', '10', '10', '10'],
           cr: '',
           wr: '',
         },
@@ -129,7 +135,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['250', '375', '500'],
+          amount: ['250', '425', '550'],
           cr: '120%',
           wr: '',
         },

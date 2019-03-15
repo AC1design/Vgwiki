@@ -60,8 +60,8 @@ export const frontmatter = {
         {
           name: 'Damage/sec',
           amount: ['140', '180', '220', '260', '340'],
-          cr: '175%',
-          wr: '100%',
+          cr: '180%',
+          wr: '120%',
         },
         {
           name: 'Bonus Damage',
@@ -234,6 +234,12 @@ export const frontmatter = {
       color: '#FF9000',
       type: 'Legendary',
       image: 'Skye_Ride_or_Die',
+    },
+    {
+      name: 'Exoframe Skye',
+      color: '#FF9000',
+      type: 'Legendary',
+      image: 'Skye_Exoframe',
     },
   ],
 }

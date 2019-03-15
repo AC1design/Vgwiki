@@ -38,7 +38,7 @@ export const frontmatter = {
       image: 'Idris-A',
       text: [
         'Idris dashes in the target direction, dealing amplified damage to the next target he attacks within 4s.',
-        '• If Idris has not taken damage within the last 7s, Shroudstep grants a 1.5s barrier.',
+        '• If Idris has not taken damage within the last 7s, Shroudstep grants a 2s barrier.',
         "Barrier lockout duration scales down with 3% of Idris's bonus weapon power.",
         '• The availability of the barrier is displayed beneath his stamina meter.',
       ],
@@ -69,7 +69,7 @@ export const frontmatter = {
         },
         {
           name: 'Barrier Strenght',
-          amount: ['70', '115', '160', '205', '250'],
+          amount: ['90', '130', '170', '210', '250'],
           cr: '',
           wr: '120%',
         },

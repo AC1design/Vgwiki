@@ -83,7 +83,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['30', '35', '40', '45', '25'],
+          amount: ['50', '55', '60', '65', '35'],
           cr: '',
           wr: '',
         },
@@ -194,18 +194,18 @@ export const frontmatter = {
       opals: true,
     },
     {
+      color: '#FF9000',
+      name: 'Teddy Bear Joule',
+      type: 'Legendary',
+      image: 'Joule_Teddy_Bear',
+    },
+    {
       color: 'red',
       name: 'Panda Joule',
       type: 'Special Edition',
       image: 'Joule_Panda',
       price: '500',
       opals: true,
-    },
-    {
-      color: 'red',
-      name: 'Teddy Bear Joule',
-      type: 'Special Edition',
-      image: 'Joule_Teddy_Bear',
     },
   ],
 }

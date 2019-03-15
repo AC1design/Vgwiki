@@ -183,5 +183,12 @@ export const frontmatter = {
       image: 'Lorelai_Legendary',
     },
   ],
-  skins: [],
+  skins: [
+    {
+      color: '#7A02EA',
+      name: 'Dark Siren Lorelai',
+      type: 'Epic',
+      image: 'Lorelai_Dark_Siren',
+    },
+  ],
 }

@@ -26,7 +26,7 @@ export const frontmatter = {
       text: [
         'Every 6s, Samuels next basic attack fires a bolt of dark power that deals bonus crystal damage and draws health & energy back to Samuel.',
         '• Crystal Damage: 50-160 (level 1-12).',
-        '• Healing: 20-200 (level 1-12).',
+        '• Healing: 10-120 (level 1-12).',
         '• Recharge: 30-200 (level 1-12) energy.',
         '• The restorative powers are only 25% as effective against non-heroes.',
       ],
@@ -103,7 +103,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage/sec',
-          amount: ['40', '55', '70', '85', '100'],
+          amount: ['20', '30', '40', '50', '60'],
           cr: '10%',
           wr: '',
         },

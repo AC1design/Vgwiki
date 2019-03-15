@@ -217,7 +217,7 @@ export const frontmatter = {
     },
     {
       color: 'red',
-      name: 'Moon Empress\nLyra',
+      name: 'Moon Empress Lyra',
       type: 'Special Edition',
       image: 'Lyra_Empress',
       price: '150',
@@ -238,6 +238,12 @@ export const frontmatter = {
       image: 'Lyra_Queen',
       price: '150',
       opals: true,
+    },
+    {
+      color: '#FF9000',
+      name: 'Tidal Enchanter Lyra',
+      type: 'Legendary',
+      image: 'Lyra_Tidal_Enchanter',
     },
   ],
 }

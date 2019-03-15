@@ -50,21 +50,21 @@ const Pings = props => (
   <Pingsbox bg={props.bg}>
     <Namepack>{props.namepack}</Namepack>
     <Pingsgroup>
-      <PingImg src={props.ping1} />
-      <PingImg src={props.ping2} />
-      <PingImg src={props.ping3} />
-      <PingImg src={props.ping4} />
-      <PingImg src={props.ping5} />
-      <PingImg src={props.ping6} />
-      <PingImg src={props.ping7} />
-      <PingImg src={props.ping8} />
-      <PingImg src={props.ping9} />
-      <PingImg src={props.ping10} />
-      <PingImg src={props.ping11} />
-      <PingImg src={props.ping12} />
-      <PingImg src={props.ping13} />
-      <PingImg src={props.ping14} />
-      <PingImg src={props.ping15} />
+      <PingImg src={props.ping1} className="animated zoomIn"/>
+      <PingImg src={props.ping2} className="animated zoomIn"/>
+      <PingImg src={props.ping3} className="animated zoomIn"/>
+      <PingImg src={props.ping4} className="animated zoomIn"/>
+      <PingImg src={props.ping5} className="animated zoomIn"/>
+      <PingImg src={props.ping6} className="animated zoomIn"/>
+      <PingImg src={props.ping7} className="animated zoomIn"/>
+      <PingImg src={props.ping8} className="animated zoomIn"/>
+      <PingImg src={props.ping9} className="animated zoomIn"/>
+      <PingImg src={props.ping10} className="animated zoomIn"/>
+      <PingImg src={props.ping11} className="animated zoomIn"/>
+      <PingImg src={props.ping12} className="animated zoomIn"/>
+      <PingImg src={props.ping13} className="animated zoomIn"/>
+      <PingImg src={props.ping14} className="animated zoomIn"/>
+      <PingImg src={props.ping15} className="animated zoomIn"/>
     </Pingsgroup>
   </Pingsbox>
 )

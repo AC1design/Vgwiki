@@ -127,7 +127,7 @@ export const frontmatter = {
       type: 'ULTIMATE',
       image: 'Ringo-C',
       text: [
-        'Ringo takes a long swig from his gourd, then spits out a scorching fireball at his target. The explosion deals splash damage on impact and sets the target on fire, burning it & nearby enemies for 7s.',
+        'Ringo takes a long swig from his gourd, then spits out a scorching fireball at his target. The explosion deals splash damage on impact and sets the target on fire, burning it & nearby enemies for 4s.',
         '• The fire pierces all shield on impact.',
       ],
       stats: [
@@ -145,14 +145,14 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['250', '365', '480'],
+          amount: ['300', '400', '500'],
           cr: '75%',
           wr: '',
         },
         {
           name: 'Burn Damage',
-          amount: ['30', '50', '70'],
-          cr: '20%',
+          amount: ['55', '90', '125'],
+          cr: '40%',
           wr: '',
         },
       ],

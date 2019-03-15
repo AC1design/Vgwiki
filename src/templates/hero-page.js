@@ -19,7 +19,7 @@ export default function({ data }) {
   return (
     <Layout>
       <div style={{ height: '100%' }}>
-        <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
+        <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={4}>
           <Heroes
             heroname={hero.name}
             role={hero.type.join(', ')}
@@ -118,6 +118,10 @@ export default function({ data }) {
           <AdComponent />
         </Page>
       </div>
+      <script
+        async
+        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      />
     </Layout>
   )
 }

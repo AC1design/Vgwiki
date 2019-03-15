@@ -213,5 +213,11 @@ export const frontmatter = {
       type: 'Rare',
       image: 'Alpha_Heartless_Rare',
     },
+    {
+      color: '#FADA5E',
+      name: 'Contender Alpha',
+      type: 'Limited Edition',
+      image: 'Alpha_Contender',
+    },
   ],
 }

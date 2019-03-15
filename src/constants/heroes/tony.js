@@ -24,7 +24,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Tony-P',
       text: [
-        'When Tony receives damage, he gains 60-302 (level 1-12) (+20% of his bonus health) health barrier for 2s. This cannot occur again within 12s-6.5s (level 1-12).',
+        'When Tony receives damage, he gains 60-302 (level 1-12) (+20% of his bonus health) health barrier for 2s. This cannot occur again within 10s-4.5s (level 1-12).',
       ],
       stats: [],
     },
@@ -33,10 +33,40 @@ export const frontmatter = {
       type: 'A ABILITY',
       image: 'Tony-A',
       text: [
-        'Tony’s next three basic attacks are empowered. These attacks launch Tony toward his target, dealing bonus damage. The third attack is a two-handed strike that will stun his target.',
+        'Tony’s next three basic attacks are empowered for 8s. These attacks launch Tony toward his target, dealing bonus damage. The third attack is a two-handed strike that will stun his target.',
         '• Tony also gains a decaying move speed bonus when activating this ability.',
       ],
       stats: [
+        {
+          name: 'Cooldown',
+          amount: ['12s', '12s', '12s', '12s', '11s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['30', '40', '50', '60', '70'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Weapon Damage',
+          amount: ['10', '20', '30', '40', '50'],
+          cr: '',
+          wr: '60%',
+        },
+        {
+          name: 'Bonus Move Speed',
+          amount: ['1.2', '1.2', '1.2', '1.2', '1.2'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Duration',
+          amount: ['0.6', '0.6', '0.6', '0.6', '0.6'],
+          cr: '',
+          wr: '',
+        },
       ],
     },
     {
@@ -50,6 +80,36 @@ export const frontmatter = {
         '• The duration is further increased with weapon power up to a cap of 1.8s with 300 weapon power.',
       ],
       stats: [
+        {
+          name: 'Cooldown',
+          amount: ['22s', '20s', '18s', '16s', '14s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['35', '40', '45', '50', '55'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['50', '90', '130', '170', '210'],
+          cr: '125%',
+          wr: '',
+        },
+        {
+          name: 'Range',
+          amount: ['8', '8', '8', '8', '8'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Duration',
+          amount: ['0.8', '0.8', '0.8', '0.8', '1.2'],
+          cr: '',
+          wr: '',
+        },
       ],
     },
     {
@@ -60,7 +120,30 @@ export const frontmatter = {
         'Tony winds up, then dashes to target location, releasing a massive uppercut. This colossal punch deals damage and knocks away all enemies caught in the area.',
       ],
       stats: [
-        
+        {
+          name: 'Cooldown',
+          amount: ['90s', '75s', '60s'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Energy Cost',
+          amount: ['60', '75', '90'],
+          cr: '',
+          wr: '',
+        },
+        {
+          name: 'Damage',
+          amount: ['400', '525', '650'],
+          cr: '100%',
+          wr: '100%',
+        },
+        {
+          name: 'Range',
+          amount: ['12', '15', '18'],
+          cr: '',
+          wr: '',
+        },
       ],
     },
   ],
@@ -81,7 +164,7 @@ export const frontmatter = {
       color: '#7A02EA',
       text: [
         'Tony’s Jawbreaker (A) now deals damage in an area around the target.',
-        '• Bonus Damage 30% (+2.5%)',
+        '• Bonus Damage 20% (+2.5%)',
       ],
     },
     {
@@ -90,7 +173,7 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'Tony takes no damage from taunted targets.',
-        '• Barrier Duration 1s',
+        '• Barrier Duration 1s (+0.3s)',
       ],
     },
   ],

@@ -262,7 +262,7 @@ export const frontmatter = {
     {
       color: 'red',
       name: 'Beeach Patrol Catherine',
-      text: 'Special Edition',
+      type: 'Special Edition',
       image: 'Catherine_Summer_Black_Orange',
     },
     {

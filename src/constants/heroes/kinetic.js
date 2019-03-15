@@ -105,7 +105,7 @@ export const frontmatter = {
     },
     {
       video: 'Kinetic-C',
-      name: 'IRON MANDATE',
+      name: 'CHARGED PULSE',
       type: 'ULTIMATE',
       image: 'Kinetic-C',
       text: [
@@ -128,9 +128,9 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['200', '300', '400'],
-          cr: '130%',
-          wr: '100%',
+          amount: ['300', '450', '600'],
+          cr: '150%',
+          wr: '120%',
         },
       ],
     },

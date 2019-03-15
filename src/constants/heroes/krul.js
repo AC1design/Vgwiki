@@ -255,7 +255,7 @@ export const frontmatter = {
     {
       color: '#FF9000',
       name: 'Cyber Krul Prime',
-      type: 'Legendary',
+      type: 'Legendary ',
       image: 'Krul_Cyber_Prime',
     },
     {

@@ -167,5 +167,12 @@ export const frontmatter = {
       image: 'SanFeng_Legendary',
     },
   ],
-  skins: [],
+  skins: [
+    {
+      color: '#6393F9',
+      name: 'Yin Yang \nSan Feng',
+      type: 'Rare',
+      image: 'SanFeng_YinYang',
+    },
+  ],
 }

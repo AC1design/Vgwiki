@@ -85,6 +85,7 @@ a {
 }
 .Img{
   height:750px;
+  background-size: auto;
 }
 
 .gradient {
