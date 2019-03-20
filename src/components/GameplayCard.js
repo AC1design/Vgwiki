@@ -40,7 +40,8 @@ const GPCard = props => (
     <div>
     <div className="Selectan">
         <h1>Gameplay (Coming Soon)</h1>
-    </div>
+        </div>
+        <div className='CardboxGroupScroll'>
     <div className='CardboxGroup'>
         <Card>
             <Image src={require('./../images/Card.png')} />
@@ -50,7 +51,8 @@ const GPCard = props => (
             <Image src={require('./../images/Card5v5.png')} />
             <Title>5v5</Title>
         </Card>
-    </div>
+            </div>
+        </div>
     </div>
 )
 
