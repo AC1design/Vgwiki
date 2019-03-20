@@ -12,6 +12,7 @@ import SocialPingsMobile from '../components/SocialPingsMobile'
 import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import HatsM from '../components/HatsMobile'
+import GPCard from '../components/GameplayCard';
 
 const IndexPage = props => (
   <Layout>
@@ -50,6 +51,7 @@ const IndexPage = props => (
       <Tabsind />
       <MediaQuery query="(max-width: 1366px)">
         <div className="mobile">
+          <GPCard></GPCard>
           <GridList />
           <AdComponent />
           <ItemsGridList />
@@ -81,8 +83,9 @@ const IndexPage = props => (
             marginTop: '50px',
           }}
         >
-          Copyright © 2019 VGWIKI.xyz
-VGWIKI.xyz is not affiliated or part of Super Evil Megacorp. All Vainglory copyrights and art assets belong to Super Evil Megacorp.\nMade by 
+          <p>Copyright © 2019 VGWIKI</p>
+          <p>VGWIKI is not affiliated or part of Super Evil Megacorp. All Vainglory copyrights and art assets belong to Super Evil Megacorp.</p>
+          Made by 
 {' '}
           <a href="https://twitter.com/AngeloCant1">AngeloC</a>
         </StickyFooter>

@@ -1,9 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import ReactCardFlip from 'react-card-flipper'
-import Button from '@material-ui/core/Button'
-import Tooltip from '@material-ui/core/Tooltip'
-import Grid from '@material-ui/core/Grid';
 
 const HatBox = styled.div`
 width: 190px;

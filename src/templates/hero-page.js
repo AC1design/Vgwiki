@@ -10,6 +10,7 @@ import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
 import AdComponent from '../components/ad'
 import Vgpro from '../components/Vgprocard'
+import StickyFooter from 'react-sticky-footer'
 
 export default function({ data }) {
   const hero = data.allJavascriptFrontmatter.edges.length
@@ -116,6 +117,32 @@ export default function({ data }) {
             </div>
           </div>
           <AdComponent />
+          <StickyFooter
+            className="footer"
+            bottomThreshold={50}
+            normalStyles={{
+              backgroundColor: '#2B2B2D',
+              padding: '1rem',
+              fontSize: '12px',
+              color: 'white',
+              textAlign: 'center',
+              marginTop: '50px',
+            }}
+            stickyStyles={{
+              backgroundColor: '#2B2B2D',
+              padding: '1rem',
+              fontSize: '12px',
+              color: 'white',
+              textAlign: 'center',
+              marginTop: '50px',
+            }}
+          >
+            <p>Copyright © 2019 VGWIKI</p>
+            <p>VGWIKI is not affiliated or part of Super Evil Megacorp. All Vainglory copyrights and art assets belong to Super Evil Megacorp.</p>
+            Made by
+{' '}
+            <a href="https://twitter.com/AngeloCant1">AngeloC</a>
+          </StickyFooter>
         </Page>
       </div>
       <script
