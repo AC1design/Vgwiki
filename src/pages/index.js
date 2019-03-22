@@ -13,13 +13,11 @@ import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import HatsM from '../components/HatsMobile'
 import GPCard from '../components/GameplayCard';
-import AdBlockDet from '../components/Adblockblock';
 
 const IndexPage = props => (
   <Layout>
     <meta name="theme-color" content="#1f1f21" />
     <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
-      <AdBlockDet></AdBlockDet>
       <MediaQuery query="(min-width: 721px)">
         <div className="Hero">
           <div className="HeroContainer">
