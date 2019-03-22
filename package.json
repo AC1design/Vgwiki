@@ -25,6 +25,7 @@
     "gatsby-transformer-sharp": "^2.1.15",
     "hoist-non-react-statics": "^3.3.0",
     "react": "^16.8.4",
+    "react-ad-block-detect": "^1.0.1",
     "react-adsense": "0.0.6",
     "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.0.0-beta.5",

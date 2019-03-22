@@ -26,6 +26,8 @@ export const hats = [
         material1: 'Spectral_Essence', qt1: '4',
         material2: 'Treants_Flower', qt2: '3',
         material3: 'Trickster_Seed', qt3: '2',
+        point: '?',
+        exclusions: 'INCOMPATIBLE WITH: Headless Idris',
     },
     {
         name: 'Halo Standard',

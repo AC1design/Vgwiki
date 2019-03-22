@@ -47,53 +47,54 @@ const PingImg = styled.img`
   }
 `
 
+
 const Pings = props => (
   <Pingsbox bg={props.bg}>
     <Namepack>{props.namepack}</Namepack>
     <Pingsgroup>
-      <ScrollAnimation animateIn="fadeIn" animateOnce>
+      <ScrollAnimation animateIn="zoomIn" animateOnce>
         <PingImg src={props.ping1} className="animated zoomIn" />
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOnce>
+      <ScrollAnimation animateIn="zoomIn" animateOnce>
         <PingImg src={props.ping2} className="animated zoomIn" />
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOnce>
+      <ScrollAnimation animateIn="zoomIn" animateOnce>
         <PingImg src={props.ping3} className="animated zoomIn" />
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOnce>
+      <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping4} className="animated zoomIn" />
       </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeIn" animateOnce>
+      <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping5} className="animated zoomIn" />
       </ScrollAnimation>
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping6} className="animated zoomIn" />
     </ScrollAnimation>
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping7} className="animated zoomIn" />
     </ScrollAnimation >
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping8} className="animated zoomIn" />
     </ScrollAnimation >
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping9} className="animated zoomIn" />
     </ScrollAnimation >
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping10} className="animated zoomIn" />
     </ScrollAnimation >
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping11} className="animated zoomIn" />
     </ScrollAnimation >
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping12} className="animated zoomIn" />
     </ScrollAnimation >
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping13} className="animated zoomIn" />
     </ScrollAnimation >
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping14} className="animated zoomIn" />
     </ScrollAnimation >
-    <ScrollAnimation animateIn="fadeIn" animateOnce>
+    <ScrollAnimation animateIn="zoomIn" animateOnce>
       <PingImg src={props.ping15} className="animated zoomIn" />
     </ScrollAnimation >
       

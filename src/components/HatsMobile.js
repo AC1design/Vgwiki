@@ -20,6 +20,8 @@ const HatsM = props => (
                         mat3={require(`./../images/Hats/Materials/${hat.material3}.png`)}
                         qt3={hat.qt3}
                         text={hat.text}
+                        point={hat.point}
+                        exclusions={hat.exclusions}
                         key={index}
                     />
                 ))}

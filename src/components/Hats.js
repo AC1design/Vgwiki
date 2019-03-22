@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import ReactCardFlip from 'react-card-flipper'
+import Button from '@material-ui/core/Button';
+import Tooltip from '@material-ui/core/Tooltip';
+import { withStyles } from '@material-ui/core/styles'
 
 const HatBox = styled.div`
 width: 190px;
@@ -48,6 +51,25 @@ border-radius: 100px;
 border: 2px solid white;
 box-shadow: 0px 0px 10px white;
 `
+const StyledButton = withStyles({
+    root: {
+        background: 'rgba(255, 255, 255, 0.274)',
+        position: 'absolute',
+        marginTop: '0px',
+        color: 'white',
+        fontSize: '12px',
+        minWidth: '0px',
+        boxSizing: 'border-box',
+        minHeight: '0px',
+        transition:
+            'background-color 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms, box - shadow 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms',
+        fontWeight: 600,
+        fontFamily: '"Roboto", "Helvetica", "Arial", sans - serif',
+        borderRadius: '4px',
+    },
+    label: {
+    },
+})(Button)
 
 class Hat extends React.Component {
     constructor() {
@@ -92,7 +114,7 @@ class Hat extends React.Component {
                         <p style={{ fontSize: '12px', background: 'rgba(255, 255, 255, 0.274)', borderRadius: '50px', color: 'white', padding: '3px'}}>{this.props.qt2}</p>
                         <p style={{ fontSize: '12px', background: 'rgba(255, 255, 255, 0.274)', borderRadius: '50px', color: 'white', padding: '3px'}}>{this.props.qt3}</p>
                     </MaterialsGroup>
-                </HatBox>
+                    </HatBox>
             </ReactCardFlip>
         )
     }
