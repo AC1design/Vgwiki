@@ -137,7 +137,7 @@ export const frontmatter = {
       ],
     },
     {
-      name: 'VERSE OF JUDGEMENT',
+      name: 'Blinding Mine',
       type: 'ULTIMATE',
       image: 'Ylva-C',
       text: [
