@@ -690,7 +690,7 @@ export const itemBoxes = [
     cost: '2100',
     description:
       '+500 Health\n+30 Armor\n+30 Shield\n+5% Cooldown Reduction (Max 35%)\n\nPassive: After using an ability, your next basic attack against an enemy hero applies a barrier 150 (+15% of bonus health) to all nearby allies for 2 seconds (10s cooldown).',
-    item1: 'dragonheart',
+    item1: 'protector-contract',
     item2: 'warmail',
   },
   {

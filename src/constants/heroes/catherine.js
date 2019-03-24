@@ -26,7 +26,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Catherine-P',
       text: [
-        'Catherine gains 1 armor and shield every time she stuns or silences or silences an enemy hero with her abilities.',
+        'Catherine gains 1 armor and shield every time she stuns or silences an enemy hero with her abilities.',
       ],
     },
     {

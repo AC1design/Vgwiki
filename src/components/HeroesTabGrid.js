@@ -118,7 +118,7 @@ class HeroesGrid extends React.Component {
       <div>
         <Selectan>
           <div className="Selectan">
-            <h1>Select an Hero</h1>
+            <h1>Select a Hero</h1>
           </div>
           <StyledButton
             aria-owns={open ? 'fade-menu' : undefined}

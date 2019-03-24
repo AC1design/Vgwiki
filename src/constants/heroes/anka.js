@@ -182,5 +182,11 @@ export const frontmatter = {
       type: 'Rare',
       image: 'Anka_Frostborn',
     },
+    {
+      color: '#7A02EA',
+      name: 'Feathered Anka',
+      type: 'Epic',
+      image: 'Anka_Feathered',
+    },
   ],
 }
