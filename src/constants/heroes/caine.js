@@ -161,7 +161,7 @@ export const frontmatter = {
             image: 'Caine_Epic',
         },
         {
-            name: 'Healing Verse',
+            name: 'VOLCANIC',
             type: 'Legendary',
             color: '#FF9000',
             text: [
