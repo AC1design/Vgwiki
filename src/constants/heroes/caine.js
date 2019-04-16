@@ -1,7 +1,7 @@
 export const frontmatter = {
     name: 'Caine',
     type: ['LANE', 'SNIPER'],
-    role: ['CAPTAIN'],
+    role: ['LANE'],
     path: '/Caine',
     description: 'Hitman who wields his revolver with deadly',
     spotlight: '',
