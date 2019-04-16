@@ -21,7 +21,7 @@ export const frontmatter = {
     skills: [
         {
             video:'Caine-P',
-            name: 'PEACE KEEPER',
+            name: 'PEACEMAKER',
             type: 'Perk',
             image: 'Caine-P',
             text: [
@@ -35,7 +35,7 @@ export const frontmatter = {
 
         {
             video:'Caine-A',
-            name: 'BULLET TRIO',
+            name: 'TRIPLE TAP',
             type: 'A ABILITY',
             text: [
                 "Caine faces towards and rapidly fires a maximum of 3 Bullets in a straight line, causing damage to enemies and slowing them",
@@ -76,7 +76,7 @@ export const frontmatter = {
         },
         {
             video:'Caine-B',
-            name: 'ENDLESS NIGHTMARE',
+            name: 'ONCE MORE',
             type: 'B ABILITY',
             image: 'Caine-B',
             text: [
@@ -107,7 +107,7 @@ export const frontmatter = {
         },
         {
             video:'Caine-C',
-            name: 'PRAYER AT DEATH',
+            name: 'PLAST RITES',
             type: 'ULTIMATE',
             image: 'Caine-C',
             text: [
