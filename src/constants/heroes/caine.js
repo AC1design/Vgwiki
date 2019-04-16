@@ -107,7 +107,7 @@ export const frontmatter = {
         },
         {
             video:'Caine-C',
-            name: 'PLAST RITES',
+            name: 'LAST RITES',
             type: 'ULTIMATE',
             image: 'Caine-C',
             text: [
