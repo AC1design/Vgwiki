@@ -102,7 +102,7 @@ class HeroesGrid extends React.Component {
 
   makeHeroCard = (hero, index) => (
     <Frame
-      image={`https://vgproassets.nyc3.cdn.digitaloceanspaces.com/heroes/${hero.name.toLowerCase()}.png`}
+      image={require(`./../images/heroes/${hero.name.toLowerCase()}.png`)}
       link={hero.name}
       key={index}
       roleimg={require(`./../images/${hero.type[0]}.png`)}
