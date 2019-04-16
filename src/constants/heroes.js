@@ -6,6 +6,7 @@ import { frontmatter as baptiste } from './heroes/baptiste'
 import { frontmatter as baron } from './heroes/baron'
 import { frontmatter as blackfeather } from './heroes/blackfeather'
 import { frontmatter as catherine } from './heroes/catherine'
+import { frontmatter as caine } from './heroes/caine'
 import { frontmatter as celeste } from './heroes/celeste'
 import { frontmatter as churnwalker } from './heroes/churnwalker'
 import { frontmatter as flicker } from './heroes/flicker'
@@ -57,7 +58,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
-  sanfeng,
+  caine,
   adagio,
   alpha,
   anka,
@@ -94,6 +95,7 @@ export const heroCards = [
   reza,
   ringo,
   rona,
+  sanfeng,
   samuel,
   saw,
   silvernail,

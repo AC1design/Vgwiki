@@ -14,7 +14,7 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '2200',
+    cost: '1900',
     tag: 'NEW',
     description:
       '+95 Shield\nPassive: Grants immunity to abilities and debuffs. Disabled for 35s shortly after negating ability damage',
@@ -27,9 +27,9 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '2200',
+    cost: '2400',
     description:
-      '+45 Shield\n+44 Armor\n+200 Max Health\n\nActivate: Reflex Block (45s cooldown).',
+      '+45 Shield\n+44 Armor\n+200 Max Health\n\nActivate: Reflex Block (60s cooldown).',
     tip: 'Tip: Greatly reduces damage from enemy abilities.',
     item1: 'reflex-block',
     item2: 'warmail',
@@ -66,7 +66,7 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '1750',
+    cost: '1700',
     description:
       '+65 Armor\nActivate: Maim nearby enemies, lowering their attack speed by 65% of their total for 4s in a 4-meter range. (45s cooldown)',
     tip:
@@ -127,7 +127,7 @@ export const itemBoxes = [
     color: '#ED5565',
     cost: '300',
     description:
-      '+5 Weapon Power\n+5% Weapon Lifesteal\n\nPassive: Restores 10 health whenever you kill a minion or monster (25 if using a melee default attack).',
+      '+5 Weapon Power\n+5% Weapon Lifesteal\n\nPassive: Restores 10 health whenever you kill a minion or monster (30 if using a melee default attack).',
     tip: 'Tip: Helps you stay healthy while last-hitting in lane.',
     item4: 'barbed-needle',
   },
@@ -139,7 +139,7 @@ export const itemBoxes = [
     color: '#ED5565',
     cost: '2700',
     description:
-      '+20% Attack Speed\n+50 Weapon Power\n\nPassive: Gain 5 Weapon Power for every 100 weapon damage done to enemy heroes; +5/10 (melee/ranged) needed for each stack thereafter. 35 stacks max. Decays 5 stacks per second after you’ve stopped attacking for 2.5s.',
+      '+20% Attack Speed\n+50 Weapon Power\n\nPassive: Gain 5 Weapon Power for every 100 weapon damage done to enemy heroes; +5/10 (melee/ranged) needed for each stack thereafter. 35 stacks max. Decays 5 stacks per second after you’ve stopped attacking for 3s.',
     tip:
       'Tip: Very weak at first, but becomes extremely powerful over the course of long battles.',
     item1: 'heavy-steel',
@@ -163,9 +163,9 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '2100',
+    cost: '2000',
     description:
-      '+400 Health\n+30 Armor\n+30 Shield\n+15% Cooldown Reduction (Max 35%)\n+2.5 Energy Regen\n\nPassive: Your heals and barriers are 15% stronger.\nPassive: Your heals and barriers also grant other allied heroes bonus movement speed for 2s. (10s cooldown per hero)',
+      '+450 Health\n+30 Armor\n+30 Shield\n+15% Cooldown Reduction (Max 35%)\n+2.5 Energy Regen\n\nPassive: Your heals and barriers are 15% stronger.\nPassive: Your heals and barriers also grant other allied heroes bonus movement speed for 3s. (15s cooldown per hero)',
     tip: 'Tip: Buy this if your hero utilizes heals or barriers frequently.',
     item1: 'dragonheart',
     item2: 'warmail',
@@ -390,7 +390,7 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '2400',
+    cost: '2100',
     description:
       '+400 Max Health\n+40 Shield\n+40 Armor\n\nPassive: Lifespring\nActivate: Heals you and nearby allies for 2.5 health for each % missing health per second for 3s. (75s cooldown)',
     tip: 'Tip: Heal is especially powerful on allies who are almost dead.',
@@ -416,9 +416,9 @@ export const itemBoxes = [
     class: 'UTILITY',
     tier: 'TIER 3',
     color: '#AC92EC',
-    cost: '1500',
+    cost: '1400',
     description:
-      '+150 Max Health\n+10% Cooldown Speed Max 35%)\n+250 Max Energy\n+3.5 Energy Recharge\n\nPassive: +0.7 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (45s cooldown).',
+      '+150 Max Health\n+10% Cooldown Speed Max 35%)\n+250 Max Energy\n+3.5 Energy Recharge\n\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (45s cooldown).',
     tip:
       'Tip: Allows you to chase down enemy targets and use abilities more frequently... or to escape trouble!',
     item1: 'travel-boots',
@@ -484,9 +484,9 @@ export const itemBoxes = [
     class: 'UTILITY',
     tier: 'TIER 2',
     color: '#AC92EC',
-    cost: '1500',
+    cost: '1400',
     description:
-      '+150 Max Health\nPassive: +0.7 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (75s cooldown). Damaging heroes instantly sets the cooldown to 10s if it is above it.',
+      '+150 Max Health\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (60s cooldown). Damaging heroes instantly sets the cooldown to 15s if it is above it.',
     tip:
       'Tip: Purchase to be able to chase down fleeing targets and sustain pressure.',
     item1: 'travel-boots',
@@ -572,7 +572,7 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '2200',
+    cost: '1900',
     description:
       '+95 Armor\nPassive: Reduces incoming damage from Basic Attacks by 15%.',
     tip: 'Tip: Armor reduces damage from basic attacks.',
@@ -659,9 +659,9 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '2250',
+    cost: '2000',
     description:
-      '+600 Max Health\n\nUpon taking damage from an enemy hero, gain bonus movement speed for 3s then deal 50 (+25% of bonus health) damage and slow enemies by 5% (+0.02% of bonus health) for 2s. Also deals 25% of the burst damage per second to nearby enemies while available. (30s cooldown)\nPassive: +10% base movement speed\nPassive: Lifespring',
+      '+600 Max Health\n\nUpon taking damage from an enemy hero, gain 2.0 bonus movement speed for 3s then deal 50 (+25% of bonus health) damage and slow enemies by 5% (+0.03% of bonus health) for 3s. Also deals 15% of the burst damage per second to nearby enemies while available. (45s cooldown)\nPassive: +8% base movement speed\nPassive: Lifespring',
     tip: 'Tip: Purchase this to strengthen your engage.',
     item1: 'lifespring',
     item2: 'dragonheart',
@@ -674,7 +674,7 @@ export const itemBoxes = [
     color: '#A0D46B',
     cost: '700',
     description:
-      '+150 Max Health\n\nActivate: Gain a barrier worth 100-600 (level 1-12) and block all debuffs for 1.5s. (75s cooldown).',
+      '+150 Max Health\n\nActivate: Gain a barrier worth 100-600 (level 1-12) and block all debuffs for 1.5s. (120s cooldown).',
     tip:
       'Tip: Block dangerous but predictable abilities with your fast reflexes.',
     item1: 'oakheart',
@@ -687,9 +687,9 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '2100',
+    cost: '2000',
     description:
-      '+500 Health\n+30 Armor\n+30 Shield\n+5% Cooldown Reduction (Max 35%)\n\nPassive: After using an ability, your next basic attack against an enemy hero applies a barrier 150 (+15% of bonus health) to all nearby allies for 2 seconds (10s cooldown).',
+      '+550 Health\n+30 Armor\n+30 Shield\n+5% Cooldown Reduction (Max 35%)\n\nPassive: After using an ability, your next basic attack against an enemy hero applies a barrier 150 (+15% of bonus health) to all nearby allies for 2 seconds (10s cooldown).',
     item1: 'protector-contract',
     item2: 'warmail',
   },
@@ -803,9 +803,9 @@ export const itemBoxes = [
     class: 'DEFENSE',
     tier: 'TIER 3',
     color: '#A0D46B',
-    cost: '2300',
+    cost: '2100',
     description:
-      '+55 Armor\n+55 Shield\n\nPassive: Taking 25% of your max health in damage over 1s fortifies your remaining health for 2s (30s cooldown).',
+      '+55 Armor\n+55 Shield\n\nPassive: Taking 25% of your max health in damage over 1s fortifies your remaining health for 3s (30s cooldown).',
     tip: 'Tip: Buy this to survive against opponents with high burst damage.',
     item1: 'coat-of-plates',
     item2: 'kinetic-shield',
@@ -830,7 +830,7 @@ export const itemBoxes = [
     color: '#4A90E2',
     cost: '3000',
     description:
-      '+80 crystal power\n\nPassive: Abilities dealing crystal damage to enemies (excluding lane minions) deal 25-80 (level 1-12) +75% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.',
+      '+80 crystal power\n\nPassive: Abilities dealing crystal damage to enemies (excluding lane minions) deal 7-40 (level 1-12) +90% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.',
     item1: 'heavy-prism',
     item2: 'eclipse-prism',
   },
@@ -856,7 +856,7 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '300',
     description:
-      'Passive: +0.3 move speed. (Does not stack with other boots.)\nActivate: Sprint for 2s (150s cooldown).',
+      'Passive: +0.3 move speed. (Does not stack with other boots.)\nActivate: 3.0 Sprint for 3s (150s cooldown).',
     item4: 'travel-boots',
   },
   {
@@ -867,7 +867,7 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '2400',
     description:
-      '+20% Cooldown Reduction (Max 35%)\n+2 Energy Recharge\n+300 Max Health\n\nStormguard: Your next basic attack will deal 500-750 bonus true damage (6s cooldown). 20% effectiveness against non-jungle monsters. (Does not stack with other Stormguard)',
+      '+20% Cooldown Reduction (Max 35%)\n+2 Energy Recharge\n+300 Max Health\n\nStormguard: Your next basic attack will deal 500-750 bonus true damage (6s cooldown). 25% effectiveness against non-jungle monsters. (Does not stack with other Stormguard)',
     tip: 'Tip: Substantially increases your damage to objectives.',
     item1: 'chronograph',
     item2: 'stormguard-banner',
@@ -880,7 +880,7 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '600',
     description:
-      '+150 Max Health\n\nStormguard: Your next basic attack will deal 250-300 bonus true damage (6s cooldown). 10% effectiveness against non-jungle monsters. (Does not stack with other Stormguard)',
+      '+150 Max Health\n\nStormguard: Your next basic attack will deal 250-300 bonus true damage (6s cooldown). 0% effectiveness against non-jungle monsters. (Does not stack with other Stormguard)',
     tip: 'Tip: Helps you damage objectives such as turrets & jungle bosses.',
     item1: 'oakheart',
     item4: 'stormcrown',
@@ -915,10 +915,10 @@ export const itemBoxes = [
     class: 'UTILITY',
     tier: 'TIER 3',
     color: '#AC92EC',
-    cost: '2000',
+    cost: '1400',
     tag: '5V5',
     description:
-      '+150 Max Health\n+15 Shield\n+15 Armor\n\nBoots: +0.7 move speed (does not stack)\nPassive (Travel): +1 move speed when not in combat with heroes, monsters or turrets.\nActivate: After channeling for 2.5s, teleport to allied structure, minion or Scout Cam. Grant 600 barrier to the target while channeling. Gain a burst of move speed upon arrival (180s cooldown).',
+      '+150 Max Health\n+15 Shield\n+15 Armor\n\nBoots: +0.5 move speed (does not stack)\nPassive (Travel): +1 move speed when not in combat with heroes, monsters or turrets.\nActivate: After channeling for 2.5s, teleport to allied structure, minion or Scout Cam. Grant 600 barrier to the target while channeling. Gain a burst of move speed upon arrival (150s cooldown).',
     tip:
       'Tip: Lets you quickly join your team from across the map or flank unsuspecting opponents.',
     item1: 'travel-boots',
@@ -956,9 +956,9 @@ export const itemBoxes = [
     class: 'UTILITY',
     tier: 'TIER 2',
     color: '#AC92EC',
-    cost: '750',
+    cost: '650',
     description:
-      '+100 Max Health\n\nPassive: +0.4 move speed. (Does not stack with other boots.)\nPassive (Travel): +1 move speed when not in combat with heroes, monsters or turrets.\nActivate: Sprint for 2s (90s cooldown).',
+      '+100 Max Health\n\nPassive: +0.3 move speed. (Does not stack with other boots.)\nPassive (Travel): +0.5 move speed when not in combat with heroes, monsters or turrets.\nActivate: Sprint for 2s (90s cooldown).',
     item1: 'sprint-boots',
   },
   {
@@ -968,7 +968,7 @@ export const itemBoxes = [
     tier: 'TIER 3',
     color: '#ED5565',
     cost: '2900',
-    description: '+35% Critical Chance\n+15% Critical Damage\n+50 Weapon Power',
+    description: '+35% Critical Chance\n+15% Critical Damage\n+60 Weapon Power',
     tip:
       'Tip: Most effective when combined with more weapon power & attack speed.',
     item1: 'six-sins',
@@ -994,8 +994,8 @@ export const itemBoxes = [
     class: 'UTILITY',
     tier: 'TIER 3',
     color: '#AC92EC',
-    cost: '1800',
-    description: '+400 Max Energy\n+3 Energy Recharge\nPassive: +0.7 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Grant a sprint to all nearby teammates for 2s (60s cooldown).',
+    cost: '1600',
+    description: '+400 Max Energy\n+3 Energy Recharge\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Grant a sprint to all nearby teammates for 2s (60s cooldown).',
     tip: 'Tip: Help your entire team engage the enemy team or flee from battle.',
     item1: 'travel-boots',
     item2: 'dragonheart',

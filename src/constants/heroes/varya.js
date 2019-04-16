@@ -16,7 +16,7 @@ export const frontmatter = {
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '6.2', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.2', color: '#e19efb' },
+    { name: 'MOVE SPEED', value: '3.7', color: '#e19efb' },
   ],
   model: [{ image: 'Varyablurred' }, { tmodel: 'Varya' }],
   skills: [
@@ -44,13 +44,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['7s', '6.5s', '6s', '5.5s', '4.5s'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['475', '475', '475', '475', '375'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
@@ -68,7 +68,7 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['12', '12', '12', '12', '12'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
       ],
@@ -88,13 +88,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['25s', '23s', '21s', '19s', '15s'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['200', '200', '200', '200', '200'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
@@ -120,13 +120,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['90s', '75s', '60s'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['400', '450', '600'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
@@ -138,13 +138,13 @@ export const frontmatter = {
         {
           name: 'Bonus Chain Lighting',
           amount: ['1', '2', '3'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Bonus Attack Speed',
           amount: ['10%', '20%', '30%'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
       ],

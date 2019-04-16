@@ -1,4 +1,5 @@
 export const pings = [
+    { name: 'Easter 2019', id: 'Easter' },
     { name: 'Spring 2019', id: 'Spring' },
     { name: 'Valentine’s Day 2019', id: 'Valentine' },
     { name: 'Lunar New Year 2019', id: 'CNY' },

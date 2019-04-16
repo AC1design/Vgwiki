@@ -16,7 +16,7 @@ export const frontmatter = {
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 50', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '2.4', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.5', color: '#e19efb' },
+    { name: 'MOVE SPEED', value: '4.0', color: '#e19efb' },
   ],
   model: [{ image: 'Inarablurred' }, { tmodel: 'Inara' }],
   skills: [
@@ -42,13 +42,13 @@ export const frontmatter = {
           name: 'Cooldown',
           amount: ['6s', '5.5s', '5s', '4.5s', '4s'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '35', '40', '45', '0'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
         {
           name: 'Damage',
@@ -60,19 +60,19 @@ export const frontmatter = {
           name: 'Slow Strenght',
           amount: ['30%', '35%', '40%', '45%', '50%'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
         {
           name: 'Slow Duration',
           amount: ['1.5', '1.5', '1.5', '1.5', '1.5'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
       ],
     },
     {
       video: 'Inara-B',
-      name: 'DANCE OF BLADES',
+      name: 'BANISHING KICK',
       type: 'B ABILITY',
       image: 'Inara-B',
       text: [
@@ -81,15 +81,15 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['14s', '13s', '12s', '11s', '8s'],
+          amount: ['12s', '11.5s', '11s', '10.5s', '8s'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
         {
           name: 'Energy Cost',
-          amount: ['30', '35', '40', '45', '50'],
+          amount: ['60', '60', '60', '60', '60'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
         {
           name: 'Damage',
@@ -101,13 +101,13 @@ export const frontmatter = {
           name: 'Slow Duration',
           amount: ['0.5', '0.5', '0.5', '0.5', '0.5'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
       ],
     },
     {
       video: 'Inara-C1',
-      name: 'MIRAGE',
+      name: `NATURE'S WRATH`,
       type: 'ULTIMATE',
       image: 'Inara-C1',
       text: [
@@ -117,19 +117,19 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['80s', '60s', '40s'],
+          amount: ['90s', '75s', '60s'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
         {
           name: 'Energy Cost',
-          amount: ['60', '80', '100'],
+          amount: ['100', '100', '100'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
         {
           name: 'Damage',
-          amount: ['150', '225', '300'],
+          amount: ['200', '300', '400'],
           cr: '150%',
           wr: '120%',
         },
@@ -137,7 +137,7 @@ export const frontmatter = {
           name: 'Bonus Speed Duration',
           amount: ['10', '10', '10'],
           cr: '',
-          wr: '',
+          wr: ' ',
         },
       ],
     },

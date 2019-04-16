@@ -15,7 +15,7 @@ export const frontmatter = {
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '1.8', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.6', color: '#e19efb' },
+    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'SanFengblurred' }, { tmodel: 'SanFeng' }],
   skills: [
@@ -42,33 +42,33 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['12s', '11s', '10s', '9s', '8s'],
-          cr: ' ',
+          amount: ['10s', '10s', '10s', '10s', '10s'],
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Damage',
-          amount: ['40', '80', '120', '160', '200'],
+          amount: ['35', '80', '125', '170', '260'],
           cr: '80%',
           wr: '100%',
         },
         {
           name: 'Stun Duration',
           amount: ['1.2s', '1.2s', '1.2s', '1.2s', '1.2s'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
       ],
     },
     {
       video: 'SanFeng-B',
-      name: 'ADIVINE FIST',
+      name: 'DIVINE FIST',
       type: 'B ABILITY',
       image: 'SanFeng-B',
       text: [
@@ -78,19 +78,19 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['11s', '10s', '9s', '8s', '7'],
-          cr: ' ',
+          amount: ['10s', '10s', '10s', '10s', '10s'],
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Damage',
-          amount: ['250', '400', '550', '700', '850'],
+          amount: ['200', '375', '550', '725', '900'],
           cr: '60%',
           wr: '40%',
         },
@@ -107,26 +107,26 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['80s', '60s', '40s'],
-          cr: ' ',
+          amount: ['100s', '80s', '60s'],
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0',],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Damage',
-          amount: ['400', '550', '700'],
+          amount: ['400', '600', '800'],
           cr: '60%',
           wr: '40%',
         },
         {
           name: 'Stun Duration',
           amount: ['1.6s', '1.6s', '1.6s'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
       ],

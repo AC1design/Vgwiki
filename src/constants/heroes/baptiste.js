@@ -15,7 +15,7 @@ export const frontmatter = {
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '2.8', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.5', color: '#e19efb' },
+    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'Baptisteblurred' }, { tmodel: 'Baptiste' }],
   skills: [

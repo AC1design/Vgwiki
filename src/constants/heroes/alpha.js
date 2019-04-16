@@ -15,7 +15,7 @@ export const frontmatter = {
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '2.1', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.6', color: '#e19efb' },
+    { name: 'MOVE SPEED', value: '4.0', color: '#e19efb' },
   ],
   model: [{ image: 'Alphablurred' }, { tmodel: 'Alpha' }],
   skills: [
@@ -42,8 +42,8 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['11s', '10s', '9s', '8s', '7s'],
-          cr: ' ',
+          amount: ['8s', '7.5s', '7s', '6.5s', '6s'],
+          cr: '  ',
           wr: ' ',
         },
         {
@@ -67,13 +67,13 @@ export const frontmatter = {
         {
           name: 'Slow',
           amount: ['40%', '50%', '60%', '70%', '80%'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Slow Duration',
           amount: ['1.5s', '1.5s', '1.5s', '1.5s', '1.5s'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
       ],
@@ -92,7 +92,7 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '5.5s', '5s', '4.5s', '4s'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
@@ -104,19 +104,19 @@ export const frontmatter = {
         {
           name: 'Cooldown Reduction',
           amount: ['1', '1', '1', '1', '1.2'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
           name: 'Heal/Stack',
           amount: ['7', '8', '9', '10', '12'],
-          cr: ' ',
+          cr: '  ',
           wr: '3%',
         },
         {
           name: 'Bonus Damage/stack',
           amount: ['11%', '11%', '11%', '11%', '15%'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
       ],
@@ -138,7 +138,7 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['85s', '75s', '65s'],
-          cr: ' ',
+          cr: '  ',
           wr: ' ',
         },
         {
