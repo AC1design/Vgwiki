@@ -4,7 +4,7 @@ export const frontmatter = {
     role: ['LANE'],
     path: '/Caine',
     description: 'Hitman who wields his revolver with deadly',
-    spotlight: '',
+    spotlight: '36HNkV5dRZA',
     stats: [
         { name: 'HEALTH', value: '750 - 2048', color: '#4eec8b' },
         { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
