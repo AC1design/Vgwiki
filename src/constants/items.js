@@ -183,7 +183,7 @@ export const itemBoxes = [
     item1: 'hourglass',
     item4: 'aftershock',
     item5: 'clockwork',
-    item5: 'stormcrown',
+    item6: 'stormcrown',
   },
   {
     image: 'clockwork',
@@ -602,7 +602,7 @@ export const itemBoxes = [
     item4: 'dragonheart',
     item5: 'lifespring',
     item6: 'reflex-block',
-    item6: 'protector-contract',
+    item7: 'protector-contract',
   },
   {
     image: 'piercing-shard',

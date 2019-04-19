@@ -24,7 +24,9 @@ const Vgpro = props => (
     <ScrollAnimation animateIn="fadeInRight" animateOnce>
     <a href={"https://vgpro.gg/heroes/" + props.stats}>
         <Card>
-            <img src={require('./../images/Group.png')}/>
+            <img src={require('./../images/Group.png')}
+                    alt='VGPRO'
+                />
         </Card>
         </a>
     </ScrollAnimation>

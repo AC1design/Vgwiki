@@ -23,6 +23,7 @@ const Skinbox = props => (
         <div className="SkinCost">
           <img
             src={require(`./../images/${props.opals ? 'OPALS' : 'ICE'}.png`)}
+            alt='opals'
           />
           <span>{props.price || skinCosts[props.text.toLowerCase()]}</span>
         </div>
