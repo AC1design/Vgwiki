@@ -3,7 +3,7 @@ module.exports = {
     title: 'VGWIKI',
     description: `A Vainglory Wiki`,
     author: `AngeloCant1 - IGN: AngeloC`,
-    url: "https://www.vgwiki.xyz"
+    url: "https://www.vgwiki.netlify.com"
   },
   plugins: [
     {
