@@ -24,14 +24,15 @@ const Layout = ({ children }) => (
           description={data.site.siteMetadata.description}
           meta={[
             { name: 'description', content: data.site.siteMetadata.description },
-            { name: 'keywords', content: 'vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg, vaingloryheroes' },
+            { name: 'keywords', content: 'vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg, vaingloryheroes'},
             { property: 'og:image', content: 'https://i.imgur.com/qBMkj19.png' },
             { name:"viewport", content:"width=device-width, initial-scale=1.0, viewport-fit=cover"}
           ]}
         >
+          <meta name="keywords" content="vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg, vaingloryheroes" />
           <meta property="og:description" content="A Vainglory Wiki" />
           <meta property="og:url" content="https://www.vgwiki.netlify.com" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no"
           />
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <html lang="en" />
