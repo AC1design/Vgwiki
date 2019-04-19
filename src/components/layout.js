@@ -31,6 +31,7 @@ const Layout = ({ children }) => (
         >
           <meta name="keywords" content="vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg, vaingloryheroes" />
           <meta property="og:description" content="A Vainglory Wiki" />
+          <meta property="og:image" content="https://i.imgur.com/qBMkj19.png" />
           <meta property="og:url" content="https://www.vgwiki.netlify.com" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no"
           />
