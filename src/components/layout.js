@@ -21,12 +21,18 @@ const Layout = ({ children }) => (
       <>
         <Helmet
           title={data.site.siteMetadata.title}
+          description={data.site.siteMetadata.description}
           meta={[
             { name: 'description', content: data.site.siteMetadata.description },
             { name: 'keywords', content: 'vainglory, wiki, vaingloriwiki, vainglory wiki, vgwiki, vg, vaingloryheroes' },
-            { property: 'og:image', content:'https://i.imgur.com/qBMkj19.png'}
+            { property: 'og:image', content: 'https://i.imgur.com/qBMkj19.png' },
+            { name:"viewport", content:"width=device-width, initial-scale=1.0, viewport-fit=cover"}
           ]}
         >
+          <meta property="og:description" content="A Vainglory Wiki" />
+          <meta property="og:url" content="https://www.vgwiki.netlify.com" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+          />
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <html lang="en" />
         </Helmet>
