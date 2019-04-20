@@ -4,6 +4,7 @@
     padding: 10px;
     z-index: 100;
     transition: 0.8s cubic-bezier(0.02, 0.8, 0.2, 1);
+    padding:2.5em constant(safe-area-inset-right) 2.5em constant(safe-area-inset-left);
 }
 
 .HeaderScrolled{
