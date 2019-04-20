@@ -45,8 +45,6 @@ const Layout = ({ children }) => (
               <meta property="twitter:title" content="VGWIKI"/>
                 <meta property="twitter:description" content="A Vainglory Wiki"/>
                   <meta property="twitter:image" content="https://i.imgur.com/qBMkj19.png"/>
-
-          <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no"/>
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <html lang="en" />
         </Helmet>
