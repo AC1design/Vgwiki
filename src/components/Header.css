@@ -2,22 +2,15 @@
     position:fixed;
     width: 100%;
     padding: 10px;
+    padding-top: 35px;
     z-index: 100;
     transition: 0.8s cubic-bezier(0.02, 0.8, 0.2, 1);
-    /* Fallback */
-  padding: 0 10px;
-  
-  padding-right: env(safe-area-inset-right);
-  padding-left: env(safe-area-inset-left);
+
 }
 
 .HeaderScrolled{
     background: #1f1f21f1;
     backdrop-filter: blur(8px);
-    /* Fallback */
-  padding: 0 10px;
-  padding-right: env(safe-area-inset-right);
-  padding-left: env(safe-area-inset-left);
 }
 
 .HeaderGroup {
