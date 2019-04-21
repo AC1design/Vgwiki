@@ -148,6 +148,7 @@ export const frontmatter = {
             color: '#6393F9',
             text: [
                 'Once More (B) grants invulnerability while dashing.',
+                '• Cooldown 80% (-2%)',
             ],
             image: 'Caine_Rare',
         },
@@ -157,6 +158,7 @@ export const frontmatter = {
             color: '#7A02EA',
             text: [
                 'Last Rite’s (C) execute threshold is increased but may no longer be refreshed by Once More (B).',
+                '• Execute Threshold 2% (+2%)',
             ],
             image: 'Caine_Epic',
         },
@@ -166,6 +168,8 @@ export const frontmatter = {
             color: '#FF9000',
             text: [
                 "Caine’s revolver may load double the Bullets and Triple Tap’s (A) range is increased.",
+                '• Cooldown 80% (-15%)',
+                '• Bonus Range 1 (+0.5%)',
             ],
             image: 'Caine_Legendary',
         },
