@@ -22,6 +22,7 @@ const IndexPage = props => (
         <div className="Hero">
           <div className="HeroContainer">
             <ImgHero
+              imgStyle={{ objectPosition: "center top"}}
               className="Img"
               fluid={props.data.imageOne.childImageSharp.fluid}
             />
@@ -37,6 +38,7 @@ const IndexPage = props => (
         <div className="Hero">
           <div className="HeroContainer">
             <ImgHero
+              imgStyle={{ objectPosition: "center top" }}
               className="Img"
               fluid={props.data.imageTwo.childImageSharp.fluid}
             />
