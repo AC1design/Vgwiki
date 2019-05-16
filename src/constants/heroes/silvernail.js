@@ -44,7 +44,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['8s', '8s', '8s', '8s', '8s'],
+          amount: ['8s', '8s', '8s', '8s', '7s'],
           cr: '',
           wr: ' ',
         },
@@ -68,7 +68,7 @@ export const frontmatter = {
         },
         {
           name: 'Slow',
-          amount: ['35%', '35%', '35%', '35%', '35%'],
+          amount: ['40%', '40%', '40%', '40%', '40%'],
           cr: '',
           wr: ' ',
         },

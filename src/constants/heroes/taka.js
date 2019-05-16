@@ -95,7 +95,7 @@ export const frontmatter = {
         },
         {
           name: 'Speed Boost',
-          amount: ['1.25', '1.5', '1.75', '2', '2.5'],
+          amount: ['1.7', '1.8', '1.9', '2', '2.2'],
           cr: '',
           wr: ' ',
         },

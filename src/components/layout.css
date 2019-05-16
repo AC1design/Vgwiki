@@ -312,7 +312,7 @@ overflow: visible;
     border-radius: 20px;
     transform:translateY(-50%);
     background-color: rgb(43, 43, 45);
-    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.418);
     outline: none;
     text-align: center;
     overflow-y: auto;
@@ -402,10 +402,9 @@ overflow: visible;
     left: 0;
     right:0;
     top: 50%;
-    border-radius: 20px;
+    border-radius: 26px;
     transform:translateY(-50%);
     background-color: rgb(43, 43, 45);
-    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     outline: none;
     }
     .Text{
@@ -416,7 +415,7 @@ overflow: visible;
 
 @media only screen and (min-device-width: 319px) and (max-device-width: 1024px) and (orientation: landscape) {
    .Modal {
-    max-width:240px;
+    max-width:360px;
     height: 250px;
     overflow-y: auto;
     margin-top: 130px;

@@ -9,7 +9,6 @@ import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
 import AdComponent from '../components/ad'
-import Vgpro from '../components/Vgprocard'
 import StickyFooter from 'react-sticky-footer'
 
 export default function({ data }) {
@@ -105,15 +104,6 @@ export default function({ data }) {
                   key={index}
                 />
               ))}
-            </div>
-          </div>
-          <div className="Title">
-            <h1>STATS</h1>
-            <div className="line" />
-          </div>
-          <div className="SkinboxGroupScroll">
-            <div className="SkinboxGroup">
-              <Vgpro stats={hero.name} />
             </div>
           </div>
           <AdComponent />

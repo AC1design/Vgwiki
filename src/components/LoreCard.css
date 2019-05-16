@@ -1,0 +1,129 @@
+
+.CardLore {
+	width: 280px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background: #2B2B2D;
+}
+
+.CardLore:hover {
+	transform: scale(1.1, 1.1);
+  box-shadow: 0 10px 80px rgba(0, 0, 0, 0.651);
+  
+}
+
+.CardLore img {
+	height: 180px;
+	top: 0;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.CardLore h3 {
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+    width: 260px;
+    text-shadow:2px 2px 20px black;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom:0px;
+}
+
+.CardLore p {
+	text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 16px;
+    margin-bottom:16px;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+.CardboxGroup {
+  max-width: 1366px;
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+	
+  
+
+  @media (max-width: 1366px) {
+    .Card {
+	width: 280px;
+    height: 225px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+       .CardboxGroup {
+	margin:20px 16px 55px;
+	display: grid;
+	grid-template-columns: repeat(50, 275px);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	justify-content: left;
+align-items: center;
+overflow: visible;
+}
+	
+  .CardboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+    padding: 30px 0px -10px;
+}
+  }
+  
+  @media (max-width: 720px) {
+    .Card {
+	width: 280px;
+    height: 225px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+    .CardboxGroup {
+	margin:20px 16px 55px;
+	display: grid;
+	grid-template-columns: repeat(50, 275px);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	justify-content: left;
+align-items: center;
+overflow: visible;
+}
+	
+  .CardboxGroupScroll{
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+    padding: 30px 0px -10px;
+}
+}

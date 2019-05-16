@@ -24,6 +24,7 @@ import { frontmatter as kinetic } from './heroes/kinetic'
 import { frontmatter as koshka } from './heroes/koshka'
 import { frontmatter as krul } from './heroes/krul'
 import { frontmatter as lance } from './heroes/lance'
+import { frontmatter as leo } from './heroes/leo'
 import { frontmatter as lorelai } from './heroes/lorelai'
 import { frontmatter as lyra } from './heroes/lyra'
 import { frontmatter as magnus } from './heroes/magnus'
@@ -58,7 +59,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
-  caine,
+  leo,
   adagio,
   alpha,
   anka,
@@ -66,6 +67,7 @@ export const heroCards = [
   baptiste,
   baron,
   blackfeather,
+  caine,
   catherine,
   celeste,
   churnwalker,
@@ -95,8 +97,8 @@ export const heroCards = [
   reza,
   ringo,
   rona,
-  sanfeng,
   samuel,
+  sanfeng,
   saw,
   silvernail,
   skaarf,

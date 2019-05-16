@@ -201,7 +201,6 @@ export const frontmatter = {
       name: 'Crimson Wolf Yates',
       color: '#6393F9',
       type: 'Rare',
-      price: '1200',
       image: 'Yates_CrimsonWolf',
     },
   ],

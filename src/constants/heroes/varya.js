@@ -15,7 +15,7 @@ export const frontmatter = {
     { name: 'ATTACK SPEED', value: '100% - 115%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '6.2', color: '#e19efb' },
+    { name: 'ATTACK RANGE', value: '6.0', color: '#e19efb' },
     { name: 'MOVE SPEED', value: '3.7', color: '#e19efb' },
   ],
   model: [{ image: 'Varyablurred' }, { tmodel: 'Varya' }],
@@ -78,7 +78,7 @@ export const frontmatter = {
       type: 'B ABILITY',
       image: 'Varya-B',
       text: [
-        'After gathering power for 0.9s, Varya’s next two move commands will instantly dash in the chosen direction, striking the 3 nearest enemies at the end of each dash. For each enemy struck, Varya recovers 5% of her energy and gains a barrier equal to 3% of her health (bonuses doubled on heroes).',
+        'After gathering power for 0.9s, Varya’s next two move commands will instantly dash in the chosen direction, striking the 3 nearest enemies at the end of each dash. For each enemy struck, Varya recovers 5% of her energy and gains a barrier equal to 3% of her health for 2s (bonuses doubled on heroes).',
         '• Overdrive: Varya moves further with each dash.',
         '• Varya can dash at any time, but will only dash once if she has not fully charged.',
         '• Varya can activate Stormforged Spear at any time during this ability. Any remaining dashes will trigger after the spear is thrown.',
@@ -87,7 +87,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['25s', '23s', '21s', '19s', '15s'],
+          amount: ['23s', '22s', '21s', '20s', '18s'],
           cr: '  ',
           wr: ' ',
         },

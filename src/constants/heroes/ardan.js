@@ -230,5 +230,11 @@ export const frontmatter = {
       type: 'Limited Edition',
       image: 'Ardan_Contender',
     },
+    {
+      color: '#FF9000',
+      name: 'Netherknight Ardan',
+      type: 'Legendary',
+      image: 'Ardan_Netherknight',
+    },
   ],
 }

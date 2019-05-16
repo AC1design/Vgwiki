@@ -14,7 +14,7 @@ export const frontmatter = {
     { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '6.1', color: '#e19efb' },
+    { name: 'ATTACK RANGE', value: '6.0', color: '#e19efb' },
     { name: 'MOVE SPEED', value: '3.8', color: '#e19efb' },
   ],
   model: [{ image: 'Kineticblurred' }, { tmodel: 'Kinetic' }],
@@ -47,7 +47,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['25', '25', '25', '25', '25'],
+          amount: ['20', '25', '30', '35', '40'],
           cr: '',
           wr: ' ',
         },
@@ -65,7 +65,7 @@ export const frontmatter = {
       type: 'B ABILITY',
       image: 'Kinetic-B',
       text: [
-        'Kinetic dashes and temporarily becomes Charged for 5s.',
+        'Kinetic dashes and temporarily becomes Charged for 3s.',
         "Charged: Kinetic's next Plasma Driver deals more damage, has increased range, and slows her target.",
         "• Overdrive: Kinetic's next Plasma Driver briefly stuns her target.",
         "• Refreshes Plasma Driver's cooldown",
@@ -85,7 +85,7 @@ export const frontmatter = {
         },
         {
           name: 'Bonus Damage',
-          amount: ['40%', '45%', '50%', '55%', '60%'],
+          amount: ['30%', '35%', '40%', '45%', '50%'],
           cr: '',
           wr: ' ',
         },
@@ -97,7 +97,7 @@ export const frontmatter = {
         },
         {
           name: 'Slow Duration',
-          amount: ['1.5s', '1.5s', '1.5s', '1.5s', '1.5s'],
+          amount: ['1s', '1s', '1s', '1s', '1s'],
           cr: '',
           wr: ' ',
         },

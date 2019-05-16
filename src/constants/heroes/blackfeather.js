@@ -89,7 +89,7 @@ export const frontmatter = {
       text: [
         'Blackfeather pierces all enemies in a line, damaging them.',
         '• Overdrive: At max rank, On Point gains increased range.',
-        '• If this hits at least one enemy hero, Blackfeather also gains a 1.2s barrier that scales with 5% of his bonus health and recovers 40 focus.',
+        '• If this hits at least one enemy hero, Blackfeather also gains a 2s barrier that scales with 5% of his bonus health and recovers 40 focus.',
         '• The amount of focus recovered is further increased with 2% of his max energy and 50% of his Energy Regen.',
         '• Deals less damage to minions.',
       ],

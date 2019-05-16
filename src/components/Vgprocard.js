@@ -7,7 +7,7 @@ width: 280px;
     height: 225px;
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 26px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     cursor: pointer;
     user-select: none;

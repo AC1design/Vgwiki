@@ -27,7 +27,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Koshka-P',
       text: [
-        'Koshka gains 2 move speed for 4s whenever she deals damage with her abilities.',
+        'Koshka gains 2 move speed for 2s whenever she deals damage with her abilities.',
       ],
     },
     {

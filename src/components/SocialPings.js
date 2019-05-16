@@ -7,7 +7,7 @@ const Pingsbox = styled.div`
   height: auto;
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 26px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   cursor: pointer;
@@ -46,7 +46,6 @@ const PingImg = styled.img`
     z-index: 1;
   }
 `
-
 
 const Pings = props => (
   <Pingsbox bg={props.bg}>

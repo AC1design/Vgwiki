@@ -216,5 +216,12 @@ export const frontmatter = {
       image: '',
     },
   ],
-  skins: [],
+  skins: [
+    {
+      name: 'Medieval Ylva',
+      color: '#6393F9',
+      type: 'Rare',
+      image: 'Ylva_Medieval',
+    },
+  ],
 }

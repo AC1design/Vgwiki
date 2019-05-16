@@ -68,6 +68,12 @@ export const frontmatter = {
           cr: '',
           wr: ' ',
         },
+        {
+          name: 'Range (Split Missiles)',
+          amount: ['6', '6', '6', '6', '6'],
+          cr: '',
+          wr: ' ',
+        },
       ],
     },
     {
@@ -137,6 +143,12 @@ export const frontmatter = {
           name: 'Damage',
           amount: ['250', '375', '500'],
           cr: '120%',
+          wr: ' ',
+        },
+        {
+          name: 'Range (Split Missiles)',
+          amount: ['6', '6', '6', '6', '6'],
+          cr: '',
           wr: ' ',
         },
       ],

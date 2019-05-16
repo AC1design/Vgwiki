@@ -4,7 +4,7 @@
 	height: 225px;
 	position: relative;
 	overflow: hidden;
-	border-radius: 20px;
+	border-radius: 26px;
 	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
 	display: grid;
 	grid-template-rows: 1fr 1fr;
@@ -82,7 +82,7 @@
     right: 16px;
     background:rgba(255, 255, 255, 0.37);
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .SkinCost img{

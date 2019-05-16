@@ -14,7 +14,7 @@ export const frontmatter = {
     { name: 'ATTACK SPEED', value: '100% - 111%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '5.4', color: '#e19efb' },
+    { name: 'ATTACK RANGE', value: '5.7', color: '#e19efb' },
     { name: 'MOVE SPEED', value: '3.6', color: '#e19efb' },
   ],
   model: [{ image: 'Baronblurred' }, { tmodel: 'Baron' }],
@@ -132,7 +132,7 @@ export const frontmatter = {
         },
         {
           name: 'Bonus Attack Range',
-          amount: ['0.4', '0.8', '1.2'],
+          amount: ['0.6', '1.2', '1.8'],
           cr: '',
           wr: ' ',
         },

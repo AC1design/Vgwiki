@@ -15,7 +15,7 @@ export const frontmatter = {
     { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '6.2', color: '#e19efb' },
+    { name: 'ATTACK RANGE', value: '6.0', color: '#e19efb' },
     { name: 'MOVE SPEED', value: '3.6', color: '#e19efb' },
   ],
   model: [{ image: 'Gwenblurred' }, { tmodel: 'Gwen' }],
@@ -78,7 +78,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['20s', '18s', '16s', '14s', '10s'],
+          amount: ['19s', '18s', '17s', '16s', '14s'],
           cr: '',
           wr: ' ',
         },
