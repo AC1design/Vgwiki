@@ -42,11 +42,13 @@ export default function({ data }) {
               ))}
             </div>
           </div>
+          <AdComponent/>
           <div className="Title">
             <h1>3D MODEL</h1>
             <div className="line" />
           </div>
           <Models heroname={hero.name} />
+          <AdComponent/>
           <div className="Title">
             <h1>SKILLS (CLICK FOR MORE)</h1>
             <div className="line" />
@@ -66,6 +68,7 @@ export default function({ data }) {
               ))}
             </div>
           </div>
+          <AdComponent/>
           <div className="Title">
             <h1>TALENTS (LVL 1 + % PER LVL)</h1>
             <div className="line" />
