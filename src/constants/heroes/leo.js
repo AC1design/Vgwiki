@@ -4,7 +4,7 @@ export const frontmatter = {
     role: ['JUNGLE'],
     path: '/Leo',
     description: 'Brawny bodyguard with a jet powered sword',
-    spotlight: '',
+    spotlight: 'nHvdWkuoKwA',
     stats: [
         { name: 'HEALTH', value: '702 - 2337', color: '#4eec8b' },
         { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
@@ -25,7 +25,7 @@ export const frontmatter = {
             text: [
                 `Whenever Leo uses an ability, the turbo engine on his blade engages, granting him bonus movespeed (up to 3 stacks). Leo’s basic attacks are slow but deal damage to all targets in front of him.`,
             ],
-            video: '',
+            video: 'Leo-P',
             stats: [],
         },
         {
@@ -35,7 +35,7 @@ export const frontmatter = {
             text: [
                 'Leo charges his blade before striking down in front of him dealing heavy damage to enemies in the area.',
             ],
-            video: '',
+            video: 'Leo-A',
             stats: [
                 {
                     name: 'Cooldown',
@@ -65,7 +65,7 @@ export const frontmatter = {
                 'Leo briefly charges his blade before dashing to his target location, damaging and slowing enemies around him.',
                 'Overdrive: Slow duration increases at max rank.',
             ],
-            video: '',
+            video: 'Leo-B',
             stats: [
                 {
                     name: 'Cooldown',
@@ -108,7 +108,7 @@ export const frontmatter = {
                 `• Lion’s Might – Crushing Strike (A) – Deals bonus damage and causes enemies to bleed for 4s.`,
                 `• Lion’s Might – Jet Cyclone (B) – Deals bonus damage and roots enemies instead of slowing them.`,
             ],
-            video: '',
+            video: 'Leo-C',
             stats: [
                 {
                     name: 'Cooldown',
