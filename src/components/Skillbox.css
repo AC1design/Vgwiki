@@ -6,9 +6,9 @@
 	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     background-color: #2B2B2D;
     padding-bottom:10px;
+    padding: 20px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     cursor: pointer;
-    padding: 20px;
     box-sizing: border-box;
     -webkit-touch-callout: none;
     -webkit-user-select: none;

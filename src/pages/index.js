@@ -120,3 +120,15 @@ export const pageQuery = graphql`
     
   }
 `
+/*
+      <div className='MPL'>
+            <img src={require('../images/maxman.png')} alt='maxmanpremierleague' />
+            <div className='MPLtext'>
+              <h1>MAXMAN PREMIER LEAGUE</h1>
+              <h2>EUROPE - 1000€ PRIZE</h2>
+              <p className='MPLagroup'>
+                <a href="https://twitter.com/AngeloCant1">JOIN</a>
+                <a to="https://www.twitch.tv/maxman30">TWITCH</a>
+              </p>
+            </div>
+      </div> */
