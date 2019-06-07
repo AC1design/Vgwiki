@@ -25,6 +25,7 @@
     "gatsby-transformer-javascript-frontmatter": "^2.0.10",
     "gatsby-transformer-sharp": "^2.1.19",
     "hoist-non-react-statics": "^3.3.0",
+    "js-yaml": "^3.13.1",
     "react": "^16.8.6",
     "react-adsense": "0.0.6",
     "react-animate-on-scroll": "^2.1.5",
