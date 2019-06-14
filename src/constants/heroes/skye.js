@@ -48,13 +48,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '6s', '6s', '6s', '5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '50', '60', '70', '80'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -72,7 +72,7 @@ export const frontmatter = {
         {
           name: 'Slow',
           amount: ['0%', '0%', '0%', '0%', '0%'],
-          cr: '',
+          cr: ' ',
           wr: '30%',
         },
       ],
@@ -95,13 +95,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['16s', '14s', '12s', '10s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['70', '70', '70', '70', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -113,13 +113,13 @@ export const frontmatter = {
         {
           name: 'Bonus Duration',
           amount: ['1s', '1.5s', '2s', '2.5s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Cooldown Reset',
           amount: ['40%', '55%', '70%', '85%', '100%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -142,13 +142,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['30s', '24s', '128s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['70', '90', '110'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -160,19 +160,19 @@ export const frontmatter = {
         {
           name: 'Duration',
           amount: ['2s', '3s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow',
           amount: ['55%', '60%', '65%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Bonus Range',
           amount: ['2', '3', '4'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

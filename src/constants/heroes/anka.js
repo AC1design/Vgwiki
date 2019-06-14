@@ -42,13 +42,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '12s', '12s', '12s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '35', '40', '45', '50'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -66,7 +66,7 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['8', '9', '10', '11', '12'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -84,13 +84,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['8s', '7s', '6s', '5s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '40', '50', '60', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -115,13 +115,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['100s', '80s', '60s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['70', '80', '90'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {

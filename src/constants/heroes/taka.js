@@ -46,13 +46,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['9s', '9s', '9s', '9s', '7.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['55', '55', '55', '55', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -68,7 +68,7 @@ export const frontmatter = {
       type: 'B ABILITY',
       image: 'Taka-B',
       text: [
-        'Taka throws a smoke bomb at his feet and becomes invisible. While stealthed, Taka moves faster and heals himself.',
+        'Taka throws a smoke bomb at his feet and becomes invisible, gaining increased movement speed.',
         '• Invisibility ends early if he strikes a target or takes direct damage.',
         '• Turrets, Scout Traps and Flare Guns can still see Taka while he is invisible.',
       ],
@@ -78,25 +78,25 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '12s', '12s', '12s', '10s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '50', '60', '70', '80'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['4s', '4.5s', '5s', '5.5s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Speed Boost',
           amount: ['1.7', '1.8', '1.9', '2', '2.2'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -114,13 +114,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['20s', '17.5s', '15s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['80', '100', '120'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {

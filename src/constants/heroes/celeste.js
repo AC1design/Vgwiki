@@ -43,13 +43,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['2.8s', '2.4s', '2s', '1.6s', '1.2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '35', '40', '45', '50'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -67,7 +67,7 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['7', '7', '7', '7', '9'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -85,13 +85,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['14s', '13s', '12s', '11s', '9s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '100', '100', '100', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -103,7 +103,7 @@ export const frontmatter = {
         {
           name: 'Stun Duration',
           amount: ['1s', '1s', '1s', '1s', '1.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -122,13 +122,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['70s', '65s', '60s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['150', '175', '200'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -146,7 +146,7 @@ export const frontmatter = {
         {
           name: 'Stars',
           amount: ['3', '5', '7'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

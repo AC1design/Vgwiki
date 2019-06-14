@@ -40,13 +40,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '5.5s', '5s', '4.5s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '40', '50', '60', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -58,13 +58,13 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['8', '8', '8', '8', '8'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Root Duration',
           amount: ['1s', '1s', '1s', '1s', '1.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -80,13 +80,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '11s', '10s', '9s', '7s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '70', '80', '90', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -104,13 +104,13 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['4', '4', '4', '4', '4'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow',
           amount: ['35%', '40%', '45%', '50%', '60%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -129,19 +129,19 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['120s', '100s', '80s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '100', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['8s', '10s', '12s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

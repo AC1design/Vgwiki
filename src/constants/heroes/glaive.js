@@ -43,13 +43,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['24s', '22s', '20s', '18s', '14s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['110', '120', '130', '140', '150'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -76,13 +76,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '9s', '8s', '7s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['20', '25', '30', '35', '40'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -94,13 +94,13 @@ export const frontmatter = {
         {
           name: 'Cleave Damage',
           amount: ['30%', '35%', '40%', '45%', '65%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Crit Chance',
           amount: ['10%', '15%', '20%', '25%', '30%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -120,13 +120,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['16s', '16s', '16s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['20', '25', '30'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -144,7 +144,7 @@ export const frontmatter = {
         {
           name: 'Lifesteal/Stack',
           amount: ['1.2', '1.2', '1.2'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

@@ -48,13 +48,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['13s', '12s', '11s', '10s', '9s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '65', '70', '75', '80'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -66,7 +66,7 @@ export const frontmatter = {
         {
           name: 'Missing Health %',
           amount: ['20%', '20%', '20%', '20%', '40%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -91,13 +91,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['15s', '15s', '15s', '15s', '15s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '50', '60', '70', '80'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -109,13 +109,13 @@ export const frontmatter = {
         {
           name: 'Slow Duration ',
           amount: ['0.4s', '0.4s', '0.4s', '0.4s', '0.4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow',
           amount: ['25%', '30%', '35%', '40%', '60%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -133,13 +133,13 @@ export const frontmatter = {
         {
           name: 'Charge Time',
           amount: ['25s', '20s', '15s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '40', '40'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -151,13 +151,13 @@ export const frontmatter = {
         {
           name: 'Charges',
           amount: ['3', '4', '5'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Cooldown',
           amount: ['2s', '2s', '2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

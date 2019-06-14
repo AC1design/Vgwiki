@@ -42,13 +42,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['5s', '4.5s', '4s', '3.5s', '3s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '45', '50', '55', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -78,13 +78,13 @@ export const frontmatter = {
         {
           name: 'Charge Time',
           amount: ['15s', '14s', '13s', '12s', '10s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '75', '90', '105', '120'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -96,7 +96,7 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['0.5s', '0.5s', '0.5s', '0.5s', '0.2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -121,13 +121,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['90s', '70s', '50s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['150', '175', '200'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -139,7 +139,7 @@ export const frontmatter = {
         {
           name: 'Duration',
           amount: ['6s', '6s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {

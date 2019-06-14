@@ -41,13 +41,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '5.5s', '5s', '4.5s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '35', '40', '45', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -59,13 +59,13 @@ export const frontmatter = {
         {
           name: 'Slow Strenght',
           amount: ['30%', '35%', '40%', '45%', '50%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow Duration',
           amount: ['1.5', '1.5', '1.5', '1.5', '1.5'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -82,13 +82,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '11.5s', '11s', '10.5s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '60', '60', '60', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -100,7 +100,7 @@ export const frontmatter = {
         {
           name: 'Slow Duration',
           amount: ['0.5', '0.5', '0.5', '0.5', '0.5'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -118,13 +118,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['90s', '75s', '60s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '100', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -136,7 +136,7 @@ export const frontmatter = {
         {
           name: 'Bonus Speed Duration',
           amount: ['10', '10', '10'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

@@ -42,19 +42,19 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '11s', '10s', '9s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['50', '60', '70', '80', '90'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Range',
           amount: ['8', '8', '8', '8', '8'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -72,13 +72,13 @@ export const frontmatter = {
         {
           name: 'Slow Duration',
           amount: ['1s', '1.3s', '1.6s', '1.9s', '2.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow Strenght',
           amount: ['65%', '65%', '65%', '65%', '65%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -94,13 +94,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['7s', '7s', '7s', '7s', '7s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '40', '50', '60', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -112,13 +112,13 @@ export const frontmatter = {
         {
           name: 'Duration',
           amount: ['5s', '5s', '5s', '5s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Attack Speed',
           amount: ['30%', '35%', '40%', '45%', '50%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -135,13 +135,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['70s', '60s', '50s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['50', '60', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -153,7 +153,7 @@ export const frontmatter = {
         {
           name: 'Duration',
           amount: ['3s', '3s', '3s', '3s', '3s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

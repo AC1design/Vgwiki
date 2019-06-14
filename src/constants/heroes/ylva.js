@@ -41,19 +41,19 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['8s', '7.5s', '7s', '6.5s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['25', '30', '35', '40', '45'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Damage',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: '100%',
         },
         {
@@ -65,19 +65,19 @@ export const frontmatter = {
         {
           name: 'Bonus Range',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Stun Duration',
           amount: ['1s', '1s', '1s', '1s', '1s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Charge Time',
           amount: ['1.6s', '1.6s', '1.6s', '1.6s', '1.2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -95,13 +95,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['25', '30', '35', '40', '45'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -113,25 +113,25 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['5.5', '5.5', '5.5', '5.5', '7.5'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Bonus Move Speed Duration',
           amount: ['3s', '3s', '3s', '3s', '3s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Bonus Attack Speed',
           amount: ['40%', '45%', '50%', '55%', '60%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Bonus Move Speed',
           amount: ['1.5', '1.5', '1.5', '1.5', '2'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -149,13 +149,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['25s', '20s', '15s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['50', '60', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -167,13 +167,13 @@ export const frontmatter = {
         {
           name: 'Trap Limit',
           amount: ['1', '1', '1'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Root Duration',
           amount: ['1.6s', '1.8s', '2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

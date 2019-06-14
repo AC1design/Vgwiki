@@ -170,7 +170,7 @@ export const frontmatter = {
                 '• Passive Armor +10% (+)',
                 '• Passive Shield +10% (+)',
             ],
-            image: '',
+            image: ' ',
         },
         {
             name: `LION'S ROAR`,
@@ -181,7 +181,7 @@ export const frontmatter = {
                 '• Cooldown 90% (+)',
                 '• Bonus Duration 6 (+)',
             ],
-            image: '',
+            image: ' ',
         },
     ],
     skins: [

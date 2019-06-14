@@ -10,7 +10,7 @@ export const frontmatter = {
     { name: 'HEALTH REGEN', value: '4.01 - 7.42', color: '#4eec8b' },
     { name: 'ENERGY', value: '280 - 643', color: '#5bbcff' },
     { name: 'ENERGY REGEN', value: '1.87 - 4.29', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '79 - 1.64', color: '#f48596' },
+    { name: 'WEAPON DAMAGE', value: '79 - 164', color: '#f48596' },
     { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
@@ -52,19 +52,19 @@ export const frontmatter = {
         {
           name: 'Weapon Damage',
           amount: ['10', '20', '30', '40', '50'],
-          cr: '',
+          cr: ' ',
           wr: '60%',
         },
         {
           name: 'Bonus Move Speed',
           amount: ['1.5', '1.75', '2', '2.25', '2.5'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['0.8', '0.8', '0.8', '0.8', '1.2'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -83,13 +83,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['22s', '20s', '18s', '16s', '14s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['80', '90', '100', '110', '120'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -101,13 +101,13 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['8', '8', '8', '8', '8'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Taunt Duration',
           amount: ['1.2', '1.2', '1.2', '1.2', '1.6'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -123,13 +123,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['80s', '70s', '60s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '100', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -141,7 +141,7 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['8', '13', '18'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

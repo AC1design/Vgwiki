@@ -51,13 +51,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['17s', '16s', '15s', '14s', '12s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -69,13 +69,13 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['7', '7', '7', '7', '9'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Barrier',
           amount: ['80', '120', '160', '200', '240'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -95,13 +95,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['20s', '19s', '18s', '17s', '16s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -127,13 +127,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['120s', '110s', '100s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -145,13 +145,13 @@ export const frontmatter = {
         {
           name: 'Stun Duration',
           amount: ['0.6s', '0.9s', '1.2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['6s', '6s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

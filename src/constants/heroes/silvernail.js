@@ -45,13 +45,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['8s', '8s', '8s', '8s', '7s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '35', '40', '45', '50'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -63,13 +63,13 @@ export const frontmatter = {
         {
           name: 'Duration (Tripwire)',
           amount: ['4s', '4.5s', '5s', '5.5s', '7s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow',
           amount: ['40%', '40%', '40%', '40%', '40%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -88,13 +88,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['8s', '7.5s', '7s', '6.5s', '5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '45', '50', '55', '50'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -112,7 +112,7 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['9', '9', '9', '9', '1'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -131,13 +131,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['60s', '45s', '30s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '70', '80'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -155,13 +155,13 @@ export const frontmatter = {
         {
           name: 'Stun Duration',
           amount: ['0.6s', '0.8s', '1s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Double Shot Bonus Damage',
           amount: ['20%', '30%', '40%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

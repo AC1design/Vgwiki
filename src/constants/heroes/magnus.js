@@ -41,13 +41,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '6s', '6s', '6s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '45', '50', '55', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -65,13 +65,13 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['10', '10', '10', '10', '12'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Range (Split Missiles)',
           amount: ['6', '6', '6', '6', '6'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -88,13 +88,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['14s', '13s', '12s', '11s', '10s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '70', '80', '90', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -106,13 +106,13 @@ export const frontmatter = {
         {
           name: 'Stun Duration',
           amount: ['0.4s', '0.5s', '0.6s', '0.7s', '1s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Range',
           amount: ['10', '10', '10', '10', '10'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -130,13 +130,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['90s', '75s', '60s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '125', '150'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -148,7 +148,7 @@ export const frontmatter = {
         {
           name: 'Range (Split Missiles)',
           amount: ['6', '6', '6', '6', '6'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

@@ -47,13 +47,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['9s', '8.5s', '8s', '7.5s', '7s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -65,19 +65,19 @@ export const frontmatter = {
         {
           name: 'Missing Health %',
           amount: ['15%', '15%', '15%', '15%', '25%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Focus Cost',
           amount: ['60', '60', '60', '60', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Stacks',
           amount: ['1', '2', '3', '4', '5'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -97,13 +97,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '5.5s', '5s', '4.5s', '3.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -115,19 +115,19 @@ export const frontmatter = {
         {
           name: 'Focus Cost',
           amount: ['60', '60', '60', '60', '40'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Range',
           amount: ['7', '7', '7', '7', '9'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Stacks',
           amount: ['125', '175', '225', '275', '325'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -146,13 +146,13 @@ export const frontmatter = {
         {
           name: 'Charge Time',
           amount: ['40s', '30s', '20s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -164,19 +164,19 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['0.2s', '0.2s', '0.2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Focus Cost',
           amount: ['60', '40', '20'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Fortified Health',
           amount: ['75', '125', '175'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

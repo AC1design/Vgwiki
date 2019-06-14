@@ -46,19 +46,19 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '11s', '10s', '9s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['80', '100', '120', '140', '160'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Range',
           amount: ['10', '10', '10', '10', '10'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -70,7 +70,7 @@ export const frontmatter = {
         {
           name: 'Heal/sec',
           amount: ['20', '30', '40', '50', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -95,13 +95,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['18s', '17s', '16s', '15s', '12s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '70', '80', '90', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -113,19 +113,19 @@ export const frontmatter = {
         {
           name: 'Duration',
           amount: ['3s', '3s', '3s', '3s', '3s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow',
           amount: ['30%', '30%', '30%', '30%', '50%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['1.5s', '1.5s', '1.5s', '1.5s', '2.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -145,13 +145,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['90s', '80s', '70s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['150', '175', '200'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -163,7 +163,7 @@ export const frontmatter = {
         {
           name: 'Bonus Attack Range',
           amount: ['0.5s', '1s', '1.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

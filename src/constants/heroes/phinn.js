@@ -43,13 +43,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '9s', '8s', '7s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '50', '60', '70', '80'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -78,13 +78,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '45', '50', '55', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -102,7 +102,7 @@ export const frontmatter = {
         {
           name: 'Fortified Health',
           amount: ['100', '125', '150', '175', '225'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -118,13 +118,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['85s', '70s', '55s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '100', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {

@@ -46,31 +46,31 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['11s', '10.5s', '10s', '9.5s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Stamina Cost',
           amount: ['70', '70', '70', '70', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Amplified Damage',
           amount: ['30%', '30%', '30%', '30%', '50%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Barrier Strenght',
           amount: ['90', '130', '170', '210', '250'],
-          cr: '',
+          cr: ' ',
           wr: '120%',
         },
       ],
@@ -89,13 +89,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['8.5s', '8s', '7.5s', '7s', '5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -107,7 +107,7 @@ export const frontmatter = {
         {
           name: 'Stamina Cost',
           amount: ['30', '30', '30', '30', '30'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -125,25 +125,25 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['110s', '90s', '70s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Damage',
           amount: ['150', '250', '350'],
-          cr: '',
+          cr: ' ',
           wr: '125%',
         },
         {
           name: 'Stamina Cost',
           amount: ['0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {

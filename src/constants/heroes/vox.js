@@ -3,7 +3,7 @@ export const frontmatter = {
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
   path: '/Vox',
-  description: 'Durable berserker who excels in the thick of fights.',
+  description: 'Agile damage dealer who dashes around the battlefied.',
   spotlight: '5Z2KUYPYXEw',
   stats: [
     { name: 'HEALTH', value: '667 - 2054', color: '#4eec8b' },
@@ -46,19 +46,19 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '5.5s', '5s', '4.5s', '3s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '45', '50', '55', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Basic Attack Damage',
           amount: ['50%', '50%', '50%', '50%', '50%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -78,31 +78,31 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['8s', '8s', '8s', '8s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '70', '80', '90', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Bonus Damage',
           amount: ['15', '30', '45', '60', '75'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow at Center',
           amount: ['15%', '17%', '19%', '21%', '25%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow at Edge',
           amount: ['10%', '12%', '14%', '16%', '20%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -121,13 +121,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['70s', '60s', '50s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '100', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -145,7 +145,7 @@ export const frontmatter = {
         {
           name: 'Silence Duration',
           amount: ['0.4s', '0.6s', '0.8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

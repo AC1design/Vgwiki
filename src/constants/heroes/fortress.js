@@ -43,13 +43,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '45', '50', '55', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -61,25 +61,25 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['7', '7', '7', '7', '9'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Speed Boost',
           amount: ['1.8', '1.8', '1.8', '1.8', '1.8'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['3s', '3s', '3s', '3s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Lifesteal',
           amount: ['10%', '11%', '12%', '13%', '15%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -100,13 +100,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['50', '55', '60', '65', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -147,37 +147,37 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['120s', '110s', '100s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['120', '140', '160'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['10s', '12s', '14s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Attack Speed',
           amount: ['30%', '45%', '60%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Fortified Health',
           amount: ['300', '425', '550'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Wolf Attack Damage',
           amount: ['20', '40', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {

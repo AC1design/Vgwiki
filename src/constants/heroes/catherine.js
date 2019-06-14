@@ -43,13 +43,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['16s', '15s', '14s', '13s', '12s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '40', '50', '60', '70'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -61,13 +61,13 @@ export const frontmatter = {
         {
           name: 'Bonus Speed Duration',
           amount: ['1.5', '1.5', '1.5', '1.5', '2'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Stun Duration',
           amount: ['0.7s', '0.7s', '0.7s', '0.7s', '0.9s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -89,14 +89,14 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['9s', '7.5s', '7s', '6.5s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
 
         {
           name: 'Energy Cost',
           amount: ['40', '50', '60', '70', '80'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -108,13 +108,13 @@ export const frontmatter = {
         {
           name: 'Duration',
           amount: ['3s', '3s', '3s', '3s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Bonus Reflect Damage',
           amount: ['0%', '5%', '10%', '15%', '25%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -132,13 +132,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['90s', '80s', '70s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['120', '140', '160'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -150,13 +150,13 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['11', '11', '11'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Silence Duration',
           amount: ['1.5s', '2s', '2.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

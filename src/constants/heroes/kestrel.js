@@ -42,13 +42,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '35', '40', '45', '50'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -60,7 +60,7 @@ export const frontmatter = {
         {
           name: 'Max Arrows',
           amount: ['4', '4', '4', '4', '4'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -88,13 +88,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '10s', '10s', '10s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '110', '120', '130', '140'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -112,7 +112,7 @@ export const frontmatter = {
         {
           name: 'Speed Boost',
           amount: ['1', '1', '1', '1', '1'],
-          cr: '',
+          cr: ' ',
           wr: '0.5%',
         },
         {
@@ -137,13 +137,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['50s', '40s', '30s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['140', '155', '170'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -155,7 +155,7 @@ export const frontmatter = {
         {
           name: 'Reveal Duration',
           amount: ['2s', '4s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

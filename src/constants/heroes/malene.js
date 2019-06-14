@@ -40,13 +40,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['16s', '15s', '14s', '13s', '12s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '50', '60', '70', '35'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -58,7 +58,7 @@ export const frontmatter = {
         {
           name: 'Root Duration',
           amount: ['1s', '1s', '1s', '1s', '1.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -76,13 +76,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '50', '60', '70', '35'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -104,13 +104,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '12s', '12s', '12s', '12s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '70', '80', '90', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -122,7 +122,7 @@ export const frontmatter = {
         {
           name: 'Speed Boost',
           amount: ['0.8', '1', '1.2', '1.4', '1.8'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -138,13 +138,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['20s', '19s', '18s', '17s', '14s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['80', '90', '100', '110', '120'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -156,7 +156,7 @@ export const frontmatter = {
         {
           name: 'Slow',
           amount: ['30%', '35%', '40%', '45%', '50%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -174,13 +174,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '5s', '4s', '3s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -192,7 +192,7 @@ export const frontmatter = {
         {
           name: 'Slow',
           amount: ['25%', '30%', '35%', '40%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

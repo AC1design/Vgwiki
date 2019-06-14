@@ -45,13 +45,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['2s', '2s', '2s', '2s', '2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '60', '60', '60', '60'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -97,31 +97,31 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['15s', '14.5s', '14s', '13.5s', '12s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['80', '85', '90', '95', '100'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Bonus Attack Range',
           amount: ['1.2', '1.2', '1.2', '1.2', '1.2'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Crystal Amp.',
           amount: ['15%', '15%', '15%', '15%', '15%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Crystal Amp.',
           amount: ['15%', '15%', '15%', '15%', '15%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -141,13 +141,13 @@ export const frontmatter = {
         {
           name: 'Charge Time',
           amount: ['30s', '25s', '20s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['40', '40', '40'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -159,7 +159,7 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['0.4s', '0.4s', '0.4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {

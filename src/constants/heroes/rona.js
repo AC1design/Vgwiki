@@ -47,13 +47,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '11.5s', '11s', '10.5s', '10s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -71,13 +71,13 @@ export const frontmatter = {
         {
           name: 'Bloodrage Gain',
           amount: ['25', '25', '25', '25', '35'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Fortified Health',
           amount: ['50', '70', '90', '110', '150'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -98,13 +98,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['14s', '14s', '14s', '14s', '12s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -116,7 +116,7 @@ export const frontmatter = {
         {
           name: 'Bloodrage Gain',
           amount: ['5', '10', '15', '20', '25'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -128,13 +128,13 @@ export const frontmatter = {
         {
           name: 'Attack Speed',
           amount: ['15%', '20%', '25%', '30%', '40%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['4s', '4s', '4s', '4s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -155,13 +155,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['6s', '6s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['0', '0', '0'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -173,13 +173,13 @@ export const frontmatter = {
         {
           name: 'Bloodrage/sec',
           amount: ['25', '25', '25'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Fortified Health/sec',
           amount: ['100', '150', '200'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

@@ -41,13 +41,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['4s', '3.5s', '3s', '2.5s', '2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['30', '35', '40', '45', '50'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -65,7 +65,7 @@ export const frontmatter = {
         {
           name: 'Range',
           amount: ['6', '6', '6', '6', '8'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -82,13 +82,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['12s', '11.5s', '11s', '10.5s', '10s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['60', '65', '70', '75', '80'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -100,7 +100,7 @@ export const frontmatter = {
         {
           name: 'Root Duration',
           amount: ['1s', '1s', '1s', '1s', '1.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -117,13 +117,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['90s', '75s', '60s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['100', '125', '150'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -135,31 +135,31 @@ export const frontmatter = {
         {
           name: 'Damage at Edge',
           amount: ['50%', '50%', '50%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Center Slow Duration',
           amount: ['4s', '5s', '6s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Edge Slow Duration',
           amount: ['2s', '3s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Slow',
           amount: ['80%', '80%', '80%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Stun Duration',
           amount: ['0.9s', '1.2s', '1.5s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],

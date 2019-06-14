@@ -44,13 +44,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '9.5s', '9s', '8.5s', '7s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['45', '50', '55', '60', '65'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -68,7 +68,7 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['2s', '2s', '2s', '2s', '2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -87,13 +87,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['10s', '10s', '10s', '10s', '8s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['45', '50', '55', '60', '65'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -123,13 +123,13 @@ export const frontmatter = {
         {
           name: 'Lifesteal/Stack',
           amount: ['5%', '5%', '5%', '5%', '5%'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Duration',
           amount: ['4s', '4s', '4s', '4s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
@@ -151,13 +151,13 @@ export const frontmatter = {
         {
           name: 'Cooldown',
           amount: ['80s', '70s', '60s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Energy Cost',
           amount: ['55', '70', '85'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
@@ -169,13 +169,13 @@ export const frontmatter = {
         {
           name: 'Slow Duration',
           amount: ['2.6s', '3.3s', '4s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
         {
           name: 'Stun Duration',
           amount: ['1.6s', '1.8s', '2s'],
-          cr: '',
+          cr: ' ',
           wr: ' ',
         },
       ],
