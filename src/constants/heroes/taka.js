@@ -15,7 +15,7 @@ export const frontmatter = {
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '2', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '4.0', color: '#e19efb' },
+    { name: 'MOVE SPEED', value: '4', color: '#e19efb' },
   ],
   model: [{ image: 'Takablurred' }, { tmodel: 'Taka' }],
   skills: [
