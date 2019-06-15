@@ -14,7 +14,7 @@
     "bootstrap": "^4.3.1",
     "deepmerge": "^3.2.0",
     "domready": "^1.0.8",
-    "gatsby": "^2.8.3",
+    "gatsby": "^2.9.4",
     "gatsby-image": "^2.1.4",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.3",
