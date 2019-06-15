@@ -53,7 +53,6 @@ const IndexPage = props => (
       <Tabsind />
       <MediaQuery query="(max-width: 1366px)">
         <div className="mobile">
-          <GPCard></GPCard>
           <GridList />
           <AdComponent />
           <ItemsGridList />
