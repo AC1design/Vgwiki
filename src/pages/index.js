@@ -111,7 +111,7 @@ export const pageQuery = graphql`
     imageTwo: file(relativePath: { eq: "44bgmobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid
         }
       }
     }
