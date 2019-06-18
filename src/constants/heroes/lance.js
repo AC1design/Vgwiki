@@ -221,12 +221,6 @@ export const frontmatter = {
       image: 'Lance_Netherknight_Legendary',
     },
     {
-      color: '#FF9000',
-      name: 'Corsair Cold Krul',
-      type: 'Legendary',
-      image: 'Krul_Samurai',
-    },
-    {
       color: '#c78cff',
       name: 'Golden Netherknight Lance',
       type: 'Epic',
