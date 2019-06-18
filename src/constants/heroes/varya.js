@@ -165,7 +165,7 @@ export const frontmatter = {
     {
       name: 'Static Barrier',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Arc Recursion (B) grants additional barrier and charges up quicker.',
         '• Barrier 130% (+15%)',

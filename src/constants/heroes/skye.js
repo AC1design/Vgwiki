@@ -193,7 +193,7 @@ export const frontmatter = {
     {
       name: 'Raining Death',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Death from Above (Ult) has 1 additional charge.',
         '• Damage 115% (+15%)',
@@ -219,7 +219,7 @@ export const frontmatter = {
     },
     {
       name: 'Stealth Fighter Skye',
-      color: '#7A02EA',
+      color: '#c78cff',
       type: 'Epic',
       image: 'Skye_Stealth_Fighter',
     },

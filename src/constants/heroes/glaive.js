@@ -166,7 +166,7 @@ export const frontmatter = {
     {
       name: 'Stunning Bloodsong',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Bloodsong (Ult) stuns enemies caught by Glaive’s axe.',
         '• Cooldown 80% (-5%)',
@@ -195,7 +195,7 @@ export const frontmatter = {
       image: 'Glaive_Prehistoric_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Trophy Hunter Glaive',
       type: 'Epic',
       image: 'Glaive_Prehistoric_II_E',
@@ -207,13 +207,13 @@ export const frontmatter = {
       image: 'Glaive_Prehistoric_III_L',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Sorrowblade Glaive',
       type: 'Epic',
       image: 'Glaive_Sorrowblade_E',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'King Glaive',
       type: 'Epic',
       image: 'Glaive_King_Epic',

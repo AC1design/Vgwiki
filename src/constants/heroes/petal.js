@@ -27,7 +27,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Petal-P',
       text: [
-        'A few moments after Petal plants a Bramblebloom Seed, it will automatically sprout into a Munion pet, which will fight alongside Petal up to a maximum of 3 Munions.',
+        'A few moments after Petal plants a Bramblebloom Seed, it will automatically sprout into a Munion pet, which will fight alongside Petal up to a maximum of 3 Munions (Movement Speed 6.0).',
       ],
     },
     {
@@ -185,7 +185,7 @@ export const frontmatter = {
     {
       name: 'Kaboom Seeds',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Brambleboom Seeds (A) explode for massive damage but no longer knock back enemies.',
         '• Damage 180% (+10%)',
@@ -211,7 +211,7 @@ export const frontmatter = {
       image: 'Petal_Bee_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Beetle Petal',
       type: 'Epic',
       image: 'Petal_Beetle_E',

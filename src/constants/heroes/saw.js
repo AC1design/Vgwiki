@@ -178,7 +178,7 @@ export const frontmatter = {
     {
       name: 'Speedy Spin Up',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Spin Up (Perk) no longer slows SAW.',
         '• Speed Boost Per Stack 0.012 (+0.017)',
@@ -205,7 +205,7 @@ export const frontmatter = {
       image: 'SAW_SAWborg_2.0',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'SAWborg 3.0',
       type: 'Epic',
       image: 'SAW_SAWborg_3.0',

@@ -48,6 +48,7 @@ import { frontmatter as varya } from './heroes/varya'
 import { frontmatter as vox } from './heroes/vox'
 import { frontmatter as yates } from './heroes/yates'
 import { frontmatter as ylva } from './heroes/ylva'
+import { frontmatter as warhawk } from './heroes/warhawk'
 
 export const heroTabs = [
   'ALL',
@@ -59,7 +60,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
-  leo,
+  warhawk,
   adagio,
   alpha,
   anka,
@@ -86,6 +87,7 @@ export const heroCards = [
   koshka,
   krul,
   lance,
+  leo,
   lorelai,
   lyra,
   magnus,

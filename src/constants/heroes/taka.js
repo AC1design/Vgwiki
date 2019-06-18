@@ -154,7 +154,7 @@ export const frontmatter = {
     {
       name: 'Protective Decoy',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Kaku (B) grants Taka invulnerability for 0.8s.',
         '• Cooldown 70% (-2.5%)',
@@ -180,7 +180,7 @@ export const frontmatter = {
     },
     {
       name: 'Shiro Kage Taka',
-      color: '#7A02EA',
+      color: '#c78cff',
       type: 'Epic',
       image: 'Taka_Shiro_Kage',
     },
@@ -198,7 +198,7 @@ export const frontmatter = {
     },
     {
       name: 'Fury Taka',
-      color: '#7A02EA',
+      color: '#c78cff',
       type: 'Epic',
       image: 'Taka_Fury',
     },

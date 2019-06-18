@@ -131,7 +131,7 @@ export const frontmatter = {
           wr: ' ',
         },
         {
-          name: 'Slow Strenght',
+          name: 'Slow Strength',
           amount: ['30%', '40%', '50%'],
           cr: ' ',
           wr: ' ',
@@ -143,7 +143,7 @@ export const frontmatter = {
           wr: ' ',
         },
         {
-          name: 'Barrier Strenght',
+          name: 'Barrier Strength',
           amount: ['250', '375', '500'],
           cr: '125%',
           wr: ' ',
@@ -173,7 +173,7 @@ export const frontmatter = {
     {
       name: 'Whiplash',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Devastation Flail (Perk) third hit deals greatly increased damage.',
         '• Trap Limit 3',

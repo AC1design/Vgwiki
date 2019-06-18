@@ -154,7 +154,7 @@ export const frontmatter = {
     {
       name: 'Endless Mortars',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Porcupine Mortar (A) has 6 additional charges and travels faster.',
         '• Damage 50% (+7.5%)',

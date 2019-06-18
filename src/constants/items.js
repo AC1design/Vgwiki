@@ -68,7 +68,7 @@ export const itemBoxes = [
     color: '#A0D46B',
     cost: '1700',
     description:
-      '+65 Armor\nActivate: Maim nearby enemies, lowering their attack speed by 65% of their total for 4s in a 4-meter range. (45s cooldown)',
+      '+65 Armor\nActivate: Maim nearby enemies, lowering their attack speed by 50% of their total for 4s in a 4-meter range. (45s cooldown).\nDebuff now also reduces outgoing weapon damage by 30%.',
     tip:
       'Tip: Counters enemies with high attack speed, but you must get close to the enemies to affect them.',
     item1: 'coat-of-plates',

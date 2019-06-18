@@ -148,7 +148,7 @@ export const frontmatter = {
     {
       name: 'Cloud of Torment',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Activating Torment (B) releases a powerful Churn Cloud that damages enemies over time, making Churnwalker a dangerous threat at close range. Cooldown increased.',
         '• Duration 3s (+ 0.25s)',

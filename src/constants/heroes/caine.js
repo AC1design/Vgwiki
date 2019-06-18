@@ -26,9 +26,9 @@ export const frontmatter = {
             image: 'Caine-P',
             text: [
                 `Caine's revolver can load up to 6 Bullets, used for basic attacks or abilities`,
-                `• After Caine stops attacking for 2s, he will start reloading his Bullets`,
+                `• After Caine stops attacking for 1.3s, he will start reloading his Bullets`,
                 `• Once all Bullets are used, Caine will receive a small speed boost`,
-                `• Caine's basic attacks cause 115% weapon power`,
+                `• Caine's basic attacks cause 110% weapon power`,
             ],
             stats: [],
         },
@@ -50,12 +50,12 @@ export const frontmatter = {
                 },
                 {
                     name: 'Damage',
-                    amount: ['20', '40', '60', '80', '100'],
+                    amount: ['35', '70', '105', '140', '175'],
                     cr: '60%',
                     wr: '115%',
                 },
                 {
-                    name: 'Slow Strenght',
+                    name: 'Slow Strength',
                     amount: ['30%', '35%', '40%', '45%', '65%'],
                     cr: ' ',
                     wr: ' ',
@@ -68,7 +68,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Range',
-                    amount: ['7.5', '7.5', '7.5', '7.5', '9'],
+                    amount: ['8', '8', '8', '8', '10'],
                     cr: '  ',
                     wr: ' ',
                 },
@@ -92,7 +92,7 @@ export const frontmatter = {
                     wr: ' ',
                 },
                 {
-                    name: 'Cooldown Reduction',
+                    name: 'Cooldown Reduction on Basic Attack',
                     amount: ['1s', '1s', '1s', '1s', '1s'],
                     cr: '  ',
                     wr: ' ',
@@ -155,7 +155,7 @@ export const frontmatter = {
         {
             name: 'JUDJE AND JURY',
             type: 'Epic',
-            color: '#7A02EA',
+            color: '#c78cff',
             text: [
                 'Last Rite’s (C) execute threshold is increased but may no longer be refreshed by Once More (B).',
                 '• Execute Threshold 2% (+2%)',

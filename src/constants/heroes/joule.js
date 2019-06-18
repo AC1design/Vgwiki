@@ -145,7 +145,7 @@ export const frontmatter = {
     {
       name: 'Backup Button',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Big Red Button (Ult) has 1 additional charge.',
         '• Cooldown 80% (-2.5%)',
@@ -174,7 +174,7 @@ export const frontmatter = {
       image: 'Joule_Killa-Joule_9000_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Mega-Joule 9000',
       type: 'Epic',
       image: 'Joule_Killa-Joule_9000_II_E',

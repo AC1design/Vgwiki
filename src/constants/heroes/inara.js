@@ -57,7 +57,7 @@ export const frontmatter = {
           wr: '120%',
         },
         {
-          name: 'Slow Strenght',
+          name: 'Slow Strength',
           amount: ['30%', '35%', '40%', '45%', '50%'],
           cr: ' ',
           wr: ' ',
@@ -93,7 +93,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['60', '90', '120', '150', '180'],
+          amount: ['60', '120', '180', '240', '360'],
           cr: '125%',
           wr: '100%',
         },
@@ -135,7 +135,7 @@ export const frontmatter = {
         },
         {
           name: 'Bonus Speed Duration',
-          amount: ['10', '10', '10'],
+          amount: ['7', '8', '9'],
           cr: ' ',
           wr: ' ',
         },
@@ -157,7 +157,7 @@ export const frontmatter = {
     {
       name: 'BANISHING MIGHT',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Banishing Kick (B) knocks targets further.',
         '• Bonus Range 2 (+1)',

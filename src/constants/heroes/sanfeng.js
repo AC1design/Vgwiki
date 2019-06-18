@@ -147,7 +147,7 @@ export const frontmatter = {
     {
       name: 'Divine Flurry',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Divine Fist (B) slows enemies hit and has a much shorter cooldown.',
         '• Damage 90% (+3%)',

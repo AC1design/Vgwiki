@@ -165,7 +165,7 @@ export const frontmatter = {
     {
       name: 'Firemaker',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Troublemaker (B) applies Firestarter (Perk) to enemy heroes he passes through.',
         '• Damage 100% (+5%)',

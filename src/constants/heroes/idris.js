@@ -68,7 +68,7 @@ export const frontmatter = {
           wr: ' ',
         },
         {
-          name: 'Barrier Strenght',
+          name: 'Barrier Strength',
           amount: ['90', '130', '170', '210', '250'],
           cr: ' ',
           wr: '120%',
@@ -171,7 +171,7 @@ export const frontmatter = {
     {
       name: 'Cha-Cha-Chakram',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Chakram (B) throws thress projectiles in a cone.',
         '• Damage 60% (+5%)',
@@ -199,7 +199,7 @@ export const frontmatter = {
       image: 'Idris_Elite_Force_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Horus Idris',
       type: 'Epic',
       image: 'Idris_Horus_Epic',

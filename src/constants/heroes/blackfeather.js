@@ -197,7 +197,7 @@ export const frontmatter = {
     {
       name: 'Point Guard',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Landing On Point (B) on an enemy hero grants a stronger barrier to nearby allies for 2s.',
         '• Barrier 150% (+10%)',

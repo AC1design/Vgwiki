@@ -164,7 +164,7 @@ export const frontmatter = {
     {
       name: 'Clam Up',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Fish Food (A) stuns for a longer duration.',
         '• Bonus Stun Duration 0.6s (+0.2s)',
@@ -185,7 +185,7 @@ export const frontmatter = {
   ],
   skins: [
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Dark Siren Lorelai',
       type: 'Epic',
       image: 'Lorelai_Dark_Siren',

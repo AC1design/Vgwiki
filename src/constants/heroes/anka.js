@@ -155,7 +155,7 @@ export const frontmatter = {
     {
       name: 'Gythian Tempest',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Gythian Promise (Perk) refreshes all abilities on hero kill/assist. Anka passively gains crystal power.',
         '• Passive Crystal Power +2%',
@@ -183,7 +183,7 @@ export const frontmatter = {
       image: 'Anka_Frostborn',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Feathered Anka',
       type: 'Epic',
       image: 'Anka_Feathered',

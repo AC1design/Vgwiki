@@ -151,7 +151,7 @@ export const frontmatter = {
     {
       name: 'Phaster',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Polite Company (B) grants bonus move speed to Phinn and his allies.',
         '• Fortified Health 100% (+1%)',
@@ -179,7 +179,7 @@ export const frontmatter = {
       image: 'Phinn_Bonecruncher',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Bonegnasher Phinn',
       type: 'Epic',
       image: 'Phinn_Bonegnasher',

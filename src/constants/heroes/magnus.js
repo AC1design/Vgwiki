@@ -168,7 +168,7 @@ export const frontmatter = {
     {
       name: 'ARCANE ALCHEMIST',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Banishing Kick (B) knocks targets further.',
         '• Passive Attack Speed 12% (+7%)',

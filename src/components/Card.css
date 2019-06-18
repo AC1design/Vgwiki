@@ -80,7 +80,7 @@
        .CardboxGroup {
 	margin:20px 16px 55px;
 	display: grid;
-	grid-template-columns: repeat(50, 275px);
+	grid-template-columns: repeat(60, 275px);
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	justify-content: left;
@@ -115,7 +115,7 @@ overflow: visible;
     .CardboxGroup {
 	margin:20px 16px 55px;
 	display: grid;
-	grid-template-columns: repeat(50, 275px);
+	grid-template-columns: repeat(60, 275px);
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	justify-content: left;

@@ -173,7 +173,7 @@ export const frontmatter = {
     {
       name: 'Bullet Split',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Twirling Silver (B) causes Ringo’s basic attacks to fire a secondary shot at a nearby target.',
         '• Damage 87.5% (+2.5%)',
@@ -201,7 +201,7 @@ export const frontmatter = {
       image: 'Ringo_Shogun_Nomad',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Shogun Wrath Ringo',
       type: 'Epic',
       image: 'Ringo_Shogun_Wrath',

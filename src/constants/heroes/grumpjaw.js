@@ -76,7 +76,7 @@ export const frontmatter = {
           wr: ' ',
         },
         {
-          name: 'Slow Strenght',
+          name: 'Slow Strength',
           amount: ['65%', '65%', '65%', '65%', '65%'],
           cr: ' ',
           wr: ' ',
@@ -173,7 +173,7 @@ export const frontmatter = {
     {
       name: 'Reconstitution',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Hangry (B) grants Grumpjaw life steal.',
         '• Cooldown 95% (-2.5%)',
@@ -201,7 +201,7 @@ export const frontmatter = {
       image: 'Grumpjaw_Lapdog_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Carnivore Grumpjaw',
       type: 'Epic',
       image: 'Grumpjaw_Carnivore',

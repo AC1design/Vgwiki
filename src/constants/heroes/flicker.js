@@ -162,7 +162,7 @@ export const frontmatter = {
     {
       name: 'Binding Dust',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Fairy Dust (B) roots enemies caught within its detonation and grants Flicker move speed while active.',
         '• Damage 80% (+5%)',
@@ -185,13 +185,13 @@ export const frontmatter = {
   ],
   skins: [
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Red Lantern Flicker',
       type: 'Epic',
       image: 'Flicker_Red_Lantern_E',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Dr Franken Flicker',
       type: 'Epic',
       image: 'Flicker_DrFrankenFlicker_Epic',

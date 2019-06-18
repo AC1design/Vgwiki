@@ -177,7 +177,7 @@ export const frontmatter = {
     {
       name: 'The Reaper',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Reap (Perk) continues to collect souls when empowered.',
         '• Passive Attack Speed +30% (+3%)',
@@ -200,13 +200,13 @@ export const frontmatter = {
   ],
   skins: [
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Scarecrow Baptiste',
       type: 'Epic',
       image: 'Baptist_Scarecrow',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Anubis Baptiste',
       type: 'Epic',
       image: 'Baptiste_Anubis_Epic',

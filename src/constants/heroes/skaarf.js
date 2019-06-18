@@ -163,7 +163,7 @@ export const frontmatter = {
     {
       name: 'Flash Fire',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Dragon Breath (Ult) has a quicker start but shorter duration.',
         '• Cooldown 60% (-3%)',
@@ -191,7 +191,7 @@ export const frontmatter = {
     },
     {
       name: 'Cloud Dragon Skaarf',
-      color: '#7A02EA',
+      color: '#c78cff',
       type: 'Epic',
       image: 'Skaarf_Cloud_Dragon',
     },

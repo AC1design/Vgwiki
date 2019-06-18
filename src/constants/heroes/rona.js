@@ -146,7 +146,7 @@ export const frontmatter = {
       type: 'ULTIMATE',
       image: 'Rona-C',
       text: [
-        'Rona drains her Bloodrage and spins in a whirlwind, dealing weapon damage to nearby enemies. While spinning, Rona moves 20% slower and gains fortified health each second.',
+        'Rona drains her Bloodrage and spins in a whirlwind, dealing weapon damage to nearby enemies. While spinning, Rona moves 10% slower and gains fortified health each second.',
         '• Can be cancelled at any time by reactivating it or using another ability.',
         '• Requires at least 25 Bloodrage to activate.',
         '• Deals less damage to minions.',
@@ -178,7 +178,7 @@ export const frontmatter = {
         },
         {
           name: 'Fortified Health/sec',
-          amount: ['100', '150', '200'],
+          amount: ['100', '200', '300'],
           cr: ' ',
           wr: ' ',
         },
@@ -200,7 +200,7 @@ export const frontmatter = {
     {
       name: 'Heroic Brawler',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Basic attacks reduce the cooldown of Into the Fray (A) by 10%. Rona passively gains attack speed.',
         '• Passive Attack Speed +25% (+5%)',
@@ -228,7 +228,7 @@ export const frontmatter = {
       image: 'Rona_Fury',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Peacekeeper Rona',
       type: 'Epic',
       image: 'Rona_Peacekeeper',

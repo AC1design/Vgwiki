@@ -210,7 +210,7 @@ export const frontmatter = {
     {
       name: 'Avenging Wrath',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Core Collapse (B) creates four black-hole collapses. Longer cooldown and lower damage.',
         '• Dmg to Burning Targets 165% (+15%)',
@@ -239,7 +239,7 @@ export const frontmatter = {
       image: 'Adagio_Dark_Parade_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Dark Parade Adagio',
       type: 'Epic',
       image: 'Adagio_Dark_Parade_II_E',
@@ -251,7 +251,7 @@ export const frontmatter = {
       image: 'Adagio_Dark_Parade_III_L',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Seraphim Adagio',
       type: 'Epic',
       image: 'Adagio_Seraphim_E',

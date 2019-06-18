@@ -84,7 +84,7 @@ export const frontmatter = {
       image: 'Alpha-B',
       text: [
         'Alpha lunges forward, and basic attacks her target. This ability costs 2% of her current health and applies Core Overload to herself, which will increase her damage output.',
-        'Core Overload (status effect): Each stack increases health cost of Core Charge by 2%, but also increases the damage. Also causes basic attacks to heal her. This healing is reduced against lane minions. Lasts 8.0s, stacking up to 3 times. Basic attacks refresh the duration.',
+        'Core Overload (status effect): Each stack increases health cost of Core Charge by 2%, but also increases the damage. Also causes basic attacks to heal her. This healing is reduced against lane minions. Lasts 8.0s, stacking up to 4 times. Basic attacks refresh the duration.',
         '• Attack has a small AOE, hitting nearby targets for crystal damage.',
         '• Basic attacks reduce the cooldown of this ability.',
       ],
@@ -166,7 +166,7 @@ export const frontmatter = {
     {
       name: 'Prime Time',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Prime Directive (A) grants Alpha bonus fortified health for every negative Core Overload stack from Core Charge (B) she expends. Longer cooldown.',
         '• Health Fort/Stack 15% (+2.5%)',
@@ -196,7 +196,7 @@ export const frontmatter = {
       image: 'Alpha_Broken_Doll_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Toy Box Alpha',
       type: 'Epic',
       image: 'Alpha_Broken_Doll_II_E',

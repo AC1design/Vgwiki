@@ -12,7 +12,7 @@ export const frontmatter = {
     { name: 'ENERGY REGEN', value: '1.33 - 3.09', color: '#5bbcff' },
     { name: 'WEAPON DAMAGE', value: '74 - 141', color: '#f48596' },
     { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
-    { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
+    { name: 'ARMOR', value: '30 - 35', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '1.5', color: '#e19efb' },
     { name: 'MOVE SPEED', value: '4.1', color: '#e19efb' },
@@ -42,7 +42,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['16s', '15s', '14s', '13s', '12s'],
+          amount: ['14s', '13s', '12s', '11s', '10s'],
           cr: ' ',
           wr: ' ',
         },
@@ -82,13 +82,13 @@ export const frontmatter = {
         'Activates a protective bubble that reflects damage back to nearby enemies - especially when it comes in large bursts.',
         '• Reflects any damage above 7.5% of base maximum health.',
         '• Reflect damage is spread out to up 3 nearby enemies.',
-        '• Each reflection reduces the shield duration by 0.4s.',
+        '• Each reflection reduces the shield duration by 0.2s.',
         '• Also damages enemies around Catherine while Stormguard is on.',
       ],
       stats: [
         {
           name: 'Cooldown',
-          amount: ['9s', '7.5s', '7s', '6.5s', '6s'],
+          amount: ['10s', '9.5s', '9s', '8.5s', '8s'],
           cr: ' ',
           wr: ' ',
         },
@@ -107,7 +107,7 @@ export const frontmatter = {
         },
         {
           name: 'Duration',
-          amount: ['3s', '3s', '3s', '3s', '4s'],
+          amount: ['4s', '4s', '4s', '4s', '5s'],
           cr: ' ',
           wr: ' ',
         },
@@ -178,7 +178,7 @@ export const frontmatter = {
     {
       name: 'Quick Pursuit',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'While Stormguard (B) is active, Catherine’s basic attacks will reduce the cooldown of Merciless Pursuit (A) and Blast Tremor (Ult).',
         '• Merciless Pursuit Reduction 10% (+1.5%)',
@@ -206,7 +206,7 @@ export const frontmatter = {
       image: 'Catherine_Paragon_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Paragon Catherine',
       type: 'Epic',
       image: 'Catherine_Paragon_II_E',
@@ -218,7 +218,7 @@ export const frontmatter = {
       image: 'Catherine_Paragon_III_L',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Gladiator Catherine',
       type: 'Epic',
       image: 'Catherine_Gladiator_E',

@@ -156,7 +156,7 @@ export const frontmatter = {
     {
       name: 'Double Benediction',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Benediction (A) has 1 additional charge.',
         '• Damage Reduction 50% (+3%)',
@@ -178,7 +178,7 @@ export const frontmatter = {
   ],
   skins: [
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Valkyrie Grace',
       type: 'Epic',
       image: 'Grace_Valkyrie',

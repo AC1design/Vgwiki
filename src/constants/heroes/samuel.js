@@ -172,7 +172,7 @@ export const frontmatter = {
     {
       name: 'Unwaking Nightmare',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Enemies put to sleep by Oblivion (Ult) will not wake up when taking damage.',
         '• Cooldown 70% (-2.5%)',
@@ -202,7 +202,7 @@ export const frontmatter = {
       image: 'Samuel_Apprentice',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Evolution Samuel',
       type: 'Epic',
       image: 'Samuel_Evolution',

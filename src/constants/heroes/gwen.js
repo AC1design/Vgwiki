@@ -59,7 +59,7 @@ export const frontmatter = {
           wr: '65%',
         },
         {
-          name: 'Slow Strenght',
+          name: 'Slow Strength',
           amount: ['0%', '0%', '0%', '0%', '0%'],
           cr: ' ',
           wr: '20%',
@@ -154,7 +154,7 @@ export const frontmatter = {
     {
       name: 'Skedaddling',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Skedaddle’s (B) duration is increased. Gwen passively gains weapon power.',
         '• Bonus Duration 1s (+0.2s)',
@@ -191,7 +191,7 @@ export const frontmatter = {
       opals: true,
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Snow Bunny Gwen',
       type: 'Epic',
       image: 'Gwen_Snow_Bunny',
@@ -209,6 +209,13 @@ export const frontmatter = {
       name: 'Black Diamond Gwen',
       type: 'Special Edition',
       image: 'Gwen_Black_Diamond',
+    },
+
+    {
+      color: 'red',
+      name: 'Summer Party Gwen',
+      type: 'Special Edition',
+      image: 'Gwen_Summer_Party',
     },
   ],
 }

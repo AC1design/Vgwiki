@@ -165,7 +165,7 @@ export const frontmatter = {
     {
       name: 'Sound Barrier',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Vox’s basic attacks periodically grant him a health barrier.',
         '• Max Health to Barrier 5% (+2.5%)',
@@ -191,7 +191,7 @@ export const frontmatter = {
     },
     {
       name: 'Cloud Raider Vox',
-      color: '#7A02EA',
+      color: '#c78cff',
       type: 'Epic',
       image: 'Vox_CloudRaider',
     },
@@ -203,7 +203,7 @@ export const frontmatter = {
     },
     {
       name: 'School Days Vox',
-      color: '#7A02EA',
+      color: '#c78cff',
       type: 'Epic',
       image: 'Vox_SchoolDays',
     },
@@ -212,6 +212,12 @@ export const frontmatter = {
       color: '#FF9000',
       type: 'Legendary',
       image: 'Vox_OnIce',
+    },
+    {
+      name: 'Netherknight Vox',
+      color: '#FF9000',
+      type: 'Legendary',
+      image: 'Vox_Netherknight',
     },
   ],
 }

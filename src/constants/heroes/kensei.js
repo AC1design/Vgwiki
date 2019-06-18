@@ -157,7 +157,7 @@ export const frontmatter = {
     {
       name: 'Enlightened Kensho',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Kensho’s empowered attack grants Kensei temporary invulnerability.',
         '• Passive Weapon Power 10% (+1%)',

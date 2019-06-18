@@ -180,7 +180,7 @@ export const frontmatter = {
     {
       name: 'Rollout',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Combat Roll (Ult) has 2 longer range and damages enemies along its path.',
         '• Basic Attack to Roll Dmg 120% (+4%)',
@@ -203,13 +203,13 @@ export const frontmatter = {
   ],
   skins: [
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Gladiator Lance',
       type: 'Epic',
       image: 'Lance_Gladiator_E',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Netherknight Lance',
       type: 'Epic',
       image: 'Lance_Netherknight_E',
@@ -227,7 +227,7 @@ export const frontmatter = {
       image: 'Krul_Samurai',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Golden Netherknight Lance',
       type: 'Epic',
       image: 'Lance_Golden_LE',

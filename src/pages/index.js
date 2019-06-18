@@ -12,7 +12,6 @@ import SocialPingsMobile from '../components/SocialPingsMobile'
 import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import HatsM from '../components/HatsMobile'
-import GPCard from '../components/GameplayCard';
 
 const IndexPage = props => (
   <Layout>
@@ -102,14 +101,14 @@ const IndexPage = props => (
 export default IndexPage
 export const pageQuery = graphql`
   {
-    imageOne: file(relativePath: { eq: "43bgdesktop.jpg" }) {
+    imageOne: file(relativePath: { eq: "44bgdesktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "43bgmobile.jpg" }) {
+    imageTwo: file(relativePath: { eq: "44bgmobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid_tracedSVG

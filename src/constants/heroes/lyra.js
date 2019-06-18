@@ -183,7 +183,7 @@ export const frontmatter = {
     {
       name: 'Mobile Bulwark',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Bright Bulwark (B) moves with Lyra and lasts longer. Lyra passively gains crystal power.',
         '• Bonus Duration 1.4s (+0.4s)',

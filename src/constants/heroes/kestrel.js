@@ -176,7 +176,7 @@ export const frontmatter = {
     {
       name: 'Active Reload',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Active Camo (B) refreshes all charges of Glimmershot (A). Glimmershot (A) has 2 additional charges.',
         '• Cooldown 100% (-2%)',
@@ -217,7 +217,7 @@ export const frontmatter = {
       image: 'Kestrel_Kyudo_Rare',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Spider Queen Kestrel',
       type: 'Epic',
       image: 'Kestrel_Spider_Queen',

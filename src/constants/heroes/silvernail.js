@@ -182,7 +182,7 @@ export const frontmatter = {
     {
       name: 'Caustic Bounty',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Caustic Blessing (B) throws two additional flasks.',
         '• Cooldown 90% (-3%)',

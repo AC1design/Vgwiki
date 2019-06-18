@@ -193,7 +193,7 @@ export const frontmatter = {
     {
       name: 'Ring Leader',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Three-Ring Circus (A) heals nearby allies.',
         '• Heal 110% (+7.5%)',
@@ -220,13 +220,13 @@ export const frontmatter = {
       image: 'Ozo_Wuxia_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Winged Ozo',
       type: 'Epic',
       image: 'Winged_Ozo',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Infernozo',
       type: 'Epic',
       image: 'Ozo_Infernozo',

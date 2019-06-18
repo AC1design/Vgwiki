@@ -159,7 +159,7 @@ export const frontmatter = {
     {
       name: 'Twirly Life',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Twirly Death (B) grants Koshka additional health barrier.',
         '• Max Health to Barrier 13% (+3%)',
@@ -188,7 +188,7 @@ export const frontmatter = {
       image: 'Koshka_Kandi_Twirl_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Kandy Rave Koshka',
       type: 'Epic',
       image: 'Koshka_Kandi_Twirl_II_E',
@@ -200,7 +200,7 @@ export const frontmatter = {
       image: 'Koshka_Kandi_Twirl_III_L',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Shool Days Koshka',
       type: 'Epic',
       image: 'Koshka_School_Days',

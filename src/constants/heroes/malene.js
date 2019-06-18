@@ -213,7 +213,7 @@ export const frontmatter = {
     {
       name: 'Shadow Terror',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Shadow Tendrils (Shadow A) will also fear enemies.',
         '• Damage 101% (+1%)',

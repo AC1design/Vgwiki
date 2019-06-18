@@ -194,7 +194,7 @@ export const frontmatter = {
     {
       name: 'MULTY MINE',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Ylva may place up to 3 Blinding Mines (Ult).',
         '• Trap Limit 3',

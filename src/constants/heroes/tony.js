@@ -161,7 +161,7 @@ export const frontmatter = {
     {
       name: 'Haymakers',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Tony’s Jawbreaker (A) now deals damage in an area around the target.',
         '• Bonus Damage 20% (+2.5%)',

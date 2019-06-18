@@ -173,7 +173,7 @@ export const frontmatter = {
     {
       name: 'Heavy Hitter',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Blood for Blood (B) deals much more damage but has 3.5 shorter range.',
         '• Damage 140% (+15%)',
@@ -201,7 +201,7 @@ export const frontmatter = {
       image: 'Ardan_Stormlord_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Storm Vigil Ardan',
       type: 'Epic',
       image: 'Ardan_Stormlord_II_E',
@@ -213,13 +213,13 @@ export const frontmatter = {
       image: 'Ardan_Stormlord_III_L',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Gladiator Ardan',
       type: 'Epic',
       image: 'Ardan_Gladiator_E',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Cagefighter Ardan',
       type: 'Epic',
       image: 'Ardan_Cagefighter_Epic',

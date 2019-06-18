@@ -167,7 +167,7 @@ export const frontmatter = {
     {
       name: 'CORE LEAF CLOVER',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Core Collapse (B) creates four black-hole collapses. Longer cooldown and lower damage.',
         '• Damage 25% (+2.5%)',
@@ -195,7 +195,7 @@ export const frontmatter = {
       image: 'Celeste_Star_Queen_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Rising Star Celeste',
       type: 'Epic',
       image: 'Celeste_Star_Queen_II_E',

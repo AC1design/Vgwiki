@@ -143,6 +143,7 @@ export const frontmatter = {
       text: [
         'Krul pulls Hellrazor from his chest and hurls it in the targeted direction. The sword will boomerang back to Krul. If the sword hits an enemy hero, it deals damage and stuns, then slows the target.',
         'Damage and stun duration scales with the distance the sword traveled before hitting the target:',
+        "• Applies 2/3/4 stacks of Weakness based on level",
         '• 50% at point blank range',
         '• 100% at max range',
         "• 150% at 'boomerang' range",
@@ -195,7 +196,7 @@ export const frontmatter = {
     {
       name: 'Healing Smite',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Spectral Smite (B) heals nearby allies. Krul passively gains crystal power.',
         '• Heal 100% (5%)',
@@ -223,7 +224,7 @@ export const frontmatter = {
       image: 'Krul_Death_Metal_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Death Metal Krul',
       type: 'Epic',
       image: 'Krul_Death_Metal_II_E',
@@ -241,7 +242,7 @@ export const frontmatter = {
       image: 'Krul_Samurai',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Death Metal Krul',
       type: 'Epic',
       image: 'Krul_Death_Metal_II_E',

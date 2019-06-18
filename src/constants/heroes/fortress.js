@@ -205,7 +205,7 @@ export const frontmatter = {
     {
       name: 'Critical Wounds',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Fortress gains +15% critical chance for each active wolf summoned by Attack of the Pack (Ult). Fortress passively gains critical strike damage.',
         '• Passive Crit Dmg +25% (+2.5%)',
@@ -233,7 +233,7 @@ export const frontmatter = {
       image: 'Fortress_Netherworld_I_R',
     },
     {
-      color: '#7A02EA',
+      color: '#c78cff',
       name: 'Netherworld Fortress',
       type: 'Epic',
       image: 'Fortress_Netherworld_II_E',

@@ -90,7 +90,7 @@ export const frontmatter = {
           wr: ' ',
         },
         {
-          name: 'Slow Strenght',
+          name: 'Slow Strength',
           amount: ['30%', '35%', '40%', '45%', '50%'],
           cr: ' ',
           wr: ' ',
@@ -156,7 +156,7 @@ export const frontmatter = {
     {
       name: 'Plasma Overdrive',
       type: 'Epic',
-      color: '#7A02EA',
+      color: '#c78cff',
       text: [
         'Plasma Driver (A) fires two additional bursts.',
         '• Damage 60% (+5%)',
