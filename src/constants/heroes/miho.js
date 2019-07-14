@@ -150,7 +150,7 @@ export const frontmatter = {
             image: 'Miho_Epic',
         },
         {
-            name: '?',
+            name: 'SHUNPO',
             type: 'Legendary',
             color: '#FF9000',
             text: [
