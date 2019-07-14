@@ -38,6 +38,7 @@ export const frontmatter = {
       image: 'Skaarf-A',
       text: [
         'Skaarf spits a fireball that collides with the first hero, structure or boss monster it hits.',
+        '• Projectile Speed: 14.5',
         '• The fireball damages and passes through smaller minions.',
         '• Each time it passes through a unit, its damate is reduced to 85% of before.',
         '• Deals 50% less damage damage to minions.',
@@ -60,7 +61,7 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['75', '125', '175', '225', '275'],
-          cr: '90%',
+          cr: '110%',
           wr: ' ',
         },
       ],
@@ -71,7 +72,8 @@ export const frontmatter = {
       image: 'Skaarf-B',
       text: [
         "Skaarf hurls a goop onto the target location. Enemies walking through the sticky substance are slowed. Any of Skaarf's flames will ignite the puddle, dealing burst damage and burning enemies over time.",
-        '• A flaming puddle does not slow enemies as much as a goop puddle.',
+        '• Goop Puddle (unignited) Slow Strength: 40%',
+        '• Flaming puddle Slow Strength: 20%',
         '• Deals half damage to minions and Kraken.',
       ],
       video:

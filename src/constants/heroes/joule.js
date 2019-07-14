@@ -12,8 +12,8 @@ export const frontmatter = {
     { name: 'ENERGY REGEN', value: '3.5 - 7.02', color: '#5bbcff' },
     { name: 'WEAPON DAMAGE', value: '66 - 148', color: '#f48596' },
     { name: 'ATTACK SPEED', value: '100% - 113.2%', color: '#f48596' },
-    { name: 'ARMOR', value: '20 - 25', color: '#f6ee71' },
-    { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
+    { name: 'ARMOR', value: '35 - 100', color: '#f6ee71' },
+    { name: 'SHIELD', value: '25 - 75', color: '#f6ee71' },
     { name: 'ATTACK RANGE', value: '2.4', color: '#e19efb' },
     { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
   ],
@@ -73,6 +73,7 @@ export const frontmatter = {
         "Joule's mech fires an energy bolt directly in front of her. If this strikes an enemy, the next Thunder Strike will have bonus armor & shield pierce.",
         '• Cooldown speed improves with attack speed.',
         '• Deals less damage to minions.',
+        '• Weapon Base Damage'
       ],
       stats: [
         {
@@ -91,7 +92,7 @@ export const frontmatter = {
           name: 'Damage',
           amount: ['150', '200', '250', '300', '350'],
           cr: '140%',
-          wr: '200%',
+          wr: '220%',
         },
       ],
     },

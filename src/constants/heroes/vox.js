@@ -25,7 +25,7 @@ export const frontmatter = {
       image: 'Vox-P',
       text: [
         "Vox's abilities mark enemies with Resonance. When basic attacking marked enemies, Resonance Bolts will bounce outwards to two nearby enemies dealing bonus crystal damage while refreshing and spreading the Resonance mark.",
-        '• Resonance Crystal damage: 20 (+85% of crystal power)',
+        '• Resonance Crystal damage: 20 (+70% of crystal power)',
         '• Resonance bounces deal 50% damage to minions.',
         '• Basic Attacks deal an additional 20-42 (level 1-12) (+40% of crystal power)(+100% of weapon power)',
       ],
@@ -56,8 +56,8 @@ export const frontmatter = {
           wr: ' ',
         },
         {
-          name: 'Basic Attack Damage',
-          amount: ['50%', '50%', '50%', '50%', '50%'],
+          name: 'Basic Attack Damage on Overdrive',
+          amount: ['70%', '70%', '70%', '70%', '70%'],
           cr: ' ',
           wr: ' ',
         },

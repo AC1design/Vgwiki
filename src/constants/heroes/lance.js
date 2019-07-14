@@ -226,5 +226,11 @@ export const frontmatter = {
       type: 'Epic',
       image: 'Lance_Golden_LE',
     },
+    {
+      color: '#FF9000',
+      name: 'Poseidon Lance',
+      type: 'Legendary',
+      image: 'Lance_Poseidon',
+    },
   ],
 }

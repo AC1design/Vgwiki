@@ -58,7 +58,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['60', '95', '130', '165', '200'],
+          amount: ['60', '105', '150', '195', '240'],
           cr: '50%',
           wr: '100%',
         },
@@ -125,8 +125,8 @@ export const frontmatter = {
           wr: ' ',
         },
         {
-          name: 'Stacks',
-          amount: ['125', '175', '225', '275', '325'],
+          name: 'Barrier Strength',
+          amount: ['125', '200', '275', '350', '425'],
           cr: ' ',
           wr: ' ',
         },

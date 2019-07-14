@@ -26,7 +26,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Krul-P',
       text: [
-        'Krul is empowered by the shadows after standing still in brush for 1s. While empowered, Krul briefly gains 2.2 move speed and his basic attacks will slow the target by 40% for 2.5s.',
+        'Krul is empowered by the shadows after standing still in brush for 0.7s. While empowered, Krul briefly gains 2.2 move speed and his basic attacks will slow the target by 40% for 2.5s.',
       ],
     },
     {
@@ -104,7 +104,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage/Stack',
-          amount: ['15', '30', '45', '60', '90'],
+          amount: ['25', '40', '55', '70', '100'],
           cr: '30%',
           wr: ' ',
         },
@@ -116,7 +116,7 @@ export const frontmatter = {
         },
         {
           name: 'Heal/Stack',
-          amount: ['15', '20', '25', '30', '40'],
+          amount: ['25', '30', '35', '40', '50'],
           cr: '20%',
           wr: ' ',
         },

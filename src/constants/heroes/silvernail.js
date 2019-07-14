@@ -24,7 +24,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Silvernail-P',
       text: [
-        'Silvernail loads an extra bolt every 4.5s which can be expended to chain a follow-up basic attack, dealing 35% damage.',
+        'Silvernail loads an extra bolt every 4.0s which can be expended to chain a follow-up basic attack, dealing 35% damage.',
         '• Attack speed reduces load time.',
       ],
       video: 'Silvernail-P',

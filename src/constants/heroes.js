@@ -29,6 +29,7 @@ import { frontmatter as lorelai } from './heroes/lorelai'
 import { frontmatter as lyra } from './heroes/lyra'
 import { frontmatter as magnus } from './heroes/magnus'
 import { frontmatter as malene } from './heroes/malene'
+import { frontmatter as miho } from './heroes/miho'
 import { frontmatter as ozo } from './heroes/ozo'
 import { frontmatter as petal } from './heroes/petal'
 import { frontmatter as phinn } from './heroes/phinn'
@@ -46,9 +47,9 @@ import { frontmatter as taka } from './heroes/taka'
 import { frontmatter as tony } from './heroes/tony'
 import { frontmatter as varya } from './heroes/varya'
 import { frontmatter as vox } from './heroes/vox'
+import { frontmatter as warhawk } from './heroes/warhawk'
 import { frontmatter as yates } from './heroes/yates'
 import { frontmatter as ylva } from './heroes/ylva'
-import { frontmatter as warhawk } from './heroes/warhawk'
 
 export const heroTabs = [
   'ALL',
@@ -60,7 +61,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
-  warhawk,
+  miho,
   adagio,
   alpha,
   anka,
@@ -109,6 +110,7 @@ export const heroCards = [
   tony,
   varya,
   vox,
+  warhawk,
   yates,
   ylva,
 ]

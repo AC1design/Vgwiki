@@ -76,7 +76,7 @@ class Itemsbox extends React.Component {
                 <img src={this.props.item8} alt={this.props.item8} />
               )}
               {this.props.item9 && (
-                <img src={this.props.item8} alt={this.props.item8} />
+                <img src={this.props.item9} alt={this.props.item9} />
               )}
             </div>
           </div>

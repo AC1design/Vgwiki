@@ -25,7 +25,7 @@ export const frontmatter = {
       image: 'Malene-P',
       text: [
         "Malene's ultimate is available at level 1 and allows her to switch between Light Form and Shadow Form. Additionally, Malene's basic attacks deal crystal damage.",
-        '• Basic attack crystal damage: 70-126 (level 1-12) (+60% Crystal Power)(+100% Weapon Power).',
+        '• Basic attack crystal damage: 70-126 (level 1-12) (+50% Crystal Power)(+100% Weapon Power).',
         "• For 6s after switching forms, Malene's next basic attack is empowered.",
       ],
     },
@@ -52,7 +52,7 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['60', '105', '150', '195', '240'],
-          cr: '100%',
+          cr: '110%',
           wr: ' ',
         },
         {
@@ -88,7 +88,7 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['30', '60', '90', '120', '150'],
-          cr: '60%',
+          cr: '65%',
           wr: ' ',
         },
       ],
@@ -185,8 +185,8 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['40', '80', '120', '160'],
-          cr: '80%',
+          amount: ['30', '60', '90', '120'],
+          cr: '50%',
           wr: ' ',
         },
         {

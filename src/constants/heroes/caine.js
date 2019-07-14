@@ -56,7 +56,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Slow Strength',
-                    amount: ['30%', '35%', '40%', '45%', '65%'],
+                    amount: ['25%', '30%', '35%', '40%', '50%'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -128,13 +128,13 @@ export const frontmatter = {
                 },
                 {
                     name: 'Explosion Damage',
-                    amount: ['150', '225', '300'],
+                    amount: ['125', '200', '275'],
                     cr: '120%',
                     wr: ' ',
                 },
                 {
-                    name: 'Health Baseline',
-                    amount: ['15%', '20%', '25%'],
+                    name: 'Execution Threshold',
+                    amount: ['15%', '17.5%', '20%'],
                     cr: '  ',
                     wr: ' ',
                 },

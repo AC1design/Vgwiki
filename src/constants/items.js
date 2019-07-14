@@ -9,19 +9,6 @@ export const itemTabs = [
 
 export const itemBoxes = [
   {
-    image: 'celestial-shroud',
-    name: 'Celestial Shroud',
-    class: 'DEFENSE',
-    tier: 'TIER 3',
-    color: '#A0D46B',
-    cost: '1900',
-    tag: 'NEW',
-    description:
-      '+95 Shield\nPassive: Grants immunity to abilities and debuffs. Disabled for 35s shortly after negating ability damage',
-    tip: 'Tip: Buy this against heavy crystal damage or hard-engage heroes',
-    item1: 'kinetic-shield',
-  },
-  {
     image: 'aegis',
     name: 'Aegis',
     class: 'DEFENSE',
@@ -29,7 +16,7 @@ export const itemBoxes = [
     color: '#A0D46B',
     cost: '2400',
     description:
-      '+45 Shield\n+44 Armor\n+200 Max Health\n\nActivate: Reflex Block (60s cooldown).',
+      '+45 Shield\n+44 Armor\n+200 Max Health\n\nActivate: Reflex Block (45s cooldown).',
     tip: 'Tip: Greatly reduces damage from enemy abilities.',
     item1: 'reflex-block',
     item2: 'warmail',
@@ -169,6 +156,19 @@ export const itemBoxes = [
     tip: 'Tip: Buy this if your hero utilizes heals or barriers frequently.',
     item1: 'dragonheart',
     item2: 'warmail',
+  },
+  {
+    image: 'celestial-shroud',
+    name: 'Celestial Shroud',
+    class: 'DEFENSE',
+    tier: 'TIER 3',
+    color: '#A0D46B',
+    cost: '1900',
+    description:
+      '+300 Health\n+95 Shield\nPassive: Grants immunity to abilities and debuffs. Disabled for 35s shortly after negating ability damage',
+    tip: 'Tip: Buy this against heavy crystal damage or hard-engage heroes',
+    item1: 'reflex-block',
+    item2: 'kinetic-shield',
   },
   {
     image: 'chronograph',
@@ -674,12 +674,13 @@ export const itemBoxes = [
     color: '#A0D46B',
     cost: '700',
     description:
-      '+150 Max Health\n\nActivate: Gain a barrier worth 100-600 (level 1-12) and block all debuffs for 1.5s. (120s cooldown).',
+      '+150 Max Health\n\nActivate: Gain a barrier worth 100-600 (level 1-12) and block all debuffs for 1.5s. (90s cooldown).',
     tip:
       'Tip: Block dangerous but predictable abilities with your fast reflexes.',
     item1: 'oakheart',
     item4: 'aegis',
-    item5: 'crucible',
+    item5: 'celestial-shroud',
+    item6: 'crucible',
   },
   {
     image: 'rooks-decree',

@@ -110,10 +110,9 @@ class Header extends React.Component {
         style={{ background: '#2B2B2D', color: 'white' }}
         className="classes.list"
       >
-        <h1 style={{ fontSize: '14px', marginLeft: '16px', marginTop: '20px' }}>
+        <h1 style={{ fontSize: '24px', marginLeft: '16px', marginTop: '20px', fontFamily: 'Antonio' }}>
           Heroes
         </h1>
-        <StyledDivider variant="middle" />
         <StyledList>
           {heroCards
             .map(hero => hero.name)
@@ -140,7 +139,6 @@ class Header extends React.Component {
         className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}
       >
         <div className="HeaderGroup">
-          <SimpleDialogDemo />
           <Link to="/">
             <img
               src={require('./../images/LOGOCOLORED.png')}

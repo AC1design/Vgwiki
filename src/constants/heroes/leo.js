@@ -53,7 +53,7 @@ export const frontmatter = {
                     name: 'Damage Overdrive Bonus',
                     amount: ['90', '180', '270', '360', '540'],
                     cr: ' ',
-                    wr: '320%',
+                    wr: '300%',
                 },
             ],
         },
@@ -105,7 +105,7 @@ export const frontmatter = {
             image: 'Leo-C',
             text: [
                 `Leo briefly charges his blade then jumps in the target direction, damaging enemies in the area and empowering himself with Lion’s Might, granting additional effects on his other abilities. If there are enemy heroes near Leo,  he will use Lion’s Fury instead, shoving all enemy heroes in a target direction and stunning them before leaping to them and unleashing two great strikes on them.`,
-                `• Lion’s Might – Crushing Strike (A) – Deals bonus damage and causes enemies to bleed for 4s.`,
+                `• Lion’s Might – Crushing Strike (A) – Deals bonus damage and causes enemies to bleed for 3s (Weapon Ratio 50%).`,
                 `• Lion’s Might – Jet Cyclone (B) – Deals bonus damage and roots enemies instead of slowing them.`,
             ],
             video: 'Leo-C',
@@ -142,7 +142,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Bonus Damage',
-                    amount: ['10%', '25%', '40%'],
+                    amount: ['15%', '15%', '15%'],
                     cr: ' ',
                     wr: ' ',
                 },

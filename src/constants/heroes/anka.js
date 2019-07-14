@@ -26,7 +26,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Anka-P',
       text: [
-        'After 8s, Anka’s next basic attack on an enemy hero becomes Execute Strike, dealing bonus crystal damage equal to 19-30% (level 1-12) of the target’s missing health. Additionally, Anka fully refreshes Execute Strike and Shimmer Blade upon getting a hero kill or assist.',
+        'After 8s, Anka’s next basic attack on an enemy hero becomes Execute Strike, dealing bonus crystal damage equal to 20% of the target’s missing health. Additionally, Anka fully refreshes Execute Strike and Shimmer Blade upon getting a hero kill or assist.',
       ],
     },
     {
@@ -34,7 +34,7 @@ export const frontmatter = {
       name: 'SHIMMER BLADE',
       type: 'A ABILITY',
       text: [
-        'Anka throws a dagger in the target direction, dealing damage to the first enemy hit. When the dagger hits an enemy, Anka can reactivate the ability within 2s to blink next to the victim.',
+        'Anka throws a dagger in the target direction, dealing damage to the first enemy hit. When the dagger hits an enemy, Anka can reactivate the ability within 2.5s to blink next to the victim.',
         '• Anka gains a burst of decaying movement speed upon blinking.',
       ],
       image: 'Anka-A',
@@ -78,7 +78,7 @@ export const frontmatter = {
       image: 'Anka-B',
       text: [
         'Anka throws five knives in a cone, dealing damage to all enemies the knives pass through.',
-        'Each additional knife after the first deals damage equal to 50% of the initial damage.',
+        'Each additional knife after the first deals damage equal to 33% of the initial damage.',
       ],
       stats: [
         {

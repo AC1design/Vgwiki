@@ -238,6 +238,14 @@ margin-bottom: 15px;
   justify-content: center;
 }
 
+.imgurgr{
+  width: 280px;
+height: 225px;
+border-radius: 26px;
+background: linear-gradient(-225deg, rgba(45, 207, 145, 0) 0%, #28ce8e 100%);
+
+}
+
 
 @media (min-width: 1367px) {
   .Title{

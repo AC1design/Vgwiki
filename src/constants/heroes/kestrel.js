@@ -65,7 +65,7 @@ export const frontmatter = {
         },
         {
           name: 'Basic Attack Damage',
-          amount: ['105%', '110%', '115%', '120%', '125%'],
+          amount: ['110%', '115%', '120%', '125%', '135%'],
           cr: '100%',
           wr: ' ',
         },
@@ -105,7 +105,7 @@ export const frontmatter = {
         },
         {
           name: 'Stealth Duration',
-          amount: ['1s', '1s', '1s', '1s', '1.5s'],
+          amount: ['1.2s', '1.2s', '1.2s', '1.2s', '1.5s'],
           cr: '3%',
           wr: ' ',
         },
@@ -235,6 +235,13 @@ export const frontmatter = {
       name: 'Contender Kestrel',
       type: 'Limited Edition',
       image: 'Kestrel_Contender',
+    },
+
+    {
+      color: '#c78cff',
+      name: 'Wu Xing Forest Kestrel',
+      type: 'Epic',
+      image: 'Kestrel_WuXingForest',
     },
   ],
 }

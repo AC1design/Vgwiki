@@ -56,13 +56,13 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['60', '90', '120', '150', '210'],
-          cr: '100%',
+          cr: '90%',
           wr: ' ',
         },
         {
           name: 'Empowered Damage',
           amount: ['75', '105', '135', '165', '225'],
-          cr: '110%',
+          cr: '100%',
           wr: ' ',
         },
         {

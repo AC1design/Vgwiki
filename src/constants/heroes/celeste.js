@@ -35,14 +35,14 @@ export const frontmatter = {
       name: 'HELIOGENESIS',
       type: 'A ABILITY',
       text: [
-        'Celeste forms a small star at a target location, dealing crystal damage to nearby enemies. The star will briefly linger on the field. If Celeste uses this ability on an existing star, the star will go supernova, dealing more crystal damage in a larger area.',
+        'Celeste forms a small star at a target location, dealing crystal damage to nearby enemies. The star will briefly linger on the field for 10s. If Celeste uses this ability on an existing star, the star will go supernova, dealing more crystal damage in a larger area.',
         'Deals reduced damage (-50%) to minions.',
       ],
       image: 'Celeste-A',
       stats: [
         {
           name: 'Cooldown',
-          amount: ['2.8s', '2.4s', '2s', '1.6s', '1.2s'],
+          amount: ['2.8s', '2.6s', '2.4s', '2.2s', '1.8s'],
           cr: ' ',
           wr: ' ',
         },
@@ -134,13 +134,13 @@ export const frontmatter = {
         {
           name: 'Lead Star Damage',
           amount: ['300', '325', '350'],
-          cr: '100%',
+          cr: '80%',
           wr: ' ',
         },
         {
-          name: 'Star Damage',
+          name: 'Trailing Star Damage',
           amount: ['150', '160', '170'],
-          cr: '20%',
+          cr: '15%',
           wr: ' ',
         },
         {
