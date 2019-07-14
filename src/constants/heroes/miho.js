@@ -65,7 +65,7 @@ export const frontmatter = {
             ],
         },
         {
-            video: '',
+            video: 'Miho-B',
             name: 'SHINGETSU',
             type: 'B ABILITY',
             image: 'Miho-B',
