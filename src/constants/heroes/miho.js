@@ -41,7 +41,7 @@ export const frontmatter = {
             text: [
                 'Miho teleports a set distance, dealing damage to every enemy that she passes through and in the area where she reappears.',
                 '• Overdrive: This ability is refreshed whenever any enemy becomes Unguarded.',
-                '• Thies ability triggers basic-attack effects.',
+                '• This ability triggers basic-attack effects.',
             ],
             stats: [
                 {
