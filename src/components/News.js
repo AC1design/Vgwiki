@@ -3,11 +3,11 @@ import MediaControlCard from '../components/Wpcard';
 
 const News = props => (
 <div>
-    <div className="Selectan">
-        <h1 style={{ fontSize: '18px'}}>Latest Wallpapers</h1>
+        <div className="News">
+        <h1>Latest Wallpapers</h1>
     </div>
 <div className="CardboxGroupScroll">
-    <div className="CardboxGroup">
+            <div className="CardboxGroup" style={{ gridTemplateColumns: 'repeat(3, 280px)'}}>
         <MediaControlCard
             image={require('../images/Wallpaper/miho.png')}
             text='Miho Wallpapers'

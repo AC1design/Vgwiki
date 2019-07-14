@@ -85,23 +85,6 @@ a {
   overflow: visible
 }
 
-.MPL h1{
-  font-family: Antonio;
-font-size: 24px;
-color: white;
-margin-bottom: 0px;
-text-align: left;
-}
-.MPL h2{
-font-size: 20px;
-color: white;
-margin: 0;
-text-align: left;
-margin-bottom: 15px;
-}
-.MPLagroup{
-  text-align: left;
-}
 
 
 
@@ -193,6 +176,16 @@ margin-bottom: 15px;
     color: rgb(255, 255, 255);
     justify-content: left;
     overflow: hidden;
+  }
+
+  .News{
+    text-align: center
+  }
+  
+  .News h1{
+    color: white;
+    font-family: Antonio;
+    font-size: 18px;
   }
 
 
