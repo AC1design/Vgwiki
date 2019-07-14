@@ -26,7 +26,7 @@ export const frontmatter = {
             type: 'Perk',
             image: 'Miho-P',
             text: [
-                `Instead of energy, Mho uses Focus for her abilities. This is capped at 100 and naturally regenerates 10 per second, Miho also recovers an additional 10 focus for each basic attack she lands.\nMho's abilities apply Keen Eye stacks to enemy heroes, If Miho performs a basic attack on a target with three stacks, they become Unguarded, stunned, dealt a burst of true damage and grant Mho a barrier.\nMiho deals bonus damage to Unguarded targets but they cannot be inflicted with additional stacks of Keen Eye.`,
+                `Instead of energy, Miho uses Focus for her abilities. This is capped at 100 and naturally regenerates 10 per second, Miho also recovers an additional 10 focus for each basic attack she lands.\nMiho's abilities apply Keen Eye stacks to enemy heroes, If Miho performs a basic attack on a target with three stacks, they become Unguarded, stunned, dealt a burst of true damage and grant Miho a barrier.\nMiho deals bonus damage to Unguarded targets but they cannot be inflicted with additional stacks of Keen Eye.`,
                 '• Stun Duration: 0.3s',
                 '• True Damage: 19-250 (level 1-12)',
                 '• Barrier: 35-150 (level 1-12)(+100% weapon power)',
@@ -70,7 +70,7 @@ export const frontmatter = {
             type: 'B ABILITY',
             image: 'Miho-B',
             text: [
-                'Mho steps forward and performs a slash before entering Quick Draw Stance, While in the stance, she can perform additional slashes as long as she has enough Focus.',
+                'Miho steps forward and performs a slash before entering Quick Draw Stance, While in the stance, she can perform additional slashes as long as she has enough Focus.',
             ],
             stats: [
                 {
