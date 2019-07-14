@@ -12,6 +12,7 @@ import SocialPingsMobile from '../components/SocialPingsMobile'
 import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import HatsM from '../components/HatsMobile'
+import News from '../components/News';
 
 const IndexPage = props => (
   <Layout>
@@ -49,6 +50,7 @@ const IndexPage = props => (
           </div>
         </div>
       </MediaQuery>
+      <News/>
       <Tabsind />
       <MediaQuery query="(max-width: 1366px)">
         <div className="mobile">

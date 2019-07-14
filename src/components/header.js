@@ -8,8 +8,6 @@ import Button from '@material-ui/core/Button'
 import List from '@material-ui/core/List'
 import SvgComponent from './SvgList'
 import ListItem from '@material-ui/core/ListItem'
-import { Divider } from '@material-ui/core'
-import SimpleDialogDemo from './VgDialog'
 
 const StyledButton = withStyles({
   root: {
@@ -57,14 +55,6 @@ const StyledSwipeableDrawer = withStyles({
     width: '180px',
   },
 })(SwipeableDrawer)
-
-const StyledDivider = withStyles({
-  middle: {
-    margin: '16px',
-    backgroundColor: ' rgb(0, 183, 255)',
-    height: '2',
-  },
-})(Divider)
 
 class Header extends React.Component {
   state = {

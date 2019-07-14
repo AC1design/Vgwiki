@@ -10,7 +10,6 @@ import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
 import AdComponent from '../components/ad'
 import StickyFooter from 'react-sticky-footer'
-import WPCard from '../components/Wallpapercard';
 
 export default function({ data }) {
   const hero = data.allJavascriptFrontmatter.edges.length
