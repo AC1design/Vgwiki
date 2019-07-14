@@ -108,23 +108,6 @@ class Tabsind extends React.Component {
   render() {
     return (
       <MediaQuery query="(min-width: 1367px)">
-        <div className="Selectan">
-          <h1 style={{fontSize:'18px'}}>Latest Wallpapers</h1>
-          </div>
-        <div className="CardboxGroup" style={{marginBottom:'60px'}}>
-        <MediaControlCard
-            image={require('../images/Wallpaper/miho.png')}
-            text='Miho Wallpapers'
-          />
-          <MediaControlCard
-            image={require('../images/Wallpaper/lance.png')}
-            text='Lance Wallpapers'
-          />
-          <MediaControlCard
-            image={require('../images/Wallpaper/kestrel.png')}
-            text='Kestrel Wallpapers'
-          />
-        </div>
         <Tabs
           defaultIndex={parseInt(this.state.tabIndex, 10)}
           onSelect={tabIndex => this.selectTab(tabIndex)}
