@@ -130,7 +130,7 @@ export const frontmatter = {
             type: 'Rare',
             color: '#6393F9',
             text: [
-                'Enemies will longer become Unguarded but the but the burst of true damage is greater.',
+                'Enemies will longer become Unguarded but the burst of true damage is greater.',
                 '• Damage 215% (max)',
                 '• Passive Weapon Power +20% (max)',
                 '• Passive Cristal Power +20% (max)',
