@@ -14,7 +14,6 @@ import { hats } from '../constants/hats'
 import Pings from './SocialPings'
 import Hats from './Hats';
 import AdComponent from './ad';
-import MediaControlCard from './Wpcard';
 
 const tabNames = ['HEROES', 'ITEMS', 'COSMETICS']
 

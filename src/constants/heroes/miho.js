@@ -34,7 +34,7 @@ export const frontmatter = {
             ],
         },
         {
-            video: '',
+            video: 'Miho-A',
             name: 'REIZAN',
             type: 'A ABILITY',
             image: 'Miho-A',
@@ -94,7 +94,7 @@ export const frontmatter = {
             ],
         },
         {
-            video: '',
+            video: 'Miho-C',
             name: `TSUKUYOMI`,
             type: 'ULTIMATE',
             image: 'Miho-C',
