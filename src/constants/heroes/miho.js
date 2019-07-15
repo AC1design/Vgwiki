@@ -71,6 +71,7 @@ export const frontmatter = {
             image: 'Miho-B',
             text: [
                 'Miho steps forward and performs a slash before entering Quick Draw Stance, While in the stance, she can perform additional slashes as long as she has enough Focus.',
+                '• NOTE: To cancel Shingetsu , use the red C ability button.',
             ],
             stats: [
                 {
