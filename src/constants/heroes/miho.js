@@ -1,7 +1,7 @@
 export const frontmatter = {
     name: 'Miho',
-    type: ['JUNGLE', 'ASSASSIN'],
-    role: ['JUNGLE'],
+    type: ['LANE', 'ASSASSIN'],
+    role: ['LANE'],
     path: '/Miho',
     description:
         'Skilled swordswoman that can cut through any obstacle',

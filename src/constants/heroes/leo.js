@@ -1,7 +1,7 @@
 export const frontmatter = {
     name: 'Leo',
-    type: ['JUNGLE', 'WARRIOR'],
-    role: ['JUNGLE'],
+    type: ['LANE', 'WARRIOR'],
+    role: ['LANE'],
     path: '/Leo',
     description: 'Brawny bodyguard with a jet powered sword',
     spotlight: 'nHvdWkuoKwA',

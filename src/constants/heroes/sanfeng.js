@@ -1,7 +1,7 @@
 export const frontmatter = {
   name: 'SanFeng',
-  type: ['JUNGLE', 'WARRIOR'],
-  role: ['JUNGLE'],
+  type: ['LANE', 'WARRIOR'],
+  role: ['LANE'],
   path: '/SanFeng',
   description: "A master Grangor who turn enemy's power against them",
   spotlight: 'Pv2r7OiUKJs',
