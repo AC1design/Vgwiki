@@ -5,7 +5,7 @@ export const frontmatter = {
     path: '/Miho',
     description:
         'Skilled swordswoman that can cut through any obstacle',
-    spotlight: '',
+    spotlight: 'aDF67eklCqo',
     stats: [
         { name: 'HEALTH', value: '775 - 2084', color: '#4eec8b' },
         { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
