@@ -36,6 +36,13 @@ module.exports = {
         path: `${__dirname}/src/constants/heroes/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/constants/builds/`,
+      },
+    },
     'gatsby-transformer-javascript-frontmatter',
   ],
 }
