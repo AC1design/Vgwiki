@@ -96,6 +96,7 @@ const IndexPage = props => (
         async
         src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       />
+      <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="723cc8d9-3751-4bf3-826f-a7fa548b4a79" type="text/javascript" async></script>
     </Page>
   </Layout>
 )
