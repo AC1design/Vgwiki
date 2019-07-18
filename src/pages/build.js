@@ -83,38 +83,62 @@ display: flex;
   max-width: 1366px;
 `
 
-
-const Box = styled.div`
-flex-grow: 1;
-    height: auto;
-    overflow: hidden;
-    border-radius: 26px;
-    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
-    grid-template-rows: 1fr 1fr;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    cursor: pointer;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-     background-color: #2B2B2D;
-     margin: 0 auto;
+const Build = styled.div`
      margin-top: 16px;
+     margin-left: 16px;
      margin-right: 16px;
-     @media (max-width: 480px) {
+     width: auto;
+     @media (max-width: 1080px) {
        width: 100%;
      }
+`
+
+const BuildTitle = styled.h1`
+font-size: 16px;
+font-family: Antonio;
+color: white;
+`
+
+const Box = styled.div`
+display: flex;
+justify-content: center;
+flex-grow: 1;
+height: auto;
+overflow: hidden;
+border-radius: 26px;
+box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
+    grid-template-rows: 1fr 1fr;
+transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    user-select: none;
+-webkit-tap-highlight-color: transparent;
+     background-color: #2B2B2D;
+     margin: 0 auto;
 `
 
 const ImageGroup = styled.div`
  display: flex;
  flex-wrap: wrap;
- justify-content: center;
+ justify-content: left;
+ align-content: center;
+`
+const Item = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+margin: 16px;
 `
 
 const ItemImg = styled.img`
 width: 50px;
-margin: 16px;
 `
-
+const ItemName = styled.p`
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    font-size: 12px;
+    width: 50px;
+    margin-top: 16px;
+`
 
 
 const BuildPage = props => (
@@ -142,7 +166,7 @@ const BuildPage = props => (
               <HeroGroupP>CP</HeroGroupP>
             </div>
           </HeroGroup>
-          <img class="animated infinite pulse" style={{ position: 'absolute', bottom: 16, width: '50px', textAlign: 'center' }} className='arrowscroll' src={require('../images/arrow.png')}></img>
+          <p class='animate infinite pulse' style={{ position: 'absolute', bottom: 16, textAlign: 'center', color: 'white', width: '100%', fontStyle: 'italic' }}> Scroll for more </p>
         </Hero>
       </ScrollAnimation>
     </MediaQuery>
@@ -168,43 +192,106 @@ const BuildPage = props => (
             <HeroGroupP>CP</HeroGroupP>
           </div>
         </HeroGroup>
+        <p class= 'animate infinite pulse' style={{position: 'absolute', bottom: 16, textAlign: 'center', color: 'white', width: '100%', fontStyle:'italic' }}> Scroll for more </p>
       </Hero>
     </MediaQuery>
     <AdComponent />
-    <div className='Title'>
-      <h1>Build</h1>
+    <div style={{ maxWidth: '1366px', margin: '0 auto' }}>
+      <h1 style={{ fontFamily: 'Antonio', color: 'white', marginLeft: '16px' }}> Build</h1>
     </div>
     <BuildGroup>
-      <Box>
-        <ImageGroup>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-        </ImageGroup>
-      </Box>
-      <Box>
-        <ImageGroup>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-        </ImageGroup>
-      </Box>
-      <Box>
-        <ImageGroup>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-          <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
-        </ImageGroup>
-      </Box>
+      <Build>
+        <BuildTitle>Starter</BuildTitle>
+        <Box>
+          <ImageGroup>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>ABC</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+          </ImageGroup>
+        </Box>
+      </Build>
+      <Build>
+        <BuildTitle>Core</BuildTitle>
+        <Box>
+          <ImageGroup>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+          </ImageGroup>
+        </Box>
+      </Build><Build>
+        <BuildTitle>Situational</BuildTitle>
+        <Box>
+          <ImageGroup>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+            <Item>
+              <ItemImg src={require('../images/Items/aegis.png')}></ItemImg>
+              <ItemName>AngeloC 1234568910</ItemName>
+            </Item>
+          </ImageGroup>
+        </Box>
+      </Build>
     </BuildGroup>
   </Layout>
 )

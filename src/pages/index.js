@@ -13,10 +13,12 @@ import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import HatsM from '../components/HatsMobile'
 import News from '../components/News';
+import ADBdetect from '../components/ADB';
 
 const IndexPage = props => (
   <Layout>
     <meta name="theme-color" content="#1f1f21" />
+    <ADBdetect></ADBdetect>
     <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
       <MediaQuery query="(min-width: 721px)">
         <div className="Hero">
@@ -90,6 +92,8 @@ const IndexPage = props => (
           Made by 
 {' '}
           <a href="https://twitter.com/AngeloCant1">AngeloC</a>
+          <h1 style={{fontSize: '14px'}}>Cookie Declaration</h1>
+          <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
         </StickyFooter>
       </div>
       <script

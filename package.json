@@ -28,6 +28,7 @@
     "js-yaml": "^3.13.1",
     "querystringify": "^2.1.1",
     "react": "^16.8.6",
+    "react-ad-block-detect": "^1.0.1",
     "react-adsense": "0.0.6",
     "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.0.0-beta.9",
