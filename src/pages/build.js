@@ -202,7 +202,6 @@ const BuildPage = props => (
             <HeroGroupP>CP</HeroGroupP>
           </div>
         </HeroGroup>
-        <p class= 'animate infinite pulse' style={{position: 'absolute', bottom: 16, textAlign: 'center', color: 'white', width: '100%', fontStyle:'italic' }}> Scroll for more </p>
         </Hero>
     </MediaQuery>
     <AdComponent />
