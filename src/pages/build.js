@@ -156,6 +156,7 @@ const ItemName = styled.p`
 const BuildPage = props => (
   <Layout>
     <MediaQuery query="(min-width: 721px)">
+      <ScrollAnimation animateIn="fadeIn" animateOnce duration={3}>
         <Hero>
           <HeroContainer>
             <ImgHero
@@ -179,8 +180,10 @@ const BuildPage = props => (
           </HeroGroup>
           <p class='animate infinite pulse' style={{ position: 'absolute', bottom: 16, textAlign: 'center', color: 'white', width: '100%', fontStyle: 'italic' }}> Scroll for more </p>
         </Hero>
+      </ScrollAnimation>
     </MediaQuery>
     <MediaQuery query="(max-width: 720px)">
+      <ScrollAnimation animateIn="fadeIn" animateOnce duration={3}>
       <Hero>
         <HeroContainer>
           <ImgHero
@@ -203,9 +206,11 @@ const BuildPage = props => (
           </div>
         </HeroGroup>
         <p class= 'animate infinite pulse' style={{position: 'absolute', bottom: 16, textAlign: 'center', color: 'white', width: '100%', fontStyle:'italic' }}> Scroll for more </p>
-      </Hero>
+        </Hero>
+      </ScrollAnimation>
     </MediaQuery>
     <AdComponent />
+    <ScrollAnimation animateIn="fadeIn" animateOnce duration={3}>
     <GroupH1>
       <H1> Build</H1>
     </GroupH1>
@@ -302,7 +307,8 @@ const BuildPage = props => (
           </ImageGroup>
         </Box>
       </Build>
-    </BuildGroup>
+      </BuildGroup>
+    </ScrollAnimation>
   </Layout>
 )
 
