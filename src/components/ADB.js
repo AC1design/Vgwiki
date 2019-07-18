@@ -49,7 +49,8 @@ class ADBdetect extends React.Component {
                                 style={{
                                     width: '200px',
                                 }}
-                                src={require('../images/addetect.png')}></img>
+                                src={require('../images/addetect.png')}
+                                alt="ad detection"></img>
                             <h1 style={{ fontFamily: 'Antonio', color: 'white', marginBottom: '0px' }}>ADBLOCK DETECTED</h1>
                             <p style={{ fontFamily: 'Antonio', color: 'white', marginTop: '16px' }}>Our website is made possible by displaying online advertisements to our visitors.
                             Please consider supporting us by disabling your ad blocker.</p>
