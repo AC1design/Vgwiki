@@ -80,7 +80,10 @@ margin: 0 auto;
 `
 
 const H1 = styled.h1`
-
+font-family: Antonio;
+ color: white;
+ margin-left: 16px;
+ 
 `
 
 
@@ -153,7 +156,6 @@ const ItemName = styled.p`
 const BuildPage = props => (
   <Layout>
     <MediaQuery query="(min-width: 721px)">
-      <ScrollAnimation animateIn="fadeIn" animateOnce duration={3}>
         <Hero>
           <HeroContainer>
             <ImgHero
@@ -177,7 +179,6 @@ const BuildPage = props => (
           </HeroGroup>
           <p class='animate infinite pulse' style={{ position: 'absolute', bottom: 16, textAlign: 'center', color: 'white', width: '100%', fontStyle: 'italic' }}> Scroll for more </p>
         </Hero>
-      </ScrollAnimation>
     </MediaQuery>
     <MediaQuery query="(max-width: 720px)">
       <Hero>
@@ -206,7 +207,7 @@ const BuildPage = props => (
     </MediaQuery>
     <AdComponent />
     <GroupH1>
-      <H1 style={{ fontFamily: 'Antonio', color: 'white', marginLeft: '16px' }}> Build</H1>
+      <H1> Build</H1>
     </GroupH1>
     <BuildGroup>
       <Build>
