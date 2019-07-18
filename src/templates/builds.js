@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import styled from 'styled-components'
 import MediaQuery from 'react-responsive'
+import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 import AdComponent from '../components/ad'
 
@@ -224,42 +225,31 @@ export default function({ data }) {
               <HeroGroupP>CP</HeroGroupP>
             </div>
           </HeroGroup>
-          <p
-            className="animate infinite pulse"
-            style={{
-              position: 'absolute',
-              bottom: 16,
-              textAlign: 'center',
-              color: 'white',
-              width: '100%',
-              fontStyle: 'italic',
-            }}
-          >
-            {' '}
-            Scroll for more{' '}
-          </p>
         </Hero>
       </MediaQuery>
       <AdComponent />
+      <ScrollAnimation animateIn="fadeIn" animateOnce duration={3} />
       <GroupH1>
         <H1> Build</H1>
       </GroupH1>
-			<BuildGroup>
-				{build.builds.map(b => (
-					<Build>
-          <BuildTitle>{b.name}</BuildTitle>
-          <Box>
-						<ImageGroup>
-							{b.items.map((item, itemIndex) => (
-								<Item key={itemIndex}>
-                <ItemImg src={require(`../images/Items/${item.image}.png`)}></ItemImg>
-                <ItemName>{item.name}</ItemName>
-              </Item>
-							))}
-            </ImageGroup>
-          </Box>
-        </Build>
-				))}
+      <BuildGroup>
+        {build.builds.map(b => (
+          <Build>
+            <BuildTitle>{b.name}</BuildTitle>
+            <Box>
+              <ImageGroup>
+                {b.items.map((item, itemIndex) => (
+                  <Item key={itemIndex}>
+                    <ItemImg
+                      src={require(`../images/Items/${item.image}.png`)}
+                    ></ItemImg>
+                    <ItemName>{item.name}</ItemName>
+                  </Item>
+                ))}
+              </ImageGroup>
+            </Box>
+          </Build>
+        ))}
       </BuildGroup>
     </Layout>
   )
@@ -275,15 +265,15 @@ export const postQuery = graphql`
             name
             path
             builds {
-							name
-							items {
-								name
-								image
-							}
-						}
-						creatorImage
-						title
-						version
+              name
+              items {
+                name
+                image
+              }
+            }
+            creatorImage
+            title
+            version
           }
         }
       }

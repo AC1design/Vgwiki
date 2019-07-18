@@ -7,20 +7,29 @@ import Heroes from '../components/Hero'
 import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
-import { graphql } from 'gatsby'
-import AdComponent from '../components/ad'
-import StickyFooter from 'react-sticky-footer'
+import { heroCards } from '../constants/heroes'
+import Assets from '../constants/assets'
 
-export default function({ data }) {
-  const hero = data.allJavascriptFrontmatter.edges.length
-    ? data.allJavascriptFrontmatter.edges[0].node.frontmatter
+export default props => {
+  const hero = props.location.href
+
+    ? heroCards.find(
+        h =>
+          h.name ===
+          props.location.href.substring(
+            props.location.href.indexOf('/Hero/?') + 7
+          )
+      )
     : null
-  if (!hero) return <p>No hero found</p>
+  const heroAssets = hero ? Assets[hero.name] : null;
   return (
     <Layout>
       <div style={{ height: '100%' }}>
         <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={4}>
           <Heroes
+            bgdesktop={heroAssets.Desktop}
+            bgtablet={heroAssets.Tablet}
+            bgmobile={heroAssets.Mobile}
             heroname={hero.name}
             role={hero.type.join(', ')}
             description={hero.description}
@@ -47,8 +56,7 @@ export default function({ data }) {
             <h1>3D MODEL</h1>
             <div className="line" />
           </div>
-          <Models heroname={hero.name} />
-          <AdComponent/>
+          <Models bgmodel={heroAssets.blurred} model={heroAssets.model} />
           <div className="Title">
             <h1>SKILLS (CLICK FOR MORE)</h1>
             <div className="line" />
@@ -57,10 +65,16 @@ export default function({ data }) {
             <div className="SkillboxGroup">
               {hero.skills.map((skill, index) => (
                 <Skillbox
-                  video={skill.video}
+                  video={
+                    skill.video
+                      ? skill.video.startsWith('https')
+                        ? skill.video
+                        : heroAssets[skill.type].video
+                      : null
+                  }
                   title={skill.name}
-                  subtitle={skill.type}
-                  image={skill.image}
+                  subtitle={console.log(skill.type) && skill.type}
+                  image={heroAssets[skill.type].image}
                   text={skill.text}
                   stats={skill.stats || []}
                   key={index}
@@ -78,8 +92,7 @@ export default function({ data }) {
               {hero.talents.map((talent, index) => (
                 <Talentbox
                   title={talent.name}
-                  heroname={hero.name}
-                  type={talent.type}
+                  image={heroAssets.Talents[talent.type]}
                   subtitle={talent.type.toUpperCase()}
                   color={talent.color}
                   text={talent.text}
@@ -99,9 +112,7 @@ export default function({ data }) {
                   color={skin.color}
                   title={skin.name}
                   text={skin.type}
-                  image={skin.image}
-                  price={skin.price}
-                  opals={skin.opals}
+                  image={heroAssets.Skins[skin.name]}
                   key={index}
                 />
               ))}
