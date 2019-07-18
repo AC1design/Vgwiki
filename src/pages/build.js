@@ -74,6 +74,15 @@ const HeroGroupP = styled.p`
     margin: 6px;
     margin-top: 5px;
 `
+const GroupH1 = styled.div`
+max-width: 1366px;
+margin: 0 auto;
+`
+
+const H1 = styled.h1`
+
+`
+
 
 const BuildGroup = styled.div`
 display: flex;
@@ -196,9 +205,9 @@ const BuildPage = props => (
       </Hero>
     </MediaQuery>
     <AdComponent />
-    <div style={{ maxWidth: '1366px', margin: '0 auto' }}>
-      <h1 style={{ fontFamily: 'Antonio', color: 'white', marginLeft: '16px' }}> Build</h1>
-    </div>
+    <GroupH1>
+      <H1 style={{ fontFamily: 'Antonio', color: 'white', marginLeft: '16px' }}> Build</H1>
+    </GroupH1>
     <BuildGroup>
       <Build>
         <BuildTitle>Starter</BuildTitle>
