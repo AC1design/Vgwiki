@@ -1,9 +1,9 @@
 export const frontmatter = {
-  name: `MaxMan-4.5-Miho`,
-  path: `/builds/MaxMan-4.5-Miho`,
+  name: `1`,
+  path: `/builds/1`,
   title: `MIHO COMPLITE GUIDE UPDATE 4.5`,
   version: `4.5`,
-  creatorImage: `download`,
+  creatorImage: `ICE.png`,
   builds: [
     {
       name: `Starter`,

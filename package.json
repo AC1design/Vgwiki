@@ -23,6 +23,7 @@
     "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-source-filesystem": "^2.0.39",
     "gatsby-transformer-javascript-frontmatter": "^2.0.10",
+    "gatsby-transformer-remark": "^2.6.7",
     "gatsby-transformer-sharp": "^2.1.21",
     "hoist-non-react-statics": "^3.3.0",
     "js-yaml": "^3.13.1",

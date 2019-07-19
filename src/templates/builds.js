@@ -174,7 +174,7 @@ export default function({ data }) {
           </HeroContainer>
           <HeroGroup>
             <UserImg
-              src={require('../images/Contentcreators/download.jpg')}
+              src={require(`../images/${build.creatorImage}`)}
             ></UserImg>
             <HeroGrouph1>{build.title.toUpperCase()}</HeroGrouph1>
             <HeroGroupP>
@@ -221,7 +221,7 @@ export default function({ data }) {
           </HeroContainer>
           <HeroGroup>
             <UserImg
-              src={require(`../images/Contentcreators/${build.creatorImage}.jpg`)}
+              src={require(`../images/${build.creatorImage}`)}
             ></UserImg>
             <HeroGrouph1>{build.title}</HeroGrouph1>
             <HeroGroupP>
