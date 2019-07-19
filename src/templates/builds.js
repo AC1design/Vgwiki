@@ -60,7 +60,7 @@ const HeroGrouph1 = styled.h1`
   }
 `
 
-const HeroGroupP = styled.p`
+const P = styled.p`
   padding: 10px;
   border-radius: 10px;
   font-weight: 800;
@@ -72,6 +72,13 @@ const HeroGroupP = styled.p`
   margin: 6px;
   margin-top: 5px;
 `
+
+const HeroGroupP = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+
 const GroupH1 = styled.div`
   max-width: 1366px;
   margin: 0 auto;
@@ -171,31 +178,12 @@ export default function({ data }) {
               src={require('../images/Contentcreators/download.jpg')}
             ></UserImg>
             <HeroGrouph1>{build.title.toUpperCase()}</HeroGrouph1>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-              }}
-            >
-              <HeroGroupP>{build.version}</HeroGroupP>
-              <HeroGroupP>WP</HeroGroupP>
-              <HeroGroupP>CP</HeroGroupP>
-            </div>
+            <HeroGroupP>
+              <P>{build.version}</P>
+              <P>WP</P>
+              <P>CP</P>
+            </HeroGroupP>
           </HeroGroup>
-          <p
-            className="animate infinite pulse"
-            style={{
-              position: 'absolute',
-              bottom: 16,
-              textAlign: 'center',
-              color: 'white',
-              width: '100%',
-              fontStyle: 'italic',
-            }}
-          >
-            {' '}
-            Scroll for more{' '}
-          </p>
         </Hero>
       </MediaQuery>
       <MediaQuery query="(max-width: 720px)">
@@ -214,35 +202,15 @@ export default function({ data }) {
               src={require(`../images/Contentcreators/${build.creatorImage}.jpg`)}
             ></UserImg>
             <HeroGrouph1>{build.title}</HeroGrouph1>
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-              }}
-            >
-              <HeroGroupP>{build.version}</HeroGroupP>
-              <HeroGroupP>WP</HeroGroupP>
-              <HeroGroupP>CP</HeroGroupP>
-            </div>
+            <HeroGroupP>
+              <P>{build.version}</P>
+              <P>WP</P>
+              <P>CP</P>
+            </HeroGroupP>
           </HeroGroup>
-          <p
-            className="animate infinite pulse"
-            style={{
-              position: 'absolute',
-              bottom: 16,
-              textAlign: 'center',
-              color: 'white',
-              width: '100%',
-              fontStyle: 'italic',
-            }}
-          >
-            {' '}
-            Scroll for more{' '}
-          </p>
         </Hero>
       </MediaQuery>
       <AdComponent />
-      <ScrollAnimation animateIn="fadeIn" animateOnce duration={3} />
       <GroupH1>
         <H1> Build</H1>
       </GroupH1>
