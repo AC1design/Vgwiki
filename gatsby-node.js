@@ -4,6 +4,7 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
   const heroPageTemplate = path.resolve('src/templates/hero-page.js')
+  const buildsPageTemplate = path.resolve('src/templates/builds.js')
 
   return graphql(`
     {
@@ -14,6 +15,16 @@ exports.createPages = ({ actions, graphql }) => {
               error
               name
               path
+              builds {
+                name
+                items {
+                  name
+                  image
+                }
+              }
+              creatorImage
+              title
+              version
               type
               role
               description
@@ -66,7 +77,9 @@ exports.createPages = ({ actions, graphql }) => {
     res.data.allJavascriptFrontmatter.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
-        component: heroPageTemplate,
+        component: node.frontmatter.path.startsWith('/builds/')
+          ? buildsPageTemplate
+          : heroPageTemplate,
       })
     })
   })
