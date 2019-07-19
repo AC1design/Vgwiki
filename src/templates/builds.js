@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import styled from 'styled-components'
 import MediaQuery from 'react-responsive'
-import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 import AdComponent from '../components/ad'
 
@@ -185,6 +184,29 @@ export default function({ data }) {
             </HeroGroupP>
           </HeroGroup>
         </Hero>
+        <AdComponent />
+        <GroupH1>
+          <H1> Build</H1>
+        </GroupH1>
+        <BuildGroup>
+          {build.builds.map((b, index) => (
+            <Build key={index}>
+              <BuildTitle>{b.name}</BuildTitle>
+              <Box>
+                <ImageGroup>
+                  {b.items.map((item, itemIndex) => (
+                    <Item key={itemIndex}>
+                      <ItemImg
+                        src={require(`../images/Items/${item.image}.png`)}
+                      ></ItemImg>
+                      <ItemName>{item.name}</ItemName>
+                    </Item>
+                  ))}
+                </ImageGroup>
+              </Box>
+            </Build>
+          ))}
+        </BuildGroup>
       </MediaQuery>
       <MediaQuery query="(max-width: 720px)">
         <Hero>
@@ -209,30 +231,30 @@ export default function({ data }) {
             </HeroGroupP>
           </HeroGroup>
         </Hero>
+        <AdComponent />
+        <GroupH1>
+          <H1> Build</H1>
+        </GroupH1>
+        <BuildGroup>
+          {build.builds.map((b, index) => (
+            <Build key={index}>
+              <BuildTitle>{b.name}</BuildTitle>
+              <Box>
+                <ImageGroup>
+                  {b.items.map((item, itemIndex) => (
+                    <Item key={itemIndex}>
+                      <ItemImg
+                        src={require(`../images/Items/${item.image}.png`)}
+                      ></ItemImg>
+                      <ItemName>{item.name}</ItemName>
+                    </Item>
+                  ))}
+                </ImageGroup>
+              </Box>
+            </Build>
+          ))}
+        </BuildGroup>
       </MediaQuery>
-      <AdComponent />
-      <GroupH1>
-        <H1> Build</H1>
-      </GroupH1>
-      <BuildGroup>
-        {build.builds.map((b, index) => (
-          <Build key={index}>
-            <BuildTitle>{b.name}</BuildTitle>
-            <Box>
-              <ImageGroup>
-                {b.items.map((item, itemIndex) => (
-                  <Item key={itemIndex}>
-                    <ItemImg
-                      src={require(`../images/Items/${item.image}.png`)}
-                    ></ItemImg>
-                    <ItemName>{item.name}</ItemName>
-                  </Item>
-                ))}
-              </ImageGroup>
-            </Box>
-          </Build>
-        ))}
-      </BuildGroup>
     </Layout>
   )
 }
