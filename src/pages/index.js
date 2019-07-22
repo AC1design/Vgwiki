@@ -101,7 +101,6 @@ const IndexPage = props => (
         src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         type="text/plain" data-cookieconsent="marketing"
       />
-      <script type="text/plain" data-cookieconsent="marketing"></script>
     </Page>
   </Layout>
 )
