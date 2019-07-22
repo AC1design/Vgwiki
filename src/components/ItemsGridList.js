@@ -10,16 +10,7 @@ import MobileItemsTab from './ItemsTabHorizontal'
 export default class ItemsGridList extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      tabIndex: localStorage.getItem('itemTabIndex') || 0,
-    }
-  }
-
-  selectTab(index) {
-    // update localStorage
-    localStorage.setItem('itemTabIndex', index)
-    // Update the state
-    return this.setState({ tabIndex: index })
+    this.state = {}
   }
 
   render() {

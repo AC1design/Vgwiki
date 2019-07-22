@@ -11,15 +11,7 @@ class GridList extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      tabIndex: localStorage.getItem('tabIndex') || 0,
     }
-  }
-
-  selectTab(index) {
-    // update localStorage
-    localStorage.setItem('tabIndex', index)
-    // Update the state
-    return this.setState({ tabIndex: index })
   }
 
   render() {
