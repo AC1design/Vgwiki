@@ -5,7 +5,6 @@ import ImgHero from 'gatsby-image'
 import styled from 'styled-components'
 import MediaQuery from 'react-responsive'
 import 'animate.css/animate.min.css'
-import AdComponent from '../components/ad'
 
 const Hero = styled.div`
   text-align: center;
@@ -184,7 +183,6 @@ export default function({ data }) {
             </HeroGroupP>
           </HeroGroup>
         </Hero>
-        <AdComponent />
         <GroupH1>
           <H1> Build</H1>
         </GroupH1>
@@ -231,7 +229,6 @@ export default function({ data }) {
             </HeroGroupP>
           </HeroGroup>
         </Hero>
-        <AdComponent />
         <GroupH1>
           <H1> Build</H1>
         </GroupH1>

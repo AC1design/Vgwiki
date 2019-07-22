@@ -4,7 +4,6 @@ import Tabsind from '../components/Tab'
 import MediaQuery from 'react-responsive'
 import Page from 'react-page-loading'
 import Charms from '../components/MobileCharmsTab'
-import AdComponent from '../components/ad'
 import GridList from '../components/GridList'
 import StickyFooter from 'react-sticky-footer'
 import ItemsGridList from '../components/ItemsGridList'
@@ -13,12 +12,10 @@ import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import HatsM from '../components/HatsMobile'
 import News from '../components/News';
-import ADBdetect from '../components/ADB';
 
 const IndexPage = props => (
   <Layout>
     <meta name="theme-color" content="#1f1f21" />
-    <ADBdetect></ADBdetect>
     <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
       <MediaQuery query="(min-width: 721px)">
         <div className="Hero">
@@ -57,16 +54,13 @@ const IndexPage = props => (
       <MediaQuery query="(max-width: 1366px)">
         <div className="mobile">
           <GridList />
-          <AdComponent />
           <ItemsGridList />
           <HatsM />
-          <AdComponent />
           <SocialPingsMobile />
           <Charms />
         </div>
       </MediaQuery>
       <div>
-        <AdComponent />
         <StickyFooter
           className="footer"
           bottomThreshold={50}
@@ -96,11 +90,6 @@ const IndexPage = props => (
           <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
         </StickyFooter>
       </div>
-      <script
-        async
-        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        type="text/plain" data-cookieconsent="marketing"
-      />
     </Page>
   </Layout>
 )

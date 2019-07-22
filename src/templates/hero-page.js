@@ -8,7 +8,6 @@ import Models from '../components/Model'
 import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
-import AdComponent from '../components/ad'
 import StickyFooter from 'react-sticky-footer'
 
 export default function({ data }) {
@@ -42,13 +41,11 @@ export default function({ data }) {
               ))}
             </div>
           </div>
-          <AdComponent/>
           <div className="Title">
             <h1>3D MODEL</h1>
             <div className="line" />
           </div>
           <Models heroname={hero.name} />
-          <AdComponent/>
           <div className="Title">
             <h1>SKILLS (CLICK FOR MORE)</h1>
             <div className="line" />
@@ -68,7 +65,6 @@ export default function({ data }) {
               ))}
             </div>
           </div>
-          <AdComponent/>
           <div className="Title">
             <h1>TALENTS (LVL 1 + % PER LVL)</h1>
             <div className="line" />
@@ -135,10 +131,6 @@ export default function({ data }) {
           </StickyFooter>
         </Page>
       </div>
-      <script
-        async
-        src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      />
     </Layout>
   )
 }

@@ -13,7 +13,6 @@ import { pings } from '../constants/pings'
 import { hats } from '../constants/hats'
 import Pings from './SocialPings'
 import Hats from './Hats';
-import AdComponent from './ad';
 
 const tabNames = ['HEROES', 'ITEMS', 'COSMETICS']
 
@@ -124,7 +123,6 @@ class Tabsind extends React.Component {
                     <Tab key={index}>{tab}</Tab>
                   ))}
                 </TabList>
-                <AdComponent />
                 <TabPanel className="AllHeroes">
                   <div className="CardboxGroup">
                     {heroCards.map((hero, index) => makeHeroCard(hero, index))}
@@ -178,7 +176,7 @@ class Tabsind extends React.Component {
                   <Tab key={index}>{tab}</Tab>
                 ))}
               </TabList>
-              <AdComponent/>
+              
               <TabPanel className="All">
                 <div className="ItemboxGroup">
                   {itemBoxes.map((item, index) => makeItemBox(item, index))}
