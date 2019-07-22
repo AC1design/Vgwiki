@@ -45,7 +45,7 @@ const Layout = ({ children }) => (
               <meta property="twitter:title" content="VGWIKI"/>
                 <meta property="twitter:description" content="A Vainglory Wiki"/>
                   <meta property="twitter:image" content="https://i.imgur.com/qBMkj19.png"/>
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/plain" data-cookieconsent="marketing"></script>
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/plain" data-cookieconsent="marketing, statistics"></script>
           <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="723cc8d9-3751-4bf3-826f-a7fa548b4a79" type="text/javascript" async></script>
           <html lang="en" />
         </Helmet>
