@@ -86,7 +86,7 @@ const IndexPage = props => (
           Made by 
 {' '}
           <a href="https://twitter.com/AngeloCant1">AngeloC</a>
-          <a href='https://www.freeprivacypolicy.com/privacy/view/2dbe2eebdd983174b4a7a27d5f5312e4'>Privacy Policy</a>
+          <a href='https://www.termsfeed.com/privacy-policy/b38962cdaa462299f0b57bf61cc6dbef'>Privacy Policy</a>
           <h1 style={{fontSize: '14px'}}>Cookie Declaration</h1>
           <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
         </StickyFooter>
