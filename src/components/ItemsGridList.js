@@ -16,8 +16,6 @@ export default class ItemsGridList extends Component {
   render() {
     return (
       <Tabs
-        defaultIndex={parseInt(this.state.tabIndex, 10)}
-        onSelect={tabIndex => this.selectTab(tabIndex)}
       >
         <TabList>
           <Tab>

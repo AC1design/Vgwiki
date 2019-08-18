@@ -5,7 +5,7 @@ export const frontmatter = {
     path: '/Ishtar',
     description:
         'Demonic queen who manipulates Living Blades.',
-    spotlight: 'Omm4KGllXXo',
+    spotlight: ' ',
     stats: [
         { name: 'HEALTH', value: '666 - 2261', color: '#4eec8b' },
         { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
@@ -29,7 +29,7 @@ export const frontmatter = {
                 'Damage: 75-163 (level 1-12) (+40% crystal power)(+100% weapon power).',
                 '',
                 'Ishtar can summon and control Living Blades. Every time she performs a basic attack, each Living Blade within range will also perform a basic attack targeting the same enemy. They have the following properties:',
-                'Living Blades deal 10 (+40 crystal power) on each basic attack. Living Blades that strike the same target deal 25% after the first.',
+                'Living Blades deal 10% (+40 crystal power) on each basic attack. Living Blades that strike the same target deal 25% after the first.',
                 'It takes 4 separate attacks to kill a Living Blade.',
                 "Living Blades take normal damage from abilities and are granted 25% of Ishtar's defensive stats.",
                 'Living Blades take damage equal to 75% of their max health from turrets.',
