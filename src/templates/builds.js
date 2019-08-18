@@ -203,12 +203,6 @@ export default function({ data }) {
       <MediaQuery query="(max-width: 720px)">
         <Hero>
           <HeroContainer>
-            <ImgHero
-              imgStyle={{ objectPosition: 'center top' }}
-              style={{ height: '100vh' }}
-              className="Img"
-              fluid={data.imageTwo.childImageSharp.fluid}
-            />
             <Gradient />
           </HeroContainer>
           <HeroGroup>
