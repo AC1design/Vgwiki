@@ -8,7 +8,7 @@ export const frontmatter = {
   stats: [
     { name: 'HEALTH', value: '679 - 2054', color: '#4eec8b' },
     { name: 'HEALTH REGEN', value: '3.29 - 7.91', color: '#4eec8b' },
-    { name: 'ENERGY', value: '270 - 765', color: '#5bbcff' },
+    { name: 'ENERGY', value: '320 - 765', color: '#5bbcff' },
     { name: 'ENERGY REGEN', value: '6.67 - 18', color: '#5bbcff' },
     { name: 'WEAPON DAMAGE', value: '71 - 130', color: '#f48596' },
     { name: 'ATTACK SPEED', value: '100% - 111%', color: '#f48596' },
@@ -50,12 +50,12 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['40', '50', '60', '70', '80'],
+          amount: ['25', '35', '45', '55', '65'],
           cr: ' ',
           wr: ' ',
         },
         {
-          name: 'Damege',
+          name: 'Damage',
           amount: ['40', '120', '200', '280', '360'],
           cr: '130%',
           wr: '70%',

@@ -178,7 +178,7 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'Spitfire (A) creates a Goop (B) pool when it expires.',
-        '• Spitfire Damage 30% (+5%)',
+        '• Spitfire Damage 70% (+5%)',
         '• Burning Goop Damage 60% (+10%)',
         '• Range 9',
       ],

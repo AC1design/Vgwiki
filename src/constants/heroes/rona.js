@@ -146,7 +146,7 @@ export const frontmatter = {
       type: 'ULTIMATE',
       image: 'Rona-C',
       text: [
-        'Rona drains her Bloodrage and spins in a whirlwind, dealing weapon damage to nearby enemies. While spinning, Rona moves 10% slower and gains fortified health each second.',
+        'Rona drains her Bloodrage and spins in a whirlwind, dealing weapon damage to nearby enemies. While spinning, Rona moves 15% slower and gains fortified health each second.',
         '• Can be cancelled at any time by reactivating it or using another ability.',
         '• Requires at least 25 Bloodrage to activate.',
         '• Deals less damage to minions.',
@@ -178,7 +178,7 @@ export const frontmatter = {
         },
         {
           name: 'Fortified Health/sec',
-          amount: ['100', '200', '300'],
+          amount: ['50', '100', '150'],
           cr: ' ',
           wr: ' ',
         },

@@ -173,7 +173,7 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'Tony takes no damage from taunted targets.',
-        '• Barrier Duration 1s (+0.3s)',
+        '• Barrier Duration 1s (+0.2s)',
       ],
     },
   ],

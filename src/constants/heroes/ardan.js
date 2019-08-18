@@ -175,7 +175,7 @@ export const frontmatter = {
       type: 'Epic',
       color: '#c78cff',
       text: [
-        'Blood for Blood (B) deals much more damage but has 3.5 shorter range.',
+        'Blood for Blood (B) deals much more damage but has 2.0 shorter range.',
         '• Damage 140% (+15%)',
         '• Cooldown 150% (-3%)',
       ],

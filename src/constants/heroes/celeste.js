@@ -61,7 +61,7 @@ export const frontmatter = {
         {
           name: 'Nova Damage',
           amount: ['80', '140', '200', '260', '320'],
-          cr: '160%',
+          cr: '175%',
           wr: ' ',
         },
         {
@@ -158,9 +158,9 @@ export const frontmatter = {
       type: 'Rare',
       color: '#6393F9',
       text: [
-        'Heliogensis (A) stars linger on the field 4s longer and continuously damage nearby enemies. Lower impact damage.',
-        '• Impact Damage 30% (+1%)%',
-        '• Damage/Sec 70% (+2.5%)',
+        'Heliogensis (A) stars continuously damage nearby enemies. Lower impact damage.',
+        '• Impact Damage 60% (+1%)%',
+        '• Damage/Sec 70% (+5%)',
       ],
       image: 'Celeste_Rare',
     },
@@ -180,7 +180,7 @@ export const frontmatter = {
       type: 'Legendary',
       color: '#FF9000',
       text: [
-        'Heliogenesis (A) supernovas cause other stars to supernova. Lower damage.',
+        'Heliogenesis (A) supernovas cause other stars to supernova. Stars remain on the field for an additional 6.0s. Lower damage.',
         '• Impact Damage 70% (+5%)',
         '• Supernova Damage 100% (+10%)',
       ],

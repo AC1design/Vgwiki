@@ -30,7 +30,7 @@ export const frontmatter = {
                 '• Stun Duration: 0.3s',
                 '• True Damage: 19-250 (level 1-12)',
                 '• Barrier: 35-150 (level 1-12)(+100% weapon power)',
-                '• Damage Amplification: +20% ',
+                '• Damage Amplification against Unguarded targets: +15% ',
             ],
         },
         {
@@ -71,7 +71,7 @@ export const frontmatter = {
             image: 'Miho-B',
             text: [
                 'Miho steps forward and performs a slash before entering Quick Draw Stance, While in the stance, she can perform additional slashes as long as she has enough Focus.',
-                '• NOTE: To cancel Shingetsu , use the red C ability button.',
+                '• NOTE: To cancel Shingetsu, use the red C ability button.',
             ],
             stats: [
                 {
@@ -83,8 +83,8 @@ export const frontmatter = {
                 {
                     name: 'Bonus Damage',
                     amount: ['35', '70', '105', '140', '210'],
-                    cr: '70%',
-                    wr: '30%',
+                    cr: '90%',
+                    wr: '45%',
                 },
                 {
                     name: 'Focus Cost',
@@ -106,7 +106,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['60s', '50s', '40s'],
+                    amount: ['80s', '70s', '60s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -132,9 +132,9 @@ export const frontmatter = {
             color: '#6393F9',
             text: [
                 'Enemies will longer become Unguarded but the burst of true damage is greater.',
-                '• Damage 215% (Max)',
-                '• Passive Weapon Power +20% (Max)',
-                '• Passive Cristal Power +20% (Max)',
+                '• Damage 120% (+5%)',
+                '• Passive Weapon Power +1% (+1%)',
+                '• Passive Cristal Power +1% (+1%)',
             ],
             image: 'Miho_Rare',
         },
@@ -144,9 +144,9 @@ export const frontmatter = {
             color: '#c78cff',
             text: [
                 'Tsukuyomi (C) heals allies that it passes through and deals more damage to enemies.',
-                '• Damage 156% (Max)',
-                '• Max Health Heal 92% (Max)',
-                '• Cooldown -44% (Max)',
+                '• Damage 120% (+4%)',
+                '• Max Health Heal 20% (+8%)',
+                '• Cooldown 80% (-4%)',
             ],
             image: 'Miho_Epic',
         },
@@ -156,7 +156,7 @@ export const frontmatter = {
             color: '#FF9000',
             text: [
                 'Reizan (A) now has two additional charges and deals more damage.',
-                '• Damage 250% (Max)',
+                '• Damage 150% (+10%)',
             ],
             image: 'Miho_Legendary',
         },

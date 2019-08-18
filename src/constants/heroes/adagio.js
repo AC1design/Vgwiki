@@ -116,7 +116,7 @@ export const frontmatter = {
         },
         {
           name: 'Number of Attacks',
-          amount: ['4', '4', '4', '4', '6'],
+          amount: ['6', '6', '6', '6', '8'],
           cr: '  ',
           wr: ' ',
         },
@@ -225,7 +225,7 @@ export const frontmatter = {
       text: [
         "Verse of Judgement (Ult) heals all of Adagio's allies within its radius. Shorter cooldown but lower damage.",
         '• Damage 60% (+10%)',
-        '• Cooldown 55% (-7.5%)',
+        '• Cooldown 80% (-10%)',
         '• Max Health to Heal 65% (+15%)',
       ],
       image: 'Adagio_Legendary',

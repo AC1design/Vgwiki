@@ -191,8 +191,8 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'One Shot One Kill (Ult) pierces through its target, damaging all enemies along its path.',
-        '• Damage 120% (+30%)',
-        '• Cooldown 60% (-7.5%)',
+        '• Damage 120% (+20%)',
+        '• Cooldown 100% (-10%)',
       ],
       image: 'Kestrel_Legendary',
     },

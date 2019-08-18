@@ -24,7 +24,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Ozo-P',
       text: [
-        'Ozo receives 10-25% additional healing, barrier and fortified health from all sources.',
+        'Ozo receives 15%-30% additional healing, barrier and fortified health from all sources.',
         '• This does not affect health regeneration.',
       ],
     },
@@ -73,7 +73,7 @@ export const frontmatter = {
         },
         {
           name: 'Healing vs. Heroes',
-          amount: ['20', '40', '60', '80%', '100'],
+          amount: ['20', '40', '60', '80', '100'],
           cr: '15%',
           wr: ' ',
         },

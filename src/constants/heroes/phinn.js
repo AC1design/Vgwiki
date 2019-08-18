@@ -72,7 +72,7 @@ export const frontmatter = {
       image: 'Phinn-B',
       text: [
         'Phinn stomps the earth, damaging all enemies in a wide area and nudging them toward him. The effect reverberates around allies, temporarily granting them fortified health.',
-        "• Fortified health increases by 4% of Phinn's bonus health and 15% of Phinn's bonus armor/shield.",
+        "• Fortified health increases by 5% of Phinn's bonus health and 18% of Phinn's bonus armor/shield.",
       ],
       stats: [
         {

@@ -17,6 +17,7 @@ import { frontmatter as grumpjaw } from './heroes/grumpjaw'
 import { frontmatter as gwen } from './heroes/gwen'
 import { frontmatter as idris } from './heroes/idris'
 import { frontmatter as inara } from './heroes/inara'
+import { frontmatter as ishtar } from './heroes/ishtar'
 import { frontmatter as joule } from './heroes/joule'
 import { frontmatter as kensei } from './heroes/kensei'
 import { frontmatter as kestrel } from './heroes/kestrel'
@@ -61,7 +62,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
-  miho,
+  ishtar,
   adagio,
   alpha,
   anka,
@@ -93,6 +94,7 @@ export const heroCards = [
   lyra,
   magnus,
   malene,
+  miho,
   ozo,
   petal,
   phinn,

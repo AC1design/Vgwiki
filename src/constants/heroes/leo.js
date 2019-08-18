@@ -50,10 +50,10 @@ export const frontmatter = {
                     wr: ' ',
                 },
                 {
-                    name: 'Damage Overdrive Bonus',
-                    amount: ['90', '180', '270', '360', '540'],
+                    name: 'Damage',
+                    amount: ['80', '160', '240', '320', '480'],
                     cr: ' ',
-                    wr: '300%',
+                    wr: '280%',
                 },
             ],
         },

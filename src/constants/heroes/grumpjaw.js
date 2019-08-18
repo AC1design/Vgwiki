@@ -24,7 +24,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Grumpjaw-P',
       text: [
-        'Each stack of Living Armor reduces incoming damage by 7%.',
+        'Each stack of Living Armor reduces incoming damage by 8%.',
         '• Grumpjaw gains a stack every 3s and every time he basic attacks.',
         '• While under attack, he loses a stack every 1s.',
         '• Max 5 stacks.',

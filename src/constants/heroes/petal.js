@@ -28,6 +28,7 @@ export const frontmatter = {
       image: 'Petal-P',
       text: [
         'A few moments after Petal plants a Bramblebloom Seed, it will automatically sprout into a Munion pet, which will fight alongside Petal up to a maximum of 3 Munions (Movement Speed 6.0).',
+        "NOTE: Petal's Munions can't be marked with Miho's Keen Eye.",
       ],
     },
     {
@@ -50,20 +51,20 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['60', '60', '60', '60', '60'],
+          amount: ['40', '40', '40', '40', '40'],
           cr: ' ',
           wr: ' ',
         },
         {
           name: 'Pet Health',
           amount: ['100', '180', '260', '340', '500'],
-          cr: '65%',
+          cr: '70%',
           wr: ' ',
         },
         {
           name: 'Pet Defense',
           amount: ['30', '40', '50', '60', '80'],
-          cr: '5%',
+          cr: '10%',
           wr: ' ',
         },
         {
@@ -129,7 +130,7 @@ export const frontmatter = {
     {
       video:
         'https://jd3sljkvzi-flywheel.netdna-ssl.com/wp-content/uploads/2018/04/Petal_Ultimate.gif',
-      name: 'BLAST TREMOR',
+      name: 'SPONTANEOUS COMBUSTION',
       type: 'ULTIMATE',
       image: 'Petal-C',
       text: [
@@ -163,9 +164,9 @@ export const frontmatter = {
           wr: ' ',
         },
         {
-          name: 'Crystal Amp.',
+          name: 'Healing Strength',
           amount: ['75', '125', '175'],
-          cr: '60%',
+          cr: '75%',
           wr: ' ',
         },
       ],

@@ -28,7 +28,7 @@ export const frontmatter = {
       text: [
         'Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed.',
         '• Each basic attack grants SAW +15 % attack speed.',
-        "• Each basic attack decreases SAW's move speed by -0.12.",
+        "• Each basic attack decreases SAW's move speed by -0.10.",
         '• Max 12 stacks.',
         '• After 3.5s without basic attacking, SAW rapidly spins down.',
       ],
@@ -86,6 +86,7 @@ export const frontmatter = {
       text: [
         'SAW fires a hurricane of bullets in a set direction for 2 seconds, damaging and slowing enemies in its path.',
         'Finishing this ability grants all stacks of Spin Up and resets the cooldown of Roadie Run.Deal reduced damage to turrets if out of range.',
+        '• This ability can be canceled by pressing the (B) button again.',
       ],
       stats: [
         {
@@ -145,7 +146,7 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['250', '275', '300'],
-          cr: '140%',
+          cr: '150%',
           wr: '100%',
         },
         {

@@ -157,9 +157,9 @@ export const frontmatter = {
       color: '#6393F9',
       text: [
         'Using Afterburn (A) to punt a target will deal a portion of Afterburn’s damage and stun all enemies along its path.',
-        'Duration 0.5s',
+        'Stun Duration on Collision 1.0s',
         '• Damage 70% (+2%)',
-        '• Cooldown 95% (-1.5%)',
+        '• Cooldown 95% (-2.0%)',
       ],
       image: 'Glaive_Rare',
     },

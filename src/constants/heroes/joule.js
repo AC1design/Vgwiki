@@ -92,14 +92,14 @@ export const frontmatter = {
           name: 'Damage',
           amount: ['150', '200', '250', '300', '350'],
           cr: '140%',
-          wr: '220%',
+          wr: '200%',
         },
       ],
     },
     {
       video:
         'https://www.vainglorygame.com/wp-content/uploads/2015/05/Joule-C-Big-Red-Button.mp4',
-      name: 'BLAST TREMOR',
+      name: 'BIG RED BUTTON',
       type: 'ULTIMATE',
       image: 'Joule-C',
       text: [

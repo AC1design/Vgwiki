@@ -169,7 +169,7 @@ export const frontmatter = {
         },
         {
           name: 'Focus Cost',
-          amount: ['60', '40', '20'],
+          amount: ['45', '30', '15'],
           cr: ' ',
           wr: ' ',
         },

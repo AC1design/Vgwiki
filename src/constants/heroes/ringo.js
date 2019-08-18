@@ -187,8 +187,9 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'Hellfire Brew (Ult) bounces to a nearby enemy hero upon impact.',
-        '• Damage 70%',
-        '• Cooldown 70%',
+        '• Damage 70% (+15%)',
+        '• Cooldown 70% (-7.5%)',
+        '• Bounce Range 8.0',
       ],
       image: 'Ringo_Legendary',
     },

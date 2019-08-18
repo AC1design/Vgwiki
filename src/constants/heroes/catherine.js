@@ -107,13 +107,13 @@ export const frontmatter = {
         },
         {
           name: 'Duration',
-          amount: ['4s', '4s', '4s', '4s', '5s'],
+          amount: ['4s', '4s', '4s', '4s', '4s'],
           cr: ' ',
           wr: ' ',
         },
         {
           name: 'Bonus Reflect Damage',
-          amount: ['0%', '5%', '10%', '15%', '25%'],
+          amount: ['0%', '5%', '10%', '15%', '30%'],
           cr: ' ',
           wr: ' ',
         },

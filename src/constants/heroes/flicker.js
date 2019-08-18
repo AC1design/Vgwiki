@@ -197,12 +197,18 @@ export const frontmatter = {
       image: 'Flicker_DrFrankenFlicker_Epic',
     },
     {
-      color: 'Red',
+      color: '#FF9000',
       name: 'Black Cat Flicker',
       type: 'Special Edition',
       image: 'Flicker_Blackcat',
       price: '300',
       opals: true,
+    },
+    {
+      color: '#c78cff',
+      name: 'Genie Flicker',
+      type: 'Epic',
+      image: 'Flicker_Genie',
     },
   ],
 }

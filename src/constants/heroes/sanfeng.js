@@ -60,7 +60,7 @@ export const frontmatter = {
         },
         {
           name: 'Stun Duration',
-          amount: ['1.2s', '1.2s', '1.2s', '1.2s', '1.2s'],
+          amount: ['0.8s', '0.9s', '1.0s', '1.1s', '1.2s'],
           cr: '  ',
           wr: ' ',
         },
@@ -151,7 +151,7 @@ export const frontmatter = {
       text: [
         'Divine Fist (B) slows enemies hit and has a much shorter cooldown.',
         '• Damage 90% (+3%)',
-        '• Cooldown 40% (-4%)',
+        '• Cooldown 80% (-5%)',
       ],
       image: 'SanFeng_Epic',
     },

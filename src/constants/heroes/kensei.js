@@ -191,5 +191,11 @@ export const frontmatter = {
       type: 'Limited Edition',
       image: 'Kensei_Contender',
     },
+    {
+      color: 'red',
+      name: 'Oni Kensei',
+      type: 'Legendary',
+      image: 'Kensei_Oni',
+    },
   ],
 }

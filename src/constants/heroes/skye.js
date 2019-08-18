@@ -184,10 +184,11 @@ export const frontmatter = {
       type: 'Rare',
       color: '#6393F9',
       text: [
-        'Sure Strike (B) grants Skye a move-speed bonus after completion. Skye passively gains crystal power.',
+        'Sure Strike (B) grants Skye a move-speed bonus after completion. Skye passively gains crystal power and weapon power.',
         '• Bonus Move Speed 1.5 (+0.1)',
         '• Bonus Move Speed Duration 3s',
         '• Passive Crystal Power +5% (+1.5%)',
+        '• Passive Weapon Power +5% (+1.5%)',
       ],
     },
     {

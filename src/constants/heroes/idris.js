@@ -81,7 +81,7 @@ export const frontmatter = {
       image: 'Idris-B',
       text: [
         'Idris throws a chakram that returns to him, damaging enemies each time it passes over them.',
-        '• Hitting enemy heroes, miners, or Mythic Creatures recovers 10 stamina.',
+        '• Hitting enemy heroes, miners or Mythic Creatures recovers 10 stamina.',
         '• Idris can use his Shroudstep and Shimmer Strike abilities to temporarily keep his chakrams in the air longer.',
         '• Deals 50% less damage to minions.',
       ],
@@ -103,6 +103,12 @@ export const frontmatter = {
           amount: ['60', '110', '160', '210', '260'],
           cr: '100%',
           wr: '70%',
+        },
+        {
+          name: 'Projectile Speed',
+          amount: ['19', '19', '19', '19', '19'],
+          cr: ' ',
+          wr: ' ',
         },
         {
           name: 'Stamina Cost',
@@ -175,7 +181,7 @@ export const frontmatter = {
       text: [
         'Chakram (B) throws thress projectiles in a cone.',
         '• Damage 60% (+5%)',
-        '• Cooldown 110% (-2.5%)',
+        '• Cooldown 120% (-3.0%)',
       ],
       image: 'Idris_Epic',
     },

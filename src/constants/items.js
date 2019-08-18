@@ -100,7 +100,7 @@ export const itemBoxes = [
     color: '#ED5565',
     cost: '2900',
     description:
-      '+30 Weapon Power\n+30% Attack Speed\n+25% Armor Pierce (Armorbreaker) \nOn Hit: Your basic attacks shred 10% of the target’s armor for 3s. Max 4 stacks.',
+      '+30 Weapon Power\n+30% Attack Speed\n+20% Armor Pierce (Armorbreaker) \nOn Hit: Your basic attacks shred 10% of the target’s armor for 3s. Max 5 stacks.',
     tip:
       'Tip: Effective against turrets and enemies with high armor. Best if you or your team are already dealing lots of weapon damage.',
     item1: 'piercing-spear',
@@ -486,7 +486,7 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '1400',
     description:
-      '+150 Max Health\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: Sprint for 2s (60s cooldown). Damaging heroes instantly sets the cooldown to 15s if it is above it.',
+      '+150 Max Health\nPassive: +0.5 move speed. (Does not stack with other boots.)\nPassive: Travel.\nActivate: 2.0 Sprint for 2s (60s cooldown). Damaging heroes instantly sets the cooldown to 30s if it is above it.',
     tip:
       'Tip: Purchase to be able to chase down fleeing targets and sustain pressure.',
     item1: 'travel-boots',
@@ -857,7 +857,7 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '300',
     description:
-      'Passive: +0.3 move speed. (Does not stack with other boots.)\nActivate: 3.0 Sprint for 3s (150s cooldown).',
+      'Passive: +0.3 move speed. (Does not stack with other boots.)\nActivate: 2.0 Sprint for 2s (150s cooldown).',
     item4: 'travel-boots',
   },
   {
@@ -932,7 +932,7 @@ export const itemBoxes = [
     color: '#ED5565',
     cost: '2700',
     description:
-      '+45% Armor Pierce\n+40 Weapon Power\n\nPassive: Every 6s, your next basic attack will deal 100 + 100% of bonus weapon power bonus damage.',
+      '+30% Armor Pierce\n+40 Weapon Power\n\nPassive: Every 6s, your next basic attack will deal 100 + 100% of bonus weapon power bonus damage.',
     tip: 'Tip: An effective way to surprise enemies with a sudden burst of damage.',
     item1: 'six-sins',
     item2: 'piercing-spear',
@@ -959,7 +959,7 @@ export const itemBoxes = [
     color: '#AC92EC',
     cost: '650',
     description:
-      '+100 Max Health\n\nPassive: +0.3 move speed. (Does not stack with other boots.)\nPassive (Travel): +0.5 move speed when not in combat with heroes, monsters or turrets.\nActivate: Sprint for 2s (90s cooldown).',
+      '+100 Max Health\n\nPassive: +0.3 move speed. (Does not stack with other boots.)\nPassive (Travel): +0.5 move speed when not in combat with heroes, monsters or turrets.\nActivate: 2.0 Sprint for 2s (90s cooldown).',
     item1: 'sprint-boots',
   },
   {

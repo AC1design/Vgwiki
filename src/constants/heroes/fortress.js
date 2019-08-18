@@ -37,7 +37,7 @@ export const frontmatter = {
       image: 'Fortress-A',
       text: [
         'Fortress marks the target enemy as prey and his next basic attack becomes a short-range lunge.',
-        '• Fortress and his allies move faster toward prey and have lifesteal when attacking them.',
+        '• Fortress and his allies move faster (Speed Boost 14.0) toward prey and have lifesteal when attacking them.',
       ],
       stats: [
         {
@@ -220,7 +220,7 @@ export const frontmatter = {
       text: [
         'Truth of the Tooth (A) and Law of the Claw (B) spawn a wolf to attack Fortress’ target, up to a maximum of 3 wolves.',
         '• Bleed Damage 60% (+10%)',
-        '• Cooldown 190% (-10%)',
+        '• Cooldown 120% (-10%)',
       ],
       image: 'Fortress_Legendary',
     },

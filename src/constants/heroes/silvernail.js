@@ -81,7 +81,6 @@ export const frontmatter = {
       text: [
         'Silvernail lobs a flask which damages, burns, and reveals enemies caught in the blast for 4s.',
         '• Refreshes Double Shot upon casting.',
-        '• Deals less damage to minions.',
       ],
       video: 'Silvernail-B',
       stats: [
@@ -195,8 +194,9 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'Stake (A) forms a tripwire triangle around target location.',
-        '• Damage 80% (+10%)',
-        '• Duration 40% (+5%)',
+        '• Damage 70% (+10%)',
+        '• Duration 30% (+5%)',
+        '• Bonus Range 6.0',
       ],
     },
   ],

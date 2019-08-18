@@ -29,7 +29,7 @@ const IndexPage = props => (
           </div>
           <div className="HeroGroup">
             <h1>VAINGLORY WIKI</h1>
-            <p>UPDATE 4.5</p>
+            <p>UPDATE 4.6</p>
           </div>
         </div>
       </MediaQuery>
@@ -45,7 +45,7 @@ const IndexPage = props => (
           </div>
           <div className="HeroGroup">
             <h1>VAINGLORY WIKI</h1>
-            <p>UPDATE 4.5</p>
+            <p>UPDATE 4.6</p>
           </div>
         </div>
       </MediaQuery>
@@ -100,14 +100,14 @@ const IndexPage = props => (
 export default IndexPage
 export const pageQuery = graphql`
   {
-    imageOne: file(relativePath: { eq: "45bgdesktop.png" }) {
+    imageOne: file(relativePath: { eq: "46bgdesktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "45bgmobile.png" }) {
+    imageTwo: file(relativePath: { eq: "46bgmobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid

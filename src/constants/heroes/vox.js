@@ -159,7 +159,7 @@ export const frontmatter = {
       text: [
         'Sonic Zoom (A) has 3 increased dash range. Vox passively gains attack speed.',
         '• Passive Attack Speed +25% (+1%)',
-        '• Cooldown 125% (-2.5%)',
+        '• Cooldown 100% (-2.5%)',
       ],
     },
     {
@@ -178,7 +178,7 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'Julia’s Song (Perk) Resonance bolts have an additional bounce.',
-        '• Damage 60% (+10%)',
+        '• Damage 80% (+15%)',
       ],
     },
   ],

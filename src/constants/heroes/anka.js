@@ -78,7 +78,7 @@ export const frontmatter = {
       image: 'Anka-B',
       text: [
         'Anka throws five knives in a cone, dealing damage to all enemies the knives pass through.',
-        'Each additional knife after the first deals damage equal to 33% of the initial damage.',
+        'Each additional knife after the first deals damage equal to 50% of the initial damage.',
       ],
       stats: [
         {
@@ -96,7 +96,7 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['50', '75', '100', '125', '175'],
-          cr: '50%',
+          cr: '45%',
           wr: ' ',
         },
       ],

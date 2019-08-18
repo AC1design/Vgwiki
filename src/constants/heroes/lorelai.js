@@ -167,7 +167,7 @@ export const frontmatter = {
       color: '#c78cff',
       text: [
         'Fish Food (A) stuns for a longer duration.',
-        '• Bonus Stun Duration 0.6s (+0.2s)',
+        '• Bonus Stun Duration 0.4s (+0.15s)',
       ],
       image: 'Lorelai_Epic',
     },
@@ -177,7 +177,7 @@ export const frontmatter = {
       color: '#FF9000',
       text: [
         'Waterwall (Ult) grants invulnerability instead of barrier.',
-        '• Duration 4s (+2s)',
+        '• Duration 3s (+1s)',
         '• Cooldown 100% (-5%)',
       ],
       image: 'Lorelai_Legendary',
