@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
-import ImgHero from 'gatsby-image'
 import styled from 'styled-components'
 import MediaQuery from 'react-responsive'
 import 'animate.css/animate.min.css'
@@ -163,12 +162,7 @@ export default function({ data }) {
       <MediaQuery query="(min-width: 721px)">
         <Hero>
           <HeroContainer>
-            <ImgHero
-              imgStyle={{ objectPosition: 'center top' }}
-              style={{ height: '100vh' }}
-              className="Img"
-              fluid={data.imageOne.childImageSharp.fluid}
-            />
+            
             <Gradient />
           </HeroContainer>
           <HeroGroup>
