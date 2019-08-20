@@ -5,7 +5,7 @@ export const frontmatter = {
     path: '/Ishtar',
     description:
         'Demonic queen who manipulates Living Blades.',
-    spotlight: ' ',
+    spotlight: 'UPc9QEL_SeM',
     stats: [
         { name: 'HEALTH', value: '666 - 2261', color: '#4eec8b' },
         { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
