@@ -23,6 +23,9 @@ const Model = styled.img`
   -webkit-user-drag: none;
   @media (max-width: 480px) {
     vertical-align: middle;
+    
+  height: 100%;
+  width: 100%;
   }
   @media only screen and (min-device-width: 319px) and (max-device-width: 1024px) and (orientation: landscape) {
     height: 85vh;
