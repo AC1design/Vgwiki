@@ -170,8 +170,8 @@ export const frontmatter = {
             color: '#6393F9',
             text: [
                 'Ishtar gains a stack of Indomitable on each hero kill or assist and loses one on death. Each stack grant bonus armor, shield, vampirism. This can stack up to 10 times.',
-                '🛡 Armor/Stack 29',
-                '🛡 Shield/Stack 29',
+                '🛡 Armor/Stack 10 (+1)',
+                '🛡 Shield/Stack 10 (+1)',
                 '🛡 Lifesteal/Stack 50%',
                 '🔧 Max stacks 10',
             ],
@@ -183,7 +183,7 @@ export const frontmatter = {
             color: '#c78cff',
             text: [
                 "Ishtar's Blade Whirl (B) now will root targets and deal increased damage.",
-                '⚔ Damage 200%',
+                '⚔ Damage 110% (+10%)',
                 '🔧 Root Duration 1',
             ],
             image: 'Ishtar_Epic',
@@ -194,7 +194,7 @@ export const frontmatter = {
             color: '#FF9000',
             text: [
                 'Every time a Living Blade is summoned, Ishtar gains additional attack speed for 10 seconds. This can stack up to 20 times.',
-                '⚔ Attack Speed/Stack 10%',
+                '⚔ Attack Speed/Stack 6% (+1%)',
                 '🔧 Max Stacks 20',
             ],
             image: 'Ishtar_Legendary',
