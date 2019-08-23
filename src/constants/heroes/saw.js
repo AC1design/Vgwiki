@@ -26,8 +26,8 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Saw-P',
       text: [
-        'Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed.',
-        '• Each basic attack grants SAW +15 % attack speed.',
+        'Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed (-1.0).',
+        '• Each basic attack grants SAW +15% attack speed.',
         "• Each basic attack decreases SAW's move speed by -0.10.",
         '• Max 12 stacks.',
         '• After 3.5s without basic attacking, SAW rapidly spins down.',
