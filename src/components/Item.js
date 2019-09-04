@@ -89,10 +89,9 @@ class Itemsbox extends React.Component {
           <h1>{this.props.itemname}</h1>
           <H2 color={this.props.color}> {this.props.class} </H2>
           <h3>{this.props.tier}</h3>
+          {this.props.tag && (<h4 className="Tag" >{this.props.tag}</h4>
+          )}
               <p>{this.props.cost}</p>
-          <div className="Tag">
-            <h4>{this.props.tag}</h4>
-          </div>
         </div>
       </div>
     )
