@@ -17,10 +17,6 @@ const Hero = styled.div`
     ),
     url(${props => props.bgdesktop}) no-repeat top center;
   height: 100vh;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   @media (max-width: 1024px) {
     background-size: cover;
     display: flex;
@@ -35,7 +31,6 @@ const Hero = styled.div`
       url(${props => props.bgtablet}) no-repeat center top;
   }
   @media (max-width: 480px) {
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

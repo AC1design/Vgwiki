@@ -85,13 +85,11 @@ class Itemsbox extends React.Component {
         <div className="Itembox" onClick={this.handleOpenModal} tabIndex="0">
           <div className="ImageCost">
             <img src={this.props.itemimg} alt={this.props.itemimg} />
-            <div className="Cost">
-              <p>{this.props.cost}</p>
-            </div>
           </div>
+          <h1>{this.props.itemname}</h1>
           <H2 color={this.props.color}> {this.props.class} </H2>
           <h3>{this.props.tier}</h3>
-          <h1>{this.props.itemname}</h1>
+              <p>{this.props.cost}</p>
           <div className="Tag">
             <h4>{this.props.tag}</h4>
           </div>

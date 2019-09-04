@@ -6,11 +6,8 @@ import Typography from "@material-ui/core/Typography";
 import styled from 'styled-components'
 
 const Link = styled.a`
-    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 &:hover{
-	transform: scale(1.1, 1.1);
-  box-shadow: 0 10px 80px rgba(0, 0, 0, 0.651);
 }
   `
 const MediaControlCard = props => (

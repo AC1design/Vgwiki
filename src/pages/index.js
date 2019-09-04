@@ -28,7 +28,6 @@ const IndexPage = props => (
             <div className="gradient" />
           </div>
           <div className="HeroGroup">
-            <h1>VAINGLORY WIKI</h1>
             <p>UPDATE 4.6</p>
           </div>
         </div>
@@ -44,7 +43,6 @@ const IndexPage = props => (
             <div className="gradient" />
           </div>
           <div className="HeroGroup">
-            <h1>VAINGLORY WIKI</h1>
             <p>UPDATE 4.6</p>
           </div>
         </div>

@@ -97,22 +97,23 @@ a {
 
 .HeroContainer{
   background-size: cover;
-  height:750px;
+  height: 40vh;
   width: 100%;
   z-index: -1;
   position: relative;
 }
 .Img{
-  height:750px;
+  height: 40vh;
   object-position: center top;
 }
 
 .gradient {
   position: absolute;
-  height: 750px;
+  height: 26px;
   width: 100%;
-  top: 0;
-  background: linear-gradient(0deg,#1f1f21 1%,#1f1f21 0,rgba(25,26,27,0));
+  bottom: 0;
+  border-radius: 26px 26px 0px 0px;
+  background: #1f1f21 ;
   pointer-events: none;
 }
 
@@ -205,6 +206,8 @@ a {
   width: 90%;
   margin: 0 auto;
 }
+
+/* BOX GROUPS */
 
 .PingboxGroup {
   max-width: 1366px;
@@ -319,15 +322,15 @@ overflow: visible;
     font-size: 30px;
   }
    .HeroContainer {
-    height:600px;
+    height:50vh;
   }
 
   .Img{
-  height:600px;
+  height:50vh;
 }
 
 .gradient{
-  height: 600px;
+  height: 26px;
 }
 }
 

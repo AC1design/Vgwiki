@@ -1,133 +1,41 @@
-
-.Card {
-	width: 280px;
-    height: 225px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 26px;
-    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    cursor: pointer;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
+.Card{
+	width: 150px;
+    height: 220px;
 }
 
-.Card:hover {
-	transform: scale(1.1, 1.1);
-  box-shadow: 0 10px 80px rgba(0, 0, 0, 0.651);
-  
-}
+.SmallCard{
 
-.Card img {
-	height: 100%;
-	position: absolute;
-	top: 0;
-	z-index: -1;
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
- 
-}
-
-.Card h3 {
-	color: rgb(255, 255, 255);
-	font-size: 30px;
-	margin: 20px 0 0 20px;
-    width: 190px;
-    text-shadow:2px 2px 20px black;
-}
-
-.Card p {
-	text-transform: uppercase;
-    font-weight: 600;
-    font-size: 16px;
-    align-self: end;
-    margin: 10px 0 0 20px;
-    padding: 120px 0px;
-    display: flex;
-    -webkit-font-smoothing: antialiased;
-  /* flex-wrap: wrap; */
-    flex-direction: column;
-    text-shadow:2px 2px 20px black;
+	width: 25px;
+    height: 25px;
 }
 
 .CardboxGroup {
-  max-width: 1366px;
+	margin: 16px;
 	display: grid;
-	grid-template-columns: repeat(4, auto);
-	grid-column-gap: 40px;
-  grid-row-gap: 40px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-}
-	
-  
-
-  @media (max-width: 1366px) {
-    .Card {
-	width: 280px;
-    height: 225px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 26px;
-    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    cursor: pointer;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-}
-       .CardboxGroup {
-	margin:20px 16px 55px;
-	display: grid;
-	grid-template-columns: repeat(60, 275px);
+	grid-template-columns: repeat(60, 150px);
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	justify-content: left;
 align-items: center;
 overflow: visible;
 }
+
+.CardboxGroup2 {
+  margin: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}	 
+
+       
 	
   .CardboxGroupScroll{
     overflow-x: scroll;
     overflow-y: visible;
     width:100%;
     background: transparent;
-    padding: 30px 0px -10px;
 }
-  }
   
   @media (max-width: 720px) {
-    .Card {
-	width: 280px;
-    height: 225px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 26px;
-    box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    cursor: pointer;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-}
-    .CardboxGroup {
-	margin:20px 16px 55px;
-	display: grid;
-	grid-template-columns: repeat(60, 275px);
-	grid-column-gap: 20px;
-	grid-row-gap: 20px;
-	justify-content: left;
-align-items: center;
-overflow: visible;
-}
-	
-  .CardboxGroupScroll{
-    overflow-x: scroll;
-    overflow-y: visible;
-    width:100%;
-    background: transparent;
-    padding: 30px 0px -10px;
-}
 }

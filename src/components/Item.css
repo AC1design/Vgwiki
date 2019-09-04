@@ -28,6 +28,7 @@
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     margin-bottom: 5px;
     -webkit-user-drag: none;
+    text-align: center;
 }
 
 .Itembox h1 {
@@ -36,6 +37,7 @@
     margin-top: -5px;
     -webkit-font-smoothing: antialiased;
         width: 156px;
+    text-align: center;
 }
 
 .Itembox h2 {
@@ -43,6 +45,7 @@
 	font-size: 12px;
     margin-top: 10px;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
 }
 
 
@@ -52,6 +55,7 @@
     font-size: 12px;
     margin-top: -5px;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
 }
 
 .Tag h4{
@@ -63,8 +67,9 @@
     font-size: 14px;
     margin-bottom:-5px;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
 }
-.Cost p {
+.Itembox p {
     margin-top: -1px;
     margin-left:50px;
     background: rgba(255, 255, 255, 0.185);
@@ -80,9 +85,6 @@
 }
 
 .ImageCost{
-    display: flex;
-    flex-direction:row;
-    justify-content:flex-start;
 }
 .Cost{
     position:relative;

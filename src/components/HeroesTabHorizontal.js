@@ -19,6 +19,26 @@ const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
 const Selectan = styled.div`
   display: flex;
 `
+
+const CardboxGroupScroll = styled.div`
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
+`
+
+const CardboxGroup = styled.div`
+	margin: 16px;
+	display: grid;
+	grid-template-columns: repeat(60, 150px);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	justify-content: left;
+align-items: center;
+overflow: visible;
+    ${props => (props.flex ? 'display: flex;' : '')}
+`
+
 const StyledButton = withStyles({
   root: {
     position: 'absolute',
@@ -83,9 +103,14 @@ TabContainer.propTypes = {
 }
 
 class HeroesHorizontal extends React.Component {
-  state = {
-    anchorEl: null,
-    value: 0,
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      anchorEl: null,
+      value: 0,
+      hideNameAndRole: false,
+    }
   }
 
   handleClick = event => {
@@ -100,13 +125,26 @@ class HeroesHorizontal extends React.Component {
     this.setState({ value })
   }
 
+  handleHideClick = event => {
+    this.setState({ hideNameAndRole: true })
+  }
+
+  handleShowClick = event => {
+    this.setState({ hideNameAndRole: false })
+  }
+
   makeHeroCard = (hero, index) => (
     <Card
       title={hero.name}
       text={hero.type.join(', ')}
       image={require(`./../images/Cards/${hero.name}_Card.jpg`)}
+      image2={require(`./../images/heroes/${hero.name.toLowerCase()}.png`)}
       link={hero.name}
       key={index}
+      hideNameAndRole={this.state.hideNameAndRole}
+      smallW={this.state.hideNameAndRole}
+      smallH={this.state.hideNameAndRole}
+      smallI={this.state.hideNameAndRole}
     />
   )
 
@@ -119,7 +157,8 @@ class HeroesHorizontal extends React.Component {
       <div>
         <Selectan>
           <div className="Selectan">
-            <h1>Select a Hero</h1>
+            <button onClick={this.handleShowClick}>Show</button>
+            <button onClick={this.handleHideClick}>Hide</button>
           </div>
           <StyledButton
             aria-owns={open ? 'fade-menu' : undefined}
@@ -161,8 +200,8 @@ class HeroesHorizontal extends React.Component {
         </div>
         {value === 0 && (
           <TabContainer>
-            <div className="CardboxGroupScroll">
-              <div className="CardboxGroup">
+            <div className='CardboxGroupScroll'>
+              <div className='CardboxGroup'>
                 {heroCards.map((hero, index) => this.makeHeroCard(hero, index))}
               </div>
             </div>
@@ -170,57 +209,58 @@ class HeroesHorizontal extends React.Component {
         )}
         {value === 1 && (
           <TabContainer>
-            <div className="CardboxGroupScroll">
-              <div className="CardboxGroup">
+            <CardboxGroupScroll>
+              <CardboxGroup
+                flex={this.state.hideNameAndRole}>
                 {heroCards
                   .filter(hero => hero.type.includes('ASSASSIN'))
                   .map((hero, index) => this.makeHeroCard(hero, index))}
-              </div>
-            </div>
+              </CardboxGroup>
+            </CardboxGroupScroll>
           </TabContainer>
         )}
         {value === 2 && (
           <TabContainer>
-            <div className="CardboxGroupScroll">
-              <div className="CardboxGroup">
+            <CardboxGroupScroll>
+              <CardboxGroup>
                 {heroCards
                   .filter(hero => hero.type.includes('MAGE'))
                   .map((hero, index) => this.makeHeroCard(hero, index))}
-              </div>
-            </div>
+              </CardboxGroup>
+            </CardboxGroupScroll>
           </TabContainer>
         )}
         {value === 3 && (
           <TabContainer>
-            <div className="CardboxGroupScroll">
-              <div className="CardboxGroup">
+            <CardboxGroupScroll>
+              <CardboxGroup>
                 {heroCards
                   .filter(hero => hero.type.includes('PROTECTOR'))
                   .map((hero, index) => this.makeHeroCard(hero, index))}
-              </div>
-            </div>
+              </CardboxGroup>
+            </CardboxGroupScroll>
           </TabContainer>
         )}
         {value === 4 && (
           <TabContainer>
-            <div className="CardboxGroupScroll">
-              <div className="CardboxGroup">
+            <CardboxGroupScroll>
+              <CardboxGroup>
                 {heroCards
                   .filter(hero => hero.type.includes('SNIPER'))
                   .map((hero, index) => this.makeHeroCard(hero, index))}
-              </div>
-            </div>
+              </CardboxGroup>
+            </CardboxGroupScroll>
           </TabContainer>
         )}
         {value === 5 && (
           <TabContainer>
-            <div className="CardboxGroupScroll">
-              <div className="CardboxGroup">
+            <CardboxGroupScroll>
+              <CardboxGroup>
                 {heroCards
                   .filter(hero => hero.type.includes('WARRIOR'))
                   .map((hero, index) => this.makeHeroCard(hero, index))}
-              </div>
-            </div>
+              </CardboxGroup>
+            </CardboxGroupScroll>
           </TabContainer>
         )}
       </div>

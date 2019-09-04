@@ -2,17 +2,120 @@ import React from 'react'
 import './Card.css'
 import 'animate.css/animate.min.css'
 import { Link } from 'gatsby'
+import styled from 'styled-components'
 
+
+const Cardbox = styled.div`
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+`
+
+const Cards = styled.div`
+width: 150px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 26px;
+  margin-bottom: 16px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background: url(${props => props.bg}) no-repeat top center;
+    ${props => (props.smallwidth ? 'width: 70px;' : '')}
+    ${props => (props.smallheigth ? 'height: 70px;' : '')}
+    ${props => (props.hidden ? 'background: url(${props => props.bg2});' : '')}
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+`
+
+const Name = styled.h3`
+	color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    ${props => (props.hidden ? 'visibility: hidden;' : '')}
+`
+
+const Role = styled.p`
+${props => (props.hidden ? 'visibility: hidden;' : '')}
+	text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 6px;
+    opacity: 0.7;
+`
 const Card = props => (
-  <span>
-    <div className="Card">
-      <Link to={props.link}>
-        <img src={props.image} alt={props.text} />
-        <h3>{props.title}</h3>
-        <p>{props.text}</p>
-      </Link>
-    </div>
-  </span>
+  <Link to={props.link}>
+    <Cardbox>
+      <Cards
+        smallwidth={props.smallW}
+        smallheigth={props.smallH}
+        smallimage={props.smallI}
+        bg={props.image}
+        bg2={props.image2}
+      />
+      <div>
+        <Name hidden={props.hideNameAndRole}>{props.title}</Name>
+        <Role hidden={props.hideNameAndRole}>{props.text}</Role>
+      </div>
+    </Cardbox>
+  </Link>
 )
 
 export default Card
+
+/*
+const Cardbox = styled.div`
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+`
+
+const Card = styled.div`
+	width: 150px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 26px;
+  margin-bottom: 16px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+`
+
+const Name = styled.h3`
+	color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+`
+
+const Role = styled.p`
+	text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 6px;
+    opacity: 0.7;
+`
+const Card = props => (
+<Link to={props.link}>
+        <Cardbox>
+            <Card" bgdesktop={require(`./../images/Cards/${
+            this.props.title
+          }.png`)}>
+    <CardText>
+        <Name>{props.title}</Name>
+      <Role>{props.text}</Role>
+            </CardText>
+        </Cardbox>
+    </Link>
+)
+
+export default Card
+*/
