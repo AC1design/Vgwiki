@@ -21,10 +21,12 @@ width: 150px;
     cursor: pointer;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    background: url(${props => (props.framebg ? props.bg2 : props.bg)}) no-repeat top center;
-    ${props => (props.smallwidth ? 'width: 70px;' : '')}
-    ${props => (props.smallheigth ? 'height: 70px;' : '')}
-    ${props => (props.framebg ? 'background-size: contain;' : '')}
+    background: url(${props => (props.reduce ? props.bg2 : props.bg)}) left center no-repeat;
+    ${props => (props.reduce ? 'width: 70px;' : '')}
+    ${props => (props.reduce ? 'height: 70px;' : '')}
+    ${props => (props.reduce ? 'background-size: contain;' : '')}
+    background-size: cover;
+    background-position-x: 80%;
 `
 
 const Name = styled.h3`
@@ -61,11 +63,8 @@ const Card = props => (
     <Cardbox
         className="animated fadeInRight delay-0.4s">
       <Cards
-        smallwidth={props.smallW}
-        smallheigth={props.smallH}
-        smallimage={props.smallI}
+        reduce={props.hideNameAndRole}
         bg={props.image}
-        framebg={props.frameBg}
         bg2={props.image2}
       />
       <div>

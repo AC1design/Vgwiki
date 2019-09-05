@@ -163,21 +163,26 @@ a {
     padding:10px;
     padding-left:0px;
   }
-.SelctanIcon{
-  position: absolute;
-  right: 16px;
-}
-   .Selectan h1 {
+.Selectan {
      text-align: center;
      margin-top:0px;
      margin-bottom:0px;
      margin-left: 16px;
+     justify-content: space-between;
+    display: flex;
+    align-self: center;
+    align-items: baseline;
+  }
+
+.SelctanIcon{
+  margin-right: 16px;
+}
+
+   .Selectan h1 {
     font-family: "Antonio";
     font-size: 24px;
     line-height: 1.2;
     color: rgb(255, 255, 255);
-    justify-content: left;
-    overflow: hidden;
   }
 
   .News{
@@ -189,7 +194,6 @@ a {
     font-family: Antonio;
     font-size: 18px;
   }
-
 
 
 .menu-hack {
@@ -304,11 +308,11 @@ overflow: visible;
     font-size: 30px;
   }
    .HeroContainer {
-    height:50vh;
+    height:380px;
   }
 
   .Img{
-  height:50vh;
+  height:380px;
 }
 
 .gradient{
@@ -445,4 +449,11 @@ overflow: visible;
      .Overlay {
     overflow-y: auto;
   }
+  }
+
+  @media (min-width: 1367px){
+    ::-webkit-scrollbar-thumb:horizontal{
+        background: rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+    }
   }

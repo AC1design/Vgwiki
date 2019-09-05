@@ -1,12 +1,9 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Tabsind from '../components/Tab'
 import MediaQuery from 'react-responsive'
 import Page from 'react-page-loading'
 import Charms from '../components/MobileCharmsTab'
-import GridList from '../components/GridList'
 import StickyFooter from 'react-sticky-footer'
-import ItemsGridList from '../components/ItemsGridList'
 import SocialPingsMobile from '../components/SocialPingsMobile'
 import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
@@ -49,14 +46,16 @@ const IndexPage = props => (
           </div>
         </div>
       </MediaQuery>
-      <News/>
-        <div className="mobile">
+      <div>
+        <News/>
+        <div>
           <HeroesHorizontal />
         <MobileItemsTab />
           <HatsM />
           <SocialPingsMobile />
           <Charms />
         </div>
+      </div>
       <div>
         <StickyFooter
           className="footer"

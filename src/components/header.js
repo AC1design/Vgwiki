@@ -112,7 +112,7 @@ class Header extends React.Component {
                   <StyledListItem button>
                     <img
                       style={{ overflow: 'visible' }}
-                      src={require(`./../images/heroes/${ text.toLowerCase()}.png`)}
+                      src={require(`./../images/heroes/${ text.toLowerCase()}.jpg`)}
                       alt={text}
                     />
                     {text}

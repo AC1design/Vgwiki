@@ -14,6 +14,7 @@ import Grid from './Icon/GridIcon'
 
 const Selectan = styled.div`
   display: flex;
+  margin-top: 32px;
 `
 const StyledMenu = withStyles({
   root: {
@@ -75,6 +76,10 @@ class MobileItemsTab extends React.Component {
   state = {
     anchorEl: null,
     value: 0,
+    displayflex: '',
+    displayflexwrap: '',
+    displayflexwrapmargin: '',
+    displayflexjustify: '',
   }
 
   handleClick = event => {
@@ -87,6 +92,23 @@ class MobileItemsTab extends React.Component {
 
   handleChange = (event, value) => {
     this.setState({ value })
+  }
+
+
+  handleHideClick = event => {
+    this.setState({ hideNameAndRole: true })
+    this.setState({ displayflex: 'flex' })
+    this.setState({ displayflexwrap: 'wrap' })
+    this.setState({ displayflexwrapmargin: '0' })
+    this.setState({ displayflexjustify: 'center' })
+  }
+
+  handleShowClick = event => {
+    this.setState({ hideNameAndRole: false })
+    this.setState({ displayflex: '' })
+    this.setState({ displayflexwrap: '' })
+    this.setState({ displayflexwrapmargin: '' })
+    this.setState({ displayflexjustify: '' })
   }
 
   makeItemBox = (item, index) => (
@@ -112,6 +134,7 @@ class MobileItemsTab extends React.Component {
       item8={item.item8 ? require(`./../images/Items/${item.item8}.png`) : null}
       item9={item.item9 ? require(`./../images/Items/${item.item9}.png`) : null}
       key={index}
+      hideNameAndRole={this.state.hideNameAndRole}
     />
   )
 
@@ -122,15 +145,13 @@ class MobileItemsTab extends React.Component {
 
     return (
       <div>
-        <Selectan>
-          <div className="Selectan">
-            <h1>Items</h1>
-            <div className='SelctanIcon'>
-              <Square onClick={this.handleShowClick}>Show</Square>
-              <Grid style={{ marginLeft: '16px' }} onClick={this.handleHideClick}>Hide</Grid>
-            </div>
+        <div className="Selectan">
+          <h1>Heroes</h1>
+          <div className='SelctanIcon'>
+            <Square onClick={this.handleShowClick}>Show</Square>
+            <Grid style={{ marginLeft: '16px' }} onClick={this.handleHideClick}>Hide</Grid>
           </div>
-        </Selectan>
+        </div>
         <div>
           <StyledMenu
             position="static" color="default" style={{ background: 'none' }}
@@ -152,8 +173,13 @@ class MobileItemsTab extends React.Component {
         </div>
         {value === 0 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes.map((item, index) => {
                   return this.makeItemBox(item, index)
                 })}
@@ -163,8 +189,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 1 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'CRYSTAL')
                   .map((item, index) => this.makeItemBox(item, index))}
@@ -174,8 +205,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 2 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'WEAPON')
                   .map((item, index) => this.makeItemBox(item, index))}
@@ -185,8 +221,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 3 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'DEFENSE')
                   .map((item, index) => this.makeItemBox(item, index))}
@@ -196,8 +237,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 4 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'UTILITY')
                   .map((item, index) => this.makeItemBox(item, index))}
@@ -207,8 +253,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 5 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'CONSUMABLE')
                   .map((item, index) => this.makeItemBox(item, index))}

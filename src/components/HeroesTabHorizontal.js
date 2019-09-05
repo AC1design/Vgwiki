@@ -16,6 +16,7 @@ const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
 
 const Selectan = styled.div`
   display: flex;
+  max-width: 1366px;
 `
 const StyledMenu = withStyles({
   root: {
@@ -114,15 +115,12 @@ class HeroesHorizontal extends React.Component {
       title={hero.name}
       text={hero.type.join(', ')}
       image={require(`./../images/Cards/${hero.name}_Card.jpg`)}
-      image2={require(`./../images/heroes/${hero.name.toLowerCase()}.png`)}
+      image2={require(`./../images/heroes/${hero.name.toLowerCase()}.jpg`)}
       link={hero.name}
       key={index}
       hideNameAndRole={this.state.hideNameAndRole}
-      smallW={this.state.hideNameAndRole}
-      smallH={this.state.hideNameAndRole}
-      smallI={this.state.hideNameAndRole}
+      reduce={this.state.hideNameAndRole}
       showRole={this.state.showRole}
-      frameBg={this.state.hideNameAndRole}
       roleimg={require(`./../images/${hero.role}.png`)}
     />
   )
@@ -134,7 +132,6 @@ class HeroesHorizontal extends React.Component {
 
     return (
       <div>
-        <Selectan>
           <div className="Selectan">
             <h1>Heroes</h1>
             <div className='SelctanIcon'>
@@ -142,7 +139,6 @@ class HeroesHorizontal extends React.Component {
               <Grid style={{ marginLeft: '16px' }} onClick={this.handleHideClick}>Hide</Grid>
             </div>
           </div>
-        </Selectan>
         <div>
           <StyledMenu
             position="static" color="default" style={{ background: 'none' }}

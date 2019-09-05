@@ -1,14 +1,3 @@
-.Card{
-	width: 150px;
-    height: 220px;
-}
-
-.SmallCard{
-
-	width: 25px;
-    height: 25px;
-}
-
 .CardboxGroup {
 	margin: 0px 16px 16px 16px;
   display: flex;
@@ -20,9 +9,9 @@ overflow: visible;
 @media (min-width: 1367px) {
 .CardboxGroup {
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-	margin: 16px 16px 16px 16px;
+    justify-content: left;
+    align-items: left;
+  margin: 16px 16px 16px 16px;
 }	 
 }
   .CardboxGroupScroll{

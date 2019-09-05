@@ -121,8 +121,4 @@
         height: 10px;
         width: 0px;
     }
-    ::-webkit-scrollbar-thumb:horizontal{
-        background: rgba(0, 0, 0, 0.24);
-        border-radius: 10px;
-    }
 

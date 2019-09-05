@@ -14,7 +14,7 @@ const MediaControlCard = props => (
   <Link href={props.link}>
     <Card style={{
       display: "flex",
-    width: "280px",
+    width: "330px",
       height:'100px',
     background: "#2b2b2d",
       borderRadius: '16px'
