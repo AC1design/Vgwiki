@@ -10,32 +10,25 @@
 }
 
 .CardboxGroup {
-	margin: 16px;
-	display: grid;
-	grid-template-columns: repeat(60, 150px);
-	grid-column-gap: 20px;
-	grid-row-gap: 20px;
+	margin: 0px 16px 16px 16px;
+  display: flex;
+  overflow-x: auto;
 	justify-content: left;
 align-items: center;
 overflow: visible;
 }
-
-.CardboxGroup2 {
-  margin: 16px;
+@media (min-width: 1367px) {
+.CardboxGroup {
     flex-wrap: wrap;
-    display: flex;
     justify-content: center;
     align-items: center;
+	margin: 16px 16px 16px 16px;
 }	 
-
-       
-	
+}
   .CardboxGroupScroll{
+    padding-top: 16px;
     overflow-x: scroll;
     overflow-y: visible;
     width:100%;
     background: transparent;
-}
-  
-  @media (max-width: 720px) {
 }

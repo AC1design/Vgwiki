@@ -87,7 +87,6 @@ a {
 
 
 
-
 /*                  DESKTOP                    */
   .Hero {
     position: relative;
@@ -164,13 +163,17 @@ a {
     padding:10px;
     padding-left:0px;
   }
-
+.SelctanIcon{
+  position: absolute;
+  right: 16px;
+}
    .Selectan h1 {
      text-align: center;
-     margin-top:50px;
-     margin-bottom:20px;
+     margin-top:0px;
+     margin-bottom:0px;
+     margin-left: 16px;
     font-family: "Antonio";
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.2;
     color: rgb(255, 255, 255);
     justify-content: left;
@@ -190,10 +193,7 @@ a {
 
 
 .menu-hack {
-    margin: -8px 0 -8px 0; /* the real magic */
-    padding: 0 !important; /* removes left and right padding */
-    cursor: initial !important;
-    background: #2B2B2D
+   
 }
 
 .footer{
@@ -248,21 +248,14 @@ margin: 0 auto;
 }
 
 @media (max-width: 1366px) {
-    .Selectan h1 {
-     text-align: left;
-     margin-top:20px;
-     margin-bottom:20px;
-    margin-left: 25px;
-    font-family: "Antonio";
-    font-size: 24px;
-    line-height: 1.2;
-    color: rgb(255, 255, 255);
-    justify-content: left;
-    overflow: hidden;
-  }
-
   .Selectan{
     display:flex;
+  }
+
+    .Selectan h1 {
+     text-align: left;
+    margin-left: 25px;
+    line-height: 1.2;
   }
 
   .PingboxGroup {
@@ -290,18 +283,7 @@ overflow: visible;
   }
   
   @media (max-width: 720px) {
-     .Selectan h1 {
-     text-align: left;
-     margin-top:20px;
-     margin-bottom:20px;
-    margin-left: 25px;
-    font-family: "Antonio";
-    font-size: 24px;
-    line-height: 1.2;
-    color: rgb(255, 255, 255);
-    justify-content: left;
-    overflow: hidden;
-  }
+     
 
 }
 

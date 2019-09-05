@@ -7,7 +7,6 @@ import styled from 'styled-components'
 
 const Cardbox = styled.div`
   margin-right: 16px;
-  margin-left: 16px;
   margin-bottom: 16px;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 `
@@ -22,11 +21,10 @@ width: 150px;
     cursor: pointer;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    background: url(${props => props.bg}) no-repeat top center;
+    background: url(${props => (props.framebg ? props.bg2 : props.bg)}) no-repeat top center;
     ${props => (props.smallwidth ? 'width: 70px;' : '')}
     ${props => (props.smallheigth ? 'height: 70px;' : '')}
-    ${props => (props.hidden ? 'background: url(${props => props.bg2});' : '')}
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    ${props => (props.framebg ? 'background-size: contain;' : '')}
 `
 
 const Name = styled.h3`
@@ -47,18 +45,34 @@ ${props => (props.hidden ? 'visibility: hidden;' : '')}
     margin-top: 6px;
     opacity: 0.7;
 `
+const Type = styled.img`
+${props => (props.showrole ? 'visibility: hidden;' : '')}
+position: absolute
+width: 30px;
+height: 30px;
+z-index: 1;
+top: -10px;
+right: -10px;
+overflow: visible;
+`
+
 const Card = props => (
   <Link to={props.link}>
-    <Cardbox>
+    <Cardbox
+        className="animated fadeInRight delay-0.4s">
       <Cards
         smallwidth={props.smallW}
         smallheigth={props.smallH}
         smallimage={props.smallI}
         bg={props.image}
+        framebg={props.frameBg}
         bg2={props.image2}
       />
       <div>
+        <div>
         <Name hidden={props.hideNameAndRole}>{props.title}</Name>
+          <Type showrole={props.showRole} src={props.roleimg}></Type>
+    </div>
         <Role hidden={props.hideNameAndRole}>{props.text}</Role>
       </div>
     </Cardbox>

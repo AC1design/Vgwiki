@@ -94,7 +94,7 @@ align-self: center;
         background: rgba(0, 0, 0, 0.24);
         border-radius: 10px;
     }
-@media (max-width: 411px) {
+@media (max-width: 480px) {
     ::-webkit-scrollbar{
         display: none;
     }

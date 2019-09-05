@@ -12,6 +12,8 @@ import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import HatsM from '../components/HatsMobile'
 import News from '../components/News';
+import HeroesHorizontal from '../components/HeroesTabHorizontal'
+import MobileItemsTab from '../components/ItemsTabHorizontal'
 
 const IndexPage = props => (
   <Layout>
@@ -48,16 +50,13 @@ const IndexPage = props => (
         </div>
       </MediaQuery>
       <News/>
-      <Tabsind />
-      <MediaQuery query="(max-width: 1366px)">
         <div className="mobile">
-          <GridList />
-          <ItemsGridList />
+          <HeroesHorizontal />
+        <MobileItemsTab />
           <HatsM />
           <SocialPingsMobile />
           <Charms />
         </div>
-      </MediaQuery>
       <div>
         <StickyFooter
           className="footer"
