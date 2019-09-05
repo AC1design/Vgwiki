@@ -1,6 +1,5 @@
 import React from 'react'
-import Menu from '@material-ui/core/Appbar'
-import MenuItem from '@material-ui/core/MenuItem'
+import Menu from '@material-ui/core/AppBar'
 import PropTypes from 'prop-types'
 import Tabs from '@material-ui/core/Tabs'
 import Tab from '@material-ui/core/Tab'
