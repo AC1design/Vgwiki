@@ -4,7 +4,7 @@
     padding: 10px;
     z-index: 100;
     transition: 0.8s cubic-bezier(0.02, 0.8, 0.2, 1);
-    padding:16px;
+    padding:0px 16px 0px 16px;
     padding-top: env(safe-area-inset-top);
 }
 
@@ -21,8 +21,8 @@
     margin: 0px auto;
     justify-content: center;
     justify-content: space-between;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .herobut{

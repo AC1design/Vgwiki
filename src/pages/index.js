@@ -24,7 +24,6 @@ const IndexPage = props => (
               className="Img"
               fluid={props.data.imageOne.childImageSharp.fluid}
             />
-            <div className="gradient" />
           </div>
           <div className="HeroGroup">
             <p>UPDATE 4.6</p>
@@ -39,14 +38,13 @@ const IndexPage = props => (
               className="Img"
               fluid={props.data.imageTwo.childImageSharp.fluid}
             />
-            <div className="gradient" />
           </div>
           <div className="HeroGroup">
             <p>UPDATE 4.6</p>
           </div>
         </div>
       </MediaQuery>
-      <div>
+        <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px'}}>
         <News/>
         <div>
           <HeroesHorizontal />
@@ -88,7 +86,7 @@ const IndexPage = props => (
           <a href="javascript: Cookiebot.renew()">Change your consent</a>
           <a style={{ marginLeft: '16px' }} href="javascript: Cookiebot.withdraw()">Revoke your consent</a>
           </StickyFooter>
-      </div>
+        </div>
     </Page>
   </Layout>
 )
