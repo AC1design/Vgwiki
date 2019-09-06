@@ -3,27 +3,15 @@
     position: relative;
 	overflow: hidden;
 	border-radius: 26px;
-	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     background-color: #2B2B2D;
     padding-bottom:10px;
     padding: 20px;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     cursor: pointer;
     box-sizing: border-box;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
-    -webkit-tap-highlight-color: transparent;
-    min-height: 100%;
    outline: none;
-}
-
-.Skillbox:hover {
-	transform: scale(1.1, 1.1);
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.233);
+    -webkit-tap-highlight-color: transparent;
+    min-height: 344px;
 }
 
 
@@ -33,14 +21,13 @@
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     border-radius: 20px;
     margin-bottom: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.418);
     -webkit-user-drag: none;
 }
 
 .Skillbox h1 {
     text-transform: uppercase;
 	color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 16px;
     margin: 0;
     -webkit-font-smoothing: antialiased;
 }
@@ -48,16 +35,42 @@
 .Skillbox h2 {
 	color: rgba(255,255,255, 0.8);
 	font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
     margin: 0;
+    margin-top: 6px;
     -webkit-font-smoothing: antialiased;
 }
-.Skillbox p {
+.Skillboxp {
 	color: rgba(255,255,255, 0.8);
 	font-weight: 350;
-	font-size: 14px;
+    font-size: 14px;
+    width: 100%;
     -webkit-font-smoothing: antialiased;
     white-space: pre-line;
+    margin: 0;
+    text-align: justify;
+}
+
+.Skillboxbutton {
+    position: absolute;
+    bottom: 32px;
+    background: transparent;
+    border: none;
+	background: #434348;
+	font-weight: 350;
+    font-size: 14px;
+    width: 85%;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-font-smoothing: antialiased;
+    white-space: pre-line;
+    text-align: justify;
+    cursor: pointer;
+    user-select: none;
+   outline: none;
+   text-align: center;
+   font-weight: 600;
+   color: #cccccf;
 }
 
 .SkillboxGroup {

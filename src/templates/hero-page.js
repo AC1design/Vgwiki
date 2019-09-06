@@ -26,7 +26,7 @@ export default function({ data }) {
             spotlight={hero.spotlight}
           />
           <div className="Title">
-            <h1>STATS (LEVEL 1-12)</h1>
+            <h1>Stats (Lvl 1-12)</h1>
             <div className="line" />
           </div>
           <div className="StatboxGroupScroll">
@@ -42,12 +42,12 @@ export default function({ data }) {
             </div>
           </div>
           <div className="Title">
-            <h1>3D MODEL</h1>
+            <h1>3D Model</h1>
             <div className="line" />
           </div>
           <Models heroname={hero.name} />
           <div className="Title">
-            <h1>SKILLS (CLICK FOR MORE)</h1>
+            <h1>Skills</h1>
             <div className="line" />
           </div>
           <div className="SkillboxGroupScroll">
@@ -66,7 +66,7 @@ export default function({ data }) {
             </div>
           </div>
           <div className="Title">
-            <h1>TALENTS (LVL 1 + % PER LVL)</h1>
+            <h1>Talents (Lvl 1 + % per Lvl)</h1>
             <div className="line" />
           </div>
           <div className="TalentboxGroupScroll">
@@ -85,7 +85,7 @@ export default function({ data }) {
             </div>
           </div>
           <div className="Title">
-            {hero.skins.length ? <h1>SKINS</h1> : null}
+            {hero.skins.length ? <h1>Skins</h1> : null}
             <div className="line" />
           </div>
           <div className="SkinboxGroupScroll">

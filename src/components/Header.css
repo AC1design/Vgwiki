@@ -6,6 +6,7 @@
     transition: 0.8s cubic-bezier(0.02, 0.8, 0.2, 1);
     padding:0px 16px 0px 16px;
     padding-top: env(safe-area-inset-top);
+    z-index: 100;
 }
 
 .HeaderScrolled{

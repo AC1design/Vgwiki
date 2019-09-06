@@ -313,23 +313,61 @@ a {
 
 .Modal {
 	max-width: 380px;
-	width: 95%;
 	height: auto;
+	width: 95%;
 	margin: 0 auto;
 	outline: none;
-	display: table;
-	margin-top: 30px;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 50%;
 	border-radius: 20px;
-	transform: translateY(-50%);
-	background-color: rgb(43, 43, 45);
+	background-color: #1f1f21;
 	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.418);
 	outline: none;
 	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 	overflow-y: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Modal img {
+    height: 60px;
+    width: 60px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    -webkit-user-drag: none;
+}
+
+.Modal h1 {
+    text-transform: uppercase;
+	color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Modal h2 {
+	color: rgba(255,255,255, 0.8);
+	font-weight: 600;
+    font-size: 12px;
+    margin: 0;
+	margin-top: 6px;
+}
+
+.Modal p {
+	position: relative !important;
+	color: rgba(255,255,255, 0.8);
+	font-weight: 350;
+	font-size: 14px;
+	width: 90%;
+	text-align: center;
+    -webkit-font-smoothing: antialiased;
+    white-space: pre-line;
+	text-align: justify;
+	top:0 !important;
+	right: 0 !important;
 }
 
 .Overlay {
@@ -373,10 +411,11 @@ a {
 }
 
 .player {
-	border-radius: 20px 20px 0px 0px;
+	border-radius: 0px 0px 26px 26px;
 	outline: none;
 	background-color: #2B2B2D;
 	overflow: hidden;
+	margin-top: 40px;
 }
 
 .ReactModal__Content {
@@ -401,19 +440,21 @@ a {
 
 @media (max-width:560px) {
 	.Modal {
-		width: 95%;
-		height: auto;
-		overflow: scroll;
-		margin: 0 auto;
-		display: table;
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 50%;
-		border-radius: 26px;
-		transform: translateY(-50%);
-		background-color: rgb(43, 43, 45);
-		outline: none;
+		max-width: 100%;
+	height: 100%;
+	width: 100vh;
+	outline: none;
+	border-radius: 20px;
+	background-color: rgb(43, 43, 45);
+	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.418);
+	outline: none;
+	text-align: center;
+	overflow-y: auto;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0px;
+  z-index: 1;
 	}
 	.Text {
 		height: 295px;

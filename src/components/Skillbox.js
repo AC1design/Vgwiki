@@ -8,6 +8,7 @@ import PropTypes from 'prop-types'
 import H2 from './TalentH2Color'
 import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
+import Truncate from 'react-truncate';
 
 class Skillbox extends React.Component {
   constructor(props) {
@@ -70,6 +71,22 @@ class Skillbox extends React.Component {
                 />
               </Player>
             )}
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+                      alignItems: 'center',
+                      marginLeft: '16px'
+                            }}>
+              <img
+                src={require(`./../images/Ability/${this.props.image}.png`)}
+                alt={this.props.title}
+              />
+              <div>
+                <h1>{this.props.title}</h1>
+                <h2>{this.props.subtitle}</h2>
+              </div>
+            </div>
+            <p> {this.props.text.join('\n')}</p>
             <Table striped bordered hover className="Tableclass">
               <thead>
                 <tr>
@@ -125,14 +142,23 @@ class Skillbox extends React.Component {
             <button onClick={this.handleCloseModal}>CLOSE</button>
           </Modal>
         )}
-        <div className="Skillbox" onClick={this.handleOpenModal} tabIndex="0">
+        <div className="Skillbox" tabIndex="0">
+          <div style={{
+            display: 'flex',
+            alignItems: 'center'}}>
           <img
             src={require(`./../images/Ability/${this.props.image}.png`)}
             alt={this.props.title}
-          />
+            />
+            <div style ={{marginLeft: '16px'}}>
           <h1>{this.props.title}</h1>
-          <h2>{this.props.subtitle}</h2>
-          <p>{this.props.text.join('\n')}</p>
+              <h2>{this.props.subtitle}</h2>
+            </div>
+          </div>
+         
+            <p> <Truncate className='Skillboxp' lines={6} ellipsis={<span>...</span>}>{this.props.text.join('\n')}</Truncate></p>
+          
+          <button onClick={this.handleOpenModal} className='Skillboxbutton'>READ MORE</button>
         </div>
       </ScrollAnimation>
     )
