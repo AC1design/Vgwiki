@@ -33,7 +33,7 @@ const StyledListItem = withStyles({
 const StyledSwipeableDrawer = withStyles({
   paper: {
     background: '#2B2B2D',
-    width: '280px',
+    width: '230px',
     borderRadius: '26px',
   },
 })(SwipeableDrawer)

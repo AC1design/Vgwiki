@@ -20,7 +20,7 @@ const IndexPage = props => (
         <div className="Hero">
           <div className="HeroContainer">
             <ImgHero
-              imgStyle={{ objectPosition: "center top"}}
+              imgStyle={{ objectPosition: "center right"}}
               className="Img"
               fluid={props.data.imageOne.childImageSharp.fluid}
             />
@@ -45,14 +45,12 @@ const IndexPage = props => (
         </div>
       </MediaQuery>
         <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px'}}>
-        <News/>
-        <div>
           <HeroesHorizontal />
         <MobileItemsTab />
+        <News/>
           <HatsM />
           <SocialPingsMobile />
           <Charms />
-        </div>
       </div>
       <div>
         <StickyFooter
