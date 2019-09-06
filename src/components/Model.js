@@ -4,28 +4,24 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 
 const Bgmodel = styled.div`
-  background: linear-gradient(
-      -180deg,
-      #1f1f21 0%,
-      rgba(31, 31, 33, 0) 50%,
-      #1f1f21 100%
-    ),
+  background:
     url(${props => props.bgmodel}) no-repeat top center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   overflow: hidden;
+  margin: 16px;
+  border-radius: 26px;
+  overflow: visible;
 `
 const Model = styled.img`
   vertical-align: middle;
-  height: 45vh;
-  margin-top: 30px;
+  height: 40vh;
+  margin-top: -30px;
   -webkit-user-drag: none;
+  overflow: visible;
   @media (max-width: 480px) {
     vertical-align: middle;
-    
-  height: 100%;
-  width: 100%;
   }
   @media only screen and (min-device-width: 319px) and (max-device-width: 1024px) and (orientation: landscape) {
     height: 85vh;

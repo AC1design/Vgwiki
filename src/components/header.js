@@ -34,7 +34,7 @@ const StyledSwipeableDrawer = withStyles({
   paper: {
     background: '#2B2B2D',
     width: '230px',
-    borderRadius: '26px',
+    borderRadius: '26px 0px 0px 26px',
   },
 })(SwipeableDrawer)
 
@@ -69,7 +69,7 @@ class Header extends React.Component {
   handleScroll = event => {
     const scrollTop = window.pageYOffset
 
-    if (scrollTop > 380) {
+    if (scrollTop > 340) {
       this.setState({ hasScrolled: true })
     } else {
       this.setState({ hasScrolled: false })
