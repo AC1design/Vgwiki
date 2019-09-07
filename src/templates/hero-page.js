@@ -20,11 +20,13 @@ export default function({ data }) {
       <div style={{ height: '100%' }}>
         <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={4}>
           <Heroes
+            style={{ zIndex: '-10000' }}
             heroname={hero.name}
             role={hero.type.join(', ')}
             description={hero.description}
             spotlight={hero.spotlight}
           />
+          <div style={{ marginTop: '-35px', zIndex: '10000', background: '#1f1f21', paddingTop: '6px', borderRadius: '26px 26px 0px 0px'}}>
           <div className="Title">
             <h1>Stats (Lvl 1-12)</h1>
             <div className="line" />
@@ -101,6 +103,7 @@ export default function({ data }) {
                   key={index}
                 />
               ))}
+            </div>
             </div>
           </div>
           <StickyFooter

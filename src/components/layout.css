@@ -51,6 +51,7 @@ body {
 	width: 100%;
 	height: 100%;
 	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
 }
 
 #___gatsby {
@@ -170,6 +171,7 @@ a {
 	overflow: hidden;
 	padding: 10px;
 	padding-left: 0px;
+	-webkit-font-smoothing: antialiased;
 }
 
 .Selectan {
@@ -192,6 +194,7 @@ a {
 	font-size: 24px;
 	line-height: 1.2;
 	color: rgb(255, 255, 255);
+	-webkit-font-smoothing: antialiased;
 }
 
 .News {
@@ -337,15 +340,17 @@ a {
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     border-radius: 20px;
     margin-bottom: 10px;
-    -webkit-user-drag: none;
+	-webkit-user-drag: none;
+	margin-left: 16px;
 }
 
 .Modal h1 {
     text-transform: uppercase;
 	color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
-    -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	margin-left: 16px;
 }
 
 .Modal h2 {
@@ -354,18 +359,19 @@ a {
     font-size: 12px;
     margin: 0;
 	margin-top: 6px;
+	margin-left: 16px;
 }
 
 .Modal p {
 	position: relative !important;
 	color: rgba(255,255,255, 0.8);
-	font-weight: 350;
+	font-weight: 400;
 	font-size: 14px;
 	width: 90%;
 	text-align: center;
     -webkit-font-smoothing: antialiased;
     white-space: pre-line;
-	text-align: justify;
+	text-align: left;
 	top:0 !important;
 	right: 0 !important;
 }
@@ -381,7 +387,8 @@ a {
 }
 
 .Modal button {
-	width: 100px;
+	position: absolute;
+	width: 30px;
 	height: 30px;
 	background: none;
 	border-radius: 20px;
@@ -390,14 +397,11 @@ a {
 	font-weight: 600;
 	cursor: pointer;
 	outline: none;
-	margin: 20px;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
+	right: 16px;
+	top: 16px;
 	user-select: none;
 	-webkit-tap-highlight-color: transparent;
+	z-index: 10000;
 }
 
 .Modal button:hover {
@@ -415,7 +419,6 @@ a {
 	outline: none;
 	background-color: #2B2B2D;
 	overflow: hidden;
-	margin-top: 40px;
 }
 
 .ReactModal__Content {
@@ -445,8 +448,6 @@ a {
 	width: 100vh;
 	outline: none;
 	border-radius: 20px;
-	background-color: rgb(43, 43, 45);
-	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.418);
 	outline: none;
 	text-align: center;
 	overflow-y: auto;

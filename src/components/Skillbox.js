@@ -6,7 +6,6 @@ import 'video-react/dist/video-react.css'
 import { Table } from 'react-bootstrap'
 import PropTypes from 'prop-types'
 import H2 from './TalentH2Color'
-import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 import Truncate from 'react-truncate';
 
@@ -38,7 +37,7 @@ class Skillbox extends React.Component {
       ? this.props.stats.find(s => s.wr).wr
       : null
     return (
-      <ScrollAnimation animateIn="fadeInRight" animateOnce>
+      <div>
         {' '}
         {(this.props.video || !isPerkAbility) && (
           <Modal
@@ -73,29 +72,31 @@ class Skillbox extends React.Component {
             )}
             <div style={{
               display: 'flex',
-              flexDirection: 'column',
-                      alignItems: 'center',
-                      marginLeft: '16px'
-                            }}>
+              flexDirection: 'row',
+              alignItems: 'left',
+              marginLeft: '16px',
+              alignSelf: 'flex-start',
+              alignItems: 'center'
+            }}>
               <img
                 src={require(`./../images/Ability/${this.props.image}.png`)}
                 alt={this.props.title}
               />
-              <div>
+              <div style={{textAlign: 'left'}}>
                 <h1>{this.props.title}</h1>
                 <h2>{this.props.subtitle}</h2>
               </div>
             </div>
             <p> {this.props.text.join('\n')}</p>
-            <Table striped bordered hover className="Tableclass">
+            <Table className="Tableclass">
               <thead>
                 <tr>
-                  <th />
-                  {!isPerkAbility && <th>LVL 1</th>}
-                  {!isPerkAbility && <th>LVL 2</th>}
-                  {!isPerkAbility && <th>LVL 3</th>}
-                  {!isULTIMATE && !isPerkAbility && <th>LVL 4</th>}
-                  {!isULTIMATE && !isPerkAbility && <th>LVL 5</th>}
+                  <th> LVL </th>
+                  {!isPerkAbility && <th> 1</th>}
+                  {!isPerkAbility && <th> 2</th>}
+                  {!isPerkAbility && <th> 3</th>}
+                  {!isULTIMATE && !isPerkAbility && <th> 4</th>}
+                  {!isULTIMATE && !isPerkAbility && <th> 5</th>}
                   {cpRatio && (
                     <th>
                       <H2 color="#38EEFF" style={{ fontSize: '12px' }}>
@@ -139,13 +140,13 @@ class Skillbox extends React.Component {
                 ))}
               </tbody>
             </Table>
-            <button onClick={this.handleCloseModal}>CLOSE</button>
+            <button onClick={this.handleCloseModal}>X</button>
           </Modal>
         )}
         <div className="Skillbox" tabIndex="0">
           <div style={{
             display: 'flex',
-            alignItems: 'center'}}>
+            alignItems: 'center',}}>
           <img
             src={require(`./../images/Ability/${this.props.image}.png`)}
             alt={this.props.title}
@@ -160,7 +161,7 @@ class Skillbox extends React.Component {
           
           <button onClick={this.handleOpenModal} className='Skillboxbutton'>READ MORE</button>
         </div>
-      </ScrollAnimation>
+      </div>
     )
   }
 }

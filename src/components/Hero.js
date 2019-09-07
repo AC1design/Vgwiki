@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import Modal from 'react-modal-video'
 import 'react-modal-video/css/modal-video.min.css'
-import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 
 const Hero = styled.div`
@@ -11,9 +10,8 @@ const Hero = styled.div`
   justify-content: flex-end;
   background: url(${props => props.bgdesktop}) no-repeat top center;
   height: 100vh;
-  background-size: cover;
+    background-size: cover;
   border-radius: 0px 0px 26px 26px;
-    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);}
 
   @media (max-width: 1024px) {
     background-size: cover;
@@ -21,8 +19,10 @@ const Hero = styled.div`
     flex-direction: column;
     justify-content: flex-end;
     background: url(${props => props.bgtablet}) no-repeat center top;
+    background-size: cover;
   }
   @media (max-width: 480px) {
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -59,7 +59,7 @@ const HeroGroup = styled.div`
   @media (max-width: 480px) {
     max-width: 500px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 70px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,7 +177,7 @@ class Heroes extends React.Component {
   }
   render() {
     return (
-      <ScrollAnimation animateIn="fadeIn" animateOnce duration={3}>
+      <div>
         <Modal
           channel="youtube"
           isOpen={this.state.isOpen}
@@ -200,7 +200,7 @@ class Heroes extends React.Component {
             <Button onClick={this.openModal}>SPOTLIGHT</Button>
           </HeroGroup>
         </Hero>
-      </ScrollAnimation>
+      </div>
     )
   }
 }

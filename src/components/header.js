@@ -117,7 +117,7 @@ class Header extends React.Component {
               alt="LOGOVGWIKI"
             />
           </Link>
-          <div style={{margin: 0, width: '20px', height: '20px'}} onClick={this.toggleDrawer('right', true)} >
+          <div style={{ margin: 0, width: '20px', height: '20px'}} onClick={this.toggleDrawer('right', true)} >
             <SvgComponent style={{ position: 'absolute', right: 25 }} onClick={this.toggleDrawer('right', true)} />
           </div>
         </div>
