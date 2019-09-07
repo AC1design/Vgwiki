@@ -109,7 +109,7 @@ a {
 }
 
 .Img {
-	height: 50vh;
+	height: 100vh;
 	object-position: center top;
 	z-index: -1;
 }
@@ -141,7 +141,6 @@ a {
 	color: rgba(255, 255, 255, 0.808);
 	line-height: 1.2;
 	-webkit-font-smoothing: antialiased;
-	width: 300px
 }
 
 .HeroGroup h3 {
@@ -162,9 +161,8 @@ a {
     color: rgba(255, 255, 255, 0.808);
     -webkit-font-smoothing: antialiased;
     background: rgba(255, 255, 255, 0.274);
-    margin-top: 5px;
-	height: fit-content;
-	margin-right: 30px
+	margin-right: 30px;
+width: fit-content;
 }
 
 .Hero svg {
