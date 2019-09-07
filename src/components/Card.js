@@ -12,6 +12,8 @@ const Cardbox = styled.div`
 `
 
 const Cards = styled.div`
+
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 width: 150px;
     height: 220px;
     position: relative;

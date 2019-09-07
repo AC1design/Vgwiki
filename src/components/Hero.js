@@ -12,7 +12,6 @@ const Hero = styled.div`
   height: 100vh;
     background-size: cover !important;
   border-radius: 0px 0px 26px 26px;
-  background-attachment: fixed !important;
 
   @media (max-width: 1024px) {
     background: url(${props => props.bgtablet}) no-repeat center top;

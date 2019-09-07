@@ -8,7 +8,7 @@ import SocialPingsMobile from '../components/SocialPingsMobile'
 import { graphql } from 'gatsby'
 import ImgHero from 'gatsby-image'
 import HatsM from '../components/HatsMobile'
-import News from '../components/News';
+import News from '../components/News'
 import HeroesHorizontal from '../components/HeroesTabHorizontal'
 import MobileItemsTab from '../components/ItemsTabHorizontal'
 import Typography from '@material-ui/core/Typography'
@@ -17,15 +17,12 @@ import Tabs from '@material-ui/core/Tabs'
 import Tab from '@material-ui/core/Tab'
 import { withStyles } from '@material-ui/core/styles'
 import Menu from '@material-ui/core/AppBar'
-import Divider from '@material-ui/core/Divider';
-
-const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
+import Divider from '@material-ui/core/Divider'
 
 const StyledMenu = withStyles({
   root: {
     background: 'transparent',
     boxShadow: 'none',
-    padding: '0px 0px 6px 5px',
   },
 })(Menu)
 
@@ -44,8 +41,9 @@ const StyledTab = withStyles({
     borderRadius: '50px',
     fontSize: '12px',
     marginRight: '16px',
-    minHeight: '35px',
     minWidth: 'fit-content',
+    padding: 0,
+    marginLeft: '16px'
   },
   selected: {
     fontWeight: '800',
@@ -97,9 +95,6 @@ class IndexPage extends React.Component {
                   fluid={this.props.data.imageOne.childImageSharp.fluid}
                 />
               </div>
-              <div className="HeroGroup">
-                <p>UPDATE 4.6</p>
-              </div>
             </div>
           </MediaQuery>
           <MediaQuery query="(max-width: 720px)">
@@ -111,13 +106,17 @@ class IndexPage extends React.Component {
                   fluid={this.props.data.imageTwo.childImageSharp.fluid}
                 />
               </div>
-              <div className="HeroGroup">
-                <p>UPDATE 4.6</p>
-              </div>
             </div>
           </MediaQuery>
 
-          <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px' }}>
+          <div className="HeroGroup">
+            <div className='newhero'>
+              <h3>NEW HERO</h3>
+              <h1>Hero64</h1>
+            </div>
+            <p>UPDATE 4.6</p>
+          </div>
+          <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px', }}>
             <div className='columnsparent'>
               <div className='left'>
                 <div>
@@ -167,17 +166,14 @@ class IndexPage extends React.Component {
                 fontSize: '12px',
                 color: 'white',
                 textAlign: 'center',
-                marginTop: '50px',
                 borderRadius: '26px 26px 0px 0px',
+                position: 'inherit',
+                bottom: '0px',
+                height: '100%'
               }}
               stickyStyles={{
-                backgroundColor: '#2B2B2D',
-                padding: '1rem',
-                fontSize: '12px',
-                color: 'white',
-                textAlign: 'center',
-                marginTop: '50px',
-                borderRadius: '26px 26px 0px 0px',
+                position: 'inherit',
+                bottom: 0
               }}
             >
               <p>Copyright © 2019 VGWIKI</p>

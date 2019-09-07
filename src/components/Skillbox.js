@@ -39,7 +39,6 @@ class Skillbox extends React.Component {
     return (
       <div>
         {' '}
-        {(this.props.video || !isPerkAbility) && (
           <Modal
             isOpen={this.state.showModal}
             className="Modal"
@@ -143,7 +142,6 @@ class Skillbox extends React.Component {
             </Table>
             <button onClick={this.handleCloseModal}>X</button>
           </Modal>
-        )}
         <div className="Skillbox" tabIndex="0">
           <div style={{
             display: 'flex',

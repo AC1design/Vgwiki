@@ -109,7 +109,7 @@ a {
 }
 
 .Img {
-	height: 100vh;
+	height: 50vh;
 	object-position: center top;
 	z-index: -1;
 }
@@ -125,10 +125,13 @@ a {
 }
 
 .HeroGroup {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+	margin: 0px 16px 16px 16px;
+	width: 100%;
+	justify-content: space-between;
 }
 
 .HeroGroup h1 {
@@ -141,17 +144,27 @@ a {
 	width: 300px
 }
 
+.HeroGroup h3 {
+	font-family: Antonio;
+	font-size: 20px;
+	margin: 0;
+	color: rgba(255, 255, 255, 0.808);
+	line-height: 1.2;
+	-webkit-font-smoothing: antialiased;
+	width: 300px
+}
+
 .HeroGroup p {
 	padding: 10px;
-	border-radius: 10px;
-	font-weight: 800;
-	font-size: 12px;
-	color: rgba(255, 255, 255, 0.808);
-	-webkit-font-smoothing: antialiased;
-	background: rgba(255, 255, 255, 0.274);
-	width: 100px;
-	margin: 0 auto;
-	margin-top: 5px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.808);
+    -webkit-font-smoothing: antialiased;
+    background: rgba(255, 255, 255, 0.274);
+    margin-top: 5px;
+	height: fit-content;
+	margin-right: 30px
 }
 
 .Hero svg {
@@ -248,6 +261,32 @@ a {
 	height: 225px;
 	border-radius: 26px;
 	background: linear-gradient(-225deg, rgba(45, 207, 145, 0) 0%, #28ce8e 100%);
+}
+
+.NewsboxGroup {
+	margin: 0px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+	justify-content: left;
+align-items: center;
+overflow: visible;
+
+}
+@media (max-width: 1366px) {
+.NewsboxGroup {
+  flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+  margin: 16px 16px 16px 16px;
+}	 
+}
+  .NewsboxGroupScroll{
+    padding-top: 16px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    width:100%;
+    background: transparent;
 }
 
 @media (min-width: 1367px) {
