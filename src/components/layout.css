@@ -339,9 +339,7 @@ a {
     width: 60px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     border-radius: 20px;
-    margin-bottom: 10px;
 	-webkit-user-drag: none;
-	margin-left: 16px;
 }
 
 .Modal h1 {

@@ -1,7 +1,6 @@
 import React from 'react'
 import '../components/Skinbox.css'
 import P from '../components/SkinPColor'
-import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 
 const skinCosts = {
@@ -11,13 +10,13 @@ const skinCosts = {
 }
 
 const Skinbox = props => (
-  <ScrollAnimation animateIn="fadeInRight" animateOnce>
+  <div>
     <div className="Skinbox">
+      <h3>{props.title} </h3>
       <img
         src={require(`./../images/Skins/${props.image}.png`)}
         alt={props.title}
       />
-      <h3>{props.title} </h3>
       <P color={props.color}> {props.text}</P>
       {props.price || skinCosts[props.text.toLowerCase()] ? (
         <div className="SkinCost">
@@ -29,7 +28,7 @@ const Skinbox = props => (
         </div>
       ) : null}
     </div>
-  </ScrollAnimation>
+  </div>
 )
 
 export default Skinbox

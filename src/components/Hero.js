@@ -10,28 +10,19 @@ const Hero = styled.div`
   justify-content: flex-end;
   background: url(${props => props.bgdesktop}) no-repeat top center;
   height: 100vh;
-    background-size: cover;
+    background-size: cover !important;
   border-radius: 0px 0px 26px 26px;
+  background-attachment: fixed !important;
 
   @media (max-width: 1024px) {
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     background: url(${props => props.bgtablet}) no-repeat center top;
-    background-size: cover;
   }
   @media (max-width: 480px) {
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     background: url(${props => props.bgmobile}) no-repeat center top;
   }
   @media only screen and (min-device-width: 480px) and (max-device-width: 812px) and (orientation: landscape) {
     background: url(${props => props.bgdesktop}) no-repeat top center;
     height: 400px;
-    background-size: cover;
   }
 `
 const HeroGroup = styled.div`
@@ -45,6 +36,9 @@ const HeroGroup = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
 
   @media (max-width: 1024px) {
     max-width: 500px;

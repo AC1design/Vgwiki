@@ -26,8 +26,9 @@ export default function({ data }) {
             description={hero.description}
             spotlight={hero.spotlight}
           />
-          <div style={{ marginTop: '-35px', zIndex: '10000', background: '#1f1f21', paddingTop: '6px', borderRadius: '26px 26px 0px 0px'}}>
-          <div className="Title">
+          <div style={{ marginTop: '-50px', zIndex: '10000', background: '#1f1f21', paddingTop: '6px', borderRadius: '26px 26px 0px 0px'}}>
+          <div style={{ width: '80px' , height: '6px', background: 'white', margin: '0 auto', marginTop: '16px', borderRadius: '50px', opacity: '0.5'}}></div>
+            <div className="Title">
             <h1>Stats (Lvl 1-12)</h1>
             <div className="line" />
           </div>

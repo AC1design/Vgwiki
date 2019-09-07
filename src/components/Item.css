@@ -8,7 +8,27 @@
       padding-bottom:10px;
 }
 
-.Modal img{
+.ModalItem {
+    max-width: 380px;
+	height: auto;
+	width: 95%;
+	margin: 0 auto;
+	outline: none;
+	border-radius: 20px;
+	background-color: #1f1f21;
+	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.418);
+	outline: none;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ModalItem img{
     width: 50px;
     height: 50px;
     text-align:center;
@@ -43,7 +63,7 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.Modal p{
+.ModalItem p{
      position: absolute;
     top: 30px;
     right: 20px;
@@ -56,7 +76,7 @@
   margin: 16px;
 }
 
-.Modal h4{
+.ModalItem h4{
     color: rgba(255,255,255, 0.8);
 	font-weight: 350;
 	font-size: 14px;
@@ -67,7 +87,7 @@
     margin-right:20px;
 }
 
-.Modal h5{
+.ModalItem h5{
     color:#4adad2;
 	font-weight: 700;
 	font-size: 14px;

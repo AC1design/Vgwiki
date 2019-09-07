@@ -20,19 +20,20 @@
 }
 
 
-.Skinbox img {
-	position:absolute;
-    z-index: -1;
-    -webkit-user-drag: none;
-}
-
 .Skinbox h3 {
+    z-index: 1;
 	color: rgb(255, 255, 255);
 	font-size: 30px;
 	margin: 20px 0 0 20px;
     width: 190px;
     text-shadow:2px 2px 20px black;
 }
+
+.Skinbox img {
+	position:absolute;
+    -webkit-user-drag: none;
+}
+
 
 .Skinbox p {
     position: absolute;

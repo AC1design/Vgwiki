@@ -75,6 +75,7 @@ class Skillbox extends React.Component {
               flexDirection: 'row',
               alignItems: 'left',
               marginLeft: '16px',
+              marginTop: '16px',
               alignSelf: 'flex-start',
               alignItems: 'center'
             }}>
@@ -91,7 +92,7 @@ class Skillbox extends React.Component {
             <Table className="Tableclass">
               <thead>
                 <tr>
-                  <th> LVL </th>
+                  {!isPerkAbility && <th> LVL</th>}
                   {!isPerkAbility && <th> 1</th>}
                   {!isPerkAbility && <th> 2</th>}
                   {!isPerkAbility && <th> 3</th>}

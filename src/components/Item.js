@@ -128,7 +128,7 @@ class Itemsbox extends React.Component {
       <div>
         <Modal
           isOpen={this.state.showModal}
-          className="Modal"
+          className="ModalItem"
           overlayClassName="Overlay"
           onRequestClose={this.handleCloseModal}
           shouldCloseOnOverlayClick={true}
