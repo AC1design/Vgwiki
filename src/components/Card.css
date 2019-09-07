@@ -5,12 +5,12 @@
 	justify-content: left;
 align-items: center;
 overflow: visible;
+
 }
 @media (min-width: 1367px) {
 .CardboxGroup {
     flex-wrap: wrap;
     justify-content: left;
-    align-items: left;
   margin: 16px 16px 16px 16px;
 }	 
 }

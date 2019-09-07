@@ -80,13 +80,6 @@ class HeroesHorizontal extends React.Component {
     }
   }
 
-  handleClick = event => {
-    this.setState({ anchorEl: event.currentTarget })
-  }
-
-  handleClose = () => {
-    this.setState({ anchorEl: null })
-  }
 
   handleChange = (event, value) => {
     this.setState({ value })
@@ -126,8 +119,6 @@ class HeroesHorizontal extends React.Component {
   )
 
   render() {
-    const { anchorEl } = this.state
-    const open = Boolean(anchorEl)
     const { value } = this.state
 
     return (

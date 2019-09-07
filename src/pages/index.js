@@ -13,6 +13,47 @@ import HeroesHorizontal from '../components/HeroesTabHorizontal'
 import MobileItemsTab from '../components/ItemsTabHorizontal'
 import Typography from '@material-ui/core/Typography'
 import PropTypes from 'prop-types'
+import Tabs from '@material-ui/core/Tabs'
+import Tab from '@material-ui/core/Tab'
+import { withStyles } from '@material-ui/core/styles'
+import Menu from '@material-ui/core/AppBar'
+import Divider from '@material-ui/core/Divider';
+
+const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
+
+const StyledMenu = withStyles({
+  root: {
+    background: 'transparent',
+    boxShadow: 'none',
+    padding: '0px 0px 6px 5px',
+  },
+})(Menu)
+
+const StyledTabs = withStyles({
+  root: {
+    background: 'trasparent',
+    boxShadow: 'none',
+  },
+})(Tabs)
+
+const StyledTab = withStyles({
+  root: {
+    background: 'transparent',
+    color: 'white',
+    fontWeight: '800',
+    borderRadius: '50px',
+    fontSize: '12px',
+    marginRight: '16px',
+    minHeight: '35px',
+    minWidth: 'fit-content',
+  },
+  selected: {
+    fontWeight: '800',
+  },
+  textColorInherit: {
+    opacity: '0.4',
+  }
+})(Tab)
 
 function TabContainer(props) {
   return (
@@ -31,17 +72,8 @@ class IndexPage extends React.Component {
     super(props);
 
     this.state = {
-      anchorEl: null,
       value: 0,
     }
-  }
-
-  handleClick = event => {
-    this.setState({ anchorEl: event.currentTarget })
-  }
-
-  handleClose = () => {
-    this.setState({ anchorEl: null })
   }
 
   handleChange = (event, value) => {
@@ -49,85 +81,118 @@ class IndexPage extends React.Component {
   }
 
   render() {
-    const { anchorEl } = this.state
-    const open = Boolean(anchorEl)
     const { value } = this.state
 
     return (
 
-    <Layout>
-      <meta name="theme-color" content="#1f1f21" />
-      <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
-        <MediaQuery query="(min-width: 721px)">
-          <div className="Hero">
-            <div className="HeroContainer">
-              <ImgHero
-                imgStyle={{ objectPosition: "center right" }}
-                className="Img"
-                fluid={this.props.data.imageOne.childImageSharp.fluid}
-              />
+      <Layout>
+        <meta name="theme-color" content="#1f1f21" />
+        <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
+          <MediaQuery query="(min-width: 721px)">
+            <div className="Hero">
+              <div className="HeroContainer">
+                <ImgHero
+                  imgStyle={{ objectPosition: "center right" }}
+                  className="Img"
+                  fluid={this.props.data.imageOne.childImageSharp.fluid}
+                />
+              </div>
+              <div className="HeroGroup">
+                <p>UPDATE 4.6</p>
+              </div>
             </div>
-            <div className="HeroGroup">
-              <p>UPDATE 4.6</p>
+          </MediaQuery>
+          <MediaQuery query="(max-width: 720px)">
+            <div className="Hero">
+              <div className="HeroContainer">
+                <ImgHero
+                  imgStyle={{ objectPosition: "center top" }}
+                  className="Img"
+                  fluid={this.props.data.imageTwo.childImageSharp.fluid}
+                />
+              </div>
+              <div className="HeroGroup">
+                <p>UPDATE 4.6</p>
+              </div>
+            </div>
+          </MediaQuery>
+
+          <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px' }}>
+            <div className='columnsparent'>
+              <div className='left'>
+                <div>
+                  <StyledMenu
+                    position="static" color="default" variant='scrollable' style={{ background: 'none' }}
+                  >
+                    <StyledTabs
+                      value={value}
+                      onChange={this.handleChange}
+                      variant="scrollable"
+                      scrollButtons='off'
+                      indicatorColor='none'
+                    >
+                      <StyledTab label='Heroes'  selected={false}></StyledTab>
+                      <StyledTab label='Items'  selected={false}> </StyledTab>
+                      <StyledTab label='Miscellaneous' selected={false}>
+                        A
+                        </StyledTab>
+                    </StyledTabs>
+                  </StyledMenu>
+                </div>
+                <Divider variant="middle" style={{backgroundColor:'#ffffff40'}}/>
+                {value === 0 && (
+                  <TabContainer> <HeroesHorizontal /> </TabContainer>
+                )}
+                {value === 1 && (
+                  <TabContainer> <MobileItemsTab /> </TabContainer>
+                )}
+                {value === 2 && (
+                  <TabContainer>
+                    <HatsM />
+                    <SocialPingsMobile />
+                    <Charms />
+                  </TabContainer>
+                )}
+              </div>
+              <News className='right' />
             </div>
           </div>
-        </MediaQuery>
-        <MediaQuery query="(max-width: 720px)">
-          <div className="Hero">
-            <div className="HeroContainer">
-              <ImgHero
-                imgStyle={{ objectPosition: "center top" }}
-                className="Img"
-                fluid={this.props.data.imageTwo.childImageSharp.fluid}
-              />
-            </div>
-            <div className="HeroGroup">
-              <p>UPDATE 4.6</p>
-            </div>
-          </div>
-        </MediaQuery>
-        <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px' }}>
-          <HeroesHorizontal />
-          <MobileItemsTab />
-          <News />
-          <HatsM />
-          <SocialPingsMobile />
-          <Charms />
-        </div>
-        <div>
-          <StickyFooter
-            className="footer"
-            bottomThreshold={50}
-            normalStyles={{
-              backgroundColor: '#2B2B2D',
-              padding: '1rem',
-              fontSize: '12px',
-              color: 'white',
-              textAlign: 'center',
-              marginTop: '50px',
-            }}
-            stickyStyles={{
-              backgroundColor: '#2B2B2D',
-              padding: '1rem',
-              fontSize: '12px',
-              color: 'white',
-              textAlign: 'center',
-              marginTop: '50px',
-            }}
-          >
-            <p>Copyright © 2019 VGWIKI</p>
-            <p>VGWIKI is not affiliated or part of Super Evil Megacorp. All Vainglory copyrights and art assets belong to Super Evil Megacorp.</p>
-            Made by
+          <div>
+            <StickyFooter
+              className="footer"
+              bottomThreshold={50}
+              normalStyles={{
+                backgroundColor: '#2B2B2D',
+                padding: '1rem',
+                fontSize: '12px',
+                color: 'white',
+                textAlign: 'center',
+                marginTop: '50px',
+                borderRadius: '26px 26px 0px 0px',
+              }}
+              stickyStyles={{
+                backgroundColor: '#2B2B2D',
+                padding: '1rem',
+                fontSize: '12px',
+                color: 'white',
+                textAlign: 'center',
+                marginTop: '50px',
+                borderRadius: '26px 26px 0px 0px',
+              }}
+            >
+              <p>Copyright © 2019 VGWIKI</p>
+              <p>VGWIKI is not affiliated or part of Super Evil Megacorp. All Vainglory copyrights and art assets belong to Super Evil Megacorp.</p>
+              Made by
 {' '}
-            <a href="https://twitter.com/AngeloCant1">AngeloC</a>
-            <a style={{ marginLeft: '16px' }} href='https://www.termsfeed.com/privacy-policy/b38962cdaa462299f0b57bf61cc6dbef'>Privacy Policy</a>
-            <h1 style={{ fontSize: '14px' }}>Cookie Declaration</h1>
-            <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
-            <a href="javascript: Cookiebot.renew()">Change your consent</a>
-            <a style={{ marginLeft: '16px' }} href="javascript: Cookiebot.withdraw()">Revoke your consent</a>
-          </StickyFooter>
-        </div>
-      </Page>
+              <a href="https://twitter.com/AngeloCant1">AngeloC</a>
+              <a style={{ marginLeft: '16px' }} href='https://www.termsfeed.com/privacy-policy/b38962cdaa462299f0b57bf61cc6dbef'>Privacy Policy</a>
+              <h1 style={{ fontSize: '14px' }}>Cookie Declaration</h1>
+              <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
+              <a href="javascript: Cookiebot.renew()">Change your consent</a>
+              <a style={{ marginLeft: '16px' }} href="javascript: Cookiebot.withdraw()">Revoke your consent</a>
+            </StickyFooter>
+          </div>
+        </Page>
       </Layout>
     )
   }
@@ -153,15 +218,3 @@ export const pageQuery = graphql`
     
   }
 `
-/*
-      <div className='MPL'>
-            <img src={require('../images/maxman.png')} alt='maxmanpremierleague' />
-            <div className='MPLtext'>
-              <h1>MAXMAN PREMIER LEAGUE</h1>
-              <h2>EUROPE - 1000€ PRIZE</h2>
-              <p className='MPLagroup'>
-                <a href="https://twitter.com/AngeloCant1">JOIN</a>
-                <a to="https://www.twitch.tv/maxman30">TWITCH</a>
-              </p>
-            </div>
-      </div> */

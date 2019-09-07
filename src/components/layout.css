@@ -255,6 +255,16 @@ a {
 		width: 1366px;
 		margin: 0 auto;
 	}
+	.columnsparent{
+		display: flex;
+	align-items: top;
+	justify-content: center;
+	max-width: 1920px;
+	margin: 0 auto;
+	}
+	.left{
+		flex-grow: 1;
+	}
 }
 
 @media (max-width: 1366px) {
