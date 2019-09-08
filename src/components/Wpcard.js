@@ -1,7 +1,4 @@
 import React from "react";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
 import styled from 'styled-components'
 
 const Link = styled.a`
@@ -19,7 +16,8 @@ margin-bottom: 16px;
   `
 const MediaControlCard = props => (
   <Link href={props.link}>
-    <Card src={props.image}></Card>
+    <Card src={props.image}>
+    </Card>
   </Link>
 )
   

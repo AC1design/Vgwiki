@@ -3,6 +3,12 @@ export const frontmatter = {
     type: ['LANE', 'WARRIOR'],
     role: ['LANE'],
     path: '/Ishtar',
+    wallpaper: [
+        {
+            name: 'Ishtar',
+            link: 'https://imgur.com/a/Qbq8m2V'
+        }
+    ],
     description:
         'Demonic queen who manipulates Living Blades.',
     spotlight: 'UPc9QEL_SeM',

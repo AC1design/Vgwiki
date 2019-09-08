@@ -9,6 +9,7 @@ import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
 import StickyFooter from 'react-sticky-footer'
+import WallpaperCard from './../components/Wallpaper'
 
 export default function({ data }) {
   const hero = data.allJavascriptFrontmatter.edges.length
@@ -43,7 +44,18 @@ export default function({ data }) {
                 />
               ))}
             </div>
-          </div>
+            </div>
+            {hero.wallpaper && hero.wallpaper.length ? (
+                <div style={{margin: '0 auto'}}>
+                  {hero.wallpaper.map((wallpaper, index) => (
+                    <WallpaperCard
+                      image={require(`../images/Wallpaper/${wallpaper.name}.jpg`)}
+                      link={wallpaper.link}
+                      key={index}
+                    />
+                  ))}
+                </div>
+            ) : null}
           <div className="Title">
             <h1>3D Model</h1>
             <div className="line" />
@@ -157,6 +169,10 @@ export const postQuery = graphql`
             role
             description
             spotlight
+            wallpaper{
+              name
+              link
+            }
             stats {
               name
               value
