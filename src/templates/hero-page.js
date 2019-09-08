@@ -33,7 +33,6 @@ export default function({ data }) {
             <h1>Stats (Lvl 1-12)</h1>
             <div className="line" />
           </div>
-          <div className="StatboxGroupScroll">
             <div className="StatboxGroup">
               {hero.stats.map((stat, index) => (
                 <Statbox
@@ -44,12 +43,13 @@ export default function({ data }) {
                 />
               ))}
             </div>
-            </div>
+            <div style={{height: '32px'}}></div>
             {hero.wallpaper && hero.wallpaper.length ? (
                 <div style={{margin: '0 auto'}}>
                   {hero.wallpaper.map((wallpaper, index) => (
                     <WallpaperCard
                       image={require(`../images/Wallpaper/${wallpaper.name}.jpg`)}
+                      title={wallpaper.name}
                       link={wallpaper.link}
                       key={index}
                     />
