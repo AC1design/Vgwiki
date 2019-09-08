@@ -3,6 +3,12 @@ export const frontmatter = {
   type: ['CAPTAIN', 'WARRIOR'],
   role: ['CAPTAIN'],
   path: '/Lance',
+  wallpaper: [
+    {
+      name: 'Lance',
+      link: 'https://imgur.com/gallery/mQ6EjCg'
+    }
+  ],
   description: 'The king of duels with massive lifesteal and self-healing.',
   spotlight: 'HTZIGNW5F7A',
   stats: [

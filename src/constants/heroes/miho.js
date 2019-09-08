@@ -3,6 +3,12 @@ export const frontmatter = {
     type: ['LANE', 'ASSASSIN'],
     role: ['LANE'],
     path: '/Miho',
+    wallpaper: [
+        {
+            name: 'Miho',
+            link: 'https://imgur.com/gallery/XYqEX3K'
+        }
+    ],
     description:
         'Skilled swordswoman that can cut through any obstacle',
     spotlight: 'aDF67eklCqo',

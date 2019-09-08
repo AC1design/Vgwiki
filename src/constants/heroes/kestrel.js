@@ -3,6 +3,12 @@ export const frontmatter = {
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
   path: '/Kestrel',
+  wallpaper: [
+    {
+      name: 'Kestrel',
+      link: 'https://imgur.com/gallery/fRsNCKQ'
+    }
+  ],
   description: 'Stealthy archer with devastating skillshots and traps.',
   spotlight: 'ClhyGmpQZhY',
   stats: [

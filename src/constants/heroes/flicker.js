@@ -3,6 +3,12 @@ export const frontmatter = {
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
   path: '/Flicker',
+  wallpaper: [
+    {
+      name: 'Flicker',
+      link: 'https://imgur.com/a/6mph4Ph'
+    }
+  ],
   description: 'Trickster who can make the entire team invisible.',
   spotlight: 'xj7Lj295kXM',
   stats: [

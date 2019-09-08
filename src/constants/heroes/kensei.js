@@ -3,6 +3,12 @@ export const frontmatter = {
   type: ['LANE', 'WARRIOR'],
   role: ['LANE'],
   path: '/Kensei',
+  wallpaper: [
+    {
+      name: 'Kensei',
+      link: 'https://imgur.com/a/2zzYZfL'
+    }
+  ],
   description:
     'Swift swordmaster who can easily manuever through the battlefield.',
   spotlight: 't6vVHJa90vA',
