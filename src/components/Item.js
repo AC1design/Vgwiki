@@ -60,7 +60,8 @@ const ItemType = styled.h2`
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 6px
+    border-radius: 6px;
+    padding-top: 2px;
     ${props => (props.hidden ? 'visibility: hidden;' : '')}
 `
 

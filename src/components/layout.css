@@ -109,7 +109,7 @@ a {
 }
 
 .Img {
-	height: 100vh;
+	height: 200%;
 	object-position: center top;
 	z-index: -1;
 }
@@ -129,7 +129,6 @@ a {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-	margin: 0px 16px 16px 16px;
 	width: 100%;
 	justify-content: space-between;
 }
@@ -141,6 +140,7 @@ a {
 	color: rgba(255, 255, 255, 0.808);
 	line-height: 1.2;
 	-webkit-font-smoothing: antialiased;
+	margin-left: 16px;
 }
 
 .HeroGroup h3 {
@@ -150,7 +150,8 @@ a {
 	color: rgba(255, 255, 255, 0.808);
 	line-height: 1.2;
 	-webkit-font-smoothing: antialiased;
-	width: 300px
+	margin-left: 16px;
+	font-weight: 200;
 }
 
 .HeroGroup p {
@@ -161,8 +162,7 @@ a {
     color: rgba(255, 255, 255, 0.808);
     -webkit-font-smoothing: antialiased;
     background: rgba(255, 255, 255, 0.274);
-	margin-right: 30px;
-width: fit-content;
+	margin-right: 16px;
 }
 
 .Hero svg {
@@ -351,7 +351,7 @@ overflow: visible;
 		font-size: 30px;
 	}
 	.HeroContainer {
-		height: 380px;
+		height: 290px;
 	}
 	.gradient {
 		height: 26px;
