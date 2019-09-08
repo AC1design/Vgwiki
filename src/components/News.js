@@ -9,21 +9,21 @@ const News = props => (
 <div className="CardboxGroupScroll">
             <div className="CardboxGroup" style={{ gridTemplateColumns: 'repeat(3, 280px)'}}>
         <MediaControlCard
-            image={require('../images/Wallpaper/miho.png')}
-            text='Miho Wallpapers'
-            link='https://imgur.com/gallery/XYqEX3K'
+            image={require('../images/Wallpaper/ishtar.jpg')}
+            text='Ishtar Wallpapers'
+                    link='https://imgur.com/a/Qbq8m2V'
         />
 
         <MediaControlCard
-            image={require('../images/Wallpaper/lance.png')}
-            text='Lance Wallpapers'
-            link='https://imgur.com/gallery/mQ6EjCg'
+            image={require('../images/Wallpaper/flicker.jpg')}
+            text='Flicker Wallpapers'
+                    link='https://imgur.com/a/6mph4Ph'
         />
 
         <MediaControlCard
-            image={require('../images/Wallpaper/kestrel.png')}
-            text='Kestrel Wallpapers'
-            link='https://imgur.com/gallery/fRsNCKQ'
+            image={require('../images/Wallpaper/kensei.jpg')}
+            text='Kensei Wallpapers'
+                    link='https://imgur.com/a/2zzYZfL'
         />
     </div>
         </div>
