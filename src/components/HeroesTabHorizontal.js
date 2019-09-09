@@ -71,6 +71,7 @@ class HeroesHorizontal extends React.Component {
     this.state = {
       anchorEl: null,
       value: 0,
+      removeFlex: true,
       hideNameAndRole: false,
       displayflex: '',
       displayflexwrap: '',

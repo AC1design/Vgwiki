@@ -4,6 +4,9 @@ import 'animate.css/animate.min.css'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
+const Flex = styled.div`
+${props => (props.reduce ? 'flex: none' : 'flex: 1')}
+`
 
 const Cardbox = styled.div`
   margin-right: 16px;
@@ -60,13 +63,14 @@ overflow: visible;
 `
 
 const Card = props => (
-    <div style={{flex: '1'}}>
+    <Flex
+      reduce={props.hideNameAndRole}>
   <Link to={props.link}>
     <Cardbox
       className="animated fadeInRight delay-0.4s"
       >
       <Cards
-        reduce={props.hideNameAndRole}
+            reduce={props.hideNameAndRole}
         bg={props.image}
         bg2={props.image2}
       />
@@ -78,8 +82,8 @@ const Card = props => (
         <Role hidden={props.hideNameAndRole}>{props.text}</Role>
       </div>
       </Cardbox>
-    </Link>
-    </div>
+      </Link>
+    </Flex>
 )
 
 export default Card

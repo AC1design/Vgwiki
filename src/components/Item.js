@@ -4,6 +4,10 @@ import './../components//Item.css'
 import Modal from 'react-modal'
 import styled from 'styled-components'
 
+const Flex = styled.div`
+${props => (props.reduce ? 'flex: none' : 'flex: 1')}
+`
+
 const Itembox = styled.div`
     position: relative;
 	  border-radius: 26px;
@@ -126,7 +130,7 @@ class Itemsbox extends React.Component {
 
   render() {
     return (
-      <div style={{flex: '1'}}>
+      <Flex reduce={this.props.hideNameAndRole}>
         <Modal
           isOpen={this.state.showModal}
           className="ModalItem"
@@ -235,7 +239,7 @@ class Itemsbox extends React.Component {
           )}
           <ItemCost hidden={this.props.hideNameAndRole}>{this.props.cost}</ItemCost>
         </Itembox>
-      </div>
+      </Flex>
     )
   }
 }
