@@ -112,7 +112,7 @@ class IndexPage extends React.Component {
           <div className="HeroGroup">
             <div className='newhero'>
               <h3>NEW HERO</h3>
-              <h1>Hero64</h1>
+              <h1>Hero 68</h1>
             </div>
             <p>UPDATE 4.6</p>
           </div>

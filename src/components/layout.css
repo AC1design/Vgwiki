@@ -137,10 +137,11 @@ a {
 	font-family: Antonio;
 	font-size: 50px;
 	margin: 0;
-	color: rgba(255, 255, 255, 0.808);
+	color: rgba(255, 255, 255, 1);
 	line-height: 1.2;
 	-webkit-font-smoothing: antialiased;
 	margin-left: 16px;
+	margin-bottom: 16px;
 }
 
 .HeroGroup h3 {
