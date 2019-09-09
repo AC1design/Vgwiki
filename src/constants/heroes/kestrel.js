@@ -13,9 +13,9 @@ export const frontmatter = {
   spotlight: 'ClhyGmpQZhY',
   stats: [
     { name: 'HEALTH', value: '728 - 2147', color: '#4eec8b' },
-    { name: 'H. REGEN', value: ' - ', color: '#4eec8b' },
+    /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
     { name: 'ENERGY', value: '404 - 492', color: '#5bbcff' },
-    { name: 'ENG REGEN', value: ' - ', color: '#5bbcff' },
+    /*{ name: 'ENG REGEN', value: ' - ', color: '#5bbcff' },*/
     { name: 'WP DAMAGE', value: '70 - 136', color: '#f48596' },
     { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },

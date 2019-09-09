@@ -19,6 +19,13 @@ const Bgmodel = styled.div`
   display: flex;
   justify-content: center;
   margin: 0 auto;
+
+  @media (max-width: 480px){
+   background: url(${props => props.bgmodel}) no-repeat top center;
+   background-repeat: no-repeat;
+  background-size: cover;
+  margin: 16px;
+  }
 `
 const Model = styled.img`
   vertical-align: middle;

@@ -7,9 +7,9 @@ export const frontmatter = {
   spotlight: 'Ur-cD6ibo00',
   stats: [
     { name: 'HEALTH', value: '746 - 2499', color: '#4eec8b' },
-    { name: 'H. REGEN', value: '(+)', color: '#4eec8b' },
+    /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
     { name: 'ENERGY', value: '220 - 462', color: '#5bbcff' },
-    { name: 'ENG REGEN', value: '(+)', color: '#5bbcff' },
+     /* { name: 'ENG REGEN', value: '(+)', color: '#5bbcff' }, */
     { name: 'WP DAMAGE', value: '80 - 153', color: '#f48596' },
     { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },

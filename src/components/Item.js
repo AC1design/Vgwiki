@@ -134,18 +134,38 @@ class Itemsbox extends React.Component {
           onRequestClose={this.handleCloseModal}
           shouldCloseOnOverlayClick={true}
         >
-          <div className="Cost">
-            {this.props.cost && <p>{this.props.cost}</p>}
-          </div>
           <div className="Imginfo">
-            <img src={this.props.itemimg} alt={this.props.itemimg} />
+            <img className='MainModalImg' src={this.props.itemimg} alt={this.props.itemimg} />
             <div className="Info">
               <h1>{this.props.itemname}</h1>
-              <H2 color={this.props.color}> {this.props.class} </H2>
+              <h2 style={{
+                color:
+                  this.props.class === "DEFENSE"
+                    ? "#A0D46B"
+                    : this.props.class === "CRYSTAL"
+                      ? "#4A90E2"
+                      : this.props.class === "WEAPON"
+                        ? "#ED5565"
+                        : this.props.class === "UTILITY"
+                          ? "#AC92EC"
+                          : "#CCD1D9",
+                background:
+                  this.props.class === "DEFENSE"
+                    ? "#a0d46b40"
+                    : this.props.class === "CRYSTAL"
+                      ? "#4A90E240"
+                      : this.props.class === "WEAPON"
+                        ? "#ED556540"
+                        : this.props.class === "UTILITY"
+                          ? "#AC92EC40"
+                          : "#CCD1D940",
+              }}> {this.props.class} </h2>
               <h3>{this.props.tier}</h3>
             </div>
           </div>
-          <div className="divider" />
+          <div className="Cost">
+            {this.props.cost && <p>{this.props.cost}</p>}
+          </div>
           <div className="Text">
             <h4>{this.props.description}</h4>
             <h5>{this.props.tip}</h5>
@@ -183,7 +203,7 @@ class Itemsbox extends React.Component {
               )}
             </div>
           </div>
-          <button onClick={this.handleCloseModal}>CLOSE</button>
+          <button className='itembutton' onClick={this.handleCloseModal}>X</button>
         </Modal>
         <Itembox reduce={this.props.hideNameAndRole} className="animated fadeInRight delay-0.4s" onClick={this.handleOpenModal} tabIndex="0">
           <ItemImage reduce={this.props.hideNameAndRole} src={this.props.itemimg} alt={this.props.itemimg} />

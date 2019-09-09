@@ -3,9 +3,7 @@
     flex-direction: row;
     text-align:left;
       justify-content: left;
-      padding-left:20px;
-      padding-top:10px;
-      padding-bottom:10px;
+      margin: 16px 16px 0px 16px;
 }
 
 .ModalItem {
@@ -19,7 +17,7 @@
 	box-shadow: 0 4px 40px rgba(0, 0, 0, 0.418);
 	outline: none;
 	text-align: center;
-	align-items: center;
+	align-items: left;
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;
@@ -28,45 +26,85 @@
   transform: translateY(-50%);
 }
 
+.MainModalImg {
+    width: auto !important;
+    height: 80px !important;
+}
+
 .ModalItem img{
     width: 50px;
     height: 50px;
     text-align:center;
-    margin-top: 15px;
     -webkit-user-drag: none;
 }
+
 
 .Info{
     text-align: left;
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
 }
 
 .Info h1{
     color: rgb(255, 255, 255);
 	font-size: 18px;
     -webkit-font-smoothing: antialiased;
-    width:165px;
+    text-align: left;
+    margin: 0px 0px 3px 0px;
+    width:100%;
 }
 
 .Info h2{
     font-weight: 800;
-	font-size: 12px;
-    margin-top: -5px;
+	font-size: 11px;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
+    width: 80px;
+    border-radius: 6px;
+    padding: 2px;
+    margin: 0;
 }
 
 .Info h3{
     color: rgb(119, 119, 119);
 	font-weight: 800;
     font-size: 12px;
-    margin-top: -5px;
     -webkit-font-smoothing: antialiased;
+    margin: 0;
+    margin-top: 16px;
 }
 
 .ModalItem p{
-     position: absolute;
-    top: 30px;
-    right: 20px;
+    margin: 16px;
+    background: #434348d4;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ModalItem button{
+    position: absolute;
+	width: 30px;
+	height: 30px;
+	background: none;
+	border-radius: 20px;
+	border: 2px solid white;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+	outline: none;
+	right: 16px;
+	top: 16px;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	z-index: 10000;
 }
 
 .divider{
