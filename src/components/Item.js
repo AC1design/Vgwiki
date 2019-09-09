@@ -126,7 +126,7 @@ class Itemsbox extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={{flex: '1'}}>
         <Modal
           isOpen={this.state.showModal}
           className="ModalItem"

@@ -12,7 +12,6 @@ const Cardbox = styled.div`
 `
 
 const Cards = styled.div`
-
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 width: 150px;
     height: 220px;
@@ -61,9 +60,11 @@ overflow: visible;
 `
 
 const Card = props => (
+    <div style={{flex: '1'}}>
   <Link to={props.link}>
     <Cardbox
-        className="animated fadeInRight delay-0.4s">
+      className="animated fadeInRight delay-0.4s"
+      >
       <Cards
         reduce={props.hideNameAndRole}
         bg={props.image}
@@ -76,8 +77,9 @@ const Card = props => (
     </div>
         <Role hidden={props.hideNameAndRole}>{props.text}</Role>
       </div>
-    </Cardbox>
-  </Link>
+      </Cardbox>
+    </Link>
+    </div>
 )
 
 export default Card
