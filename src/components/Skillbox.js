@@ -41,7 +41,7 @@ class Skillbox extends React.Component {
         {' '}
           <Modal
             isOpen={this.state.showModal}
-            className="Modal"
+          className="Modal"
             overlayClassName="Overlay"
             onRequestClose={this.handleCloseModal}
             shouldCloseOnOverlayClick={true}
@@ -76,7 +76,7 @@ class Skillbox extends React.Component {
               marginLeft: '16px',
               marginTop: '16px',
               alignSelf: 'flex-start',
-              alignItems: 'center'
+            alignItems: 'center',
             }}>
               <img
                 src={require(`./../images/Ability/${this.props.image}.png`)}

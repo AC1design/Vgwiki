@@ -31,6 +31,9 @@ width: 150px;
     ${props => (props.reduce ? 'background-size: contain;' : '')}
     background-size: cover;
     background-position-x: 80%;
+    &:hover{
+      transform: scale(1.1)
+    }
 `
 
 const Name = styled.h3`

@@ -13,27 +13,19 @@
 
 /*ANIMATIONS*/
 
-@keyframes HeroAnimation {
-	0% {
-		opacity: 0;
-		transform: translateY(20px)
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0px)
-	}
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
 
-@keyframes ModelAnimation {
-	0% {
-		opacity: 0;
-		transform: scale(1.2)
-	}
-	100% {
-		opacity: 1;
-		transform: scale(1)
-	}
-}
 
 html {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -466,6 +458,7 @@ overflow: visible;
 	outline: none;
 	background-color: #2B2B2D;
 	overflow: hidden;
+  animation: slideInDown 0.8s;
 }
 
 .ReactModal__Content {

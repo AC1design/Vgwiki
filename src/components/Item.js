@@ -38,6 +38,9 @@ const ItemImage = styled.img`
     margin-bottom: 0px;
     -webkit-user-drag: none;
     text-align: center;
+    &:hover{
+      transform: scale(1.2)
+    }
 
 ${props => (props.reduce ? 'width: 70px;' : '')}
 ${props => (props.reduce ? 'height: 70px;' : '')}

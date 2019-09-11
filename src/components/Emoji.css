@@ -1,25 +1,27 @@
 .Emojis{
-align-self: center;
-  justify-self: center;
+align-items: end;
 }
 
 .Emojibox {
     position: relative;
 	overflow: hidden;
 	border-radius: 26px;
-	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     background-color: #2B2B2D;
-    padding-bottom:10px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     cursor: pointer;
-    padding: 20px;
     padding-bottom: 5px;
     box-sizing: border-box;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    height: auto;
-    width: 135px;
+    height: 100px;
+    width: 100px;
+    padding: 16px;
    outline: none;
+   margin-right: 16px;
+   margin-bottom: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .Emojibox:hover {
@@ -30,19 +32,16 @@ align-self: center;
 .Emojibox img {
     height: 50px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    margin-left: 5px;
-    margin-top: 5px;
     -webkit-user-drag: none;
 }
 
 .Emojiboxh1 {
 	color: rgb(255, 255, 255);
-	font-size: 14px;
-    margin-top: 20px;
-    margin-bottom: 16px;
+	font-size: 16px;
+    margin-top: 16px;
     -webkit-font-smoothing: antialiased;
-    justify-content: center;
-    width: 100px;
+    margin-left: 5px;
+    width: 80px;
 }
 
 

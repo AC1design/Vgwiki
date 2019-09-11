@@ -43,7 +43,7 @@ const StyledTab = withStyles({
     marginRight: '16px',
     minWidth: 'fit-content',
     padding: 0,
-    marginLeft: '16px'
+    marginLeft: '16px',
   },
   selected: {
     fontWeight: '800',

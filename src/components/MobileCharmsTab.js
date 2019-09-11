@@ -7,8 +7,8 @@ const Charms = props => (
     <div className="Selectan">
       <h1>Emoji Charms</h1>
     </div>
-    <div className="EmojiboxGroupScroll">
-      <div className="EmojiboxGroup">
+    <div className="CardboxGroupScroll">
+      <div className="CardboxGroup">
         {charms.map((charm, index) => (
           <Emojibox
             itemimg={require(`./../images/Emoji/${charm.image}.png`)}

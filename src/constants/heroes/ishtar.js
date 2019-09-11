@@ -41,7 +41,7 @@ export const frontmatter = {
                 'Living Blades take damage equal to 75% of their max health from turrets.',
                 'If Ishtar is too far away from the Living Blades, they will disappear.',
             ],
-            video: '',
+            video: 'Ishtar-P',
             stats: [],
         },
         {
@@ -53,7 +53,7 @@ export const frontmatter = {
                 '',
                 'Only four Living Blades can be present. If all four are currently active then Shadow Razor will instead command all of them to move towards the target location.'
             ],
-            video: '',
+            video: 'Ishtar-A',
             stats: [
                 {
                     name: 'Cooldown',
@@ -84,7 +84,7 @@ export const frontmatter = {
                 '',
                 'Passively this ability grants bonus attack speed per level.'
             ],
-            video: '',
+            video: 'Ishtar-B',
             stats: [
                 {
                     name: 'Cooldown',
@@ -122,7 +122,7 @@ export const frontmatter = {
             name: 'ASCENSION',
             type: 'ULTIMATE',
             image: 'Ishtar-C',
-            video:'',
+            video:'Ishtar-C',
             text: [
                 'Ishtar destroys all existing Living Blades before creating four new ones near her.',
                 '',

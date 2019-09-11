@@ -34,8 +34,8 @@ const Model = styled.img`
   overflow: visible;
   @media (max-width: 480px) {
     vertical-align: middle;
-    width: 300px;
-    height: 100%;
+    max-height: 800px;
+    height: 512px;
   }
   @media only screen and (min-device-width: 319px) and (max-device-width: 1024px) and (orientation: landscape) {
     height: 85vh;

@@ -1,5 +1,4 @@
 import React from 'react'
-import H2 from './TalentH2Color'
 import 'animate.css/animate.min.css'
 import '../components/Talentbox.css'
 
