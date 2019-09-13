@@ -5,9 +5,9 @@ import { Divider } from '@material-ui/core';
 const News = props => (
 <div>
         <div className="Selectan">
-        <h1>Latest Wallpapers</h1>
+        <h1 style={{fontSize: '19px'}}>Latest Wallpapers</h1>
         </div>
-        <Divider variant='middle' style={{background: '#ffffff40', marginTop: '-10px'}}></Divider>
+        <Divider variant='middle' style={{background: '#ffffff40'}}></Divider>
 <div className="NewsboxGroupScroll">
             <div className="NewsboxGroup">
         <MediaControlCard

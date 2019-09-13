@@ -5,7 +5,6 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Flex = styled.div`
-${props => (props.reduce ? 'flex: none' : 'flex: 1')}
 `
 
 const Cardbox = styled.div`
