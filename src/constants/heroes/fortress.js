@@ -3,6 +3,12 @@ export const frontmatter = {
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
   path: '/Fortress',
+  wallpaper: [
+    {
+      name: 'Fortress',
+      link: 'https://imgur.com/a/1SDlOFk'
+    }
+  ],
   description: 'Agressive pack leader who swarms the enemy with great speed.',
   spotlight: 'DGEg_EsKwwY',
   stats: [
@@ -271,6 +277,12 @@ export const frontmatter = {
       image: 'Fortress_Summer_Party',
       price: '300',
       opals: true,
+    },
+    {
+      color: '#FF9000',
+      name: 'Kirin Fortress',
+      type: 'Legendary',
+      image: 'Fortress_Kirin',
     },
   ],
 }

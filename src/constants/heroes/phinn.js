@@ -3,13 +3,19 @@ export const frontmatter = {
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
   path: '/Phinn',
+  wallpaper: [
+    {
+      name: 'Phinn',
+      link: 'https://imgur.com/a/H4qIcrS'
+    }
+  ],
   description:
     'Extremely tanky and can pull in enemies from across the screen.',
   spotlight: 'hu9kTiwJejc',
   stats: [
     { name: 'HEALTH', value: '892 -	2781', color: '#4eec8b' },
-    { name: 'H. REGEN', value: '3.39	7.24', color: '#4eec8b' },
-    { name: 'ENERGY', value: '220	440', color: '#5bbcff' },
+    { name: 'H. REGEN', value: '3.39 - 7.24', color: '#4eec8b' },
+    { name: 'ENERGY', value: '270 - 440', color: '#5bbcff' }, /* Maximum energy per level 25*/
     { name: 'ENG REGEN', value: ' - ', color: '#5bbcff' },
     { name: 'WP DAMAGE', value: '95 - 154', color: '#f48596' },
     { name: 'ATK SPD', value: '100% - 113.2%', color: '#f48596' },
@@ -48,7 +54,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['40', '50', '60', '70', '80'],
+          amount: ['40', '45', '50', '55', '60'],
           cr: ' ',
           wr: ' ',
         },
@@ -123,7 +129,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['100', '100', '100'],
+          amount: ['60', '60', '60'],
           cr: ' ',
           wr: ' ',
         },
@@ -205,6 +211,12 @@ export const frontmatter = {
       image: 'Phinn_Bakuto',
       price: '500',
       opals: true,
+    },
+    {
+      color: '#FF9000',
+      name: 'Wu Xing Eart Phinn',
+      type: 'Legendary',
+      image: 'Phinn_WuXingEarth',
     },
   ],
 }

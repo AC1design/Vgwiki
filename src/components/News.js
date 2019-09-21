@@ -10,6 +10,24 @@ const News = props => (
         <Divider variant='middle' style={{background: '#ffffff40'}}></Divider>
 <div className="NewsboxGroupScroll">
             <div className="NewsboxGroup">
+
+                <MediaControlCard
+                    image={require('../images/Wallpaper/Celeste.jpg')}
+                    title='Celeste'
+                    link='https://imgur.com/a/r7GIsjF'
+                />
+
+                <MediaControlCard
+                    image={require('../images/Wallpaper/Fortress.jpg')}
+                    title='Fortress'
+                    link='https://imgur.com/a/1SDlOFk'
+                />
+
+                <MediaControlCard
+                    image={require('../images/Wallpaper/Phinn.jpg')}
+                    title='Phinn'
+                    link='https://imgur.com/a/H4qIcrS'
+                />
         <MediaControlCard
                     image={require('../images/Wallpaper/Ishtar.jpg')}
             title='Ishtar'
@@ -26,23 +44,6 @@ const News = props => (
             image={require('../images/Wallpaper/Kensei.jpg')}
                     title='Kensei'
             link='https://imgur.com/gallery/fRsNCKQ'
-                />
-                <MediaControlCard
-                    image={require('../images/Wallpaper/Miho.jpg')}
-                    title='Miho'
-                    link='https://imgur.com/gallery/XYqEX3K'
-                />
-
-                <MediaControlCard
-                    image={require('../images/Wallpaper/Kestrel.jpg')}
-                    title='Kestrel'
-                    link='https://imgur.com/gallery/mQ6EjCg'
-                />
-
-                <MediaControlCard
-                    image={require('../images/Wallpaper/Lance.jpg')}
-                    title='Lance'
-                    link='https://imgur.com/gallery/fRsNCKQ'
                 />
     </div>
         </div>

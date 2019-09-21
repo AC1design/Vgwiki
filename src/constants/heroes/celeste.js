@@ -3,6 +3,12 @@ export const frontmatter = {
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
   path: '/Celeste',
+  wallpaper: [
+    {
+      name: 'Celeste',
+      link: 'https://imgur.com/a/r7GIsjF'
+    }
+  ],
   description: 'Back-line mage with heavy area damage and a stun.',
   spotlight: 'rC-vkqUkERY',
   stats: [
@@ -239,6 +245,12 @@ export const frontmatter = {
       name: 'Snow Queen Celeste',
       type: 'Legendary',
       image: 'Celeste_Snow_Queen',
+    },
+    {
+      color: '#c78cff',
+      name: 'School Days Celeste',
+      type: 'Legendary',
+      image: 'Celeste_SchoolDays',
     },
   ],
 }
