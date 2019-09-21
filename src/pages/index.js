@@ -29,7 +29,7 @@ const IndexPage = props => (
           </div>
           <div className="HeroGroup">
             <h1>VAINGLORY WIKI</h1>
-            <p>UPDATE 4.6</p>
+            <p>UPDATE 4.7</p>
           </div>
         </div>
       </MediaQuery>
@@ -45,7 +45,7 @@ const IndexPage = props => (
           </div>
           <div className="HeroGroup">
             <h1>VAINGLORY WIKI</h1>
-            <p>UPDATE 4.6</p>
+            <p>UPDATE 4.7</p>
           </div>
         </div>
       </MediaQuery>
