@@ -7,8 +7,8 @@ const SocialPings = props => (
 <div className="Selectan">
     <h1>Social Pings</h1>{' '}
         </div>
-        <div className="EmojiboxGroupScroll">
-    <div className="PingboxGroup">
+        <div className="CardboxGroupScroll">
+    <div className="CardboxGroup">
         {pings.map((ping, index) => (
             <Pings
                 bg={require(`./../images/Ping/${ping.id}.jpg`)}

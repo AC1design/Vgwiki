@@ -3,20 +3,26 @@ export const frontmatter = {
   type: ['LANE', 'WARRIOR'],
   role: ['LANE'],
   path: '/Kensei',
+  wallpaper: [
+    {
+      name: 'Kensei',
+      link: 'https://imgur.com/a/2zzYZfL'
+    }
+  ],
   description:
     'Swift swordmaster who can easily manuever through the battlefield.',
   spotlight: 't6vVHJa90vA',
   stats: [
     { name: 'HEALTH', value: '761 - 2493', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '4.01 - 7.42', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '4.01 - 7.42', color: '#4eec8b' },
     { name: 'ENERGY', value: '280 - 643', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '1.87 - 4.29', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '78 - 140', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
+    { name: 'ENG REGEN', value: '1.87 - 4.29', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '78 - 140', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '3.5', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '4.0', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '3.5', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '4.0', color: '#e19efb' },
   ],
   model: [{ image: 'Kenseiblurred' }, { tmodel: 'Kensei' }],
   skills: [

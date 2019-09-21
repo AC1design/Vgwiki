@@ -15,17 +15,27 @@ const Bgmodel = styled.div`
   background-size: cover;
   text-align: center;
   overflow: hidden;
+  border-radius: 26px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+  @media (max-width: 480px){
+   background: url(${props => props.bgmodel}) no-repeat top center;
+   background-repeat: no-repeat;
+  background-size: cover;
+  margin: 16px;
+  }
 `
 const Model = styled.img`
   vertical-align: middle;
-  height: 45vh;
-  margin-top: 30px;
+  height: 40vh;
   -webkit-user-drag: none;
+  overflow: visible;
   @media (max-width: 480px) {
     vertical-align: middle;
-    
-  height: 100%;
-  width: 100%;
+    max-height: 800px;
+    height: 512px;
   }
   @media only screen and (min-device-width: 319px) and (max-device-width: 1024px) and (orientation: landscape) {
     height: 85vh;
@@ -34,9 +44,7 @@ const Model = styled.img`
 
 const Models = props => (
   <Bgmodel bgmodel={require(`./../images/BG/${props.heroname}blurred.jpg`)}>
-    <ScrollAnimation animateIn="fadeIn" animateOnce duration={2}>
       <Model src={require(`./../images/models/${props.heroname}.png`)} />
-    </ScrollAnimation>
   </Bgmodel>
 )
 

@@ -9,6 +9,7 @@ import Layout from '../components/layout'
 import Page from 'react-page-loading'
 import { graphql } from 'gatsby'
 import StickyFooter from 'react-sticky-footer'
+import WallpaperCard from './../components/Wallpaper'
 
 export default function({ data }) {
   const hero = data.allJavascriptFrontmatter.edges.length
@@ -20,16 +21,18 @@ export default function({ data }) {
       <div style={{ height: '100%' }}>
         <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={4}>
           <Heroes
+            style={{ zIndex: '-10000' }}
             heroname={hero.name}
             role={hero.type.join(', ')}
             description={hero.description}
             spotlight={hero.spotlight}
           />
-          <div className="Title">
-            <h1>STATS (LEVEL 1-12)</h1>
+          <div style={{ marginTop: '-50px', zIndex: '10000', background: '#1f1f21', paddingTop: '6px', borderRadius: '26px 26px 0px 0px'}}>
+          <div style={{ width: '80px' , height: '6px', background: 'white', margin: '0 auto', marginTop: '16px', borderRadius: '50px', opacity: '0.5'}}></div>
+            <div className="Title">
+            <h1>Stats (Lvl 1-12)</h1>
             <div className="line" />
           </div>
-          <div className="StatboxGroupScroll">
             <div className="StatboxGroup">
               {hero.stats.map((stat, index) => (
                 <Statbox
@@ -40,14 +43,26 @@ export default function({ data }) {
                 />
               ))}
             </div>
-          </div>
+            <div style={{height: '32px'}}></div>
+            {hero.wallpaper && hero.wallpaper.length ? (
+                <div style={{margin: '0 auto'}}>
+                  {hero.wallpaper.map((wallpaper, index) => (
+                    <WallpaperCard
+                      image={require(`../images/Wallpaper/${wallpaper.name}.jpg`)}
+                      title={wallpaper.name}
+                      link={wallpaper.link}
+                      key={index}
+                    />
+                  ))}
+                </div>
+            ) : null}
           <div className="Title">
-            <h1>3D MODEL</h1>
+            <h1>3D Model</h1>
             <div className="line" />
           </div>
           <Models heroname={hero.name} />
           <div className="Title">
-            <h1>SKILLS (CLICK FOR MORE)</h1>
+            <h1>Skills</h1>
             <div className="line" />
           </div>
           <div className="SkillboxGroupScroll">
@@ -66,7 +81,7 @@ export default function({ data }) {
             </div>
           </div>
           <div className="Title">
-            <h1>TALENTS (LVL 1 + % PER LVL)</h1>
+            <h1>Talents (Lvl 1 + % per Lvl)</h1>
             <div className="line" />
           </div>
           <div className="TalentboxGroupScroll">
@@ -85,7 +100,7 @@ export default function({ data }) {
             </div>
           </div>
           <div className="Title">
-            {hero.skins.length ? <h1>SKINS</h1> : null}
+            {hero.skins.length ? <h1>Skins</h1> : null}
             <div className="line" />
           </div>
           <div className="SkinboxGroupScroll">
@@ -102,6 +117,7 @@ export default function({ data }) {
                 />
               ))}
             </div>
+            </div>
           </div>
           <StickyFooter
             className="footer"
@@ -112,15 +128,14 @@ export default function({ data }) {
               fontSize: '12px',
               color: 'white',
               textAlign: 'center',
-              marginTop: '50px',
+              borderRadius: '26px 26px 0px 0px',
+              position: 'inherit',
+              bottom: '0px',
+              height: '100%'
             }}
             stickyStyles={{
-              backgroundColor: '#2B2B2D',
-              padding: '1rem',
-              fontSize: '12px',
-              color: 'white',
-              textAlign: 'center',
-              marginTop: '50px',
+              position: 'inherit',
+              bottom: 0
             }}
           >
             <p>Copyright © 2019 VGWIKI</p>
@@ -129,10 +144,10 @@ export default function({ data }) {
 {' '}
             <a href="https://twitter.com/AngeloCant1">AngeloC</a>
             <a style={{ marginLeft: '16px' }} href='https://www.termsfeed.com/privacy-policy/b38962cdaa462299f0b57bf61cc6dbef'>Privacy Policy</a>
-          <h1 style={{ fontSize: '14px' }}>Cookie Declaration</h1>
+            <h1 style={{ fontSize: '14px' }}>Cookie Declaration</h1>
             <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
             <a href="javascript: Cookiebot.renew()">Change your consent</a>
-            <a style={{ marginLeft: '16px'}} href="javascript: Cookiebot.withdraw()">Revoke your consent</a>
+            <a style={{ marginLeft: '16px' }} href="javascript: Cookiebot.withdraw()">Revoke your consent</a>
           </StickyFooter>
         </Page>
       </div>
@@ -153,6 +168,10 @@ export const postQuery = graphql`
             role
             description
             spotlight
+            wallpaper{
+              name
+              link
+            }
             stats {
               name
               value

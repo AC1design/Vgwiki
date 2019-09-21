@@ -7,15 +7,15 @@ export const frontmatter = {
   spotlight: 'I9A1w1OIIq4',
   stats: [
     { name: 'HEALTH', value: '721 - 2019', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '3.81 - 6.78', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '3.81 - 6.78', color: '#4eec8b' },
     { name: 'ENERGY', value: '169 - 389', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '3.51 - 6.04', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '64 - 97', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
+    { name: 'ENG REGEN', value: '3.51 - 6.04', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '64 - 97', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '6.0', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.8', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '6.0', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.8', color: '#e19efb' },
   ],
   model: [{ image: 'Kineticblurred' }, { tmodel: 'Kinetic' }],
   skills: [
@@ -27,6 +27,7 @@ export const frontmatter = {
       text: [
         'Landing Plasma Driver grants Kinetic a stack of Tracer Shots up to 4 stacks.',
         'Tracer Shots: Kinetic fires a tracer at her target.',
+        'Tracer Shots - Stack Duration: 8.0s',
         '• Tracer Damage: 4-15 (Level 1-12) (+6.25% weapon power)',
       ],
     },
@@ -47,7 +48,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['20', '25', '30', '35', '40'],
+          amount: ['10', '15', '20', '25', '35'],
           cr: ' ',
           wr: ' ',
         },

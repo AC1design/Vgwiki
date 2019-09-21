@@ -3,19 +3,25 @@ export const frontmatter = {
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
   path: '/Fortress',
+  wallpaper: [
+    {
+      name: 'Fortress',
+      link: 'https://imgur.com/a/1SDlOFk'
+    }
+  ],
   description: 'Agressive pack leader who swarms the enemy with great speed.',
   spotlight: 'DGEg_EsKwwY',
   stats: [
     { name: 'HEALTH', value: '761 - 2581', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '4.3 - 9.91', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '4.3 - 9.91', color: '#4eec8b' },
     { name: 'ENERGY', value: '300 - 465', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '1.56 - 3.21', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '73 - 156', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 144%', color: '#f48596' },
+    { name: 'ENG REGEN', value: '1.56 - 3.21', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '73 - 156', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 144%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '1.8', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '1.8', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'Fortressblurred' }, { tmodel: 'Fortress' }],
   skills: [
@@ -271,6 +277,12 @@ export const frontmatter = {
       image: 'Fortress_Summer_Party',
       price: '300',
       opals: true,
+    },
+    {
+      color: '#FF9000',
+      name: 'Kirin Fortress',
+      type: 'Legendary',
+      image: 'Fortress_Kirin',
     },
   ],
 }

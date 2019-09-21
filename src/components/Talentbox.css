@@ -1,7 +1,6 @@
 .Talentbox {
     width: 300px;
 	border-radius: 26px;
-	box-shadow: 0 20px 40px rgba(0,0,0, 0.15);
     background-color: #2B2B2D;
     padding: 20px;
     box-sizing: border-box;
@@ -10,7 +9,6 @@
 
 .Talentbox img {
     height: 120px;
-    width: 120px;
     margin-left: -10px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     margin-bottom: 10px;
@@ -19,17 +17,21 @@
 
 .Talentbox h1 {
 	color: rgb(255, 255, 255);
-	font-size: 24px;
-	margin: 0;
+	font-size: 16px;
+    margin: 0;
+    margin-bottom: 3px;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
 }
 
 .Talentbox h2 {
+    width: fit-content;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 12px;
     margin: 0;
     -webkit-font-smoothing: antialiased;
+    padding: 3px 7px 3px 7px;
+    border-radius: 6px;
 }
 .Talentbox p {
 	color: rgba(255,255,255, 0.8);

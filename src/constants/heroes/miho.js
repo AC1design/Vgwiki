@@ -3,20 +3,26 @@ export const frontmatter = {
     type: ['LANE', 'ASSASSIN'],
     role: ['LANE'],
     path: '/Miho',
+    wallpaper: [
+        {
+            name: 'Miho',
+            link: 'https://imgur.com/gallery/XYqEX3K'
+        }
+    ],
     description:
         'Skilled swordswoman that can cut through any obstacle',
     spotlight: 'aDF67eklCqo',
     stats: [
         { name: 'HEALTH', value: '775 - 2084', color: '#4eec8b' },
-        { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
+        /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
         { name: 'ENERGY', value: '0', color: '#5bbcff' },
-        { name: 'ENERGY REGEN', value: '-', color: '#5bbcff' },
-        { name: 'WEAPON DAMAGE', value: '75 - 152', color: '#f48596' },
-        { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
+        /*{ name: 'ENG REGEN', value: '-', color: '#5bbcff' },*/
+        { name: 'WP DAMAGE', value: '75 - 152', color: '#f48596' },
+        { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
         { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
         { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
-        { name: 'ATTACK RANGE', value: '3', color: '#e19efb' },
-        { name: 'MOVE SPEED', value: '4', color: '#e19efb' },
+        { name: 'ATK RANGE', value: '3', color: '#e19efb' },
+        { name: 'MOVE SPD', value: '4', color: '#e19efb' },
     ],
     model: [{ image: 'Mihoblurred' }, { tmodel: 'Miho' }],
     skills: [
@@ -156,7 +162,7 @@ export const frontmatter = {
             color: '#FF9000',
             text: [
                 'Reizan (A) now has two additional charges and deals more damage.',
-                '• Damage 150% (+10%)',
+                '• Damage 50% (+10%)',
             ],
             image: 'Miho_Legendary',
         },

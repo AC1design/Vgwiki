@@ -3,19 +3,25 @@ export const frontmatter = {
   type: ['CAPTAIN', 'WARRIOR'],
   role: ['CAPTAIN'],
   path: '/Lance',
+  wallpaper: [
+    {
+      name: 'Lance',
+      link: 'https://imgur.com/gallery/mQ6EjCg'
+    }
+  ],
   description: 'The king of duels with massive lifesteal and self-healing.',
   spotlight: 'HTZIGNW5F7A',
   stats: [
     { name: 'HEALTH', value: '842 - 2609', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '3.79 - 10.94', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '3.79 - 10.94', color: '#4eec8b' },
     { name: 'ENERGY', value: '0', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: ' - ', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '85 - 178', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 122%', color: '#f48596' },
+    { name: 'ENG REGEN', value: ' - ', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '85 - 178', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 122%', color: '#f48596' },
     { name: 'ARMOR', value: '35 - 100', color: '#f6ee71' },
     { name: 'SHIELD', value: '25 - 75', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '4.5', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '4.5', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'Lanceblurred' }, { tmodel: 'Lance' }],
   skills: [
@@ -27,7 +33,7 @@ export const frontmatter = {
         "Lance's basic attacks damage every target along their path. However, his attacks are slow to land and attack speed is less effective on him.",
         'Instead of energy, Lance uses stamina to activate his abilities. Purchasing items with energy and energy regeneration increases his stamina and stamina regeneration.',
         '• Max Stamina: 100 + 30% Max Energy',
-        '• Stamina Regen: 20 + 50% Energy Regen',
+        '• Stamina Regen: 25 + 50% Energy Regen',
       ],
     },
     {

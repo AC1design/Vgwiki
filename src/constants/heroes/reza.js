@@ -7,15 +7,15 @@ export const frontmatter = {
   spotlight: 'MsCucm_7QXU',
   stats: [
     { name: 'HEALTH', value: '718 - 2306', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '3.82 - 7.23', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '3.82 - 7.23', color: '#4eec8b' },
     { name: 'ENERGY', value: '380 - 732', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '2.53 - 4.84', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '84 - 154', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 125%', color: '#f48596' },
+    { name: 'ENG REGEN', value: '2.53 - 4.84', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '84 - 154', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 125%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '3', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '3', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'Ozoblurred' }, { tmodel: 'Ozo' }],
   skills: [
@@ -54,7 +54,7 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['60', '95', '130', '165', '200'],
-          cr: '40%',
+          cr: '50%',
           wr: ' ',
         },
         {
@@ -144,7 +144,7 @@ export const frontmatter = {
         },
         {
           name: 'Fortified Health',
-          amount: ['0', '0', '0'],
+          amount: ['50', '100', '150'],
           cr: '150%',
           wr: ' ',
         },

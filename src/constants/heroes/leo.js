@@ -7,15 +7,15 @@ export const frontmatter = {
     spotlight: 'nHvdWkuoKwA',
     stats: [
         { name: 'HEALTH', value: '830 - 2337', color: '#4eec8b' },
-        { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
+        /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
         { name: 'ENERGY', value: '328 - 639', color: '#5bbcff' },
-        { name: 'ENERGY REGEN', value: '(+)', color: '#5bbcff' },
-        { name: 'WEAPON DAMAGE', value: '95 - 168', color: '#f48596' },
-        { name: 'ATTACK SPEED', value: '100% - 122%', color: '#f48596' },
-        { name: 'ARMOR', value: '35 - 85', color: '#f6ee71' },
-        { name: 'SHIELD', value: '25 - 60', color: '#f6ee71' },
-        { name: 'ATTACK RANGE', value: '3.8', color: '#e19efb' },
-        { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
+         /* { name: 'ENG REGEN', value: '(+)', color: '#5bbcff' }, */
+        { name: 'WP DAMAGE', value: '95 - 168', color: '#f48596' },
+        { name: 'ATK SPD', value: '100% - 122%', color: '#f48596' },
+        { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
+        { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
+        { name: 'ATK RANGE', value: '3.8', color: '#e19efb' },
+        { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
     ],
     skills: [
         {
@@ -138,11 +138,11 @@ export const frontmatter = {
                     name: 'Total Damage',
                     amount: ['250', '375', '500'],
                     cr: ' ',
-                    wr: '300%',
+                    wr: '150%',
                 },
                 {
                     name: 'Bonus Damage',
-                    amount: ['15%', '15%', '15%'],
+                    amount: ['10%', '15%', '20%'],
                     cr: ' ',
                     wr: ' ',
                 },

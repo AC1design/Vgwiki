@@ -9,32 +9,13 @@ import List from '@material-ui/core/List'
 import SvgComponent from './SvgList'
 import ListItem from '@material-ui/core/ListItem'
 
-const StyledButton = withStyles({
-  root: {
-    overflow: 'visible',
-    position: 'absolute',
-    right: '25px',
-    color: 'white',
-    padding: '0px',
-    fontSize: '12px',
-    minWidth: '0px',
-    boxSizing: 'border-box',
-    minHeight: '0px',
-    transition:
-      'background-color 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms, box - shadow 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic - bezier(0.4, 0, 0.2, 1) 0ms',
-    fontWeight: 800,
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans - serif',
-    borderRadius: '4px',
-  },
-  label: {
-    textTransform: 'capitalize',
-  },
-})(Button)
+
 
 const StyledList = withStyles({
   root: {
     overflow: 'visible',
-    fontSize: '12px',
+    fontSize: '14px',
+    fontWeight: '800',
     padding: '0px',
   },
 })(List)
@@ -42,7 +23,7 @@ const StyledList = withStyles({
 const StyledListItem = withStyles({
   root: {
     textTransform: 'capitalize',
-    padding: '10px',
+    paddingTop: '16px',
   },
   button: {
     '&:hover': {},
@@ -52,7 +33,8 @@ const StyledListItem = withStyles({
 const StyledSwipeableDrawer = withStyles({
   paper: {
     background: '#2B2B2D',
-    width: '180px',
+    width: '230px',
+    borderRadius: '26px 0px 0px 26px',
   },
 })(SwipeableDrawer)
 
@@ -87,7 +69,7 @@ class Header extends React.Component {
   handleScroll = event => {
     const scrollTop = window.pageYOffset
 
-    if (scrollTop > 50) {
+    if (scrollTop > 340) {
       this.setState({ hasScrolled: true })
     } else {
       this.setState({ hasScrolled: false })
@@ -97,10 +79,10 @@ class Header extends React.Component {
   render() {
     const sideList = (
       <div
-        style={{ background: '#2B2B2D', color: 'white' }}
+        style={{ background: '#2B2B2D', color: 'white'}}
         className="classes.list"
       >
-        <h1 style={{ fontSize: '24px', marginLeft: '16px', marginTop: '20px', fontFamily: 'Antonio' }}>
+        <h1 style={{ fontSize: '24px', marginLeft: '25px', marginTop: '20px', fontFamily: 'Antonio' }}>
           Heroes
         </h1>
         <StyledList>
@@ -111,8 +93,8 @@ class Header extends React.Component {
                 <Link to={`/${text}`}>
                   <StyledListItem button>
                     <img
-                      style={{ overflow: 'visible' }}
-                      src={require(`./../images/heroes/${ text.toLowerCase()}.png`)}
+                      style={{ overflow: 'visible', marginLeft: '16px' }}
+                      src={require(`./../images/heroes/${ text.toLowerCase()}.jpg`)}
                       alt={text}
                     />
                     {text}
@@ -135,9 +117,7 @@ class Header extends React.Component {
               alt="LOGOVGWIKI"
             />
           </Link>
-          <StyledButton onClick={this.toggleDrawer('right', true)}>
-            <SvgComponent />
-          </StyledButton>
+            <SvgComponent style={{ position: 'absolute', right: 16 }} onClick={this.toggleDrawer('right', true)} />
         </div>
 
         <StyledSwipeableDrawer

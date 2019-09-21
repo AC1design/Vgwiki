@@ -7,15 +7,15 @@ export const frontmatter = {
   spotlight: 'OYcWpLN_408',
   stats: [
     { name: 'HEALTH', value: '742 - 2487', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '4.27 - 9.44', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '4.27 - 9.44', color: '#4eec8b' },
     { name: 'ENERGY', value: '390 - 555', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '3.5 - 7.02', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '66 - 148', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 113.2%', color: '#f48596' },
+    { name: 'ENG REGEN', value: '3.5 - 7.02', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '66 - 148', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 113.2%', color: '#f48596' },
     { name: 'ARMOR', value: '35 - 100', color: '#f6ee71' },
     { name: 'SHIELD', value: '25 - 75', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '2.4', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '2.4', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'Jouleblurred' }, { tmodel: 'Joule' }],
   skills: [
@@ -25,7 +25,7 @@ export const frontmatter = {
       name: 'HEAVY PLATING',
       type: 'Perk',
       image: 'Joule-P',
-      text: ['Joule takes 35% less damage when hit from the front or sides.'],
+      text: ['Joule takes 30% less damage when hit from the front or sides.'],
     },
     {
       video:

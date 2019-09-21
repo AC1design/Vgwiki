@@ -1,9 +1,13 @@
 
 .Statbox {
+    width: 150px;
 	border-radius: 0px;
     box-sizing: border-box;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    
+    background: #2b2b2e;
+    border-radius: 26px;
+    padding: 16px;
+    margin: 0px 0px 16px 16px;
 }
 
 
@@ -15,11 +19,11 @@
 }
 
 .Statbox h3 {
-    color: rgba(255,255,255, 0.8);
+    color: white;
 	font-weight: 650;
-	font-size: 18px;
+	font-size: 20px;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 16px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -28,41 +32,19 @@
     border-radius: 20px;
     box-sizing: border-box;
     width:auto;
-    margin: 20px 20px 40px;
-    display: grid;
-    grid-template-columns: repeat(10, auto);
-    grid-column-gap: 60px;
-    grid-row-gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
     align-content: center;
     box-align: center;
+    max-width: 1366px;
+    margin: 0 auto;
 }
 
-
-@media (min-width:1367px) {
-    .StatboxGroup {
-    border-radius: 20px;
-    box-sizing: border-box;
-    max-width:1366px;
-    margin:0 auto;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-column-gap: 205px;
-    grid-row-gap: 30px;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;  
+@media (max-width: 480px){
+.Statbox{
+    flex: 0 0 44%
 }
 }
 
-@media (max-width:1740px) {
-    .StatboxGroup {grid-template-columns: repeat(5, auto);}
-}
-
-@media (max-width:640px) {
-    
-    .StatboxGroup {
-        grid-template-columns: repeat(2, auto);
-    }
-}
 
  

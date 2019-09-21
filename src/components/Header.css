@@ -1,26 +1,26 @@
 .Header{
-    position:fixed;
+    position:absolute;
     width: 100%;
-    padding: 10px;
     z-index: 100;
     transition: 0.8s cubic-bezier(0.02, 0.8, 0.2, 1);
+    z-index: 100;
+    padding-top: env(safe-area-inset-top);
 }
 
 .HeaderScrolled{
-    background: #1f1f21f1;
-    backdrop-filter: blur(8px);
+    background: #1f1f21;
 }
 
 .HeaderGroup {
     position: relative;
     display: flex;
     align-items: center;
-    width: 100%;
     box-sizing: border-box;
     margin: 0px auto;
-    padding: 0px 30px;
     justify-content: center;
-
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .herobut{
@@ -36,7 +36,10 @@
   }
 
   .Header img{
-      margin-left: -22px;
+      display: flex;
       height:20px;
+      justify-content: flex-start;
       vertical-align: middle;
+      text-align: left;
+      margin-left: 16px;
   }

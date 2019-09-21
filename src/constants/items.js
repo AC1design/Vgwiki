@@ -829,9 +829,9 @@ export const itemBoxes = [
     class: 'CRYSTAL',
     tier: 'TIER 3',
     color: '#4A90E2',
-    cost: '3000',
+    cost: '2700',
     description:
-      '+80 crystal power\n\nPassive: Abilities dealing crystal damage to enemies (excluding lane minions) deal 7-40 (level 1-12) +90% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.',
+      '+80 crystal power\n\nPassive: Abilities dealing crystal damage to enemies (excluding lane minions) deal 7-40 (level 1-12) +50% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.',
     item1: 'heavy-prism',
     item2: 'eclipse-prism',
   },

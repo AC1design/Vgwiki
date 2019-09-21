@@ -2,67 +2,32 @@ import React from 'react'
 import styled from 'styled-components'
 import Modal from 'react-modal-video'
 import 'react-modal-video/css/modal-video.min.css'
-import ScrollAnimation from 'react-animate-on-scroll'
 import 'animate.css/animate.min.css'
 
 const Hero = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: linear-gradient(
-      to top,
-      #1f1f21 1%,
-      #1f1f21 1%,
-      rgba(25, 26, 27, 0) 100%
-    ),
-    url(${props => props.bgdesktop}) no-repeat top center;
+  background: url(${props => props.bgdesktop}) no-repeat top center;
   height: 100vh;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    background-size: cover !important;
+  border-radius: 0px 0px 26px 26px;
+
   @media (max-width: 1024px) {
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background: linear-gradient(
-        to top,
-        #1f1f21 1%,
-        #1f1f21 1%,
-        rgba(25, 26, 27, 0) 100%
-      ),
-      url(${props => props.bgtablet}) no-repeat center top;
+    background: url(${props => props.bgtablet}) no-repeat center top;
   }
   @media (max-width: 480px) {
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background: linear-gradient(
-        to top,
-        rgba(31, 31, 33, 1) 2%,
-        rgba(31, 31, 33, 1) 5%,
-        rgba(25, 26, 27, 0) 100%
-      ),
-      url(${props => props.bgmobile}) no-repeat center top;
+    background: url(${props => props.bgmobile}) no-repeat center top;
   }
   @media only screen and (min-device-width: 480px) and (max-device-width: 812px) and (orientation: landscape) {
-    background: linear-gradient(
-        to top,
-        #1f1f21 1%,
-        #1f1f21 1%,
-        rgba(25, 26, 27, 0) 100%
-      ),
-      url(${props => props.bgdesktop}) no-repeat top center;
+    background: url(${props => props.bgdesktop}) no-repeat top center;
     height: 400px;
-    background-size: cover;
   }
 `
 const HeroGroup = styled.div`
   max-width: 500px;
   margin: 0 auto;
-  padding: 100px 0px;
+  padding: 150px 0px;
   display: flex;
   -webkit-font-smoothing: antialiased;
   /* flex-wrap: wrap; */
@@ -70,6 +35,9 @@ const HeroGroup = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
 
   @media (max-width: 1024px) {
     max-width: 500px;
@@ -84,7 +52,7 @@ const HeroGroup = styled.div`
   @media (max-width: 480px) {
     max-width: 500px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 70px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,6 +111,8 @@ const Descritpion = styled.p`
   font-size: 16px;
   color: rgba(255, 255, 255, 0.808);
   line-height: 1.5;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    font-weight: 600;
   @media (max-width: 480px) {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.808);
@@ -160,22 +130,18 @@ const Descritpion = styled.p`
 const Button = styled.button`
 font-size:14px;
  width: 110px;
+ border: none;
       height: 35px;
-      background: none;
-      border-radius: 20px;
-      border: 1px solid white;
+      background: #1f1f21;
       color: white;
       font-weight: 600;
       cursor: pointer;
       outline: none;
       margin: 10px;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
       user-select: none;
       -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);}
+    border-radius: 50px;
       :hover {
     background: white;
     color: black;
@@ -204,7 +170,7 @@ class Heroes extends React.Component {
   }
   render() {
     return (
-      <ScrollAnimation animateIn="fadeIn" animateOnce duration={3}>
+      <div>
         <Modal
           channel="youtube"
           isOpen={this.state.isOpen}
@@ -227,7 +193,7 @@ class Heroes extends React.Component {
             <Button onClick={this.openModal}>SPOTLIGHT</Button>
           </HeroGroup>
         </Hero>
-      </ScrollAnimation>
+      </div>
     )
   }
 }

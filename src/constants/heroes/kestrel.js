@@ -3,19 +3,25 @@ export const frontmatter = {
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
   path: '/Kestrel',
+  wallpaper: [
+    {
+      name: 'Kestrel',
+      link: 'https://imgur.com/gallery/fRsNCKQ'
+    }
+  ],
   description: 'Stealthy archer with devastating skillshots and traps.',
   spotlight: 'ClhyGmpQZhY',
   stats: [
     { name: 'HEALTH', value: '728 - 2147', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: ' - ', color: '#4eec8b' },
+    /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
     { name: 'ENERGY', value: '404 - 492', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: ' - ', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '70 - 136', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
+    /*{ name: 'ENG REGEN', value: ' - ', color: '#5bbcff' },*/
+    { name: 'WP DAMAGE', value: '70 - 136', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '6.2', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.6', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '6.2', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.6', color: '#e19efb' },
   ],
   model: [{ image: 'Kestrelblurred' }, { tmodel: 'Kestrel' }],
   skills: [

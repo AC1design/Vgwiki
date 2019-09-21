@@ -3,19 +3,25 @@ export const frontmatter = {
   type: ['CAPTAIN', 'PROTECTOR'],
   role: ['CAPTAIN'],
   path: '/Flicker',
+  wallpaper: [
+    {
+      name: 'Flicker',
+      link: 'https://imgur.com/a/6mph4Ph'
+    }
+  ],
   description: 'Trickster who can make the entire team invisible.',
   spotlight: 'xj7Lj295kXM',
   stats: [
     { name: 'HEALTH', value: '797 - 2648', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '3.85 - 3.85', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '3.85 - 3.85', color: '#4eec8b' },
     { name: 'ENERGY', value: '295 - 757', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '1.94 - 4.69', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '77 - 155', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
+    { name: 'ENG REGEN', value: '1.94 - 4.69', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '77 - 155', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '35 - 100', color: '#f6ee71' },
     { name: 'SHIELD', value: '25 - 75', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '1.5', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '1.5', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'Flickerblurred' }, { tmodel: 'Flicker' }],
   skills: [

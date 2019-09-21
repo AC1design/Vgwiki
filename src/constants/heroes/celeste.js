@@ -3,19 +3,25 @@ export const frontmatter = {
   type: ['LANE', 'MAGE'],
   role: ['LANE'],
   path: '/Celeste',
+  wallpaper: [
+    {
+      name: 'Celeste',
+      link: 'https://imgur.com/a/r7GIsjF'
+    }
+  ],
   description: 'Back-line mage with heavy area damage and a stun.',
   spotlight: 'rC-vkqUkERY',
   stats: [
     { name: 'HEALTH', value: '649 - 2028', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '2.23 - 4.76', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '2.23 - 4.76', color: '#4eec8b' },
     { name: 'ENERGY', value: '380 - 732', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '2.53 - 4.84', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '0', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 125%', color: '#f48596' },
+    { name: 'ENG REGEN', value: '2.53 - 4.84', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '0', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 125%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '5.3', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.8', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '5.3', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.8', color: '#e19efb' },
   ],
   model: [{ image: 'Celesteblurred' }, { tmodel: 'Celeste' }],
   skills: [
@@ -239,6 +245,12 @@ export const frontmatter = {
       name: 'Snow Queen Celeste',
       type: 'Legendary',
       image: 'Celeste_Snow_Queen',
+    },
+    {
+      color: '#c78cff',
+      name: 'School Days Celeste',
+      type: 'Legendary',
+      image: 'Celeste_SchoolDays',
     },
   ],
 }
