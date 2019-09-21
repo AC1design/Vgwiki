@@ -5,10 +5,10 @@ import Hats from './Hats';
 const HatsM = props => (
     <div>
         <div className="Selectan">
-            <h1>Hats (Click for More)</h1>{' '}
+            <h1>Hats</h1>{' '}
         </div>
-        <div className="EmojiboxGroupScroll">
-            <div className="HatsboxGroup">
+        <div className="CardboxGroupScroll">
+            <div className="CardboxGroup">
                 {hats.map((hat, index) => (
                     <Hats
                         name={hat.name}

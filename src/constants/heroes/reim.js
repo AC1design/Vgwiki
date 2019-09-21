@@ -7,15 +7,15 @@ export const frontmatter = {
   spotlight: 'Ur-cD6ibo00',
   stats: [
     { name: 'HEALTH', value: '746 - 2499', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
+    /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
     { name: 'ENERGY', value: '220 - 462', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '(+)', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '80 - 153', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
+     /* { name: 'ENG REGEN', value: '(+)', color: '#5bbcff' }, */
+    { name: 'WP DAMAGE', value: '80 - 153', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '1.9', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '1.9', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'Reimblurred' }, { tmodel: 'Reim' }],
   skills: [
@@ -25,7 +25,7 @@ export const frontmatter = {
       image: 'Reim-P',
       text: [
         "Reim's basic attacks deal 50-160 (level 1-12) (+180% crystal power) damage over 4s and slow targets for 0.6s.",
-        'Reim temporarily gains fortified health equal to 10% (2.5% against non-heroes) of damage dealt.',
+        'Reim gains fortified health for 2.5s equal to 15% (2.5% against non-heroes) of damage dealt.',
         "• Fortified health is capped at 20% of Reim's maximum health.",
       ],
     },
@@ -34,7 +34,7 @@ export const frontmatter = {
       type: 'A ABILITY',
       image: 'Reim-A',
       text: [
-        'Reim summons a spire of ice at a nearby location, dealing crystal damage to surrounding enemies. After a shower delay, the spire shatters, dealing heavy crystal damage.',
+        'Reim summons a spire of ice at a nearby location, dealing crystal damage to surrounding enemies. After 0.5s, the spire shatters, dealing heavy crystal damage.',
         '• Deals less damage to minions.',
       ],
       stats: [
@@ -129,13 +129,13 @@ export const frontmatter = {
         {
           name: 'Damage at Center',
           amount: ['300', '450', '600'],
-          cr: '160%',
+          cr: '180%',
           wr: ' ',
         },
         {
           name: 'Damage at Edge',
           amount: ['50%', '50%', '50%'],
-          cr: ' ',
+          cr: '90%',
           wr: ' ',
         },
         {

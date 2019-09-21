@@ -2,6 +2,113 @@ import React from 'react'
 import H2 from './TalentH2Color'
 import './../components//Item.css'
 import Modal from 'react-modal'
+import styled from 'styled-components'
+
+const Flex = styled.div`
+`
+
+const Itembox = styled.div`
+    position: relative;
+	  border-radius: 26px;
+    background-color: #2B2B2D;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    min-height: 270px;
+    width: 150px;
+   outline: none;
+   text-align: center;
+   justify-content: center;
+   padding: 16px;
+   margin-right: 16px;
+   margin-bottom: 16px;
+${props => (props.reduce ? 'width: 70px;' : '')}
+${props => (props.reduce ? 'height: 70px;' : '')}
+${props => (props.reduce ? 'background-color: transparent;' : '')}
+${props => (props.reduce ? 'min-height: 70px;' : '')}
+${props => (props.reduce ? 'padding: 0px;' : '')}
+`
+const ItemImage = styled.img`
+    width: 80px;
+    height: 80px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    margin-bottom: 0px;
+    -webkit-user-drag: none;
+    text-align: center;
+    &:hover{
+      transform: scale(1.2)
+    }
+
+${props => (props.reduce ? 'width: 70px;' : '')}
+${props => (props.reduce ? 'height: 70px;' : '')}
+`
+const ItemName = styled.h1`
+    color: rgb(255, 255, 255);
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    margin-top: 16px;
+    width:100%;
+    margin-bottom: 0px;
+    ${props => (props.hidden ? 'visibility: hidden;' : '')}
+`
+const ItemType = styled.h2`
+    font-weight: 800;
+	font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    width: 80px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+    padding-top: 2px;
+    ${props => (props.hidden ? 'visibility: hidden;' : '')}
+`
+
+const ItemTier = styled.h2`
+	color: #ffffffcc;
+	font-weight: 800;
+    font-size: 11px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    ${props => (props.hidden ? 'visibility: hidden;' : '')}
+`
+const ItemTag = styled.h4`
+	position: relative;
+    border-radius: 6px;
+    color: rgb(255, 174, 52);
+	font-weight: 700;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    margin-top: 0px;
+    ${props => (props.hidden ? 'visibility: hidden;' : '')}
+`
+const ItemCost = styled.p`
+${props => (props.hidden ? 'visibility: hidden;' : '')}
+	position: absolute;
+    bottom: 16px;
+    width:120px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    background: #434348d4;
+    border-radius: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+`
 
 class Itemsbox extends React.Component {
   constructor(props) {
@@ -21,28 +128,50 @@ class Itemsbox extends React.Component {
   handleCloseModal() {
     this.setState({ showModal: false })
   }
+
+
   render() {
     return (
-      <div>
+      <Flex reduce={this.props.hideNameAndRole}>
         <Modal
           isOpen={this.state.showModal}
-          className="Modal"
+          className="ModalItem"
           overlayClassName="Overlay"
           onRequestClose={this.handleCloseModal}
           shouldCloseOnOverlayClick={true}
         >
-          <div className="Cost">
-            {this.props.cost && <p>{this.props.cost}</p>}
-          </div>
           <div className="Imginfo">
-            <img src={this.props.itemimg} alt={this.props.itemimg} />
+            <img className='MainModalImg' src={this.props.itemimg} alt={this.props.itemimg} />
             <div className="Info">
               <h1>{this.props.itemname}</h1>
-              <H2 color={this.props.color}> {this.props.class} </H2>
+              <h2 style={{
+                color:
+                  this.props.class === "DEFENSE"
+                    ? "#A0D46B"
+                    : this.props.class === "CRYSTAL"
+                      ? "#4A90E2"
+                      : this.props.class === "WEAPON"
+                        ? "#ED5565"
+                        : this.props.class === "UTILITY"
+                          ? "#AC92EC"
+                          : "#CCD1D9",
+                background:
+                  this.props.class === "DEFENSE"
+                    ? "#a0d46b40"
+                    : this.props.class === "CRYSTAL"
+                      ? "#4A90E240"
+                      : this.props.class === "WEAPON"
+                        ? "#ED556540"
+                        : this.props.class === "UTILITY"
+                          ? "#AC92EC40"
+                          : "#CCD1D940",
+              }}> {this.props.class} </h2>
               <h3>{this.props.tier}</h3>
             </div>
           </div>
-          <div className="divider" />
+          <div className="Cost">
+            {this.props.cost && <p>{this.props.cost}</p>}
+          </div>
           <div className="Text">
             <h4>{this.props.description}</h4>
             <h5>{this.props.tip}</h5>
@@ -80,23 +209,39 @@ class Itemsbox extends React.Component {
               )}
             </div>
           </div>
-          <button onClick={this.handleCloseModal}>CLOSE</button>
+          <button className='itembutton' onClick={this.handleCloseModal}>X</button>
         </Modal>
-        <div className="Itembox" onClick={this.handleOpenModal} tabIndex="0">
-          <div className="ImageCost">
-            <img src={this.props.itemimg} alt={this.props.itemimg} />
-            <div className="Cost">
-              <p>{this.props.cost}</p>
-            </div>
-          </div>
-          <H2 color={this.props.color}> {this.props.class} </H2>
-          <h3>{this.props.tier}</h3>
-          <h1>{this.props.itemname}</h1>
-          <div className="Tag">
-            <h4>{this.props.tag}</h4>
-          </div>
-        </div>
-      </div>
+        <Itembox reduce={this.props.hideNameAndRole} className="animated fadeInRight delay-0.4s" onClick={this.handleOpenModal} tabIndex="0">
+          <ItemImage reduce={this.props.hideNameAndRole} src={this.props.itemimg} alt={this.props.itemimg} />
+          <ItemName hidden={this.props.hideNameAndRole} >{this.props.itemname}</ItemName>
+          <ItemType hidden={this.props.hideNameAndRole} style={{
+            color:
+              this.props.class === "DEFENSE"
+                ? "#A0D46B"
+                : this.props.class === "CRYSTAL"
+                  ? "#4A90E2"
+                  : this.props.class === "WEAPON"
+                    ? "#ED5565"
+                    : this.props.class === "UTILITY"
+                      ? "#AC92EC"
+                      : "#CCD1D9",
+            background:
+              this.props.class === "DEFENSE"
+                ? "#a0d46b40"
+                : this.props.class === "CRYSTAL"
+                  ? "#4A90E240"
+                  : this.props.class === "WEAPON"
+                    ? "#ED556540"
+                    : this.props.class === "UTILITY"
+                      ? "#AC92EC40"
+                      : "#CCD1D940",
+          }}>{this.props.class}</ItemType>
+          <ItemTier hidden={this.props.hideNameAndRole}>{this.props.tier}</ItemTier>
+          {this.props.tag && (<ItemTag hidden={this.props.hideNameAndRole}>{this.props.tag}</ItemTag>
+          )}
+          <ItemCost hidden={this.props.hideNameAndRole}>{this.props.cost}</ItemCost>
+        </Itembox>
+      </Flex>
     )
   }
 }

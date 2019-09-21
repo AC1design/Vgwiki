@@ -8,15 +8,15 @@ export const frontmatter = {
   spotlight: 'r73Ezze8OLE',
   stats: [
     { name: 'HEALTH', value: '711 - 2367', color: '#4eec8b' },
-    { name: 'HEALTH REGEN', value: '3.54 - 6.95', color: '#4eec8b' },
+    { name: 'H. REGEN', value: '3.54 - 6.95', color: '#4eec8b' },
     { name: 'ENERGY', value: '280 - 643', color: '#5bbcff' },
-    { name: 'ENERGY REGEN', value: '1.87 - 4.29', color: '#5bbcff' },
-    { name: 'WEAPON DAMAGE', value: '79 - 164', color: '#f48596' },
-    { name: 'ATTACK SPEED', value: '100% - 108.8%', color: '#f48596' },
+    { name: 'ENG REGEN', value: '1.87 - 4.29', color: '#5bbcff' },
+    { name: 'WP DAMAGE', value: '79 - 164', color: '#f48596' },
+    { name: 'ATK SPD', value: '100% - 108.8%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
-    { name: 'ATTACK RANGE', value: '1.7', color: '#e19efb' },
-    { name: 'MOVE SPEED', value: '3.9', color: '#e19efb' },
+    { name: 'ATK RANGE', value: '1.7', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
   ],
   model: [{ image: 'Koshkablurred' }, { tmodel: 'Koshka' }],
   skills: [
@@ -27,7 +27,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Koshka-P',
       text: [
-        'Koshka gains 2 move speed for 2s whenever she deals damage with her abilities.',
+        'Koshka gains 2 move speed for 2.5s whenever she deals damage with her abilities.',
       ],
     },
     {
@@ -69,7 +69,7 @@ export const frontmatter = {
       text: [
         'Koshka twirls, damaging all enemies around her.',
         '• Her next 2 basic attacks within 4s deal bonus crystal damage and have reduced cooldown.',
-        '• Koshka gains barrier per enemy hero hit for 1s.',
+        '• Koshka gains barrier per enemy hero hit for 2s.',
         '• This hability resets her basic-attack cooldown upon activation.',
       ],
       stats: [
@@ -99,7 +99,7 @@ export const frontmatter = {
         },
         {
           name: 'Barrier',
-          amount: ['20', '35', '50', '65', '95'],
+          amount: ['25', '45', '65', '85', '125'],
           cr: '30%',
           wr: ' ',
         },

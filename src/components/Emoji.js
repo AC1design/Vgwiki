@@ -8,11 +8,11 @@ class Emojibox extends React.Component {
   }
   render() {
     return (
-      <div className="Emojis">
-        <div className="Emojibox" onClick={this.handleOpenModal} tabIndex="0">
+      <div className="Emojis animated fadeInRight delay-0.4s">
+        <div className="Emojibox" style={{alignItems: 'baseline'}} onClick={this.handleOpenModal} tabIndex="0">
             <img src={this.props.itemimg} alt={this.props.itemname} />
-        <h1 className="Emojiboxh1">{this.props.itemname}</h1>
         </div>
+        <h1 className="Emojiboxh1">{this.props.itemname}</h1>
       </div>
     )
   }

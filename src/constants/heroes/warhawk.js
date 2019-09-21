@@ -8,15 +8,15 @@ export const frontmatter = {
     spotlight: 'Omm4KGllXXo',
     stats: [
         { name: 'HEALTH', value: '721 - 2019', color: '#4eec8b' },
-        { name: 'HEALTH REGEN', value: '(+)', color: '#4eec8b' },
+        /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
         { name: 'ENERGY', value: '230 - 450', color: '#5bbcff' },
-        { name: 'ENERGY REGEN', value: '(+)', color: '#5bbcff' },
-        { name: 'WEAPON DAMAGE', value: '85 - 151', color: '#f48596' },
-        { name: 'ATTACK SPEED', value: '100% - 136.3%', color: '#f48596' },
+         /* { name: 'ENG REGEN', value: '(+)', color: '#5bbcff' }, */
+        { name: 'WP DAMAGE', value: '85 - 151', color: '#f48596' },
+        { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
         { name: 'ARMOR', value: '25 - 55', color: '#f6ee71' },
         { name: 'SHIELD', value: '25 - 55', color: '#f6ee71' },
-        { name: 'ATTACK RANGE', value: '5.5', color: '#e19efb' },
-        { name: 'MOVE SPEED', value: '3.8', color: '#e19efb' },
+        { name: 'ATK RANGE', value: '5.5', color: '#e19efb' },
+        { name: 'MOVE SPD', value: '3.8', color: '#e19efb' },
     ],
     model: [{ image: 'Warhawkblurred' }, { tmodel: 'Warhawk' }],
     skills: [
@@ -25,7 +25,8 @@ export const frontmatter = {
             type: 'Perk',
             image: 'Warhawk-P',
             text: [
-                'Every time Warhawk casts an ability, his next basic attack is empowered dealing 10-120 (level 1-12) (+100% crystal power)(+100% weapon power) and extending his attack range (+4.0).',
+                'Base Damage: 5+5 per hero level.',
+                'Every time Warhawk casts an ability, his next basic attack is empowered dealing 10-120 (level 1-12) (+7% crystal power)(+100% weapon power) and extending his attack range (+4.0).',
             ],
             video: 'Warhawk-P',
             stats: [],
@@ -41,7 +42,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['10s', '9.5s', '9s', '8.5s', '7s'],
+                    amount: ['12s', '11.5s', '11s', '10.5s', '9s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -70,7 +71,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['16s', '15s', '14s', '13s', '11s'],
+                    amount: ['20s', '19s', '18s', '17s', '15s'],
                     cr: ' ',
                     wr: ' ',
                 },

@@ -1,8 +1,5 @@
 import React from 'react'
-import Button from '@material-ui/core/Button'
-import Menu from '@material-ui/core/Menu'
-import MenuItem from '@material-ui/core/MenuItem'
-import Fade from '@material-ui/core/Fade'
+import Menu from '@material-ui/core/AppBar'
 import PropTypes from 'prop-types'
 import Tabs from '@material-ui/core/Tabs'
 import Tab from '@material-ui/core/Tab'
@@ -12,61 +9,46 @@ import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
 import { itemBoxes, itemTabs } from '../constants/items'
 import 'animate.css/animate.min.css'
-import Filter from './Icon/FilterIcon'
+import Square from './Icon/SquareIcon'
+import Grid from './Icon/GridIcon'
 
 const Selectan = styled.div`
   display: flex;
+  margin-top: 32px;
 `
-const StyledButton = withStyles({
+const StyledMenu = withStyles({
   root: {
-    position: 'absolute',
-    borderRadius: 5,
-    border: 0,
+    background: 'trasparent',
+    boxShadow: 'none',
+    padding: '16px 0px 0px 16px',
+  },
+})(Menu)
+
+const StyledTabs = withStyles({
+  root: {
+    background: 'trasparent',
+    boxShadow: 'none',
+  },
+})(Tabs)
+
+const StyledTab = withStyles({
+  root: {
+    background: '#313133',
     color: 'white',
-    height: 0,
-    padding: '0px',
-    marginLeft: '16px',
+    fontWeight: '800',
+    borderRadius: '50px',
+    fontSize: '12px',
     marginRight: '16px',
-    right: 0,
-    backgroundColor: 'transparent',
+    minHeight: '35px',
+    minWidth: 'fit-content',
   },
-  label: {
-    textTransform: 'capitalize',
-  },
-})(Button)
-
-const VerticalTabs = withStyles(() => ({
-  root: {
-    outline: 'none',
-  },
-  flexContainer: {
-    flexDirection: 'column',
-    background: '#2B2B2D',
-  },
-  indicator: {
-    display: 'none',
-  },
-}))(Tabs)
-
-const StyledTab = withStyles(() => ({
   selected: {
     fontWeight: '800',
-    borderBottom: '2px solid rgb(0, 183, 255)',
-  },
-  disabled: {
-    color: 'red',
   },
   textColorInherit: {
-    color: 'white',
-    opacity: 0.7,
-    '&$selected': {
-      opacity: 1,
-    },
-    '&$disabled': {
-      opacity: 0.2,
-    },
-  },
-}))(Tab)
+    opacity: '0.4',
+  }
+})(Tab)
 
 function TabContainer(props) {
   return (
@@ -94,6 +76,10 @@ class MobileItemsTab extends React.Component {
   state = {
     anchorEl: null,
     value: 0,
+    displayflex: '',
+    displayflexwrap: '',
+    displayflexwrapmargin: '',
+    displayflexjustify: '',
   }
 
   handleClick = event => {
@@ -106,6 +92,23 @@ class MobileItemsTab extends React.Component {
 
   handleChange = (event, value) => {
     this.setState({ value })
+  }
+
+
+  handleHideClick = event => {
+    this.setState({ hideNameAndRole: true })
+    this.setState({ displayflex: 'flex' })
+    this.setState({ displayflexwrap: 'wrap' })
+    this.setState({ displayflexwrapmargin: '0' })
+    this.setState({ displayflexjustify: 'center' })
+  }
+
+  handleShowClick = event => {
+    this.setState({ hideNameAndRole: false })
+    this.setState({ displayflex: '' })
+    this.setState({ displayflexwrap: '' })
+    this.setState({ displayflexwrapmargin: '' })
+    this.setState({ displayflexjustify: '' })
   }
 
   makeItemBox = (item, index) => (
@@ -131,6 +134,7 @@ class MobileItemsTab extends React.Component {
       item8={item.item8 ? require(`./../images/Items/${item.item8}.png`) : null}
       item9={item.item9 ? require(`./../images/Items/${item.item9}.png`) : null}
       key={index}
+      hideNameAndRole={this.state.hideNameAndRole}
     />
   )
 
@@ -141,56 +145,41 @@ class MobileItemsTab extends React.Component {
 
     return (
       <div>
-        <Selectan>
-          <div className="Selectan">
-            <h1>Select an Item</h1>
+        <div className="Selectan">
+          <h1>Heroes</h1>
+          <div className='SelctanIcon'>
+            <Square onClick={this.handleShowClick}>Show</Square>
+            <Grid style={{ marginLeft: '16px' }} onClick={this.handleHideClick}>Hide</Grid>
           </div>
-          <StyledButton
-            aria-owns={open ? 'fade-menu' : undefined}
-            aria-haspopup="true"
-            onClick={this.handleClick}
-            style={{
-              color: 'white',
-              fontWeight: '900',
-              marginTop: '25px',
-              padding: '0px',
-              minWidth: '30px',
-            }}
+        </div>
+        <div>
+          <StyledMenu
+            position="static" color="default" style={{ background: 'none' }}
           >
-            <Filter />
-          </StyledButton>
-        </Selectan>
-        <div
-          style={{
-            display: 'flex',
-            background: 'black',
-          }}
-        >
-          <Menu
-            id="fade-menu"
-            anchorEl={anchorEl}
-            open={open}
-            onClose={this.handleClose}
-            TransitionComponent={Fade}
-            style={{ outline: 'none' }}
-          >
-            <VerticalTabs
+            <StyledTabs
               value={value}
               onChange={this.handleChange}
-              className="menu-hack"
+              variant="scrollable"
+              scrollButtons='off'
+              indicatorColor='none'
             >
               {itemTabs.map((tab, index) => (
-                <StyledTab label={tab} onClick={this.handleClose} key={index}>
-                  <MenuItem onClick={this.handleClose}>{tab}</MenuItem>
+                <StyledTab label={tab} onClick={this.handleClose} key={index} selected={false}>
+                  {tab}
                 </StyledTab>
               ))}
-            </VerticalTabs>
-          </Menu>
+            </StyledTabs>
+          </StyledMenu>
         </div>
         {value === 0 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes.map((item, index) => {
                   return this.makeItemBox(item, index)
                 })}
@@ -200,8 +189,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 1 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'CRYSTAL')
                   .map((item, index) => this.makeItemBox(item, index))}
@@ -211,8 +205,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 2 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'WEAPON')
                   .map((item, index) => this.makeItemBox(item, index))}
@@ -222,8 +221,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 3 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'DEFENSE')
                   .map((item, index) => this.makeItemBox(item, index))}
@@ -233,8 +237,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 4 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'UTILITY')
                   .map((item, index) => this.makeItemBox(item, index))}
@@ -244,8 +253,13 @@ class MobileItemsTab extends React.Component {
         )}
         {value === 5 && (
           <TabContainer>
-            <div className="ItemboxGroupScroll">
-              <div className="ItemboxGroup">
+            <div className="CardboxGroupScroll">
+              <div className="CardboxGroup" style={{
+                display: this.state.displayflex,
+                flexWrap: this.state.displayflexwrap,
+                margin: this.state.displayflexwrapmargin,
+                justifyContent: this.state.displayflexjustify
+              }}>
                 {itemBoxes
                   .filter(item => item.class === 'CONSUMABLE')
                   .map((item, index) => this.makeItemBox(item, index))}
