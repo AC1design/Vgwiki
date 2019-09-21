@@ -27,7 +27,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Koshka-P',
       text: [
-        'Koshka gains 2 move speed for 2s whenever she deals damage with her abilities.',
+        'Koshka gains 2 move speed for 2.5s whenever she deals damage with her abilities.',
       ],
     },
     {
@@ -69,7 +69,7 @@ export const frontmatter = {
       text: [
         'Koshka twirls, damaging all enemies around her.',
         '• Her next 2 basic attacks within 4s deal bonus crystal damage and have reduced cooldown.',
-        '• Koshka gains barrier per enemy hero hit for 1s.',
+        '• Koshka gains barrier per enemy hero hit for 2s.',
         '• This hability resets her basic-attack cooldown upon activation.',
       ],
       stats: [
@@ -99,7 +99,7 @@ export const frontmatter = {
         },
         {
           name: 'Barrier',
-          amount: ['20', '35', '50', '65', '95'],
+          amount: ['25', '45', '65', '85', '125'],
           cr: '30%',
           wr: ' ',
         },

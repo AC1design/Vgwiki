@@ -25,7 +25,7 @@ export const frontmatter = {
       name: 'HEAVY PLATING',
       type: 'Perk',
       image: 'Joule-P',
-      text: ['Joule takes 35% less damage when hit from the front or sides.'],
+      text: ['Joule takes 30% less damage when hit from the front or sides.'],
     },
     {
       video:

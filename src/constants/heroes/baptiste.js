@@ -37,6 +37,8 @@ export const frontmatter = {
       type: 'A ABILITY',
       text: [
         'Baptiste pulls a vial of liquid from his vest and throws it. The vial explodes upon reaching its target or when colliding with an enemy.',
+        '• Projectile Speed: 17.0',
+        '• Range on Overdrive: 8',
         '• Enemies near the explosion take damage and the first enemy hit is slowed.',
         '• Deals 50% less damage to minions.',
       ],

@@ -162,7 +162,7 @@ export const frontmatter = {
             color: '#FF9000',
             text: [
                 'Reizan (A) now has two additional charges and deals more damage.',
-                '• Damage 150% (+10%)',
+                '• Damage 50% (+10%)',
             ],
             image: 'Miho_Legendary',
         },

@@ -54,7 +54,7 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['60', '95', '130', '165', '200'],
-          cr: '40%',
+          cr: '50%',
           wr: ' ',
         },
         {
@@ -144,7 +144,7 @@ export const frontmatter = {
         },
         {
           name: 'Fortified Health',
-          amount: ['0', '0', '0'],
+          amount: ['50', '100', '150'],
           cr: '150%',
           wr: ' ',
         },

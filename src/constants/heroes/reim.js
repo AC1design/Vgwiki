@@ -25,7 +25,7 @@ export const frontmatter = {
       image: 'Reim-P',
       text: [
         "Reim's basic attacks deal 50-160 (level 1-12) (+180% crystal power) damage over 4s and slow targets for 0.6s.",
-        'Reim temporarily gains fortified health equal to 10% (2.5% against non-heroes) of damage dealt.',
+        'Reim gains fortified health for 2.5s equal to 15% (2.5% against non-heroes) of damage dealt.',
         "• Fortified health is capped at 20% of Reim's maximum health.",
       ],
     },
@@ -34,7 +34,7 @@ export const frontmatter = {
       type: 'A ABILITY',
       image: 'Reim-A',
       text: [
-        'Reim summons a spire of ice at a nearby location, dealing crystal damage to surrounding enemies. After a shower delay, the spire shatters, dealing heavy crystal damage.',
+        'Reim summons a spire of ice at a nearby location, dealing crystal damage to surrounding enemies. After 0.5s, the spire shatters, dealing heavy crystal damage.',
         '• Deals less damage to minions.',
       ],
       stats: [
@@ -129,13 +129,13 @@ export const frontmatter = {
         {
           name: 'Damage at Center',
           amount: ['300', '450', '600'],
-          cr: '160%',
+          cr: '180%',
           wr: ' ',
         },
         {
           name: 'Damage at Edge',
           amount: ['50%', '50%', '50%'],
-          cr: ' ',
+          cr: '90%',
           wr: ' ',
         },
         {

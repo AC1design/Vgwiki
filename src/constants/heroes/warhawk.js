@@ -25,7 +25,8 @@ export const frontmatter = {
             type: 'Perk',
             image: 'Warhawk-P',
             text: [
-                'Every time Warhawk casts an ability, his next basic attack is empowered dealing 10-120 (level 1-12) (+100% crystal power)(+100% weapon power) and extending his attack range (+4.0).',
+                'Base Damage: 5+5 per hero level.',
+                'Every time Warhawk casts an ability, his next basic attack is empowered dealing 10-120 (level 1-12) (+7% crystal power)(+100% weapon power) and extending his attack range (+4.0).',
             ],
             video: 'Warhawk-P',
             stats: [],
@@ -41,7 +42,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['10s', '9.5s', '9s', '8.5s', '7s'],
+                    amount: ['12s', '11.5s', '11s', '10.5s', '9s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -70,7 +71,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['16s', '15s', '14s', '13s', '11s'],
+                    amount: ['20s', '19s', '18s', '17s', '15s'],
                     cr: ' ',
                     wr: ' ',
                 },

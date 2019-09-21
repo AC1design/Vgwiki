@@ -35,7 +35,7 @@ export const frontmatter = {
                 'Damage: 75-163 (level 1-12) (+35% crystal power)(+100% weapon power).',
                 '',
                 'Ishtar can summon and control Living Blades. Every time she performs a basic attack, each Living Blade within range will also perform a basic attack targeting the same enemy. They have the following properties:',
-                'Living Blades deal 10% (+35 crystal power) on each basic attack. Living Blades that strike the same target deal 33% after the first.',
+                'Living Blades deal 10% (+30 crystal power) on each basic attack. Living Blades that strike the same target deal 25% after the first.',
                 'It takes 4 separate attacks to kill a Living Blade.',
                 "Living Blades take normal damage from abilities and are granted 25% of Ishtar's defensive stats.",
                 'Living Blades take damage equal to 75% of their max health from turrets.',
@@ -49,7 +49,7 @@ export const frontmatter = {
             type: 'A ABILITY',
             image: 'Ishtar-A',
             text: [
-                'Ishtar fires a Living Blade toward a target location, dealing damage to all enemies that it passes through. If there are any other Blades on the battlefield, they will also dash towards the target location. If they strike the same target, it will deal 33% damage after the first.',
+                'Ishtar fires a Living Blade toward a target location, dealing damage to all enemies that it passes through. If there are any other Blades on the battlefield, they will also dash towards the target location. If they strike the same target, it will deal 25% damage after the first.',
                 '',
                 'Only four Living Blades can be present. If all four are currently active then Shadow Razor will instead command all of them to move towards the target location.'
             ],
@@ -80,7 +80,7 @@ export const frontmatter = {
             type: 'B ABILITY',
             image: 'Ishtar-B',
             text: [
-                'Ishtar and all Living Blades perform a spinning slash, dealing damage and slowing nearby enemies. If this successfully hits a target, Ishtar will gain a movement speed boost for a short period of time. If this ability strikes the same target, it will deal 33% after the first.',
+                'Ishtar and all Living Blades perform a spinning slash, dealing damage and slowing nearby enemies. If this successfully hits a target, Ishtar will gain a movement speed boost for a short period of time. If this ability strikes the same target, it will deal 25% after the first.',
                 '',
                 'Passively this ability grants bonus attack speed per level.'
             ],
@@ -132,7 +132,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['70s', '60s', '50s'],
+                    amount: ['85s', '75s', '65s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -145,8 +145,8 @@ export const frontmatter = {
                 {
                     name: 'Damage',
                     amount: ['50', '50', '50'],
-                    cr: '25%',
-                    wr: '60%',
+                    cr: '20% (x2)',
+                    wr: '55% (x2)',
                 },
                 {
                     name: 'Duration',

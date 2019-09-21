@@ -24,15 +24,15 @@ const Skinbox = props => (
             : props.text === "Epic"
               ? "#5c00b3"
               : props.text === "Legendary"
-                ? "#FF9000"
+                ? "#5d3400"
                 : '#690707',
         background:
           props.text === "Rare"
-            ? "#6393F995"
+            ? "#6393f9d9"
             : props.text === "Epic"
               ? "#c78cff90"
               : props.text === "Legendary"
-                ? "#FF900060"
+                ? "#ff9000cc"
                 : "#ff2d2de6",
       }}> {props.text}</p>
       {props.price || skinCosts[props.text.toLowerCase()] ? (

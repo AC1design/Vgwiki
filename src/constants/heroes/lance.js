@@ -33,7 +33,7 @@ export const frontmatter = {
         "Lance's basic attacks damage every target along their path. However, his attacks are slow to land and attack speed is less effective on him.",
         'Instead of energy, Lance uses stamina to activate his abilities. Purchasing items with energy and energy regeneration increases his stamina and stamina regeneration.',
         '• Max Stamina: 100 + 30% Max Energy',
-        '• Stamina Regen: 20 + 50% Energy Regen',
+        '• Stamina Regen: 25 + 50% Energy Regen',
       ],
     },
     {
