@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'VGWIKI',
     description: `A Vainglory Wiki`,
-    author: `AngeloCant1 - IGN: AngeloC`,
+    author: `AC1design - IGN: AngeloC`,
     url: "https://www.vgwiki.netlify.com"
   },
   plugins: [

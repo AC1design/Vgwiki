@@ -142,7 +142,7 @@ export default function({ data }) {
             <p>VGWIKI is not affiliated or part of Super Evil Megacorp. All Vainglory copyrights and art assets belong to Super Evil Megacorp.</p>
             Made by
 {' '}
-            <a href="https://twitter.com/AngeloCant1">AngeloC</a>
+            <a href="https://twitter.com/AC1design">AngeloC</a>
             <a style={{ marginLeft: '16px' }} href='https://www.termsfeed.com/privacy-policy/b38962cdaa462299f0b57bf61cc6dbef'>Privacy Policy</a>
             <h1 style={{ fontSize: '14px' }}>Cookie Declaration</h1>
             <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
