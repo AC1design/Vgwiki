@@ -114,7 +114,7 @@ class IndexPage extends React.Component {
               <h3>NEW HERO</h3>
               <h1>Ishtar</h1>
             </div>
-            <p>UPDATE 4.6</p>
+            <p>UPDATE 4.7</p>
           </div>
           <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px', }}>
             <div className='columnsparent'>
