@@ -6,7 +6,7 @@ export const frontmatter = {
     wallpaper: [
         {
             name: 'Viola',
-            link: ''
+            link: 'https://imgur.com/a/UK8l8WO'
         }
     ],
     description:
