@@ -17,6 +17,17 @@ const News = props => (
                     link='https://imgur.com/a/UK8l8WO'
                 />
 
+        <MediaControlCard
+            image={require('../images/Wallpaper/Lyra.jpg')}
+            title='Lyra'
+                    link='https://imgur.com/a/iShj0Dr'
+        />
+        <MediaControlCard
+                    image={require('../images/Wallpaper/Silvernail.jpg')}
+            title='Silvernail'
+                    link='https://imgur.com/a/06U5cuQ'
+        />
+
                 <MediaControlCard
                     image={require('../images/Wallpaper/Celeste.jpg')}
                     title='Celeste'
@@ -34,17 +45,6 @@ const News = props => (
                     title='Phinn'
                     link='https://imgur.com/a/H4qIcrS'
                 />
-        <MediaControlCard
-                    image={require('../images/Wallpaper/Ishtar.jpg')}
-            title='Ishtar'
-            link='https://imgur.com/gallery/XYqEX3K'
-        />
-
-        <MediaControlCard
-            image={require('../images/Wallpaper/Flicker.jpg')}
-            title='Flicker'
-            link='https://imgur.com/gallery/mQ6EjCg'
-        />
     </div>
         </div>
     </div>
