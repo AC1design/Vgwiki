@@ -207,5 +207,10 @@ export const frontmatter = {
       type: 'Rare',
       image: 'Silvernail_Tribal',
     },
+    {
+      name: 'Medieval Silvernail',
+      type: 'Epic',
+      image: 'Silvernail_Medieval',
+    },
   ],
 }

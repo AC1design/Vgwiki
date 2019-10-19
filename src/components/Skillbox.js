@@ -76,7 +76,6 @@ class Skillbox extends React.Component {
               marginLeft: '16px',
               marginTop: '16px',
               alignSelf: 'flex-start',
-            alignItems: 'center',
             }}>
               <img
                 src={require(`./../images/Ability/${this.props.image}.png`)}

@@ -6,16 +6,11 @@ import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import Itemsbox from './Item'
 import { withStyles } from '@material-ui/core/styles'
-import styled from 'styled-components'
 import { itemBoxes, itemTabs } from '../constants/items'
 import 'animate.css/animate.min.css'
 import Square from './Icon/SquareIcon'
 import Grid from './Icon/GridIcon'
 
-const Selectan = styled.div`
-  display: flex;
-  margin-top: 32px;
-`
 const StyledMenu = withStyles({
   root: {
     background: 'trasparent',
@@ -139,8 +134,6 @@ class MobileItemsTab extends React.Component {
   )
 
   render() {
-    const { anchorEl } = this.state
-    const open = Boolean(anchorEl)
     const { value } = this.state
 
     return (

@@ -85,7 +85,7 @@ export const frontmatter = {
       type: 'B ABILITY',
       image: 'Lance-B',
       text: [
-        'Lance smashes enemies back with his shield, dealing weapon damage and also stunning them if they collide with a wall or structure (max 1.4s). Afterward, he holds his shield steadfast, greatly reducing incoming damage from the target direction by up to 90%.',
+        'Lance smashes enemies back with his shield, dealing weapon damage and also stunning them if they collide with a wall or structure (max 1.6s). Afterward, he holds his shield steadfast, greatly reducing incoming damage from the target direction by up to 90%.',
         '• Overdrive: At max rank, Lance ignores all negative effects (from any direction) while this ability is active.',
         '• Damage reduction is 50% effective against turrets.',
         "• Passive: Lance strafes around the enemy he has most recently attacked. While strafing, he reduces damage from the target's direction by up to 50%.",
@@ -117,7 +117,7 @@ export const frontmatter = {
         },
         {
           name: 'Stun Duration',
-          amount: ['0.6s', '0.7s', '0.8s', '0.9s', '1s'],
+          amount: ['0.6s', '0.7s', '0.8s', '0.9s', '1.2s'],
           cr: '0.2%',
           wr: ' ',
         },

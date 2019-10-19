@@ -28,7 +28,7 @@ export const frontmatter = {
         '• Each channeled missile consumes 15-20 (level 1-12) energy points, but Lyra can continue using these even if she runs out of energy.',
         '• Light attack damage: 60-95 (level 1-12) (+40% Crystal Power)(+100% Weapon Power)',
         '• Heavy attack damage: 60-180 (level 1-12) (+120% Crystal Power)(+100% Weapon Power)',
-        '• Heavy attack slow: 0% (+0.04% of bonus max health)',
+        '• Heavy attack slow: 0% (+0.05% of bonus max health)',
       ],
     },
     {
@@ -37,7 +37,7 @@ export const frontmatter = {
       image: 'Lyra-A',
       text: [
         'Lyra creates a sigil that heals nearby allied heroes and damages nearby enemy heroes. Reactivate this ability to detonate the sigil, dealing heavy damage to enemies while providing a move speed boost to allies inside and immediately consuming the remaining duration to heal at 30% effectiveness.',
-        "• The healing per second is increase by 11% of Lyra's bonus health.",
+        "• The healing per second is increase by 13% of Lyra's bonus health.",
         '• The sigil depletes faster the more heroes it is healing/damaging.',
         '• The sigil has vision, so it can see enemies.',
         '• The Detonation deals 50% less damage to minions.',
@@ -244,6 +244,11 @@ export const frontmatter = {
       name: 'Tidal Enchanter Lyra',
       type: 'Legendary',
       image: 'Lyra_Tidal_Enchanter',
+    },
+    {
+      name: 'Occultist Lyra',
+      type: 'Special Edition',
+      image: 'Lyra_Occultist',
     },
   ],
 }

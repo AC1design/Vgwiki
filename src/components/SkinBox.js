@@ -1,6 +1,5 @@
 import React from 'react'
 import '../components/Skinbox.css'
-import P from '../components/SkinPColor'
 import 'animate.css/animate.min.css'
 
 const skinCosts = {

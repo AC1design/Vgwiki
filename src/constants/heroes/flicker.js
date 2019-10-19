@@ -30,7 +30,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Flicker-P',
       text: [
-        'Flicker gains stealth and a move speed bonus when in brush for 2s. Flicker can then leave the brush and remain stealthed for 3s.',
+        'Flicker gains stealth and a 2.0 move speed bonus when in brush for 2s. Flicker can then leave the brush and remain stealthed for 3s.',
         '• Flicker has true sight while stealthed.',
         '• Taking damage, attacking or using abilities removes stealth.',
       ],
@@ -115,7 +115,7 @@ export const frontmatter = {
         },
         {
           name: 'Slow',
-          amount: ['35%', '40%', '45%', '50%', '60%'],
+          amount: ['40%', '45%', '50%', '55%', '65%'],
           cr: ' ',
           wr: ' ',
         },
@@ -134,7 +134,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['120s', '100s', '80s'],
+          amount: ['110s', '90s', '70s'],
           cr: ' ',
           wr: ' ',
         },

@@ -41,7 +41,7 @@ export const frontmatter = {
       type: 'A ABILITY',
       image: 'Phinn-A',
       text: [
-        'Phinn slams his anchor down on the targeted location, heavily slowing enemies for 0.9s.',
+        'Phinn slams his anchor down on the targeted location, heavily slowing enemies for 1.1s.',
         '• Overdrive: At max rank, the slow becomes a stun!',
         '• Deals less damage to minions.',
       ],
@@ -214,7 +214,7 @@ export const frontmatter = {
     },
     {
       color: '#FF9000',
-      name: 'Wu Xing Eart Phinn',
+      name: 'Wu Xing Earth Phinn',
       type: 'Legendary',
       image: 'Phinn_WuXingEarth',
     },

@@ -1,5 +1,4 @@
 import React from 'react'
-import H2 from './TalentH2Color'
 import './../components//Item.css'
 import Modal from 'react-modal'
 import styled from 'styled-components'

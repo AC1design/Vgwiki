@@ -57,7 +57,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['13s', '12s', '11s', '10s', '7s'],
+                    amount: ['15s', '14s', '13s', '12s', '9s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -100,7 +100,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Damage',
-                    amount: ['60', '105', '150', '195', '240'],
+                    amount: ['45', '90', '135', '180', '270'],
                     cr: '50%',
                     wr: ' ',
                 },
@@ -127,7 +127,7 @@ export const frontmatter = {
                 'Ishtar destroys all existing Living Blades before creating four new ones near her.',
                 '',
                 'Additionally she becomes empowered for a short time, granting her bonus vampirism and movement speed.',
-                'Basic attacks will now also fire two projectiles that deal 50-94 (level 1-12) (+20% x2 crystal power)(+55% x2 weapon power) and seperately apply basic-attack effects.'
+                'Basic attacks will now also fire two projectiles that deal 50-94 (level 1-12) (+20% crystal power)(+55% x2 weapon power) and seperately apply basic-attack effects.'
             ],
             stats: [
                 {
@@ -145,8 +145,8 @@ export const frontmatter = {
                 {
                     name: 'Damage',
                     amount: ['50', '50', '50'],
-                    cr: '20% (x2)',
-                    wr: '55% (x2)',
+                    cr: '20%',
+                    wr: '55%',
                 },
                 {
                     name: 'Duration',

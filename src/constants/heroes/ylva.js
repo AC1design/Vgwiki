@@ -58,7 +58,7 @@ export const frontmatter = {
         },
         {
           name: 'Bonus Damage',
-          amount: ['80', '120', '160', '200', '240'],
+          amount: ['60', '120', '180', '240', '360'],
           cr: '100%',
           wr: ' ',
         },

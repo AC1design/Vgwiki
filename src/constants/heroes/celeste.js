@@ -60,13 +60,13 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['60', '105', '150', '195', '240'],
+          amount: ['60', '110', '160', '210', '260'],
           cr: '80%',
           wr: ' ',
         },
         {
           name: 'Nova Damage',
-          amount: ['80', '140', '200', '260', '320'],
+          amount: ['80', '145', '210', '275', '340'],
           cr: '175%',
           wr: ' ',
         },
@@ -140,13 +140,13 @@ export const frontmatter = {
         {
           name: 'Lead Star Damage',
           amount: ['300', '325', '350'],
-          cr: '80%',
+          cr: '90%',
           wr: ' ',
         },
         {
           name: 'Trailing Star Damage',
           amount: ['150', '160', '170'],
-          cr: '15%',
+          cr: '20%',
           wr: ' ',
         },
         {

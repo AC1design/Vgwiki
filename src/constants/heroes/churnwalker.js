@@ -16,7 +16,7 @@ export const frontmatter = {
     { name: 'ARMOR', value: '35 - 100', color: '#f6ee71' },
     { name: 'SHIELD', value: '25 - 75', color: '#f6ee71' },
     { name: 'ATK RANGE', value: '1.7', color: '#e19efb' },
-    { name: 'MOVE SPD', value: '3.5', color: '#e19efb' },
+    { name: 'MOVE SPD', value: '3.7', color: '#e19efb' },
   ],
   model: [{ image: 'Churnwalkerblurred' }, { tmodel: 'Churnwalker' }],
   skills: [

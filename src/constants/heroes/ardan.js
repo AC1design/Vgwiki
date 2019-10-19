@@ -43,7 +43,7 @@ export const frontmatter = {
         'Ardan dashes to protect an ally, granting them a 4s barrier and a burst of move speed. This also slows and damages nearby enemies.',
         '• Overdrive: At max rank, Vanguard grants 50% Vengeance when cast on an ally.',
         '• Using this ability on himself results in only half the barrier, speed boost and Vengeance gain.',
-        "• Barrier scales up with 30% of Ardan's bonus health.",
+        "• Barrier scales up with 35% of Ardan's bonus health.",
         '• Any time this ally takes damage, Ardan gains Vengeance.',
       ],
       image: 'Ardan-A',
@@ -126,7 +126,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['120s', '110s', '100s'],
+          amount: ['120s', '105s', '90s'],
           cr: ' ',
           wr: ' ',
         },

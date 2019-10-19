@@ -39,7 +39,7 @@ export const frontmatter = {
       text: [
         "Heals a target ally, then splashes Arcane Fire onto nearby enemies. If Adagio heals himself, he'll also apply a heavy slow to nearby enemies. Arcane Fire (status effect): Burns the target every second and causes Adagio's other abilities to deal more damage.",
         '• Burst heals the target instantly, followed by a gradual heal over the next few seconds.',
-        "• Burst Heal is increased by 9% of Adagio's bonus health.",
+        "• Burst Heal is increased by 10% of Adagio's bonus health.",
         '• When cast on self, slows nearby enemies by 70% for 0.7s.',
         '• Resets basic-attack cooldown on activation.',
       ],

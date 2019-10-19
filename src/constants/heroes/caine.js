@@ -56,7 +56,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Slow Strength',
-                    amount: ['25%', '30%', '35%', '40%', '50%'],
+                    amount: ['30%', '35%', '40%', '45%', '60%'],
                     cr: ' ',
                     wr: ' ',
                 },

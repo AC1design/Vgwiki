@@ -47,6 +47,7 @@ import { frontmatter as skye } from './heroes/skye'
 import { frontmatter as taka } from './heroes/taka'
 import { frontmatter as tony } from './heroes/tony'
 import { frontmatter as varya } from './heroes/varya'
+import { frontmatter as viola } from './heroes/viola'
 import { frontmatter as vox } from './heroes/vox'
 import { frontmatter as warhawk } from './heroes/warhawk'
 import { frontmatter as yates } from './heroes/yates'
@@ -62,7 +63,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
-  ishtar,
+  viola,
   adagio,
   alpha,
   anka,
@@ -82,6 +83,7 @@ export const heroCards = [
   gwen,
   idris,
   inara,
+  ishtar,
   joule,
   kensei,
   kestrel,

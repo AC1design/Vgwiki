@@ -6,7 +6,6 @@ import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import Card from './Card'
 import { withStyles } from '@material-ui/core/styles'
-import styled from 'styled-components'
 import { heroCards } from '../constants/heroes'
 import 'animate.css/animate.min.css'
 import Square from './Icon/SquareIcon'
@@ -14,10 +13,6 @@ import Grid from './Icon/GridIcon'
 
 const heroTabs = ['ALL', 'ASSASSINS', 'MAGE', 'PROTECTOR', 'SNIPER', 'WARRIOR']
 
-const Selectan = styled.div`
-  display: flex;
-  max-width: 1366px;
-`
 const StyledMenu = withStyles({
   root: {
     background: 'trasparent',
