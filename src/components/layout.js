@@ -1,24 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from "gatsby"
 
 import Header from './header'
 import './layout.css'
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
         }
       }
-    `}
-    render={data => (
+    }
+  `)
+
+  return (
       <>
+        <Header siteTitle={data.site.siteMetadata.title} />
         <Helmet
           title={data.site.siteMetadata.title}
           description={data.site.siteMetadata.description}
@@ -45,20 +46,17 @@ const Layout = ({ children }) => (
               <meta property="twitter:title" content="VGWIKI"/>
                 <meta property="twitter:description" content="A Vainglory Wiki"/>
                   <meta property="twitter:image" content="https://i.imgur.com/qBMkj19.png"/>
-          <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="723cc8d9-3751-4bf3-826f-a7fa548b4a79" type="text/javascript" data-cookieconsent="statistics, marketing, preferences, necessary" data-blockingmode="auto"></script>
+          <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="723cc8d9-3751-4bf3-826f-a7fa548b4a79" type="text/javascript" data-blockingmode="auto"></script>
           <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
           <meta name='viewport' content='initial-scale=1, viewport-fit=cover'/>
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-        >
+        <div>
           {children}
         </div>
-      </>
-    )}
-  />
-)
+    </>
+  )
+  }
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

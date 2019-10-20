@@ -18,6 +18,7 @@ import Tab from '@material-ui/core/Tab'
 import { withStyles } from '@material-ui/core/styles'
 import Menu from '@material-ui/core/AppBar'
 import Divider from '@material-ui/core/Divider'
+import SEO from "../components/seo"
 
 const StyledMenu = withStyles({
   root: {
@@ -82,8 +83,8 @@ class IndexPage extends React.Component {
     const { value } = this.state
 
     return (
-
       <Layout>
+        <SEO title="A Vainglory Wiki" />
         <meta name="theme-color" content="#1f1f21" />
         <Page loader={'bar'} color={'#A9A9A9'} size={4} duration={1}>
           <MediaQuery query="(min-width: 721px)">

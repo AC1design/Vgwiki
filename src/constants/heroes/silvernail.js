@@ -5,6 +5,12 @@ export const frontmatter = {
   path: '/Silvernail',
   description: 'Grizzled hunter with a powerful crossbow and tripwires.',
   spotlight: 'cC5-fdOn8C8',
+  wallpaper: [
+    {
+      name: 'Silvernail',
+      link: 'https://imgur.com/a/06U5cuQ'
+    }
+  ],
   stats: [
     { name: 'HEALTH', value: '745 - 2175', color: '#4eec8b' },
     { name: 'H. REGEN', value: '-', color: '#4eec8b' },

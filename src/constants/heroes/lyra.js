@@ -5,6 +5,12 @@ export const frontmatter = {
   path: '/Lyra',
   description: 'Healer and zone mage who can create teleportation portals.',
   spotlight: '5URpZoYn9a8',
+  wallpaper: [
+    {
+      name: 'Lyra',
+      link: 'https://imgur.com/a/iShj0Dr'
+    }
+  ],
   stats: [
     { name: 'HEALTH', value: '774 - 2253', color: '#4eec8b' },
     { name: 'H. REGEN', value: '4.01 - 7.42', color: '#4eec8b' },
