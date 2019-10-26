@@ -29,7 +29,8 @@ const Layout = ({ children }) => {
             { property: 'og:image', content: 'https://i.imgur.com/qBMkj19.png' },
             { name:"viewport", content:"width=device-width, initial-scale=1.0, viewport-fit=cover"}
           ]}
-        >
+      >
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="723cc8d9-3751-4bf3-826f-a7fa548b4a79" data-blockingmode="auto" type="text/javascript"></script>
           <meta name="title" content="VGWIKI"/>
             <meta name="description" content="A Vainglory Wiki"/>
 
@@ -46,7 +47,6 @@ const Layout = ({ children }) => {
               <meta property="twitter:title" content="VGWIKI"/>
                 <meta property="twitter:description" content="A Vainglory Wiki"/>
                   <meta property="twitter:image" content="https://i.imgur.com/qBMkj19.png"/>
-          <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="723cc8d9-3751-4bf3-826f-a7fa548b4a79" type="text/javascript" data-blockingmode="auto"></script>
           <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
           <meta name='viewport' content='initial-scale=1, viewport-fit=cover'/>
           <html lang="en" />
