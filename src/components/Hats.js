@@ -8,7 +8,6 @@ width: 165px;
     overflow: hidden;
     border-radius: 26px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    cursor: pointer;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
     background-color: #2b2b2d;
@@ -63,7 +62,7 @@ class Hat extends React.Component {
         return (
             <div>
                 <HatBox onClick={this.handleClick} className='animated fadeInRight delay-0.4s'>
-                    <div style={{ background: '#15151bbf', padding: '16px 16px 6px 16px', overflow: 'visible', borderRadius: '26px 26px 0px 26px'}}>
+                    <div style={{ background: 'rgb(27, 27, 29)', padding: '16px 16px 6px 16px', overflow: 'visible', borderRadius: '26px 26px 0px 26px'}}>
                     <HatImg src={this.props.hat}></HatImg>
                         <NameHat>{this.props.name}</NameHat>
                     </div>
