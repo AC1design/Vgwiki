@@ -56,7 +56,7 @@
     bottom: 32px;
     background: transparent;
     border: none;
-	background: #434348;
+	border: 1px solid #434348;
 	font-weight: 350;
     font-size: 14px;
     width: 85%;
@@ -70,6 +70,11 @@
    outline: none;
    text-align: center;
    font-weight: 600;
+   color: #cccccf;
+}
+
+.Skillboxbutton:hover {
+	background: #434348;
    color: #cccccf;
 }
 
