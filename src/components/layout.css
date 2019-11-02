@@ -356,7 +356,7 @@ overflow: visible;
 /*modal queries*/
 
 .Modal {
-	max-width: 380px;
+	max-width: 720px;
 	height: auto;
 	width: 95%;
 	margin: 0 auto;
