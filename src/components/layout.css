@@ -454,7 +454,7 @@ overflow: visible;
 }
 
 .player {
-	border-radius: 0px 0px 26px 26px;
+	border-radius: 26px;
 	outline: none;
 	background-color: #2B2B2D;
 	overflow: hidden;
@@ -501,6 +501,13 @@ overflow: visible;
 		height: 295px;
 		overflow-y: auto;
 	}
+	.player {
+	border-radius: 0px 0px 26px 26px;
+	outline: none;
+	background-color: #2B2B2D;
+	overflow: hidden;
+  animation: slideInDown 0.8s;
+}
 }
 
 @media only screen and (min-device-width: 319px) and (max-device-width: 1024px) and (orientation: landscape) {

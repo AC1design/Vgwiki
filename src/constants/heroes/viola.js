@@ -11,7 +11,7 @@ export const frontmatter = {
     ],
     description:
         'A wondering musician with a mysterious magical instrument.',
-    spotlight: '',
+    spotlight: 'iDw9Hvk1DtA',
     stats: [
         { name: 'HEALTH', value: '721 - 2019', color: '#4eec8b' },
         /* { name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
@@ -45,7 +45,7 @@ export const frontmatter = {
                 "Barrier scales up with 5% of Viola's bonus health.",
                 'Afterwards, she will gain 1 Harmony Note (A). If Viola already has three notes, then the oldest one will be replaced instead.'
             ],
-            video: '',
+            video: 'Viola-A',
             stats: [
                 {
                     name: 'Cooldown',
@@ -75,7 +75,7 @@ export const frontmatter = {
                 'Viola sends a music note that damages and slows the first enemy that it hits.',
                 'After cast, she will gain 1 Discord Note CB). If Viola already has three notes, then the oldest one will be replaced instead.',
             ],
-            video: '',
+            video: 'Viola-B',
             stats: [
                 {
                     name: 'Cooldown',
@@ -128,7 +128,7 @@ export const frontmatter = {
                 'B B B - Lullaby',
                 'Casts an aura that makes tagged enemies Drowsy and inflicts a ramping slow. After 3s, the enemies will be put to sleep and unable to move or act until they take damage or after it wears off. Enemies affected by Lullaby cannot be affected again for 30s. ',
             ],
-            video: '',
+            video: 'Viola-C',
             stats: [
                 {
                     name: 'Cooldown',
