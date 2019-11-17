@@ -193,5 +193,11 @@ export const frontmatter = {
       type: 'Rare',
       image: 'Magnus_Masquerade',
     },
+    {
+      color: '#6393F9',
+      name: 'Wu Xing Water Magnus',
+      type: 'Legendary',
+      image: 'Magnus_WuXingWater',
+    },
   ],
 }

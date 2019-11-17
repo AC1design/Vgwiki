@@ -58,7 +58,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Bonus Damage',
-                    amount: ['30', '60', '90', '120', '180'],
+                    amount: ['30', '50', '70', '90', '130'],
                     cr: ' ',
                     wr: '100%',
                 },
@@ -112,7 +112,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['80s', '70s', '60s'],
+                    amount: ['90s', '80s', '70s'],
                     cr: ' ',
                     wr: ' ',
                 },

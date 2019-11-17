@@ -20,7 +20,7 @@ export const frontmatter = {
         { name: 'WP DAMAGE', value: '0', color: '#f48596' },
         { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
         { name: 'ARMOR', value: '25 - 74', color: '#f6ee71' },
-        { name: 'SHIELD', value: '25 - 74', color: '#f6ee71' },
+        { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
         { name: 'ATK RANGE', value: '6.2', color: '#e19efb' },
         { name: 'MOVE SPD', value: '3.8', color: '#e19efb' },
     ],
@@ -32,7 +32,7 @@ export const frontmatter = {
             image: 'Ishtar-P',
             text: [
                 "Ishtar's basic attacks are imbued with demonic energy that deal crystal damage.",
-                'Damage: 75-163 (level 1-12) (+35% crystal power)(+100% weapon power).',
+                'Damage: 75-163 (level 1-12) (+30% crystal power)(+100% weapon power).',
                 '',
                 'Ishtar can summon and control Living Blades. Every time she performs a basic attack, each Living Blade within range will also perform a basic attack targeting the same enemy. They have the following properties:',
                 'Living Blades deal 10% (+30 crystal power) on each basic attack. Living Blades that strike the same target deal 25% after the first.',
@@ -88,7 +88,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['10s', '9.5s', '9s', '8.5s', '7s'],
+                    amount: ['12s', '11.5s', '11s', '10.5s', '9s'],
                     cr: ' ',
                     wr: ' ',
                 },

@@ -25,7 +25,7 @@ export const frontmatter = {
       image: 'Taka-P',
       text: [
         'Taka gains Mortal Strike every 2s.',
-        "• Mortal Strike: Taka's next basic attack deals 30-85 (level 1-12) (+30% weapon power) bonus damage (can't crit) and briefly gains 1.7 bonus movement speed.",
+        "• Mortal Strike: Taka's next basic attack deals 30-85 (level 1-12) (+40% weapon power) bonus damage (can't crit) and briefly gains 1.7 bonus movement speed.",
         '• When Taka uses an ability or lands a Mortal Strike, he gains a stack of Ki.',
         '• Ki: Taka gains Mortal Strike faster and his ability cooldown are reduced by 5% per stack.',
         '• 5 stacks max.',
@@ -132,7 +132,7 @@ export const frontmatter = {
         {
           name: 'Damage/sec',
           amount: ['30', '35', '40'],
-          cr: '75%',
+          cr: '80%',
           wr: ' ',
         },
         {

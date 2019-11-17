@@ -92,7 +92,7 @@ export const frontmatter = {
           name: 'Damage',
           amount: ['150', '200', '250', '300', '350'],
           cr: '140%',
-          wr: '200%',
+          wr: '170%',
         },
       ],
     },

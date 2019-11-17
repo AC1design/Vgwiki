@@ -32,6 +32,7 @@ export const frontmatter = {
             image: 'Viola-P',
             text: [
                 'Every time Viola casts an ability, she gains a stack of Melodious Tune granting her cooldown reduction.',
+                'Basic Attack Damage: 70+5.5% per level (+50% crystal power)',
             ],
             video: '',
             stats: [],
@@ -42,7 +43,7 @@ export const frontmatter = {
             image: 'Viola-A',
             text: [
                 'Viola sends out a music note that grants a barrier to herself as well as any allies that it passes through. This barrier can be stacked up to on any person',
-                "Barrier scales up with 5% of Viola's bonus health.",
+                "Barrier scales up with 7% of Viola's bonus health.",
                 'Afterwards, she will gain 1 Harmony Note (A). If Viola already has three notes, then the oldest one will be replaced instead.'
             ],
             video: 'Viola-A',
@@ -61,7 +62,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Barrier Strength',
-                    amount: ['30', '60', '90', '120', '180'],
+                    amount: ['50', '85', '120', '155', '225'],
                     cr: '50%',
                     wr: ' ',
                 },
@@ -92,7 +93,7 @@ export const frontmatter = {
                 {
                     name: 'Bonus Damage',
                     amount: ['60', '100', '140', '180', '260'],
-                    cr: '150%',
+                    cr: '120%',
                     wr: ' ',
                 },
                 {
@@ -114,7 +115,7 @@ export const frontmatter = {
             type: 'ULTIMATE',
             image: 'Viola-C',
             text: [
-                ' Viola  plays a song that grants various effects to allies and enemies that are first tagged by the aura. The effects of the song and who it applies to is based on the combination of Musical Notes that she currently possesses. This ability can only be activated if she has 3 Musical Notes present.',
+                ' Viola plays a song that grants various effects to allies and enemies that are first tagged by the aura. The effects of the song and who it applies to is based on the combination of Musical Notes that she currently possesses. This ability can only be activated if she has 3 Musical Notes present.',
                 '',
                 'A A A - Fleeting Song',
                 'Casts an aura that cleanses movement impairing effects and grants movement speed to tagged allies for 3s. This can be cast while under Crowd Control effects such as stuns and silences.',
@@ -126,13 +127,13 @@ export const frontmatter = {
                 'Casts an aura that deals damage damage over time and applies mortal wounds to tagged enemies.',
                 '',
                 'B B B - Lullaby',
-                'Casts an aura that makes tagged enemies Drowsy and inflicts a ramping slow. After 3s, the enemies will be put to sleep and unable to move or act until they take damage or after it wears off. Enemies affected by Lullaby cannot be affected again for 30s. ',
+                'Casts an aura that makes tagged enemies Drowsy and inflicts a ramping slow. After 3s, the enemies will be put to sleep and unable to move or act until they take damage or after it wears off. Enemies affected by Lullaby cannot be affected again for 45s. ',
             ],
             video: 'Viola-C',
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['20s', '14.5s', '9s'],
+                    amount: ['15s', '12s', '9s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -145,13 +146,13 @@ export const frontmatter = {
                 {
                     name: 'Bonus Damage',
                     amount: ['200', '300', '400'],
-                    cr: '100%',
+                    cr: '80%',
                     wr: ' ',
                 },
                 {
                     name: 'Damage/sec',
                     amount: ['50', '80', '110'],
-                    cr: '30%',
+                    cr: '15%',
                     wr: ' ',
                 },
                 {

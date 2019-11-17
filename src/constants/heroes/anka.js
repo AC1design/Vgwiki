@@ -65,7 +65,7 @@ export const frontmatter = {
         },
         {
           name: 'Range',
-          amount: ['8', '9', '10', '11', '12'],
+          amount: ['10', '10', '10', '10', '12'],
           cr: ' ',
           wr: ' ',
         },
@@ -95,7 +95,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['50', '75', '100', '125', '175'],
+          amount: ['50', '80', '110', '140', '200'],
           cr: '45%',
           wr: ' ',
         },

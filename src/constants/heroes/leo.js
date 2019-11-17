@@ -191,5 +191,11 @@ export const frontmatter = {
             type: 'Rare',
             image: 'Leo_Rebellion',
         },
+        {
+            name: 'Wu Xing Metal Leo',
+            color: '#6393F9',
+            type: 'Epic',
+            image: 'Leo_WuXingMetal',
+        },
     ],
 }
