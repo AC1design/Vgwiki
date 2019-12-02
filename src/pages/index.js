@@ -112,10 +112,10 @@ class IndexPage extends React.Component {
 
           <div className="HeroGroup">
             <div className='newhero'>
-              <h3>NEW HERO</h3>
-              <h1>Viola</h1>
+              <h3>MAGNUS</h3>
+              <h1>Wu Xing Water</h1>
             </div>
-            <p>UPDATE 4.8</p>
+            <p>UPDATE 4.9</p>
           </div>
           <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px', }}>
             <div className='columnsparent'>
@@ -198,14 +198,14 @@ class IndexPage extends React.Component {
 export default IndexPage
 export const pageQuery = graphql`
   {
-    imageOne: file(relativePath: { eq: "48bgdesktop.png" }) {
+    imageOne: file(relativePath: { eq: "49bgdesktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "48bgmobile.png" }) {
+    imageTwo: file(relativePath: { eq: "49bgmobile.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid

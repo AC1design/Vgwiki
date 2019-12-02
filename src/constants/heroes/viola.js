@@ -10,7 +10,7 @@ export const frontmatter = {
         }
     ],
     description:
-        'A wondering musician with a mysterious magical instrument.',
+        'A wandering musician with a mysterious magical instrument.',
     spotlight: 'iDw9Hvk1DtA',
     stats: [
         { name: 'HEALTH', value: '721 - 2019', color: '#4eec8b' },
