@@ -127,7 +127,7 @@ a {
 
 .HeroGroup h1 {
 	font-family: Antonio;
-	font-size: 50px;
+	font-size: 40px;
 	margin: 0;
 	color: rgba(255, 255, 255, 1);
 	line-height: 1.2;
@@ -148,10 +148,10 @@ a {
 }
 
 .HeroGroup p {
-	padding: 10px;
+	padding: 7px 10px;
     border-radius: 50px;
     font-weight: 800;
-    font-size: 11px;
+    font-size: 9px;
     color: rgb(29, 29, 29);
     -webkit-font-smoothing: antialiased;
     background: rgba(255, 255, 255, 0.45);
