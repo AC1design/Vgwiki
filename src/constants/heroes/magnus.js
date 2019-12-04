@@ -6,6 +6,12 @@ export const frontmatter = {
   description:
     'A powerful arcanist with a penchant for Arcane Magic decimating enemies from afar',
   spotlight: 'g9W8C8hPA2w',
+  wallpaper: [
+    {
+      name: 'Magnus',
+      link: 'https://imgur.com/a/PxeitzN'
+    }
+  ],
   stats: [
     { name: 'HEALTH', value: '648 - 2065', color: '#4eec8b' },
     /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */

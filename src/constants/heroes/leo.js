@@ -5,6 +5,12 @@ export const frontmatter = {
     path: '/Leo',
     description: 'Brawny bodyguard with a jet powered sword',
     spotlight: 'nHvdWkuoKwA',
+    wallpaper: [
+        {
+            name: 'Leo',
+            link: 'https://imgur.com/a/9ThRiga'
+        }
+    ],
     stats: [
         { name: 'HEALTH', value: '830 - 2337', color: '#4eec8b' },
         /*{ name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */

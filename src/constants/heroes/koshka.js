@@ -6,6 +6,12 @@ export const frontmatter = {
   description:
     'Hit-and-run assassin who can pin down enemies with a long stun.',
   spotlight: 'r73Ezze8OLE',
+  wallpaper: [
+    {
+      name: 'Koshka',
+      link: 'https://imgur.com/a/lwa9fC3'
+    }
+  ],
   stats: [
     { name: 'HEALTH', value: '711 - 2367', color: '#4eec8b' },
     { name: 'H. REGEN', value: '3.54 - 6.95', color: '#4eec8b' },
