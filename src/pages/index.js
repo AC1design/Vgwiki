@@ -112,8 +112,8 @@ class IndexPage extends React.Component {
 
           <div className="HeroGroup">
             <a href='https://gleam.io/X8eAK/vgwiki-giveaway-update-49'>
-              <h3>CLICK HERE TO ENTER THE</h3>
-              <h1>GIVEAWAY</h1>
+              <h3>MAGNUS</h3>
+              <h1>Wu Xing Water</h1>
             </a>
             <p>UPDATE 4.9</p>
           </div>

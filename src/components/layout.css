@@ -126,11 +126,6 @@ a {
 }
 
 .HeroGroup h1 {
-
-background: -webkit-linear-gradient(30deg,#07AEEA, #2AF598);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
 	font-family: Antonio;
 	font-size: 50px;
 	margin: 0;
