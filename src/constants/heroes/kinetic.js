@@ -184,5 +184,11 @@ export const frontmatter = {
       type: 'Rare',
       image: 'Kinetic_Enforcer',
     },
+    {
+      color: '',
+      name: 'Kinetic Valkyrie',
+      type: 'Epic',
+      image: 'Kinetic_Valkyrie',
+    },
   ],
 }

@@ -19,6 +19,7 @@ import { frontmatter as idris } from './heroes/idris'
 import { frontmatter as inara } from './heroes/inara'
 import { frontmatter as ishtar } from './heroes/ishtar'
 import { frontmatter as joule } from './heroes/joule'
+import { frontmatter as karas } from './heroes/karas'
 import { frontmatter as kensei } from './heroes/kensei'
 import { frontmatter as kestrel } from './heroes/kestrel'
 import { frontmatter as kinetic } from './heroes/kinetic'
@@ -63,6 +64,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
+  karas,
   viola,
   adagio,
   alpha,

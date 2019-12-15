@@ -184,5 +184,11 @@ export const frontmatter = {
       type: 'Rare',
       image: 'Tony_SteamKnight',
     },
+    {
+      name: 'Santa Tony',
+      color: '',
+      type: 'Special Edition',
+      image: 'Tony_Santa',
+    },
   ],
 }
