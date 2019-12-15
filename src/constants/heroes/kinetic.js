@@ -4,6 +4,12 @@ export const frontmatter = {
   role: ['LANE'],
   path: '/Kinetic',
   description: 'Nimble duelist weilding a powerful pulse cannon',
+  wallpaper: [
+    {
+      name: 'Kinetic',
+      link: 'https://imgur.com/a/KwZTjU3'
+    }
+  ],
   spotlight: 'I9A1w1OIIq4',
   stats: [
     { name: 'HEALTH', value: '721 - 2019', color: '#4eec8b' },

@@ -4,6 +4,12 @@ export const frontmatter = {
   role: ['JUNGLE'],
   path: '/Tony',
   description: 'Dwarven brawler who taunts and pummels enemies.',
+  wallpaper: [
+    {
+      name: 'Tony',
+      link: 'https://imgur.com/a/IYHdj4j'
+    }
+  ],
   spotlight: 'HG-_NNyu4I8',
   stats: [
     { name: 'HEALTH', value: '762 - 2544', color: '#4eec8b' },

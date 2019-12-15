@@ -3,12 +3,12 @@ export const frontmatter = {
     type: ['LANE', 'MAGE'],
     role: ['LANE'],
     path: '/Karas',
-    /*wallpaper: [
+    wallpaper: [
         {
-            name: '',
-            link: ''
+            name: 'Karas',
+            link: 'https://imgur.com/a/3PVzS4j'
         }
-    ],*/
+    ],
     description:
         'A mysterious teenager trained in the art of wind magic.',
     spotlight: '',
