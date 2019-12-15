@@ -33,7 +33,7 @@ export const frontmatter = {
             text: [
                 "Every 3 basic attacks, Karas's wind transforms into a devastating typhoon, dealing 120-197 (level 1-12) (+90% crystal power) damage to the target and nearby enemy units.",
             ],
-            video: '',
+            video: 'Karas-P',
             stats: [],
         },
         {
@@ -45,7 +45,7 @@ export const frontmatter = {
                 '',
                 'If an enemy Hero is hit, the next blade will deal additional damage with Fatal Wind.'
             ],
-            video: '',
+            video: 'Karas-A',
             stats: [
                 {
                     name: 'Cooldown',
@@ -68,7 +68,7 @@ export const frontmatter = {
                 {
                     name: 'Range',
                     amount: ['11', '11', '11', '11', '11'],
-                    cr: '',
+                    cr: ' ',
                     wr: ' ',
                 },
             ],
@@ -80,7 +80,7 @@ export const frontmatter = {
             text: [
                 'Karas uses his wind magic, becoming a blur and teleports to the designated position. His rare magical prowess allows him to pass through impassable terrain.'
             ],
-            video: '',
+            video: 'Karas-B',
             stats: [
                 {
                     name: 'Cooldown',
@@ -118,7 +118,7 @@ export const frontmatter = {
             name: 'BLADE BARRAGE',
             type: 'ULTIMATE',
             image: 'Karas-C',
-            video: '',
+            video: 'Karas-C',
             text: [
                 'Karas activates the wind force unleashing a flurry of 8/10/12 Wind Blades. Each Wind Blade deals damage and every fourth blade deals additional damage with Fatal Wind.',
                 '',
@@ -141,13 +141,13 @@ export const frontmatter = {
                     name: 'Damage',
                     amount: ['175', '200', '225'],
                     cr: '30%',
-                    wr: '',
+                    wr: ' ',
                 },
                 {
                     name: 'Area Damage',
                     amount: ['225', '275', '325'],
                     cr: '30%',
-                    wr: '',
+                    wr: ' ',
                 },
                 {
                     name: 'Range',
