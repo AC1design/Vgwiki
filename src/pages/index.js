@@ -109,11 +109,10 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </MediaQuery>
-
           <div className="HeroGroup">
             <div>
-              <h3>NEW HERO</h3>
-              <h1>Karas</h1>
+              <h3>WINTER</h3>
+              <h1><a href="https://gleam.io/B7OBi/vgwiki-last-giveaway-of-2019">Giveaway</a></h1>
             </div>
             <p>UPDATE 4.10</p>
           </div>
