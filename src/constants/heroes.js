@@ -42,6 +42,7 @@ import { frontmatter as rona } from './heroes/rona'
 import { frontmatter as samuel } from './heroes/samuel'
 import { frontmatter as sanfeng } from './heroes/sanfeng'
 import { frontmatter as saw } from './heroes/saw'
+import { frontmatter as shin } from './heroes/shin'
 import { frontmatter as silvernail } from './heroes/silvernail'
 import { frontmatter as skaarf } from './heroes/skaarf'
 import { frontmatter as skye } from './heroes/skye'
@@ -64,7 +65,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
-  karas,
+  shin,
   viola,
   adagio,
   alpha,
@@ -87,6 +88,7 @@ export const heroCards = [
   inara,
   ishtar,
   joule,
+  karas,
   kensei,
   kestrel,
   kinetic,

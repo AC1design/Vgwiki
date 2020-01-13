@@ -16,7 +16,7 @@ export const frontmatter = {
     { name: 'H. REGEN', value: '4.01 - 7.42', color: '#4eec8b' },
     { name: 'ENERGY', value: '280 - 643', color: '#5bbcff' },
     { name: 'ENG REGEN', value: '1.87 - 4.29', color: '#5bbcff' },
-    { name: 'WP DAMAGE', value: '79 - 164', color: '#f48596' },
+    { name: 'WP DAMAGE', value: '83 - 164', color: '#f48596' }, //WP power per level 8.1
     { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '30 - 85', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 60', color: '#f6ee71' },
@@ -59,11 +59,11 @@ export const frontmatter = {
           name: 'Weapon Damage',
           amount: ['10', '20', '30', '40', '50'],
           cr: ' ',
-          wr: '60%',
+          wr: '70%',
         },
         {
           name: 'Bonus Move Speed',
-          amount: ['1.5', '1.75', '2', '2.25', '2.5'],
+          amount: ['2.0', '2.25', '2.50', '2.75', '3.0'],
           cr: ' ',
           wr: ' ',
         },
@@ -88,7 +88,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['22s', '20s', '18s', '16s', '14s'],
+          amount: ['20s', '18s', '16s', '14s', '12s'],
           cr: ' ',
           wr: ' ',
         },

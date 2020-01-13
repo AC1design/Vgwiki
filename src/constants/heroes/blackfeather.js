@@ -26,7 +26,7 @@ export const frontmatter = {
       image: 'Blackfeather-P',
       text: [
         "Blackfeather's attacks and abilities apply Heartthrob stacks to enemies. Any time stacks are added or refreshed, Blackfeather deals bonus crystal damage for each stack already on the target.",
-        '• Bonus damage: 5-10 (level 1-12) (+15% of crystal power).',
+        '• Bonus damage: 5-10 (level 1-12) (+18% of crystal power).',
         '• Mas 2 stacks on minions and monsters, 5 stacks on heroes and objectives.',
         '• Stacks appear as broken hearts around enemies.',
         '• Instead of energy, Blackfeather uses Focus for his abilities. This is capped at 100 and naturally regenerates 10 per second. Blackfeather also recovers and additional 10 focus for each basic attack he lands.',
@@ -157,8 +157,8 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['100', '150', '200'],
-          cr: '50%',
+          amount: ['120', '170', '220'],
+          cr: '60%',
           wr: '100%',
         },
         {

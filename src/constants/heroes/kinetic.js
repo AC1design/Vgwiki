@@ -54,7 +54,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['10', '15', '20', '25', '35'],
+          amount: ['15', '20', '25', '30', '35'],
           cr: ' ',
           wr: ' ',
         },
@@ -136,7 +136,7 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['300', '450', '600'],
-          cr: '150%',
+          cr: '120%',
           wr: '120%',
         },
         {

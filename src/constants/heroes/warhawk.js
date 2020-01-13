@@ -181,5 +181,11 @@ export const frontmatter = {
             type: 'Rare',
             image: 'Warhawk_Demolition',
         },
+        {
+            name: 'Lunar Warhawk',
+            color: 'red',
+            type: 'Special Edition',
+            image: 'Warhawk_Lunar',
+        },
     ],
 }

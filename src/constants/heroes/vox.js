@@ -45,7 +45,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['6s', '5.5s', '5s', '4.5s', '3s'],
+          amount: ['7s', '6.5s', '6s', '5.5s', '4s'],
           cr: ' ',
           wr: ' ',
         },
@@ -57,7 +57,7 @@ export const frontmatter = {
         },
         {
           name: 'Basic Attack Damage on Overdrive',
-          amount: ['70%', '70%', '70%', '70%', '70%'],
+          amount: ['50%', '60%', '70%', '80%', '100%'],
           cr: ' ',
           wr: ' ',
         },
@@ -144,7 +144,7 @@ export const frontmatter = {
         },
         {
           name: 'Silence Duration',
-          amount: ['0.4s', '0.6s', '0.8s'],
+          amount: ['0.6s', '0.8s', '1s'],
           cr: ' ',
           wr: ' ',
         },

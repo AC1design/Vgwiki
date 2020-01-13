@@ -32,7 +32,7 @@ export const frontmatter = {
             image: 'Ishtar-P',
             text: [
                 "Ishtar's basic attacks are imbued with demonic energy that deal crystal damage.",
-                'Damage: 75-163 (level 1-12) (+30% crystal power)(+100% weapon power).',
+                'Damage: 75-163 (level 1-12) (+28% crystal power)(+100% weapon power).',
                 '',
                 'Ishtar can summon and control Living Blades. Every time she performs a basic attack, each Living Blade within range will also perform a basic attack targeting the same enemy. They have the following properties:',
                 'Living Blades deal 10% (+30 crystal power) on each basic attack. Living Blades that strike the same target deal 25% after the first.',
@@ -100,7 +100,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Damage',
-                    amount: ['45', '90', '135', '180', '270'],
+                    amount: ['40', '80', '120', '160', '240'],
                     cr: '50%',
                     wr: ' ',
                 },

@@ -32,7 +32,7 @@ export const frontmatter = {
             image: 'Viola-P',
             text: [
                 'Every time Viola casts an ability, she gains a stack of Melodious Tune granting her cooldown reduction.',
-                'Basic Attack Damage: 70+5.5% per level (+50% crystal power)',
+                'Basic Attack Damage: 70+5.5% per level (+40% crystal power)',
             ],
             video: '',
             stats: [],
@@ -93,7 +93,7 @@ export const frontmatter = {
                 {
                     name: 'Bonus Damage',
                     amount: ['60', '100', '140', '180', '260'],
-                    cr: '120%',
+                    cr: '115%',
                     wr: ' ',
                 },
                 {
@@ -146,13 +146,13 @@ export const frontmatter = {
                 {
                     name: 'Bonus Damage',
                     amount: ['200', '300', '400'],
-                    cr: '80%',
+                    cr: '75%',
                     wr: ' ',
                 },
                 {
                     name: 'Damage/sec',
                     amount: ['50', '80', '110'],
-                    cr: '15%',
+                    cr: '17%',
                     wr: ' ',
                 },
                 {

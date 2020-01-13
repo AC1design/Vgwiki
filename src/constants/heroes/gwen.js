@@ -78,7 +78,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['19s', '18s', '17s', '16s', '14s'],
+          amount: ['19s', '17s', '15s', '13s', '10s'],
           cr: ' ',
           wr: ' ',
         },
@@ -120,7 +120,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['100', '100', '100'],
+          amount: ['100', '85', '70'],
           cr: ' ',
           wr: ' ',
         },

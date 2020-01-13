@@ -13,7 +13,7 @@ export const frontmatter = {
         'A mysterious teenager trained in the art of wind magic.',
     spotlight: '',
     stats: [
-        { name: 'HEALTH', value: '724 - 202', color: '#4eec8b' },
+        { name: 'HEALTH', value: '724 - 2022', color: '#4eec8b' },
         /* { name: 'H. REGEN', value: '(+)', color: '#4eec8b' }, */
         { name: 'ENERGY', value: '320 - 595', color: '#5bbcff' },
         /* { name: 'ENG REGEN', value: '(+)', color: '#5bbcff' }, */
@@ -27,11 +27,14 @@ export const frontmatter = {
     model: [{ image: 'Ishtarblurred' }, { tmodel: 'Ishtar' }],
     skills: [
         {
-            name: 'FATAL WIND',
+            name: 'MISTRAL BLADE',
             type: 'Perk',
             image: 'Karas-P',
             text: [
-                "Every 3 basic attacks, Karas's wind transforms into a devastating typhoon, dealing 120-197 (level 1-12) (+90% crystal power) damage to the target and nearby enemy units.",
+                "Karas's mythical blade  is infused with the power of wind dealing crystal damage. Whenever Karas uses an ability he gains 0.4 bonus movement speed for 5s.",
+                " ",
+                "• Damage: 70-136 (level 1-12)(+55% crystal power)(+100% weapon power).",
+                "• Bonus movement speed stack up to 3 times.",
             ],
             video: 'Karas-P',
             stats: [],
@@ -41,33 +44,45 @@ export const frontmatter = {
             type: 'A ABILITY',
             image: 'Karas-A',
             text: [
-                'Karas heaves his mighty fan and slices air to shoot powerful wind blades, dealing damage to the first enemy unit it comes into contact with.',
-                '',
-                'If an enemy Hero is hit, the next blade will deal additional damage with Fatal Wind.'
+                "Karas shoot a powerful Gust in the target direction, dealing crystal damage to enemies hit.",
+                " ",
+                "Enemy heroes hit by Gust are slowed for a brief duration",
             ],
             video: 'Karas-A',
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['10s', '9s', '8s', '7s', '5s'],
+                    amount: ['14s', '13s', '12s', '11s', '10s'],
                     cr: ' ',
                     wr: ' ',
                 },
                 {
                     name: 'Energy Cost',
-                    amount: ['80', '90', '100', '110', '120'],
+                    amount: ['60', '65', '70', '75', '80'],
                     cr: ' ',
                     wr: ' ',
                 },
                 {
                     name: 'Damage',
-                    amount: ['150', '180', '210', '240', '330'],
+                    amount: ['110', '140', '170', '200', '290'],
                     cr: '100%',
                     wr: ' ',
                 },
                 {
                     name: 'Range',
-                    amount: ['11', '11', '11', '11', '11'],
+                    amount: ['7', '7.5', '8', '8.5', '10'],
+                    cr: ' ',
+                    wr: ' ',
+                },
+                {
+                    name: 'Slow Stregth',
+                    amount: ['12%', '12%', '12%', '12%', '12%'],
+                    cr: ' ',
+                    wr: ' ',
+                },
+                {
+                    name: 'Slow Duration',
+                    amount: ['1.5%', '1.75%', '2%', '2.25%', '2.5%'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -78,7 +93,9 @@ export const frontmatter = {
             type: 'B ABILITY',
             image: 'Karas-B',
             text: [
-                'Karas uses his wind magic, becoming a blur and teleports to the designated position. His rare magical prowess allows him to pass through impassable terrain.'
+                'Karas rapidly spins with his blade and dashes to target location, dealing damage to all enamies in his path',
+                " ",
+                "Use Twister to reposition yourself while Devil's Dust is active",
             ],
             video: 'Karas-B',
             stats: [
@@ -90,25 +107,19 @@ export const frontmatter = {
                 },
                 {
                     name: 'Energy Cost',
-                    amount: ['60', '75', '90', '105', '120'],
+                    amount: ['60', '70', '80', '90', '100'],
                     cr: ' ',
+                    wr: ' ',
+                },
+                {
+                    name: 'Damage',
+                    amount: ['90', '110', '130', '150', '200'],
+                    cr: '80%',
                     wr: ' ',
                 },
                 {
                     name: 'Range',
                     amount: ['9', '9', '9', '9', '9'],
-                    cr: ' ',
-                    wr: ' ',
-                },
-                {
-                    name: 'Duration (Self)',
-                    amount: ['3s', '4s', '5s', '6s', '7s'],
-                    cr: ' ',
-                    wr: ' ',
-                },
-                {
-                    name: 'Passive Attack Speed',
-                    amount: ['+12%', '+14%', '+16%', '+18%', '+25%'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -120,9 +131,10 @@ export const frontmatter = {
             image: 'Karas-C',
             video: 'Karas-C',
             text: [
-                'Karas activates the wind force unleashing a flurry of 8/10/12 Wind Blades. Each Wind Blade deals damage and every fourth blade deals additional damage with Fatal Wind.',
+                `Karas encases himself in a shroud of wind and attacks enemies with Devil's Dust. Every fourth attack the dust deals damage to enemies in an area. `,
                 '',
-                'Use Blur to reposition yourself and finish off fleeing enemies.'
+                '• Number of attacks 8/10/12.',
+                'Use Twister to reposition yourself and finish off fleeing enemies.',
             ],
             stats: [
                 {
@@ -140,18 +152,24 @@ export const frontmatter = {
                 {
                     name: 'Damage',
                     amount: ['175', '200', '225'],
-                    cr: '30%',
+                    cr: '50%',
                     wr: ' ',
                 },
                 {
                     name: 'Area Damage',
                     amount: ['225', '275', '325'],
-                    cr: '30%',
+                    cr: '50%',
                     wr: ' ',
                 },
                 {
                     name: 'Range',
                     amount: ['10', '10', '10'],
+                    cr: ' ',
+                    wr: ' ',
+                },
+                {
+                    name: 'Range',
+                    amount: ['1.2', '1.2', '1.2'],
                     cr: ' ',
                     wr: ' ',
                 },

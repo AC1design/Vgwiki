@@ -47,7 +47,7 @@ export const frontmatter = {
         },
         {
           name: 'Energy Cost',
-          amount: ['30', '35', '40', '45', '50'],
+          amount: ['40', '45', '50', '55', '60'],
           cr: ' ',
           wr: ' ',
         },
@@ -78,7 +78,7 @@ export const frontmatter = {
       image: 'Anka-B',
       text: [
         'Anka throws five knives in a cone, dealing damage to all enemies the knives pass through.',
-        'Each additional knife after the first deals damage equal to 50% of the initial damage.',
+        'Each additional knife after the first deals damage equal to 60% of the initial damage.',
       ],
       stats: [
         {
