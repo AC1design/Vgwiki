@@ -29,7 +29,7 @@ export const frontmatter = {
                 '',
                 '• The Flame Charge meter is reset upon performing an empowered ability.',
             ],
-            video: 'Yates-A',
+            video: '',
             stats: [],
         },
         {
@@ -90,7 +90,7 @@ export const frontmatter = {
                 ' ',
                 'Flame Charged: Sash deals more damage and roots enemies hit.',
             ],
-            video: 'Yates-B',
+            video: '',
             stats: [
                 {
                     name: 'Cooldown',
