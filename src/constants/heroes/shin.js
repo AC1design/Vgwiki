@@ -3,6 +3,12 @@ export const frontmatter = {
     type: ['JUNGLE', 'WARRIOR'],
     role: ['JUNGLE'],
     path: '/Shin',
+    wallpaper: [
+        {
+            name: 'Shin',
+            link: 'https://imgur.com/a/fHrP5he'
+        }
+    ],
     description:
         'Warrior God with cybernetic improvements.',
     spotlight: '',
@@ -18,7 +24,7 @@ export const frontmatter = {
         { name: 'ATK RANGE', value: '3.2', color: '#e19efb' },
         { name: 'MOVE SPD', value: '3.9', color: '#e19efb' },
     ],
-    model: [{ image: 'Yatesblurred' }, { tmodel: 'Yates' }],
+    model: [{ image: 'Shinblurred' }, { tmodel: 'Shin' }],
     skills: [
         {
             name: 'FLAME CHARGE',
@@ -29,7 +35,7 @@ export const frontmatter = {
                 '',
                 '• The Flame Charge meter is reset upon performing an empowered ability.',
             ],
-            video: 'Yates-A',
+            video: '',
             stats: [],
         },
         {
@@ -41,7 +47,7 @@ export const frontmatter = {
                 '',
                 `Flame Charged: Shin's strike reaches further and deals more damage.`,
             ],
-            video: '',
+            video: 'Shin-A',
             stats: [
                 {
                     name: 'Cooldown',
@@ -90,7 +96,7 @@ export const frontmatter = {
                 ' ',
                 'Flame Charged: Sash deals more damage and roots enemies hit.',
             ],
-            video: 'Yates-B',
+            video: 'Shin-B',
             stats: [
                 {
                     name: 'Cooldown',
@@ -140,6 +146,7 @@ export const frontmatter = {
             name: 'SACRED FLAME',
             type: 'ULTIMATE',
             image: 'Shin-C',
+            video: 'Shin-C',
             text: [
                 'Shin holds his ground and fires sacred flames, dealing damage in a wide cone to all enemies in front of him.',
                 ' ',
@@ -189,7 +196,7 @@ export const frontmatter = {
                 '⚔ Damage 110% (+2%)',
                 '🔧 Cooldown 95% (-2%)',
             ],
-            image: 'Yates_Rare',
+            image: 'Shin_Rare',
         },
         {
             name: 'Fiery Temper',
@@ -201,7 +208,7 @@ export const frontmatter = {
                 '⚔ Passive Crystal Power +2% (+2%)',
                 '🔧 Range 1.5 (+0.5)',
             ],
-            image: 'Yates_Epic',
+            image: 'Shin_Epic',
         },
         {
             name: 'Flame Fury',
@@ -212,7 +219,7 @@ export const frontmatter = {
                 '⚔ Damage 120% (+5%)',
                 '🔧 Cooldown -2s (-2s)',
             ],
-            image: 'Yates_Legendary',
+            image: 'Shin_Legendary',
         },
     ],
     skins: [

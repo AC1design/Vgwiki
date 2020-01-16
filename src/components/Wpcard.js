@@ -10,7 +10,7 @@ const Card = styled.div`
 width: 338px;
 height: 120px;
 border-radius: 10px;
-margin-right: 16px
+margin-right: 16px;
 margin-bottom: 16px;
 background: url(${props => props.bg});
     background-size: auto auto;

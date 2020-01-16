@@ -197,7 +197,7 @@ class IndexPage extends React.Component {
 export default IndexPage
 export const pageQuery = graphql`
   {
-    imageOne: file(relativePath: { eq: "Shin_Desktop.jpg" }) {
+    imageOne: file(relativePath: { eq: "411bgdesktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid

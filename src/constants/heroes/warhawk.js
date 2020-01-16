@@ -3,6 +3,12 @@ export const frontmatter = {
     type: ['LANE', 'SNIPER'],
     role: ['LANE'],
     path: '/Warhawk',
+    wallpaper: [
+        {
+            name: 'Warhawk',
+            link: 'https://imgur.com/a/66i0K0N'
+        }
+    ],
     description:
         'Smallest hero wielding the biggest missile launcher.',
     spotlight: 'Omm4KGllXXo',

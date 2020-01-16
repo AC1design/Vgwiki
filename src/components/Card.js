@@ -55,7 +55,7 @@ ${props => (props.hidden ? 'visibility: hidden;' : '')}
 `
 const Type = styled.img`
 ${props => (props.showrole ? 'visibility: hidden;' : '')}
-position: absolute
+position: absolute;
 width: 30px;
 height: 30px;
 z-index: 1;
