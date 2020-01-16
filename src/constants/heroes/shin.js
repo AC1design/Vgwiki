@@ -96,6 +96,7 @@ export const frontmatter = {
                 ' ',
                 'Flame Charged: Sash deals more damage and roots enemies hit.',
             ],
+            video: 'Shin-B',
             stats: [
                 {
                     name: 'Cooldown',
