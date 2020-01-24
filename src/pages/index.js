@@ -111,8 +111,8 @@ class IndexPage extends React.Component {
           </MediaQuery>
           <div className="HeroGroup">
             <div>
-              <h3>NEW HERO</h3>
-              <h1>Shin</h1>
+              <h3>CLICK HERE</h3>
+              <h1><a href="https://gleam.io/hwFyN/first-giveaway-of-2020-win-a-chinese-new-year-themed-skin" rel="nofollow">Giveaway</a></h1>
             </div>
             <p>UPDATE 4.11</p>
           </div>
@@ -180,7 +180,7 @@ class IndexPage extends React.Component {
               <p>VGWIKI is not affiliated or part of Super Evil Megacorp. All Vainglory copyrights and art assets belong to Super Evil Megacorp.</p>
               Made by
 {' '}
-              <a href="https://twitter.com/AC1design">AngeloC</a>
+              <a href="https://twitter.com/AC1design">AC1design</a>
               <a style={{ marginLeft: '16px' }} href='https://www.termsfeed.com/privacy-policy/b38962cdaa462299f0b57bf61cc6dbef'>Privacy Policy</a>
               <h1 style={{ fontSize: '14px' }}>Cookie Declaration</h1>
               <script id="CookieDeclaration" src="https://consent.cookiebot.com/723cc8d9-3751-4bf3-826f-a7fa548b4a79/cd.js" type="text/javascript" async></script>
@@ -197,14 +197,14 @@ class IndexPage extends React.Component {
 export default IndexPage
 export const pageQuery = graphql`
   {
-    imageOne: file(relativePath: { eq: "411bgdesktop.png" }) {
+    imageOne: file(relativePath: { eq: "Warhawk_Lunar_Desktop.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "Shin_Mobile.jpg" }) {
+    imageTwo: file(relativePath: { eq: "Warhawk_Lunar_iPhoneXSMax.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid
