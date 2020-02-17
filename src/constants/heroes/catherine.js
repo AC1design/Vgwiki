@@ -42,7 +42,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['14s', '13s', '12s', '11s', '10s'],
+          amount: ['16s', '15s', '14s', '13s', '12s'],
           cr: ' ',
           wr: ' ',
         },
@@ -66,7 +66,7 @@ export const frontmatter = {
         },
         {
           name: 'Stun Duration',
-          amount: ['0.7s', '0.7s', '0.7s', '0.7s', '0.9s'],
+          amount: ['0.7s', '0.7s', '0.7s', '0.7s', '0.8s'],
           cr: ' ',
           wr: ' ',
         },
@@ -113,7 +113,7 @@ export const frontmatter = {
         },
         {
           name: 'Bonus Reflect Damage',
-          amount: ['0%', '5%', '10%', '15%', '30%'],
+          amount: ['0%', '5%', '10%', '15%', '25%'],
           cr: ' ',
           wr: ' ',
         },

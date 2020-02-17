@@ -136,7 +136,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Root Duration',
-                    amount: ['1s', '1s', '1s', '1s', '1.5s'],
+                    amount: ['0.7s', '0.7s', '0.7s', '0.7s', '1s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -173,7 +173,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Total Damage',
-                    amount: ['750', '850', '950'],
+                    amount: ['625', '750', '875'],
                     cr: '150%',
                     wr: ' ',
                 },

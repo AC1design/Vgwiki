@@ -10,7 +10,7 @@ export const frontmatter = {
     { name: 'H. REGEN', value: '2.15 - 4.68', color: '#4eec8b' },
     { name: 'ENERGY', value: '163 - 416', color: '#5bbcff' },
     { name: 'ENG REGEN', value: '1.2 - 2.85', color: '#5bbcff' },
-    { name: 'WP DAMAGE', value: '71 - 130', color: '#f48596' },
+    { name: 'WP DAMAGE', value: '78 - 148', color: '#f48596' },
     { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
     { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
@@ -145,7 +145,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['200', '350', '500'],
+          amount: ['250', '400', '550'],
           cr: '75%',
           wr: ' ',
         },

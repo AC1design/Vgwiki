@@ -6,7 +6,7 @@ export const frontmatter = {
   description: 'The king of duels with massive lifesteal and self-healing.',
   spotlight: 'ZR8J8b44FOk',
   stats: [
-    { name: 'HEALTH', value: '748 - 2394', color: '#4eec8b' },
+    { name: 'HEALTH', value: '769 - 2536', color: '#4eec8b' },
     { name: 'H. REGEN', value: '3.51	7.8', color: '#4eec8b' },
     { name: 'ENERGY', value: '220 - 506', color: '#5bbcff' },
     { name: 'ENG REGEN', value: '1.33 - 3.2', color: '#5bbcff' },
@@ -26,7 +26,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Krul-P',
       text: [
-        'Krul is empowered by the shadows after standing still in brush for 0.7s. While empowered, Krul briefly gains 2.2 move speed and his basic attacks will slow the target by 40% for 2.5s.',
+        'Krul is empowered by the shadows after standing still in brush for 2.0s. While empowered, Krul briefly gains 2.5 move speed and his basic attacks will slow the target by 40% for 2.5s.',
       ],
     },
     {
@@ -104,7 +104,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage/Stack',
-          amount: ['25', '40', '55', '70', '100'],
+          amount: ['30', '45', '60', '75', '100'],
           cr: '30%',
           wr: ' ',
         },
@@ -116,7 +116,7 @@ export const frontmatter = {
         },
         {
           name: 'Heal/Stack',
-          amount: ['25', '30', '35', '40', '50'],
+          amount: ['30', '35', '40', '45', '60'],
           cr: '20%',
           wr: ' ',
         },

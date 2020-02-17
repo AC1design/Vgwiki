@@ -28,7 +28,7 @@ export const frontmatter = {
         '• Upon reaching 4 soul fragments, Baptiste is empowered for 4 seconds and deals increased damage but generates no additional soul fragments.',
         '• Basic attacks generate one soul fragment',
         '• Abilities generate one soul fragment for each enemy hero hit',
-        '• Heal per Soul Fragment: 20-86 (level 1-12) (+ 25% of crystal power)',
+        '• Heal per Soul Fragment: 20-86 (level 1-12) (+30% of crystal power)',
         '• Empowered effects: +35% basic-attack damage and +100% ability damage.',
       ],
     },
@@ -59,13 +59,13 @@ export const frontmatter = {
         {
           name: 'Damage',
           amount: ['80', '120', '160', '200', '280'],
-          cr: '115%',
+          cr: '120%',
           wr: ' ',
         },
         {
           name: 'Splash Damage',
           amount: ['40', '60', '80', '100', '140'],
-          cr: '60%',
+          cr: '62%',
           wr: ' ',
         },
         {

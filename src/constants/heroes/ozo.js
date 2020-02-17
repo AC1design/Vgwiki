@@ -24,7 +24,7 @@ export const frontmatter = {
       type: 'Perk',
       image: 'Ozo-P',
       text: [
-        'Ozo receives 15%-30% additional healing, barrier and fortified health from all sources.',
+        'Ozo receives 17%-32% additional healing, barrier and fortified health from all sources.',
         '• This does not affect health regeneration.',
       ],
     },
@@ -67,7 +67,7 @@ export const frontmatter = {
         },
         {
           name: 'Third Hit Damage',
-          amount: ['15', '25', '35', '45', '55'],
+          amount: ['25', '35', '45', '55', '65'],
           cr: '75%',
           wr: '100%',
         },

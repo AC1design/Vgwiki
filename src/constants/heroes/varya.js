@@ -56,7 +56,7 @@ export const frontmatter = {
         {
           name: 'Impact Damage',
           amount: ['70', '110', '150', '190', '230'],
-          cr: '150%',
+          cr: '140%',
           wr: ' ',
         },
         {
@@ -87,7 +87,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['23s', '22s', '21s', '20s', '18s'],
+          amount: ['24s', '23s', '22s', '21s', '20s'],
           cr: '  ',
           wr: ' ',
         },

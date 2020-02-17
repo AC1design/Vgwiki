@@ -40,7 +40,7 @@ export const frontmatter = {
             stats: [],
         },
         {
-            name: 'WIND BLADE',
+            name: 'GUST',
             type: 'A ABILITY',
             image: 'Karas-A',
             text: [
@@ -52,7 +52,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['14s', '13s', '12s', '11s', '10s'],
+                    amount: ['12s', '11s', '10s', '9s', '8s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -89,7 +89,7 @@ export const frontmatter = {
             ],
         },
         {
-            name: 'BLUR',
+            name: 'TWISTER',
             type: 'B ABILITY',
             image: 'Karas-B',
             text: [
@@ -101,7 +101,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['15s', '14s', '13s', '12s', '11s'],
+                    amount: ['13s', '12s', '11s', '10s', '9s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -114,7 +114,7 @@ export const frontmatter = {
                 {
                     name: 'Damage',
                     amount: ['90', '110', '130', '150', '200'],
-                    cr: '80%',
+                    cr: '85%',
                     wr: ' ',
                 },
                 {
@@ -126,7 +126,7 @@ export const frontmatter = {
             ],
         },
         {
-            name: 'BLADE BARRAGE',
+            name: "DEVIL'S DUST",
             type: 'ULTIMATE',
             image: 'Karas-C',
             video: 'Karas-C',
