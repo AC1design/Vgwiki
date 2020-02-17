@@ -65,8 +65,6 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
-  shin,
-  viola,
   adagio,
   alpha,
   anka,
@@ -111,12 +109,14 @@ export const heroCards = [
   samuel,
   sanfeng,
   saw,
+  shin,
   silvernail,
   skaarf,
   skye,
   taka,
   tony,
   varya,
+  viola,
   vox,
   warhawk,
   yates,

@@ -174,5 +174,10 @@ export const frontmatter = {
             type: 'Rare',
             image: 'Miho_Twilight',
         },
+        {
+            name: 'Retribution Miho',
+            type: 'Epic',
+            image: 'Miho_Retribution',
+        },
     ],
 }

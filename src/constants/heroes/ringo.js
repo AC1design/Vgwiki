@@ -4,6 +4,12 @@ export const frontmatter = {
   role: ['LANE'],
   path: '/Ringo',
   description: 'Fast-moving, fast-shooting gunslinger with an epic fireball.',
+  wallpaper: [
+    {
+      name: 'Ringo',
+      link: 'https://imgur.com/a/0IqxgvQ'
+    }
+  ],
   spotlight: 'QKA4GSSrRRU',
   stats: [
     { name: 'HEALTH', value: '703 - 2107', color: '#4eec8b' },
@@ -226,6 +232,11 @@ export const frontmatter = {
       image: 'Ringo_Bakuto',
       price: '150',
       opals: true,
+    },
+    {
+      name: 'Corsair Ringo',
+      type: 'Legendary',
+      image: 'Ringo_Corsair',
     },
   ],
 }

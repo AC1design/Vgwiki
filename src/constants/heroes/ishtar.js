@@ -213,5 +213,11 @@ export const frontmatter = {
             type: 'Rare',
             image: 'Ishtar_Orchid',
         },
+        {
+            name: 'Soaring Heart Ishtar',
+            type: 'Special edition',
+            image: 'Ishtar_Soaring_Heart',
+            opals: false,
+        },
     ],
 }
