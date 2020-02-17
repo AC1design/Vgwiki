@@ -71,7 +71,7 @@ export const frontmatter = {
         },
         {
           name: 'Basic Attack Damage',
-          amount: ['110%', '115%', '120%', '125%', '135%'],
+          amount: ['105%', '110%', '115%', '120%', '130%'],
           cr: '100%',
           wr: ' ',
         },

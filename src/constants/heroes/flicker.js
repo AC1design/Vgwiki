@@ -98,12 +98,12 @@ export const frontmatter = {
         {
           name: 'Damage/sec',
           amount: ['20', '40', '60', '80', '120'],
-          cr: '40%',
+          cr: '50%',
           wr: ' ',
         },
         {
           name: 'Detonate Damage',
-          amount: ['60', '120', '180', '240', '360'],
+          amount: ['80', '140', '200', '260', '380'],
           cr: '100%',
           wr: ' ',
         },
@@ -134,7 +134,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['110s', '90s', '70s'],
+          amount: ['100s', '80s', '60s'],
           cr: ' ',
           wr: ' ',
         },

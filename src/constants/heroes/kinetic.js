@@ -34,7 +34,7 @@ export const frontmatter = {
         'Landing Plasma Driver grants Kinetic a stack of Tracer Shots up to 4 stacks.',
         'Tracer Shots: Kinetic fires a tracer at her target.',
         'Tracer Shots - Stack Duration: 8.0s',
-        '• Tracer Damage: 4-15 (Level 1-12) (+6.25% weapon power)',
+        '• Tracer Damage: 4-15 (Level 1-12) (+6% weapon power)',
       ],
     },
     {
@@ -135,7 +135,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['300', '450', '600'],
+          amount: ['250', '400', '550'],
           cr: '120%',
           wr: '120%',
         },

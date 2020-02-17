@@ -98,7 +98,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Slow Strength',
-                    amount: ['30%', '35%', '40%', '45%', '50%'],
+                    amount: ['25%', '30%', '35%', '40%', '45%'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -133,7 +133,7 @@ export const frontmatter = {
             stats: [
                 {
                     name: 'Cooldown',
-                    amount: ['15s', '12s', '9s'],
+                    amount: ['18s', '15s', '12s'],
                     cr: ' ',
                     wr: ' ',
                 },
@@ -144,15 +144,15 @@ export const frontmatter = {
                     wr: ' ',
                 },
                 {
-                    name: 'Bonus Damage',
+                    name: 'Burst Damage',
                     amount: ['200', '300', '400'],
-                    cr: '75%',
+                    cr: '70%',
                     wr: ' ',
                 },
                 {
                     name: 'Damage/sec',
                     amount: ['50', '80', '110'],
-                    cr: '17%',
+                    cr: '15%',
                     wr: ' ',
                 },
                 {

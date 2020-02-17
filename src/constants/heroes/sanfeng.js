@@ -60,7 +60,7 @@ export const frontmatter = {
         },
         {
           name: 'Stun Duration',
-          amount: ['0.8s', '0.9s', '1.0s', '1.1s', '1.2s'],
+          amount: ['0.6s', '0.7s', '0.8s', '0.9s', '1.0s'],
           cr: '  ',
           wr: ' ',
         },
@@ -90,7 +90,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['200', '375', '550', '725', '900'],
+          amount: ['200', '350', '500', '650', '800'],
           cr: '60%',
           wr: '40%',
         },
