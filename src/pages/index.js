@@ -111,8 +111,8 @@ class IndexPage extends React.Component {
           </MediaQuery>
           <div className="HeroGroup">
             <div>
-              <h3>NEW SKIN</h3>
-              <h1>Ishtar</h1>
+              <h3>CLICK HERE</h3>
+              <a rel="nofollow" href="https://gleam.io/752O0/vgwiki-skin-giveaway-2"><h1>Giveaway</h1></a>
             </div>
             <p>UPDATE 4.12</p>
           </div>
