@@ -43,7 +43,7 @@ export const frontmatter = {
       image: 'Lyra-A',
       text: [
         'Lyra creates a sigil that heals nearby allied heroes and damages nearby enemy heroes. Reactivate this ability to detonate the sigil, dealing heavy damage to enemies while providing a move speed boost to allies inside and immediately consuming the remaining duration to heal at 30% effectiveness.',
-        "• The healing per second is increase by 13% of Lyra's bonus health.",
+        "• The healing per second is increase by 15% of Lyra's bonus health.",
         '• The sigil depletes faster the more heroes it is healing/damaging.',
         '• The sigil has vision, so it can see enemies.',
         '• The Detonation deals 50% less damage to minions.',
@@ -51,7 +51,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['12s', '11s', '10s', '9s', '8s'],
+          amount: ['14s', '13s', '12s', '11s', '10s'],
           cr: ' ',
           wr: ' ',
         },
@@ -75,7 +75,7 @@ export const frontmatter = {
         },
         {
           name: 'Heal/sec',
-          amount: ['20', '30', '40', '50', '70'],
+          amount: ['25', '35', '45', '55', '75'],
           cr: ' ',
           wr: ' ',
         },

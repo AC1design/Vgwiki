@@ -1,6 +1,7 @@
 import { frontmatter as adagio } from './heroes/adagio'
 import { frontmatter as alpha } from './heroes/alpha'
 import { frontmatter as anka } from './heroes/anka'
+import { frontmatter as amael } from './heroes/amael'
 import { frontmatter as ardan } from './heroes/ardan'
 import { frontmatter as baptiste } from './heroes/baptiste'
 import { frontmatter as baron } from './heroes/baron'
@@ -65,6 +66,7 @@ export const heroTabs = [
 ]
 
 export const heroCards = [
+  amael,
   adagio,
   alpha,
   anka,

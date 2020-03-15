@@ -11,6 +11,21 @@ const News = props => (
         <div className="NewsboxGroupScroll">
             <div className="NewsboxGroup">
                 <MediaControlCard
+                    image={require('../images/Wallpaper/Amael.jpg')}
+                    title='Amael'
+                    link='https://imgur.com/a/dMcUsOY'
+                />
+                <MediaControlCard
+                    image={require('../images/Wallpaper/SAW.jpg')}
+                    title='SAW'
+                    link='https://imgur.com/a/Sr3UUaT'
+                />
+                <MediaControlCard
+                    image={require('../images/Wallpaper/Blackfeather.jpg')}
+                    title='Blackfeather'
+                    link='https://imgur.com/a/nOtlbbD'
+                />
+                <MediaControlCard
                     image={require('../images/Wallpaper/Ishtar.jpg')}
                     title='Ishtar'
                     link='https://imgur.com/a/Qbq8m2V'

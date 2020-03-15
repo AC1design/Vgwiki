@@ -111,10 +111,10 @@ class IndexPage extends React.Component {
           </MediaQuery>
           <div className="HeroGroup">
             <div>
-              <h3>CLICK HERE</h3>
-              <a rel="nofollow" href="https://gleam.io/752O0/vgwiki-skin-giveaway-2"><h1>Giveaway</h1></a>
+              <h3>NEW HERO </h3>
+              <h1>Amael</h1>
             </div>
-            <p>UPDATE 4.12</p>
+            <p>UPDATE 4.13</p>
           </div>
           <div style={{ background: '#1f1f21', paddingTop: '16px', borderRadius: '26px 26px 0px 0px', }}>
             <div className='columnsparent'>
@@ -197,14 +197,14 @@ class IndexPage extends React.Component {
 export default IndexPage
 export const pageQuery = graphql`
   {
-    imageOne: file(relativePath: { eq: "Desktop.png" }) {
+    imageOne: file(relativePath: { eq: "Amael_Desktop.png" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "Mobile.png" }) {
+    imageTwo: file(relativePath: { eq: "Amael_Mobile.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 2560) {
           ...GatsbyImageSharpFluid

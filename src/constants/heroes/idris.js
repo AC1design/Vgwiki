@@ -12,7 +12,7 @@ export const frontmatter = {
     { name: 'ENG REGEN', value: ' - ', color: '#5bbcff' },
     { name: 'WP DAMAGE', value: '77 - 161', color: '#f48596' },
     { name: 'ATK SPD', value: '100% - 136.3%', color: '#f48596' },
-    { name: 'ARMOR', value: '25 - 75', color: '#f6ee71' },
+    { name: 'ARMOR', value: '30 - 80', color: '#f6ee71' },
     { name: 'SHIELD', value: '20 - 55', color: '#f6ee71' },
     { name: 'ATK RANGE', value: '2.4', color: '#e19efb' },
     { name: 'MOVE SPD', value: '4.0', color: '#e19efb' },
@@ -45,7 +45,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['11s', '10.5s', '10s', '9.5s', '8s'],
+          amount: ['13s', '12s', '11s', '10s', '8s'],
           cr: ' ',
           wr: ' ',
         },
@@ -102,7 +102,7 @@ export const frontmatter = {
           name: 'Damage',
           amount: ['60', '110', '160', '210', '260'],
           cr: '100%',
-          wr: '70%',
+          wr: '80%',
         },
         {
           name: 'Projectile Speed',

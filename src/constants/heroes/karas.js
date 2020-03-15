@@ -33,7 +33,7 @@ export const frontmatter = {
             text: [
                 "Karas's mythical blade  is infused with the power of wind dealing crystal damage. Whenever Karas uses an ability he gains 0.4 bonus movement speed for 5s.",
                 " ",
-                "• Damage: 70-136 (level 1-12)(+55% crystal power)(+100% weapon power).",
+                "• Damage: 70-136 (level 1-12)(+60% crystal power)(+100% weapon power).",
                 "• Bonus movement speed stack up to 3 times.",
             ],
             video: 'Karas-P',
@@ -65,7 +65,7 @@ export const frontmatter = {
                 {
                     name: 'Damage',
                     amount: ['110', '140', '170', '200', '290'],
-                    cr: '100%',
+                    cr: '120%',
                     wr: ' ',
                 },
                 {
@@ -113,7 +113,7 @@ export const frontmatter = {
                 },
                 {
                     name: 'Damage',
-                    amount: ['90', '110', '130', '150', '200'],
+                    amount: ['100', '120', '140', '160', '200'],
                     cr: '85%',
                     wr: ' ',
                 },

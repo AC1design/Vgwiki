@@ -3,6 +3,12 @@ export const frontmatter = {
   type: ['LANE', 'ASSASSIN'],
   role: ['LANE'],
   path: '/Blackfeather',
+  wallpaper: [
+    {
+      name: 'Blackfeather',
+      link: 'https://imgur.com/a/nOtlbbD'
+    }
+  ],
   description:
     'Evasive fighter who excels at chasing and cleaning up fragile enemies.',
   spotlight: 'd7-fyE9P7QI',
@@ -245,6 +251,11 @@ export const frontmatter = {
       image: 'Blackfeather_Summer_Party',
       price: '300',
       opals: true,
+    },
+    {
+      type: 'Epic',
+      name: 'Taizen Blackfeather',
+      image: 'Blackfeather_Taizen',
     },
   ],
 }

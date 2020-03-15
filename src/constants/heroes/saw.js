@@ -3,6 +3,12 @@ export const frontmatter = {
   type: ['LANE', 'SNIPER'],
   role: ['LANE'],
   path: '/SAW',
+  wallpaper: [
+    {
+      name: 'SAW',
+      link: 'https://imgur.com/a/Sr3UUaT'
+    }
+  ],
   description: 'Heavy machine gunner who sacrifices move speed for damage.',
   spotlight: '2nJHJGgcO3k',
   stats: [
@@ -28,7 +34,7 @@ export const frontmatter = {
       text: [
         'Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed (-1.0).',
         '• Each basic attack grants SAW +15% attack speed.',
-        "• Each basic attack decreases SAW's move speed by -0.10.",
+        "• Each basic attack decreases SAW's move speed by -0.09.",
         '• Max 12 stacks.',
         '• After 3.5s without basic attacking, SAW rapidly spins down.',
       ],
@@ -91,7 +97,7 @@ export const frontmatter = {
       stats: [
         {
           name: 'Cooldown',
-          amount: ['15s', '15s', '15s', '15s', '15s'],
+          amount: ['15s', '15s', '15s', '15s', '13s'],
           cr: ' ',
           wr: ' ',
         },
@@ -103,7 +109,7 @@ export const frontmatter = {
         },
         {
           name: 'Damage',
-          amount: ['125', '160', '195', '230', '300'],
+          amount: ['140', '175', '210', '245', '315'],
           cr: '220%',
           wr: ' ',
         },
@@ -218,7 +224,6 @@ export const frontmatter = {
       image: 'SAW_SAWborg_X',
     },
     {
-      color: '#6393F9',
       name: 'Elite Force SAW',
       type: 'Rare',
       image: 'SAW_Elite_Force',
@@ -230,6 +235,12 @@ export const frontmatter = {
       image: 'SAW_Summer_Party_SE',
       price: '500',
       opals: true,
+    },
+    {
+      color: '#FF9000',
+      name: 'Dragon Slayer SAW',
+      type: 'Legendary',
+      image: 'SAW_Dragon_Slayer',
     },
   ],
 }
